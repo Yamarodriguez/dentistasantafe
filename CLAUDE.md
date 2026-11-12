@@ -144,6 +144,9 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   scratchpad mejorar-sala.py). Pedir turno = bolígrafo con espigas sobre madera clara (Sibeli Velázquez).
 - «¿Por qué elegir…?»: recuadros como COV (blancos, esquinas redondeadas, icono propio en círculo
   suave, título Open Sans 700 centrado, texto gris centrado). Iconos por título en Bloque.astro.
+  **6 motivos (Yama, 2026-11-12)**: título a la izquierda + 2 motivos a la derecha («Obras sociales y
+  prepagas», «Atención para toda la familia»); debajo, foto | los 4 de COV. Los que pasan de 4 en
+  site.json > porque salen arriba (Bloque parte="arriba").
 
 ## Herramientas ya hechas
 - `scripts/scrap.py` — scraper de competencia (Python estándar + bs4 + lxml;
