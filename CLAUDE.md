@@ -138,8 +138,11 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   nuestra clínica dental en Santa Fe» (el bloque mapa muestra el horario solo en portada); cada
   tratamiento es H4 dentro de su grupo. Propuesto y sin hacer: página de cirugía oral / muelas de
   juicio (si el Dr. Vera la hace) y blog (después de publicar).
-- Fotos de «Opiniones» (mujer con mono beige) y «Pedir turno» (chica con gabardina beige) cambiadas
-  a tonos beige del tema dorado (2026-11-12).
+- Fotos de «Opiniones» y «Pedir turno»: **sin personas** (Yama, 2026-11-12, no le gustaron ni el cepillo
+  ni las dos mujeres) → sillones color crema (Yanhao Fang) y bolígrafo con espigas sobre madera clara
+  (Sibeli Velázquez), en beige como el tema dorado.
+- «¿Por qué elegir…?»: recuadros como COV (blancos, esquinas redondeadas, icono propio en círculo
+  suave, título Open Sans 700 centrado, texto gris centrado). Iconos por título en Bloque.astro.
 
 ## Herramientas ya hechas
 - `scripts/scrap.py` — scraper de competencia (Python estándar + bs4 + lxml;

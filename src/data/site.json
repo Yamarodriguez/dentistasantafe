@@ -35,7 +35,7 @@
     },
     "opiniones": {
       "src": "/img/fotos/opiniones-clinica-dental-santa-fe.webp",
-      "alt": "Mujer sonriendo, vestida en tonos beige (imagen ilustrativa)"
+      "alt": "Sillones color crema en una sala de espera (imagen ilustrativa)"
     },
     "dentistas": {
       "src": "/img/fotos/od-ignacio-vera-clinica-dental-santa-fe.webp",
@@ -51,7 +51,7 @@
     },
     "turno": {
       "src": "/img/fotos/turno-clinica-dental-santa-fe.webp",
-      "alt": "Chica sonriendo con gabardina beige (imagen ilustrativa)"
+      "alt": "Bolígrafo y espigas secas sobre una mesa de madera clara (imagen ilustrativa)"
     },
     "implantes": {
       "src": "/img/fotos/implantes-dentales-santa-fe.webp",
@@ -267,14 +267,14 @@
       "url": "https://unsplash.com/photos/iYQgnaWD8uw"
     },
     {
-      "foto": "Chica sonriendo con gabardina beige",
-      "autor": "Doug Bagg",
-      "url": "https://unsplash.com/photos/9iLbXsMZ6ls"
+      "foto": "Bolígrafo y espigas secas sobre madera",
+      "autor": "Sibeli Velázquez",
+      "url": "https://unsplash.com/photos/g3WvHf56DPk"
     },
     {
-      "foto": "Mujer sonriendo con mono beige",
-      "autor": "Centre for Ageing Better",
-      "url": "https://unsplash.com/photos/IxacjtwPdGM"
+      "foto": "Sillones color crema en una sala",
+      "autor": "Yanhao Fang",
+      "url": "https://unsplash.com/photos/G4HHSS5WCPs"
     },
     {
       "foto": "Cepillo de dientes de bambú sobre fondo blanco",

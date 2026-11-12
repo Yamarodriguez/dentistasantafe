@@ -13,6 +13,17 @@ const profesionales = site.profesionales.filter(
   (p) => !pagina.sede || p.sedes.includes(pagina.sede)
 );
 const opiniones = site.opiniones.filter((o) => !pagina.sede || o.sede === pagina.sede);
+// Icono de cada motivo de «¿Por qué elegir…?» según su título (como la referencia)
+const ICONOS_MOTIVO = {
+  especialista: '<circle cx="12" cy="7.5" r="3.5"/><path d="M5 20.5c.6-3.6 3.4-6 7-6s6.4 2.4 7 6"/><path d="M12 14.5v3.2"/><circle cx="12" cy="19" r="1.2"/>',
+  años: '<circle cx="12" cy="9" r="5.5"/><path d="M12 6.4l1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3z"/><path d="M8.6 13.5 7.5 21l4.5-2.4 4.5 2.4-1.1-7.5"/>',
+  tecnolog: '<rect x="3" y="4" width="18" height="12.5" rx="1.8"/><path d="M8.5 20.5h7M12 16.5v4"/><path d="M7 12.5l3-3 2.5 2 4.5-4.5"/>',
+  financ: '<rect x="2.8" y="5.5" width="18.4" height="13" rx="2"/><path d="M2.8 10h18.4"/><path d="M6.5 14.8h4M14.5 14.8h3"/>',
+};
+const iconoMotivo = (titulo = '') => {
+  const k = Object.keys(ICONOS_MOTIVO).find((c) => titulo.toLowerCase().includes(c));
+  return k ? ICONOS_MOTIVO[k] : '<path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/>';
+};
 ---
 {tipo === 'sedes' && (
   <div class="tarjetas">
@@ -63,8 +74,10 @@ const opiniones = site.opiniones.filter((o) => !pagina.sede || o.sede === pagina
     {!site.confirmado && <p class="pendiente">{pendiente('confirmar que estos 4 motivos son ciertos')}</p>}
     <div class="tarjetas cuatro">
       {(site.porque.length ? site.porque : [1, 2, 3, 4].map((n) => ({ titulo: pendiente(`motivo ${n}`), texto: '' }))).map((m) => (
-        <article class="tarjeta centrada">
-          <svg class="icono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/></svg>
+        <article class="tarjeta centrada motivo">
+          <span class="motivo-icono" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" set:html={iconoMotivo(m.titulo)} />
+          </span>
           <h3>{m.titulo}</h3>
           {m.texto && <p>{m.texto}</p>}
         </article>
