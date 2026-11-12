@@ -95,14 +95,22 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
 )}
 
 {tipo === 'tratamientos' && pagina.tipo === 'portada' && (
-  <div class="servicios">
-    {tratamientos.map((t) => (
-      <a class="servicio" href={ruta(t.slug)}>
-        <span class="servicio-dibujo"><Dibujo slug={t.slug} tam={72} /></span>
-        <span class="servicio-grupo">{t.grupo}</span>
-        <h3>{t.nombre}</h3>
-        <span class="servicio-mas">Ver tratamiento <span aria-hidden="true">→</span></span>
-      </a>
+  <div class="grupos-servicios">
+    {grupos.map((g) => (
+      <div class="grupo-caja">
+        <h3 class="grupo-titulo">{g}</h3>
+        <ul>
+          {tratamientos.filter((t) => t.grupo === g).map((t) => (
+            <li>
+              <a class="servicio-fila" href={ruta(t.slug)}>
+                <span class="servicio-dibujo"><Dibujo slug={t.slug} tam={46} /></span>
+                <span class="servicio-nombre">{t.nombre}</span>
+                <span class="flecha" aria-hidden="true">→</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     ))}
   </div>
 )}

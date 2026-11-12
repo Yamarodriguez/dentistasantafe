@@ -104,7 +104,10 @@ for (const f of htmls) {
     if (r !== '/' && !tipos.includes('BreadcrumbList')) err(r, 'sin schema BreadcrumbList');
   }
 
-  const texto = decodificar(html.replace(/<[^>]+>/g, ' '));
+  const texto = decodificar(html.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<[^>]+>/g, ' '));
+  // Restos de código en el texto visible (errores ya pagados: `$1`, `undefined`, llaves sueltas).
+  const codigo = texto.match(/\)\)\}|\}\)\}|\bundefined\b|\bNaN\b|\[object Object\]|\$\d\b/g);
+  if (codigo) err(r, `restos de código en el texto: ${[...new Set(codigo)].join(' ')}`);
   const marcas = texto.match(/\[[^\]\n]{1,120}\]|\bTODO\b|lorem ipsum/gi) || [];
   // Fotos provisionales (renders sin confirmar) = resto: no se publican como reales.
   marcas.push(...(html.match(/\/img\/provisional[^"')\s]*/g) || []).map((f) => `[foto provisional ${f}]`));

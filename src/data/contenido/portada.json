@@ -3,7 +3,7 @@
   "conteo": {
     "clave": "clínica dental",
     "min": 6,
-    "max": 11,
+    "max": 14,
     "ciudad": "Santa Fe",
     "terminos": [
       "clínica dental",
@@ -18,24 +18,34 @@
     "mlp-ninos"
   ],
   "secciones": {
-    "Centro odontológico en Santa Fe con más de [X] años de experiencia": [
+    "Clínica dental en Santa Fe con más de [X] años de experiencia": [
       "Ignacio Vera Odontología es una clínica dental en Santa Fe que atiende odontología general, implantes, prótesis, ortodoncia y estética dental. [confirmar: tratamientos y edades que atiende la clínica]",
       "Al frente del centro odontológico está el Od. Ignacio Vera, matrícula 3795/01. [confirmar: profesionales del equipo, especialidades y la institución que dio cada título]",
       "Cada tratamiento empieza con una consulta en la que el dentista revisa la boca, explica las opciones y responde las dudas antes de decidir. [confirmar: cómo es la primera consulta en la clínica]"
     ],
-    "¿Por qué elegir {nombre} como tu dentista en Santa Fe?": [
+    "¿Por qué elegir {nombre} como tu clínica dental en Santa Fe?": [
       "Estos son los puntos en los que se apoya el trabajo de nuestra clínica dental en Santa Fe."
     ],
-    "Tratamientos de nuestra clínica dental en Santa Fe": [
-      "Estos son los tratamientos de nuestro centro odontológico en Santa Fe. Cada página explica en qué consiste el tratamiento, cómo es el proceso, qué cuidados requiere y qué conviene consultar con el dentista."
+    "Tratamientos dentales en Santa Fe": [
+      "Estos son los tratamientos de nuestro centro odontológico en Santa Fe, agrupados como en la consulta: implantología y prótesis, ortodoncia, estética dental y odontología general. Cada página explica en qué consiste el tratamiento, cómo es el proceso y qué cuidados requiere."
     ],
     "Obras sociales y prepagas": [
       "Atendemos pacientes con obra social, con prepaga y particulares. La cobertura depende de cada obra social y de cada plan, por eso conviene consultarla antes del turno."
     ],
+    "Tu primera consulta en nuestra clínica dental": [
+      "En la primera consulta, el dentista revisa la boca, escucha el motivo de la visita y explica las opciones de tratamiento antes de decidir. [confirmar: qué incluye la primera consulta en la clínica y si es gratuita]",
+      "La mayoría de las caries se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean."
+    ],
     "Opiniones de nuestros pacientes": [
       "En esta sección se publican reseñas reales que los pacientes dejaron en Google, con su nombre."
     ],
-    "Pedir turno con el dentista en Santa Fe": [
+    "Nuestros dentistas en Santa Fe: título y matrícula": [
+      "En nuestra clínica dental cada profesional figura con su nombre, su título y su matrícula, como pide la ley 12094 de Santa Fe."
+    ],
+    "Cómo llegar a nuestra clínica dental en Santa Fe": [
+      "Nuestra clínica dental está en Santa Fe capital. [confirmar: dirección, barrio y cómo llegar (colectivos, estacionamiento, accesibilidad)]"
+    ],
+    "Solicitar información sobre el tratamiento que necesitás": [
       "Podés pedir turno por WhatsApp, por teléfono o con el formulario. Indicá el tratamiento que te interesa y te contactamos para coordinar el día y el horario. [confirmar: horario de atención y tiempo de respuesta]"
     ]
   },

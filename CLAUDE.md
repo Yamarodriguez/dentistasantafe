@@ -61,6 +61,18 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   («buscá motivos para rechazar», sin escribir ficheros, devuelve JSON).
 
 ## Preferencias del propietario (no volver a proponer)
+- **Portada = estructura de COV con «clínica dental» como clave principal** (Yama, 2026-11-12,
+  segunda vez que la pega; manda sobre lo anterior): H1 Clínica Dental en Santa Fe · H2 Clínica
+  dental en Santa Fe con más de [X] años de experiencia · H2 ¿Por qué elegir X como tu clínica
+  dental en Santa Fe? (H3: Especialistas en cada área, +[X] años, Tecnología digital,
+  Financiación personalizada) · H2 Tratamientos dentales en Santa Fe (H3 por grupo, 4 recuadros
+  como COV) · H2 Obras sociales y prepagas · H2 Tu primera consulta en nuestra clínica dental ·
+  Promociones* · H2 Opiniones de nuestros pacientes · H2 Nuestros dentistas en Santa Fe: título y
+  matrícula · Reconocimiento* · Marcas con las que trabajamos* · H2 Preguntas frecuentes sobre
+  nuestra clínica dental · H2 Cómo llegar a nuestra clínica dental en Santa Fe · H2 Solicitar
+  información sobre el tratamiento que necesitás. (Añadidos del estudio inicial: obras sociales,
+  primera consulta, dentistas con matrícula, FAQ, cómo llegar. Ley 12094: sin «líderes»/«avanzada»,
+  infinitivo en vez de imperativo.)
 - **Palabras clave (Yama, 2026-11-12): «clínica dental», «dentista» y «centro odontológico»
   + Santa Fe** en toda la web, con **tono más profesional** (sin «acá», «chicos» → «niños»;
   se mantiene el vos). Portada: title «Clínica dental en Santa Fe: dentista y centro

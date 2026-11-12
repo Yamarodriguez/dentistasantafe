@@ -160,7 +160,7 @@
   .web .dibujo-grande .dibujo { width: 100px; height: 100px; }
 }
 /* Servicios en recuadros (portada) */
-.web .servicios { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; margin-top: 1.5rem; }
+.web .servicios { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; margin-top: .75rem; }
 @media (max-width: 900px) { .web .servicios { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .web .servicios { grid-template-columns: 1fr; } }
 .web .servicio {
@@ -178,7 +178,32 @@
 .web .servicio:hover { transform: translateY(-4px); box-shadow: 0 18px 36px -22px rgba(0, 0, 0, .35); border-color: var(--acento); text-decoration: none; }
 .web .servicio-dibujo { width: 72px; height: 72px; margin-bottom: .5rem; }
 .web .servicio-grupo { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--suave); }
-.web .servicio h3 { margin: 0; font-family: var(--f-tarjeta), Georgia, serif; font-size: 1.3rem; }
+.web .servicio-nombre { margin: 0; font-family: var(--f-tarjeta), Georgia, serif; font-size: 1.3rem; font-weight: 600; line-height: 1.2; }
+.web .grupos-servicios { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.1rem; margin-top: 1.75rem; align-items: stretch; }
+@media (max-width: 1000px) { .web .grupos-servicios { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .web .grupos-servicios { grid-template-columns: 1fr; } }
+.web .grupo-caja {
+  position: relative; overflow: hidden; isolation: isolate;
+  background: var(--superficie); border: 1px solid var(--borde); border-radius: var(--radio);
+  padding: 1.5rem 1.25rem 1rem; box-shadow: 0 14px 30px -26px rgba(0, 0, 0, .45);
+}
+.web .grupo-caja::before {
+  content: ""; position: absolute; z-index: -1; top: -22%; right: -32%; width: 90%; height: 46%;
+  border-radius: 42% 58% 63% 37% / 41% 44% 56% 59%; background: var(--tinte-1); opacity: .75;
+}
+.web .grupo-caja:nth-child(2)::before { background: var(--tinte-2); }
+.web .grupo-caja:nth-child(3)::before { background: var(--tinte-3); }
+.web .grupo-caja:nth-child(4)::before { background: var(--tinte-4); }
+.web .grupo-caja ul { list-style: none; padding: 0; margin: 1rem 0 0; }
+.web .grupo-caja li + li { border-top: 1px solid var(--borde); }
+.web .servicio-fila { display: flex; align-items: center; gap: .75rem; padding: .7rem 0; color: var(--texto); text-decoration: none; }
+.web .servicio-fila .servicio-dibujo { width: 46px; height: 46px; margin: 0; flex: none; }
+.web .servicio-fila .servicio-dibujo .dibujo { width: 46px; height: 46px; }
+.web .servicio-fila .servicio-nombre { flex: 1; font-size: 1.05rem; }
+.web .servicio-fila .flecha { color: var(--accion); transition: transform .15s ease; }
+.web .servicio-fila:hover { color: var(--accion); text-decoration: none; }
+.web .servicio-fila:hover .flecha { transform: translateX(4px); }
+.web .seccion-cuerpo .grupo-caja > h3.grupo-titulo { max-width: 12ch; margin: 0 0 .25rem; color: var(--texto); font-family: var(--f-titulos), sans-serif; font-size: 1.35rem; text-transform: none; letter-spacing: 0; }
 .web .servicio-mas { margin-top: auto; padding-top: .6rem; font-weight: 600; color: var(--accion); }
 
 /* Obras sociales en recuadros */
