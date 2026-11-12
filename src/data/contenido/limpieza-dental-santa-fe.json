@@ -17,11 +17,12 @@
   "secciones": {
     "Qué incluye una limpieza dental": [
       "[Pendiente: qué incluye la limpieza dental en la clínica y si el control se hace en la misma visita, confirmado por el odontólogo]",
-      "La placa que no se retira se endurece y forma sarro, que puede irritar las encías.",
+      "La placa bacteriana que no se retira se endurece y forma sarro, que puede irritar las encías.",
       "La mayoría de las caries se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean."
     ],
     "Cada cuánto conviene hacerla": [
-      "MedlinePlus aconseja una limpieza profesional cada 6 meses.",
+      "MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) aconseja una limpieza profesional cada 6 meses.",
+      "Si tenés enfermedad de las encías, el odontólogo puede indicarte otro plazo.",
       "Entre una y otra, en casa:",
       {
         "lista": [
@@ -30,7 +31,13 @@
           "Picotear menos y tomar menos bebidas azucaradas."
         ]
       },
-      "La limpieza profesional regular, junto con el cepillado y el hilo dental, también ayuda a revertir la gingivitis."
+      "La limpieza profesional regular, junto con el cepillado y el hilo dental, también ayuda a revertir la gingivitis.",
+      {
+        "mas": {
+          "t": "Periodoncia y encías en Santa Fe",
+          "href": "/periodoncia-santa-fe/"
+        }
+      }
     ],
     "Caries y arreglos (operatoria)": [
       "Una caries es un daño o agujero en el diente: las bacterias convierten azúcares y almidones en ácidos que dañan el esmalte.",
@@ -46,6 +53,12 @@
         "mas": {
           "t": "Tratamiento de conducto en Santa Fe",
           "href": "/tratamiento-de-conducto-santa-fe/"
+        }
+      },
+      {
+        "mas": {
+          "t": "Prótesis dentales y coronas en Santa Fe",
+          "href": "/protesis-dentales-santa-fe/"
         }
       }
     ],

@@ -137,6 +137,9 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
     ))}
   </div>
 )}
+{tipo === 'obras' && pagina.slug !== 'obras-sociales' && (
+  <p class="mas-info"><a href="/obras-sociales/">Qué cubre cada obra social y qué llevar al turno →</a></p>
+)}
 
 {tipo === 'equipo' && (profesionales.length
   ? (

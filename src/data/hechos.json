@@ -286,7 +286,7 @@
     {
       "id": "cor-cuidados",
       "fuente": "mlp-coronas",
-      "texto": "Para cuidarla: cepillado dos veces al día, hilo dental todos los días y, si se aprietan o rechinan los dientes, una placa nocturna."
+      "texto": "Para cuidarla: cepillado dos veces al día, hilo dental todos los días y, si se aprietan o rechinan los dientes, una placa de relajación de uso nocturno."
     },
     {
       "id": "cor-riesgos",
@@ -386,7 +386,7 @@
     {
       "id": "car-placa",
       "fuente": "mlp-caries",
-      "texto": "La placa que no se retira se endurece y forma sarro, que puede irritar las encías."
+      "texto": "La placa bacteriana que no se retira se endurece y forma sarro, que puede irritar las encías."
     },
     {
       "id": "car-sintomas",

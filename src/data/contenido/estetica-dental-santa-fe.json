@@ -16,7 +16,13 @@
   "secciones": {
     "Carillas dentales": [
       "Para las manchas profundas, la opción puede ser una de las carillas dentales, un empaste o una corona, según lo que indique el odontólogo.",
-      "[Pendiente: qué tipo de carillas hace la clínica (porcelana, composite…), para quién y cómo se colocan, confirmado por el odontólogo]"
+      "[Pendiente: qué tipo de carillas hace la clínica (porcelana, composite…), para quién y cómo se colocan, confirmado por el odontólogo]",
+      {
+        "mas": {
+          "t": "Prótesis dentales y coronas en Santa Fe",
+          "href": "/protesis-dentales-santa-fe/"
+        }
+      }
     ],
     "Blanqueamiento dental": [
       "Las manchas superficiales o causadas por la dieta suelen mejorar con blanqueamiento dental o con una limpieza profesional.",
@@ -28,7 +34,13 @@
         "h3": "¿Cuándo conviene consultar?"
       },
       "Si el color cambia sin causa clara o si la mancha sigue después de cepillarse bien.",
-      "[Pendiente: tipo de blanqueamiento que hace la clínica (en consultorio, en casa) y cuántas sesiones lleva]"
+      "[Pendiente: tipo de blanqueamiento que hace la clínica (en consultorio, en casa) y cuántas sesiones lleva]",
+      {
+        "mas": {
+          "t": "Limpieza dental en Santa Fe",
+          "href": "/limpieza-dental-santa-fe/"
+        }
+      }
     ],
     "Diseño de sonrisa": [
       "[Pendiente: qué entiende la clínica por diseño de sonrisa y cómo lo hace, confirmado por el odontólogo]"
