@@ -16,10 +16,11 @@
   "secciones": {
     "¿Qué es una prótesis dental?": [
       "Una prótesis dental reemplaza dientes que faltan; las removibles (dentaduras) son dientes postizos que se pueden sacar.",
-      "Las prótesis dentales removibles completas cubren todo el maxilar de arriba o de abajo, y las parciales reemplazan uno o algunos dientes."
+      "Las prótesis dentales removibles completas cubren todo el maxilar de arriba o de abajo, y las parciales reemplazan uno o algunos dientes.",
+      "En esta página llamamos prótesis removible a la dentadura que se saca, y prótesis fija a la corona o el puente."
     ],
     "Prótesis fija o removible": [
-      "La diferencia es que la removible se saca y la fija no: una corona o un puente quedan cementados en la boca.",
+      "La diferencia es que la removible se saca y la fija no: la corona se cementa sobre el diente y el puente se apoya en coronas.",
       {
         "tabla": {
           "cab": [
@@ -31,7 +32,7 @@
             [
               "Qué es",
               "Dientes postizos que se pueden sacar",
-              "Corona cementada sobre el diente, o puente que ocupa el hueco apoyado en coronas"
+              "Corona sobre el diente, o puente que ocupa el hueco apoyado en coronas"
             ],
             [
               "Cuándo",
@@ -65,7 +66,13 @@
         "h3": "¿De qué material son?"
       },
       "Hay coronas de metal (muy resistentes, pero menos naturales), de resina (más económicas, pero se desgastan más), de cerámica o porcelana (color natural) y de porcelana sobre metal. En chicos se usan sobre todo coronas de acero provisorias.",
-      "[Pendiente: qué materiales trabaja la clínica]"
+      "[Pendiente: qué materiales trabaja la clínica]",
+      {
+        "mas": {
+          "t": "Tratamiento de conducto en Santa Fe",
+          "href": "/tratamiento-de-conducto-santa-fe/"
+        }
+      }
     ],
     "Prótesis sobre implantes": [
       "Los implantes son fijos y reemplazan la raíz y el diente; sobre ellos se puede colocar una corona, un puente o una prótesis.",
@@ -94,7 +101,7 @@
       {
         "h3": "¿Cómo se cuida una corona?"
       },
-      "Con cepillado dos veces al día e hilo dental todos los días; si apretás o rechinás los dientes, con una placa nocturna. Riesgos posibles: caries debajo de la corona, que se caiga o se astille, y sensibilidad al frío o al calor.",
+      "Con cepillado dos veces al día e hilo dental todos los días; si apretás o rechinás los dientes, con una placa de relajación de uso nocturno. Riesgos posibles: caries debajo de la corona, que se caiga o se astille, y sensibilidad al frío o al calor.",
       {
         "h3": "¿Cómo se cuida una prótesis removible?"
       },

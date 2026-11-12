@@ -53,7 +53,13 @@
       {
         "h3": "¿Qué riesgos tiene?"
       },
-      "Riesgos posibles: infección o absceso, pérdida del diente, daño a un nervio o fractura del diente."
+      "Riesgos posibles: infección o absceso, pérdida del diente, daño a un nervio o fractura del diente.",
+      {
+        "mas": {
+          "t": "Prótesis dentales y coronas en Santa Fe",
+          "href": "/protesis-dentales-santa-fe/"
+        }
+      }
     ],
     "Precio del tratamiento de conducto en Santa Fe": [
       "[Pendiente: precio orientativo del tratamiento de conducto en Santa Fe con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"

@@ -18,9 +18,15 @@
   "revisado": null,
   "secciones": {
     "¿Cuándo llevar a tu hijo por primera vez?": [
-      "La primera visita al odontopediatra conviene hacerla temprano: el NIDCR recomienda antes de que el chico cumpla un año, y MedlinePlus la ubica entre que sale el primer diente y los 2 años y medio.",
+      "La primera visita al odontopediatra conviene hacerla temprano: el Instituto Nacional de Investigación Dental y Craneofacial de EE. UU. (NIDCR) recomienda antes de que el chico cumpla un año, y MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) la ubica entre que sale el primer diente y los 2 años y medio.",
       "Después, MedlinePlus aconseja controles cada 6 meses.",
-      "Los problemas dentales en chicos pueden afectar la alimentación, el habla, el desarrollo de la mandíbula y la autoestima."
+      "Los problemas dentales en chicos pueden afectar la alimentación, el habla, el desarrollo de la mandíbula y la autoestima.",
+      {
+        "mas": {
+          "t": "Tu primera consulta, paso a paso",
+          "href": "/primera-consulta/"
+        }
+      }
     ],
     "Cómo es la primera visita": [
       "[Pendiente: cómo es la primera visita con el odontopediatra en la clínica, confirmado por el odontólogo]",
@@ -36,6 +42,7 @@
         "h3": "¿Desde qué edad se usa pasta con flúor?"
       },
       "Los menores de 2 años no deben usar pasta con flúor salvo que lo indique un odontólogo o un médico.",
+      "[Pendiente: con qué cepillar los dientes antes de los 2 años, según indique el odontólogo]",
       "[Pendiente: si la clínica aplica selladores y flúor, y a qué edades]"
     ],
     "Caries en dientes de leche": [
@@ -47,6 +54,12 @@
           "Cepillado al menos dos veces al día, sobre todo antes de dormir; el chico puede practicar, pero un adulto supervisa y termina la limpieza.",
           "No acostar al bebé con biberón de leche, jugo o agua con azúcar; de noche, solo agua."
         ]
+      },
+      {
+        "mas": {
+          "t": "Limpieza dental en Santa Fe",
+          "href": "/limpieza-dental-santa-fe/"
+        }
       }
     ],
     "Ortopedia": [

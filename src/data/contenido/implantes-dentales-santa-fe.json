@@ -23,7 +23,7 @@
       "Un implante se plantea cuando falta uno o varios dientes y se quiere recuperar la masticación y el aspecto de la boca.",
       {
         "lista": [
-          "Devuelve la capacidad de masticar y la apariencia de la sonrisa.",
+          "Ayuda a recuperar la capacidad de masticar y la apariencia de la sonrisa.",
           "Ayuda a que el hueso del maxilar no se reduzca donde falta el diente.",
           "Da soporte a la encía y a los dientes vecinos."
         ]
@@ -31,9 +31,15 @@
       "No todas las personas son candidatas de la misma manera: el estado de salud general influye en si conviene colocar implantes, en cuánto tarda en cicatrizar y en cuánto dura el implante. Por eso la decisión se toma después de una evaluación con el odontólogo."
     ],
     "Tipos de implantes": [
-      "Sobre un implante se puede colocar una corona, un puente o una prótesis.",
+      "Sobre un implante se puede colocar una corona, un puente o una prótesis removible (dentadura).",
       "Cuál conviene en cada caso lo decide el odontólogo según los dientes que falten.",
-      "[Pendiente: qué tipos de implante y qué marcas trabaja la clínica (lo confirma el odontólogo)]"
+      "[Pendiente: qué tipos de implante y qué marcas trabaja la clínica (lo confirma el odontólogo)]",
+      {
+        "mas": {
+          "t": "Prótesis dentales y coronas en Santa Fe",
+          "href": "/protesis-dentales-santa-fe/"
+        }
+      }
     ],
     "¿Y si me falta hueso?": [
       "Si te falta hueso, el odontólogo lo evalúa antes de colocar un implante.",
@@ -55,7 +61,7 @@
       }
     ],
     "Cómo es el tratamiento, paso a paso": [
-      "El tratamiento con implantes se hace en varias etapas y lleva meses, porque el implante necesita cicatrizar en el hueso.",
+      "El tratamiento con implantes se hace en varias etapas, y solo la cicatrización del implante en el hueso puede llevar varios meses o más.",
       {
         "pasos": [
           "[Pendiente: etapas previas (evaluación y planificación) según el protocolo de la clínica, confirmadas por el odontólogo]",
@@ -77,7 +83,13 @@
         "h3": "¿Qué riesgos tiene?"
       },
       "Como toda cirugía, tiene riesgos posibles: daño en dientes o tejidos cercanos durante la colocación y adormecimiento si se afecta un nervio. Un implante también puede aflojarse por una infección (más probable con diabetes no controlada), por una cicatrización lenta (más probable en fumadores) o porque se afloja el tornillo del pilar.",
-      "Si un implante se mueve o duele, hay que avisar al odontólogo enseguida. Y antes de una resonancia o una radiografía conviene avisar que tenés implantes, porque pueden alterar la imagen."
+      "Si un implante se mueve o duele, hay que avisar al odontólogo enseguida. Y antes de una resonancia o una radiografía conviene avisar que tenés implantes, porque pueden alterar la imagen.",
+      {
+        "mas": {
+          "t": "Periodoncia y encías en Santa Fe",
+          "href": "/periodoncia-santa-fe/"
+        }
+      }
     ],
     "Precio de los implantes dentales en Santa Fe": [
       "[Pendiente: precio orientativo de los implantes dentales en Santa Fe con fecha, o «se informa por escrito después de la primera consulta»; de qué depende; si hay financiación]"
@@ -90,7 +102,7 @@
     },
     {
       "q": "¿Cuánto tarda todo el tratamiento?",
-      "a": "Varios meses: después de colocar el implante, el hueso necesita tiempo para cicatrizar antes del diente definitivo."
+      "a": "La cicatrización del implante en el hueso puede llevar varios meses o más; el plazo total lo indica el odontólogo."
     },
     {
       "q": "¿Cualquier persona puede ponerse implantes?",

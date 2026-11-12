@@ -7,7 +7,7 @@
       "estado": "si",
       "clave": "clínica dental Santa Fe (odontólogo / dentista Santa Fe)",
       "title": "Clínica dental en Santa Fe: odontólogos y turnos",
-      "description": "Clínica dental en Santa Fe: implantes, ortodoncia, prótesis, estética y odontología general. Turnos por WhatsApp.",
+      "description": "Clínica dental en Santa Fe: implantes, ortodoncia, prótesis, estética y odontología general. Información de tratamientos y turnos.",
       "h1": "Clínica Dental en Santa Fe",
       "_estructura": "Igual que la portada de COV: héroe (primera consulta + 4 ventajas) → quiénes somos con foto → por qué elegirnos (4 H3) → tratamientos dentales (H3 por grupo) → obras sociales (añadido: hueco en Argentina) → promociones* → opiniones → reconocimiento* → marcas* → preguntas frecuentes (añadido: AEO) → contacto. *solo con datos reales. Cambios por ley 12094: «marcas líderes» → «Marcas con las que trabajamos»; «Tecnología digital avanzada» → «Tecnología digital».",
       "h2s": [
@@ -89,7 +89,7 @@
       "grupo": "Implantología y prótesis",
       "clave": "implantes dentales Santa Fe",
       "title": "Implantes dentales en Santa Fe",
-      "description": "Implantes dentales en Santa Fe: qué son, cuándo hacen falta, cómo es el tratamiento paso a paso y qué pasa si te falta hueso.",
+      "description": "Implantes dentales en Santa Fe: qué son, cuándo hacen falta, cómo es el tratamiento paso a paso y qué riesgos tiene.",
       "h1": "Implantes dentales en Santa Fe",
       "h2s": [
         "¿Qué es un implante dental?",
@@ -132,7 +132,7 @@
       "grupo": "Ortodoncia",
       "clave": "ortodoncia Santa Fe",
       "title": "Ortodoncia en Santa Fe: brackets y alineadores",
-      "description": "Ortodoncia para chicos y adultos en Santa Fe: tipos de brackets, ortopedia, alineadores, cuidados y retenedores.",
+      "description": "Ortodoncia en Santa Fe: qué es, cuándo hace falta, brackets o alineadores, cuánto dura, cuidados y retenedor.",
       "h1": "Ortodoncia en Santa Fe: brackets y alineadores",
       "h2s": [
         "¿Qué es la ortodoncia?",
@@ -194,7 +194,7 @@
       "grupo": "Odontología general",
       "clave": "tratamiento de conducto Santa Fe (endodoncia)",
       "title": "Tratamiento de conducto en Santa Fe",
-      "description": "Tratamiento de conducto (endodoncia) en Santa Fe: cuándo hace falta, si duele, cuántas sesiones lleva y qué viene después.",
+      "description": "Tratamiento de conducto (endodoncia) en Santa Fe: cuándo hace falta, si duele, cómo es el procedimiento y qué viene después.",
       "h1": "Tratamiento de conducto (endodoncia) en Santa Fe",
       "h2s": [
         "¿Qué es un tratamiento de conducto?",
@@ -214,13 +214,13 @@
       "grupo": "Odontología general",
       "clave": "periodoncia Santa Fe (tratamiento de encías)",
       "title": "Periodoncia y encías en Santa Fe",
-      "description": "Tratamiento de encías en Santa Fe: por qué sangran, gingivitis y periodontitis, cómo se tratan y cómo se mantienen.",
+      "description": "Tratamiento de encías en Santa Fe: por qué sangran, qué son la gingivitis y la periodontitis y cómo evitar que avancen.",
       "h1": "Periodoncia: tratamiento de encías en Santa Fe",
       "h2s": [
         "¿Te sangran las encías?",
         "Gingivitis y periodontitis",
         "Cómo es el tratamiento, paso a paso",
-        "Mantenimiento",
+        "Cómo evitar que avance",
         "Precio del tratamiento de encías en Santa Fe"
       ],
       "faq": []
@@ -252,7 +252,7 @@
       "grupo": "Odontología general",
       "clave": "odontopediatra Santa Fe",
       "title": "Odontopediatra en Santa Fe",
-      "description": "Odontopediatría en Santa Fe: primera visita del chico, selladores y flúor, ortopedia y qué hacer si tiene miedo.",
+      "description": "Odontopediatría en Santa Fe: primera visita, selladores y flúor, caries en dientes de leche y qué hacer si tu hijo tiene miedo.",
       "h1": "Odontopediatra en Santa Fe",
       "h2s": [
         "¿Cuándo llevar a tu hijo por primera vez?",
@@ -356,7 +356,7 @@
       "estado": "si",
       "clave": "turno dentista Santa Fe · clínica dental Santa Fe dirección",
       "title": "Contacto y turnos: clínica dental en Santa Fe",
-      "description": "Dirección, horarios y teléfono de nuestra clínica dental en Santa Fe. Turnos por WhatsApp o por teléfono.",
+      "description": "Dirección, horario y formas de pedir turno en nuestra clínica dental de Santa Fe.",
       "h1": "Contacto y turnos",
       "h2s": [
         {
