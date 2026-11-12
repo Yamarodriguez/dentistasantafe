@@ -53,8 +53,8 @@
     {
       "id": "santa-fe",
       "ciudad": "Santa Fe",
-      "barrio": "Santo Tomé [confirmar ciudad]",
-      "direccion": "Av. 7 de Marzo 1995, Santo Tomé [confirmar]",
+      "barrio": "[barrio]",
+      "direccion": "[dirección en Santa Fe capital]",
       "telefono": "[teléfono]",
       "whatsapp": "",
       "horario": "[horario]",
@@ -73,9 +73,8 @@
         "Jerárquicos Salud",
         "Sancor Salud",
         "Pacientes particulares",
-        "[confirmar: lista sacada de Doctoralia]"
-      ],
-      "consultorio": "Consultorios 7 de Marzo [confirmar]"
+        "[confirmar: lista sacada de Doctoralia, de un consultorio en Santo Tomé]"
+      ]
     }
   ],
   "_rosario_para_despues": {
@@ -119,5 +118,5 @@
     "fuente": "Google",
     "fecha": "2026-01-01"
   },
-  "_fuente_datos": "2026-11-12: nombre de Instagram (@ignacio_vera_odontologia, pasado por Yama); dirección, matrícula y obras sociales del perfil de Doctoralia https://www.doctoraliar.com/perfil/ignacio-vera. Directorio de terceros: todo lo marcado [confirmar] lo tiene que confirmar Yama antes de publicar."
+  "_fuente_datos": "2026-11-12: nombre de Instagram (@ignacio_vera_odontologia, pasado por Yama); dirección, matrícula y obras sociales del perfil de Doctoralia https://www.doctoraliar.com/perfil/ignacio-vera. Directorio de terceros: todo lo marcado [confirmar] lo tiene que confirmar Yama antes de publicar. La dirección de Doctoralia (Av. 7 de Marzo 1995, Santo Tomé) NO es la de la clínica: Yama confirma que está en Santa Fe capital (2026-11-12)."
 }
