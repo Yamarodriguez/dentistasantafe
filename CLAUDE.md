@@ -111,6 +111,11 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   logo). Opiniones: estrellas solo si la reseña real trae `estrellas`.
 
 ## Estado
+- **Fase 6 — Auditoría hecha (2026-11-12)** (antes de publicar): `npm run auditoria`
+  (`scripts/auditoria.mjs`, solo lee) + revisor de los 10 textos juntos. Resumen con
+  prioridades en `informes/auditoria-resumen.md`: 0 graves mecánicos; ALTA = servicios sin
+  confirmar, firma del odontólogo, 46 datos pendientes, bloques de riesgo legal; MEDIA/BAJA
+  = 13 arreglos de texto y enlaces (propuestos, sin hacer). Al mes de publicar: Search Console.
 - **Fase 4 — AEO técnico y conversión: hecha (2026-11-12)**, salvo lo que depende de
   datos. `robots.txt` (robots de IA nombrados y permitidos), `llms.txt` (solo datos
   reales) y `sitemap.xml` (lastmod = último commit del texto de cada página) salen de
