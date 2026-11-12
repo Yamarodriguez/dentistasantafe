@@ -121,5 +121,8 @@
       "q": "¿Dónde me hago implantes dentales en Santa Fe?",
       "a": "En nuestra clínica dental de Santa Fe. [Pendiente: dirección y barrio]"
     }
-  ]
+  ],
+  "fotos": {
+    "¿Qué es un implante dental?": "implantes"
+  }
 }

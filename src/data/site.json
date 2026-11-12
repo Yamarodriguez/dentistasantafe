@@ -7,10 +7,64 @@
   "tema": "dorado",
   "logo": "/img/logo.jpg",
   "antetitulo": "Clínica dental en Santa Fe",
-  "_fotos": "PROVISIONALES: renders que pasó Yama; no se publican como fotos reales de la clínica sin su confirmación. El validador las cuenta como resto.",
+  "_fotos": "Fotos de Unsplash (licencia Unsplash: uso comercial gratis, sin atribución obligatoria; damos crédito en /terminos/). Descargadas con permiso de Yama el 2026-11-12. Originales en marca/unsplash/ (no se suben); webp en public/img/fotos/. Son fotos de ambiente: nunca presentarlas como pacientes ni resultados de la clínica.",
   "fotos": {
-    "heroe": "/img/provisional-recepcion.webp",
-    "consulta": "/img/provisional-recepcion-2.webp"
+    "heroe": {
+      "src": "/img/fotos/sonrisa-heroe.webp",
+      "alt": "Mujer sonriendo"
+    },
+    "consulta": {
+      "src": "/img/fotos/consultorio.webp",
+      "alt": "Consultorio dental luminoso con sillón y equipamiento"
+    },
+    "porque": {
+      "src": "/img/fotos/dentista-paciente.webp",
+      "alt": "Dentista conversando con una paciente en el consultorio"
+    },
+    "obras": {
+      "src": "/img/fotos/sillon.webp",
+      "alt": "Sillón dental blanco junto a una ventana"
+    },
+    "turno": {
+      "src": "/img/fotos/sonrisa-turno.webp",
+      "alt": "Joven sonriendo con un alineador transparente en la mano"
+    },
+    "implantes": {
+      "src": "/img/fotos/implantes.webp",
+      "alt": "Revisión de la boca con espejo e instrumental dental"
+    },
+    "protesis": {
+      "src": "/img/fotos/protesis.webp",
+      "alt": "Mano con guante sosteniendo instrumental dental"
+    },
+    "ortodoncia": {
+      "src": "/img/fotos/ortodoncia.webp",
+      "alt": "Modelos de dientes con brackets"
+    },
+    "alineador": {
+      "src": "/img/fotos/alineador.webp",
+      "alt": "Persona colocándose un alineador transparente"
+    },
+    "conducto": {
+      "src": "/img/fotos/conducto.webp",
+      "alt": "Dentista atendiendo a un paciente"
+    },
+    "periodoncia": {
+      "src": "/img/fotos/periodoncia.webp",
+      "alt": "Espejo y sonda dental"
+    },
+    "estetica": {
+      "src": "/img/fotos/estetica.webp",
+      "alt": "Mujer de pelo oscuro sonriendo"
+    },
+    "limpieza": {
+      "src": "/img/fotos/limpieza.webp",
+      "alt": "Joven cepillándose los dientes"
+    },
+    "ninos": {
+      "src": "/img/fotos/ninos.webp",
+      "alt": "Cepillos de dientes de colores en una taza"
+    }
   },
   "_confirmar": "confirmado: false = los textos de primera_consulta, ventajas y porque vienen de la estructura de COV y Yama aún no ha confirmado que sean ciertos en su clínica. Mientras sea false, la web muestra un aviso [Pendiente] (el validador lo cuenta).",
   "confirmado": false,
@@ -131,5 +185,77 @@
     "Clínica dental en Santa Fe",
     "Dentista en Santa Fe",
     "Centro odontológico en Santa Fe"
+  ],
+  "creditos_fotos": [
+    {
+      "foto": "Mujer sonriendo",
+      "autor": "Vitaly Gariev",
+      "url": "https://unsplash.com/photos/WbWRHms2ZGU"
+    },
+    {
+      "foto": "Consultorio dental luminoso con sillón y equipamiento",
+      "autor": "Benyamin Bohlouli",
+      "url": "https://unsplash.com/photos/e7MJLM5VGjY"
+    },
+    {
+      "foto": "Dentista conversando con una paciente en el consultorio",
+      "autor": "Harold Hisona",
+      "url": "https://unsplash.com/photos/Bg81yWKZlMg"
+    },
+    {
+      "foto": "Sillón dental blanco junto a una ventana",
+      "autor": "Katarzyna Zygnerska",
+      "url": "https://unsplash.com/photos/44jaETSVX2I"
+    },
+    {
+      "foto": "Joven sonriendo con un alineador transparente en la mano",
+      "autor": "Diana Polekhina",
+      "url": "https://unsplash.com/photos/Q_o_ob-3Ny4"
+    },
+    {
+      "foto": "Revisión de la boca con espejo e instrumental dental",
+      "autor": "Caroline LM",
+      "url": "https://unsplash.com/photos/8BkF0sTC6Uo"
+    },
+    {
+      "foto": "Mano con guante sosteniendo instrumental dental",
+      "autor": "Katarzyna Zygnerska",
+      "url": "https://unsplash.com/photos/98eodnv1abo"
+    },
+    {
+      "foto": "Modelos de dientes con brackets",
+      "autor": "Katarzyna Zygnerska",
+      "url": "https://unsplash.com/photos/P8ernb_Ht-M"
+    },
+    {
+      "foto": "Persona colocándose un alineador transparente",
+      "autor": "Diana Polekhina",
+      "url": "https://unsplash.com/photos/fmB7IdFjhTM"
+    },
+    {
+      "foto": "Dentista atendiendo a un paciente",
+      "autor": "Ozkan Guner",
+      "url": "https://unsplash.com/photos/AWqHc49SU-c"
+    },
+    {
+      "foto": "Espejo y sonda dental",
+      "autor": "Caroline LM",
+      "url": "https://unsplash.com/photos/ux18C551ghI"
+    },
+    {
+      "foto": "Mujer de pelo oscuro sonriendo",
+      "autor": "Lesly Juarez",
+      "url": "https://unsplash.com/photos/1AhGNGKuhR0"
+    },
+    {
+      "foto": "Joven cepillándose los dientes",
+      "autor": "Diana Polekhina",
+      "url": "https://unsplash.com/photos/iYQgnaWD8uw"
+    },
+    {
+      "foto": "Cepillos de dientes de colores en una taza",
+      "autor": "Towfiqu barbhuiya",
+      "url": "https://unsplash.com/photos/rr0cuFV-0Mo"
+    }
   ]
 }

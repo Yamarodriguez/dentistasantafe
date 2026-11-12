@@ -21,7 +21,8 @@
         },
         {
           "t": "¿Por qué elegir {nombre} como tu dentista en Santa Fe?",
-          "bloque": "porque"
+          "bloque": "porque",
+          "foto": "porque"
         },
         {
           "t": "Tratamientos de nuestra clínica dental en Santa Fe",
@@ -29,7 +30,8 @@
         },
         {
           "t": "Obras sociales y prepagas",
-          "bloque": "obras"
+          "bloque": "obras",
+          "foto": "obras"
         },
         {
           "t": "Promociones destacadas",
@@ -56,7 +58,8 @@
         },
         {
           "t": "Pedir turno con el dentista en Santa Fe",
-          "bloque": "contacto"
+          "bloque": "contacto",
+          "foto": "turno"
         }
       ],
       "faq": []
@@ -423,7 +426,11 @@
       "description": "Condiciones de uso de este sitio web.",
       "h1": "Términos y condiciones",
       "h2s": [
-        "[Texto legal pendiente]"
+        "[Texto legal pendiente]",
+        {
+          "t": "Créditos de las fotos",
+          "bloque": "creditos"
+        }
       ],
       "faq": []
     }

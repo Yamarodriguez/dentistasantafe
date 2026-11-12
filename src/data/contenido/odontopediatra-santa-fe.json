@@ -99,5 +99,8 @@
       "q": "¿Puedo dejar a mi bebé dormir con el biberón?",
       "a": "No con leche, jugo ni agua con azúcar; de noche, solo agua."
     }
-  ]
+  ],
+  "fotos": {
+    "¿Cuándo llevar a tu hijo por primera vez?": "ninos"
+  }
 }

@@ -87,5 +87,8 @@
       "q": "¿El tabaco tiene que ver con las encías?",
       "a": "La enfermedad de las encías se relaciona con el tabaco y con la diabetes."
     }
-  ]
+  ],
+  "fotos": {
+    "¿Te sangran las encías?": "periodoncia"
+  }
 }

@@ -103,5 +103,8 @@
       "q": "¿Todos los casos necesitan tratamiento?",
       "a": "No. Muchos casos leves no lo necesitan; se trata cuando afecta la higiene, la masticación o la estética."
     }
-  ]
+  ],
+  "fotos": {
+    "¿Qué es la ortodoncia?": "ortodoncia"
+  }
 }

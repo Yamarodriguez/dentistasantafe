@@ -90,7 +90,10 @@
 .web .seccion.banda { background: var(--banda); box-shadow: 0 0 0 100vmax var(--banda); clip-path: inset(0 -100vmax); }
 /* Sección con foto al lado (como «Clínica dental en Valencia» de la referencia) */
 .web .seccion.con-foto { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
-.web .foto-seccion { border-radius: var(--radio); aspect-ratio: 4 / 5; object-fit: cover; width: 100%; }
+.web .foto-seccion { border-radius: var(--radio); aspect-ratio: 4 / 5; object-fit: cover; width: 100%; box-shadow: 0 24px 48px -28px rgba(0, 0, 0, .35); }
+.web .seccion.con-foto.derecha { grid-template-columns: 1.1fr .9fr; }
+.web .seccion.con-foto.derecha .foto-seccion { order: 2; }
+@media (max-width: 760px) { .web .seccion.con-foto.derecha .foto-seccion { order: 0; } .web .foto-seccion { aspect-ratio: 3 / 2; } }
 
 /* ---------- Tarjetas (sedes, tratamientos, equipo, opiniones, obras) ---------- */
 .web .tarjetas { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
@@ -153,6 +156,38 @@
   .web .dibujo-grande { width: 140px; height: 140px; order: -1; }
   .web .dibujo-grande .dibujo { width: 100px; height: 100px; }
 }
+/* Servicios en recuadros (portada) */
+.web .servicios { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; margin-top: 1.5rem; }
+@media (max-width: 900px) { .web .servicios { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .web .servicios { grid-template-columns: 1fr; } }
+.web .servicio {
+  position: relative; overflow: hidden; isolation: isolate; display: flex; flex-direction: column; gap: .35rem;
+  background: var(--superficie); border: 1px solid var(--borde); border-radius: var(--radio);
+  padding: 1.4rem 1.4rem 1.2rem; text-decoration: none; color: var(--texto);
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.web .servicio::before {
+  content: ""; position: absolute; z-index: -1; top: -30%; right: -25%; width: 75%; height: 70%;
+  border-radius: 42% 58% 63% 37% / 41% 44% 56% 59%; background: var(--tinte-1); opacity: .7;
+}
+.web .servicio:nth-child(3n+2)::before { background: var(--tinte-2); }
+.web .servicio:nth-child(3n)::before { background: var(--tinte-3); }
+.web .servicio:hover { transform: translateY(-4px); box-shadow: 0 18px 36px -22px rgba(0, 0, 0, .35); border-color: var(--acento); text-decoration: none; }
+.web .servicio-dibujo { width: 72px; height: 72px; margin-bottom: .5rem; }
+.web .servicio-grupo { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--suave); }
+.web .servicio h3 { margin: 0; font-family: var(--f-tarjeta), Georgia, serif; font-size: 1.3rem; }
+.web .servicio-mas { margin-top: auto; padding-top: .6rem; font-weight: 600; color: var(--accion); }
+
+/* Obras sociales en recuadros */
+.web .seccion-cuerpo > ul.obras { max-width: none; }
+.web .obras { list-style: none; padding: 0; margin: 1.5rem 0 1rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: .8rem; }
+.web .obra {
+  display: flex; align-items: center; gap: .7rem; padding: .95rem 1.1rem;
+  background: var(--superficie); border: 1px solid var(--borde); border-radius: var(--radio);
+  font-weight: 600; box-shadow: 0 10px 24px -22px rgba(0, 0, 0, .4);
+}
+.web .obra svg { width: 26px; height: 26px; flex: none; color: var(--accion); background: var(--tinte-1); border-radius: 50%; padding: 4px; }
+
 .web .marcas { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; font-weight: 600; color: var(--suave); }
 .web .destacado { display: flex; gap: .6rem; align-items: flex-start; font-weight: 600; color: var(--texto); }
 .web .destacado svg { width: 22px; height: 22px; color: var(--accion); flex: none; margin-top: .15rem; }

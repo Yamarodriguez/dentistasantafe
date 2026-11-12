@@ -90,8 +90,17 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   [Pendiente] hasta que Yama confirme que son ciertas.
 - Quiere ver la web en local: servidor `web` de `.claude/launch.json` (python http.server
   en el puerto 4403 sirviendo `dist/`; antes `npm run build`). http://localhost:4403/
-- Fotos de Unsplash: propuesta de 13 (portada + una por tratamiento) enviada el
-  2026-11-12, **sin permiso de descarga todavía** (no descargar hasta un sí explícito).
+- **Fotos de Unsplash descargadas con permiso de Yama (2026-11-12)**: 14 (héroe = mujer
+  sonriendo; portada: consultorio, dentista con paciente, sillón, joven con alineador; una por
+  tratamiento en su primer H2). La descarga directa da 401 y la web tiene control anti-robots
+  (no saltárselo): se saca la URL de images.unsplash.com con WebFetch y se baja del CDN.
+  Originales en marca/unsplash/ (no se suben); webp en public/img/fotos/ (sí); `scripts/imagenes.py`.
+  site.json > fotos {src, alt}; créditos en /terminos/. Fotos de ambiente: nunca como pacientes.
+- Letra (Yama, 2026-11-12, captura de COV): **Open Sans** en títulos y texto; Playfair solo en
+  nombres de tarjetas.
+- Servicios de la portada en recuadros con dibujo (3 columnas) y obras sociales en recuadros
+  con icono (pedido de Yama). Textos de los H2 que faltaban escritos (portada, obras sociales,
+  primera consulta, equipo, contacto, índice); lo de la clínica va con [confirmar].
 
 ## Herramientas ya hechas
 - `scripts/scrap.py` — scraper de competencia (Python estándar + bs4 + lxml;

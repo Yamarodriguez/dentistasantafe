@@ -1,0 +1,55 @@
+{
+  "slug": "obras-sociales",
+  "conteo": {
+    "clave": "obras? social(es)?",
+    "min": 6,
+    "max": 14,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [],
+  "secciones": {
+    "Obras sociales y prepagas": [
+      "Nuestra clínica dental en Santa Fe atiende a pacientes de estas obras sociales y prepagas, además de pacientes particulares."
+    ],
+    "Qué cubre cada una": [
+      "La cobertura de cada tratamiento depende de la obra social o prepaga y del plan que tengas.",
+      "Antes del turno conviene consultar en tu obra social, o al pedir turno, qué incluye tu plan y si hace falta una autorización previa.",
+      "[confirmar: coberturas habituales de cada obra social, según la clínica]"
+    ],
+    "Qué llevar al turno": [
+      "Para el turno con el dentista conviene llevar:",
+      {
+        "lista": [
+          "DNI.",
+          "Credencial de la obra social o prepaga.",
+          "Orden o autorización, si tu plan la pide.",
+          "Estudios o radiografías anteriores, si los tenés."
+        ]
+      },
+      "[confirmar: requisitos de la clínica para atender por obra social]"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Atienden pacientes particulares?",
+      "a": "Sí, además de pacientes con obra social y prepaga. [confirmar]"
+    },
+    {
+      "q": "¿Cómo sé si mi obra social cubre un tratamiento?",
+      "a": "Depende de tu plan: conviene consultarlo en tu obra social o al pedir turno."
+    },
+    {
+      "q": "¿Qué tengo que llevar al turno?",
+      "a": "DNI, la credencial de tu obra social o prepaga y, si tu plan la pide, la orden o autorización."
+    },
+    {
+      "q": "¿La lista de obras sociales puede cambiar?",
+      "a": "Sí, los convenios pueden cambiar; conviene confirmarlo al pedir turno."
+    }
+  ]
+}

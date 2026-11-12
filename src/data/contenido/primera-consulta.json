@@ -1,0 +1,51 @@
+{
+  "slug": "primera-consulta",
+  "conteo": {
+    "clave": "primera consulta",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-caries",
+    "mlp-encias",
+    "nidcr-bebe",
+    "mlp-ninos"
+  ],
+  "secciones": {
+    "Qué hacemos en la primera consulta": [
+      "En la primera consulta, el dentista revisa la boca, escucha el motivo de la visita y explica las opciones de tratamiento. [confirmar: qué incluye la primera consulta en la clínica (revisión, radiografías, presupuesto)]",
+      "La mayoría de las caries se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean.",
+      "Conviene contar si tenés diabetes o fumás, porque la enfermedad de las encías se relaciona con los dos."
+    ],
+    "Cuánto dura": [
+      "[confirmar: duración habitual de la primera consulta en el centro odontológico]"
+    ],
+    "Precio o cobertura": [
+      "El precio de la primera consulta y su cobertura dependen de tu obra social o prepaga. [confirmar: precio de la consulta particular y si la primera consulta es gratuita]"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué llevo a la primera consulta?",
+      "a": "DNI, la credencial de tu obra social o prepaga y estudios anteriores, si los tenés."
+    },
+    {
+      "q": "¿Tengo que tener dolor para consultar?",
+      "a": "No. Muchas caries no dan síntomas y se descubren en los controles."
+    },
+    {
+      "q": "¿Cada cuánto conviene volver después de la primera consulta?",
+      "a": "MedlinePlus aconseja una limpieza profesional cada 6 meses."
+    },
+    {
+      "q": "¿A qué edad es la primera consulta de un niño?",
+      "a": "El NIDCR recomienda antes de cumplir un año; MedlinePlus, entre el primer diente y los 2 años y medio."
+    }
+  ]
+}

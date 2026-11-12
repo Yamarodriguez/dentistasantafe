@@ -3,6 +3,7 @@
 //   "texto"                       → sección de texto (se redacta en Fase 3)
 //   { t, bloque }                 → se rellena con datos (Bloque.astro)
 //   { t, foto: "consulta" }       → foto de site.json > fotos al lado del texto
+//   (o contenido/<slug>.json > fotos: { "H2": "clave" }); las fotos se alternan izquierda/derecha
 //   { t, boton: { t, href } }     → botón al final
 //   { t, bloque, opcional: true } → si no hay datos reales, la sección no sale
 // {nombre} en el título se cambia por el nombre de la clínica.
@@ -17,7 +18,8 @@ const visibles = h2s.map(norm).filter((h) => !h.opcional || (conDatos[h.bloque] 
 const titulo = (h) => h.t.replace('{nombre}', site.nombre);
 const id = (h) => (h.bloque === 'faq' ? 'preguntas-frecuentes' : undefined);
 const banda = (h) => ['tratamientos', 'opiniones', 'promociones'].includes(h.bloque) && pagina.tipo === 'portada';
-const foto = (h) => h.foto && fotoDe(h.foto);
+const foto = (h) => fotoDe(h.foto ?? pagina.contenido?.fotos?.[h.t]);
+const lado = new Map(visibles.filter((h) => foto(h)).map((h, i) => [h.t, i % 2 ? 'derecha' : 'izquierda']));
 const textos = pagina.contenido?.secciones ?? {};
 // Antetítulo: rota entre «clínica dental», «dentista» y «centro odontológico» (fijo por H2).
 const variantes = site.antetitulos ?? [site.antetitulo];
@@ -25,11 +27,11 @@ const ante = (h) => variantes[[...h.t].reduce((a, ch) => a + ch.charCodeAt(0), 0
 ---
 {visibles.map((h) => (
   <section
-    class:list={['seccion', `bloque-${h.bloque ?? 'texto'}`, { banda: banda(h), 'con-foto': foto(h) }]}
+    class:list={['seccion', `bloque-${h.bloque ?? 'texto'}`, { banda: banda(h), 'con-foto': foto(h) }, lado.get(h.t)]}
     id={id(h)}
   >
     {foto(h) && (
-      <img class="foto-seccion" src={foto(h)} alt={`${site.nombre}: ${titulo(h)}`} width="800" height="1067" loading="lazy" />
+      <img class="foto-seccion" src={foto(h).src} alt={foto(h).alt} width="900" height="1125" loading="lazy" decoding="async" />
     )}
     <div class="seccion-cuerpo">
       <p class="antetitulo">{ante(h)}</p>

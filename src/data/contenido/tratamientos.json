@@ -1,0 +1,45 @@
+{
+  "slug": "tratamientos",
+  "conteo": {
+    "clave": "tratamientos?",
+    "min": 6,
+    "max": 30,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-caries",
+    "mlp-conducto",
+    "nidcr-bebe",
+    "mlp-ninos",
+    "fda-implantes",
+    "mlp-coronas"
+  ],
+  "secciones": {
+    "Todos los tratamientos": [
+      "En nuestra clínica dental de Santa Fe los tratamientos se agrupan en implantología y prótesis, ortodoncia, estética dental y odontología general. Cada página explica en qué consiste, cómo es el proceso y qué cuidados requiere; en el centro odontológico, el dentista indica cuál conviene en cada caso."
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué opciones hay si me falta un diente?",
+      "a": "Un implante, un puente o una prótesis; cuál conviene lo decide el dentista."
+    },
+    {
+      "q": "¿Cada cuánto conviene una limpieza dental?",
+      "a": "MedlinePlus aconseja una limpieza profesional cada 6 meses."
+    },
+    {
+      "q": "¿Endodoncia y tratamiento de conducto son lo mismo?",
+      "a": "Sí, son dos nombres para el mismo procedimiento."
+    },
+    {
+      "q": "¿A qué edad es la primera visita de un niño?",
+      "a": "El NIDCR recomienda antes de cumplir un año; MedlinePlus, entre el primer diente y los 2 años y medio."
+    }
+  ]
+}

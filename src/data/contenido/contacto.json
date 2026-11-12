@@ -1,0 +1,41 @@
+{
+  "slug": "contacto",
+  "conteo": {
+    "clave": "turnos?",
+    "min": 4,
+    "max": 14,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [],
+  "secciones": {
+    "Pedir turno": [
+      "Podés pedir turno con el dentista por WhatsApp, por teléfono o con el formulario de esta página."
+    ],
+    "Dirección y cómo llegar": [
+      "Nuestra clínica dental está en Santa Fe capital. [confirmar: indicaciones para llegar (colectivos, estacionamiento, accesibilidad)]"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Cómo pido turno?",
+      "a": "Por WhatsApp, por teléfono o con el formulario de esta página."
+    },
+    {
+      "q": "¿Atienden obras sociales y prepagas?",
+      "a": "Sí, las de la página de obras sociales y prepagas. [confirmar]"
+    },
+    {
+      "q": "¿Dónde está la clínica dental?",
+      "a": "[Pendiente: dirección y barrio en Santa Fe]"
+    },
+    {
+      "q": "¿Cuál es el horario del centro odontológico?",
+      "a": "[Pendiente: horario]"
+    }
+  ]
+}

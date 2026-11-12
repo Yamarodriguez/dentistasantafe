@@ -33,8 +33,9 @@ export const enlaceTurno = (sede) =>
 /** Foto de site.json > fotos solo si el archivo existe en public/ (las provisionales no
  *  se suben a Git: en Netlify o en un clon limpio la sección sale sin foto, sin enlace roto). */
 export const foto = (clave) => {
-  const r = site.fotos?.[clave];
-  return r && existsSync(join(process.cwd(), 'public', r)) ? r : null;
+  const f = site.fotos?.[clave];
+  const src = typeof f === 'string' ? f : f?.src;
+  return src && existsSync(join(process.cwd(), 'public', src)) ? { src, alt: f.alt ?? '' } : null;
 };
 
 /** Texto de dato pendiente (el validador lo cuenta como resto). */

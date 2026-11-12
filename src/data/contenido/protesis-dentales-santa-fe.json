@@ -133,5 +133,8 @@
       "q": "¿Es raro hablar y comer con una prótesis al principio?",
       "a": "Puede ser: al principio hablar y comer puede sentirse raro, y el odontólogo puede pedirte controles seguidos para revisar el ajuste."
     }
-  ]
+  ],
+  "fotos": {
+    "¿Qué es una prótesis dental?": "protesis"
+  }
 }

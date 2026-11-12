@@ -10,12 +10,12 @@ const [linea1, linea2] = pagina.h1.split(/ (?=en )/);
 const sede = site.sedes[0];
 const heroe = foto('heroe');
 ---
-<Base pagina={pagina} precarga={heroe}>
-  <section class:list={['heroe', { 'heroe-foto': heroe }]} style={heroe ? `--foto:url('${heroe}')` : undefined}>
+<Base pagina={pagina} precarga={heroe?.src}>
+  <section class:list={['heroe', { 'heroe-foto': heroe }]} style={heroe ? `--foto:url('${heroe.src}')` : undefined} role="img" aria-label={heroe?.alt}>
     <div class="contenedor">
       <div class="heroe-texto">
         <h1>{linea1} <span>{linea2}</span></h1>
-        <p class="entrada">{pendiente('frase de presentación (Fase 3)')}</p>
+        <p class="entrada">{pagina.contenido?.entrada ?? pendiente('frase de presentación (Fase 3)')}</p>
         <p class="destacado">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>
           <span>{site.primera_consulta}</span>

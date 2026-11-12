@@ -14,8 +14,8 @@
     "auditoria": "astro build && node scripts/auditoria.mjs"
   },
   "dependencies": {
+    "@fontsource/open-sans": "^5.3.0",
     "@fontsource/playfair-display": "^5.3.0",
-    "@fontsource/source-sans-3": "^5.3.1",
     "astro": "^5.18.2"
   }
 }

@@ -1,9 +1,9 @@
 {
   "slug": "portada",
   "conteo": {
-    "clave": "clínica dental|dentista|centro odontológico",
+    "clave": "clínica dental",
     "min": 6,
-    "max": 14,
+    "max": 11,
     "ciudad": "Santa Fe",
     "terminos": [
       "clínica dental",
@@ -19,7 +19,24 @@
   ],
   "secciones": {
     "Centro odontológico en Santa Fe con más de [X] años de experiencia": [
-      "[Pendiente: presentación de la clínica — quiénes son, desde cuándo atienden en Santa Fe, qué especialidades tienen (con el nombre de la institución que dio cada título, ley 12094) y cómo trabajan. Lo cuenta Yama y se redacta con sus datos]"
+      "Ignacio Vera Odontología es una clínica dental en Santa Fe que atiende odontología general, implantes, prótesis, ortodoncia y estética dental. [confirmar: tratamientos y edades que atiende la clínica]",
+      "Al frente del centro odontológico está el Od. Ignacio Vera, matrícula 3795/01. [confirmar: profesionales del equipo, especialidades y la institución que dio cada título]",
+      "Cada tratamiento empieza con una consulta en la que el dentista revisa la boca, explica las opciones y responde las dudas antes de decidir. [confirmar: cómo es la primera consulta en la clínica]"
+    ],
+    "¿Por qué elegir {nombre} como tu dentista en Santa Fe?": [
+      "Estos son los puntos en los que se apoya el trabajo de nuestra clínica dental en Santa Fe."
+    ],
+    "Tratamientos de nuestra clínica dental en Santa Fe": [
+      "Estos son los tratamientos de nuestro centro odontológico en Santa Fe. Cada página explica en qué consiste el tratamiento, cómo es el proceso, qué cuidados requiere y qué conviene consultar con el dentista."
+    ],
+    "Obras sociales y prepagas": [
+      "Atendemos pacientes con obra social, con prepaga y particulares. La cobertura depende de cada obra social y de cada plan, por eso conviene consultarla antes del turno."
+    ],
+    "Opiniones de nuestros pacientes": [
+      "En esta sección se publican reseñas reales que los pacientes dejaron en Google, con su nombre."
+    ],
+    "Pedir turno con el dentista en Santa Fe": [
+      "Podés pedir turno por WhatsApp, por teléfono o con el formulario. Indicá el tratamiento que te interesa y te contactamos para coordinar el día y el horario. [confirmar: horario de atención y tiempo de respuesta]"
     ]
   },
   "faq": [
@@ -43,5 +60,6 @@
       "q": "¿Dónde está la clínica dental?",
       "a": "[Pendiente: dirección y barrio en Santa Fe]"
     }
-  ]
+  ],
+  "entrada": "Atención odontológica en Santa Fe: odontología general, implantes, prótesis, ortodoncia, estética dental y odontopediatría, con turno previo. [confirmar: tratamientos que realiza la clínica]"
 }
