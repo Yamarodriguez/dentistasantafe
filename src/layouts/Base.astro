@@ -45,11 +45,10 @@ const vars = [
         </a>
         <nav class="menu" aria-label="Principal">
           <a href="/tratamientos/">Tratamientos</a>
-          <a href="/santa-fe/">Santa Fe</a>
-          <a href="/rosario/">Rosario</a>
           <a href="/obras-sociales/">Obras sociales</a>
           <a href="/equipo/">Equipo</a>
-          <a class="boton" href="/turnos/">Sacá turno</a>
+          <a href="/contacto/">Contacto</a>
+          <a class="boton" href="/contacto/">Sacá turno</a>
         </nav>
       </div>
     </header>
@@ -58,16 +57,16 @@ const vars = [
       <slot />
     </main>
 
-    {pagina.tipo !== '404' && pagina.tipo !== 'turnos' && (
+    {pagina.tipo !== '404' && pagina.tipo !== 'turnos' && pagina.tipo !== 'portada' && (
       <aside class="franja-turno" aria-label="Sacá turno">
         <div class="contenedor">
           <div>
             <p class="antetitulo">{site.antetitulo}</p>
-            <p class="titulo-franja">Sacá turno en tu sede</p>
-            <p>Escribinos y te damos turno en Santa Fe o en Rosario.</p>
+            <p class="titulo-franja">Sacá turno en Santa Fe</p>
+            <p>Escribinos por WhatsApp o llamanos y te damos turno.</p>
           </div>
           <div class="botones">
-            {site.sedes.map((s) => <a class="boton" href={enlaceTurno(s)}>Turno en {s.ciudad} →</a>)}
+            {site.sedes.map((s) => <a class="boton" href={enlaceTurno(s)}>Sacá turno →</a>)}
           </div>
         </div>
       </aside>
@@ -77,7 +76,7 @@ const vars = [
       <div class="contenedor">
         {site.sedes.map((s) => (
           <div>
-            <p class="pie-titulo"><a href={ruta(s.id)}>{s.ciudad}</a></p>
+            <p class="pie-titulo"><a href="/contacto/">{site.nombre} · {s.ciudad}</a></p>
             <p>{s.direccion}<br />{s.telefono}<br />{s.horario}</p>
           </div>
         ))}
@@ -96,6 +95,6 @@ const vars = [
       </div>
     </footer>
 
-    <a class="boton boton-turno" href="/turnos/">Sacá turno</a>
+    <a class="boton boton-turno" href="/contacto/">Sacá turno</a>
   </body>
 </html>

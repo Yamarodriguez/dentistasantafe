@@ -8,7 +8,7 @@ const { pagina } = Astro.props;
 const fijos = [
   { t: 'Quién te atiende', bloque: 'equipo' },
   { t: '¿Lo cubre mi obra social?', bloque: 'obras' },
-  { t: '¿Dónde te lo hacemos?', bloque: 'sedes' },
+  { t: 'Dónde estamos en Santa Fe', bloque: 'mapa' },
   { t: 'Opiniones de pacientes', bloque: 'opiniones' },
   { t: 'Preguntas frecuentes', bloque: 'faq' },
 ];
@@ -22,7 +22,7 @@ const fijos = [
       <h1>{pagina.h1}</h1>
       <p class="entrada">{pagina.description}</p>
       <div class="botones">
-        <a class="boton" href="/turnos/">Sacá turno</a>
+        <a class="boton" href="/contacto/">Sacá turno</a>
         <a class="boton secundario" href="/primera-consulta/">Tu primera consulta</a>
       </div>
     </section>

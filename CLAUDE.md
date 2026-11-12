@@ -11,9 +11,13 @@ No abrir enteros `competencia/datos/`, `competencia/texto/` ni HTML bajado: grep
 
 ## Ficha del negocio
 Pendiente (la da Yama; plantilla en el prompt, apartado FICHA).
-**DOS SEDES: Santa Fe capital y Rosario (Argentina)** (Yama, 2026-11-12; barrios pendientes).
-Palabras clave principales: **odontólogo Santa Fe** y **odontólogo Rosario** (una página por
-sede); sin datos de volumen.
+Clínica con sedes en Santa Fe capital y Rosario (Argentina), pero **ESTA WEB ES SOLO DE
+SANTA FE** (Yama, 2026-11-12). **Rosario = otra web después**, con la misma base: copiar
+el proyecto y cambiar site.json (sus datos esperan en `_rosario_para_despues`) y
+«Santa Fe» → «Rosario» en paginas.json.
+Palabra clave principal: **clínica dental Santa Fe** (H1 «Clínica Dental en Santa Fe»,
+como COV) + odontólogo / dentista Santa Fe; sin datos de volumen. URL de tratamiento con
+ciudad: `/implantes-dentales-santa-fe/`. Sin páginas de sede: contacto en `/contacto/`.
 Textos de la web: español de Argentina **con vos** (recomendado, sin confirmar): «turno»,
 «odontólogo», «tratamiento de conducto», «guardia», «matrícula», «ortopedia», «operatoria»,
 «placas de relajación». Normativa sanitaria y legal: argentina/santafesina, no española.
@@ -27,7 +31,22 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
 (colores, tipografía, bloques, fotos); la plantilla de tratamiento se describe en el apartado 9 del análisis.
 
 ## Preferencias del propietario (no volver a proponer)
-- (vacío)
+- Web solo de Santa Fe; Rosario aparte (no proponer web conjunta de dos sedes).
+- Portada con los H1/H2/H3 de la portada de COV adaptados (Yama los pegó el 2026-11-12):
+  H1 Clínica Dental en Santa Fe · H2 Clínica dental en Santa Fe con más de [X] años de
+  experiencia · H2 ¿Por qué elegir X como tu clínica dental en Santa Fe? (H3 Especialistas
+  en cada área, +X años de experiencia, Tecnología digital avanzada, Financiación
+  personalizada) · H2 Tratamientos dentales (H3 Implantología y prótesis, Ortodoncia,
+  Estética dental, Odontología general) · Promociones destacadas* · Opiniones de nuestros
+  pacientes · Reconocimiento* · Trabajamos con marcas líderes en odontología* · Solicitá
+  información sobre el tratamiento que necesitás. Añadidos nuestros: Obras sociales y
+  prepagas, Preguntas frecuentes. *solo con datos reales. Textos de COV NO se copian.
+- Las afirmaciones de COV (primera consulta gratis, radiografía incluida, +X años,
+  tecnología, financiación) están en site.json con `"confirmado": false` → aviso
+  [Pendiente] hasta que Yama confirme que son ciertas.
+- Quiere ver los diseños en local: servidores `diseno-oliva` (4403) y `diseno-dorado`
+  (4401) de `.claude/launch.json`, sirviendo `dist-oliva` / `dist-dorado`
+  (`TEMA=x npx astro build --outDir dist-x`).
 
 ## Herramientas ya hechas
 - `scripts/scrap.py` — scraper de competencia (Python estándar + bs4 + lxml;
@@ -42,7 +61,7 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
 - **Astro 5** (no 7): en este Windows, Control de aplicaciones bloquea el binario nativo
   `satteri` de Astro 7. No cambiar la seguridad de Windows; quedarse en Astro 5.
 
-## Cómo está hecha la web (Fase 1)
+## Cómo está hecha la web (Fase 1-2)
 - `src/data/site.json` = datos del negocio (sedes, profesionales, obras sociales, opiniones).
 - `src/data/paginas.json` = mapa de URL (slug, tipo, clave, title, description, h1, h2s, faq,
   estado). `estado: "pendiente"` no se genera (guardia, precios).
