@@ -12,7 +12,7 @@ const sede = sedePorId(pagina.sede);
     <section class="heroe">
       <h1>{pagina.h1}</h1>
       <div class="datos-sede"><span>{sede.direccion}</span><span>{sede.telefono}</span><span>{sede.horario}</span></div>
-      <div class="botones"><a class="boton" href={enlaceTurno(sede)}>Sacá turno en {sede.ciudad}</a></div>
+      <div class="botones"><a class="boton" href={enlaceTurno(sede)}>Pedir turno en {sede.ciudad}</a></div>
     </section>
     <Secciones pagina={pagina} />
   </div>

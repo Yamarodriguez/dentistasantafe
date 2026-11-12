@@ -81,6 +81,27 @@ for (const f of htmls) {
     // alt vacío solo vale en imágenes decorativas marcadas con role="presentation".
     const decorativa = /\balt=""/.test(img) && /role="presentation"/.test(img);
     if (!decorativa && !/\balt="[^"]+"/.test(img)) err(r, `imagen sin alt: ${img.slice(0, 80)}`);
+    // Fase 4: tamaño puesto (evita saltos al cargar) y webp si es imagen propia.
+    if (!/\bwidth="\d+"/.test(img) || !/\bheight="\d+"/.test(img)) err(r, `imagen sin width/height: ${img.slice(0, 80)}`);
+    const src = (img.match(/\bsrc="([^"]+)"/) || [])[1] ?? '';
+    if (src.startsWith('/') && !/\.(webp|svg)$/.test(src)) err(r, `imagen propia que no es webp: ${src}`);
+  }
+
+  // Fase 4: datos estructurados válidos y sin datos pendientes.
+  if (!es404) {
+    const bloques = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]);
+    if (!bloques.length) err(r, 'sin datos estructurados (JSON-LD)');
+    const tipos = [];
+    for (const b of bloques) {
+      try {
+        const j = JSON.parse(b);
+        (j['@graph'] ?? [j]).forEach((x) => tipos.push(x['@type']));
+        if (/\[[^\]]*\]/.test(JSON.stringify(j).replace(/"[^"]*":\s*\[/g, '"":0'))) err(r, 'JSON-LD con un dato [pendiente]');
+      } catch { err(r, 'JSON-LD que no es JSON válido'); }
+    }
+    if (tipo === 'portada' && !tipos.includes('Dentist')) err(r, 'portada sin schema Dentist');
+    if (tipo === 'tratamiento' && !tipos.includes('MedicalWebPage')) err(r, 'tratamiento sin schema MedicalWebPage');
+    if (r !== '/' && !tipos.includes('BreadcrumbList')) err(r, 'sin schema BreadcrumbList');
   }
 
   const texto = decodificar(html.replace(/<[^>]+>/g, ' '));
@@ -94,6 +115,27 @@ for (const p of mapa.paginas.filter((p) => p.estado === 'si')) {
   const r = p.slug ? `/${p.slug}/` : '/';
   if (!htmls.some((f) => ruta(f) === r)) err(r, 'está en paginas.json pero no se ha generado');
 }
+
+// Fase 4: sitemap, robots.txt y llms.txt.
+const leer = (f) => (existsSync(join(DIST, f)) ? readFileSync(join(DIST, f), 'utf-8') : null);
+const sitemap = leer('sitemap.xml');
+if (!sitemap) err('/sitemap.xml', 'no existe');
+else {
+  for (const p of mapa.paginas.filter((p) => p.estado === 'si' && p.tipo !== 'legal')) {
+    const u = `${BASE}${p.slug ? `/${p.slug}/` : '/'}`;
+    if (!sitemap.includes(`<loc>${u}</loc>`)) err('/sitemap.xml', `falta ${u}`);
+  }
+  if (!/<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/.test(sitemap)) err('/sitemap.xml', 'sin fechas lastmod');
+}
+const robots = leer('robots.txt');
+if (!robots) err('/robots.txt', 'no existe');
+else {
+  if (!robots.includes(`Sitemap: ${BASE}/sitemap.xml`)) err('/robots.txt', 'sin línea Sitemap');
+  for (const b of ['GPTBot', 'ClaudeBot', 'PerplexityBot', 'Google-Extended']) if (!robots.includes(b)) err('/robots.txt', `no nombra a ${b}`);
+}
+const llms = leer('llms.txt');
+if (!llms) err('/llms.txt', 'no existe');
+else if (/\[[^\]]*\]\s*$|\[Pendiente/m.test(llms.replace(/\[[^\]]+\]\(/g, ''))) err('/llms.txt', 'tiene datos [pendiente]');
 
 const totalRestos = restos.reduce((a, x) => a + x.n, 0);
 const L = [

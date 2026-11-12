@@ -1,0 +1,64 @@
+---
+// Formulario de turno por AJAX (Web3Forms): el paciente no sale de la página y la
+// respuesta es en castellano. Sin access key en site.json > formulario, queda desactivado.
+import { site, tratamientos, pendiente } from '../lib/datos.js';
+
+const clave = site.formulario?.web3forms_key ?? '';
+const activo = clave.length > 0;
+---
+<form class="formulario" id="form-turno" action="https://api.web3forms.com/submit" method="POST" data-activo={activo ? 'si' : 'no'}>
+  <input type="hidden" name="access_key" value={clave} />
+  <input type="hidden" name="subject" value={`Pedido de turno desde la web · ${site.nombre}`} />
+  <input type="checkbox" name="botcheck" class="trampa" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+  <label>Nombre y apellido<input name="nombre" required autocomplete="name" /></label>
+  <label>Teléfono o WhatsApp<input name="telefono" type="tel" required autocomplete="tel" /></label>
+  <label>Correo (opcional)<input name="email" type="email" autocomplete="email" /></label>
+  <label>Tratamiento
+    <select name="tratamiento">
+      <option value="">Elegir una opción</option>
+      {tratamientos.map((t) => <option>{t.nombre}</option>)}
+      <option>Otro / no sé</option>
+    </select>
+  </label>
+  <label class="ancho">Mensaje (opcional)<textarea name="mensaje" rows="3"></textarea></label>
+  <label class="ancho casilla">
+    <input type="checkbox" name="privacidad" required />
+    <span>Leí y acepto la <a href="/privacidad/">política de privacidad</a>.</span>
+  </label>
+  <div class="ancho">
+    <button class="boton" type="submit" disabled={!activo}>Pedir turno</button>
+    <p class="estado" role="status" aria-live="polite">
+      {!activo && <span class="pendiente">{pendiente('formulario sin activar: falta la access key de Web3Forms con el correo de la clínica')}</span>}
+    </p>
+  </div>
+</form>
+
+<script is:inline>
+  (() => {
+    const f = document.getElementById('form-turno');
+    if (!f || f.dataset.activo !== 'si') return;
+    const estado = f.querySelector('.estado');
+    const boton = f.querySelector('button');
+    f.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      boton.disabled = true;
+      estado.textContent = 'Enviando…';
+      try {
+        const r = await fetch(f.action, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(Object.fromEntries(new FormData(f))),
+        });
+        const j = await r.json();
+        if (!j.success) throw new Error(j.message);
+        f.reset();
+        estado.textContent = 'Listo: recibimos tu pedido y te vamos a contactar para darte turno.';
+      } catch {
+        estado.textContent = 'No se pudo enviar. Probá de nuevo o escribinos por WhatsApp.';
+      } finally {
+        boton.disabled = false;
+      }
+    });
+  })();
+</script>

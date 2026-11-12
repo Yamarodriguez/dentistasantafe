@@ -116,6 +116,18 @@
 .web .promo .precio { font-family: var(--f-tarjeta), Georgia, serif; font-size: 1.5rem; color: var(--texto); }
 .web .contacto { display: grid; grid-template-columns: 1fr auto; gap: 1rem 2rem; align-items: center; background: var(--banda); border-radius: var(--radio); padding: clamp(1.5rem, 4vw, 2.5rem); margin-top: 1.25rem; }
 .web .contacto .pendiente { grid-column: 1 / -1; margin: 0; }
+.web .ancho-completo { grid-column: 1 / -1; }
+.web .formulario { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem 1.25rem; margin-top: 1rem; padding-top: 1.25rem; border-top: 1px solid var(--borde); }
+.web .formulario label { display: flex; flex-direction: column; gap: .35rem; font-weight: 600; font-size: .95rem; }
+.web .formulario .ancho { grid-column: 1 / -1; }
+.web .formulario input, .web .formulario select, .web .formulario textarea { font: inherit; font-weight: 400; padding: .7rem .8rem; border: 1px solid var(--borde); border-radius: calc(var(--radio) / 2); background: var(--superficie); color: var(--texto); }
+.web .formulario input:focus, .web .formulario select:focus, .web .formulario textarea:focus { outline: 2px solid var(--accion); outline-offset: 1px; }
+.web .formulario .casilla { flex-direction: row; align-items: flex-start; gap: .6rem; font-weight: 400; }
+.web .formulario .casilla input { margin-top: .3rem; }
+.web .formulario .trampa { position: absolute; left: -9999px; }
+.web .formulario button:disabled { opacity: .55; cursor: not-allowed; }
+.web .formulario .estado { margin: .75rem 0 0; }
+@media (max-width: 760px) { .web .formulario { grid-template-columns: 1fr; } }
 @media (max-width: 760px) { .web .contacto { grid-template-columns: 1fr; } }
 .web .seccion-cuerpo > p, .web .seccion-cuerpo > ul, .web .seccion-cuerpo > ol { max-width: 70ch; }
 .web .seccion-cuerpo > h3 { margin-top: 1.5rem; font-size: 1.2rem; }

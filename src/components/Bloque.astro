@@ -2,6 +2,7 @@
 // Rellena una sección con datos de site.json / paginas.json.
 // Si falta el dato, pone [Pendiente: …] (nunca se inventa nada).
 import { site, ruta, tratamientos, enlaceTurno, pendiente } from '../lib/datos.js';
+import Formulario from './Formulario.astro';
 
 const { tipo, pagina } = Astro.props;
 const sedes = pagina.sede ? site.sedes.filter((s) => s.id === pagina.sede) : site.sedes;
@@ -16,9 +17,9 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
     {sedes.map((s) => (
       <article class="tarjeta">
         <svg class="icono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
-        <h3><a href={ruta(s.id)}>{s.ciudad}</a></h3>
+        <h3><a href="/contacto/">{s.ciudad}</a></h3>
         <p>{s.barrio}<br />{s.direccion}<br />{s.horario}</p>
-        <a class="mas" href={enlaceTurno(s)}>Sacá turno en {s.ciudad} →</a>
+        <a class="mas" href={enlaceTurno(s)}>Pedir turno →</a>
       </article>
     ))}
   </div>
@@ -46,11 +47,11 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
       <p>Teléfono: {s.telefono}<br />Horario: {s.horario}</p>
     </div>
     <div class="botones">
-      <a class="boton" href={enlaceTurno(s)}>Escribinos por WhatsApp →</a>
+      <a class="boton" href={enlaceTurno(s)}>Turno por WhatsApp →</a>
       {s.mapa && <a class="boton secundario" href={s.mapa}>Cómo llegar</a>}
     </div>
     {!s.whatsapp && <p class="pendiente">{pendiente('número de WhatsApp')}</p>}
-    <p class="pendiente">{pendiente('formulario de contacto (Fase 4, si Yama lo quiere)')}</p>
+    <div class="ancho-completo"><Formulario /></div>
   </div>
 ))}
 
@@ -185,7 +186,7 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
 {tipo === 'turno' && (
   <div class="botones">
     {sedes.map((s) => (
-      <a class="boton" href={enlaceTurno(s)}>Sacá turno en {s.ciudad}</a>
+      <a class="boton" href={enlaceTurno(s)}>Pedir turno por WhatsApp</a>
     ))}
   </div>
 )}

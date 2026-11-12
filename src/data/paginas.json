@@ -7,7 +7,7 @@
       "estado": "si",
       "clave": "clínica dental Santa Fe (odontólogo / dentista Santa Fe)",
       "title": "Clínica dental en Santa Fe: odontólogos y turnos",
-      "description": "Clínica dental en Santa Fe: implantes, ortodoncia, prótesis, estética y odontología general. Sacá turno por WhatsApp.",
+      "description": "Clínica dental en Santa Fe: implantes, ortodoncia, prótesis, estética y odontología general. Turnos por WhatsApp.",
       "h1": "Clínica Dental en Santa Fe",
       "_estructura": "Igual que la portada de COV: héroe (primera consulta + 4 ventajas) → quiénes somos con foto → por qué elegirnos (4 H3) → tratamientos dentales (H3 por grupo) → obras sociales (añadido: hueco en Argentina) → promociones* → opiniones → reconocimiento* → marcas* → preguntas frecuentes (añadido: AEO) → contacto. *solo con datos reales. Cambios por ley 12094: «marcas líderes» → «Marcas con las que trabajamos»; «Tecnología digital avanzada» → «Tecnología digital».",
       "h2s": [
@@ -252,7 +252,7 @@
       "grupo": "Odontología general",
       "clave": "odontopediatra Santa Fe",
       "title": "Odontopediatra en Santa Fe",
-      "description": "Odontopediatría en Santa Fe: primera visita del chico, selladores y flúor, ortopedia y cómo ayudamos si tiene miedo.",
+      "description": "Odontopediatría en Santa Fe: primera visita del chico, selladores y flúor, ortopedia y qué hacer si tiene miedo.",
       "h1": "Odontopediatra en Santa Fe",
       "h2s": [
         "¿Cuándo llevar a tu hijo por primera vez?",
@@ -356,11 +356,11 @@
       "estado": "si",
       "clave": "turno dentista Santa Fe · clínica dental Santa Fe dirección",
       "title": "Contacto y turnos: clínica dental en Santa Fe",
-      "description": "Dirección, horarios y teléfono de nuestra clínica dental en Santa Fe. Sacá turno por WhatsApp o por teléfono.",
+      "description": "Dirección, horarios y teléfono de nuestra clínica dental en Santa Fe. Turnos por WhatsApp o por teléfono.",
       "h1": "Contacto y turnos",
       "h2s": [
         {
-          "t": "Sacá turno",
+          "t": "Pedir turno",
           "bloque": "contacto"
         },
         {

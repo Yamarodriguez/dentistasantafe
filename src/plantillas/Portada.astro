@@ -9,7 +9,7 @@ const { pagina } = Astro.props;
 const [linea1, linea2] = pagina.h1.split(/ (?=en )/);
 const sede = site.sedes[0];
 ---
-<Base pagina={pagina}>
+<Base pagina={pagina} precarga={site.fotos.heroe}>
   <section class="heroe heroe-foto" style={`--foto:url('${site.fotos.heroe}')`}>
     <div class="contenedor">
       <div class="heroe-texto">
@@ -20,7 +20,7 @@ const sede = site.sedes[0];
           <span>{site.primera_consulta}</span>
         </p>
         <div class="botones">
-          <a class="boton" href={enlaceTurno(sede)}>Sacá turno →</a>
+          <a class="boton" href={enlaceTurno(sede)}>Pedir turno →</a>
           <a class="boton secundario" href="/tratamientos/">Ver tratamientos</a>
         </div>
       </div>
