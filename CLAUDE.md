@@ -96,6 +96,10 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   (no saltárselo): se saca la URL de images.unsplash.com con WebFetch y se baja del CDN.
   Originales en marca/unsplash/ (no se suben); webp en public/img/fotos/ (sí); `scripts/imagenes.py`.
   site.json > fotos {src, alt}; créditos en /terminos/. Fotos de ambiente: nunca como pacientes.
+- Foto principal (héroe): **la recepción dorada provisional** (Yama la prefiere a la de Unsplash,
+  2026-11-12). Sigue sin subirse a Git → en Netlify el héroe sale sin foto hasta que Yama
+  confirme que se puede publicar. «¿Por qué elegir…?»: título arriba y debajo foto | H3
+  (`"disposicion": "foto-abajo"` en paginas.json).
 - Letra (Yama, 2026-11-12, captura de COV): **Open Sans** en títulos y texto; Playfair solo en
   nombres de tarjetas.
 - Servicios de la portada en recuadros con dibujo (3 columnas) y obras sociales en recuadros

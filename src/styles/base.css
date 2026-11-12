@@ -92,6 +92,9 @@
 .web .seccion.con-foto { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
 .web .foto-seccion { border-radius: var(--radio); aspect-ratio: 4 / 5; object-fit: cover; width: 100%; box-shadow: 0 24px 48px -28px rgba(0, 0, 0, .35); }
 .web .seccion.con-foto.derecha { grid-template-columns: 1.1fr .9fr; }
+.web .foto-abajo .fila-foto { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; margin-top: 1.5rem; }
+.web .foto-abajo .fila-bloque .tarjetas { margin-top: 0; grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 760px) { .web .foto-abajo .fila-foto { grid-template-columns: 1fr; } .web .foto-abajo .fila-bloque .tarjetas { grid-template-columns: 1fr; } }
 .web .seccion.con-foto.derecha .foto-seccion { order: 2; }
 @media (max-width: 760px) { .web .seccion.con-foto.derecha .foto-seccion { order: 0; } .web .foto-seccion { aspect-ratio: 3 / 2; } }
 

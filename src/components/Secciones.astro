@@ -19,13 +19,28 @@ const titulo = (h) => h.t.replace('{nombre}', site.nombre);
 const id = (h) => (h.bloque === 'faq' ? 'preguntas-frecuentes' : undefined);
 const banda = (h) => ['tratamientos', 'opiniones', 'promociones'].includes(h.bloque) && pagina.tipo === 'portada';
 const foto = (h) => fotoDe(h.foto ?? pagina.contenido?.fotos?.[h.t]);
-const lado = new Map(visibles.filter((h) => foto(h)).map((h, i) => [h.t, i % 2 ? 'derecha' : 'izquierda']));
+// disposicion: "foto-abajo" → título arriba y, debajo, la foto a un lado y el bloque (p. ej. los H3) al otro.
+const abajo = (h) => h.disposicion === 'foto-abajo' && foto(h);
+const lado = new Map(visibles.filter((h) => foto(h) && !abajo(h)).map((h, i) => [h.t, i % 2 ? 'derecha' : 'izquierda']));
 const textos = pagina.contenido?.secciones ?? {};
 // Antetítulo: rota entre «clínica dental», «dentista» y «centro odontológico» (fijo por H2).
 const variantes = site.antetitulos ?? [site.antetitulo];
 const ante = (h) => variantes[[...h.t].reduce((a, ch) => a + ch.charCodeAt(0), 0) % variantes.length];
 ---
-{visibles.map((h) => (
+{visibles.map((h) => abajo(h) ? (
+  <section class:list={['seccion', `bloque-${h.bloque ?? 'texto'}`, 'foto-abajo', { banda: banda(h) }]} id={id(h)}>
+    <div class="seccion-cuerpo">
+      <p class="antetitulo">{ante(h)}</p>
+      <h2>{titulo(h)}</h2>
+      {textos[h.t] && <Texto bloques={textos[h.t]} />}
+    </div>
+    <div class="fila-foto">
+      <img class="foto-seccion" src={foto(h).src} alt={foto(h).alt} width="900" height="1125" loading="lazy" decoding="async" />
+      <div class="fila-bloque">{h.bloque && <Bloque tipo={h.bloque} pagina={pagina} />}</div>
+    </div>
+    {h.boton && <div class="botones"><a class="boton" href={h.boton.href}>{h.boton.t} →</a></div>}
+  </section>
+) : (
   <section
     class:list={['seccion', `bloque-${h.bloque ?? 'texto'}`, { banda: banda(h), 'con-foto': foto(h) }, lado.get(h.t)]}
     id={id(h)}

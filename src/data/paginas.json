@@ -22,7 +22,8 @@
         {
           "t": "¿Por qué elegir {nombre} como tu dentista en Santa Fe?",
           "bloque": "porque",
-          "foto": "porque"
+          "foto": "porque",
+          "disposicion": "foto-abajo"
         },
         {
           "t": "Tratamientos de nuestra clínica dental en Santa Fe",
