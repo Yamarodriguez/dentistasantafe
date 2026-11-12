@@ -111,6 +111,20 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   logo). Opiniones: estrellas solo si la reseña real trae `estrellas`.
 
 ## Estado
+- **Fase 4 — AEO técnico y conversión: hecha (2026-11-12)**, salvo lo que depende de
+  datos. `robots.txt` (robots de IA nombrados y permitidos), `llms.txt` (solo datos
+  reales) y `sitemap.xml` (lastmod = último commit del texto de cada página) salen de
+  `src/pages/*.js`. JSON-LD en `src/lib/schema.js`: Dentist (portada y contacto),
+  MedicalWebPage + MedicalProcedure (tratamientos, con citas y reviewedBy/lastReviewed
+  cuando haya autor), Person (equipo), BreadcrumbList, FAQPage; lo [pendiente] se omite
+  (`limpiar`). Open Graph en Base. Formulario AJAX Web3Forms (`Formulario.astro`),
+  desactivado hasta `site.json > formulario.web3forms_key`. Botones en infinitivo
+  «Pedir turno» (no imperativo, por prudencia legal). Imágenes webp con
+  `python -I scripts/imagenes.py` (logo 88 px; fotos provisionales no se suben); foto
+  del héroe precargada. Validador ampliado: JSON-LD válido y sin [..], tipos por
+  página, sitemap/robots/llms, img con width/height y webp.
+  Pendiente para activar: clave Web3Forms (correo de la clínica), dirección, teléfono,
+  horario, mapa → el schema Dentist se completa solo.
 - **Fase 3 — Textos, tanda 1 hecha (2026-11-12)**: implantes, ortodoncia, ortodoncia
   invisible, tratamiento de conducto, periodoncia. Pasan `todo:contenido` y la revisión
   de 5 subagentes (sus correcciones aplicadas: nada más allá de la fuente; procesos y

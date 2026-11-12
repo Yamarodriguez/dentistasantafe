@@ -9,8 +9,8 @@
   "antetitulo": "Clínica dental en Santa Fe",
   "_fotos": "PROVISIONALES: renders que pasó Yama; no se publican como fotos reales de la clínica sin su confirmación. El validador las cuenta como resto.",
   "fotos": {
-    "heroe": "/img/provisional-recepcion.jpg",
-    "consulta": "/img/provisional-recepcion-2.jpg"
+    "heroe": "/img/provisional-recepcion.webp",
+    "consulta": "/img/provisional-recepcion-2.webp"
   },
   "_confirmar": "confirmado: false = los textos de primera_consulta, ventajas y porque vienen de la estructura de COV y Yama aún no ha confirmado que sean ciertos en su clínica. Mientras sea false, la web muestra un aviso [Pendiente] (el validador lo cuenta).",
   "confirmado": false,
@@ -118,5 +118,13 @@
     "fuente": "Google",
     "fecha": "2026-01-01"
   },
-  "_fuente_datos": "2026-11-12: nombre de Instagram (@ignacio_vera_odontologia, pasado por Yama); dirección, matrícula y obras sociales del perfil de Doctoralia https://www.doctoraliar.com/perfil/ignacio-vera. Directorio de terceros: todo lo marcado [confirmar] lo tiene que confirmar Yama antes de publicar. La dirección de Doctoralia (Av. 7 de Marzo 1995, Santo Tomé) NO es la de la clínica: Yama confirma que está en Santa Fe capital (2026-11-12)."
+  "_fuente_datos": "2026-11-12: nombre de Instagram (@ignacio_vera_odontologia, pasado por Yama); dirección, matrícula y obras sociales del perfil de Doctoralia https://www.doctoraliar.com/perfil/ignacio-vera. Directorio de terceros: todo lo marcado [confirmar] lo tiene que confirmar Yama antes de publicar. La dirección de Doctoralia (Av. 7 de Marzo 1995, Santo Tomé) NO es la de la clínica: Yama confirma que está en Santa Fe capital (2026-11-12).",
+  "redes": {
+    "instagram": "https://www.instagram.com/ignacio_vera_odontologia/"
+  },
+  "formulario": {
+    "_nota": "Web3Forms: access key gratuita creada con el correo de la clínica. Vacía = formulario desactivado.",
+    "web3forms_key": ""
+  },
+  "logo_web": "/img/logo-88.webp"
 }
