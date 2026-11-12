@@ -34,15 +34,20 @@ const ante = (h) => variantes[[...h.t].reduce((a, ch) => a + ch.charCodeAt(0), 0
       <div class="seccion-cuerpo">
         <p class="antetitulo">{ante(h)}</p>
         <h2>{titulo(h)}</h2>
-        {textos[h.t] && <Texto bloques={textos[h.t]} />}
+        {h.bloque && textos[h.t] && <Texto bloques={textos[h.t]} />}
       </div>
       {h.bloque === 'porque' && <div class="fila-bloque arriba"><Bloque tipo={h.bloque} pagina={pagina} parte="arriba" /></div>}
     </div>
     <div class="fila-foto">
       <img class="foto-seccion" src={foto(h).src} alt={foto(h).alt} width="900" height="1125" loading="lazy" decoding="async" />
-      <div class="fila-bloque">{h.bloque && <Bloque tipo={h.bloque} pagina={pagina} parte={h.bloque === 'porque' ? 'abajo' : undefined} />}</div>
+      <div class="fila-bloque">
+        {h.bloque
+          ? <Bloque tipo={h.bloque} pagina={pagina} parte={h.bloque === 'porque' ? 'abajo' : undefined} />
+          : textos[h.t] ? <Texto bloques={textos[h.t]} /> : <p class="pendiente">{pendiente('texto (Fase 3)')}</p>}
+        {!h.bloque && h.boton && <div class="botones"><a class="boton" href={h.boton.href}>{h.boton.t} →</a></div>}
+      </div>
     </div>
-    {h.boton && <div class="botones"><a class="boton" href={h.boton.href}>{h.boton.t} →</a></div>}
+    {h.bloque && h.boton && <div class="botones"><a class="boton" href={h.boton.href}>{h.boton.t} →</a></div>}
   </section>
 ) : (
   <section

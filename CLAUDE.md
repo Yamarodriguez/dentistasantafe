@@ -123,7 +123,7 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   4:5, luz en sombras, contraste, tono cálido, nitidez) → marca/fotos-propias/. En local como
   provisional-odontologo-consultorio-santa-fe.webp en «Nuestros dentistas» y ficha del equipo.
   **Yama confirma (2026-11-12): es el Od. Ignacio Vera y se publica** → public/img/fotos/
-  od-ignacio-vera-clinica-dental-santa-fe.webp (portada «Nuestros dentistas», equipo, schema Person.image). Recorte de retrato (cara y hombros, Yama 2026-11-12) desde marca/fotos-propias/od-ignacio-vera-retrato.jpg. Ficha del equipo (profesionales[0].foto) = la foto completa en el consultorio: od-ignacio-vera-consultorio-santa-fe.webp (Yama, 2026-11-12: grande = recortada, ficha = completa).
+  od-ignacio-vera-clinica-dental-santa-fe.webp (portada «Nuestros dentistas», equipo, schema Person.image). Recorte de retrato (cara y hombros, Yama 2026-11-12) desde marca/fotos-propias/od-ignacio-vera-retrato.jpg. Ficha del equipo (profesionales[0].foto) = la foto completa en el consultorio: od-ignacio-vera-consultorio-santa-fe.webp (Yama, 2026-11-12: grande = recortada, ficha = completa). **Primera sección de la portada** («Clínica dental en Santa Fe con más de [X] años»): título arriba (`disposicion: foto-abajo`; sin bloque, el texto y el botón van al lado de la foto) y la foto completa de IMG_5694 mejorada (sin el morado de los LED, más luz): marca/fotos-propias/consultorio-od-vera-completa.jpg → clinica-dental-santa-fe-od-ignacio-vera.webp.
 - Letra (Yama, 2026-11-12, captura de COV): **Open Sans** en títulos y texto; Playfair solo en
   nombres de tarjetas.
 - Servicios de la portada en recuadros con dibujo (3 columnas) y obras sociales en recuadros
@@ -179,6 +179,12 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   logo). Opiniones: estrellas solo si la reseña real trae `estrellas`.
 
 ## Estado
+- **Análisis SEO a fondo de COV (2026-11-12)** → `informes/cov-seo.md`: ≈ 190 URL (36 páginas,
+  138 blog, 16 categorías), 0 enlaces en el texto de sus tratamientos, mucha canibalización en
+  el blog. El servidor de COV corta a los rastreadores: no insistir (el clasificador lo bloquea
+  como saltarse el control anti-robots); usar WebFetch. Backlinks: requiere Ahrefs vía `/mcp`.
+  Propuestas sin hacer: blog ordenado (después de publicar), tratamientos principales en el pie,
+  enlazar Doctoralia solo cuando el perfil tenga la dirección de Santa Fe.
 - **Fase 6 — Auditoría hecha (2026-11-12)** (antes de publicar): `npm run auditoria`
   (`scripts/auditoria.mjs`, solo lee) + revisor de los 10 textos juntos. Resumen con
   prioridades en `informes/auditoria-resumen.md`: 0 graves mecánicos; ALTA = servicios sin

@@ -24,6 +24,8 @@ IMAGENES = [
     (REC2, "provisional-como-llegar-clinica-dental-santa-fe.webp", 900),
     # Portada (una por H2)
     (U + "consultorio.jpg", "fotos/clinica-dental-santa-fe-consultorio.webp", 900),
+    # Primera sección de la portada: foto real completa del consultorio con el Od. Vera (IMG_5694 mejorada)
+    ("marca/fotos-propias/consultorio-od-vera-completa.jpg", "fotos/clinica-dental-santa-fe-od-ignacio-vera.webp", 900),
     (U + "dentista-paciente.jpg", "fotos/dentista-santa-fe-clinica-dental.webp", 900),
     (U + "protesis.jpg", "fotos/tratamientos-dentales-santa-fe.webp", 900),
     (U + "sillon.jpg", "fotos/obras-sociales-clinica-dental-santa-fe.webp", 900),

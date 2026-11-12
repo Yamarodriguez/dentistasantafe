@@ -17,7 +17,8 @@
           "boton": {
             "t": "Conocé a nuestro equipo",
             "href": "/equipo/"
-          }
+          },
+          "disposicion": "foto-abajo"
         },
         {
           "t": "¿Por qué elegir {nombre} como tu clínica dental en Santa Fe?",
