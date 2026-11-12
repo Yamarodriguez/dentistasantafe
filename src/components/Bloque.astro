@@ -1,7 +1,7 @@
 ---
 // Rellena una sección con datos de site.json / paginas.json.
 // Si falta el dato, pone [Pendiente: …] (nunca se inventa nada).
-import { site, ruta, tratamientos, enlaceTurno, pendiente } from '../lib/datos.js';
+import { site, ruta, tratamientos, enlaceTurno, pendiente, grupos } from '../lib/datos.js';
 import Formulario from './Formulario.astro';
 import Dibujo from './Dibujo.astro';
 import { existsSync } from 'node:fs';
@@ -13,7 +13,6 @@ const profesionales = site.profesionales.filter(
   (p) => !pagina.sede || p.sedes.includes(pagina.sede)
 );
 const opiniones = site.opiniones.filter((o) => !pagina.sede || o.sede === pagina.sede);
-const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
 ---
 {tipo === 'sedes' && (
   <div class="tarjetas">

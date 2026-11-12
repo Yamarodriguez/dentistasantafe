@@ -8,11 +8,10 @@ import '@fontsource/playfair-display/latin-600.css';
 import '@fontsource/playfair-display/latin-ext-600.css';
 import '../styles/base.css';
 import temas from '../data/temas.json';
-import { site, ruta, enlaceTurno, tratamientos } from '../lib/datos.js';
+import { site, ruta, enlaceTurno, tratamientos, grupos } from '../lib/datos.js';
 import { schemaDe } from '../lib/schema.js';
 
 const { pagina } = Astro.props;
-const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
 const canonical = pagina.tipo === '404' ? null : new URL(ruta(pagina.slug), site.url).href;
 const { precarga } = Astro.props; // imagen grande de arriba (sin lazy, se precarga)
 const ld = pagina.tipo === '404' ? null : schemaDe(pagina);

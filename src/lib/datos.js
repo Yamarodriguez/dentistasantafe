@@ -24,6 +24,11 @@ export const ruta = (slug) => (slug ? `/${slug}/` : '/');
 
 export const tratamientos = paginas.filter((p) => p.tipo === 'tratamiento');
 
+// Orden de los grupos de tratamientos (portada, índice y menú): Odontología general, luego Estética dental.
+const ORDEN_GRUPOS = ['Odontología general', 'Estética dental', 'Implantología y prótesis', 'Ortodoncia'];
+export const grupos = [...new Set(tratamientos.map((t) => t.grupo))]
+  .sort((a, b) => ORDEN_GRUPOS.indexOf(a) - ORDEN_GRUPOS.indexOf(b));
+
 export const sedePorId = (id) => site.sedes.find((s) => s.id === id);
 
 /** Enlace de WhatsApp de una sede; si aún no hay número, lleva a /contacto/. */

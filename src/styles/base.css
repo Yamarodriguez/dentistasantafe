@@ -316,3 +316,6 @@
 @media (max-width: 760px) {
   .web .menu details .panel { position: static; width: auto; grid-template-columns: 1fr; box-shadow: none; margin-top: .4rem; }
 }
+
+/* Títulos H3 en la misma letra que el texto (Open Sans), en todas las tarjetas */
+.web h3, .web .tarjeta h3, .web .grupo-caja h3, .web .resumen-titulo { font-family: var(--f-texto), system-ui, sans-serif; font-weight: 600; }
