@@ -43,6 +43,10 @@ for (const f of archivos) {
       const n = (main.match(new RegExp(ciudad, 'g')) || []).length;
       if (n < 3) errores.push(`«${ciudad}» solo ${n} veces (mín. 3)`);
     }
+    // Las tres palabras clave de la web (clínica dental, dentista, centro odontológico): al menos 1 vez cada una.
+    for (const t of c.conteo?.terminos ?? []) {
+      if (!new RegExp(t, 'i').test(main)) errores.push(`no aparece «${t}»`);
+    }
   }
   const nfaq = (c.faq ?? []).length;
   if (nfaq < 4 || nfaq > 5) errores.push(`${nfaq} preguntas frecuentes (deben ser 4-5)`);

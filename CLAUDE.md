@@ -61,6 +61,18 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   («buscá motivos para rechazar», sin escribir ficheros, devuelve JSON).
 
 ## Preferencias del propietario (no volver a proponer)
+- **Palabras clave (Yama, 2026-11-12): «clínica dental», «dentista» y «centro odontológico»
+  + Santa Fe** en toda la web, con **tono más profesional** (sin «acá», «chicos» → «niños»;
+  se mantiene el vos). Portada: title «Clínica dental en Santa Fe: dentista y centro
+  odontológico»; H2 «Centro odontológico en Santa Fe con más de [X] años…», «¿Por qué elegir
+  X como tu dentista en Santa Fe?», «Tratamientos de nuestra clínica dental en Santa Fe»,
+  «Pedir turno con el dentista en Santa Fe». Antetítulos rotan entre las 3 claves
+  (site.json > antetitulos). Tratamientos: intro con «clínica dental»/«centro
+  odontológico», bloques fijos «Tu dentista en Santa Fe» y «Nuestro centro odontológico en
+  Santa Fe». contenido.mjs exige las 3 en cada página con texto.
+- **Dibujos propios de cada tratamiento** (src/components/Dibujo.astro, SVG en colores del
+  tema): índice, portada (junto a cada tratamiento) y héroe de cada tratamiento.
+- Quiere **fotos de una chica sonriendo** (pendiente: elegir de Unsplash o que Yama las pase).
 - Web solo de Santa Fe; Rosario aparte (no proponer web conjunta de dos sedes).
   Estructura de 18 páginas + portada tipo COV **aprobada por Yama el 2026-11-12**
   («sí, hagamos así»).

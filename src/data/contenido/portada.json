@@ -1,17 +1,47 @@
 {
   "slug": "portada",
-  "conteo": { "clave": "clínica dental", "min": 6, "max": 11, "ciudad": "Santa Fe" },
-  "fuentes": ["mlp-caries", "mlp-encias", "nidcr-bebe", "mlp-ninos"],
+  "conteo": {
+    "clave": "clínica dental|dentista|centro odontológico",
+    "min": 6,
+    "max": 14,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-caries",
+    "mlp-encias",
+    "nidcr-bebe",
+    "mlp-ninos"
+  ],
   "secciones": {
-    "Clínica dental en Santa Fe con más de [X] años de experiencia": [
+    "Centro odontológico en Santa Fe con más de [X] años de experiencia": [
       "[Pendiente: presentación de la clínica — quiénes son, desde cuándo atienden en Santa Fe, qué especialidades tienen (con el nombre de la institución que dio cada título, ley 12094) y cómo trabajan. Lo cuenta Yama y se redacta con sus datos]"
     ]
   },
   "faq": [
-    { "q": "¿Cada cuánto conviene ir al odontólogo?", "a": "MedlinePlus aconseja una limpieza profesional cada 6 meses; en esos controles se descubren la mayoría de las caries." },
-    { "q": "¿Es normal que me sangren las encías?", "a": "Puede ser gingivitis, la forma leve de la enfermedad de las encías. Suele revertirse con cepillado, hilo dental y limpiezas profesionales." },
-    { "q": "¿A qué edad llevo a mi hijo por primera vez?", "a": "El NIDCR recomienda antes de que cumpla un año; MedlinePlus, entre el primer diente y los 2 años y medio." },
-    { "q": "¿Atienden obras sociales y prepagas?", "a": "[Pendiente: obras sociales y prepagas con las que trabaja la clínica]" },
-    { "q": "¿Dónde está la clínica dental?", "a": "[Pendiente: dirección y barrio en Santa Fe]" }
+    {
+      "q": "¿Cada cuánto conviene ir al odontólogo?",
+      "a": "MedlinePlus aconseja una limpieza profesional cada 6 meses; en esos controles se descubren la mayoría de las caries."
+    },
+    {
+      "q": "¿Es normal que me sangren las encías?",
+      "a": "Puede ser gingivitis, la forma leve de la enfermedad de las encías. Suele revertirse con cepillado, hilo dental y limpiezas profesionales."
+    },
+    {
+      "q": "¿A qué edad llevo a mi hijo por primera vez?",
+      "a": "El NIDCR recomienda antes de que cumpla un año; MedlinePlus, entre el primer diente y los 2 años y medio."
+    },
+    {
+      "q": "¿Atienden obras sociales y prepagas?",
+      "a": "[Pendiente: obras sociales y prepagas con las que trabaja la clínica]"
+    },
+    {
+      "q": "¿Dónde está la clínica dental?",
+      "a": "[Pendiente: dirección y barrio en Santa Fe]"
+    }
   ]
 }

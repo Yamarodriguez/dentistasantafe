@@ -5,14 +5,14 @@
       "slug": "",
       "tipo": "portada",
       "estado": "si",
-      "clave": "clínica dental Santa Fe (odontólogo / dentista Santa Fe)",
-      "title": "Clínica dental en Santa Fe: odontólogos y turnos",
-      "description": "Clínica dental en Santa Fe: implantes, ortodoncia, prótesis, estética y odontología general. Información de tratamientos y turnos.",
+      "clave": "clínica dental Santa Fe · dentista Santa Fe · centro odontológico Santa Fe",
+      "title": "Clínica dental en Santa Fe: dentista y centro odontológico",
+      "description": "Clínica dental y centro odontológico en Santa Fe: dentista para implantes, ortodoncia, prótesis, estética y odontología general.",
       "h1": "Clínica Dental en Santa Fe",
       "_estructura": "Igual que la portada de COV: héroe (primera consulta + 4 ventajas) → quiénes somos con foto → por qué elegirnos (4 H3) → tratamientos dentales (H3 por grupo) → obras sociales (añadido: hueco en Argentina) → promociones* → opiniones → reconocimiento* → marcas* → preguntas frecuentes (añadido: AEO) → contacto. *solo con datos reales. Cambios por ley 12094: «marcas líderes» → «Marcas con las que trabajamos»; «Tecnología digital avanzada» → «Tecnología digital».",
       "h2s": [
         {
-          "t": "Clínica dental en Santa Fe con más de [X] años de experiencia",
+          "t": "Centro odontológico en Santa Fe con más de [X] años de experiencia",
           "foto": "consulta",
           "boton": {
             "t": "Conocé a nuestro equipo",
@@ -20,11 +20,11 @@
           }
         },
         {
-          "t": "¿Por qué elegir {nombre} como tu clínica dental en Santa Fe?",
+          "t": "¿Por qué elegir {nombre} como tu dentista en Santa Fe?",
           "bloque": "porque"
         },
         {
-          "t": "Tratamientos dentales",
+          "t": "Tratamientos de nuestra clínica dental en Santa Fe",
           "bloque": "tratamientos"
         },
         {
@@ -55,7 +55,7 @@
           "bloque": "faq"
         },
         {
-          "t": "Solicitá información sobre el tratamiento que necesitás",
+          "t": "Pedir turno con el dentista en Santa Fe",
           "bloque": "contacto"
         }
       ],
@@ -66,7 +66,7 @@
       "tipo": "indice",
       "estado": "si",
       "clave": "tratamientos dentales Santa Fe",
-      "title": "Tratamientos dentales en Santa Fe",
+      "title": "Tratamientos de nuestra clínica dental en Santa Fe",
       "description": "Todos nuestros tratamientos dentales en Santa Fe: implantes, prótesis, ortodoncia, estética, odontología general y odontopediatría.",
       "h1": "Tratamientos dentales en Santa Fe",
       "h2s": [
@@ -138,7 +138,7 @@
         "¿Qué es la ortodoncia?",
         "¿Cuándo hace falta?",
         "Tipos de brackets",
-        "Ortopedia en chicos",
+        "Ortopedia en niños",
         "Brackets o alineadores: comparativa",
         "Cómo es el tratamiento, paso a paso",
         "Cuidados y retenedores",
@@ -291,7 +291,7 @@
       "estado": "si",
       "clave": "odontólogo [obra social] Santa Fe",
       "title": "Obras sociales y prepagas: clínica dental en Santa Fe",
-      "description": "Obras sociales y prepagas que atendemos en nuestra clínica dental de Santa Fe, qué cubren y qué llevar al turno.",
+      "description": "Obras sociales y prepagas que atiende nuestro centro odontológico en Santa Fe, qué cubren y qué llevar al turno.",
       "h1": "Obras sociales y prepagas que atendemos",
       "h2s": [
         {
@@ -312,8 +312,8 @@
       "tipo": "info",
       "estado": "si",
       "clave": "primera consulta odontológica Santa Fe",
-      "title": "Primera consulta odontológica en Santa Fe",
-      "description": "Qué hacemos en tu primera consulta odontológica en Santa Fe, cuánto dura, qué cubre tu obra social y cómo sacar turno.",
+      "title": "Primera consulta con el dentista en Santa Fe",
+      "description": "Qué se hace en la primera consulta con el dentista en nuestra clínica dental de Santa Fe, cuánto dura y cómo pedir turno.",
       "h1": "Tu primera consulta, paso a paso",
       "h2s": [
         "Qué hacemos en la primera consulta",
@@ -335,9 +335,9 @@
       "tipo": "equipo",
       "estado": "si",
       "clave": "odontólogos [nombre] Santa Fe",
-      "title": "Nuestros odontólogos en Santa Fe",
-      "description": "Conocé a los odontólogos de nuestra clínica dental en Santa Fe: especialidad y matrícula de cada uno.",
-      "h1": "Nuestro equipo de odontólogos en Santa Fe",
+      "title": "Dentistas de nuestra clínica dental en Santa Fe",
+      "description": "El equipo de dentistas de nuestro centro odontológico en Santa Fe: especialidad y matrícula de cada profesional.",
+      "h1": "Nuestros dentistas en Santa Fe",
       "h2s": [
         {
           "t": "Profesionales",
@@ -355,8 +355,8 @@
       "tipo": "turnos",
       "estado": "si",
       "clave": "turno dentista Santa Fe · clínica dental Santa Fe dirección",
-      "title": "Contacto y turnos: clínica dental en Santa Fe",
-      "description": "Dirección, horario y formas de pedir turno en nuestra clínica dental de Santa Fe.",
+      "title": "Contacto: clínica dental y dentista en Santa Fe",
+      "description": "Dirección, horario y formas de pedir turno en nuestra clínica dental y centro odontológico de Santa Fe.",
       "h1": "Contacto y turnos",
       "h2s": [
         {
@@ -407,7 +407,7 @@
       "estado": "si",
       "clave": "",
       "title": "Política de privacidad",
-      "description": "Cómo tratamos tus datos personales cuando nos escribís o sacás turno.",
+      "description": "Cómo tratamos tus datos personales cuando nos escribís o pedís turno.",
       "h1": "Política de privacidad",
       "h2s": [
         "[Texto legal pendiente: comprobar con fuente oficial la ley argentina de datos personales]"

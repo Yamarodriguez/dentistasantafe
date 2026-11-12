@@ -4,9 +4,14 @@
     "clave": "periodoncia",
     "min": 6,
     "max": 11,
-    "ciudad": "Santa Fe"
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
   },
-  "intro": "La periodoncia trata las enfermedades de las encías, desde la gingivitis hasta la periodontitis. Acá te contamos cómo reconocerlas y cómo se tratan.",
+  "intro": "La periodoncia trata las enfermedades de las encías, desde la gingivitis hasta la periodontitis. En esta página, nuestra clínica dental en Santa Fe explica cómo reconocerlas, cómo se tratan y cómo evitar que avancen.",
   "fuentes": [
     "mlp-encias"
   ],

@@ -4,9 +4,14 @@
     "clave": "implantes? dental(es)?",
     "min": 6,
     "max": 11,
-    "ciudad": "Santa Fe"
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
   },
-  "intro": "Los implantes dentales reemplazan dientes que faltan con una raíz artificial que se coloca en el hueso y sostiene un diente nuevo. Acá te contamos qué es un implante, cómo es el tratamiento y qué conviene preguntar antes de empezar.",
+  "intro": "Los implantes dentales reemplazan dientes que faltan con una raíz artificial que se coloca en el hueso y sostiene un diente nuevo. En esta página, nuestra clínica dental en Santa Fe explica qué es un implante, cómo es el tratamiento y qué conviene consultar con el dentista antes de empezar.",
   "fuentes": [
     "fda-implantes",
     "mlp-radiografias"

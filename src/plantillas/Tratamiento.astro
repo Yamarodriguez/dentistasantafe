@@ -3,15 +3,16 @@
 // src/data/contenido/<slug>.json) → bloques fijos → autor, revisión y fuentes.
 import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
+import Dibujo from '../components/Dibujo.astro';
 import hechos from '../data/hechos.json';
 import { site, pendiente } from '../lib/datos.js';
 
 const { pagina } = Astro.props;
 const c = pagina.contenido;
 const fijos = [
-  { t: 'Quién te atiende', bloque: 'equipo' },
+  { t: 'Tu dentista en Santa Fe', bloque: 'equipo' },
   { t: '¿Lo cubre mi obra social?', bloque: 'obras' },
-  { t: 'Dónde estamos en Santa Fe', bloque: 'mapa' },
+  { t: 'Nuestro centro odontológico en Santa Fe', bloque: 'mapa' },
   { t: 'Opiniones de pacientes', bloque: 'opiniones' },
   { t: 'Preguntas frecuentes', bloque: 'faq' },
 ];
@@ -23,13 +24,16 @@ const fuentes = (c?.fuentes ?? []).map((id) => hechos.fuentes[id]).filter(Boolea
     <nav class="migas" aria-label="Migas">
       <a href="/">Inicio</a> › <a href="/tratamientos/">Tratamientos</a> › {pagina.nombre}
     </nav>
-    <section class="heroe">
+    <section class="heroe heroe-tratamiento">
+      <div>
       <h1>{pagina.h1}</h1>
       <p class="entrada">{c?.intro ?? pagina.description}</p>
       <div class="botones">
         <a class="boton" href="/contacto/">Pedir turno</a>
         <a class="boton secundario" href="/primera-consulta/">Tu primera consulta</a>
       </div>
+      </div>
+      <div class="dibujo-grande"><Dibujo slug={pagina.slug} tam={180} /></div>
     </section>
     <Secciones pagina={pagina} />
     <Secciones pagina={pagina} h2s={fijos} />

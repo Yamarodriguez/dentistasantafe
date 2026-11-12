@@ -140,6 +140,19 @@
 .web th { background: var(--banda); font-weight: 600; }
 .web .ficha-autor { margin: 1rem 0 3rem; padding: 1.25rem 1.5rem; border: 1px solid var(--borde); border-radius: var(--radio); font-size: .92rem; color: var(--suave); max-width: 760px; }
 .web .ficha-autor p { margin: 0 0 .5rem; }
+/* Dibujos de tratamientos */
+.web .dibujo { display: block; flex: none; }
+.web .tarjeta .dibujo { width: 64px; height: 64px; margin-bottom: .25rem; }
+.web .categoria li a .dibujo.mini { width: 30px; height: 30px; }
+.web .categoria li a { align-items: center; }
+.web .categoria li a .nombre { flex: 1; }
+.web .heroe-tratamiento { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center; }
+.web .dibujo-grande { width: 220px; height: 220px; border-radius: 50%; background: var(--banda); display: grid; place-items: center; }
+@media (max-width: 760px) {
+  .web .heroe-tratamiento { grid-template-columns: 1fr; }
+  .web .dibujo-grande { width: 140px; height: 140px; order: -1; }
+  .web .dibujo-grande .dibujo { width: 100px; height: 100px; }
+}
 .web .marcas { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; font-weight: 600; color: var(--suave); }
 .web .destacado { display: flex; gap: .6rem; align-items: flex-start; font-weight: 600; color: var(--texto); }
 .web .destacado svg { width: 22px; height: 22px; color: var(--accion); flex: none; margin-top: .15rem; }

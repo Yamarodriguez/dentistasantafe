@@ -4,9 +4,14 @@
     "clave": "blanqueamiento dental|carillas dentales",
     "min": 6,
     "max": 11,
-    "ciudad": "Santa Fe"
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
   },
-  "intro": "La estética dental busca mejorar el color y la forma de los dientes, con blanqueamiento dental, carillas dentales o coronas según el caso. Acá te contamos qué opción sirve para cada tipo de mancha.",
+  "intro": "La estética dental busca mejorar el color y la forma de los dientes, con blanqueamiento dental, carillas dentales o coronas según el caso. En esta página, nuestro centro odontológico en Santa Fe explica qué opción corresponde a cada tipo de mancha.",
   "fuentes": [
     "mlp-color",
     "mlp-coronas"

@@ -19,6 +19,9 @@ const id = (h) => (h.bloque === 'faq' ? 'preguntas-frecuentes' : undefined);
 const banda = (h) => ['tratamientos', 'opiniones', 'promociones'].includes(h.bloque) && pagina.tipo === 'portada';
 const foto = (h) => h.foto && site.fotos[h.foto];
 const textos = pagina.contenido?.secciones ?? {};
+// Antetítulo: rota entre «clínica dental», «dentista» y «centro odontológico» (fijo por H2).
+const variantes = site.antetitulos ?? [site.antetitulo];
+const ante = (h) => variantes[[...h.t].reduce((a, ch) => a + ch.charCodeAt(0), 0) % variantes.length];
 ---
 {visibles.map((h) => (
   <section
@@ -29,7 +32,7 @@ const textos = pagina.contenido?.secciones ?? {};
       <img class="foto-seccion" src={foto(h)} alt={`${site.nombre}: ${titulo(h)}`} width="800" height="1067" loading="lazy" />
     )}
     <div class="seccion-cuerpo">
-      <p class="antetitulo">{site.antetitulo}</p>
+      <p class="antetitulo">{ante(h)}</p>
       <h2>{titulo(h)}</h2>
       {textos[h.t] && <Texto bloques={textos[h.t]} />}
       {h.bloque

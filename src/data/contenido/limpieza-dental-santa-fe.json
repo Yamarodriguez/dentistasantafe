@@ -4,9 +4,14 @@
     "clave": "limpieza dental|limpieza profesional",
     "min": 6,
     "max": 11,
-    "ciudad": "Santa Fe"
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
   },
-  "intro": "En esta página te contamos qué es la limpieza dental profesional, cada cuánto se aconseja, cómo se arreglan las caries y qué es el bruxismo.",
+  "intro": "La limpieza dental profesional y los controles con el dentista ayudan a cuidar dientes y encías. En esta página, nuestra clínica dental en Santa Fe explica cada cuánto se aconseja, cómo se tratan las caries y qué es el bruxismo.",
   "fuentes": [
     "mlp-caries",
     "mlp-encias",
@@ -23,12 +28,12 @@
     "Cada cuánto conviene hacerla": [
       "MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) aconseja una limpieza profesional cada 6 meses.",
       "Si tenés enfermedad de las encías, el odontólogo puede indicarte otro plazo.",
-      "Entre una y otra, en casa:",
+      "Entre una limpieza y otra, en casa:",
       {
         "lista": [
           "Cepillarse al menos dos veces al día.",
           "Usar hilo dental al menos una vez al día.",
-          "Picotear menos y tomar menos bebidas azucaradas."
+          "Reducir las comidas entre horas y las bebidas azucaradas."
         ]
       },
       "La limpieza profesional regular, junto con el cepillado y el hilo dental, también ayuda a revertir la gingivitis.",

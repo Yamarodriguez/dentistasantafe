@@ -4,9 +4,14 @@
     "clave": "ortodoncia invisible",
     "min": 6,
     "max": 11,
-    "ciudad": "Santa Fe"
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
   },
-  "intro": "La ortodoncia invisible mueve los dientes con alineadores transparentes, sin brackets ni alambres. [Pendiente: qué ofrece la clínica en ortodoncia con alineadores]",
+  "intro": "La ortodoncia invisible mueve los dientes con alineadores transparentes, sin brackets ni alambres. En esta página, nuestra clínica dental en Santa Fe explica en qué consiste y para quién puede ser una opción. [Pendiente: qué ofrece la clínica en ortodoncia con alineadores]",
   "fuentes": [
     "mlp-maloclusion"
   ],

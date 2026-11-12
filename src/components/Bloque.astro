@@ -3,6 +3,7 @@
 // Si falta el dato, pone [Pendiente: …] (nunca se inventa nada).
 import { site, ruta, tratamientos, enlaceTurno, pendiente } from '../lib/datos.js';
 import Formulario from './Formulario.astro';
+import Dibujo from './Dibujo.astro';
 
 const { tipo, pagina } = Astro.props;
 const sedes = pagina.sede ? site.sedes.filter((s) => s.id === pagina.sede) : site.sedes;
@@ -31,6 +32,7 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
     <div class="tarjetas">
       {tratamientos.filter((t) => t.grupo === g).map((t) => (
         <article class="tarjeta">
+          <Dibujo slug={t.slug} tam={64} />
           <h4><a href={ruta(t.slug)}>{t.nombre}</a></h4>
           <p>{t.description}</p>
           <a class="mas" href={ruta(t.slug)} aria-label={`Más sobre ${t.nombre}`}>Ver tratamiento →</a>
@@ -104,7 +106,7 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
         <h3>{g}</h3>
         <ul>
           {tratamientos.filter((t) => t.grupo === g).map((t) => (
-            <li><a href={ruta(t.slug)}>{t.nombre} <span aria-hidden="true">→</span></a></li>
+            <li><a href={ruta(t.slug)}><Dibujo slug={t.slug} tam={30} clase="mini" /><span class="nombre">{t.nombre}</span> <span aria-hidden="true">→</span></a></li>
           ))}
         </ul>
       </article>
@@ -116,7 +118,7 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
   <div class="tarjetas">
     {tratamientos.map((t) => (
       <article class="tarjeta">
-        <svg class="icono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 3c-2.5 0-4 2-4 4.5 0 3 1.5 5 2 8 .4 2.6 1 5.5 2.5 5.5S9.5 17 12 17s3 4 4.5 4 2.1-2.9 2.5-5.5c.5-3 2-5 2-8C21 5 19.5 3 17 3c-2 0-3 1-5 1S9 3 7 3z"/></svg>
+        <Dibujo slug={t.slug} tam={64} />
         <h3><a href={ruta(t.slug)}>{t.nombre}</a></h3>
         <p>{t.description}</p>
         <a class="mas" href={ruta(t.slug)} aria-label={`Más sobre ${t.nombre}`}>Ver tratamiento →</a>
