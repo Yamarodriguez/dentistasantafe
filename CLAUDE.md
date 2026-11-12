@@ -139,8 +139,9 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   tratamiento es H4 dentro de su grupo. Propuesto y sin hacer: página de cirugía oral / muelas de
   juicio (si el Dr. Vera la hace) y blog (después de publicar).
 - Fotos de «Opiniones» y «Pedir turno»: **sin personas** (Yama, 2026-11-12, no le gustaron ni el cepillo
-  ni las dos mujeres) → sillones color crema (Yanhao Fang) y bolígrafo con espigas sobre madera clara
-  (Sibeli Velázquez), en beige como el tema dorado.
+  ni las dos mujeres). **Opiniones = foto real de la sala de espera** (IMG_5927, pedida por Yama
+  2026-11-12: recorte 4:5 sin la columna, luz y color; marca/fotos-propias/sala-de-espera-opiniones.jpg,
+  scratchpad mejorar-sala.py). Pedir turno = bolígrafo con espigas sobre madera clara (Sibeli Velázquez).
 - «¿Por qué elegir…?»: recuadros como COV (blancos, esquinas redondeadas, icono propio en círculo
   suave, título Open Sans 700 centrado, texto gris centrado). Iconos por título en Bloque.astro.
 
