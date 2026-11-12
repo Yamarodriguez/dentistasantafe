@@ -24,8 +24,8 @@ export const ruta = (slug) => (slug ? `/${slug}/` : '/');
 
 export const tratamientos = paginas.filter((p) => p.tipo === 'tratamiento');
 
-// Orden de los grupos de tratamientos (portada, índice y menú): Odontología general, luego Estética dental.
-const ORDEN_GRUPOS = ['Odontología general', 'Estética dental', 'Implantología y prótesis', 'Ortodoncia'];
+// Orden de los grupos (portada, índice y menú): arriba Implantología y Ortodoncia; abajo Odontología general y Estética dental.
+const ORDEN_GRUPOS = ['Implantología y prótesis', 'Ortodoncia', 'Odontología general', 'Estética dental'];
 export const grupos = [...new Set(tratamientos.map((t) => t.grupo))]
   .sort((a, b) => ORDEN_GRUPOS.indexOf(a) - ORDEN_GRUPOS.indexOf(b));
 
