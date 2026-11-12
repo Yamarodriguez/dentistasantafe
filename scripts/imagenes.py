@@ -32,7 +32,7 @@ IMAGENES = [
     (U + "ortodoncia.jpg", "fotos/preguntas-frecuentes-clinica-dental.webp", 900),
     (U + "mujer-sonriendo-fondo-blanco.jpg", "fotos/turno-clinica-dental-santa-fe.webp", 900),
     # Foto real (IMG_5694 mejorada; Yama confirma que es el Od. Ignacio Vera y que se publica)
-    ("marca/fotos-propias/odontologo-consultorio-santa-fe.jpg", "fotos/od-ignacio-vera-clinica-dental-santa-fe.webp", 900),
+    ("marca/fotos-propias/od-ignacio-vera-retrato.jpg", "fotos/od-ignacio-vera-clinica-dental-santa-fe.webp", 900),
     # Tratamientos (primer H2 de cada página)
     (U + "implantes.jpg", "fotos/implantes-dentales-santa-fe.webp", 900),
     (U + "protesis.jpg", "fotos/protesis-dentales-santa-fe.webp", 900),

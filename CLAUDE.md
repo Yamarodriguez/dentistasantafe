@@ -123,7 +123,7 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   4:5, luz en sombras, contraste, tono cálido, nitidez) → marca/fotos-propias/. En local como
   provisional-odontologo-consultorio-santa-fe.webp en «Nuestros dentistas» y ficha del equipo.
   **Yama confirma (2026-11-12): es el Od. Ignacio Vera y se publica** → public/img/fotos/
-  od-ignacio-vera-clinica-dental-santa-fe.webp (portada «Nuestros dentistas», equipo, schema Person.image).
+  od-ignacio-vera-clinica-dental-santa-fe.webp (portada «Nuestros dentistas», equipo, schema Person.image). Recorte de retrato (cara y hombros, Yama 2026-11-12) desde marca/fotos-propias/od-ignacio-vera-retrato.jpg.
 - Letra (Yama, 2026-11-12, captura de COV): **Open Sans** en títulos y texto; Playfair solo en
   nombres de tarjetas.
 - Servicios de la portada en recuadros con dibujo (3 columnas) y obras sociales en recuadros
