@@ -90,5 +90,11 @@
   ],
   "fotos": {
     "¿Te sangran las encías?": "periodoncia"
-  }
+  },
+  "resumen": [
+    "La periodoncia trata las enfermedades de las encías: la gingivitis (leve) y la periodontitis (avanzada).",
+    "Encías rojas, hinchadas o que sangran con facilidad pueden ser gingivitis.",
+    "La gingivitis suele revertirse con cepillado, hilo dental y limpiezas profesionales.",
+    "La enfermedad de las encías se relaciona con el tabaco y con la diabetes."
+  ]
 }

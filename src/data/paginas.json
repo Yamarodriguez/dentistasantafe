@@ -27,7 +27,9 @@
         },
         {
           "t": "Tratamientos dentales en Santa Fe",
-          "bloque": "tratamientos"
+          "bloque": "tratamientos",
+          "foto": "tratamientos",
+          "disposicion": "foto-abajo"
         },
         {
           "t": "Obras sociales y prepagas",
@@ -39,7 +41,8 @@
           "boton": {
             "t": "Cómo es la primera consulta",
             "href": "/primera-consulta/"
-          }
+          },
+          "foto": "primera"
         },
         {
           "t": "Promociones destacadas",
@@ -48,11 +51,13 @@
         },
         {
           "t": "Opiniones de nuestros pacientes",
-          "bloque": "opiniones"
+          "bloque": "opiniones",
+          "foto": "opiniones"
         },
         {
           "t": "Nuestros dentistas en Santa Fe: título y matrícula",
-          "bloque": "equipo"
+          "bloque": "equipo",
+          "foto": "dentistas"
         },
         {
           "t": "Reconocimiento",
@@ -66,11 +71,13 @@
         },
         {
           "t": "Preguntas frecuentes sobre nuestra clínica dental",
-          "bloque": "faq"
+          "bloque": "faq",
+          "foto": "faq"
         },
         {
           "t": "Cómo llegar a nuestra clínica dental en Santa Fe",
-          "bloque": "mapa"
+          "bloque": "mapa",
+          "foto": "llegar"
         },
         {
           "t": "Solicitar información sobre el tratamiento que necesitás",

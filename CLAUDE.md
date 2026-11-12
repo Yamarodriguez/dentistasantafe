@@ -112,6 +112,12 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   2026-11-12). Sigue sin subirse a Git → en Netlify el héroe sale sin foto hasta que Yama
   confirme que se puede publicar. «¿Por qué elegir…?»: título arriba y debajo foto | H3
   (`"disposicion": "foto-abajo"` en paginas.json).
+- **Foto en cada H2 de la portada** y **nombre de archivo con la palabra clave del H2**
+  (p. ej. clinica-dental-santa-fe-consultorio.webp, implantes-dentales-santa-fe.webp); alt
+  descriptivo + «(imagen ilustrativa)» (son de stock: no se presentan como la clínica real).
+  Tabla en scripts/imagenes.py. Tratamientos: 1 foto (primer H2); más fotos por tratamiento
+  requieren descargar más (pedir permiso). **Resumen rápido** («En resumen», 4 frases de la
+  lista blanca) arriba de cada tratamiento, para fragmentos de Google y buscadores con IA.
 - Letra (Yama, 2026-11-12, captura de COV): **Open Sans** en títulos y texto; Playfair solo en
   nombres de tarjetas.
 - Servicios de la portada en recuadros con dibujo (3 columnas) y obras sociales en recuadros

@@ -136,5 +136,11 @@
   ],
   "fotos": {
     "¿Qué es una prótesis dental?": "protesis"
-  }
+  },
+  "resumen": [
+    "Una prótesis dental reemplaza dientes que faltan: puede ser removible (dentadura) o fija (corona o puente).",
+    "Una corona cubre y protege un diente débil, roto o gastado; la mayoría dura al menos 5 años y puede llegar a 15 o 20.",
+    "Una corona suele hacerse en dos visitas, con una corona provisoria entre una y otra.",
+    "La prótesis removible se cepilla todos los días y se saca de noche."
+  ]
 }

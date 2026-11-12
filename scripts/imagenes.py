@@ -1,9 +1,10 @@
 """Convierte las imágenes originales a webp con su tamaño real de uso (Fase 4).
 
 Uso:  python -I scripts/imagenes.py [--seco]
-Origen y destino en la tabla IMAGENES. Idempotente: solo rehace si el original es
-más nuevo. Originales en la raíz (logo) y en marca/unsplash/ (no se suben a Git);
-los webp de public/img/ sí se suben. Necesita Pillow. Código 1 si falta algún original.
+El nombre de cada webp lleva la palabra clave del H2 donde se usa (SEO de imágenes).
+Idempotente: solo rehace si el original es más nuevo. Originales en la raíz y en
+marca/unsplash/ (no se suben a Git); los webp de public/img/ sí, salvo provisional-*.
+Necesita Pillow. Código 1 si falta algún original.
 """
 import sys
 from pathlib import Path
@@ -12,24 +13,35 @@ from PIL import Image
 RAIZ = Path(__file__).resolve().parent.parent
 SECO = "--seco" in sys.argv
 U = "marca/unsplash/"
+REC1 = "Recepción dental elegante en tonos dorados.png"
+REC2 = "05883ff8-df21-429f-949b-8de9d56c9aa4.png"
 
 # (original, destino en public/img, ancho en píxeles)
 IMAGENES = [
-    ("logo.jpg", "logo-88.webp", 88),                       # cabecera y pie (44 px x2)
-    (U + "sonrisa-heroe.jpg", "fotos/sonrisa-heroe.webp", 1600),   # héroe de portada
-    (U + "consultorio.jpg", "fotos/consultorio.webp", 900),        # secciones (se ven a ~500 px)
-    (U + "dentista-paciente.jpg", "fotos/dentista-paciente.webp", 900),
-    (U + "sillon.jpg", "fotos/sillon.webp", 900),
-    (U + "sonrisa-turno.jpg", "fotos/sonrisa-turno.webp", 900),
-    (U + "implantes.jpg", "fotos/implantes.webp", 900),
-    (U + "protesis.jpg", "fotos/protesis.webp", 900),
-    (U + "ortodoncia.jpg", "fotos/ortodoncia.webp", 900),
-    (U + "alineador.jpg", "fotos/alineador.webp", 900),
-    (U + "conducto.jpg", "fotos/conducto.webp", 900),
-    (U + "periodoncia.jpg", "fotos/periodoncia.webp", 900),
-    (U + "estetica.jpg", "fotos/estetica.webp", 900),
-    (U + "ninos.jpg", "fotos/limpieza.webp", 900),        # joven cepillándose → Limpieza
-    (U + "limpieza.jpg", "fotos/ninos.webp", 900),        # cepillos de colores → Odontopediatría
+    ("logo.jpg", "logo-88.webp", 88),
+    # Provisionales (renders de Yama, no se suben): héroe y «Cómo llegar»
+    (REC1, "provisional-recepcion.webp", 1600),
+    (REC2, "provisional-como-llegar-clinica-dental-santa-fe.webp", 900),
+    # Portada (una por H2)
+    (U + "consultorio.jpg", "fotos/clinica-dental-santa-fe-consultorio.webp", 900),
+    (U + "dentista-paciente.jpg", "fotos/dentista-santa-fe-clinica-dental.webp", 900),
+    (U + "protesis.jpg", "fotos/tratamientos-dentales-santa-fe.webp", 900),
+    (U + "sillon.jpg", "fotos/obras-sociales-clinica-dental-santa-fe.webp", 900),
+    (U + "implantes.jpg", "fotos/primera-consulta-dentista-santa-fe.webp", 900),
+    (U + "limpieza.jpg", "fotos/opiniones-clinica-dental-santa-fe.webp", 900),
+    (U + "periodoncia.jpg", "fotos/dentistas-santa-fe-matricula.webp", 900),
+    (U + "ortodoncia.jpg", "fotos/preguntas-frecuentes-clinica-dental.webp", 900),
+    (U + "sonrisa-heroe.jpg", "fotos/turno-clinica-dental-santa-fe.webp", 900),
+    # Tratamientos (primer H2 de cada página)
+    (U + "implantes.jpg", "fotos/implantes-dentales-santa-fe.webp", 900),
+    (U + "protesis.jpg", "fotos/protesis-dentales-santa-fe.webp", 900),
+    (U + "ortodoncia.jpg", "fotos/ortodoncia-santa-fe-brackets.webp", 900),
+    (U + "alineador.jpg", "fotos/ortodoncia-invisible-santa-fe.webp", 900),
+    (U + "conducto.jpg", "fotos/tratamiento-de-conducto-santa-fe.webp", 900),
+    (U + "periodoncia.jpg", "fotos/periodoncia-santa-fe.webp", 900),
+    (U + "estetica.jpg", "fotos/estetica-dental-santa-fe.webp", 900),
+    (U + "ninos.jpg", "fotos/limpieza-dental-santa-fe.webp", 900),
+    (U + "limpieza.jpg", "fotos/odontopediatra-santa-fe.webp", 900),
 ]
 
 fallos = 0

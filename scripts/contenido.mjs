@@ -59,7 +59,7 @@ for (const f of archivos) {
     }
     for (const b of bloques) if (b.h3 && !/\?\s*$/.test(b.h3)) errores.push(`H3 sin pregunta: «${b.h3}»`);
   }
-  const todo = [c.intro ?? '', ...Object.values(c.secciones ?? {}).flat().map(textoDe),
+  const todo = [c.intro ?? '', ...(c.resumen ?? []), ...Object.values(c.secciones ?? {}).flat().map(textoDe),
     ...(c.faq ?? []).flatMap((x) => [x.q, x.a])].join(' ');
   const malas = [...new Set(todo.match(PROHIBIDAS) || [])];
   if (malas.length) errores.push(`palabras prohibidas: ${malas.join(', ')}`);

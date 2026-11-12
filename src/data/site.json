@@ -14,56 +14,80 @@
       "alt": "Recepción de una clínica dental en tonos dorados (imagen provisional)"
     },
     "consulta": {
-      "src": "/img/fotos/consultorio.webp",
-      "alt": "Consultorio dental luminoso con sillón y equipamiento"
+      "src": "/img/fotos/clinica-dental-santa-fe-consultorio.webp",
+      "alt": "Consultorio de clínica dental con sillón y equipamiento (imagen ilustrativa)"
     },
     "porque": {
-      "src": "/img/fotos/dentista-paciente.webp",
-      "alt": "Dentista conversando con una paciente en el consultorio"
+      "src": "/img/fotos/dentista-santa-fe-clinica-dental.webp",
+      "alt": "Dentista conversando con una paciente en el consultorio (imagen ilustrativa)"
+    },
+    "tratamientos": {
+      "src": "/img/fotos/tratamientos-dentales-santa-fe.webp",
+      "alt": "Instrumental para tratamientos dentales (imagen ilustrativa)"
     },
     "obras": {
-      "src": "/img/fotos/sillon.webp",
-      "alt": "Sillón dental blanco junto a una ventana"
+      "src": "/img/fotos/obras-sociales-clinica-dental-santa-fe.webp",
+      "alt": "Sillón de clínica dental junto a una ventana (imagen ilustrativa)"
+    },
+    "primera": {
+      "src": "/img/fotos/primera-consulta-dentista-santa-fe.webp",
+      "alt": "Revisión de la boca en la primera consulta con el dentista (imagen ilustrativa)"
+    },
+    "opiniones": {
+      "src": "/img/fotos/opiniones-clinica-dental-santa-fe.webp",
+      "alt": "Cepillos de dientes de colores en una taza (imagen ilustrativa)"
+    },
+    "dentistas": {
+      "src": "/img/fotos/dentistas-santa-fe-matricula.webp",
+      "alt": "Espejo y sonda, instrumental del dentista (imagen ilustrativa)"
+    },
+    "faq": {
+      "src": "/img/fotos/preguntas-frecuentes-clinica-dental.webp",
+      "alt": "Modelos de dientes con brackets (imagen ilustrativa)"
+    },
+    "llegar": {
+      "src": "/img/provisional-como-llegar-clinica-dental-santa-fe.webp",
+      "alt": "Recepción de una clínica dental en tonos dorados (imagen provisional)"
     },
     "turno": {
-      "src": "/img/fotos/sonrisa-heroe.webp",
-      "alt": "Mujer sonriendo"
+      "src": "/img/fotos/turno-clinica-dental-santa-fe.webp",
+      "alt": "Mujer sonriendo (imagen ilustrativa)"
     },
     "implantes": {
-      "src": "/img/fotos/implantes.webp",
-      "alt": "Revisión de la boca con espejo e instrumental dental"
+      "src": "/img/fotos/implantes-dentales-santa-fe.webp",
+      "alt": "Revisión dental antes de un tratamiento de implantes dentales (imagen ilustrativa)"
     },
     "protesis": {
-      "src": "/img/fotos/protesis.webp",
-      "alt": "Mano con guante sosteniendo instrumental dental"
+      "src": "/img/fotos/protesis-dentales-santa-fe.webp",
+      "alt": "Instrumental para prótesis dentales y coronas (imagen ilustrativa)"
     },
     "ortodoncia": {
-      "src": "/img/fotos/ortodoncia.webp",
-      "alt": "Modelos de dientes con brackets"
+      "src": "/img/fotos/ortodoncia-santa-fe-brackets.webp",
+      "alt": "Modelos de dientes con brackets de ortodoncia (imagen ilustrativa)"
     },
     "alineador": {
-      "src": "/img/fotos/alineador.webp",
-      "alt": "Persona colocándose un alineador transparente"
+      "src": "/img/fotos/ortodoncia-invisible-santa-fe.webp",
+      "alt": "Persona colocándose un alineador de ortodoncia invisible (imagen ilustrativa)"
     },
     "conducto": {
-      "src": "/img/fotos/conducto.webp",
-      "alt": "Dentista atendiendo a un paciente"
+      "src": "/img/fotos/tratamiento-de-conducto-santa-fe.webp",
+      "alt": "Dentista atendiendo a un paciente en el sillón (imagen ilustrativa)"
     },
     "periodoncia": {
-      "src": "/img/fotos/periodoncia.webp",
-      "alt": "Espejo y sonda dental"
+      "src": "/img/fotos/periodoncia-santa-fe.webp",
+      "alt": "Espejo y sonda para revisar las encías (imagen ilustrativa)"
     },
     "estetica": {
-      "src": "/img/fotos/estetica.webp",
-      "alt": "Mujer de pelo oscuro sonriendo"
+      "src": "/img/fotos/estetica-dental-santa-fe.webp",
+      "alt": "Mujer sonriendo, estética dental (imagen ilustrativa)"
     },
     "limpieza": {
-      "src": "/img/fotos/limpieza.webp",
-      "alt": "Joven cepillándose los dientes"
+      "src": "/img/fotos/limpieza-dental-santa-fe.webp",
+      "alt": "Joven cepillándose los dientes, limpieza dental (imagen ilustrativa)"
     },
     "ninos": {
-      "src": "/img/fotos/ninos.webp",
-      "alt": "Cepillos de dientes de colores en una taza"
+      "src": "/img/fotos/odontopediatra-santa-fe.webp",
+      "alt": "Cepillos de dientes de colores para niños (imagen ilustrativa)"
     }
   },
   "_confirmar": "confirmado: false = los textos de primera_consulta, ventajas y porque vienen de la estructura de COV y Yama aún no ha confirmado que sean ciertos en su clínica. Mientras sea false, la web muestra un aviso [Pendiente] (el validador lo cuenta).",

@@ -35,6 +35,12 @@ const fuentes = (c?.fuentes ?? []).map((id) => hechos.fuentes[id]).filter(Boolea
       </div>
       <div class="dibujo-grande"><Dibujo slug={pagina.slug} tam={180} /></div>
     </section>
+    {c?.resumen?.length > 0 && (
+      <aside class="resumen" aria-label={`En resumen: ${pagina.nombre}`}>
+        <p class="resumen-titulo">En resumen</p>
+        <ul>{c.resumen.map((x) => <li>{x}</li>)}</ul>
+      </aside>
+    )}
     <Secciones pagina={pagina} />
     <Secciones pagina={pagina} h2s={fijos} />
     {c && (

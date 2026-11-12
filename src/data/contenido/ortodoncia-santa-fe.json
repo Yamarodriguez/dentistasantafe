@@ -106,5 +106,11 @@
   ],
   "fotos": {
     "¿Qué es la ortodoncia?": "ortodoncia"
-  }
+  },
+  "resumen": [
+    "La ortodoncia corrige la maloclusión: cuando los dientes de arriba y los de abajo no encajan bien.",
+    "Se hace con brackets fijos o, en algunos casos, con alineadores transparentes.",
+    "El tratamiento suele durar de 6 meses a más de 2 años, según el caso.",
+    "Después de los brackets hace falta un retenedor."
+  ]
 }
