@@ -42,6 +42,7 @@ function personas() {
     '@id': abs(`/equipo/#${slugPersona(p)}`),
     name: sinTitulo(p.nombre),
     jobTitle: 'Odontólogo',
+    image: p.foto ? abs(p.foto) : undefined,
     honorificPrefix: p.nombre.match(/^(Od\.|Dra?\.)/)?.[1],
     knowsAbout: p.especialidad,
     identifier: real(p.matricula) ? { '@type': 'PropertyValue', name: 'Matrícula', value: p.matricula } : undefined,

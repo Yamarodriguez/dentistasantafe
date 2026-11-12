@@ -122,7 +122,8 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   decodificador de Windows (PowerShell + PresentationCore; Pillow no lee HEIC), mejorada (encuadre
   4:5, luz en sombras, contraste, tono cálido, nitidez) → marca/fotos-propias/. En local como
   provisional-odontologo-consultorio-santa-fe.webp en «Nuestros dentistas» y ficha del equipo.
-  **No se sube** hasta que Yama confirme quién es (¿Od. Ignacio Vera?) y que se puede publicar.
+  **Yama confirma (2026-11-12): es el Od. Ignacio Vera y se publica** → public/img/fotos/
+  od-ignacio-vera-clinica-dental-santa-fe.webp (portada «Nuestros dentistas», equipo, schema Person.image).
 - Letra (Yama, 2026-11-12, captura de COV): **Open Sans** en títulos y texto; Playfair solo en
   nombres de tarjetas.
 - Servicios de la portada en recuadros con dibujo (3 columnas) y obras sociales en recuadros

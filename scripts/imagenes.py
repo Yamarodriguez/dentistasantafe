@@ -29,9 +29,10 @@ IMAGENES = [
     (U + "sillon.jpg", "fotos/obras-sociales-clinica-dental-santa-fe.webp", 900),
     (U + "implantes.jpg", "fotos/primera-consulta-dentista-santa-fe.webp", 900),
     (U + "limpieza.jpg", "fotos/opiniones-clinica-dental-santa-fe.webp", 900),
-    (U + "periodoncia.jpg", "fotos/dentistas-santa-fe-matricula.webp", 900),
     (U + "ortodoncia.jpg", "fotos/preguntas-frecuentes-clinica-dental.webp", 900),
     (U + "sonrisa-heroe.jpg", "fotos/turno-clinica-dental-santa-fe.webp", 900),
+    # Foto real (IMG_5694 mejorada; Yama confirma que es el Od. Ignacio Vera y que se publica)
+    ("marca/fotos-propias/odontologo-consultorio-santa-fe.jpg", "fotos/od-ignacio-vera-clinica-dental-santa-fe.webp", 900),
     # Tratamientos (primer H2 de cada página)
     (U + "implantes.jpg", "fotos/implantes-dentales-santa-fe.webp", 900),
     (U + "protesis.jpg", "fotos/protesis-dentales-santa-fe.webp", 900),
