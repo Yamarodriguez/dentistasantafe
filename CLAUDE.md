@@ -78,6 +78,8 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
 - Fotos: `public/img/provisional-*.jpg` = renders de recepción que pasó Yama; parecen
   hechos con IA. **No se suben** (.gitignore) ni se publican como reales sin que Yama lo
   confirme; el validador los cuenta como resto. Las `IMG_*.HEIC` no se han podido ver.
+  2026-11-12: Yama dice «aún no» a subirlas → en Netlify las versiones en vivo saldrán sin
+  foto en el héroe ni en «Quiénes somos». No volver a preguntarlo hasta que traiga fotos.
 - Fase 0 **cerrada el 2026-11-12**: Yama aprueba la lista de páginas del apartado 13
   (dos sedes, 19 páginas + legales).
 - Hecho (2026-11-12): Valencia como **modelo** (13 webs, 153 páginas,
