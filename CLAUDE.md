@@ -153,8 +153,9 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   odontólogo con matrícula los revisa y firma). Tanda 2 propuesta: prótesis, estética,
   limpieza y operatoria, odontopediatra, portada → **tanda 2 hecha (2026-11-12)** con 9 fuentes nuevas (MedlinePlus, NIDCR; 81 hechos) y la revisión de 5 subagentes aplicada. Quedan sin texto: tratamientos (índice), obras sociales, primera consulta, equipo, contacto (casi todo datos de la clínica).
 - Diseño: **ELEGIDO DORADO SERENO (Yama, 2026-11-12; dijo primero «oliva» y lo corrigió:
-  «dorado, no oliva»)**. Solo queda el tema dorado en temas.json; ramas de diseño unidas a
-  `main` y borradas. Estructura de COV:
+  «dorado, no oliva»)**. Solo queda el tema dorado en temas.json; unido a `main` (840f618).
+  Ramas viejas (fase-1-esqueleto, fase-2-diseno, diseno-oliva, diseno-dorado) siguen en GitHub:
+  el permiso para borrarlas fue denegado; las borra Yama si quiere. Estructura de COV:
   héroe con foto, primera consulta destacada y ventajas; quiénes somos con foto; por qué
   elegirnos (4); sedes; tratamientos por grupos con forma orgánica en banda crema; obras
   sociales; primera consulta; promociones/reconocimientos/marcas solo con datos reales;
