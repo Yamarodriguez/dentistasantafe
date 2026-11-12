@@ -1,0 +1,87 @@
+---
+// Rellena una sección con datos de site.json / paginas.json.
+// Si falta el dato, pone [Pendiente: …] (nunca se inventa nada).
+import { site, ruta, tratamientos, enlaceTurno, pendiente } from '../lib/datos.js';
+
+const { tipo, pagina } = Astro.props;
+const sedes = pagina.sede ? site.sedes.filter((s) => s.id === pagina.sede) : site.sedes;
+const profesionales = site.profesionales.filter(
+  (p) => !pagina.sede || p.sedes.includes(pagina.sede)
+);
+const opiniones = site.opiniones.filter((o) => !pagina.sede || o.sede === pagina.sede);
+const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
+---
+{tipo === 'sedes' && sedes.map((s) => (
+  <article>
+    <h3><a href={ruta(s.id)}>{s.ciudad}</a></h3>
+    <p>{s.barrio} · {s.direccion}</p>
+  </article>
+))}
+
+{tipo === 'tratamientos' && pagina.tipo === 'indice' && grupos.map((g) => (
+  <article>
+    <h3>{g}</h3>
+    <ul>
+      {tratamientos.filter((t) => t.grupo === g).map((t) => (
+        <li><a href={ruta(t.slug)}>{t.nombre}</a></li>
+      ))}
+    </ul>
+  </article>
+))}
+
+{tipo === 'tratamientos' && pagina.tipo !== 'indice' && tratamientos.map((t) => (
+  <article>
+    <h3><a href={ruta(t.slug)}>{t.nombre}</a></h3>
+  </article>
+))}
+
+{tipo === 'obras' && sedes.map((s) => (
+  <article>
+    <h3>{s.ciudad}</h3>
+    {s.obrasSociales.length
+      ? <ul>{s.obrasSociales.map((o) => <li>{o}</li>)}</ul>
+      : <p>{pendiente(`obras sociales y prepagas de ${s.ciudad}`)}</p>}
+  </article>
+))}
+
+{tipo === 'equipo' && (profesionales.length
+  ? profesionales.map((p) => (
+      <article>
+        <h3>{p.nombre}</h3>
+        <p>{p.especialidad} · Matrícula {p.matricula}</p>
+      </article>
+    ))
+  : <p>{pendiente('profesionales con título, matrícula, especialidad y sede')}</p>)}
+
+{tipo === 'opiniones' && (opiniones.length
+  ? opiniones.map((o) => (
+      <blockquote>
+        <p>{o.texto}</p>
+        <footer>{o.autor} · {o.fuente}</footer>
+      </blockquote>
+    ))
+  : <p>{pendiente('reseñas reales de Google con nombre')}</p>)}
+
+{tipo === 'faq' && (pagina.faq.length
+  ? pagina.faq.map((f) => (
+      <div>
+        <h3>{f.q}</h3>
+        <p>{f.a}</p>
+      </div>
+    ))
+  : <p>{pendiente('preguntas frecuentes (Fase 3)')}</p>)}
+
+{tipo === 'mapa' && sedes.map((s) => (
+  <p>{s.direccion} ({s.barrio}, {s.ciudad}) {s.mapa ? <a href={s.mapa}>Ver en Google Maps</a> : pendiente('enlace a Google Maps')}</p>
+))}
+
+{tipo === 'horario' && sedes.map((s) => (
+  <p>{s.ciudad}: {s.horario}</p>
+))}
+
+{tipo === 'turno' && sedes.map((s) => (
+  <p>
+    <a href={enlaceTurno(s)}>Sacá turno en {s.ciudad}</a> · {s.telefono}
+    {!s.whatsapp && <> {pendiente(`WhatsApp de ${s.ciudad}`)}</>}
+  </p>
+))}

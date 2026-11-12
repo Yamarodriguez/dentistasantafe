@@ -35,10 +35,32 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   `python -I scripts/scrap.py competencia/urls.txt --rastrear 15`
   → `competencia/datos/*.json`, `competencia/texto/*.txt`, `informes/competencia.md`.
   Respeta robots.txt, 1 s entre peticiones, marca páginas < 80 palabras (posible JS).
+- `npm run todo` = build + `scripts/validar.mjs` (un H1, title ≤ 60 sin `|`, description
+  ≤ 155 sin emojis, canonical absoluto con barra, 1 FAQ por página salvo legales, 0 enlaces
+  rotos, 0 img sin alt; restos `[..]`/TODO = aviso, **error con `--publicar`**).
+  Detalle en `informes/validacion.md`. Probado con una página rota a propósito (caza los 6 fallos).
+- **Astro 5** (no 7): en este Windows, Control de aplicaciones bloquea el binario nativo
+  `satteri` de Astro 7. No cambiar la seguridad de Windows; quedarse en Astro 5.
+
+## Cómo está hecha la web (Fase 1)
+- `src/data/site.json` = datos del negocio (sedes, profesionales, obras sociales, opiniones).
+- `src/data/paginas.json` = mapa de URL (slug, tipo, clave, title, description, h1, h2s, faq,
+  estado). `estado: "pendiente"` no se genera (guardia, precios).
+- Un H2 es texto (se redacta en Fase 3) o `{t, bloque}` que se rellena con datos
+  (`src/components/Bloque.astro`: sedes, tratamientos, obras, equipo, opiniones, faq, mapa,
+  horario, turno). Dato vacío → «[Pendiente: …]», nunca inventado.
+- Plantillas en `src/plantillas/` (Portada, Sede, Tratamiento, Generica); una sola ruta
+  `src/pages/[...slug].astro`. Tratamiento añade siempre: quién te atiende, obra social,
+  dónde te lo hacemos, opiniones, FAQ.
+- `netlify.toml`: build `npm run todo`, cabecera `X-Robots-Tag: noindex` (quitar en Fase 5)
+  + `"indexar": false` en site.json.
 
 ## Estado
-- Fase actual: **1 — Plan y esqueleto** (sin empezar). Fase 0 **cerrada el 2026-11-12**:
-  Yama aprueba la lista de páginas del apartado 13 (dos sedes, 19 páginas + legales).
+- Fase actual: **1 — Plan y esqueleto: hecha (2026-11-12) salvo el despliegue de pruebas**,
+  que espera a que Yama conecte el repo en Netlify. 19 páginas, `npm run todo` a 0 errores
+  (296 restos = datos pendientes). Siguiente: **FASE 2 — Diseño** (referencia COV).
+- Fase 0 **cerrada el 2026-11-12**: Yama aprueba la lista de páginas del apartado 13
+  (dos sedes, 19 páginas + legales).
 - Hecho (2026-11-12): Valencia como **modelo** (13 webs, 153 páginas,
   `competencia/urls.txt` → `informes/competencia-valencia.md`) + Santa Fe como
   **competencia local** (4 webs, `competencia/urls-santafe.txt` →
@@ -57,9 +79,7 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   (`/implantes-dentales/`), H1 «[Tratamiento] en Santa Fe y Rosario» + H2 «¿Dónde te
   lo hacemos?». Página por tratamiento y ciudad solo si hay contenido distinto de verdad.
   Schema: organización + un `Dentist` por sede.
-- Siguiente: FASE 1 (plan y esqueleto) con la lista aprobada; las dudas de abajo
-  se pueden ir respondiendo en paralelo.
-  Antes de redactar: comprobar con fuente oficial la normativa argentina/santafesina
+- Antes de redactar: comprobar con fuente oficial la normativa argentina/santafesina
   de publicidad sanitaria y datos personales (principio 2).
 - Pendiente de Yama: nombre de la clínica, barrio y dirección de cada sede,
   tratamientos y profesionales por sede, obras sociales por sede, guardia sí/no,

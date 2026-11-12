@@ -1,0 +1,15 @@
+---
+// Pinta los H2 de paginas.json: texto (pendiente hasta la Fase 3) o bloque de datos.
+import Bloque from './Bloque.astro';
+import { pendiente } from '../lib/datos.js';
+
+const { pagina, h2s = pagina.h2s } = Astro.props;
+const norm = (h) => (typeof h === 'string' ? { t: h } : h);
+const id = (h) => (h.bloque === 'faq' ? 'preguntas-frecuentes' : undefined);
+---
+{h2s.map(norm).map((h) => (
+  <section id={id(h)}>
+    <h2>{h.t}</h2>
+    {h.bloque ? <Bloque tipo={h.bloque} pagina={pagina} /> : <p>{pendiente('texto (Fase 3)')}</p>}
+  </section>
+))}

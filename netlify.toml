@@ -1,0 +1,14 @@
+# Despliegue en Netlify. Si la validación falla, no se publica.
+[build]
+  command = "npm run todo"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# FASE DE PRUEBAS: que Google no indexe nada.
+# Quitar este bloque (y poner "indexar": true en src/data/site.json) en la FASE 5.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

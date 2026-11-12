@@ -1,0 +1,48 @@
+---
+// Esqueleto común: <head> SEO, cabecera, pie y botón de turno.
+import { site, ruta } from '../lib/datos.js';
+
+const { pagina } = Astro.props;
+const canonical = new URL(ruta(pagina.slug), site.url).href;
+---
+<!doctype html>
+<html lang={site.idioma}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pagina.title}</title>
+    <meta name="description" content={pagina.description} />
+    <link rel="canonical" href={canonical} />
+    {!site.indexar && <meta name="robots" content="noindex, nofollow" />}
+  </head>
+  <body>
+    <header>
+      <a href="/">{site.nombre}</a>
+      <nav aria-label="Principal">
+        <a href="/tratamientos/">Tratamientos</a>
+        <a href="/santa-fe/">Santa Fe</a>
+        <a href="/rosario/">Rosario</a>
+        <a href="/obras-sociales/">Obras sociales</a>
+        <a href="/equipo/">Equipo</a>
+        <a href="/turnos/">Sacá turno</a>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      {site.sedes.map((s) => (
+        <p>
+          <a href={ruta(s.id)}>{s.ciudad}</a>: {s.direccion} · {s.telefono}
+        </p>
+      ))}
+      <p>
+        <a href="/privacidad/">Privacidad</a> · <a href="/terminos/">Términos</a>
+      </p>
+    </footer>
+
+    <a class="boton-turno" href="/turnos/">Sacá turno</a>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "dentistasantafe",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "validar": "node scripts/validar.mjs",
+    "todo": "astro build && node scripts/validar.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.18.2"
+  }
+}

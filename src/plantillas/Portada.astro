@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import Secciones from '../components/Secciones.astro';
+import { site, enlaceTurno } from '../lib/datos.js';
+
+const { pagina } = Astro.props;
+---
+<Base pagina={pagina}>
+  <h1>{pagina.h1}</h1>
+  <p>
+    {site.sedes.map((s) => <a href={enlaceTurno(s)}>Sacá turno en {s.ciudad}</a>)}
+  </p>
+  <Secciones pagina={pagina} />
+</Base>

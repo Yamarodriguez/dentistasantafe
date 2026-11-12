@@ -1,0 +1,49 @@
+{
+  "_nota": "Único sitio para los datos del negocio (principio 3). Lo que va entre [corchetes] está pendiente de Yama: el validador lo cuenta como resto.",
+  "nombre": "[NOMBRE DE LA CLÍNICA]",
+  "url": "https://dentistasantafe.com",
+  "idioma": "es-AR",
+  "indexar": false,
+  "sedes": [
+    {
+      "id": "santa-fe",
+      "ciudad": "Santa Fe",
+      "barrio": "[barrio Santa Fe]",
+      "direccion": "[dirección Santa Fe]",
+      "telefono": "[teléfono Santa Fe]",
+      "whatsapp": "",
+      "horario": "[horario Santa Fe]",
+      "mapa": "",
+      "guardia": null,
+      "obrasSociales": []
+    },
+    {
+      "id": "rosario",
+      "ciudad": "Rosario",
+      "barrio": "[barrio Rosario]",
+      "direccion": "[dirección Rosario]",
+      "telefono": "[teléfono Rosario]",
+      "whatsapp": "",
+      "horario": "[horario Rosario]",
+      "mapa": "",
+      "guardia": null,
+      "obrasSociales": []
+    }
+  ],
+  "profesionales": [],
+  "_profesional_ejemplo": {
+    "nombre": "Od. Esp. Nombre Apellido",
+    "matricula": "MP 0000",
+    "especialidad": "Implantes",
+    "sedes": ["santa-fe"],
+    "foto": ""
+  },
+  "opiniones": [],
+  "_opinion_ejemplo": {
+    "autor": "Nombre como sale en Google",
+    "texto": "Texto literal de la reseña",
+    "sede": "rosario",
+    "fuente": "Google",
+    "fecha": "2026-01-01"
+  }
+}

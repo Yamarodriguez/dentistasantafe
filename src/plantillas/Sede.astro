@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import Secciones from '../components/Secciones.astro';
+import { sedePorId, enlaceTurno } from '../lib/datos.js';
+
+const { pagina } = Astro.props;
+const sede = sedePorId(pagina.sede);
+---
+<Base pagina={pagina}>
+  <nav aria-label="Migas"><a href="/">Inicio</a> › {sede.ciudad}</nav>
+  <h1>{pagina.h1}</h1>
+  <p>{sede.direccion} · {sede.telefono} · <a href={enlaceTurno(sede)}>Sacá turno</a></p>
+  <Secciones pagina={pagina} />
+</Base>

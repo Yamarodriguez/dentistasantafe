@@ -1,0 +1,26 @@
+---
+// Plantilla de tratamiento (análisis, apartado 13): franja de turno → H2 propios de la
+// página → bloques fijos (quién te atiende, obra social, dónde, opiniones, FAQ).
+import Base from '../layouts/Base.astro';
+import Secciones from '../components/Secciones.astro';
+
+const { pagina } = Astro.props;
+const fijos = [
+  { t: 'Quién te atiende', bloque: 'equipo' },
+  { t: '¿Lo cubre mi obra social?', bloque: 'obras' },
+  { t: '¿Dónde te lo hacemos?', bloque: 'sedes' },
+  { t: 'Opiniones de pacientes', bloque: 'opiniones' },
+  { t: 'Preguntas frecuentes', bloque: 'faq' },
+];
+---
+<Base pagina={pagina}>
+  <nav aria-label="Migas">
+    <a href="/">Inicio</a> › <a href="/tratamientos/">Tratamientos</a> › {pagina.nombre}
+  </nav>
+  <h1>{pagina.h1}</h1>
+  <p>
+    <a href="/primera-consulta/">Tu primera consulta</a> · <a href="/turnos/">Sacá turno</a>
+  </p>
+  <Secciones pagina={pagina} />
+  <Secciones pagina={pagina} h2s={fijos} />
+</Base>

@@ -1,0 +1,17 @@
+---
+// Todas las páginas salen de src/data/paginas.json (un solo archivo de datos).
+import { paginas } from '../lib/datos.js';
+import Portada from '../plantillas/Portada.astro';
+import Sede from '../plantillas/Sede.astro';
+import Tratamiento from '../plantillas/Tratamiento.astro';
+import Generica from '../plantillas/Generica.astro';
+
+export function getStaticPaths() {
+  return paginas.map((p) => ({ params: { slug: p.slug || undefined }, props: { pagina: p } }));
+}
+
+const plantillas = { portada: Portada, sede: Sede, tratamiento: Tratamiento };
+const { pagina } = Astro.props;
+const Plantilla = plantillas[pagina.tipo] ?? Generica;
+---
+<Plantilla pagina={pagina} />

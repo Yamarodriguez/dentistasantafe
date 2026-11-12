@@ -1,0 +1,381 @@
+{
+  "_nota": "Mapa de URL aprobado el 2026-11-12 (análisis, apartado 13). Cada h2 es texto (se redacta en Fase 3) u objeto {t, bloque} que se rellena con datos de site.json. Bloques: sedes, tratamientos, obras, equipo, opiniones, faq, mapa, horario, turno. estado: si = se publica; pendiente = no se genera hasta que Yama confirme.",
+  "paginas": [
+    {
+      "slug": "",
+      "tipo": "portada",
+      "estado": "si",
+      "clave": "odontólogo Santa Fe · odontólogo Rosario",
+      "title": "Consultorios odontológicos en Santa Fe y Rosario",
+      "description": "Odontólogos en Santa Fe capital y Rosario. Implantes, ortodoncia, prótesis y odontología general. Sacá turno por WhatsApp en tu sede.",
+      "h1": "Consultorios odontológicos en Santa Fe y Rosario",
+      "h2s": [
+        { "t": "Elegí tu sede", "bloque": "sedes" },
+        { "t": "Tratamientos", "bloque": "tratamientos" },
+        { "t": "Obras sociales y prepagas", "bloque": "obras" },
+        "Tu primera consulta",
+        { "t": "Profesionales y matrículas", "bloque": "equipo" },
+        { "t": "Opiniones de pacientes", "bloque": "opiniones" },
+        { "t": "Preguntas frecuentes", "bloque": "faq" }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "santa-fe",
+      "tipo": "sede",
+      "sede": "santa-fe",
+      "estado": "si",
+      "clave": "odontólogo Santa Fe (dentista / consultorio odontológico Santa Fe)",
+      "title": "Odontólogo en Santa Fe: consultorio en [barrio]",
+      "description": "Consultorio odontológico en Santa Fe capital, en [barrio]. Dirección, horarios, profesionales y turnos por WhatsApp.",
+      "h1": "Odontólogo en Santa Fe: consultorio en [barrio]",
+      "h2s": [
+        { "t": "Dirección y cómo llegar", "bloque": "mapa" },
+        { "t": "Horarios", "bloque": "horario" },
+        { "t": "Profesionales de esta sede", "bloque": "equipo" },
+        { "t": "Tratamientos en Santa Fe", "bloque": "tratamientos" },
+        { "t": "Obras sociales en esta sede", "bloque": "obras" },
+        { "t": "Opiniones de pacientes de Santa Fe", "bloque": "opiniones" },
+        { "t": "Sacá turno por WhatsApp", "bloque": "turno" },
+        { "t": "Preguntas frecuentes", "bloque": "faq" }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "rosario",
+      "tipo": "sede",
+      "sede": "rosario",
+      "estado": "si",
+      "clave": "odontólogo Rosario (dentista / consultorio odontológico Rosario)",
+      "title": "Odontólogo en Rosario: consultorio en [barrio]",
+      "description": "Consultorio odontológico en Rosario, en [barrio]. Dirección, horarios, profesionales y turnos por WhatsApp.",
+      "h1": "Odontólogo en Rosario: consultorio en [barrio]",
+      "h2s": [
+        { "t": "Dirección y cómo llegar", "bloque": "mapa" },
+        { "t": "Horarios", "bloque": "horario" },
+        { "t": "Profesionales de esta sede", "bloque": "equipo" },
+        { "t": "Tratamientos en Rosario", "bloque": "tratamientos" },
+        { "t": "Obras sociales en esta sede", "bloque": "obras" },
+        { "t": "Opiniones de pacientes de Rosario", "bloque": "opiniones" },
+        { "t": "Sacá turno por WhatsApp", "bloque": "turno" },
+        { "t": "Preguntas frecuentes", "bloque": "faq" }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "tratamientos",
+      "tipo": "indice",
+      "estado": "si",
+      "clave": "tratamientos odontológicos Santa Fe y Rosario",
+      "title": "Tratamientos odontológicos en Santa Fe y Rosario",
+      "description": "Todos nuestros tratamientos odontológicos en Santa Fe y Rosario: prevención, implantes, prótesis, ortodoncia, estética y odontopediatría.",
+      "h1": "Tratamientos odontológicos",
+      "h2s": [
+        { "t": "Todos los tratamientos", "bloque": "tratamientos" },
+        { "t": "Preguntas frecuentes", "bloque": "faq" }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "implantes-dentales",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Implantes dentales",
+      "grupo": "Implantes y prótesis",
+      "clave": "implantes dentales Santa Fe · Rosario",
+      "title": "Implantes dentales en Santa Fe y Rosario",
+      "description": "Implantes dentales en Santa Fe y Rosario: qué son, cuándo hacen falta, cómo es el tratamiento paso a paso y qué pasa si te falta hueso.",
+      "h1": "Implantes dentales en Santa Fe y Rosario",
+      "h2s": [
+        "¿Qué es un implante dental?",
+        "¿Cuándo hace falta un implante?",
+        "Tipos de implantes",
+        "¿Y si me falta hueso?",
+        "Tomografía y planificación",
+        "Cómo es el tratamiento, paso a paso",
+        "¿Duele? ¿Cuánto dura un implante?",
+        "Precio de los implantes dentales"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "protesis-dentales",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Prótesis y coronas",
+      "grupo": "Implantes y prótesis",
+      "clave": "prótesis dentales Santa Fe · Rosario",
+      "title": "Prótesis dentales y coronas en Santa Fe y Rosario",
+      "description": "Prótesis dentales fijas y removibles, coronas y prótesis sobre implantes en Santa Fe y Rosario. Cuál te conviene y cómo es el proceso.",
+      "h1": "Prótesis dentales y coronas en Santa Fe y Rosario",
+      "h2s": [
+        "¿Qué es una prótesis dental?",
+        "Prótesis fija o removible",
+        "Coronas",
+        "Prótesis sobre implantes",
+        "Cómo es el tratamiento, paso a paso",
+        "Cuidados y duración",
+        "Precio de las prótesis"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "ortodoncia",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Ortodoncia",
+      "grupo": "Ortodoncia y ortopedia",
+      "clave": "ortodoncia Santa Fe · Rosario",
+      "title": "Ortodoncia en Santa Fe y Rosario: brackets y alineadores",
+      "description": "Ortodoncia para chicos y adultos en Santa Fe y Rosario: tipos de brackets, ortopedia, alineadores, cuidados y retenedores.",
+      "h1": "Ortodoncia en Santa Fe y Rosario: brackets y alineadores",
+      "h2s": [
+        "¿Qué es la ortodoncia?",
+        "¿Cuándo hace falta?",
+        "Tipos de brackets",
+        "Ortopedia en chicos",
+        "Brackets o alineadores: comparativa",
+        "Cómo es el tratamiento, paso a paso",
+        "Cuidados y retenedores",
+        "Precio de la ortodoncia"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "ortodoncia-invisible",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Ortodoncia invisible",
+      "grupo": "Ortodoncia y ortopedia",
+      "clave": "ortodoncia invisible Santa Fe · Rosario",
+      "title": "Ortodoncia invisible en Santa Fe y Rosario",
+      "description": "Ortodoncia invisible con alineadores transparentes en Santa Fe y Rosario: para quién es, cómo funciona y en qué se diferencia de los brackets.",
+      "h1": "Ortodoncia invisible en Santa Fe y Rosario",
+      "h2s": [
+        "¿Qué es la ortodoncia invisible?",
+        "¿Para quién está indicada?",
+        "Alineadores o brackets: comparativa",
+        "Cómo es el tratamiento, paso a paso",
+        "¿Cuánto dura?",
+        "Precio de la ortodoncia invisible"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "tratamiento-de-conducto",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Tratamiento de conducto",
+      "grupo": "Prevención y operatoria",
+      "clave": "tratamiento de conducto Santa Fe · Rosario",
+      "title": "Tratamiento de conducto en Santa Fe y Rosario",
+      "description": "Tratamiento de conducto (endodoncia) en Santa Fe y Rosario: cuándo hace falta, si duele, cuántas sesiones lleva y qué viene después.",
+      "h1": "Tratamiento de conducto (endodoncia) en Santa Fe y Rosario",
+      "h2s": [
+        "¿Qué es un tratamiento de conducto?",
+        "¿Cuándo hace falta?",
+        "¿Duele?",
+        "¿Cuántas sesiones lleva?",
+        "Después del conducto: ¿hace falta una corona?",
+        "Precio del tratamiento de conducto"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "odontopediatria",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Odontopediatría",
+      "grupo": "Chicos",
+      "clave": "odontopediatra Santa Fe · Rosario",
+      "title": "Odontopediatra en Santa Fe y Rosario",
+      "description": "Odontopediatría en Santa Fe y Rosario: primera visita del chico, selladores y flúor, ortopedia y cómo ayudamos si tiene miedo.",
+      "h1": "Odontopediatra en Santa Fe y Rosario",
+      "h2s": [
+        "¿Cuándo llevar a tu hijo por primera vez?",
+        "Cómo es la primera visita",
+        "Selladores y flúor",
+        "Caries en dientes de leche",
+        "Ortopedia",
+        "Si tu hijo tiene miedo"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "periodoncia",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Periodoncia (encías)",
+      "grupo": "Prevención y operatoria",
+      "clave": "periodoncia Santa Fe · Rosario",
+      "title": "Periodoncia y encías en Santa Fe y Rosario",
+      "description": "Tratamiento de encías en Santa Fe y Rosario: por qué sangran, gingivitis y periodontitis, cómo se tratan y cómo se mantienen.",
+      "h1": "Periodoncia: tratamiento de encías en Santa Fe y Rosario",
+      "h2s": [
+        "¿Te sangran las encías?",
+        "Gingivitis y periodontitis",
+        "Cómo es el tratamiento, paso a paso",
+        "Mantenimiento",
+        "Precio del tratamiento de encías"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "estetica-dental",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Estética dental",
+      "grupo": "Estética",
+      "clave": "carillas / blanqueamiento dental Santa Fe · Rosario",
+      "title": "Carillas y blanqueamiento en Santa Fe y Rosario",
+      "description": "Estética dental en Santa Fe y Rosario: carillas, blanqueamiento y diseño de sonrisa. Qué opción te conviene y cómo es cada tratamiento.",
+      "h1": "Estética dental en Santa Fe y Rosario: carillas y blanqueamiento",
+      "h2s": [
+        "Carillas",
+        "Blanqueamiento dental",
+        "Diseño de sonrisa",
+        "Cómo es el tratamiento, paso a paso",
+        "Cuidados y duración",
+        "Precio de la estética dental"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "limpieza-dental",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Limpieza y operatoria",
+      "grupo": "Prevención y operatoria",
+      "clave": "limpieza dental Santa Fe · Rosario",
+      "title": "Limpieza dental y operatoria en Santa Fe y Rosario",
+      "description": "Limpieza dental, control, arreglo de caries y placas de relajación para el bruxismo en Santa Fe y Rosario.",
+      "h1": "Limpieza dental y operatoria en Santa Fe y Rosario",
+      "h2s": [
+        "Qué incluye una limpieza dental",
+        "Cada cuánto conviene hacerla",
+        "Caries y arreglos (operatoria)",
+        "Bruxismo y placas de relajación",
+        "Precio de la limpieza dental"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "guardia-odontologica",
+      "tipo": "tratamiento",
+      "estado": "pendiente",
+      "_motivo": "Solo si hay guardia (pregunta abierta a Yama).",
+      "nombre": "Guardia odontológica",
+      "grupo": "Guardia",
+      "clave": "guardia odontológica Santa Fe · Rosario",
+      "title": "Guardia odontológica en Santa Fe y Rosario",
+      "description": "Guardia odontológica en Santa Fe y Rosario: qué es una urgencia, qué hacer mientras llegás y horarios de guardia de cada sede.",
+      "h1": "Guardia odontológica en Santa Fe y Rosario",
+      "h2s": [
+        "¿Qué es una urgencia dental?",
+        "Qué hacer mientras llegás",
+        { "t": "Horario de guardia por sede", "bloque": "horario" }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "obras-sociales",
+      "tipo": "info",
+      "estado": "si",
+      "clave": "odontólogo [obra social] Santa Fe · Rosario",
+      "title": "Obras sociales y prepagas en Santa Fe y Rosario",
+      "description": "Obras sociales y prepagas que atendemos en nuestros consultorios de Santa Fe y Rosario, qué cubren y qué llevar al turno.",
+      "h1": "Obras sociales y prepagas que atendemos",
+      "h2s": [
+        { "t": "Obras sociales por sede", "bloque": "obras" },
+        "Qué cubre cada una",
+        "Qué llevar al turno",
+        { "t": "Preguntas frecuentes", "bloque": "faq" }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "primera-consulta",
+      "tipo": "info",
+      "estado": "si",
+      "clave": "primera consulta odontológica",
+      "title": "Primera consulta odontológica, paso a paso",
+      "description": "Qué hacemos en tu primera consulta odontológica, cuánto dura, qué cubre tu obra social y cómo sacar turno en Santa Fe o Rosario.",
+      "h1": "Tu primera consulta, paso a paso",
+      "h2s": [
+        "Qué hacemos en la primera consulta",
+        "Cuánto dura",
+        "Precio o cobertura",
+        { "t": "Cómo sacar turno en cada sede", "bloque": "turno" },
+        { "t": "Preguntas frecuentes", "bloque": "faq" }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "equipo",
+      "tipo": "equipo",
+      "estado": "si",
+      "clave": "odontólogos [nombre]",
+      "title": "Nuestros odontólogos en Santa Fe y Rosario",
+      "description": "Conocé a los odontólogos de nuestros consultorios de Santa Fe y Rosario: especialidad, matrícula y sede de cada uno.",
+      "h1": "Nuestros odontólogos en Santa Fe y Rosario",
+      "h2s": [
+        { "t": "Profesionales", "bloque": "equipo" },
+        { "t": "Preguntas frecuentes", "bloque": "faq" }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "turnos",
+      "tipo": "turnos",
+      "estado": "si",
+      "clave": "turno odontólogo Santa Fe · Rosario",
+      "title": "Sacá turno con el odontólogo en Santa Fe o Rosario",
+      "description": "Elegí tu sede y sacá turno por WhatsApp o por teléfono en nuestros consultorios odontológicos de Santa Fe y Rosario.",
+      "h1": "Sacá turno",
+      "h2s": [
+        { "t": "Elegí tu sede", "bloque": "turno" },
+        { "t": "Preguntas frecuentes", "bloque": "faq" }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "precios",
+      "tipo": "precios",
+      "estado": "pendiente",
+      "_motivo": "Solo si se publican precios reales con fecha (pregunta abierta a Yama).",
+      "clave": "precio implante dental Santa Fe · Rosario",
+      "title": "Precios orientativos del odontólogo en Santa Fe y Rosario",
+      "description": "Precios orientativos de nuestros tratamientos odontológicos en Santa Fe y Rosario, con fecha de actualización.",
+      "h1": "Precios orientativos",
+      "h2s": [
+        "Tabla de precios",
+        "Qué incluye cada precio",
+        { "t": "Obras sociales y prepagas", "bloque": "obras" },
+        { "t": "Preguntas frecuentes", "bloque": "faq" }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "privacidad",
+      "tipo": "legal",
+      "estado": "si",
+      "clave": "",
+      "title": "Política de privacidad",
+      "description": "Cómo tratamos tus datos personales cuando nos escribís o sacás turno.",
+      "h1": "Política de privacidad",
+      "h2s": ["[Texto legal pendiente: comprobar con fuente oficial la ley argentina de datos personales]"],
+      "faq": []
+    },
+    {
+      "slug": "terminos",
+      "tipo": "legal",
+      "estado": "si",
+      "clave": "",
+      "title": "Términos y condiciones",
+      "description": "Condiciones de uso de este sitio web.",
+      "h1": "Términos y condiciones",
+      "h2s": ["[Texto legal pendiente]"],
+      "faq": []
+    }
+  ]
+}
