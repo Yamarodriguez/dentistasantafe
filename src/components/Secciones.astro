@@ -8,7 +8,7 @@
 // {nombre} en el título se cambia por el nombre de la clínica.
 import Bloque from './Bloque.astro';
 import Texto from './Texto.astro';
-import { site, pendiente } from '../lib/datos.js';
+import { site, pendiente, foto as fotoDe } from '../lib/datos.js';
 
 const { pagina, h2s = pagina.h2s } = Astro.props;
 const norm = (h) => (typeof h === 'string' ? { t: h } : h);
@@ -17,7 +17,7 @@ const visibles = h2s.map(norm).filter((h) => !h.opcional || (conDatos[h.bloque] 
 const titulo = (h) => h.t.replace('{nombre}', site.nombre);
 const id = (h) => (h.bloque === 'faq' ? 'preguntas-frecuentes' : undefined);
 const banda = (h) => ['tratamientos', 'opiniones', 'promociones'].includes(h.bloque) && pagina.tipo === 'portada';
-const foto = (h) => h.foto && site.fotos[h.foto];
+const foto = (h) => h.foto && fotoDe(h.foto);
 const textos = pagina.contenido?.secciones ?? {};
 // Antetítulo: rota entre «clínica dental», «dentista» y «centro odontológico» (fijo por H2).
 const variantes = site.antetitulos ?? [site.antetitulo];

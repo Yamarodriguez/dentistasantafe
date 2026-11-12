@@ -3,14 +3,15 @@
 // destacada y 4 ventajas; luego los H2 de paginas.json con su bloque de datos.
 import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
-import { site, enlaceTurno, pendiente } from '../lib/datos.js';
+import { site, enlaceTurno, pendiente, foto } from '../lib/datos.js';
 
 const { pagina } = Astro.props;
 const [linea1, linea2] = pagina.h1.split(/ (?=en )/);
 const sede = site.sedes[0];
+const heroe = foto('heroe');
 ---
-<Base pagina={pagina} precarga={site.fotos.heroe}>
-  <section class="heroe heroe-foto" style={`--foto:url('${site.fotos.heroe}')`}>
+<Base pagina={pagina} precarga={heroe}>
+  <section class:list={['heroe', { 'heroe-foto': heroe }]} style={heroe ? `--foto:url('${heroe}')` : undefined}>
     <div class="contenedor">
       <div class="heroe-texto">
         <h1>{linea1} <span>{linea2}</span></h1>
