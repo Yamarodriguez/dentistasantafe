@@ -25,6 +25,46 @@
       "titulo": "Radiografías dentales (MedlinePlus, enciclopedia)",
       "url": "https://medlineplus.gov/spanish/ency/article/003801.htm",
       "fecha": ""
+    },
+    "mlp-coronas": {
+      "titulo": "Las coronas dentales (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/007631.htm",
+      "fecha": "2024-10-14"
+    },
+    "mlp-protesis": {
+      "titulo": "Dentures / Dentaduras postizas (MedlinePlus)",
+      "url": "https://medlineplus.gov/dentures.html",
+      "fecha": "2023-05-24"
+    },
+    "mlp-color": {
+      "titulo": "Dientes de colores anormales (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/003065.htm",
+      "fecha": "2026-05-02"
+    },
+    "mlp-bruxismo": {
+      "titulo": "Bruxismo (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/001413.htm",
+      "fecha": "2026-05-02"
+    },
+    "mlp-caries": {
+      "titulo": "Caries dentales (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/001055.htm",
+      "fecha": "2026-05-02"
+    },
+    "nidcr-fluor": {
+      "titulo": "El flúor y la salud dental (NIDCR)",
+      "url": "https://www.nidcr.nih.gov/espanol/temas-de-salud/fluor-y-salud-dental",
+      "fecha": "2025-09"
+    },
+    "mlp-ninos": {
+      "titulo": "Cuidado dental en niños (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/002213.htm",
+      "fecha": "2026-05-02"
+    },
+    "nidcr-bebe": {
+      "titulo": "Una boca sana para su bebé (NIDCR)",
+      "url": "https://www.nidcr.nih.gov/sites/default/files/2025-09/Healthy-Mouth-for-Baby_ES-Fact-Sheet.pdf",
+      "fecha": "2025-09"
     }
   },
   "hechos": [
@@ -212,6 +252,226 @@
       "id": "ort-cuidados",
       "fuente": "mlp-maloclusion",
       "texto": "Durante el tratamiento: cepillado e hilo dental todos los días y controles periódicos."
+    },
+    {
+      "id": "cor-que",
+      "fuente": "mlp-coronas",
+      "texto": "Una corona es una funda con forma de diente que cubre el diente por encima de la encía, para protegerlo cuando está débil o mejorar su aspecto."
+    },
+    {
+      "id": "cor-cuando",
+      "fuente": "mlp-coronas",
+      "texto": "Se usa para reforzar un diente con una caries grande, astillado o roto, para cubrir dientes gastados por rechinar o para corregir dientes con forma, color o posición alterados."
+    },
+    {
+      "id": "cor-puente",
+      "fuente": "mlp-coronas",
+      "texto": "Una corona puede sostener un puente que ocupa el hueco de dientes que faltan, y también se usa sobre implantes."
+    },
+    {
+      "id": "cor-materiales",
+      "fuente": "mlp-coronas",
+      "texto": "Hay coronas de acero (sobre todo provisorias en chicos), de metal (muy resistentes pero menos naturales), de resina (más económicas pero se desgastan más), de cerámica o porcelana (color natural) y de porcelana sobre metal."
+    },
+    {
+      "id": "cor-pasos",
+      "fuente": "mlp-coronas",
+      "texto": "Suele hacerse en dos visitas: en la primera se anestesia, se prepara el diente, se toma una impresión o escaneo y se coloca una corona provisoria; en la segunda se coloca y se cementa la definitiva."
+    },
+    {
+      "id": "cor-provisoria",
+      "fuente": "mlp-coronas",
+      "texto": "Con la corona provisoria conviene pasar el hilo dental sacándolo hacia afuera, evitar comidas pegajosas y masticar del otro lado."
+    },
+    {
+      "id": "cor-cuidados",
+      "fuente": "mlp-coronas",
+      "texto": "Para cuidarla: cepillado dos veces al día, hilo dental todos los días y, si se aprietan o rechinan los dientes, una placa nocturna."
+    },
+    {
+      "id": "cor-riesgos",
+      "fuente": "mlp-coronas",
+      "texto": "Riesgos posibles: caries debajo de la corona, que se caiga o se astille, y sensibilidad al frío o al calor."
+    },
+    {
+      "id": "cor-duracion",
+      "fuente": "mlp-coronas",
+      "texto": "La mayoría de las coronas dura al menos 5 años y puede llegar a 15 o 20."
+    },
+    {
+      "id": "pro-que",
+      "fuente": "mlp-protesis",
+      "texto": "Las prótesis removibles (dentaduras) son dientes postizos que se pueden sacar y reemplazan dientes perdidos."
+    },
+    {
+      "id": "pro-tipos",
+      "fuente": "mlp-protesis",
+      "texto": "Las completas cubren todo el maxilar de arriba o de abajo; las parciales reemplazan uno o algunos dientes."
+    },
+    {
+      "id": "pro-adaptacion",
+      "fuente": "mlp-protesis",
+      "texto": "Al principio hablar y comer puede sentirse raro, y el odontólogo puede querer controles seguidos para revisar el ajuste."
+    },
+    {
+      "id": "pro-sensacion",
+      "fuente": "mlp-protesis",
+      "texto": "Con prótesis puede costar más notar la temperatura de comidas y bebidas calientes o un hueso en la comida."
+    },
+    {
+      "id": "pro-cambios",
+      "fuente": "mlp-protesis",
+      "texto": "Con el tiempo la boca cambia y la prótesis puede necesitar ajustes o recambio, que debe hacer el odontólogo."
+    },
+    {
+      "id": "pro-implantes",
+      "fuente": "mlp-protesis",
+      "texto": "El odontólogo puede proponer implantes, que son fijos y reemplazan la raíz y el diente."
+    },
+    {
+      "id": "pro-cuidados",
+      "fuente": "mlp-protesis",
+      "texto": "Cuidados: cepillar la prótesis todos los días con un producto para prótesis, sacarla de noche y guardarla en agua o en un líquido limpiador."
+    },
+    {
+      "id": "col-causas",
+      "fuente": "mlp-color",
+      "texto": "Los dientes se pueden manchar por té, café, vino tinto, líquidos con hierro, tabaco, mala higiene o exceso de flúor; también influyen la genética y algunos medicamentos durante la formación de los dientes."
+    },
+    {
+      "id": "col-tratamiento",
+      "fuente": "mlp-color",
+      "texto": "Las manchas superficiales o por la dieta suelen mejorar con una limpieza profesional o con blanqueamiento; las más profundas pueden necesitar empastes, carillas o coronas."
+    },
+    {
+      "id": "col-consultar",
+      "fuente": "mlp-color",
+      "texto": "Conviene consultar si el color cambia sin causa clara o si la mancha sigue después de cepillarse bien."
+    },
+    {
+      "id": "bru-que",
+      "fuente": "mlp-bruxismo",
+      "texto": "El bruxismo es apretar o rechinar los dientes sin darse cuenta, de día o de noche; el nocturno es el más difícil de controlar."
+    },
+    {
+      "id": "bru-causas",
+      "fuente": "mlp-bruxismo",
+      "texto": "No hay acuerdo sobre la causa exacta; el estrés es un desencadenante frecuente."
+    },
+    {
+      "id": "bru-sintomas",
+      "fuente": "mlp-bruxismo",
+      "texto": "Puede dar dolor o sensibilidad en la mandíbula al despertar, dolor de cabeza o de oído, sensibilidad y desgaste de los dientes."
+    },
+    {
+      "id": "bru-placa",
+      "fuente": "mlp-bruxismo",
+      "texto": "Las placas o protectores bien ajustados protegen los dientes de la presión; los síntomas pueden mejorar mientras se usan y volver al dejarlas."
+    },
+    {
+      "id": "bru-cuidados",
+      "fuente": "mlp-bruxismo",
+      "texto": "Ayuda evitar comidas duras y chicle, dormir bien, relajar la mandíbula durante el día y manejar el estrés."
+    },
+    {
+      "id": "bru-consultar",
+      "fuente": "mlp-bruxismo",
+      "texto": "Hay que consultar si cuesta comer o abrir la boca, o si los cuidados no ayudan después de algunas semanas."
+    },
+    {
+      "id": "car-que",
+      "fuente": "mlp-caries",
+      "texto": "Las caries son daños o agujeros en el diente; las bacterias convierten azúcares y almidones en ácidos que dañan el esmalte."
+    },
+    {
+      "id": "car-placa",
+      "fuente": "mlp-caries",
+      "texto": "La placa que no se retira se endurece y forma sarro, que puede irritar las encías."
+    },
+    {
+      "id": "car-sintomas",
+      "fuente": "mlp-caries",
+      "texto": "Muchas veces no dan síntomas; cuando dan, suele ser dolor con lo dulce, frío o caliente, o manchas oscuras o agujeros visibles."
+    },
+    {
+      "id": "car-deteccion",
+      "fuente": "mlp-caries",
+      "texto": "La mayoría se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean."
+    },
+    {
+      "id": "car-empaste",
+      "fuente": "mlp-caries",
+      "texto": "En un empaste se retira la parte con caries y se rellena, hoy sobre todo con resina compuesta; también existen ionómero de vidrio y amalgama."
+    },
+    {
+      "id": "car-grande",
+      "fuente": "mlp-caries",
+      "texto": "Si la caries es grande y queda poco diente, se usa una corona; si llega al nervio, tratamiento de conducto; si destruye el diente, puede hacer falta extraerlo."
+    },
+    {
+      "id": "car-prevencion",
+      "fuente": "mlp-caries",
+      "texto": "Prevención: cepillarse al menos dos veces al día, hilo dental al menos una vez al día, limpieza profesional cada 6 meses, selladores en las muelas, flúor y menos picoteo y bebidas azucaradas."
+    },
+    {
+      "id": "flu-que",
+      "fuente": "nidcr-fluor",
+      "texto": "El flúor ayuda a prevenir las caries en chicos y adultos: fortalece el esmalte y puede revertir caries que recién empiezan."
+    },
+    {
+      "id": "flu-menores2",
+      "fuente": "nidcr-fluor",
+      "texto": "Los menores de 2 años no deben usar pasta con flúor salvo que lo indique un odontólogo o un médico."
+    },
+    {
+      "id": "flu-barniz",
+      "fuente": "nidcr-fluor",
+      "texto": "El odontólogo puede aplicar barniz o gel de flúor."
+    },
+    {
+      "id": "nin-primera",
+      "fuente": "nidcr-bebe",
+      "texto": "El NIDCR recomienda que el chico vaya al odontólogo antes de cumplir un año; MedlinePlus ubica la primera visita entre que sale el primer diente y antes de los 2 años y medio."
+    },
+    {
+      "id": "nin-encias",
+      "fuente": "mlp-ninos",
+      "texto": "Antes de que salgan los dientes, las encías del bebé se limpian con un paño húmedo después de comer; con el primer diente se pasa a un cepillo suave."
+    },
+    {
+      "id": "nin-biberon",
+      "fuente": "mlp-ninos",
+      "texto": "No conviene acostar al bebé con biberón de leche, jugo o agua con azúcar; de noche, solo agua."
+    },
+    {
+      "id": "nin-cepillado",
+      "fuente": "mlp-ninos",
+      "texto": "Cepillado al menos dos veces al día, sobre todo antes de dormir; el chico puede practicar, pero un adulto supervisa y termina la limpieza."
+    },
+    {
+      "id": "nin-controles",
+      "fuente": "mlp-ninos",
+      "texto": "Controles cada 6 meses; conviene contar si el chico se chupa el dedo o respira por la boca."
+    },
+    {
+      "id": "nin-importancia",
+      "fuente": "mlp-ninos",
+      "texto": "Los problemas dentales en chicos pueden afectar la alimentación, el habla, el desarrollo de la mandíbula y la autoestima."
+    },
+    {
+      "id": "sel-donde",
+      "fuente": "mlp-caries",
+      "texto": "Los selladores se colocan en las superficies de masticación de premolares y molares para prevenir caries."
+    },
+    {
+      "id": "car-ninos",
+      "fuente": "mlp-caries",
+      "texto": "Las caries son muy comunes en chicos y adultos jóvenes."
+    },
+    {
+      "id": "nin-prueba",
+      "fuente": "mlp-ninos",
+      "texto": "Una visita «de prueba» ayuda al chico a conocer el consultorio."
     }
   ]
 }

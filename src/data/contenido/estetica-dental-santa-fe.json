@@ -1,0 +1,84 @@
+{
+  "slug": "estetica-dental-santa-fe",
+  "conteo": {
+    "clave": "blanqueamiento dental|carillas dentales",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe"
+  },
+  "intro": "La estética dental busca mejorar el color y la forma de los dientes, con blanqueamiento dental, carillas dentales o coronas según el caso. Acá te contamos qué opción sirve para cada tipo de mancha.",
+  "fuentes": [
+    "mlp-color",
+    "mlp-coronas"
+  ],
+  "autor": null,
+  "revisado": null,
+  "secciones": {
+    "Carillas dentales": [
+      "Para las manchas profundas, la opción puede ser una de las carillas dentales, un empaste o una corona, según lo que indique el odontólogo.",
+      "[Pendiente: qué tipo de carillas hace la clínica (porcelana, composite…), para quién y cómo se colocan, confirmado por el odontólogo]"
+    ],
+    "Blanqueamiento dental": [
+      "Las manchas superficiales o causadas por la dieta suelen mejorar con blanqueamiento dental o con una limpieza profesional.",
+      {
+        "h3": "¿Qué mancha los dientes?"
+      },
+      "Los dientes se pueden manchar por té, café, vino tinto, líquidos con hierro, tabaco, mala higiene o exceso de flúor. También influyen la genética y algunos medicamentos tomados mientras se forman los dientes.",
+      {
+        "h3": "¿Cuándo conviene consultar?"
+      },
+      "Si el color cambia sin causa clara o si la mancha sigue después de cepillarse bien.",
+      "[Pendiente: tipo de blanqueamiento que hace la clínica (en consultorio, en casa) y cuántas sesiones lleva]"
+    ],
+    "Diseño de sonrisa": [
+      "[Pendiente: qué entiende la clínica por diseño de sonrisa y cómo lo hace, confirmado por el odontólogo]"
+    ],
+    "Cómo es el tratamiento, paso a paso": [
+      "El primer paso es saber qué tipo de mancha es, porque de eso depende la opción.",
+      {
+        "tabla": {
+          "cab": [
+            "Tipo de mancha",
+            "Opciones"
+          ],
+          "filas": [
+            [
+              "Superficial o por la dieta",
+              "Limpieza profesional o blanqueamiento dental"
+            ],
+            [
+              "Profunda",
+              "Empastes, carillas o coronas"
+            ]
+          ]
+        }
+      },
+      "[Pendiente: pasos del blanqueamiento y de las carillas en la clínica, confirmados por el odontólogo]"
+    ],
+    "Cuidados y duración": [
+      "[Pendiente: cuánto dura el resultado del blanqueamiento y de las carillas, y qué cuidados indica la clínica]",
+      "El té, el café, el vino tinto y el tabaco figuran entre las causas que pueden manchar los dientes."
+    ],
+    "Precio de la estética dental en Santa Fe": [
+      "[Pendiente: precio orientativo del blanqueamiento y de las carillas en Santa Fe con fecha o «se informa después de la consulta»]"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El blanqueamiento dental sirve para cualquier mancha?",
+      "a": "Las manchas superficiales o por la dieta suelen mejorar con blanqueamiento; las profundas pueden necesitar carillas, empastes o coronas."
+    },
+    {
+      "q": "¿Qué mancha los dientes?",
+      "a": "Té, café, vino tinto, líquidos con hierro, tabaco, mala higiene o exceso de flúor, entre otras causas."
+    },
+    {
+      "q": "¿Cuándo tengo que consultar por el color de un diente?",
+      "a": "Si el color cambia sin causa clara o si la mancha sigue después de cepillarte bien."
+    },
+    {
+      "q": "¿Una limpieza puede mejorar el color?",
+      "a": "Sí, en manchas superficiales o por la dieta una limpieza profesional puede mejorarlo."
+    }
+  ]
+}
