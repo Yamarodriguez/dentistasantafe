@@ -88,9 +88,10 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
 - Las afirmaciones de COV (primera consulta gratis, radiografía incluida, +X años,
   tecnología, financiación) están en site.json con `"confirmado": false` → aviso
   [Pendiente] hasta que Yama confirme que son ciertas.
-- Quiere ver los diseños en local: servidores `diseno-oliva` (4403) y `diseno-dorado`
-  (4401) de `.claude/launch.json`, sirviendo `dist-oliva` / `dist-dorado`
-  (`TEMA=x npx astro build --outDir dist-x`).
+- Quiere ver la web en local: servidor `web` de `.claude/launch.json` (python http.server
+  en el puerto 4403 sirviendo `dist/`; antes `npm run build`). http://localhost:4403/
+- Fotos de Unsplash: propuesta de 13 (portada + una por tratamiento) enviada el
+  2026-11-12, **sin permiso de descarga todavía** (no descargar hasta un sí explícito).
 
 ## Herramientas ya hechas
 - `scripts/scrap.py` — scraper de competencia (Python estándar + bs4 + lxml;
@@ -151,16 +152,13 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   precios de la clínica → [Pendiente]). Sin autor ni fecha de revisión (pendiente: un
   odontólogo con matrícula los revisa y firma). Tanda 2 propuesta: prótesis, estética,
   limpieza y operatoria, odontopediatra, portada → **tanda 2 hecha (2026-11-12)** con 9 fuentes nuevas (MedlinePlus, NIDCR; 81 hechos) y la revisión de 5 subagentes aplicada. Quedan sin texto: tratamientos (índice), obras sociales, primera consulta, equipo, contacto (casi todo datos de la clínica).
-- Diseño: **Yama quiere ver en vivo las dos finalistas antes de elegir**
-  (2026-11-12): **oliva** (rama `diseno-oliva`) y **dorado** (rama `diseno-dorado`); solo
-  cambia `"tema"` en site.json. Negro y oro descartado. Estructura de COV en las dos:
+- Diseño: **ELEGIDO DORADO SERENO (Yama, 2026-11-12; dijo primero «oliva» y lo corrigió:
+  «dorado, no oliva»)**. Solo queda el tema dorado en temas.json; ramas de diseño unidas a
+  `main` y borradas. Estructura de COV:
   héroe con foto, primera consulta destacada y ventajas; quiénes somos con foto; por qué
   elegirnos (4); sedes; tratamientos por grupos con forma orgánica en banda crema; obras
   sociales; primera consulta; promociones/reconocimientos/marcas solo con datos reales;
   equipo; opiniones; FAQ; franja de turno; pie a color. No se copia texto de COV.
-  Verlas en vivo: cuando Yama conecte Netlify, activar branch deploys (Branches and deploy
-  contexts → All) → `diseno-oliva--<sitio>.netlify.app` y `diseno-dorado--<sitio>.netlify.app`.
-  Al elegir: borrar el otro tema, unir esa rama a main, borrar las dos ramas.
   Capturas en `capturas/` (no se suben).
   Capturas: el navegador de la app no dibuja (ventana oculta) → Edge sin ventana, un perfil
   por captura en el scratchpad; el móvil a 390 px con un iframe (Edge no baja de ~500 px).

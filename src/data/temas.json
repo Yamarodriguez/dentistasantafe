@@ -1,30 +1,5 @@
 {
-  "_nota": "Direcciones de diseño de la Fase 2. Las tres usan la estructura de la referencia (centroodontologicovalenciano.com) y cambian color, letras y detalle. Quedan oliva y dorado para verlas en vivo (Negro y oro descartado 2026-11-12). Se elige con site.json > tema (TEMA=… al construir, solo para comparar). acento = decorativo, nunca texto. scripts/visual.mjs comprueba el contraste.",
-  "oliva": {
-    "nombre": "Oliva calma",
-    "idea": "La más parecida a la referencia: oliva, crema y beige, títulos sin adornos y tarjetas con formas orgánicas; el oro del logo solo en detalles.",
-    "titulos": "Source Sans 3",
-    "tarjeta": "Playfair Display",
-    "texto": "Source Sans 3",
-    "fondo": "#ffffff",
-    "superficie": "#ffffff",
-    "banda": "#f0ede6",
-    "texto_color": "#2b2d26",
-    "suave": "#565a4e",
-    "accion": "#566249",
-    "accion_texto": "#ffffff",
-    "acento": "#c9a13b",
-    "tintes": [
-      "#dfe3d6",
-      "#ece5d8",
-      "#e9ddd3",
-      "#e3e0d6"
-    ],
-    "borde": "#e4e2da",
-    "oscuro": "#566249",
-    "oscuro_texto": "#ffffff",
-    "radio": "16px"
-  },
+  "_nota": "Diseño elegido por Yama el 2026-11-12: Dorado sereno (estructura de centroodontologicovalenciano.com, colores del logo). Oliva y Negro descartados. scripts/visual.mjs comprueba el contraste.",
   "dorado": {
     "nombre": "Dorado sereno",
     "idea": "La estructura de la referencia con los colores del logo y de la recepción: crema, madera y dorado. Cálido y luminoso.",
