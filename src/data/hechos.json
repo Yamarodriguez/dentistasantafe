@@ -1,0 +1,217 @@
+{
+  "_nota": "Lista blanca de hechos de salud (Fase 3). Ningún texto médico de la web puede afirmar algo que no esté aquí, con su fuente. Paráfrasis propias; no se copian textos. Revisar fechas al publicar.",
+  "fuentes": {
+    "fda-implantes": {
+      "titulo": "Dental Implants: What You Should Know (FDA)",
+      "url": "https://www.fda.gov/medical-devices/dental-devices/dental-implants-what-you-should-know",
+      "fecha": "2021-10-29"
+    },
+    "mlp-encias": {
+      "titulo": "Enfermedades de las encías (MedlinePlus en español)",
+      "url": "https://medlineplus.gov/spanish/gumdisease.html",
+      "fecha": "2023-08-31"
+    },
+    "mlp-conducto": {
+      "titulo": "Tratamiento de conducto radicular (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/007275.htm",
+      "fecha": "2026-05-02"
+    },
+    "mlp-maloclusion": {
+      "titulo": "Maloclusión de los dientes (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/001058.htm",
+      "fecha": "2026-05-02"
+    },
+    "mlp-radiografias": {
+      "titulo": "Radiografías dentales (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/003801.htm",
+      "fecha": ""
+    }
+  },
+  "hechos": [
+    {
+      "id": "imp-que",
+      "fuente": "fda-implantes",
+      "texto": "Un implante dental es un dispositivo que se coloca con cirugía en el hueso maxilar y sostiene dientes artificiales: coronas, puentes o prótesis."
+    },
+    {
+      "id": "imp-partes",
+      "fuente": "fda-implantes",
+      "texto": "El cuerpo del implante ocupa en el hueso el lugar de la raíz; un pilar, normalmente fijado con un tornillo, atraviesa la encía y sostiene el diente nuevo."
+    },
+    {
+      "id": "imp-material",
+      "fuente": "fda-implantes",
+      "texto": "La mayoría de los implantes son de titanio o de óxido de circonio."
+    },
+    {
+      "id": "imp-candidato",
+      "fuente": "fda-implantes",
+      "texto": "El estado de salud general influye en si una persona es buena candidata, en cuánto tarda en cicatrizar y en cuánto dura el implante."
+    },
+    {
+      "id": "imp-beneficios",
+      "fuente": "fda-implantes",
+      "texto": "Los implantes devuelven la masticación y el aspecto, ayudan a evitar que el hueso maxilar se reduzca y dan soporte a encías y dientes vecinos."
+    },
+    {
+      "id": "imp-riesgos",
+      "fuente": "fda-implantes",
+      "texto": "Riesgos posibles: daño en dientes o tejidos cercanos durante la colocación (por ejemplo, perforación del seno o fractura del hueso) y adormecimiento por afectación de un nervio."
+    },
+    {
+      "id": "imp-fallo",
+      "fuente": "fda-implantes",
+      "texto": "Un implante puede aflojarse por infección (más probable con diabetes no controlada), por una cicatrización lenta (más probable en fumadores) o porque se afloja el tornillo del pilar."
+    },
+    {
+      "id": "imp-cicatrizacion",
+      "fuente": "fda-implantes",
+      "texto": "La cicatrización del implante en el hueso puede llevar varios meses o más; mientras tanto suele llevar un pilar provisorio."
+    },
+    {
+      "id": "imp-despues",
+      "fuente": "fda-implantes",
+      "texto": "Después hay que seguir las indicaciones de higiene, ir a los controles y avisar enseguida si el implante se mueve o duele."
+    },
+    {
+      "id": "imp-marca",
+      "fuente": "fda-implantes",
+      "texto": "Conviene preguntar la marca y el modelo del implante y guardar ese dato."
+    },
+    {
+      "id": "imp-imagenes",
+      "fuente": "fda-implantes",
+      "texto": "Antes de una resonancia o una radiografía hay que avisar que se tienen implantes, porque pueden alterar la imagen."
+    },
+    {
+      "id": "rx-cbct",
+      "fuente": "mlp-radiografias",
+      "texto": "Las radiografías dentales se usan para planificar implantes; la tomografía de haz cónico se puede usar antes de una cirugía, sobre todo si se colocan varios implantes."
+    },
+    {
+      "id": "enc-gingivitis",
+      "fuente": "mlp-encias",
+      "texto": "La gingivitis es la forma leve de enfermedad de las encías: se ven rojas e hinchadas y sangran con facilidad."
+    },
+    {
+      "id": "enc-periodontitis",
+      "fuente": "mlp-encias",
+      "texto": "Si la gingivitis no se trata puede convertirse en periodontitis: la encía se separa del diente, se forman bolsas que se infectan y se dañan la encía y el tejido que sostiene el diente."
+    },
+    {
+      "id": "enc-revierte",
+      "fuente": "mlp-encias",
+      "texto": "La gingivitis suele revertirse con cepillado diario, hilo dental y limpiezas regulares hechas por un profesional."
+    },
+    {
+      "id": "enc-prevencion",
+      "fuente": "mlp-encias",
+      "texto": "El cepillado y el hilo dental todos los días, junto con limpiezas profesionales periódicas, ayudan a que la gingivitis no avance."
+    },
+    {
+      "id": "enc-relacion",
+      "fuente": "mlp-encias",
+      "texto": "La enfermedad de las encías se relaciona con la diabetes y con el tabaco."
+    },
+    {
+      "id": "con-nombre",
+      "fuente": "mlp-conducto",
+      "texto": "El tratamiento de conducto también se llama endodoncia (así titula MedlinePlus la página)."
+    },
+    {
+      "id": "con-que",
+      "fuente": "mlp-conducto",
+      "texto": "El tratamiento de conducto salva un diente quitando de su interior el nervio dañado o infectado y las bacterias."
+    },
+    {
+      "id": "con-cuando",
+      "fuente": "mlp-conducto",
+      "texto": "Hace falta cuando una infección llega al nervio de la raíz, normalmente con dolor e hinchazón; las causas habituales son caries, fracturas o golpes."
+    },
+    {
+      "id": "con-extraer",
+      "fuente": "mlp-conducto",
+      "texto": "Si el daño es muy grande, puede que el diente tenga que extraerse."
+    },
+    {
+      "id": "con-pasos",
+      "fuente": "mlp-conducto",
+      "texto": "Con anestesia local se abre un pequeño acceso en el diente, se retira la pulpa con limas, se limpian y desinfectan los conductos y se rellenan con un material permanente."
+    },
+    {
+      "id": "con-corona",
+      "fuente": "mlp-conducto",
+      "texto": "El diente se sella de forma provisoria y después normalmente se coloca una corona permanente."
+    },
+    {
+      "id": "con-antibioticos",
+      "fuente": "mlp-conducto",
+      "texto": "Pueden indicarse antibióticos para tratar o prevenir una infección."
+    },
+    {
+      "id": "con-dolor",
+      "fuente": "mlp-conducto",
+      "texto": "El pinchazo de la anestesia puede molestar un poco; después puede haber dolor e inflamación, que suelen calmarse con antiinflamatorios indicados por el profesional."
+    },
+    {
+      "id": "con-recuperacion",
+      "fuente": "mlp-conducto",
+      "texto": "La mayoría de las personas vuelve a su vida normal al día siguiente; conviene no masticar cosas duras con ese diente hasta que esté restaurado."
+    },
+    {
+      "id": "con-control",
+      "fuente": "mlp-conducto",
+      "texto": "Hay que volver al control para confirmar que la infección desapareció."
+    },
+    {
+      "id": "con-riesgos",
+      "fuente": "mlp-conducto",
+      "texto": "Riesgos posibles: infección o absceso, pérdida del diente, daño a un nervio y fractura del diente."
+    },
+    {
+      "id": "ort-que",
+      "fuente": "mlp-maloclusion",
+      "texto": "La maloclusión es una mala alineación de los dientes: la mordida de arriba y la de abajo no encajan bien."
+    },
+    {
+      "id": "ort-causas",
+      "fuente": "mlp-maloclusion",
+      "texto": "Suele ser hereditaria; también influyen diferencias de tamaño entre maxilares, hábitos de la infancia como chuparse el dedo, dientes de más o que faltan y golpes en la mandíbula."
+    },
+    {
+      "id": "ort-sintomas",
+      "fuente": "mlp-maloclusion",
+      "texto": "Puede dar dientes torcidos, cambios en la cara, dificultad para masticar, respiración por la boca y, menos veces, problemas para hablar."
+    },
+    {
+      "id": "ort-cuando",
+      "fuente": "mlp-maloclusion",
+      "texto": "Muchos casos leves no necesitan tratamiento; se aconseja corregir la mordida cuando afecta la higiene, la masticación o la estética."
+    },
+    {
+      "id": "ort-brackets",
+      "fuente": "mlp-maloclusion",
+      "texto": "Los brackets son aparatos fijos pegados a los dientes que, con alambres, aplican fuerza para moverlos; algunas personas pueden usar alineadores transparentes sin alambres."
+    },
+    {
+      "id": "ort-otros",
+      "fuente": "mlp-maloclusion",
+      "texto": "A veces el tratamiento incluye extraer dientes, arreglar o pulir dientes, colocar coronas y, pocas veces, cirugía del maxilar."
+    },
+    {
+      "id": "ort-retenedor",
+      "fuente": "mlp-maloclusion",
+      "texto": "Después de los brackets hace falta un retenedor para que los dientes no vuelvan a moverse."
+    },
+    {
+      "id": "ort-duracion",
+      "fuente": "mlp-maloclusion",
+      "texto": "El tratamiento suele durar de 6 meses a más de 2 años; funciona mejor en chicos y adolescentes, y en adultos también suele dar resultado aunque puede llevar más tiempo."
+    },
+    {
+      "id": "ort-cuidados",
+      "fuente": "mlp-maloclusion",
+      "texto": "Durante el tratamiento: cepillado e hilo dental todos los días y controles periódicos."
+    }
+  ]
+}

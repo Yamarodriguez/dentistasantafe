@@ -7,6 +7,7 @@
 //   { t, bloque, opcional: true } → si no hay datos reales, la sección no sale
 // {nombre} en el título se cambia por el nombre de la clínica.
 import Bloque from './Bloque.astro';
+import Texto from './Texto.astro';
 import { site, pendiente } from '../lib/datos.js';
 
 const { pagina, h2s = pagina.h2s } = Astro.props;
@@ -17,6 +18,7 @@ const titulo = (h) => h.t.replace('{nombre}', site.nombre);
 const id = (h) => (h.bloque === 'faq' ? 'preguntas-frecuentes' : undefined);
 const banda = (h) => ['tratamientos', 'opiniones', 'promociones'].includes(h.bloque) && pagina.tipo === 'portada';
 const foto = (h) => h.foto && site.fotos[h.foto];
+const textos = pagina.contenido?.secciones ?? {};
 ---
 {visibles.map((h) => (
   <section
@@ -29,9 +31,10 @@ const foto = (h) => h.foto && site.fotos[h.foto];
     <div class="seccion-cuerpo">
       <p class="antetitulo">{site.antetitulo}</p>
       <h2>{titulo(h)}</h2>
+      {textos[h.t] && <Texto bloques={textos[h.t]} />}
       {h.bloque
         ? <Bloque tipo={h.bloque} pagina={pagina} />
-        : <p class="pendiente">{pendiente('texto (Fase 3)')}</p>}
+        : !textos[h.t] && <p class="pendiente">{pendiente('texto (Fase 3)')}</p>}
       {h.boton && <div class="botones"><a class="boton" href={h.boton.href}>{h.boton.t} →</a></div>}
     </div>
   </section>
