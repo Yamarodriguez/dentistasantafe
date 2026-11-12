@@ -110,6 +110,13 @@
 }
 .web .seccion > h3, .web .seccion-cuerpo > h3 { margin-top: 2rem; color: var(--suave); font-size: .85rem; text-transform: uppercase; letter-spacing: .1em; font-family: var(--f-texto), sans-serif; }
 .web .opinion .estrellas { color: var(--acento); letter-spacing: .15em; }
+.web .tarjetas.cuatro { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.web .tarjeta.centrada { align-items: center; text-align: center; }
+.web .tarjeta.centrada h3 { font-size: 1.1rem; }
+.web .promo .precio { font-family: var(--f-tarjeta), Georgia, serif; font-size: 1.5rem; color: var(--texto); }
+.web .marcas { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; font-weight: 600; color: var(--suave); }
+.web .destacado { display: flex; gap: .6rem; align-items: flex-start; font-weight: 600; color: var(--texto); }
+.web .destacado svg { width: 22px; height: 22px; color: var(--accion); flex: none; margin-top: .15rem; }
 
 /* Categorías de tratamientos con forma orgánica (detalle de la referencia) */
 .web .categorias { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem; }

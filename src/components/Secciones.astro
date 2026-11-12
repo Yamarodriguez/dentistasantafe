@@ -1,29 +1,38 @@
 ---
-// Pinta los H2 de paginas.json: texto (pendiente hasta la Fase 3) o bloque de datos.
-// Cada sección lleva antetítulo (como la referencia) y, si se le pasa, una foto al lado.
+// Pinta los H2 de paginas.json. Cada H2 puede ser:
+//   "texto"                       → sección de texto (se redacta en Fase 3)
+//   { t, bloque }                 → se rellena con datos (Bloque.astro)
+//   { t, foto: "consulta" }       → foto de site.json > fotos al lado del texto
+//   { t, boton: { t, href } }     → botón al final
+//   { t, bloque, opcional: true } → si no hay datos reales, la sección no sale
+// {nombre} en el título se cambia por el nombre de la clínica.
 import Bloque from './Bloque.astro';
 import { site, pendiente } from '../lib/datos.js';
 
-const { pagina, h2s = pagina.h2s, fotos = {} } = Astro.props;
+const { pagina, h2s = pagina.h2s } = Astro.props;
 const norm = (h) => (typeof h === 'string' ? { t: h } : h);
+const conDatos = { promociones: site.promociones, reconocimientos: site.reconocimientos, marcas: site.marcas };
+const visibles = h2s.map(norm).filter((h) => !h.opcional || (conDatos[h.bloque] ?? []).length);
+const titulo = (h) => h.t.replace('{nombre}', site.nombre);
 const id = (h) => (h.bloque === 'faq' ? 'preguntas-frecuentes' : undefined);
-const banda = (h) => ['tratamientos', 'opiniones'].includes(h.bloque) && pagina.tipo === 'portada';
+const banda = (h) => ['tratamientos', 'opiniones', 'promociones'].includes(h.bloque) && pagina.tipo === 'portada';
+const foto = (h) => h.foto && site.fotos[h.foto];
 ---
-{h2s.map(norm).map((h) => (
+{visibles.map((h) => (
   <section
-    class:list={['seccion', `bloque-${h.bloque ?? 'texto'}`, { banda: banda(h), 'con-foto': fotos[h.t] }]}
+    class:list={['seccion', `bloque-${h.bloque ?? 'texto'}`, { banda: banda(h), 'con-foto': foto(h) }]}
     id={id(h)}
   >
-    {fotos[h.t] && (
-      <img class="foto-seccion" src={fotos[h.t]} alt={`${h.t} en ${site.nombre}`} width="800" height="1067" loading="lazy" />
+    {foto(h) && (
+      <img class="foto-seccion" src={foto(h)} alt={`${site.nombre}: ${titulo(h)}`} width="800" height="1067" loading="lazy" />
     )}
     <div class="seccion-cuerpo">
       <p class="antetitulo">{site.antetitulo}</p>
-      <h2>{h.t}</h2>
+      <h2>{titulo(h)}</h2>
       {h.bloque
         ? <Bloque tipo={h.bloque} pagina={pagina} />
         : <p class="pendiente">{pendiente('texto (Fase 3)')}</p>}
-      {fotos[h.t] && <div class="botones"><a class="boton" href="/primera-consulta/">Cómo es la primera consulta →</a></div>}
+      {h.boton && <div class="botones"><a class="boton" href={h.boton.href}>{h.boton.t} →</a></div>}
     </div>
   </section>
 ))}

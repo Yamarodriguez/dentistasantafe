@@ -39,6 +39,47 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
   </>
 ))}
 
+{tipo === 'porque' && (
+  <>
+    <p class="pendiente">{pendiente('párrafo de por qué elegirnos (Fase 3)')}</p>
+    <div class="tarjetas cuatro">
+      {(site.porque.length ? site.porque : [1, 2, 3, 4].map((n) => ({ titulo: pendiente(`motivo ${n}`), texto: '' }))).map((m) => (
+        <article class="tarjeta centrada">
+          <svg class="icono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/></svg>
+          <h3>{m.titulo}</h3>
+          {m.texto && <p>{m.texto}</p>}
+        </article>
+      ))}
+    </div>
+  </>
+)}
+
+{tipo === 'promociones' && (
+  <div class="categorias">
+    {site.promociones.map((p) => (
+      <article class="categoria promo">
+        <p class="antetitulo">Promoción · hasta {p.vigencia}</p>
+        <h3>{p.titulo}</h3>
+        <p>{p.texto}</p>
+        <p class="precio">{p.precio}</p>
+        <a class="boton" href={p.href}>Más información →</a>
+      </article>
+    ))}
+  </div>
+)}
+
+{tipo === 'reconocimientos' && (
+  <ul>{site.reconocimientos.map((r) => <li>{r}</li>)}</ul>
+)}
+
+{tipo === 'marcas' && (
+  <ul class="marcas">{site.marcas.map((m) => <li>{m}</li>)}</ul>
+)}
+
+{tipo === 'tratamientos' && pagina.tipo === 'portada' && (
+  <p class="pendiente">{pendiente('párrafo de introducción a los tratamientos (Fase 3)')}</p>
+)}
+
 {tipo === 'tratamientos' && pagina.tipo === 'portada' && (
   <div class="categorias">
     {grupos.map((g) => (

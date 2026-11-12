@@ -12,6 +12,13 @@
     "heroe": "/img/provisional-recepcion.jpg",
     "consulta": "/img/provisional-recepcion-2.jpg"
   },
+  "primera_consulta": "[Pendiente: qué incluye la primera consulta y si es gratis]",
+  "porque": [],
+  "_porque_ejemplo": { "titulo": "Especialistas en cada área", "texto": "Frase corta y verdadera.", "icono": "equipo" },
+  "promociones": [],
+  "_promocion_ejemplo": { "titulo": "Blanqueamiento + limpieza", "texto": "Qué incluye", "precio": "Desde $ …", "vigencia": "2026-12-31", "href": "/estetica-dental/" },
+  "reconocimientos": [],
+  "marcas": [],
   "ventajas": [
     "Dos sedes: Santa Fe y Rosario",
     "Profesionales con matrícula",

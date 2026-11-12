@@ -9,13 +9,19 @@
       "title": "Consultorios odontológicos en Santa Fe y Rosario",
       "description": "Odontólogos en Santa Fe capital y Rosario. Implantes, ortodoncia, prótesis y odontología general. Sacá turno por WhatsApp en tu sede.",
       "h1": "Consultorios odontológicos en Santa Fe y Rosario",
+      "_estructura": "Orden de la portada de la referencia (COV), adaptado: quiénes somos con foto → por qué elegirnos (4 H3) → sedes → tratamientos por grupos → obras sociales → primera consulta → promociones* → equipo → opiniones → reconocimientos* → marcas* → FAQ. *opcional: solo sale si hay datos reales en site.json.",
       "h2s": [
+        { "t": "Consultorios odontológicos en Santa Fe y Rosario con [años] años de experiencia", "foto": "consulta", "boton": { "t": "Conocé a nuestro equipo", "href": "/equipo/" } },
+        { "t": "¿Por qué elegir {nombre} en Santa Fe y Rosario?", "bloque": "porque" },
         { "t": "Elegí tu sede", "bloque": "sedes" },
-        { "t": "Tratamientos", "bloque": "tratamientos" },
+        { "t": "Tratamientos odontológicos", "bloque": "tratamientos" },
         { "t": "Obras sociales y prepagas", "bloque": "obras" },
-        "Tu primera consulta",
+        { "t": "Tu primera consulta", "boton": { "t": "Cómo es la primera consulta", "href": "/primera-consulta/" } },
+        { "t": "Promociones destacadas", "bloque": "promociones", "opcional": true },
         { "t": "Profesionales y matrículas", "bloque": "equipo" },
-        { "t": "Opiniones de pacientes", "bloque": "opiniones" },
+        { "t": "Opiniones de nuestros pacientes", "bloque": "opiniones" },
+        { "t": "Reconocimientos", "bloque": "reconocimientos", "opcional": true },
+        { "t": "Marcas con las que trabajamos", "bloque": "marcas", "opcional": true },
         { "t": "Preguntas frecuentes", "bloque": "faq" }
       ],
       "faq": []
