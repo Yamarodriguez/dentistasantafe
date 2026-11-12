@@ -35,7 +35,7 @@
     },
     "opiniones": {
       "src": "/img/fotos/opiniones-clinica-dental-santa-fe.webp",
-      "alt": "Cepillos de dientes de colores en una taza (imagen ilustrativa)"
+      "alt": "Cepillo de dientes de bambú con pasta (imagen ilustrativa)"
     },
     "dentistas": {
       "src": "/img/fotos/od-ignacio-vera-clinica-dental-santa-fe.webp",
@@ -87,7 +87,7 @@
     },
     "ninos": {
       "src": "/img/fotos/odontopediatra-santa-fe.webp",
-      "alt": "Cepillos de dientes de colores para niños (imagen ilustrativa)"
+      "alt": "Cepillo de dientes de bambú sobre fondo blanco (imagen ilustrativa)"
     }
   },
   "_confirmar": "confirmado: false = los textos de primera_consulta, ventajas y porque vienen de la estructura de COV y Yama aún no ha confirmado que sean ciertos en su clínica. Mientras sea false, la web muestra un aviso [Pendiente] (el validador lo cuenta).",
@@ -212,11 +212,6 @@
   ],
   "creditos_fotos": [
     {
-      "foto": "Mujer sonriendo",
-      "autor": "Vitaly Gariev",
-      "url": "https://unsplash.com/photos/WbWRHms2ZGU"
-    },
-    {
       "foto": "Consultorio dental luminoso con sillón y equipamiento",
       "autor": "Benyamin Bohlouli",
       "url": "https://unsplash.com/photos/e7MJLM5VGjY"
@@ -272,9 +267,19 @@
       "url": "https://unsplash.com/photos/iYQgnaWD8uw"
     },
     {
-      "foto": "Cepillos de dientes de colores en una taza",
-      "autor": "Towfiqu barbhuiya",
-      "url": "https://unsplash.com/photos/rr0cuFV-0Mo"
+      "foto": "Mujer sonriendo",
+      "autor": "Jake Nackos",
+      "url": "https://unsplash.com/photos/IF9TK5Uy-KI"
+    },
+    {
+      "foto": "Cepillo de dientes de bambú con pasta",
+      "autor": "Laårk Boshoff",
+      "url": "https://unsplash.com/photos/AsJwPibGHtw"
+    },
+    {
+      "foto": "Cepillo de dientes de bambú sobre fondo blanco",
+      "autor": "Raghavendra V. Konkathi",
+      "url": "https://unsplash.com/photos/3vWwf1wJWfc"
     }
   ],
   "_foto_propia": "IMG_5694: foto real del Od. Ignacio Vera en su consultorio (Yama confirma identidad y permiso para publicar, 2026-11-12). Original mejorado en marca/fotos-propias/; webp en public/img/fotos/."

@@ -28,9 +28,9 @@ IMAGENES = [
     (U + "protesis.jpg", "fotos/tratamientos-dentales-santa-fe.webp", 900),
     (U + "sillon.jpg", "fotos/obras-sociales-clinica-dental-santa-fe.webp", 900),
     (U + "implantes.jpg", "fotos/primera-consulta-dentista-santa-fe.webp", 900),
-    (U + "limpieza.jpg", "fotos/opiniones-clinica-dental-santa-fe.webp", 900),
+    (U + "cepillo-bambu-pasta.jpg", "fotos/opiniones-clinica-dental-santa-fe.webp", 900),
     (U + "ortodoncia.jpg", "fotos/preguntas-frecuentes-clinica-dental.webp", 900),
-    (U + "sonrisa-heroe.jpg", "fotos/turno-clinica-dental-santa-fe.webp", 900),
+    (U + "mujer-sonriendo-fondo-blanco.jpg", "fotos/turno-clinica-dental-santa-fe.webp", 900),
     # Foto real (IMG_5694 mejorada; Yama confirma que es el Od. Ignacio Vera y que se publica)
     ("marca/fotos-propias/odontologo-consultorio-santa-fe.jpg", "fotos/od-ignacio-vera-clinica-dental-santa-fe.webp", 900),
     # Tratamientos (primer H2 de cada página)
@@ -42,7 +42,7 @@ IMAGENES = [
     (U + "periodoncia.jpg", "fotos/periodoncia-santa-fe.webp", 900),
     (U + "estetica.jpg", "fotos/estetica-dental-santa-fe.webp", 900),
     (U + "ninos.jpg", "fotos/limpieza-dental-santa-fe.webp", 900),
-    (U + "limpieza.jpg", "fotos/odontopediatra-santa-fe.webp", 900),
+    (U + "cepillo-bambu-blanco.jpg", "fotos/odontopediatra-santa-fe.webp", 900),
 ]
 
 fallos = 0
