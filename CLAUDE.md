@@ -54,11 +54,26 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   dónde te lo hacemos, opiniones, FAQ.
 - `netlify.toml`: build `npm run todo`, cabecera `X-Robots-Tag: noindex` (quitar en Fase 5)
   + `"indexar": false` en site.json.
+- Diseño (Fase 2): `src/styles/base.css` acotado a `.web`; variables desde `temas.json`;
+  `npm run todo` incluye `todo:visual` (`scripts/visual.mjs`: contraste AA de cada tema,
+  bandas y tintes + que exista 404). Detalle propio: línea dorada bajo cada H2 (la del
+  logo). Opiniones: estrellas solo si la reseña real trae `estrellas`.
 
 ## Estado
-- Fase actual: **1 — Plan y esqueleto: hecha (2026-11-12) salvo el despliegue de pruebas**,
-  que espera a que Yama conecte el repo en Netlify. 19 páginas, `npm run todo` a 0 errores
-  (296 restos = datos pendientes). Siguiente: **FASE 2 — Diseño** (referencia COV).
+- Fase actual: **2 — Diseño, esperando que Yama elija dirección** (rama `fase-2-diseno`).
+  Tres direcciones en `src/data/temas.json` con la estructura de COV (héroe con foto y
+  ventajas, antetítulo, tarjetas con icono, categorías con forma orgánica en banda crema,
+  franja de turno, pie a color): **oliva** (por defecto, la más parecida a COV), **dorado**
+  (colores del logo y la recepción), **negro** (negro y oro). Se cambia con `"tema"` en
+  site.json. Capturas en `capturas/` (no se suben). Al elegir: borrar los otros temas y
+  sus letras, unir la rama a main.
+  Capturas: el navegador de la app no dibuja (ventana oculta) → Edge sin ventana, un perfil
+  por captura en el scratchpad; el móvil a 390 px con un iframe (Edge no baja de ~500 px).
+- Fase 1 hecha (2026-11-12) salvo el despliegue de pruebas: Yama dijo «todavía no» a
+  Netlify.
+- Fotos: `public/img/provisional-*.jpg` = renders de recepción que pasó Yama; parecen
+  hechos con IA. **No se suben** (.gitignore) ni se publican como reales sin que Yama lo
+  confirme; el validador los cuenta como resto. Las `IMG_*.HEIC` no se han podido ver.
 - Fase 0 **cerrada el 2026-11-12**: Yama aprueba la lista de páginas del apartado 13
   (dos sedes, 19 páginas + legales).
 - Hecho (2026-11-12): Valencia como **modelo** (13 webs, 153 páginas,

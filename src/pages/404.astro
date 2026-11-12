@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+
+const pagina = {
+  slug: '404',
+  tipo: '404',
+  title: 'Página no encontrada',
+  description: 'Esta página no existe. Volvé al inicio o sacá turno en Santa Fe o Rosario.',
+};
+---
+<Base pagina={pagina}>
+  <div class="contenedor error">
+    <h1>Esta página no existe</h1>
+    <p>Puede que el enlace esté mal o que la página se haya movido.</p>
+    <div class="botones" style="justify-content:center">
+      <a class="boton" href="/">Ir al inicio</a>
+      <a class="boton secundario" href="/tratamientos/">Ver tratamientos</a>
+    </div>
+  </div>
+</Base>

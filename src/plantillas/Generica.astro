@@ -1,12 +1,14 @@
 ---
 // Índice, info (obras sociales, primera consulta), equipo, turnos, precios y legales.
-// En Fase 2 cada tipo puede separarse si el diseño lo pide.
 import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
 
 const { pagina } = Astro.props;
 ---
 <Base pagina={pagina}>
-  <h1>{pagina.h1}</h1>
-  <Secciones pagina={pagina} />
+  <div class="contenedor">
+    <nav class="migas" aria-label="Migas"><a href="/">Inicio</a> › {pagina.h1}</nav>
+    <section class="heroe"><h1>{pagina.h1}</h1></section>
+    <Secciones pagina={pagina} />
+  </div>
 </Base>

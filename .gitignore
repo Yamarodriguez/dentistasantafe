@@ -14,3 +14,5 @@ descargas/
 .claude/settings.local.json
 __pycache__/
 *.pyc
+dist-*/
+public/img/provisional-*

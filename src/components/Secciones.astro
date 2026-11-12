@@ -1,15 +1,29 @@
 ---
 // Pinta los H2 de paginas.json: texto (pendiente hasta la Fase 3) o bloque de datos.
+// Cada sección lleva antetítulo (como la referencia) y, si se le pasa, una foto al lado.
 import Bloque from './Bloque.astro';
-import { pendiente } from '../lib/datos.js';
+import { site, pendiente } from '../lib/datos.js';
 
-const { pagina, h2s = pagina.h2s } = Astro.props;
+const { pagina, h2s = pagina.h2s, fotos = {} } = Astro.props;
 const norm = (h) => (typeof h === 'string' ? { t: h } : h);
 const id = (h) => (h.bloque === 'faq' ? 'preguntas-frecuentes' : undefined);
+const banda = (h) => ['tratamientos', 'opiniones'].includes(h.bloque) && pagina.tipo === 'portada';
 ---
 {h2s.map(norm).map((h) => (
-  <section id={id(h)}>
-    <h2>{h.t}</h2>
-    {h.bloque ? <Bloque tipo={h.bloque} pagina={pagina} /> : <p>{pendiente('texto (Fase 3)')}</p>}
+  <section
+    class:list={['seccion', `bloque-${h.bloque ?? 'texto'}`, { banda: banda(h), 'con-foto': fotos[h.t] }]}
+    id={id(h)}
+  >
+    {fotos[h.t] && (
+      <img class="foto-seccion" src={fotos[h.t]} alt={`${h.t} en ${site.nombre}`} width="800" height="1067" loading="lazy" />
+    )}
+    <div class="seccion-cuerpo">
+      <p class="antetitulo">{site.antetitulo}</p>
+      <h2>{h.t}</h2>
+      {h.bloque
+        ? <Bloque tipo={h.bloque} pagina={pagina} />
+        : <p class="pendiente">{pendiente('texto (Fase 3)')}</p>}
+      {fotos[h.t] && <div class="botones"><a class="boton" href="/primera-consulta/">Cómo es la primera consulta →</a></div>}
+    </div>
   </section>
 ))}

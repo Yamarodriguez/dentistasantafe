@@ -1,0 +1,189 @@
+/* Estilos de la web. Todo acotado al contenedor .web (Fase 2: reglas CSS acotadas).
+   Colores y letras: variables que salen de src/data/temas.json (--fondo, --accion…).
+   Estructura inspirada en la referencia (centroodontologicovalenciano.com). */
+
+.web {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: var(--f-texto), system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+.web *, .web *::before, .web *::after { box-sizing: border-box; }
+.web img { max-width: 100%; height: auto; display: block; }
+.web a { color: var(--accion); text-underline-offset: 3px; }
+.web a:hover { text-decoration-thickness: 2px; }
+.web :focus-visible { outline: 3px solid var(--acento); outline-offset: 3px; border-radius: 4px; }
+
+.web h1, .web h2, .web h3, .web h4 {
+  font-family: var(--f-titulos), Georgia, serif;
+  color: var(--texto);
+  line-height: 1.15;
+  font-weight: 600;
+  margin: 0 0 .5em;
+}
+.web h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); letter-spacing: -.01em; }
+.web h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); max-width: 22ch; }
+.web h3 { font-size: 1.25rem; }
+.web p { margin: 0 0 1em; }
+.web ul { padding-left: 1.2rem; }
+
+/* Antetítulo pequeño sobre cada H2 (como la referencia) */
+.web .antetitulo { font-size: .8rem; letter-spacing: .04em; color: var(--suave); margin: 0 0 .6rem; }
+
+/* Detalle propio: la línea dorada bajo el diente del logo, bajo cada H2. */
+.web h2::after {
+  content: ""; display: block; width: 56px; height: 2px; margin-top: .5em; background: var(--acento);
+}
+
+.web .contenedor { width: min(1160px, 100% - 2.5rem); margin-inline: auto; }
+
+/* ---------- Cabecera ---------- */
+.web .cabecera { background: var(--superficie); border-bottom: 1px solid var(--borde); position: sticky; top: 0; z-index: 10; }
+.web .cabecera .contenedor { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: .75rem; flex-wrap: wrap; }
+.web .marca { display: flex; align-items: center; gap: .65rem; color: var(--texto); text-decoration: none; font-family: var(--f-tarjeta), serif; font-size: 1.1rem; font-weight: 600; }
+.web .marca img { width: 44px; height: 44px; border-radius: 10px; object-fit: cover; }
+.web .menu { display: flex; align-items: center; gap: 1.4rem; flex-wrap: wrap; font-size: .95rem; }
+.web .menu a { color: var(--texto); text-decoration: none; }
+.web .menu a:hover { color: var(--accion); text-decoration: underline; }
+.web .menu .boton { color: var(--accion-texto); padding: .55rem 1.1rem; }
+
+/* ---------- Botones ---------- */
+.web .boton {
+  display: inline-block; background: var(--accion); color: var(--accion-texto);
+  padding: .8rem 1.4rem; border-radius: calc(var(--radio) / 2);
+  text-decoration: none; font-weight: 600; line-height: 1.2; border: 0;
+}
+.web .boton:hover { filter: brightness(1.12); text-decoration: none; }
+.web .boton.secundario { background: var(--superficie); color: var(--accion); box-shadow: inset 0 0 0 2px var(--accion); }
+.web .botones { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1.5rem; }
+
+/* ---------- Héroe ---------- */
+.web .heroe { padding-block: clamp(2rem, 5vw, 3.5rem); }
+.web .heroe .entrada { font-size: 1.15rem; color: var(--suave); max-width: 46ch; }
+.web .heroe-foto {
+  position: relative; padding-block: clamp(4rem, 9vw, 7.5rem) 2rem;
+  background:
+    linear-gradient(90deg, var(--fondo) 0%, color-mix(in srgb, var(--fondo) 92%, transparent) 38%, transparent 72%),
+    var(--foto) center right / cover no-repeat;
+}
+.web .heroe-texto { max-width: 560px; }
+.web .heroe-foto h1 span { display: block; color: var(--accion); }
+.web .ventajas {
+  list-style: none; padding: 0; margin: clamp(2.5rem, 6vw, 4.5rem) 0 0;
+  display: flex; flex-wrap: wrap; gap: .75rem 2rem; font-size: .9rem; color: var(--texto);
+}
+.web .ventajas li { display: flex; align-items: center; gap: .5rem; background: color-mix(in srgb, var(--fondo) 85%, transparent); padding: .35rem .7rem; border-radius: 999px; }
+.web .ventajas svg { width: 18px; height: 18px; color: var(--accion); flex: none; }
+.web .datos-sede { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.25rem; font-size: .95rem; color: var(--suave); }
+
+/* ---------- Migas ---------- */
+.web .migas { font-size: .9rem; color: var(--suave); padding-top: 1.5rem; }
+.web .migas a { color: var(--suave); }
+
+/* ---------- Secciones ---------- */
+.web main .seccion { padding-block: clamp(2.5rem, 6vw, 4.5rem); }
+.web .pendiente { color: var(--suave); font-style: italic; }
+/* Banda de color a todo lo ancho (tratamientos, opiniones en portada) */
+.web .seccion.banda { background: var(--banda); box-shadow: 0 0 0 100vmax var(--banda); clip-path: inset(0 -100vmax); }
+/* Sección con foto al lado (como «Clínica dental en Valencia» de la referencia) */
+.web .seccion.con-foto { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
+.web .foto-seccion { border-radius: var(--radio); aspect-ratio: 4 / 5; object-fit: cover; width: 100%; }
+
+/* ---------- Tarjetas (sedes, tratamientos, equipo, opiniones, obras) ---------- */
+.web .tarjetas { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+.web .tarjeta {
+  background: var(--superficie); border: 1px solid var(--borde); border-radius: var(--radio);
+  padding: 1.5rem; display: flex; flex-direction: column; gap: .5rem;
+  transition: transform .15s ease, box-shadow .15s ease; margin: 0;
+}
+.web .tarjeta:hover { transform: translateY(-3px); box-shadow: 0 16px 32px -20px rgba(0, 0, 0, .35); }
+.web .tarjeta h3, .web .tarjeta h4 { margin: 0; font-family: var(--f-tarjeta), Georgia, serif; font-size: 1.3rem; }
+.web .tarjeta h3 a, .web .tarjeta h4 a { color: var(--texto); text-decoration: none; }
+.web .tarjeta p { color: var(--suave); font-size: .97rem; margin: 0; }
+.web .tarjeta .mas { margin-top: auto; padding-top: .5rem; font-weight: 600; }
+.web .tarjeta .icono {
+  width: 46px; height: 46px; padding: 11px; border-radius: 50%;
+  background: var(--tinte-1); color: var(--accion);
+}
+.web .seccion > h3, .web .seccion-cuerpo > h3 { margin-top: 2rem; color: var(--suave); font-size: .85rem; text-transform: uppercase; letter-spacing: .1em; font-family: var(--f-texto), sans-serif; }
+.web .opinion .estrellas { color: var(--acento); letter-spacing: .15em; }
+
+/* Categorías de tratamientos con forma orgánica (detalle de la referencia) */
+.web .categorias { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.web .categoria {
+  position: relative; overflow: hidden; isolation: isolate;
+  background: var(--superficie); border-radius: var(--radio); padding: 1.6rem 1.4rem 1.4rem;
+  min-height: 260px; border: 1px solid var(--borde);
+}
+.web .categoria::before {
+  content: ""; position: absolute; z-index: -1; top: -18%; right: -30%; width: 95%; height: 62%;
+  border-radius: 42% 58% 63% 37% / 41% 44% 56% 59%; background: var(--tinte-1);
+}
+.web .categoria:nth-child(2)::before { background: var(--tinte-2); border-radius: 58% 42% 37% 63% / 55% 41% 59% 45%; }
+.web .categoria:nth-child(3)::before { background: var(--tinte-3); border-radius: 37% 63% 45% 55% / 49% 60% 40% 51%; }
+.web .categoria:nth-child(4)::before { background: var(--tinte-4); }
+.web .categoria:nth-child(5)::before { background: var(--tinte-2); }
+.web .categoria:nth-child(6)::before { background: var(--tinte-3); }
+.web .categoria h3 { font-family: var(--f-tarjeta), Georgia, serif; font-size: 1.4rem; max-width: 11ch; margin-bottom: 1.25rem; }
+.web .categoria ul { list-style: none; padding: 0; margin: 0; font-size: .95rem; }
+.web .categoria li { border-top: 1px solid var(--borde); }
+.web .categoria li a { display: flex; justify-content: space-between; gap: .5rem; padding: .6rem 0; color: var(--texto); text-decoration: none; }
+.web .categoria li a:hover { color: var(--accion); }
+
+/* FAQ */
+.web details { border-bottom: 1px solid var(--borde); padding-block: .5rem; }
+.web summary { cursor: pointer; list-style-position: outside; }
+.web summary h3 { display: inline; font-size: 1.1rem; }
+
+/* ---------- Franja de turno + pie ---------- */
+.web .franja-turno { background: var(--banda); padding-block: clamp(2.5rem, 6vw, 4rem); margin-top: 2rem; }
+.web .franja-turno .contenedor { display: flex; justify-content: space-between; align-items: center; gap: 2rem; flex-wrap: wrap; }
+.web .titulo-franja { font-family: var(--f-titulos), Georgia, serif; font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; margin: 0 0 .3rem; line-height: 1.15; }
+.web .pie { background: var(--oscuro); color: var(--oscuro-texto); padding-block: 3rem 5.5rem; font-size: .95rem; }
+.web .pie a { color: var(--oscuro-texto); }
+.web .pie .contenedor { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; }
+.web .pie-titulo { font-weight: 600; font-size: 1.05rem; }
+.web .pie-legal { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid color-mix(in srgb, var(--oscuro-texto) 25%, transparent); display: flex !important; align-items: center; justify-content: space-between; }
+.web .pie-legal img { width: 40px; height: 40px; border-radius: 8px; }
+.web .pie-legal p { margin: 0; }
+
+/* Botón fijo de turno (solo móvil) */
+.web .boton-turno { position: fixed; right: 1rem; bottom: 1rem; z-index: 20; box-shadow: 0 10px 25px -10px rgba(0, 0, 0, .5); }
+
+/* 404 */
+.web .error { text-align: center; padding-block: 5rem; }
+.web .error h2::after, .web .error h1::after { margin-inline: auto; }
+
+@media (max-width: 760px) {
+  .web .menu { width: 100%; overflow-x: auto; flex-wrap: nowrap; padding-bottom: .25rem; }
+  .web .menu a { white-space: nowrap; }
+  .web .heroe-foto {
+    padding-top: 15rem;
+    background:
+      linear-gradient(180deg, transparent 0, var(--fondo) 15rem),
+      var(--foto) top center / 100% auto no-repeat;
+  }
+  .web .seccion.con-foto { grid-template-columns: 1fr; }
+  .web .categoria { min-height: 0; }
+}
+@media (min-width: 761px) {
+  .web .boton-turno { display: none; }
+}
+
+/* ===== Variaciones por tema ===== */
+/* Negro y oro: cabecera y pie negros, botones dorados en el héroe. */
+.web[data-tema="negro"] .cabecera { background: var(--oscuro); border-color: #262626; }
+.web[data-tema="negro"] .cabecera .marca,
+.web[data-tema="negro"] .cabecera .menu a { color: var(--oscuro-texto); }
+.web[data-tema="negro"] .heroe-foto h1 span { color: var(--texto); font-style: italic; }
+.web[data-tema="negro"] h1, .web[data-tema="negro"] h2 { font-weight: 600; letter-spacing: 0; }
+.web[data-tema="negro"] h1 { font-size: clamp(2.5rem, 5.6vw, 4rem); }
+.web[data-tema="negro"] h2 { font-size: clamp(1.9rem, 3.8vw, 2.8rem); }
+
+@media (prefers-reduced-motion: reduce) {
+  .web .tarjeta { transition: none; }
+  .web .tarjeta:hover { transform: none; }
+}

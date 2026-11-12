@@ -4,6 +4,20 @@
   "url": "https://dentistasantafe.com",
   "idioma": "es-AR",
   "indexar": false,
+  "tema": "oliva",
+  "logo": "/img/logo.jpg",
+  "antetitulo": "Odontología en Santa Fe y Rosario",
+  "_fotos": "PROVISIONALES: renders que pasó Yama; no se publican como fotos reales de la clínica sin su confirmación. El validador las cuenta como resto.",
+  "fotos": {
+    "heroe": "/img/provisional-recepcion.jpg",
+    "consulta": "/img/provisional-recepcion-2.jpg"
+  },
+  "ventajas": [
+    "Dos sedes: Santa Fe y Rosario",
+    "Profesionales con matrícula",
+    "[Pendiente: ventaja 3]",
+    "[Pendiente: ventaja 4]"
+  ],
   "sedes": [
     {
       "id": "santa-fe",

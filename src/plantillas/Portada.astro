@@ -1,14 +1,36 @@
 ---
+// Portada con la estructura de la referencia (COV): héroe con foto y ventajas,
+// luego los H2 de paginas.json con su bloque de datos.
 import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
-import { site, enlaceTurno } from '../lib/datos.js';
+import { site, enlaceTurno, pendiente } from '../lib/datos.js';
 
 const { pagina } = Astro.props;
+const [linea1, linea2] = pagina.h1.split(/ (?=en )/);
 ---
 <Base pagina={pagina}>
-  <h1>{pagina.h1}</h1>
-  <p>
-    {site.sedes.map((s) => <a href={enlaceTurno(s)}>Sacá turno en {s.ciudad}</a>)}
-  </p>
-  <Secciones pagina={pagina} />
+  <section class="heroe heroe-foto" style={`--foto:url('${site.fotos.heroe}')`}>
+    <div class="contenedor">
+      <div class="heroe-texto">
+        <h1>{linea1} <span>{linea2}</span></h1>
+        <p class="entrada">{pendiente('frase de presentación (Fase 3)')}</p>
+        <div class="botones">
+          {site.sedes.map((s, i) => (
+            <a class={i === 0 ? 'boton' : 'boton secundario'} href={enlaceTurno(s)}>Turno en {s.ciudad} →</a>
+          ))}
+        </div>
+      </div>
+      <ul class="ventajas">
+        {site.ventajas.map((v) => (
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            {v}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+  <div class="contenedor">
+    <Secciones pagina={pagina} fotos={{ 'Tu primera consulta': site.fotos.consulta }} />
+  </div>
 </Base>

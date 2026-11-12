@@ -66,22 +66,27 @@ for (const f of htmls) {
   if (desc.length > 155) err(r, `description de ${desc.length} caracteres (máx. 155)`);
   if (/\p{Extended_Pictographic}/u.test(desc)) err(r, 'description con emojis');
 
+  const es404 = r === '/404.html';
   const canon = uno(/<link rel="canonical" href="([^"]*)"/) ?? '';
-  if (canon !== BASE + r) err(r, `canonical «${canon}» (esperado ${BASE + r})`);
+  if (!es404 && canon !== BASE + r) err(r, `canonical «${canon}» (esperado ${BASE + r})`);
 
   const faqs = (html.match(/id="preguntas-frecuentes"/g) || []).length;
   const tipo = tipoDe[r];
-  if (tipo !== 'legal' && faqs !== 1) err(r, `${faqs} bloques de FAQ (debe haber 1)`);
+  if (!es404 && tipo !== 'legal' && faqs !== 1) err(r, `${faqs} bloques de FAQ (debe haber 1)`);
 
   for (const [, href] of html.matchAll(/href="(\/[^"]*)"/g)) {
     if (!existe(href)) err(r, `enlace roto ${href}`);
   }
   for (const [img] of html.matchAll(/<img\b[^>]*>/g)) {
-    if (!/\balt="[^"]+"/.test(img)) err(r, `imagen sin alt: ${img.slice(0, 80)}`);
+    // alt vacío solo vale en imágenes decorativas marcadas con role="presentation".
+    const decorativa = /\balt=""/.test(img) && /role="presentation"/.test(img);
+    if (!decorativa && !/\balt="[^"]+"/.test(img)) err(r, `imagen sin alt: ${img.slice(0, 80)}`);
   }
 
   const texto = decodificar(html.replace(/<[^>]+>/g, ' '));
   const marcas = texto.match(/\[[^\]\n]{1,120}\]|\bTODO\b|lorem ipsum/gi) || [];
+  // Fotos provisionales (renders sin confirmar) = resto: no se publican como reales.
+  marcas.push(...(html.match(/\/img\/provisional[^"')\s]*/g) || []).map((f) => `[foto provisional ${f}]`));
   if (marcas.length) restos.push({ r, n: marcas.length, ej: [...new Set(marcas)].slice(0, 6) });
 }
 

@@ -8,9 +8,14 @@
     "build": "astro build",
     "preview": "astro preview",
     "validar": "node scripts/validar.mjs",
-    "todo": "astro build && node scripts/validar.mjs"
+    "todo": "astro build && node scripts/validar.mjs && node scripts/visual.mjs",
+    "todo:visual": "node scripts/visual.mjs"
   },
   "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "@fontsource/source-sans-3": "^5.3.1",
     "astro": "^5.18.2"
   }
 }

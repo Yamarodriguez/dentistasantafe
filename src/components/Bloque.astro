@@ -11,77 +11,124 @@ const profesionales = site.profesionales.filter(
 const opiniones = site.opiniones.filter((o) => !pagina.sede || o.sede === pagina.sede);
 const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
 ---
-{tipo === 'sedes' && sedes.map((s) => (
-  <article>
-    <h3><a href={ruta(s.id)}>{s.ciudad}</a></h3>
-    <p>{s.barrio} · {s.direccion}</p>
-  </article>
-))}
+{tipo === 'sedes' && (
+  <div class="tarjetas">
+    {sedes.map((s) => (
+      <article class="tarjeta">
+        <svg class="icono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        <h3><a href={ruta(s.id)}>{s.ciudad}</a></h3>
+        <p>{s.barrio}<br />{s.direccion}<br />{s.horario}</p>
+        <a class="mas" href={enlaceTurno(s)}>Sacá turno en {s.ciudad} →</a>
+      </article>
+    ))}
+  </div>
+)}
 
 {tipo === 'tratamientos' && pagina.tipo === 'indice' && grupos.map((g) => (
-  <article>
+  <>
     <h3>{g}</h3>
-    <ul>
+    <div class="tarjetas">
       {tratamientos.filter((t) => t.grupo === g).map((t) => (
-        <li><a href={ruta(t.slug)}>{t.nombre}</a></li>
+        <article class="tarjeta">
+          <h4><a href={ruta(t.slug)}>{t.nombre}</a></h4>
+          <p>{t.description}</p>
+          <a class="mas" href={ruta(t.slug)} aria-label={`Más sobre ${t.nombre}`}>Ver tratamiento →</a>
+        </article>
       ))}
-    </ul>
-  </article>
+    </div>
+  </>
 ))}
 
-{tipo === 'tratamientos' && pagina.tipo !== 'indice' && tratamientos.map((t) => (
-  <article>
-    <h3><a href={ruta(t.slug)}>{t.nombre}</a></h3>
-  </article>
-))}
+{tipo === 'tratamientos' && pagina.tipo === 'portada' && (
+  <div class="categorias">
+    {grupos.map((g) => (
+      <article class="categoria">
+        <h3>{g}</h3>
+        <ul>
+          {tratamientos.filter((t) => t.grupo === g).map((t) => (
+            <li><a href={ruta(t.slug)}>{t.nombre} <span aria-hidden="true">→</span></a></li>
+          ))}
+        </ul>
+      </article>
+    ))}
+  </div>
+)}
 
-{tipo === 'obras' && sedes.map((s) => (
-  <article>
-    <h3>{s.ciudad}</h3>
-    {s.obrasSociales.length
-      ? <ul>{s.obrasSociales.map((o) => <li>{o}</li>)}</ul>
-      : <p>{pendiente(`obras sociales y prepagas de ${s.ciudad}`)}</p>}
-  </article>
-))}
+{tipo === 'tratamientos' && pagina.tipo !== 'indice' && pagina.tipo !== 'portada' && (
+  <div class="tarjetas">
+    {tratamientos.map((t) => (
+      <article class="tarjeta">
+        <svg class="icono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 3c-2.5 0-4 2-4 4.5 0 3 1.5 5 2 8 .4 2.6 1 5.5 2.5 5.5S9.5 17 12 17s3 4 4.5 4 2.1-2.9 2.5-5.5c.5-3 2-5 2-8C21 5 19.5 3 17 3c-2 0-3 1-5 1S9 3 7 3z"/></svg>
+        <h3><a href={ruta(t.slug)}>{t.nombre}</a></h3>
+        <p>{t.description}</p>
+        <a class="mas" href={ruta(t.slug)} aria-label={`Más sobre ${t.nombre}`}>Ver tratamiento →</a>
+      </article>
+    ))}
+  </div>
+)}
+
+{tipo === 'obras' && (
+  <div class="tarjetas">
+    {sedes.map((s) => (
+      <article class="tarjeta">
+        <h3>{s.ciudad}</h3>
+        {s.obrasSociales.length
+          ? <ul>{s.obrasSociales.map((o) => <li>{o}</li>)}</ul>
+          : <p class="pendiente">{pendiente(`obras sociales y prepagas de ${s.ciudad}`)}</p>}
+      </article>
+    ))}
+  </div>
+)}
 
 {tipo === 'equipo' && (profesionales.length
-  ? profesionales.map((p) => (
-      <article>
-        <h3>{p.nombre}</h3>
-        <p>{p.especialidad} · Matrícula {p.matricula}</p>
-      </article>
-    ))
-  : <p>{pendiente('profesionales con título, matrícula, especialidad y sede')}</p>)}
+  ? (
+    <div class="tarjetas">
+      {profesionales.map((p) => (
+        <article class="tarjeta">
+          {p.foto && <img src={p.foto} alt={`Foto de ${p.nombre}`} />}
+          <h3>{p.nombre}</h3>
+          <p>{p.especialidad} · Matrícula {p.matricula}</p>
+        </article>
+      ))}
+    </div>
+  )
+  : <p class="pendiente">{pendiente('profesionales con título, matrícula, especialidad y sede')}</p>)}
 
 {tipo === 'opiniones' && (opiniones.length
-  ? opiniones.map((o) => (
-      <blockquote>
-        <p>{o.texto}</p>
-        <footer>{o.autor} · {o.fuente}</footer>
-      </blockquote>
-    ))
-  : <p>{pendiente('reseñas reales de Google con nombre')}</p>)}
+  ? (
+    <div class="tarjetas">
+      {opiniones.map((o) => (
+        <blockquote class="tarjeta opinion">
+          {o.estrellas && <p class="estrellas" aria-label={`${o.estrellas} de 5 estrellas`}>{'★'.repeat(o.estrellas)}</p>}
+          <p>{o.texto}</p>
+          <footer>{o.autor} · {o.fuente}</footer>
+        </blockquote>
+      ))}
+    </div>
+  )
+  : <p class="pendiente">{pendiente('reseñas reales de Google con nombre')}</p>)}
 
 {tipo === 'faq' && (pagina.faq.length
   ? pagina.faq.map((f) => (
-      <div>
-        <h3>{f.q}</h3>
+      <details>
+        <summary><h3>{f.q}</h3></summary>
         <p>{f.a}</p>
-      </div>
+      </details>
     ))
-  : <p>{pendiente('preguntas frecuentes (Fase 3)')}</p>)}
+  : <p class="pendiente">{pendiente('preguntas frecuentes (Fase 3)')}</p>)}
 
 {tipo === 'mapa' && sedes.map((s) => (
-  <p>{s.direccion} ({s.barrio}, {s.ciudad}) {s.mapa ? <a href={s.mapa}>Ver en Google Maps</a> : pendiente('enlace a Google Maps')}</p>
+  <p>{s.direccion} ({s.barrio}, {s.ciudad}) {s.mapa ? <a href={s.mapa}>Ver en Google Maps</a> : <span class="pendiente">{pendiente('enlace a Google Maps')}</span>}</p>
 ))}
 
 {tipo === 'horario' && sedes.map((s) => (
   <p>{s.ciudad}: {s.horario}</p>
 ))}
 
-{tipo === 'turno' && sedes.map((s) => (
-  <p>
-    <a href={enlaceTurno(s)}>Sacá turno en {s.ciudad}</a> · {s.telefono}
-    {!s.whatsapp && <> {pendiente(`WhatsApp de ${s.ciudad}`)}</>}
-  </p>
-))}
+{tipo === 'turno' && (
+  <div class="botones">
+    {sedes.map((s) => (
+      <a class="boton" href={enlaceTurno(s)}>Sacá turno en {s.ciudad}</a>
+    ))}
+  </div>
+)}
