@@ -1,0 +1,80 @@
+{
+  "slug": "tratamiento-de-conducto-santa-fe",
+  "conteo": {
+    "clave": "tratamiento de conducto",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe"
+  },
+  "intro": "El tratamiento de conducto (endodoncia) permite conservar un diente cuando la infección llega al nervio. Acá te contamos cuándo hace falta, si duele y cómo es el procedimiento.",
+  "fuentes": [
+    "mlp-conducto"
+  ],
+  "autor": null,
+  "revisado": null,
+  "secciones": {
+    "¿Qué es un tratamiento de conducto?": [
+      "Un tratamiento de conducto es un procedimiento que salva un diente quitando de su interior el nervio dañado o infectado y las bacterias.",
+      "También se lo llama endodoncia. El objetivo es conservar el diente propio en lugar de extraerlo."
+    ],
+    "¿Cuándo hace falta?": [
+      "Hace falta cuando una infección llega al nervio de la raíz del diente, algo que suele dar dolor e hinchazón.",
+      "Las causas más habituales son:",
+      {
+        "lista": [
+          "Una caries profunda.",
+          "Una fractura del diente.",
+          "Un golpe."
+        ]
+      },
+      "Si el daño es muy grande, puede que el diente no se pueda salvar y haya que extraerlo. Eso lo decide el odontólogo al revisar el diente."
+    ],
+    "¿Duele?": [
+      "El pinchazo de la anestesia puede molestar un poco, y después puede haber dolor e inflamación.",
+      "Ese dolor suele calmarse con los antiinflamatorios que indique el odontólogo. En algunos casos también se indican antibióticos para tratar o prevenir una infección."
+    ],
+    "¿Cuántas sesiones lleva?": [
+      "[Pendiente: cuántas sesiones suele llevar en la clínica y cuánto dura cada una, confirmado por el odontólogo]",
+      "En general, el procedimiento sigue estos pasos:",
+      {
+        "pasos": [
+          "Anestesia local de la zona.",
+          "Una pequeña apertura en el diente para llegar a la pulpa.",
+          "Limpieza: se retira la pulpa con instrumentos llamados limas y se desinfectan los conductos.",
+          "Relleno de los conductos con un material permanente.",
+          "Sellado provisorio del diente."
+        ]
+      },
+      "La mayoría de las personas vuelve a su vida normal al día siguiente. Hasta que el diente esté restaurado conviene no masticar cosas duras de ese lado."
+    ],
+    "Después del conducto: ¿hace falta una corona?": [
+      "Normalmente sí: después del tratamiento de conducto el diente se sella de forma provisoria y luego se coloca una corona permanente.",
+      "También hay que volver al control para confirmar que la infección desapareció.",
+      {
+        "h3": "¿Qué riesgos tiene?"
+      },
+      "Riesgos posibles: infección o absceso, pérdida del diente, daño a un nervio o fractura del diente."
+    ],
+    "Precio del tratamiento de conducto en Santa Fe": [
+      "[Pendiente: precio orientativo del tratamiento de conducto en Santa Fe con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Endodoncia y tratamiento de conducto son lo mismo?",
+      "a": "Sí. Son dos nombres para el mismo procedimiento."
+    },
+    {
+      "q": "¿Se puede salvar siempre el diente?",
+      "a": "No siempre. Si el daño es muy grande, puede que haya que extraerlo."
+    },
+    {
+      "q": "¿Puedo ir a trabajar al día siguiente?",
+      "a": "La mayoría de las personas retoma su vida normal al día siguiente."
+    },
+    {
+      "q": "¿Por qué después hace falta una corona?",
+      "a": "Porque el diente queda con un sellado provisorio y normalmente necesita una restauración permanente."
+    }
+  ]
+}

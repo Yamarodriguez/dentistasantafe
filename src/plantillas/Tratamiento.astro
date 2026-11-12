@@ -1,10 +1,13 @@
 ---
-// Plantilla de tratamiento (análisis, apartado 13): franja de turno → H2 propios de la
-// página → bloques fijos (quién te atiende, obra social, dónde, opiniones, FAQ).
+// Plantilla de tratamiento: franja de turno → H2 propios de la página (texto de
+// src/data/contenido/<slug>.json) → bloques fijos → autor, revisión y fuentes.
 import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
+import hechos from '../data/hechos.json';
+import { site, pendiente } from '../lib/datos.js';
 
 const { pagina } = Astro.props;
+const c = pagina.contenido;
 const fijos = [
   { t: 'Quién te atiende', bloque: 'equipo' },
   { t: '¿Lo cubre mi obra social?', bloque: 'obras' },
@@ -12,6 +15,8 @@ const fijos = [
   { t: 'Opiniones de pacientes', bloque: 'opiniones' },
   { t: 'Preguntas frecuentes', bloque: 'faq' },
 ];
+const autor = c?.autor && site.profesionales.find((p) => p.nombre === c.autor);
+const fuentes = (c?.fuentes ?? []).map((id) => hechos.fuentes[id]).filter(Boolean);
 ---
 <Base pagina={pagina}>
   <div class="contenedor">
@@ -20,7 +25,7 @@ const fijos = [
     </nav>
     <section class="heroe">
       <h1>{pagina.h1}</h1>
-      <p class="entrada">{pagina.description}</p>
+      <p class="entrada">{c?.intro ?? pagina.description}</p>
       <div class="botones">
         <a class="boton" href="/contacto/">Sacá turno</a>
         <a class="boton secundario" href="/primera-consulta/">Tu primera consulta</a>
@@ -28,5 +33,21 @@ const fijos = [
     </section>
     <Secciones pagina={pagina} />
     <Secciones pagina={pagina} h2s={fijos} />
+    {c && (
+      <aside class="ficha-autor" aria-label="Revisión del contenido">
+        <p>
+          <strong>Revisado por:</strong>
+          {autor ? `${autor.nombre} · Matrícula ${autor.matricula}` : pendiente('odontólogo que revisa, con matrícula')}
+          <br /><strong>Fecha de revisión:</strong> {c.revisado ?? pendiente('fecha de revisión')}
+        </p>
+        <p>Esta información es general y no reemplaza una consulta con un odontólogo.</p>
+        {fuentes.length > 0 && (
+          <>
+            <p><strong>Fuentes:</strong></p>
+            <ul>{fuentes.map((f) => <li><a href={f.url} rel="noopener">{f.titulo}</a></li>)}</ul>
+          </>
+        )}
+      </aside>
+    )}
   </div>
 </Base>

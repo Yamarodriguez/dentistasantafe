@@ -1,0 +1,80 @@
+{
+  "slug": "periodoncia-santa-fe",
+  "conteo": {
+    "clave": "periodoncia",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe"
+  },
+  "intro": "La periodoncia trata las enfermedades de las encías, desde la gingivitis hasta la periodontitis. Acá te contamos cómo reconocerlas y cómo se tratan.",
+  "fuentes": [
+    "mlp-encias"
+  ],
+  "autor": null,
+  "revisado": null,
+  "secciones": {
+    "¿Te sangran las encías?": [
+      "Si te sangran las encías con facilidad, puede ser gingivitis, la forma leve de la enfermedad de las encías.",
+      "En la gingivitis las encías se ven rojas e hinchadas y sangran al cepillarse. Es un motivo para hacer una revisión."
+    ],
+    "Gingivitis y periodontitis": [
+      "La gingivitis es la etapa leve y la periodontitis es la etapa avanzada, a la que puede llegar una gingivitis que no se trata.",
+      {
+        "tabla": {
+          "cab": [
+            "",
+            "Gingivitis",
+            "Periodontitis"
+          ],
+          "filas": [
+            [
+              "Qué pasa",
+              "Encías rojas, hinchadas y que sangran con facilidad",
+              "La encía se separa del diente y se forman bolsas que se infectan"
+            ],
+            [
+              "Qué daña",
+              "La encía",
+              "La encía y el tejido que sostiene el diente"
+            ],
+            [
+              "Se puede revertir",
+              "Suele revertirse con higiene diaria y limpiezas profesionales",
+              "[Pendiente: qué se puede lograr con tratamiento, explicado por el odontólogo]"
+            ]
+          ]
+        }
+      },
+      "La enfermedad de las encías se relaciona con la diabetes y con el tabaco."
+    ],
+    "Cómo es el tratamiento, paso a paso": [
+      "En periodoncia, la gingivitis suele revertirse con cepillado diario, hilo dental y limpiezas hechas por un profesional.",
+      "[Pendiente: pasos del tratamiento de periodontitis en la clínica (revisión, raspaje, controles, cirugía si hace falta), confirmados por el odontólogo]"
+    ],
+    "Mantenimiento": [
+      "El mantenimiento de periodoncia consiste en cepillado e hilo dental todos los días y limpiezas profesionales periódicas, que ayudan a que la gingivitis no avance.",
+      "[Pendiente: cada cuánto recomienda la clínica los controles de periodoncia]"
+    ],
+    "Precio del tratamiento de encías en Santa Fe": [
+      "[Pendiente: precio orientativo del tratamiento de encías en Santa Fe con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Es normal que sangren las encías al cepillarme?",
+      "a": "Puede ser un signo de gingivitis. Conviene hacer una revisión."
+    },
+    {
+      "q": "¿La gingivitis se cura?",
+      "a": "Suele revertirse con cepillado diario, hilo dental y limpiezas profesionales."
+    },
+    {
+      "q": "¿Qué pasa si no trato la gingivitis?",
+      "a": "Puede avanzar a periodontitis, que daña la encía y el tejido que sostiene los dientes."
+    },
+    {
+      "q": "¿El tabaco tiene que ver con las encías?",
+      "a": "La enfermedad de las encías se relaciona con el tabaco y con la diabetes."
+    }
+  ]
+}

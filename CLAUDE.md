@@ -30,6 +30,29 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
 **Diseño de referencia (Yama): https://centroodontologicovalenciano.com/** → analizar en FASE 2
 (colores, tipografía, bloques, fotos); la plantilla de tratamiento se describe en el apartado 9 del análisis.
 
+## Reglas (publicidad sanitaria y textos) — comprobadas 2026-11-12
+- **Ley 12094 de Santa Fe (2002)**: quien anuncie servicios profesionales debe poner
+  nombre, apellido y profesión; especialidades/maestrías/doctorados solo citando la
+  institución oficial que dio el título; prohibido lo que pueda inducir a error o
+  sugerir que otros profesionales trabajan mal. Sanción vía Código de Faltas (art. 75).
+- **Colegio de Odontólogos de Santa Fe** (Ley 3950; 1ª Circunscripción en Santa Fe):
+  su Código de Ética puede tener más reglas de publicidad → **pedírselo a Yama / al
+  Colegio antes de publicar**. No encontrado en internet.
+- Referencia nacional (Decreto 6216/67, art. 10, reglamenta Ley 17132; rige en
+  jurisdicción nacional, no seguro en Santa Fe): sin términos elogiosos, superlativos
+  ni **imperativos**; el centro se anuncia con el nombre con que fue habilitado.
+  → Prudencia: nombre habilitado de la clínica; pendiente decidir si «Sacá turno»
+  pasa a «Turnos por WhatsApp».
+- Textos de salud: solo hechos de `src/data/hechos.json` (con fuente: FDA, MedlinePlus);
+  lo de la clínica, [Pendiente] hasta que Yama lo dé. Autor = odontólogo con matrícula
+  + fecha de revisión en cada tratamiento. Aviso «información general».
+- Fase 3: texto en `src/data/contenido/<slug>.json` (secciones por H2, bloques: párrafo,
+  h3 pregunta, lista, pasos, tabla, mas=enlace; faq; fuentes; autor; revisado; conteo).
+  `npm run todo` incluye `todo:contenido` (`scripts/contenido.mjs`: clave exacta 6-11,
+  «Santa Fe» ≥ 3, FAQ 4-5, H3 en pregunta, 1.ª frase ≤ 35 palabras, palabras
+  prohibidas, fuentes válidas). Segunda capa: un subagente revisor por página
+  («buscá motivos para rechazar», sin escribir ficheros, devuelve JSON).
+
 ## Preferencias del propietario (no volver a proponer)
 - Web solo de Santa Fe; Rosario aparte (no proponer web conjunta de dos sedes).
   Estructura de 18 páginas + portada tipo COV **aprobada por Yama el 2026-11-12**
@@ -81,7 +104,13 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   logo). Opiniones: estrellas solo si la reseña real trae `estrellas`.
 
 ## Estado
-- Fase actual: **2 — Diseño. Yama quiere ver en vivo las dos finalistas antes de elegir**
+- **Fase 3 — Textos, tanda 1 hecha (2026-11-12)**: implantes, ortodoncia, ortodoncia
+  invisible, tratamiento de conducto, periodoncia. Pasan `todo:contenido` y la revisión
+  de 5 subagentes (sus correcciones aplicadas: nada más allá de la fuente; procesos y
+  precios de la clínica → [Pendiente]). Sin autor ni fecha de revisión (pendiente: un
+  odontólogo con matrícula los revisa y firma). Tanda 2 propuesta: prótesis, estética,
+  limpieza y operatoria, odontopediatra, portada (necesitan fuentes nuevas en hechos.json).
+- Diseño: **Yama quiere ver en vivo las dos finalistas antes de elegir**
   (2026-11-12): **oliva** (rama `diseno-oliva`) y **dorado** (rama `diseno-dorado`); solo
   cambia `"tema"` en site.json. Negro y oro descartado. Estructura de COV en las dos:
   héroe con foto, primera consulta destacada y ventajas; quiénes somos con foto; por qué

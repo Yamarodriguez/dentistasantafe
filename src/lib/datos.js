@@ -4,8 +4,18 @@ import mapa from '../data/paginas.json';
 
 export { site };
 
-/** Páginas que se publican (estado "si"). */
-export const paginas = mapa.paginas.filter((p) => p.estado === 'si');
+// Textos de la Fase 3: src/data/contenido/<slug>.json (o portada.json). Se pegan a su página.
+const archivos = import.meta.glob('../data/contenido/*.json', { eager: true, import: 'default' });
+const contenidos = Object.fromEntries(
+  Object.entries(archivos).map(([ruta, c]) => [ruta.split('/').pop().replace('.json', ''), c])
+);
+const conContenido = (p) => {
+  const c = contenidos[p.slug || 'portada'];
+  return c ? { ...p, contenido: c, faq: c.faq?.length ? c.faq : p.faq } : p;
+};
+
+/** Páginas que se publican (estado "si"), con su contenido si ya está escrito. */
+export const paginas = mapa.paginas.filter((p) => p.estado === 'si').map(conContenido);
 
 /** Ruta con barra final: "" → "/", "implantes-dentales" → "/implantes-dentales/". */
 export const ruta = (slug) => (slug ? `/${slug}/` : '/');
