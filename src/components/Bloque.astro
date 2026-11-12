@@ -39,9 +39,25 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
   </>
 ))}
 
+{tipo === 'contacto' && sedes.map((s) => (
+  <div class="contacto">
+    <div>
+      <p><strong>{site.nombre}</strong><br />{s.direccion} · {s.barrio}, {s.ciudad}</p>
+      <p>Teléfono: {s.telefono}<br />Horario: {s.horario}</p>
+    </div>
+    <div class="botones">
+      <a class="boton" href={enlaceTurno(s)}>Escribinos por WhatsApp →</a>
+      {s.mapa && <a class="boton secundario" href={s.mapa}>Cómo llegar</a>}
+    </div>
+    {!s.whatsapp && <p class="pendiente">{pendiente('número de WhatsApp')}</p>}
+    <p class="pendiente">{pendiente('formulario de contacto (Fase 4, si Yama lo quiere)')}</p>
+  </div>
+))}
+
 {tipo === 'porque' && (
   <>
     <p class="pendiente">{pendiente('párrafo de por qué elegirnos (Fase 3)')}</p>
+    {!site.confirmado && <p class="pendiente">{pendiente('confirmar que estos 4 motivos son ciertos')}</p>}
     <div class="tarjetas cuatro">
       {(site.porque.length ? site.porque : [1, 2, 3, 4].map((n) => ({ titulo: pendiente(`motivo ${n}`), texto: '' }))).map((m) => (
         <article class="tarjeta centrada">

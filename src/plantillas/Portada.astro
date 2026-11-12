@@ -1,12 +1,13 @@
 ---
-// Portada con la estructura de la referencia (COV): héroe con foto y ventajas,
-// luego los H2 de paginas.json con su bloque de datos.
+// Portada con la estructura de la referencia (COV): héroe con foto, primera consulta
+// destacada y 4 ventajas; luego los H2 de paginas.json con su bloque de datos.
 import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
 import { site, enlaceTurno, pendiente } from '../lib/datos.js';
 
 const { pagina } = Astro.props;
 const [linea1, linea2] = pagina.h1.split(/ (?=en )/);
+const sede = site.sedes[0];
 ---
 <Base pagina={pagina}>
   <section class="heroe heroe-foto" style={`--foto:url('${site.fotos.heroe}')`}>
@@ -19,9 +20,8 @@ const [linea1, linea2] = pagina.h1.split(/ (?=en )/);
           <span>{site.primera_consulta}</span>
         </p>
         <div class="botones">
-          {site.sedes.map((s, i) => (
-            <a class={i === 0 ? 'boton' : 'boton secundario'} href={enlaceTurno(s)}>Turno en {s.ciudad} →</a>
-          ))}
+          <a class="boton" href={enlaceTurno(sede)}>Sacá turno →</a>
+          <a class="boton secundario" href="/tratamientos/">Ver tratamientos</a>
         </div>
       </div>
       <ul class="ventajas">
@@ -32,6 +32,7 @@ const [linea1, linea2] = pagina.h1.split(/ (?=en )/);
           </li>
         ))}
       </ul>
+      {!site.confirmado && <p class="pendiente">{pendiente('confirmar que la primera consulta y estas 4 ventajas son ciertas')}</p>}
     </div>
   </section>
   <div class="contenedor">
