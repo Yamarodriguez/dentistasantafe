@@ -60,11 +60,11 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
 - Portada con los H1/H2/H3 de la portada de COV adaptados (Yama los pegó el 2026-11-12):
   H1 Clínica Dental en Santa Fe · H2 Clínica dental en Santa Fe con más de [X] años de
   experiencia · H2 ¿Por qué elegir X como tu clínica dental en Santa Fe? (H3 Especialistas
-  en cada área, +X años de experiencia, Tecnología digital avanzada, Financiación
+  en cada área, +X años de experiencia, Tecnología digital, Financiación
   personalizada) · H2 Tratamientos dentales (H3 Implantología y prótesis, Ortodoncia,
   Estética dental, Odontología general) · Promociones destacadas* · Opiniones de nuestros
-  pacientes · Reconocimiento* · Trabajamos con marcas líderes en odontología* · Solicitá
-  información sobre el tratamiento que necesitás. Añadidos nuestros: Obras sociales y
+  pacientes · Reconocimiento* · Marcas con las que trabajamos* · Solicitá
+  información sobre el tratamiento que necesitás. (Por ley 12094: «marcas líderes» y «avanzada» quitados; «Especialistas en cada área» solo si se citan las instituciones.) Añadidos nuestros: Obras sociales y
   prepagas, Preguntas frecuentes. *solo con datos reales. Textos de COV NO se copian.
 - Las afirmaciones de COV (primera consulta gratis, radiografía incluida, +X años,
   tecnología, financiación) están en site.json con `"confirmado": false` → aviso
@@ -109,7 +109,7 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   de 5 subagentes (sus correcciones aplicadas: nada más allá de la fuente; procesos y
   precios de la clínica → [Pendiente]). Sin autor ni fecha de revisión (pendiente: un
   odontólogo con matrícula los revisa y firma). Tanda 2 propuesta: prótesis, estética,
-  limpieza y operatoria, odontopediatra, portada (necesitan fuentes nuevas en hechos.json).
+  limpieza y operatoria, odontopediatra, portada → **tanda 2 hecha (2026-11-12)** con 9 fuentes nuevas (MedlinePlus, NIDCR; 81 hechos) y la revisión de 5 subagentes aplicada. Quedan sin texto: tratamientos (índice), obras sociales, primera consulta, equipo, contacto (casi todo datos de la clínica).
 - Diseño: **Yama quiere ver en vivo las dos finalistas antes de elegir**
   (2026-11-12): **oliva** (rama `diseno-oliva`) y **dorado** (rama `diseno-dorado`); solo
   cambia `"tema"` en site.json. Negro y oro descartado. Estructura de COV en las dos:

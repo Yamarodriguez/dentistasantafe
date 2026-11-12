@@ -22,13 +22,31 @@
     "Plan de tratamiento sin compromiso"
   ],
   "porque": [
-    { "titulo": "Especialistas en cada área", "texto": "Odontólogos especialistas en cada área de la odontología." },
-    { "titulo": "+[X] años de experiencia", "texto": "Más de [X] años cuidando la salud bucal de nuestros pacientes en Santa Fe." },
-    { "titulo": "Tecnología digital avanzada", "texto": "Diagnósticos más precisos y tratamientos mínimamente invasivos." },
-    { "titulo": "Financiación personalizada", "texto": "Planes de financiación adaptados a cada tratamiento." }
+    {
+      "titulo": "Especialistas en cada área",
+      "texto": "[Pendiente: especialidades del equipo, cada una con la institución que dio el título (ley 12094)]"
+    },
+    {
+      "titulo": "+[X] años de experiencia",
+      "texto": "Más de [X] años cuidando la salud bucal de nuestros pacientes en Santa Fe."
+    },
+    {
+      "titulo": "Tecnología digital",
+      "texto": "[Pendiente: qué equipos digitales tiene la clínica]"
+    },
+    {
+      "titulo": "Financiación personalizada",
+      "texto": "Planes de financiación adaptados a cada tratamiento."
+    }
   ],
   "promociones": [],
-  "_promocion_ejemplo": { "titulo": "Blanqueamiento + limpieza", "texto": "Qué incluye", "precio": "Desde $ …", "vigencia": "2026-12-31", "href": "/estetica-dental-santa-fe/" },
+  "_promocion_ejemplo": {
+    "titulo": "Blanqueamiento + limpieza",
+    "texto": "Qué incluye",
+    "precio": "Desde $ …",
+    "vigencia": "2026-12-31",
+    "href": "/estetica-dental-santa-fe/"
+  },
   "reconocimientos": [],
   "marcas": [],
   "sedes": [
@@ -62,7 +80,9 @@
     "nombre": "Od. Esp. Nombre Apellido",
     "matricula": "MP 0000",
     "especialidad": "Implantes",
-    "sedes": ["santa-fe"],
+    "sedes": [
+      "santa-fe"
+    ],
     "foto": ""
   },
   "opiniones": [],

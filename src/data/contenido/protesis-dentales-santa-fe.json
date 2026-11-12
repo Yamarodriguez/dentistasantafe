@@ -1,0 +1,125 @@
+{
+  "slug": "protesis-dentales-santa-fe",
+  "conteo": {
+    "clave": "prótesis dental(es)?",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe"
+  },
+  "intro": "Las prótesis dentales y las coronas reemplazan o protegen dientes: pueden ser removibles, fijas o ir sobre implantes. Acá te contamos qué opciones hay y cómo se cuidan.",
+  "fuentes": [
+    "mlp-protesis",
+    "mlp-coronas"
+  ],
+  "autor": null,
+  "revisado": null,
+  "secciones": {
+    "¿Qué es una prótesis dental?": [
+      "Una prótesis dental reemplaza dientes que faltan; las removibles (dentaduras) son dientes postizos que se pueden sacar.",
+      "Las prótesis dentales removibles completas cubren todo el maxilar de arriba o de abajo, y las parciales reemplazan uno o algunos dientes."
+    ],
+    "Prótesis fija o removible": [
+      "La diferencia es que la removible se saca y la fija no: una corona o un puente quedan cementados en la boca.",
+      {
+        "tabla": {
+          "cab": [
+            "",
+            "Prótesis removible",
+            "Prótesis fija (corona o puente)"
+          ],
+          "filas": [
+            [
+              "Qué es",
+              "Dientes postizos que se pueden sacar",
+              "Corona cementada sobre el diente, o puente que ocupa el hueco apoyado en coronas"
+            ],
+            [
+              "Cuándo",
+              "Faltan uno, algunos o todos los dientes de un maxilar",
+              "Diente débil, roto o gastado; o hueco de dientes que faltan (puente)"
+            ],
+            [
+              "Cuidado diario",
+              "Cepillarla con un producto para prótesis, sacarla de noche y guardarla en agua o líquido limpiador",
+              "Cepillado dos veces al día e hilo dental todos los días"
+            ]
+          ]
+        }
+      },
+      "Cuál conviene en cada caso lo decide el odontólogo después de revisar la boca."
+    ],
+    "Coronas": [
+      "Una corona es una funda con forma de diente que cubre el diente por encima de la encía, para protegerlo cuando está débil o mejorar su aspecto.",
+      {
+        "h3": "¿Cuándo se usa una corona?"
+      },
+      {
+        "lista": [
+          "Para reforzar un diente con una caries grande, astillado o roto.",
+          "Para cubrir dientes gastados por apretar o rechinar.",
+          "Para corregir dientes con forma, color o posición alterados.",
+          "Para sostener un puente que ocupa el hueco de dientes que faltan."
+        ]
+      },
+      {
+        "h3": "¿De qué material son?"
+      },
+      "Hay coronas de metal (muy resistentes, pero menos naturales), de resina (más económicas, pero se desgastan más), de cerámica o porcelana (color natural) y de porcelana sobre metal. En chicos se usan sobre todo coronas de acero provisorias.",
+      "[Pendiente: qué materiales trabaja la clínica]"
+    ],
+    "Prótesis sobre implantes": [
+      "Los implantes son fijos y reemplazan la raíz y el diente; sobre ellos se puede colocar una corona, un puente o una prótesis.",
+      "El odontólogo puede proponerlos como alternativa a una prótesis removible.",
+      {
+        "mas": {
+          "t": "Implantes dentales en Santa Fe",
+          "href": "/implantes-dentales-santa-fe/"
+        }
+      }
+    ],
+    "Cómo es el tratamiento, paso a paso": [
+      "Una corona suele hacerse en dos visitas.",
+      {
+        "pasos": [
+          "Primera visita: anestesia de la zona, preparación del diente, impresión o escaneo y corona provisoria.",
+          "Segunda visita: se coloca y se cementa la corona definitiva."
+        ]
+      },
+      "Con la corona provisoria conviene pasar el hilo dental sacándolo hacia afuera, evitar comidas pegajosas y masticar del otro lado.",
+      "Con una prótesis removible, al principio hablar y comer puede sentirse raro, y el odontólogo puede querer controles seguidos para revisar el ajuste.",
+      "[Pendiente: pasos y plazos de las prótesis removibles en la clínica, confirmados por el odontólogo]"
+    ],
+    "Cuidados y duración": [
+      "Los cuidados dependen del tipo de prótesis, y la mayoría de las coronas dura al menos 5 años y puede llegar a 15 o 20.",
+      {
+        "h3": "¿Cómo se cuida una corona?"
+      },
+      "Con cepillado dos veces al día e hilo dental todos los días; si apretás o rechinás los dientes, con una placa nocturna. Riesgos posibles: caries debajo de la corona, que se caiga o se astille, y sensibilidad al frío o al calor.",
+      {
+        "h3": "¿Cómo se cuida una prótesis removible?"
+      },
+      "Cepillándola todos los días con un producto para prótesis, sacándola de noche y guardándola en agua o en un líquido limpiador. Con el tiempo la boca cambia y puede necesitar ajustes o recambio, que debe hacer el odontólogo. También puede costar más notar si una comida o bebida está muy caliente."
+    ],
+    "Precio de las prótesis dentales en Santa Fe": [
+      "[Pendiente: precio orientativo de las prótesis dentales en Santa Fe con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Cuánto dura una corona?",
+      "a": "La mayoría dura al menos 5 años y puede llegar a 15 o 20."
+    },
+    {
+      "q": "¿Qué diferencia hay entre una corona y un puente?",
+      "a": "La corona cubre un diente; el puente ocupa el hueco de dientes que faltan y se apoya en coronas."
+    },
+    {
+      "q": "¿Se saca la prótesis removible para dormir?",
+      "a": "Sí, se aconseja sacarla de noche y guardarla en agua o en un líquido limpiador."
+    },
+    {
+      "q": "¿Es raro hablar y comer con una prótesis al principio?",
+      "a": "Puede ser: al principio hablar y comer puede sentirse raro, y el odontólogo puede pedirte controles seguidos para revisar el ajuste."
+    }
+  ]
+}

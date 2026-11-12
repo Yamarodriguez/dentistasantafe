@@ -9,18 +9,55 @@
       "title": "Clínica dental en Santa Fe: odontólogos y turnos",
       "description": "Clínica dental en Santa Fe: implantes, ortodoncia, prótesis, estética y odontología general. Sacá turno por WhatsApp.",
       "h1": "Clínica Dental en Santa Fe",
-      "_estructura": "Igual que la portada de COV: héroe (primera consulta + 4 ventajas) → quiénes somos con foto → por qué elegirnos (4 H3) → tratamientos dentales (H3 por grupo) → obras sociales (añadido: hueco en Argentina) → promociones* → opiniones → reconocimiento* → marcas* → preguntas frecuentes (añadido: AEO) → contacto. *solo con datos reales.",
+      "_estructura": "Igual que la portada de COV: héroe (primera consulta + 4 ventajas) → quiénes somos con foto → por qué elegirnos (4 H3) → tratamientos dentales (H3 por grupo) → obras sociales (añadido: hueco en Argentina) → promociones* → opiniones → reconocimiento* → marcas* → preguntas frecuentes (añadido: AEO) → contacto. *solo con datos reales. Cambios por ley 12094: «marcas líderes» → «Marcas con las que trabajamos»; «Tecnología digital avanzada» → «Tecnología digital».",
       "h2s": [
-        { "t": "Clínica dental en Santa Fe con más de [X] años de experiencia", "foto": "consulta", "boton": { "t": "Conocé a nuestro equipo", "href": "/equipo/" } },
-        { "t": "¿Por qué elegir {nombre} como tu clínica dental en Santa Fe?", "bloque": "porque" },
-        { "t": "Tratamientos dentales", "bloque": "tratamientos" },
-        { "t": "Obras sociales y prepagas", "bloque": "obras" },
-        { "t": "Promociones destacadas", "bloque": "promociones", "opcional": true },
-        { "t": "Opiniones de nuestros pacientes", "bloque": "opiniones" },
-        { "t": "Reconocimiento", "bloque": "reconocimientos", "opcional": true },
-        { "t": "Trabajamos con marcas líderes en odontología", "bloque": "marcas", "opcional": true },
-        { "t": "Preguntas frecuentes", "bloque": "faq" },
-        { "t": "Solicitá información sobre el tratamiento que necesitás", "bloque": "contacto" }
+        {
+          "t": "Clínica dental en Santa Fe con más de [X] años de experiencia",
+          "foto": "consulta",
+          "boton": {
+            "t": "Conocé a nuestro equipo",
+            "href": "/equipo/"
+          }
+        },
+        {
+          "t": "¿Por qué elegir {nombre} como tu clínica dental en Santa Fe?",
+          "bloque": "porque"
+        },
+        {
+          "t": "Tratamientos dentales",
+          "bloque": "tratamientos"
+        },
+        {
+          "t": "Obras sociales y prepagas",
+          "bloque": "obras"
+        },
+        {
+          "t": "Promociones destacadas",
+          "bloque": "promociones",
+          "opcional": true
+        },
+        {
+          "t": "Opiniones de nuestros pacientes",
+          "bloque": "opiniones"
+        },
+        {
+          "t": "Reconocimiento",
+          "bloque": "reconocimientos",
+          "opcional": true
+        },
+        {
+          "t": "Marcas con las que trabajamos",
+          "bloque": "marcas",
+          "opcional": true
+        },
+        {
+          "t": "Preguntas frecuentes",
+          "bloque": "faq"
+        },
+        {
+          "t": "Solicitá información sobre el tratamiento que necesitás",
+          "bloque": "contacto"
+        }
       ],
       "faq": []
     },
@@ -33,8 +70,14 @@
       "description": "Todos nuestros tratamientos dentales en Santa Fe: implantes, prótesis, ortodoncia, estética, odontología general y odontopediatría.",
       "h1": "Tratamientos dentales en Santa Fe",
       "h2s": [
-        { "t": "Todos los tratamientos", "bloque": "tratamientos" },
-        { "t": "Preguntas frecuentes", "bloque": "faq" }
+        {
+          "t": "Todos los tratamientos",
+          "bloque": "tratamientos"
+        },
+        {
+          "t": "Preguntas frecuentes",
+          "bloque": "faq"
+        }
       ],
       "faq": []
     },
@@ -235,7 +278,10 @@
       "h2s": [
         "¿Qué es una urgencia dental?",
         "Qué hacer mientras llegás",
-        { "t": "Horario de guardia", "bloque": "horario" }
+        {
+          "t": "Horario de guardia",
+          "bloque": "horario"
+        }
       ],
       "faq": []
     },
@@ -248,10 +294,16 @@
       "description": "Obras sociales y prepagas que atendemos en nuestra clínica dental de Santa Fe, qué cubren y qué llevar al turno.",
       "h1": "Obras sociales y prepagas que atendemos",
       "h2s": [
-        { "t": "Obras sociales y prepagas", "bloque": "obras" },
+        {
+          "t": "Obras sociales y prepagas",
+          "bloque": "obras"
+        },
         "Qué cubre cada una",
         "Qué llevar al turno",
-        { "t": "Preguntas frecuentes", "bloque": "faq" }
+        {
+          "t": "Preguntas frecuentes",
+          "bloque": "faq"
+        }
       ],
       "faq": []
     },
@@ -267,8 +319,14 @@
         "Qué hacemos en la primera consulta",
         "Cuánto dura",
         "Precio o cobertura",
-        { "t": "Cómo sacar turno", "bloque": "turno" },
-        { "t": "Preguntas frecuentes", "bloque": "faq" }
+        {
+          "t": "Cómo sacar turno",
+          "bloque": "turno"
+        },
+        {
+          "t": "Preguntas frecuentes",
+          "bloque": "faq"
+        }
       ],
       "faq": []
     },
@@ -281,8 +339,14 @@
       "description": "Conocé a los odontólogos de nuestra clínica dental en Santa Fe: especialidad y matrícula de cada uno.",
       "h1": "Nuestro equipo de odontólogos en Santa Fe",
       "h2s": [
-        { "t": "Profesionales", "bloque": "equipo" },
-        { "t": "Preguntas frecuentes", "bloque": "faq" }
+        {
+          "t": "Profesionales",
+          "bloque": "equipo"
+        },
+        {
+          "t": "Preguntas frecuentes",
+          "bloque": "faq"
+        }
       ],
       "faq": []
     },
@@ -295,10 +359,22 @@
       "description": "Dirección, horarios y teléfono de nuestra clínica dental en Santa Fe. Sacá turno por WhatsApp o por teléfono.",
       "h1": "Contacto y turnos",
       "h2s": [
-        { "t": "Sacá turno", "bloque": "contacto" },
-        { "t": "Dirección y cómo llegar", "bloque": "mapa" },
-        { "t": "Horarios", "bloque": "horario" },
-        { "t": "Preguntas frecuentes", "bloque": "faq" }
+        {
+          "t": "Sacá turno",
+          "bloque": "contacto"
+        },
+        {
+          "t": "Dirección y cómo llegar",
+          "bloque": "mapa"
+        },
+        {
+          "t": "Horarios",
+          "bloque": "horario"
+        },
+        {
+          "t": "Preguntas frecuentes",
+          "bloque": "faq"
+        }
       ],
       "faq": []
     },
@@ -314,8 +390,14 @@
       "h2s": [
         "Tabla de precios",
         "Qué incluye cada precio",
-        { "t": "Obras sociales y prepagas", "bloque": "obras" },
-        { "t": "Preguntas frecuentes", "bloque": "faq" }
+        {
+          "t": "Obras sociales y prepagas",
+          "bloque": "obras"
+        },
+        {
+          "t": "Preguntas frecuentes",
+          "bloque": "faq"
+        }
       ],
       "faq": []
     },
@@ -327,7 +409,9 @@
       "title": "Política de privacidad",
       "description": "Cómo tratamos tus datos personales cuando nos escribís o sacás turno.",
       "h1": "Política de privacidad",
-      "h2s": ["[Texto legal pendiente: comprobar con fuente oficial la ley argentina de datos personales]"],
+      "h2s": [
+        "[Texto legal pendiente: comprobar con fuente oficial la ley argentina de datos personales]"
+      ],
       "faq": []
     },
     {
@@ -338,7 +422,9 @@
       "title": "Términos y condiciones",
       "description": "Condiciones de uso de este sitio web.",
       "h1": "Términos y condiciones",
-      "h2s": ["[Texto legal pendiente]"],
+      "h2s": [
+        "[Texto legal pendiente]"
+      ],
       "faq": []
     }
   ]

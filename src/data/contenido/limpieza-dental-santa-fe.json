@@ -1,0 +1,84 @@
+{
+  "slug": "limpieza-dental-santa-fe",
+  "conteo": {
+    "clave": "limpieza dental|limpieza profesional",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe"
+  },
+  "intro": "En esta página te contamos qué es la limpieza dental profesional, cada cuánto se aconseja, cómo se arreglan las caries y qué es el bruxismo.",
+  "fuentes": [
+    "mlp-caries",
+    "mlp-encias",
+    "mlp-bruxismo"
+  ],
+  "autor": null,
+  "revisado": null,
+  "secciones": {
+    "Qué incluye una limpieza dental": [
+      "[Pendiente: qué incluye la limpieza dental en la clínica y si el control se hace en la misma visita, confirmado por el odontólogo]",
+      "La placa que no se retira se endurece y forma sarro, que puede irritar las encías.",
+      "La mayoría de las caries se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean."
+    ],
+    "Cada cuánto conviene hacerla": [
+      "MedlinePlus aconseja una limpieza profesional cada 6 meses.",
+      "Entre una y otra, en casa:",
+      {
+        "lista": [
+          "Cepillarse al menos dos veces al día.",
+          "Usar hilo dental al menos una vez al día.",
+          "Picotear menos y tomar menos bebidas azucaradas."
+        ]
+      },
+      "La limpieza profesional regular, junto con el cepillado y el hilo dental, también ayuda a revertir la gingivitis."
+    ],
+    "Caries y arreglos (operatoria)": [
+      "Una caries es un daño o agujero en el diente: las bacterias convierten azúcares y almidones en ácidos que dañan el esmalte.",
+      {
+        "h3": "¿Cómo me doy cuenta de que tengo una caries?"
+      },
+      "Muchas veces no da síntomas. Cuando da, suele ser dolor con lo dulce, lo frío o lo caliente, o manchas oscuras o agujeros visibles.",
+      {
+        "h3": "¿Cómo se arregla?"
+      },
+      "Con un empaste: se retira la parte con caries y se rellena, hoy sobre todo con resina compuesta (también existen el ionómero de vidrio y la amalgama). Si la caries es grande y queda poco diente, se usa una corona; si llega al nervio, un tratamiento de conducto.",
+      {
+        "mas": {
+          "t": "Tratamiento de conducto en Santa Fe",
+          "href": "/tratamiento-de-conducto-santa-fe/"
+        }
+      }
+    ],
+    "Bruxismo y placas de relajación": [
+      "El bruxismo es apretar o rechinar los dientes sin darse cuenta, de día o de noche; el nocturno es el más difícil de controlar.",
+      "Puede dar dolor o sensibilidad en la mandíbula al despertar, dolor de cabeza o de oído, sensibilidad y desgaste de los dientes. No hay acuerdo sobre la causa exacta, pero el estrés es un desencadenante frecuente.",
+      {
+        "h3": "¿Para qué sirve la placa de relajación?"
+      },
+      "Una placa bien ajustada protege los dientes de la presión del rechinamiento. Los síntomas pueden mejorar mientras se usa y volver al dejarla.",
+      "También ayuda evitar comidas duras y chicle, dormir bien, relajar la mandíbula durante el día y manejar el estrés. Hay que consultar si cuesta comer o abrir la boca, o si estos cuidados no ayudan después de algunas semanas.",
+      "[Pendiente: cómo hace la clínica las placas de relajación (a medida, cuántas visitas)]"
+    ],
+    "Precio de la limpieza dental en Santa Fe": [
+      "[Pendiente: precio orientativo de la limpieza dental en Santa Fe con fecha o «se informa en la consulta»; cobertura de obras sociales]"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Cada cuánto conviene hacerse una limpieza dental?",
+      "a": "MedlinePlus aconseja una limpieza profesional cada 6 meses."
+    },
+    {
+      "q": "¿Una caries siempre duele?",
+      "a": "No. Muchas veces no da síntomas y se descubre en un control."
+    },
+    {
+      "q": "¿Con qué se hacen hoy los empastes?",
+      "a": "Sobre todo con resina compuesta; también existen el ionómero de vidrio y la amalgama."
+    },
+    {
+      "q": "¿Para qué sirve la placa de relajación?",
+      "a": "Protege los dientes de la presión del rechinamiento; los síntomas pueden mejorar mientras se usa y volver al dejarla."
+    }
+  ]
+}
