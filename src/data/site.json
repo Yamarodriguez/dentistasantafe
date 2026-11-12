@@ -26,8 +26,8 @@
       "alt": "Sillón dental blanco junto a una ventana"
     },
     "turno": {
-      "src": "/img/fotos/sonrisa-turno.webp",
-      "alt": "Joven sonriendo con un alineador transparente en la mano"
+      "src": "/img/fotos/sonrisa-heroe.webp",
+      "alt": "Mujer sonriendo"
     },
     "implantes": {
       "src": "/img/fotos/implantes.webp",
@@ -188,6 +188,11 @@
   ],
   "creditos_fotos": [
     {
+      "foto": "Mujer sonriendo",
+      "autor": "Vitaly Gariev",
+      "url": "https://unsplash.com/photos/WbWRHms2ZGU"
+    },
+    {
       "foto": "Consultorio dental luminoso con sillón y equipamiento",
       "autor": "Benyamin Bohlouli",
       "url": "https://unsplash.com/photos/e7MJLM5VGjY"
@@ -201,11 +206,6 @@
       "foto": "Sillón dental blanco junto a una ventana",
       "autor": "Katarzyna Zygnerska",
       "url": "https://unsplash.com/photos/44jaETSVX2I"
-    },
-    {
-      "foto": "Joven sonriendo con un alineador transparente en la mano",
-      "autor": "Diana Polekhina",
-      "url": "https://unsplash.com/photos/Q_o_ob-3Ny4"
     },
     {
       "foto": "Revisión de la boca con espejo e instrumental dental",
