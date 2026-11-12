@@ -1,5 +1,5 @@
 {
-  "_nota": "Direcciones de diseño de la Fase 2. Las tres usan la estructura de la referencia (centroodontologicovalenciano.com) y cambian color, letras y detalle. Se elige con site.json > tema (TEMA=… al construir, solo para comparar). acento = decorativo, nunca texto. scripts/visual.mjs comprueba el contraste.",
+  "_nota": "Direcciones de diseño de la Fase 2. Las tres usan la estructura de la referencia (centroodontologicovalenciano.com) y cambian color, letras y detalle. Quedan oliva y dorado para verlas en vivo (Negro y oro descartado 2026-11-12). Se elige con site.json > tema (TEMA=… al construir, solo para comparar). acento = decorativo, nunca texto. scripts/visual.mjs comprueba el contraste.",
   "oliva": {
     "nombre": "Oliva calma",
     "idea": "La más parecida a la referencia: oliva, crema y beige, títulos sin adornos y tarjetas con formas orgánicas; el oro del logo solo en detalles.",
@@ -14,7 +14,12 @@
     "accion": "#566249",
     "accion_texto": "#ffffff",
     "acento": "#c9a13b",
-    "tintes": ["#dfe3d6", "#ece5d8", "#e9ddd3", "#e3e0d6"],
+    "tintes": [
+      "#dfe3d6",
+      "#ece5d8",
+      "#e9ddd3",
+      "#e3e0d6"
+    ],
     "borde": "#e4e2da",
     "oscuro": "#566249",
     "oscuro_texto": "#ffffff",
@@ -34,30 +39,15 @@
     "accion": "#7a5a12",
     "accion_texto": "#ffffff",
     "acento": "#c9a13b",
-    "tintes": ["#f1e4c4", "#ead9bf", "#f3eadb", "#eee2c9"],
+    "tintes": [
+      "#f1e4c4",
+      "#ead9bf",
+      "#f3eadb",
+      "#eee2c9"
+    ],
     "borde": "#ece3d2",
     "oscuro": "#2b2620",
     "oscuro_texto": "#f6efdd",
     "radio": "14px"
-  },
-  "negro": {
-    "nombre": "Negro y oro",
-    "idea": "La estructura de la referencia con el logo tal cual: negro y oro, letras finas y elegantes. Premium y rotundo.",
-    "titulos": "Cormorant Garamond",
-    "tarjeta": "Cormorant Garamond",
-    "texto": "Inter",
-    "fondo": "#ffffff",
-    "superficie": "#ffffff",
-    "banda": "#f5f2ea",
-    "texto_color": "#141414",
-    "suave": "#4a4a4a",
-    "accion": "#141414",
-    "accion_texto": "#e6c35c",
-    "acento": "#d4af37",
-    "tintes": ["#efe4c2", "#e9e6df", "#f2ead2", "#e4dccb"],
-    "borde": "#e7e1d3",
-    "oscuro": "#0d0d0d",
-    "oscuro_texto": "#f3ead2",
-    "radio": "6px"
   }
 }

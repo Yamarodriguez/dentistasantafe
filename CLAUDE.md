@@ -60,13 +60,17 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   logo). Opiniones: estrellas solo si la reseña real trae `estrellas`.
 
 ## Estado
-- Fase actual: **2 — Diseño, esperando que Yama elija dirección** (rama `fase-2-diseno`).
-  Tres direcciones en `src/data/temas.json` con la estructura de COV (héroe con foto y
-  ventajas, antetítulo, tarjetas con icono, categorías con forma orgánica en banda crema,
-  franja de turno, pie a color): **oliva** (por defecto, la más parecida a COV), **dorado**
-  (colores del logo y la recepción), **negro** (negro y oro). Se cambia con `"tema"` en
-  site.json. Capturas en `capturas/` (no se suben). Al elegir: borrar los otros temas y
-  sus letras, unir la rama a main.
+- Fase actual: **2 — Diseño. Yama quiere ver en vivo las dos finalistas antes de elegir**
+  (2026-11-12): **oliva** (rama `diseno-oliva`) y **dorado** (rama `diseno-dorado`); solo
+  cambia `"tema"` en site.json. Negro y oro descartado. Estructura de COV en las dos:
+  héroe con foto, primera consulta destacada y ventajas; quiénes somos con foto; por qué
+  elegirnos (4); sedes; tratamientos por grupos con forma orgánica en banda crema; obras
+  sociales; primera consulta; promociones/reconocimientos/marcas solo con datos reales;
+  equipo; opiniones; FAQ; franja de turno; pie a color. No se copia texto de COV.
+  Verlas en vivo: cuando Yama conecte Netlify, activar branch deploys (Branches and deploy
+  contexts → All) → `diseno-oliva--<sitio>.netlify.app` y `diseno-dorado--<sitio>.netlify.app`.
+  Al elegir: borrar el otro tema, unir esa rama a main, borrar las dos ramas.
+  Capturas en `capturas/` (no se suben).
   Capturas: el navegador de la app no dibuja (ventana oculta) → Edge sin ventana, un perfil
   por captura en el scratchpad; el móvil a 390 px con un iframe (Edge no baja de ~500 px).
 - Fase 1 hecha (2026-11-12) salvo el despliegue de pruebas: Yama dijo «todavía no» a

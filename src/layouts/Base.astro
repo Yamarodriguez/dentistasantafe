@@ -6,12 +6,6 @@ import '@fontsource/source-sans-3/latin-400.css';
 import '@fontsource/source-sans-3/latin-ext-400.css';
 import '@fontsource/source-sans-3/latin-600.css';
 import '@fontsource/source-sans-3/latin-ext-600.css';
-import '@fontsource/cormorant-garamond/latin-600.css';
-import '@fontsource/cormorant-garamond/latin-ext-600.css';
-import '@fontsource/inter/latin-400.css';
-import '@fontsource/inter/latin-ext-400.css';
-import '@fontsource/inter/latin-600.css';
-import '@fontsource/inter/latin-ext-600.css';
 import '../styles/base.css';
 import temas from '../data/temas.json';
 import { site, ruta, enlaceTurno } from '../lib/datos.js';
@@ -19,7 +13,7 @@ import { site, ruta, enlaceTurno } from '../lib/datos.js';
 const { pagina } = Astro.props;
 const canonical = pagina.tipo === '404' ? null : new URL(ruta(pagina.slug), site.url).href;
 
-// TEMA=negro npm run build → solo para comparar direcciones; la elegida va en site.json.
+// TEMA=dorado npm run build → solo para comparar direcciones; la elegida va en site.json.
 const idTema = process.env.TEMA || site.tema;
 const t = temas[idTema];
 const vars = [

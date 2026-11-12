@@ -180,16 +180,6 @@
   .web .boton-turno { display: none; }
 }
 
-/* ===== Variaciones por tema ===== */
-/* Negro y oro: cabecera y pie negros, botones dorados en el héroe. */
-.web[data-tema="negro"] .cabecera { background: var(--oscuro); border-color: #262626; }
-.web[data-tema="negro"] .cabecera .marca,
-.web[data-tema="negro"] .cabecera .menu a { color: var(--oscuro-texto); }
-.web[data-tema="negro"] .heroe-foto h1 span { color: var(--texto); font-style: italic; }
-.web[data-tema="negro"] h1, .web[data-tema="negro"] h2 { font-weight: 600; letter-spacing: 0; }
-.web[data-tema="negro"] h1 { font-size: clamp(2.5rem, 5.6vw, 4rem); }
-.web[data-tema="negro"] h2 { font-size: clamp(1.9rem, 3.8vw, 2.8rem); }
-
 @media (prefers-reduced-motion: reduce) {
   .web .tarjeta { transition: none; }
   .web .tarjeta:hover { transform: none; }
