@@ -1,6 +1,6 @@
 {
   "_nota": "Único sitio para los datos del negocio (principio 3). Web SOLO de Santa Fe; Rosario será otra web con la misma base (sus datos esperan en _rosario_para_despues). Lo que va entre [corchetes] está pendiente de Yama: el validador lo cuenta como resto.",
-  "nombre": "[NOMBRE DE LA CLÍNICA]",
+  "nombre": "Ignacio Vera Odontología",
   "url": "https://dentistasantafe.com",
   "idioma": "es-AR",
   "indexar": false,
@@ -53,14 +53,29 @@
     {
       "id": "santa-fe",
       "ciudad": "Santa Fe",
-      "barrio": "[barrio]",
-      "direccion": "[dirección]",
+      "barrio": "Santo Tomé [confirmar ciudad]",
+      "direccion": "Av. 7 de Marzo 1995, Santo Tomé [confirmar]",
       "telefono": "[teléfono]",
       "whatsapp": "",
       "horario": "[horario]",
       "mapa": "",
       "guardia": null,
-      "obrasSociales": []
+      "obrasSociales": [
+        "Swiss Medical",
+        "Medifé",
+        "Galeno",
+        "Medicus",
+        "OMINT",
+        "IAPOS",
+        "AcaSalud",
+        "Federada Salud",
+        "IOSE",
+        "Jerárquicos Salud",
+        "Sancor Salud",
+        "Pacientes particulares",
+        "[confirmar: lista sacada de Doctoralia]"
+      ],
+      "consultorio": "Consultorios 7 de Marzo [confirmar]"
     }
   ],
   "_rosario_para_despues": {
@@ -75,7 +90,17 @@
     "guardia": null,
     "obrasSociales": []
   },
-  "profesionales": [],
+  "profesionales": [
+    {
+      "nombre": "Od. Ignacio Vera",
+      "matricula": "3795/01 [confirmar]",
+      "especialidad": "Odontología [confirmar especialidades y la institución que dio cada título]",
+      "sedes": [
+        "santa-fe"
+      ],
+      "foto": ""
+    }
+  ],
   "_profesional_ejemplo": {
     "nombre": "Od. Esp. Nombre Apellido",
     "matricula": "MP 0000",
@@ -93,5 +118,6 @@
     "estrellas": 5,
     "fuente": "Google",
     "fecha": "2026-01-01"
-  }
+  },
+  "_fuente_datos": "2026-11-12: nombre de Instagram (@ignacio_vera_odontologia, pasado por Yama); dirección, matrícula y obras sociales del perfil de Doctoralia https://www.doctoraliar.com/perfil/ignacio-vera. Directorio de terceros: todo lo marcado [confirmar] lo tiene que confirmar Yama antes de publicar."
 }
