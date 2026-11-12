@@ -4,9 +4,14 @@
     "clave": "odontopediatr(a|ía)",
     "min": 6,
     "max": 11,
-    "ciudad": "Santa Fe"
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
   },
-  "intro": "El odontopediatra cuida los dientes de bebés, chicos y adolescentes. Acá te contamos cuándo llevar a tu hijo por primera vez y cómo prevenir las caries desde los primeros dientes.",
+  "intro": "El odontopediatra es el dentista que atiende a bebés, niños y adolescentes. En esta página, nuestro centro odontológico en Santa Fe explica cuándo llevar a tu hijo por primera vez y cómo prevenir las caries desde los primeros dientes.",
   "fuentes": [
     "nidcr-bebe",
     "mlp-ninos",
@@ -18,9 +23,9 @@
   "revisado": null,
   "secciones": {
     "¿Cuándo llevar a tu hijo por primera vez?": [
-      "La primera visita al odontopediatra conviene hacerla temprano: el Instituto Nacional de Investigación Dental y Craneofacial de EE. UU. (NIDCR) recomienda antes de que el chico cumpla un año, y MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) la ubica entre que sale el primer diente y los 2 años y medio.",
+      "La primera visita al odontopediatra conviene hacerla temprano: el Instituto Nacional de Investigación Dental y Craneofacial de EE. UU. (NIDCR) recomienda antes de que el niño cumpla un año, y MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) la ubica entre que sale el primer diente y los 2 años y medio.",
       "Después, MedlinePlus aconseja controles cada 6 meses.",
-      "Los problemas dentales en chicos pueden afectar la alimentación, el habla, el desarrollo de la mandíbula y la autoestima.",
+      "Los problemas dentales en niños pueden afectar la alimentación, el habla, el desarrollo de la mandíbula y la autoestima.",
       {
         "mas": {
           "t": "Tu primera consulta, paso a paso",
@@ -33,7 +38,7 @@
       {
         "h3": "¿Qué conviene contar en la consulta?"
       },
-      "Si el chico se chupa el dedo o respira por la boca."
+      "Si el niño se chupa el dedo o respira por la boca."
     ],
     "Selladores y flúor": [
       "Los selladores y el flúor ayudan a prevenir las caries: los selladores se colocan en las superficies de masticación de las muelas.",
@@ -46,12 +51,12 @@
       "[Pendiente: si la clínica aplica selladores y flúor, y a qué edades]"
     ],
     "Caries en dientes de leche": [
-      "Los dientes de leche se cuidan desde antes de que salgan, limpiando las encías, y con cepillado desde el primer diente, porque las caries son muy comunes en chicos.",
+      "Los dientes de leche se cuidan desde antes de que salgan, limpiando las encías, y con cepillado desde el primer diente, porque las caries son muy comunes en niños.",
       {
         "lista": [
           "Antes de que salgan los dientes: limpiar las encías con un paño húmedo después de comer.",
           "Con el primer diente: pasar a un cepillo suave.",
-          "Cepillado al menos dos veces al día, sobre todo antes de dormir; el chico puede practicar, pero un adulto supervisa y termina la limpieza.",
+          "Cepillado al menos dos veces al día, sobre todo antes de dormir; el niño puede practicar, pero un adulto supervisa y termina la limpieza.",
           "No acostar al bebé con biberón de leche, jugo o agua con azúcar; de noche, solo agua."
         ]
       },
@@ -64,7 +69,7 @@
     ],
     "Ortopedia": [
       "[Pendiente: a qué edad recomienda la clínica la primera consulta de ortopedia y qué aparatos usa, confirmado por el odontólogo]",
-      "Hábitos de la infancia como chuparse el dedo pueden influir en la mordida, y la ortodoncia funciona mejor en chicos y adolescentes.",
+      "Hábitos de la infancia como chuparse el dedo pueden influir en la mordida, y la ortodoncia funciona mejor en niños y adolescentes.",
       {
         "mas": {
           "t": "Ortodoncia en Santa Fe",
@@ -73,13 +78,13 @@
       }
     ],
     "Si tu hijo tiene miedo": [
-      "[Pendiente: cómo trabaja la clínica con chicos que tienen miedo, confirmado por el odontólogo]",
-      "MedlinePlus sugiere una visita «de prueba» para que el chico conozca el consultorio antes de un tratamiento."
+      "[Pendiente: cómo trabaja la clínica con niños que tienen miedo, confirmado por el odontólogo]",
+      "MedlinePlus sugiere una visita «de prueba» para que el niño conozca el consultorio antes de un tratamiento."
     ]
   },
   "faq": [
     {
-      "q": "¿A qué edad va un chico al odontopediatra por primera vez?",
+      "q": "¿A qué edad va un niño al odontopediatra por primera vez?",
       "a": "El NIDCR recomienda antes de cumplir un año; MedlinePlus, entre el primer diente y los 2 años y medio."
     },
     {

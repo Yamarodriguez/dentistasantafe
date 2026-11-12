@@ -126,5 +126,10 @@
     "_nota": "Web3Forms: access key gratuita creada con el correo de la clínica. Vacía = formulario desactivado.",
     "web3forms_key": ""
   },
-  "logo_web": "/img/logo-88.webp"
+  "logo_web": "/img/logo-88.webp",
+  "antetitulos": [
+    "Clínica dental en Santa Fe",
+    "Dentista en Santa Fe",
+    "Centro odontológico en Santa Fe"
+  ]
 }

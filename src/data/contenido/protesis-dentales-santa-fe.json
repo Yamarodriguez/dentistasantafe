@@ -4,9 +4,14 @@
     "clave": "prótesis dental(es)?",
     "min": 6,
     "max": 11,
-    "ciudad": "Santa Fe"
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
   },
-  "intro": "Las prótesis dentales y las coronas reemplazan o protegen dientes: pueden ser removibles, fijas o ir sobre implantes. Acá te contamos qué opciones hay y cómo se cuidan.",
+  "intro": "Las prótesis dentales y las coronas reemplazan o protegen dientes: pueden ser removibles, fijas o ir sobre implantes. En esta página, nuestra clínica dental en Santa Fe explica qué opciones existen y cómo se cuidan.",
   "fuentes": [
     "mlp-protesis",
     "mlp-coronas"
@@ -65,7 +70,7 @@
       {
         "h3": "¿De qué material son?"
       },
-      "Hay coronas de metal (muy resistentes, pero menos naturales), de resina (más económicas, pero se desgastan más), de cerámica o porcelana (color natural) y de porcelana sobre metal. En chicos se usan sobre todo coronas de acero provisorias.",
+      "Hay coronas de metal (muy resistentes, pero menos naturales), de resina (más económicas, pero se desgastan más), de cerámica o porcelana (color natural) y de porcelana sobre metal. En niños se usan sobre todo coronas de acero provisorias.",
       "[Pendiente: qué materiales trabaja la clínica]",
       {
         "mas": {

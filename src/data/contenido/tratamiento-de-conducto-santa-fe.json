@@ -4,9 +4,14 @@
     "clave": "tratamiento de conducto",
     "min": 6,
     "max": 11,
-    "ciudad": "Santa Fe"
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
   },
-  "intro": "El tratamiento de conducto (endodoncia) permite conservar un diente cuando la infección llega al nervio. Acá te contamos cuándo hace falta, si duele y cómo es el procedimiento.",
+  "intro": "El tratamiento de conducto (endodoncia) permite conservar un diente cuando la infección llega al nervio. En esta página, nuestro centro odontológico en Santa Fe explica cuándo hace falta, si duele y cómo es el procedimiento.",
   "fuentes": [
     "mlp-conducto"
   ],
@@ -45,7 +50,7 @@
           "Sellado provisorio del diente."
         ]
       },
-      "La mayoría de las personas vuelve a su vida normal al día siguiente. Hasta que el diente esté restaurado conviene no masticar cosas duras de ese lado."
+      "La mayoría de las personas vuelve a su vida normal al día siguiente. Hasta que el diente esté restaurado conviene no masticar alimentos duros de ese lado."
     ],
     "Después del conducto: ¿hace falta una corona?": [
       "Normalmente sí: después del tratamiento de conducto el diente se sella de forma provisoria y luego se coloca una corona permanente.",
