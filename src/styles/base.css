@@ -345,3 +345,5 @@
   .web .cabeza-abajo.con-arriba .fila-bloque .tarjetas { grid-template-columns: 1fr; }
 }
 .web .nota-motivos { margin-top: 1rem; }
+.web .cabeza-abajo.con-arriba .texto-al-lado { align-self: end; }
+.web .cabeza-abajo.con-arriba .texto-al-lado > :last-child { margin-bottom: 0; }

@@ -22,6 +22,8 @@ const foto = (h) => fotoDe(h.foto ?? pagina.contenido?.fotos?.[h.t]);
 // disposicion: "foto-abajo" → título arriba y, debajo, la foto a un lado y el bloque (p. ej. los H3) al otro.
 // En «porque», los 2 últimos motivos van arriba, a la derecha del título (parte="arriba").
 const abajo = (h) => h.disposicion === 'foto-abajo' && foto(h);
+// En «Nuestros dentistas», la frase va a la derecha del título (arriba de la ficha), para que quede encuadrado.
+const textoAlLado = (h) => h.bloque === 'equipo' && textos[h.t];
 const lado = new Map(visibles.filter((h) => foto(h) && !abajo(h)).map((h, i) => [h.t, i % 2 ? 'derecha' : 'izquierda']));
 const textos = pagina.contenido?.secciones ?? {};
 // Antetítulo: rota entre «clínica dental», «dentista» y «centro odontológico» (fijo por H2).
@@ -30,12 +32,13 @@ const ante = (h) => variantes[[...h.t].reduce((a, ch) => a + ch.charCodeAt(0), 0
 ---
 {visibles.map((h) => abajo(h) ? (
   <section class:list={['seccion', `bloque-${h.bloque ?? 'texto'}`, 'foto-abajo', { banda: banda(h) }]} id={id(h)}>
-    <div class:list={['cabeza-abajo', { 'con-arriba': h.bloque === 'porque' }]}>
+    <div class:list={['cabeza-abajo', { 'con-arriba': h.bloque === 'porque' || textoAlLado(h) }]}>
       <div class="seccion-cuerpo">
         <p class="antetitulo">{ante(h)}</p>
         <h2>{titulo(h)}</h2>
-        {h.bloque && textos[h.t] && <Texto bloques={textos[h.t]} />}
+        {h.bloque && textos[h.t] && !textoAlLado(h) && <Texto bloques={textos[h.t]} />}
       </div>
+      {textoAlLado(h) && <div class="texto-al-lado"><Texto bloques={textos[h.t]} /></div>}
       {h.bloque === 'porque' && <div class="fila-bloque arriba"><Bloque tipo={h.bloque} pagina={pagina} parte="arriba" /></div>}
     </div>
     <div class="fila-foto">
