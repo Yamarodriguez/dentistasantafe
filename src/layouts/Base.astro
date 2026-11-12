@@ -8,10 +8,11 @@ import '@fontsource/playfair-display/latin-600.css';
 import '@fontsource/playfair-display/latin-ext-600.css';
 import '../styles/base.css';
 import temas from '../data/temas.json';
-import { site, ruta, enlaceTurno } from '../lib/datos.js';
+import { site, ruta, enlaceTurno, tratamientos } from '../lib/datos.js';
 import { schemaDe } from '../lib/schema.js';
 
 const { pagina } = Astro.props;
+const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
 const canonical = pagina.tipo === '404' ? null : new URL(ruta(pagina.slug), site.url).href;
 const { precarga } = Astro.props; // imagen grande de arriba (sin lazy, se precarga)
 const ld = pagina.tipo === '404' ? null : schemaDe(pagina);
@@ -56,9 +57,22 @@ const vars = [
           <span>{site.nombre}</span>
         </a>
         <nav class="menu" aria-label="Principal">
-          <a href="/tratamientos/">Tratamientos</a>
+          <a href="/equipo/">La clínica</a>
+          <details class="desplegable">
+            <summary>Tratamientos</summary>
+            <div class="panel">
+              <a class="todos" href="/tratamientos/">Todos los tratamientos →</a>
+              {grupos.map((g) => (
+                <div class="grupo">
+                  <p>{g}</p>
+                  <ul>
+                    {tratamientos.filter((t) => t.grupo === g).map((t) => <li><a href={ruta(t.slug)}>{t.nombre}</a></li>)}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </details>
           <a href="/obras-sociales/">Obras sociales</a>
-          <a href="/equipo/">Equipo</a>
           <a href="/contacto/">Contacto</a>
           <a class="boton" href="/contacto/">Pedir turno</a>
         </nav>
