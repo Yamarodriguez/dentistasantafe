@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.astro/
+*.log
+*.zip
+.env
+informes/
+competencia/datos/
+competencia/texto/
+capturas*/
+marca/
+descargas/
+.claude/worktrees/
+.claude/settings.local.json
+__pycache__/
+*.pyc

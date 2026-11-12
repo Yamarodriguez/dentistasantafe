@@ -1,0 +1,19 @@
+# Una URL por línea (portada y, si quieres, páginas de tratamiento concretas).
+# Las líneas con # se ignoran.
+# Fase 0 — 2026-11-12. Búsquedas: "clínica dental Valencia" y "dentista Valencia".
+# Fuera directorios (Doctoralia, Top Doctors) y cadenas (Sanitas). Versión en castellano.
+https://dentalblanch.es/
+https://www.clinicamanzanera.com/
+https://clinicadentalvalencia.com/
+https://clinicadevicente.com/
+https://www.clinicadentalba.com/
+https://www.clinicadentalcarrasco.com/
+https://clinicadentaltorrefiel.com/
+https://www.dentalasensio.com/
+https://cimev.es/
+https://clinicadentalvictoria.com/
+https://clinicazaplana.es/
+https://www.pilarroig.com/
+# 2026-11-12 — Yama marca como sus referencias: dentalblanch, centroodontologicovalenciano,
+# pilarroig, clinicamanzanera. centroodontologicovalenciano = además referencia de DISEÑO.
+https://centroodontologicovalenciano.com/
