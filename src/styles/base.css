@@ -296,25 +296,27 @@
   .web .tarjeta:hover { transform: none; }
 }
 
-/* Menú con desplegable de tratamientos (como la referencia) */
-.web .menu details.desplegable { position: relative; }
-.web .menu details summary { list-style: none; cursor: pointer; color: var(--texto); }
+/* Menú como la referencia: tratamientos sueltos + desplegables de Ortodoncia y Otros tratamientos */
+.web .menu { gap: .85rem 1rem; font-size: .92rem; }
+.web .menu .boton { padding: .5rem 1rem; }
+.web .menu details.desplegable { position: relative; border: 0; padding: 0; }
+.web .menu details summary { list-style: none; cursor: pointer; color: var(--texto); white-space: nowrap; }
 .web .menu details summary::-webkit-details-marker { display: none; }
 .web .menu details summary::after { content: "▾"; margin-left: .3rem; font-size: .8em; color: var(--accion); }
 .web .menu details[open] summary::after { content: "▴"; }
-.web .menu details .panel {
-  position: absolute; left: 0; top: calc(100% + .6rem); z-index: 30;
-  width: min(560px, calc(100vw - 2rem)); background: var(--superficie); border: 1px solid var(--borde);
-  border-radius: var(--radio); box-shadow: 0 24px 48px -24px rgba(0,0,0,.35); padding: 1.1rem 1.25rem;
-  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem 1.5rem;
+.web .menu details summary:hover { color: var(--accion); }
+.web .menu .panel {
+  position: absolute; left: -1rem; top: calc(100% + .8rem); z-index: 30;
+  min-width: 250px; list-style: none; margin: 0; padding: .5rem 0;
+  background: var(--superficie); border: 1px solid var(--borde); border-top: 2px solid var(--acento);
+  border-radius: 0 0 var(--radio) var(--radio); box-shadow: 0 24px 48px -24px rgba(0,0,0,.35);
 }
-.web .menu details .panel .todos { grid-column: 1 / -1; font-weight: 600; }
-.web .menu details .grupo p { margin: 0 0 .3rem; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--suave); }
-.web .menu details .grupo ul { list-style: none; padding: 0; margin: 0; }
-.web .menu details .grupo li a { display: block; padding: .3rem 0; color: var(--texto); text-decoration: none; }
-.web .menu details .grupo li a:hover { color: var(--accion); text-decoration: underline; }
+.web .menu .panel a { display: block; padding: .5rem 1.1rem; white-space: nowrap; }
+.web .menu .panel a:hover { background: var(--banda); text-decoration: none; }
+.web .menu .panel .todos { border-top: 1px solid var(--borde); margin-top: .3rem; padding-top: .3rem; font-weight: 600; }
 @media (max-width: 760px) {
-  .web .menu details .panel { position: static; width: auto; grid-template-columns: 1fr; box-shadow: none; margin-top: .4rem; }
+  .web .menu .panel { position: static; min-width: 0; box-shadow: none; border-radius: var(--radio); margin-top: .4rem; }
+  .web .menu details[open] { flex-basis: 100%; }
 }
 
 /* Títulos H3 en la misma letra que el texto (Open Sans), en todas las tarjetas */

@@ -130,6 +130,17 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   con icono (pedido de Yama). Textos de los H2 que faltaban escritos (portada, obras sociales,
   primera consulta, equipo, contacto, índice); lo de la clínica va con [confirmar].
 
+- **Menú como COV (Yama, 2026-11-12, captura)**: La clínica · Implantes · Ortodoncia ▾ (brackets,
+  invisible) · Estética dental · Obras sociales · Otros tratamientos ▾ (el resto + «Todos los
+  tratamientos») · Contacto · Pedir turno. Listas MENU_* en Base.astro.
+- **Estudio de 4 portadas de Madrid (2026-11-12), aplicado**: FAQ de portada = 2 de salud + 3 prácticas
+  (dónde/colectivo, estacionamiento, horario; respuestas [Pendiente]); H2 «Cómo llegar y horario de
+  nuestra clínica dental en Santa Fe» (el bloque mapa muestra el horario solo en portada); cada
+  tratamiento es H4 dentro de su grupo. Propuesto y sin hacer: página de cirugía oral / muelas de
+  juicio (si el Dr. Vera la hace) y blog (después de publicar).
+- Fotos de «Opiniones» (mujer con mono beige) y «Pedir turno» (chica con gabardina beige) cambiadas
+  a tonos beige del tema dorado (2026-11-12).
+
 ## Herramientas ya hechas
 - `scripts/scrap.py` — scraper de competencia (Python estándar + bs4 + lxml;
   `requests` NO está instalado, usa urllib). Probado el 2026-11-12.

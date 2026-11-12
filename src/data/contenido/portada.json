@@ -42,8 +42,8 @@
     "Nuestros dentistas en Santa Fe: título y matrícula": [
       "En nuestra clínica dental cada profesional figura con su nombre, su título y su matrícula, como pide la ley 12094 de Santa Fe."
     ],
-    "Cómo llegar a nuestra clínica dental en Santa Fe": [
-      "Nuestra clínica dental está en Santa Fe capital. [confirmar: dirección, barrio y cómo llegar (colectivos, estacionamiento, accesibilidad)]"
+    "Cómo llegar y horario de nuestra clínica dental en Santa Fe": [
+      "Nuestra clínica dental está en Santa Fe capital. El horario de atención es [confirmar: días y horario]. [confirmar: dirección, barrio, colectivos que pasan cerca, estacionamiento y accesibilidad]"
     ],
     "Solicitar información sobre el tratamiento que necesitás": [
       "Podés pedir turno por WhatsApp, por teléfono o con el formulario. Indicá el tratamiento que te interesa y te contactamos para coordinar el día y el horario. [confirmar: horario de atención y tiempo de respuesta]"
@@ -55,20 +55,20 @@
       "a": "MedlinePlus aconseja una limpieza profesional cada 6 meses; en esos controles se descubren la mayoría de las caries."
     },
     {
-      "q": "¿Es normal que me sangren las encías?",
-      "a": "Puede ser gingivitis, la forma leve de la enfermedad de las encías. Suele revertirse con cepillado, hilo dental y limpiezas profesionales."
-    },
-    {
       "q": "¿A qué edad llevo a mi hijo por primera vez?",
       "a": "El NIDCR recomienda antes de que cumpla un año; MedlinePlus, entre el primer diente y los 2 años y medio."
     },
     {
-      "q": "¿Atienden obras sociales y prepagas?",
-      "a": "[Pendiente: obras sociales y prepagas con las que trabaja la clínica]"
+      "q": "¿Dónde está la clínica y cómo llego en colectivo?",
+      "a": "Nuestra clínica dental está en Santa Fe capital, en [Pendiente: dirección y barrio]. Cerca pasan las líneas de colectivo [Pendiente: líneas de colectivo]."
     },
     {
-      "q": "¿Dónde está la clínica dental?",
-      "a": "[Pendiente: dirección y barrio en Santa Fe]"
+      "q": "¿Hay estacionamiento cerca de la clínica?",
+      "a": "[Pendiente: si hay estacionamiento o cocheras cerca de la clínica dental]"
+    },
+    {
+      "q": "¿Cuál es el horario de atención?",
+      "a": "El horario de atención de nuestra clínica dental es [Pendiente: días y horario de atención]."
     }
   ],
   "entrada": "Atención odontológica en Santa Fe: odontología general, implantes, prótesis, ortodoncia, estética dental y odontopediatría, con turno previo. [confirmar: tratamientos que realiza la clínica]"

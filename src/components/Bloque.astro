@@ -105,7 +105,7 @@ const opiniones = site.opiniones.filter((o) => !pagina.sede || o.sede === pagina
             <li>
               <a class="servicio-fila" href={ruta(t.slug)}>
                 <span class="servicio-dibujo"><Dibujo slug={t.slug} tam={46} /></span>
-                <span class="servicio-nombre">{t.nombre}</span>
+                <h4 class="servicio-nombre">{t.nombre}</h4>
                 <span class="flecha" aria-hidden="true">→</span>
               </a>
             </li>
@@ -197,7 +197,10 @@ const opiniones = site.opiniones.filter((o) => !pagina.sede || o.sede === pagina
   : <p class="pendiente">{pendiente('preguntas frecuentes (Fase 3)')}</p>)}
 
 {tipo === 'mapa' && sedes.map((s) => (
-  <p>{s.direccion} ({s.barrio}, {s.ciudad}) {s.mapa ? <a href={s.mapa}>Ver en Google Maps</a> : <span class="pendiente">{pendiente('enlace a Google Maps')}</span>}</p>
+  <>
+    <p>{s.direccion} ({s.barrio}, {s.ciudad}) {s.mapa ? <a href={s.mapa}>Ver en Google Maps</a> : <span class="pendiente">{pendiente('enlace a Google Maps')}</span>}</p>
+    {pagina.tipo === 'portada' && <p><strong>Horario:</strong> {s.horario}</p>}
+  </>
 ))}
 
 {tipo === 'horario' && sedes.map((s) => (

@@ -8,8 +8,12 @@ import '@fontsource/playfair-display/latin-600.css';
 import '@fontsource/playfair-display/latin-ext-600.css';
 import '../styles/base.css';
 import temas from '../data/temas.json';
-import { site, ruta, enlaceTurno, tratamientos, grupos } from '../lib/datos.js';
+import { site, ruta, enlaceTurno, tratamientos } from '../lib/datos.js';
 import { schemaDe } from '../lib/schema.js';
+
+// Menú como la referencia: tratamientos principales sueltos, el resto en «Otros tratamientos»
+const MENU_ORTODONCIA = ['ortodoncia-santa-fe', 'ortodoncia-invisible-santa-fe'];
+const MENU_SUELTOS = ['implantes-dentales-santa-fe', 'estetica-dental-santa-fe', ...MENU_ORTODONCIA];
 
 const { pagina } = Astro.props;
 const canonical = pagina.tipo === '404' ? null : new URL(ruta(pagina.slug), site.url).href;
@@ -57,21 +61,22 @@ const vars = [
         </a>
         <nav class="menu" aria-label="Principal">
           <a href="/equipo/">La clínica</a>
+          <a href={ruta('implantes-dentales-santa-fe')}>Implantes</a>
           <details class="desplegable">
-            <summary>Tratamientos</summary>
-            <div class="panel">
-              <a class="todos" href="/tratamientos/">Todos los tratamientos →</a>
-              {grupos.map((g) => (
-                <div class="grupo">
-                  <p>{g}</p>
-                  <ul>
-                    {tratamientos.filter((t) => t.grupo === g).map((t) => <li><a href={ruta(t.slug)}>{t.nombre}</a></li>)}
-                  </ul>
-                </div>
-              ))}
-            </div>
+            <summary>Ortodoncia</summary>
+            <ul class="panel">
+              {tratamientos.filter((t) => MENU_ORTODONCIA.includes(t.slug)).map((t) => <li><a href={ruta(t.slug)}>{t.nombre}</a></li>)}
+            </ul>
           </details>
+          <a href={ruta('estetica-dental-santa-fe')}>Estética dental</a>
           <a href="/obras-sociales/">Obras sociales</a>
+          <details class="desplegable">
+            <summary>Otros tratamientos</summary>
+            <ul class="panel">
+              {tratamientos.filter((t) => !MENU_SUELTOS.includes(t.slug)).map((t) => <li><a href={ruta(t.slug)}>{t.nombre}</a></li>)}
+              <li class="todos"><a href="/tratamientos/">Todos los tratamientos →</a></li>
+            </ul>
+          </details>
           <a href="/contacto/">Contacto</a>
           <a class="boton" href="/contacto/">Pedir turno</a>
         </nav>
@@ -121,5 +126,18 @@ const vars = [
     </footer>
 
     <a class="boton boton-turno" href="/contacto/">Pedir turno</a>
+    <script>
+      // Menú: abrir un desplegable cierra el otro; clic fuera o Esc los cierra.
+      const desplegables = [...document.querySelectorAll('.menu details')];
+      desplegables.forEach((d) => d.addEventListener('toggle', () => {
+        if (d.open) desplegables.forEach((o) => { if (o !== d) o.open = false; });
+      }));
+      document.addEventListener('click', (e) => {
+        desplegables.forEach((d) => { if (!d.contains(e.target)) d.open = false; });
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') desplegables.forEach((d) => { d.open = false; });
+      });
+    </script>
   </body>
 </html>
