@@ -223,6 +223,7 @@
 .web .resumen-titulo { font-weight: 600; font-size: .85rem; letter-spacing: .08em; text-transform: uppercase; color: var(--suave); margin: 0 0 .5rem; }
 .web .resumen ul { margin: 0; padding-left: 1.2rem; }
 .web .resumen li { margin: .35rem 0; }
+.web .foto-profesional { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: calc(var(--radio) / 1.5); margin-bottom: .5rem; }
 .web .marcas { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; font-weight: 600; color: var(--suave); }
 .web .destacado { display: flex; gap: .6rem; align-items: flex-start; font-weight: 600; color: var(--texto); }
 .web .destacado svg { width: 22px; height: 22px; color: var(--accion); flex: none; margin-top: .15rem; }

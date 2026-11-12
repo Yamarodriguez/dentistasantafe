@@ -4,6 +4,8 @@
 import { site, ruta, tratamientos, enlaceTurno, pendiente } from '../lib/datos.js';
 import Formulario from './Formulario.astro';
 import Dibujo from './Dibujo.astro';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 
 const { tipo, pagina } = Astro.props;
 const sedes = pagina.sede ? site.sedes.filter((s) => s.id === pagina.sede) : site.sedes;
@@ -163,7 +165,7 @@ const grupos = [...new Set(tratamientos.map((t) => t.grupo))];
     <div class="tarjetas">
       {profesionales.map((p) => (
         <article class="tarjeta">
-          {p.foto && <img src={p.foto} alt={`Foto de ${p.nombre}`} />}
+          {p.foto && existsSync(join(process.cwd(), "public", p.foto)) && <img class="foto-profesional" src={p.foto} alt={`Foto de ${p.nombre}`} width="900" height="1125" loading="lazy" />}
           <h3>{p.nombre}</h3>
           <p>{p.especialidad} · Matrícula {p.matricula}</p>
         </article>

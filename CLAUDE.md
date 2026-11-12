@@ -118,6 +118,11 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   Tabla en scripts/imagenes.py. Tratamientos: 1 foto (primer H2); más fotos por tratamiento
   requieren descargar más (pedir permiso). **Resumen rápido** («En resumen», 4 frases de la
   lista blanca) arriba de cada tratamiento, para fragmentos de Google y buscadores con IA.
+- **Foto real IMG_5694** (odontólogo en el consultorio real, 2026-11-12): convertida de HEIC con el
+  decodificador de Windows (PowerShell + PresentationCore; Pillow no lee HEIC), mejorada (encuadre
+  4:5, luz en sombras, contraste, tono cálido, nitidez) → marca/fotos-propias/. En local como
+  provisional-odontologo-consultorio-santa-fe.webp en «Nuestros dentistas» y ficha del equipo.
+  **No se sube** hasta que Yama confirme quién es (¿Od. Ignacio Vera?) y que se puede publicar.
 - Letra (Yama, 2026-11-12, captura de COV): **Open Sans** en títulos y texto; Playfair solo en
   nombres de tarjetas.
 - Servicios de la portada en recuadros con dibujo (3 columnas) y obras sociales en recuadros

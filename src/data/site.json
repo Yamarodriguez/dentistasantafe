@@ -38,8 +38,8 @@
       "alt": "Cepillos de dientes de colores en una taza (imagen ilustrativa)"
     },
     "dentistas": {
-      "src": "/img/fotos/dentistas-santa-fe-matricula.webp",
-      "alt": "Espejo y sonda, instrumental del dentista (imagen ilustrativa)"
+      "src": "/img/provisional-odontologo-consultorio-santa-fe.webp",
+      "alt": "Odontólogo en el consultorio de la clínica dental en Santa Fe"
     },
     "faq": {
       "src": "/img/fotos/preguntas-frecuentes-clinica-dental.webp",
@@ -175,7 +175,7 @@
       "sedes": [
         "santa-fe"
       ],
-      "foto": ""
+      "foto": "/img/provisional-odontologo-consultorio-santa-fe.webp"
     }
   ],
   "_profesional_ejemplo": {
@@ -276,5 +276,6 @@
       "autor": "Towfiqu barbhuiya",
       "url": "https://unsplash.com/photos/rr0cuFV-0Mo"
     }
-  ]
+  ],
+  "_foto_propia": "IMG_5694 (foto real del consultorio, la pasó Yama 2026-11-12), mejorada: marca/fotos-propias/. Provisional (no se sube) hasta que Yama confirme quién es y que se puede publicar."
 }
