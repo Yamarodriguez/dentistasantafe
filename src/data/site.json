@@ -38,8 +38,8 @@
       "alt": "Sala de espera de la clínica dental Ignacio Vera Odontología en Santa Fe"
     },
     "dentistas": {
-      "src": "/img/fotos/od-ignacio-vera-clinica-dental-santa-fe.webp",
-      "alt": "Od. Ignacio Vera en su consultorio de la clínica dental en Santa Fe"
+      "src": "/img/fotos/clinica-dental-santa-fe-od-ignacio-vera.webp",
+      "alt": "Od. Ignacio Vera en el consultorio de la clínica dental en Santa Fe"
     },
     "faq": {
       "src": "/img/fotos/preguntas-frecuentes-clinica-dental.webp",
@@ -183,7 +183,7 @@
       "sedes": [
         "santa-fe"
       ],
-      "foto": "/img/fotos/od-ignacio-vera-consultorio-santa-fe.webp"
+      "foto": "/img/fotos/od-ignacio-vera-clinica-dental-santa-fe.webp"
     }
   ],
   "_profesional_ejemplo": {

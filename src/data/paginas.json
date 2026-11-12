@@ -58,7 +58,8 @@
         {
           "t": "Nuestros dentistas en Santa Fe: título y matrícula",
           "bloque": "equipo",
-          "foto": "dentistas"
+          "foto": "dentistas",
+          "disposicion": "foto-abajo"
         },
         {
           "t": "Reconocimiento",
