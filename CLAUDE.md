@@ -32,6 +32,8 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
 
 ## Preferencias del propietario (no volver a proponer)
 - Web solo de Santa Fe; Rosario aparte (no proponer web conjunta de dos sedes).
+  Estructura de 18 páginas + portada tipo COV **aprobada por Yama el 2026-11-12**
+  («sí, hagamos así»).
 - Portada con los H1/H2/H3 de la portada de COV adaptados (Yama los pegó el 2026-11-12):
   H1 Clínica Dental en Santa Fe · H2 Clínica dental en Santa Fe con más de [X] años de
   experiencia · H2 ¿Por qué elegir X como tu clínica dental en Santa Fe? (H3 Especialistas
