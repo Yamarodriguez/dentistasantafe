@@ -224,7 +224,6 @@
 .web .resumen ul { margin: 0; padding-left: 1.2rem; }
 .web .resumen li { margin: .35rem 0; }
 .web .foto-profesional { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: calc(var(--radio) / 1.5); margin-bottom: .5rem; }
-.web .marcas { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; font-weight: 600; color: var(--suave); }
 .web .destacado { display: flex; gap: .6rem; align-items: flex-start; font-weight: 600; color: var(--texto); }
 .web .destacado svg { width: 22px; height: 22px; color: var(--accion); flex: none; margin-top: .15rem; }
 
@@ -348,3 +347,16 @@
 .web .nota-motivos { margin-top: 1rem; }
 .web .cabeza-abajo.con-arriba .texto-al-lado { align-self: end; }
 .web .cabeza-abajo.con-arriba .texto-al-lado > :last-child { margin-bottom: 0; }
+
+/* Marcas con las que trabajamos: como la referencia (todo centrado, logos en fila) */
+.web .seccion.bloque-marcas { text-align: center; }
+.web .seccion.bloque-marcas h2::after { margin-inline: auto; }
+.web .seccion.bloque-marcas .seccion-cuerpo > p { max-width: 62ch; margin-inline: auto; }
+.web .marcas-fila { list-style: none; padding: 0; margin: 2.25rem 0 0; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.25rem 3rem; }
+.web .marcas-fila img { height: 64px; width: auto; max-width: 200px; object-fit: contain; }
+.web .marca-nombre {
+  display: inline-block; padding: .9rem 1.6rem; border: 1px solid var(--borde); border-radius: 999px; background: #fff;
+  font-family: var(--f-texto), system-ui, sans-serif; font-weight: 700; font-size: 1.15rem; letter-spacing: .02em; color: var(--texto);
+}
+.web .seccion.bloque-marcas h2 { max-width: none; margin-inline: auto; }
+.web .seccion.bloque-marcas .seccion-cuerpo > .marcas-fila { max-width: none; }

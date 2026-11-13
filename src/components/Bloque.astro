@@ -13,6 +13,9 @@ const profesionales = site.profesionales.filter(
   (p) => !pagina.sede || p.sedes.includes(pagina.sede)
 );
 const opiniones = site.opiniones.filter((o) => !pagina.sede || o.sede === pagina.sede);
+// Marcas: texto («Straumann») u objeto {nombre, logo}. El logo solo sale si el archivo existe (webp en public/img/marcas/).
+const marcas = (site.marcas ?? []).map((m) => (typeof m === 'string' ? { nombre: m } : m))
+  .map((m) => ({ ...m, logo: m.logo && existsSync(join(process.cwd(), 'public', m.logo)) ? m.logo : null }));
 // Motivos de «¿Por qué elegir…?»: con parte="arriba" salen los que pasan de 4 (junto al título); con "abajo", los 4 primeros.
 const todosMotivos = site.porque.length ? site.porque : [1, 2, 3, 4].map((n) => ({ titulo: pendiente(`motivo ${n}`), texto: '' }));
 const motivos = parte === 'arriba' ? todosMotivos.slice(4) : parte === 'abajo' ? todosMotivos.slice(0, 4) : todosMotivos;
@@ -110,7 +113,13 @@ const iconoMotivo = (titulo = '') => {
 )}
 
 {tipo === 'marcas' && (
-  <ul class="marcas">{site.marcas.map((m) => <li>{m}</li>)}</ul>
+  <ul class="marcas-fila">
+    {marcas.map((m) => (
+      <li>{m.logo
+        ? <img src={m.logo} alt={`Logo de ${m.nombre}`} width="220" height="90" loading="lazy" decoding="async" />
+        : <span class="marca-nombre">{m.nombre}</span>}</li>
+    ))}
+  </ul>
 )}
 
 {tipo === 'tratamientos' && pagina.tipo === 'portada' && (

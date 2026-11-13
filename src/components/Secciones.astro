@@ -15,7 +15,7 @@ const { pagina, h2s = pagina.h2s } = Astro.props;
 const norm = (h) => (typeof h === 'string' ? { t: h } : h);
 const conDatos = { promociones: site.promociones, reconocimientos: site.reconocimientos, marcas: site.marcas };
 const visibles = h2s.map(norm).filter((h) => !h.opcional || (conDatos[h.bloque] ?? []).length);
-const titulo = (h) => h.t.replace('{nombre}', site.nombre);
+const titulo = (h) => h.t.replace('{nombre}', site.nombre).replace(/Santa Fe/g, 'Santa Fe'); // «Santa Fe» nunca se parte en dos líneas
 const id = (h) => (h.bloque === 'faq' ? 'preguntas-frecuentes' : undefined);
 const banda = (h) => ['tratamientos', 'opiniones', 'promociones'].includes(h.bloque) && pagina.tipo === 'portada';
 const foto = (h) => fotoDe(h.foto ?? pagina.contenido?.fotos?.[h.t]);

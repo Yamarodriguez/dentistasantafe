@@ -45,8 +45,11 @@
     "Cómo llegar y horario de nuestra clínica dental en Santa Fe": [
       "Nuestra clínica dental está en Santa Fe capital. El horario de atención es [confirmar: días y horario]. [confirmar: dirección, barrio, colectivos que pasan cerca, estacionamiento y accesibilidad]"
     ],
-    "Solicitar información sobre el tratamiento que necesitás": [
+    "Solicitar información sobre el tratamiento odontológico en Santa Fe que necesitás": [
       "Podés pedir turno por WhatsApp, por teléfono o con el formulario. Indicá el tratamiento que te interesa y te contactamos para coordinar el día y el horario. [confirmar: horario de atención y tiempo de respuesta]"
+    ],
+    "Marcas con las que trabajamos": [
+      "En nuestro centro odontológico trabajamos con materiales e implantes de estos fabricantes. [confirmar: marcas que usa la clínica]"
     ]
   },
   "faq": [
