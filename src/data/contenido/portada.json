@@ -43,7 +43,7 @@
       "En nuestra clínica dental cada profesional figura con su nombre, su título y su matrícula, como pide la ley 12094 de Santa Fe."
     ],
     "Cómo llegar y horario de nuestra clínica dental en Santa Fe": [
-      "Nuestra clínica dental está en Santa Fe capital. El horario de atención es [confirmar: días y horario]. [confirmar: dirección, barrio, colectivos que pasan cerca, estacionamiento y accesibilidad]"
+      "Nuestra clínica dental está en 9 de Julio 3288, en Santa Fe capital (Argentina). El horario de atención es [confirmar: días y horario]. [confirmar: barrio, colectivos que pasan cerca, estacionamiento y accesibilidad]"
     ],
     "Solicitar información sobre el tratamiento odontológico en Santa Fe que necesitás": [
       "Podés pedir turno por WhatsApp, por teléfono o con el formulario. Indicá el tratamiento que te interesa y te contactamos para coordinar el día y el horario. [confirmar: horario de atención y tiempo de respuesta]"
@@ -63,7 +63,7 @@
     },
     {
       "q": "¿Dónde está la clínica y cómo llego en colectivo?",
-      "a": "Nuestra clínica dental está en Santa Fe capital, en [Pendiente: dirección y barrio]. Cerca pasan las líneas de colectivo [Pendiente: líneas de colectivo]."
+      "a": "Nuestra clínica dental está en 9 de Julio 3288, en Santa Fe capital. Cerca pasan las líneas de colectivo [Pendiente: líneas de colectivo]."
     },
     {
       "q": "¿Hay estacionamiento cerca de la clínica?",

@@ -23,6 +23,7 @@ function clinica() {
       streetAddress: s.direccion,
       addressLocality: 'Santa Fe',
       addressRegion: 'Santa Fe',
+      postalCode: s.codigoPostal,
       addressCountry: 'AR',
     },
     openingHours: s.horario,

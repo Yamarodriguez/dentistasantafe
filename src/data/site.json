@@ -146,11 +146,11 @@
       "id": "santa-fe",
       "ciudad": "Santa Fe",
       "barrio": "[barrio]",
-      "direccion": "[dirección en Santa Fe capital]",
+      "direccion": "9 de Julio 3288",
       "telefono": "[teléfono]",
       "whatsapp": "",
       "horario": "[horario]",
-      "mapa": "",
+      "mapa": "https://www.google.com/maps/search/?api=1&query=9+de+Julio+3288%2C+Santa+Fe%2C+Argentina",
       "guardia": null,
       "obrasSociales": [
         "Swiss Medical",
@@ -166,7 +166,8 @@
         "Sancor Salud",
         "Pacientes particulares",
         "[confirmar: lista sacada de Doctoralia, de un consultorio en Santo Tomé]"
-      ]
+      ],
+      "codigoPostal": "3000"
     }
   ],
   "_rosario_para_despues": {
@@ -293,5 +294,6 @@
       "url": "https://unsplash.com/photos/3vWwf1wJWfc"
     }
   ],
-  "_foto_propia": "IMG_5694: foto real del Od. Ignacio Vera en su consultorio (Yama confirma identidad y permiso para publicar, 2026-11-12). Original mejorado en marca/fotos-propias/; webp en public/img/fotos/."
+  "_foto_propia": "IMG_5694: foto real del Od. Ignacio Vera en su consultorio (Yama confirma identidad y permiso para publicar, 2026-11-12). Original mejorado en marca/fotos-propias/; webp en public/img/fotos/.",
+  "_direccion_fuente": "Dirección dada por Yama el 2026-11-13. Barrio sin confirmar. El enlace de mapa es una búsqueda de la dirección; cambiarlo por la ficha de Google Business cuando exista."
 }
