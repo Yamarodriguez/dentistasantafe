@@ -5,7 +5,7 @@
   "idioma": "es-AR",
   "indexar": false,
   "tema": "dorado",
-  "logo": "/img/logo.jpg",
+  "logo": "/img/dentistas-santa-fe.jpg",
   "antetitulo": "Clínica dental en Santa Fe",
   "_fotos": "Fotos de Unsplash (licencia Unsplash: uso comercial gratis, sin atribución obligatoria; damos crédito en /terminos/). Descargadas con permiso de Yama el 2026-11-12. Originales en marca/unsplash/ (no se suben); webp en public/img/fotos/. Son fotos de ambiente: nunca presentarlas como pacientes ni resultados de la clínica.",
   "fotos": {
@@ -220,7 +220,7 @@
     "_nota": "Web3Forms: access key gratuita creada con el correo de la clínica. Vacía = formulario desactivado.",
     "web3forms_key": ""
   },
-  "logo_web": "/img/logo-88.webp",
+  "logo_web": "/img/dentistas-santa-fe.webp",
   "antetitulos": [
     "Clínica dental en Santa Fe",
     "Dentista en Santa Fe",

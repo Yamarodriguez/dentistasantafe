@@ -18,7 +18,7 @@ REC2 = "05883ff8-df21-429f-949b-8de9d56c9aa4.png"
 
 # (original, destino en public/img, ancho en píxeles)
 IMAGENES = [
-    ("logo.jpg", "logo-88.webp", 88),
+    ("logo.jpg", "dentistas-santa-fe.webp", 88),
     # Provisionales (renders de Yama, no se suben): héroe y «Cómo llegar»
     (REC1, "provisional-recepcion.webp", 1600),
     (REC2, "provisional-como-llegar-clinica-dental-santa-fe.webp", 900),
