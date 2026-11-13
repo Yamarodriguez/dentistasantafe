@@ -21,7 +21,7 @@
           "disposicion": "foto-abajo"
         },
         {
-          "t": "¿Por qué elegir {nombre} como tu clínica dental en Santa Fe?",
+          "t": "¿Por qué elegir {nombre} como tu dentista en Santa Fe?",
           "bloque": "porque",
           "foto": "porque",
           "disposicion": "foto-abajo"
@@ -38,7 +38,7 @@
           "foto": "obras"
         },
         {
-          "t": "Tu primera consulta en nuestra clínica dental",
+          "t": "Tu primera consulta con el dentista",
           "boton": {
             "t": "Cómo es la primera consulta",
             "href": "/primera-consulta/"
