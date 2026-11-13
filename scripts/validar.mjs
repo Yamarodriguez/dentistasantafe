@@ -14,6 +14,7 @@ const SECO = process.argv.includes('--seco');
 const site = JSON.parse(readFileSync(join(RAIZ, 'src/data/site.json'), 'utf-8'));
 const mapa = JSON.parse(readFileSync(join(RAIZ, 'src/data/paginas.json'), 'utf-8'));
 const BASE = site.url.replace(/\/$/, '');
+const FOTOS_PROVISIONALES = Object.values(site.fotos ?? {}).filter((f) => f?.provisional).map((f) => f.src);
 
 if (!existsSync(DIST)) {
   console.log('ERROR: no existe dist/. Ejecuta antes: npm run build');
@@ -111,6 +112,8 @@ for (const f of htmls) {
   const marcas = texto.match(/\[[^\]\n]{1,120}\]|\bTODO\b|lorem ipsum/gi) || [];
   // Fotos provisionales (renders sin confirmar) = resto: no se publican como reales.
   marcas.push(...(html.match(/\/img\/provisional[^"')\s]*/g) || []).map((f) => `[foto provisional ${f}]`));
+  // También las que ya tienen nombre definitivo pero siguen marcadas "provisional": true en site.json.
+  for (const f of FOTOS_PROVISIONALES) if (html.includes(f)) marcas.push(`[foto provisional ${f}]`);
   if (marcas.length) restos.push({ r, n: marcas.length, ej: [...new Set(marcas)].slice(0, 6) });
 }
 

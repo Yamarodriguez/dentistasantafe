@@ -10,7 +10,8 @@
   "_fotos": "Fotos de Unsplash (licencia Unsplash: uso comercial gratis, sin atribución obligatoria; damos crédito en /terminos/). Descargadas con permiso de Yama el 2026-11-12. Originales en marca/unsplash/ (no se suben); webp en public/img/fotos/. Son fotos de ambiente: nunca presentarlas como pacientes ni resultados de la clínica.",
   "fotos": {
     "heroe": {
-      "src": "/img/provisional-recepcion.webp",
+      "src": "/img/clinica-dental-santa-fe.webp",
+      "provisional": true,
       "alt": "Recepción de una clínica dental en tonos dorados (imagen provisional)"
     },
     "consulta": {

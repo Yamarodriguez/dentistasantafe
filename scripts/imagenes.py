@@ -20,7 +20,7 @@ REC2 = "05883ff8-df21-429f-949b-8de9d56c9aa4.png"
 IMAGENES = [
     ("logo.jpg", "clinica-dental.webp", 88),
     # Provisionales (renders de Yama, no se suben): héroe y «Cómo llegar»
-    (REC1, "provisional-recepcion.webp", 1600),
+    (REC1, "clinica-dental-santa-fe.webp", 1600),
     (REC2, "provisional-como-llegar-clinica-dental-santa-fe.webp", 900),
     # Portada (una por H2)
     (U + "consultorio.jpg", "fotos/clinica-dental-santa-fe-consultorio.webp", 900),

@@ -16,3 +16,5 @@ __pycache__/
 *.pyc
 dist-*/
 public/img/provisional-*
+# Foto principal (héroe): render provisional, no se sube hasta que Yama lo confirme
+public/img/clinica-dental-santa-fe.webp
