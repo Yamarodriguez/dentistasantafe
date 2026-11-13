@@ -19,7 +19,7 @@
   ],
   "secciones": {
     "Clínica dental en Santa Fe con más de [X] años de experiencia": [
-      "Ignacio Vera Odontología es una clínica dental en Santa Fe que atiende odontología general, implantes, prótesis, ortodoncia y estética dental. [confirmar: tratamientos y edades que atiende la clínica]",
+      "Ignacio Vera Odontología es una clínica dental en Santa Fe que atiende odontología estética, implantes, ortodoncia, periodoncia y odontopediatría. Trabajamos con obras sociales y con pacientes particulares.",
       "Al frente del centro odontológico está el Od. Ignacio Vera, matrícula 3795/01. [confirmar: profesionales del equipo, especialidades y la institución que dio cada título]",
       "Cada tratamiento empieza con una consulta en la que el dentista revisa la boca, explica las opciones y responde las dudas antes de decidir. [confirmar: cómo es la primera consulta en la clínica]"
     ],
@@ -43,10 +43,10 @@
       "En nuestra clínica dental cada profesional figura con su nombre, su título y su matrícula, como pide la ley 12094 de Santa Fe."
     ],
     "Cómo llegar y horario de nuestra clínica dental en Santa Fe": [
-      "Nuestra clínica dental está en 9 de Julio 3288, en Santa Fe capital (Argentina). El horario de atención es [confirmar: días y horario]. [confirmar: barrio, colectivos que pasan cerca, estacionamiento y accesibilidad]"
+      "Nuestra clínica dental está en 9 de Julio 3288, en Santa Fe capital (Argentina). El horario de atención es de lunes a viernes, de 8 a 20 h; sábados y domingos, cerrado. [confirmar: colectivos que pasan cerca, estacionamiento y accesibilidad]"
     ],
     "Solicitar información sobre el tratamiento odontológico en Santa Fe que necesitás": [
-      "Podés pedir turno por WhatsApp, por teléfono o con el formulario. Indicá el tratamiento que te interesa y te contactamos para coordinar el día y el horario. [confirmar: horario de atención y tiempo de respuesta]"
+      "Podés pedir turno por WhatsApp, por teléfono o con el formulario. Indicá el tratamiento que te interesa y te contactamos para coordinar el día y el horario. [confirmar: tiempo de respuesta]"
     ],
     "Marcas con las que trabajamos en nuestra clínica dental en Santa Fe": [
       "En nuestro centro odontológico trabajamos con materiales e implantes de estos fabricantes. [confirmar: marcas que usa la clínica]"
@@ -71,8 +71,8 @@
     },
     {
       "q": "¿Cuál es el horario de atención?",
-      "a": "El horario de atención del consultorio es [Pendiente: días y horario de atención]."
+      "a": "El horario de atención del consultorio es de lunes a viernes, de 8 a 20 h; sábados y domingos, cerrado."
     }
   ],
-  "entrada": "Atención odontológica en Santa Fe: odontología general, implantes, prótesis, ortodoncia, estética dental y odontopediatría, con turno previo. [confirmar: tratamientos que realiza la clínica]"
+  "entrada": "Atención odontológica en Santa Fe: odontología estética, implantes, ortodoncia, periodoncia y odontopediatría, con obra social o de forma particular."
 }

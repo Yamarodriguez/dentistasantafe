@@ -39,7 +39,7 @@ const iconoMotivo = (titulo = '') => {
       <article class="tarjeta">
         <svg class="icono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
         <h3><a href="/contacto/">{s.ciudad}</a></h3>
-        <p>{s.barrio}<br />{s.direccion}<br />{s.horario}</p>
+        <p>{s.barrio && <>{s.barrio}<br /></>}{s.direccion}<br />{s.horario}</p>
         <a class="mas" href={enlaceTurno(s)}>Pedir turno →</a>
       </article>
     ))}
@@ -65,7 +65,7 @@ const iconoMotivo = (titulo = '') => {
 {tipo === 'contacto' && sedes.map((s) => (
   <div class="contacto">
     <div>
-      <p><strong>{site.nombre}</strong><br />{s.direccion} · {s.barrio}, {s.ciudad}</p>
+      <p><strong>{site.nombre}</strong><br />{s.direccion}{s.barrio ? ` · ${s.barrio}` : ''}, {s.ciudad}</p>
       <p>Teléfono: {s.telefono}<br />Horario: {s.horario}</p>
     </div>
     <div class="botones">
@@ -225,7 +225,7 @@ const iconoMotivo = (titulo = '') => {
 
 {tipo === 'mapa' && sedes.map((s) => (
   <>
-    <p>{s.direccion} ({s.barrio}, {s.ciudad}) {s.mapa ? <a href={s.mapa}>Ver en Google Maps</a> : <span class="pendiente">{pendiente('enlace a Google Maps')}</span>}</p>
+    <p>{s.direccion} ({[s.barrio, s.ciudad].filter(Boolean).join(', ')}) {s.mapa ? <a href={s.mapa}>Ver en Google Maps</a> : <span class="pendiente">{pendiente('enlace a Google Maps')}</span>}</p>
     {pagina.tipo === 'portada' && <p><strong>Horario:</strong> {s.horario}</p>}
   </>
 ))}

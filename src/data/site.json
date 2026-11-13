@@ -145,11 +145,11 @@
     {
       "id": "santa-fe",
       "ciudad": "Santa Fe",
-      "barrio": "[barrio]",
+      "barrio": "",
       "direccion": "9 de Julio 3288",
       "telefono": "[teléfono]",
       "whatsapp": "",
-      "horario": "[horario]",
+      "horario": "Lunes a viernes, de 8 a 20 h",
       "mapa": "https://www.google.com/maps/search/?api=1&query=9+de+Julio+3288%2C+Santa+Fe%2C+Argentina",
       "guardia": null,
       "obrasSociales": [
@@ -167,7 +167,8 @@
         "Pacientes particulares",
         "[confirmar: lista sacada de Doctoralia, de un consultorio en Santo Tomé]"
       ],
-      "codigoPostal": "3000"
+      "codigoPostal": "S3000",
+      "horarioSchema": "Mo-Fr 08:00-20:00"
     }
   ],
   "_rosario_para_despues": {
@@ -295,5 +296,5 @@
     }
   ],
   "_foto_propia": "IMG_5694: foto real del Od. Ignacio Vera en su consultorio (Yama confirma identidad y permiso para publicar, 2026-11-12). Original mejorado en marca/fotos-propias/; webp en public/img/fotos/.",
-  "_direccion_fuente": "Dirección dada por Yama el 2026-11-13. Barrio sin confirmar. El enlace de mapa es una búsqueda de la dirección; cambiarlo por la ficha de Google Business cuando exista."
+  "_direccion_fuente": "Dirección, horario (lun-vie 8-20, sáb y dom cerrado) y descripción sacados de la ficha de Google de la clínica (captura de Yama, 2026-11-13). La ficha no da barrio: no se muestra. El enlace de mapa es una búsqueda de la dirección; cambiarlo por el enlace de la ficha de Google cuando Yama lo pase."
 }

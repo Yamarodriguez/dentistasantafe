@@ -14,7 +14,7 @@ Parcial (2026-11-12). Yama pasa el Instagram **@ignacio_vera_odontologia** (nomb
 «Ignacio Vera Odontología»; Instagram no se puede leer: bloqueado). Datos de Doctoralia
 (https://www.doctoraliar.com/perfil/ignacio-vera), **sin confirmar** y marcados
 [confirmar] en site.json: Od. Ignacio Vera, matrícula 3795/01, «Consultorios 7 de Marzo»,
-Av. 7 de Marzo 1995, Santo Tomé → **NO es la clínica: Yama confirma SANTA FE CAPITAL**. **Dirección: 9 de Julio 3288, Santa Fe (Argentina)** (Yama, 2026-11-13; CP 3000; barrio sin confirmar; mapa = búsqueda de Google Maps hasta tener ficha de Google Business),
+Av. 7 de Marzo 1995, Santo Tomé → **NO es la clínica: Yama confirma SANTA FE CAPITAL**. **Dirección: 9 de Julio 3288, S3000 Santa Fe (Argentina)** y **horario lun-vie 8-20 h, sáb y dom cerrado** (ficha de Google de la clínica, captura de Yama 2026-11-13; sin barrio: no se muestra). La ficha dice: «clínica de odontología estética; nos destacamos en implantología, ortodoncia, periodoncia y odontopediatría; obras sociales y particulares» → usado en la entrada y la 1.ª sección de la portada (sin «nos destacamos»: autoelogio). Mapa = búsqueda de Google Maps hasta que Yama pase el enlace de la ficha,
 obras sociales: Swiss Medical, Medifé, Galeno, Medicus, OMINT, IAPOS, AcaSalud, Federada
 Salud, IOSE, Jerárquicos Salud, Sancor Salud + particulares. Sin horario, teléfono ni web.
 Resto de la ficha: pendiente (plantilla en el prompt, apartado FICHA).

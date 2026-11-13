@@ -26,7 +26,7 @@ function clinica() {
       postalCode: s.codigoPostal,
       addressCountry: 'AR',
     },
-    openingHours: s.horario,
+    openingHours: s.horarioSchema,
     hasMap: s.mapa,
     areaServed: { '@type': 'City', name: 'Santa Fe' },
     medicalSpecialty: 'Dentistry',
