@@ -28,9 +28,7 @@ ciudad: `/implantes-dentales-santa-fe/`. Sin páginas de sede: contacto en `/con
 Textos de la web: español de Argentina **con vos** (recomendado, sin confirmar): «turno»,
 «odontólogo», «tratamiento de conducto», «guardia», «matrícula», «ortopedia», «operatoria»,
 «placas de relajación». Normativa sanitaria y legal: argentina/santafesina, no española.
-Dominio candidato: dentistasantafe.com (recomendado: «Santa Fe» = también la provincia,
-cubre Rosario). odontologiasantafe.net descartado: el .com es de un competidor
-(Odontología Integral Olivia). Mirar .com.ar. Sin decidir.
+**Dominio elegido: dentistasantafe.com** (Yama, 2026-11-13). Ya es la URL de site.json (canonical, sitemap, schema, llms.txt). El 2026-11-13 seguía SIN REGISTRAR (RDAP 404): hay que comprarlo. Descartados: odontologiasantafe.net (el .com es de un competidor) y clinicadentalsantafe.com (de una clínica de Costa Rica). Libres ese día: dentistasantafe.com.ar y clinicadentalsantafe.com.ar (se pueden comprar para redirigir).
 Competidor que pasa Yama: drarenzulli.com.
 Webs de Valencia (dentalblanch.es, centroodontologicovalenciano.com, pilarroig.com,
 clinicamanzanera.com): solo como **modelo** de estructura, no como competencia local.
