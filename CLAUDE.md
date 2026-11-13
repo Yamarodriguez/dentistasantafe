@@ -134,7 +134,7 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   invisible) · Estética dental · Obras sociales · Otros tratamientos ▾ (el resto + «Todos los
   tratamientos») · Contacto · Pedir turno. Listas MENU_* en Base.astro.
 - **Estudio de 4 portadas de Madrid (2026-11-12), aplicado**: FAQ de portada = 2 de salud + 3 prácticas
-  (dónde/colectivo, estacionamiento, horario; respuestas [Pendiente]); H2 «Cómo llegar y horario de
+  (dónde/colectivo, estacionamiento, horario; respuestas [Pendiente]); H2 «Obras sociales y prepagas en Santa Fe» (2026-11-13; «Santa Fe» ya sale 41 veces en ~1.080 palabras: no añadir más, ni en los H4 de tratamientos); H2 «Cómo llegar y horario de
   nuestra clínica dental en Santa Fe» (el bloque mapa muestra el horario solo en portada); cada
   tratamiento es H4 dentro de su grupo. Propuesto y sin hacer: página de cirugía oral / muelas de
   juicio (si el Dr. Vera la hace) y blog (después de publicar).
