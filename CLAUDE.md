@@ -177,6 +177,13 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   logo). Opiniones: estrellas solo si la reseña real trae `estrellas`.
 
 ## Estado
+- **Estudio de textos y negritas (2026-11-13)** → `informes/estudio-textos-seo.md` (datos en
+  `informes/negritas.md`; `scripts/negritas.py`, lista `competencia/urls-textos.txt` = Madrid 6 webs,
+  Valencia 12, Santa Fe 3; Crooke fuera: es de Málaga). Competencia: ~17 negritas/página, 3,4-4,6 %.
+  Aplicado: negritas `**así**` en los JSON de contenido (Texto.astro, intro y entrada las pintan con
+  `src/lib/texto.js`), 9-13 por página; contenido.mjs exige ≤ 8 palabras por negrita, ≤ 5 % de la
+  página, nunca en títulos/resumen/FAQ. Palabras añadidas: pérdida de hueso, dientes perdidos,
+  enfermedad periodontal, extracción, salud bucal (en AR, no «bucodental»).
 - **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
   robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
   schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),

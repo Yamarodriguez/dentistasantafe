@@ -11,7 +11,7 @@
       "centro odontológico"
     ]
   },
-  "intro": "La limpieza dental profesional y los controles con el dentista ayudan a cuidar dientes y encías. En esta página, nuestra clínica dental en Santa Fe explica cada cuánto se aconseja, cómo se tratan las caries y qué es el bruxismo.",
+  "intro": "La **limpieza dental profesional** y los controles con el dentista ayudan a cuidar la **salud bucal**: dientes y encías. En esta página, nuestra **clínica dental en Santa Fe** explica cada cuánto se aconseja, cómo se tratan las caries y qué es el bruxismo.",
   "fuentes": [
     "mlp-caries",
     "mlp-encias",
@@ -22,11 +22,11 @@
   "secciones": {
     "Qué incluye una limpieza dental": [
       "[Pendiente: qué incluye la limpieza dental en la clínica y si el control se hace en la misma visita, confirmado por el odontólogo]",
-      "La placa bacteriana que no se retira se endurece y forma sarro, que puede irritar las encías.",
+      "La placa bacteriana que no se retira se endurece y **forma sarro**, que puede irritar las encías.",
       "La mayoría de las caries se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean."
     ],
     "Cada cuánto conviene hacerla": [
-      "MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) aconseja una limpieza profesional cada 6 meses.",
+      "MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) aconseja una limpieza profesional **cada 6 meses**.",
       "Si tenés enfermedad de las encías, el odontólogo puede indicarte otro plazo.",
       "Entre una limpieza y otra, en casa:",
       {
@@ -45,7 +45,7 @@
       }
     ],
     "Caries y arreglos (operatoria)": [
-      "Una caries es un daño o agujero en el diente: las bacterias convierten azúcares y almidones en ácidos que dañan el esmalte.",
+      "Una caries es un **daño o agujero en el diente**: las bacterias convierten azúcares y almidones en ácidos que dañan el esmalte.",
       {
         "h3": "¿Cómo me doy cuenta de que tengo una caries?"
       },
@@ -53,7 +53,7 @@
       {
         "h3": "¿Cómo se arregla?"
       },
-      "Con un empaste: se retira la parte con caries y se rellena, hoy sobre todo con resina compuesta (también existen el ionómero de vidrio y la amalgama). Si la caries es grande y queda poco diente, se usa una corona; si llega al nervio, un tratamiento de conducto.",
+      "Con un **empaste**: se retira la parte con caries y se rellena, hoy sobre todo con resina compuesta (también existen el ionómero de vidrio y la amalgama). Si la caries es grande y queda poco diente, se usa una corona; si llega al nervio, un tratamiento de conducto.",
       {
         "mas": {
           "t": "Tratamiento de conducto en Santa Fe",
@@ -68,12 +68,12 @@
       }
     ],
     "Bruxismo y placas de relajación": [
-      "El bruxismo es apretar o rechinar los dientes sin darse cuenta, de día o de noche; el nocturno es el más difícil de controlar.",
+      "El bruxismo es **apretar o rechinar los dientes** sin darse cuenta, de día o de noche; el nocturno es el más difícil de controlar.",
       "Puede dar dolor o sensibilidad en la mandíbula al despertar, dolor de cabeza o de oído, sensibilidad y desgaste de los dientes. No hay acuerdo sobre la causa exacta, pero el estrés es un desencadenante frecuente.",
       {
         "h3": "¿Para qué sirve la placa de relajación?"
       },
-      "Una placa bien ajustada protege los dientes de la presión del rechinamiento. Los síntomas pueden mejorar mientras se usa y volver al dejarla.",
+      "Una **placa bien ajustada** protege los dientes de la presión del rechinamiento. Los síntomas pueden mejorar mientras se usa y volver al dejarla.",
       "También ayuda evitar comidas duras y chicle, dormir bien, relajar la mandíbula durante el día y manejar el estrés. Hay que consultar si cuesta comer o abrir la boca, o si estos cuidados no ayudan después de algunas semanas.",
       "[Pendiente: cómo hace la clínica las placas de relajación (a medida, cuántas visitas)]"
     ],

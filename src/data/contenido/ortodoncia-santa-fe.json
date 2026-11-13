@@ -11,7 +11,7 @@
       "centro odontológico"
     ]
   },
-  "intro": "La ortodoncia corrige la posición de los dientes y la mordida con brackets o alineadores. En esta página, nuestro centro odontológico en Santa Fe explica cuándo hace falta, cuánto dura y qué cuidados requiere. [Pendiente: edades que atiende la clínica]",
+  "intro": "La **ortodoncia** corrige la posición de los dientes y la mordida con brackets o alineadores. En esta página, nuestro **centro odontológico en Santa Fe** explica cuándo hace falta, cuánto dura y qué cuidados requiere. [Pendiente: edades que atiende la clínica]",
   "fuentes": [
     "mlp-maloclusion"
   ],
@@ -19,7 +19,7 @@
   "revisado": null,
   "secciones": {
     "¿Qué es la ortodoncia?": [
-      "La ortodoncia es la parte de la odontología que corrige la maloclusión, es decir, cuando los dientes de arriba y los de abajo no encajan bien.",
+      "La ortodoncia es la parte de la odontología que **corrige la maloclusión**, es decir, cuando los dientes de arriba y los de abajo no encajan bien.",
       "La maloclusión suele ser hereditaria. También influyen diferencias de tamaño entre los maxilares, hábitos de la infancia como chuparse el dedo, dientes de más o que faltan y golpes en la mandíbula."
     ],
     "¿Cuándo hace falta?": [
@@ -35,15 +35,15 @@
       }
     ],
     "Tipos de brackets": [
-      "Los brackets son aparatos fijos que se pegan a los dientes y, con un alambre, aplican fuerza para moverlos de a poco.",
+      "Los brackets son **aparatos fijos** que se pegan a los dientes y, con un alambre, aplican fuerza para moverlos de a poco.",
       "[Pendiente: qué tipos de brackets ofrece la clínica (metálicos, estéticos, autoligables…), confirmado por el odontólogo]"
     ],
     "Ortopedia en niños": [
       "[Pendiente: qué es la ortopedia, a qué edad la recomienda la clínica y qué aparatos usa: una definición corta validada por el odontólogo]",
-      "El tratamiento funciona mejor en niños y adolescentes, aunque en adultos también suele dar resultado."
+      "El tratamiento **funciona mejor en niños y adolescentes**, aunque en adultos también suele dar resultado."
     ],
     "Brackets o alineadores: comparativa": [
-      "Los brackets van fijos en los dientes; los alineadores transparentes no llevan alambres y algunas personas pueden usarlos en lugar de brackets.",
+      "Los brackets van fijos en los dientes; los **alineadores transparentes** no llevan alambres y algunas personas pueden usarlos en lugar de brackets.",
       {
         "tabla": {
           "cab": [
@@ -74,13 +74,13 @@
     ],
     "Cómo es el tratamiento, paso a paso": [
       "El tratamiento de ortodoncia se hace en etapas: se coloca el aparato y se hacen controles periódicos; después de los brackets hace falta un retenedor.",
-      "Suele durar de 6 meses a más de 2 años, según el caso.",
+      "Suele durar de **6 meses a más de 2 años**, según el caso.",
       "[Pendiente: pasos del tratamiento en la clínica (evaluación, estudios, plan, colocación, controles, retiro), confirmados por el odontólogo]",
       "En algunos casos el plan incluye otros tratamientos, como extraer o arreglar dientes, colocar coronas o, pocas veces, cirugía del maxilar."
     ],
     "Cuidados y retenedores": [
       "Durante el tratamiento hay que cepillarse y usar hilo dental todos los días e ir a los controles.",
-      "Después de los brackets hace falta un retenedor para que los dientes no vuelvan a moverse. [Pendiente: qué se indica al terminar con alineadores]"
+      "Después de los brackets **hace falta un retenedor** para que los dientes no vuelvan a moverse. [Pendiente: qué se indica al terminar con alineadores]"
     ],
     "Precio de la ortodoncia en Santa Fe": [
       "[Pendiente: precio orientativo con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"

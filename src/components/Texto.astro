@@ -3,19 +3,21 @@
 //   "párrafo"  ·  { "h3": "¿Pregunta?" }  ·  { "lista": [..] }  ·  { "pasos": [..] }
 //   { "mas": { "t": "texto del enlace", "href": "/otra-pagina/" } }
 //   { "tabla": { "cab": [..], "filas": [[..]] } }
+// **palabras** en párrafos, listas, pasos y tablas = negrita (<strong>), ver src/lib/texto.js.
 // Los [Pendiente: …] dentro del texto los cuenta el validador.
+import { negrita } from '../lib/texto.js';
 const { bloques = [] } = Astro.props;
 ---
 {bloques.map((b) =>
-  typeof b === 'string' ? <p>{b}</p>
+  typeof b === 'string' ? <p set:html={negrita(b)} />
   : b.h3 ? <h3>{b.h3}</h3>
-  : b.lista ? <ul>{b.lista.map((x) => <li>{x}</li>)}</ul>
-  : b.pasos ? <ol class="pasos">{b.pasos.map((x) => <li>{x}</li>)}</ol>
+  : b.lista ? <ul>{b.lista.map((x) => <li set:html={negrita(x)} />)}</ul>
+  : b.pasos ? <ol class="pasos">{b.pasos.map((x) => <li set:html={negrita(x)} />)}</ol>
   : b.mas ? <p class="mas-info">Más información: <a href={b.mas.href}>{b.mas.t} →</a></p>
   : b.tabla ? (
     <div class="tabla"><table>
       <thead><tr>{b.tabla.cab.map((c) => <th scope="col">{c}</th>)}</tr></thead>
-      <tbody>{b.tabla.filas.map((f) => <tr>{f.map((c) => <td>{c}</td>)}</tr>)}</tbody>
+      <tbody>{b.tabla.filas.map((f) => <tr>{f.map((c) => <td set:html={negrita(c)} />)}</tr>)}</tbody>
     </table></div>
   )
   : null

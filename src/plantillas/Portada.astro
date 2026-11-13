@@ -4,6 +4,7 @@
 import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
 import { site, enlaceTurno, pendiente, foto } from '../lib/datos.js';
+import { negrita } from '../lib/texto.js';
 
 const { pagina } = Astro.props;
 const [linea1, linea2] = pagina.h1.split(/ (?=en )/);
@@ -15,7 +16,7 @@ const heroe = foto('heroe');
     <div class="contenedor">
       <div class="heroe-texto">
         <h1>{linea1} <span>{linea2}</span></h1>
-        <p class="entrada">{pagina.contenido?.entrada ?? pendiente('frase de presentación (Fase 3)')}</p>
+        <p class="entrada" set:html={negrita(pagina.contenido?.entrada ?? pendiente('frase de presentación (Fase 3)'))} />
         <p class="destacado">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>
           <span>{site.primera_consulta}</span>

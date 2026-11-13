@@ -6,6 +6,7 @@ import Secciones from '../components/Secciones.astro';
 import Dibujo from '../components/Dibujo.astro';
 import hechos from '../data/hechos.json';
 import { site, pendiente } from '../lib/datos.js';
+import { negrita } from '../lib/texto.js';
 
 const { pagina } = Astro.props;
 const c = pagina.contenido;
@@ -27,7 +28,7 @@ const fuentes = (c?.fuentes ?? []).map((id) => hechos.fuentes[id]).filter(Boolea
     <section class="heroe heroe-tratamiento">
       <div>
       <h1>{pagina.h1}</h1>
-      <p class="entrada">{c?.intro ?? pagina.description}</p>
+      <p class="entrada" set:html={negrita(c?.intro ?? pagina.description)} />
       <div class="botones">
         <a class="boton" href="/contacto/">Pedir turno</a>
         <a class="boton secundario" href="/primera-consulta/">Tu primera consulta</a>

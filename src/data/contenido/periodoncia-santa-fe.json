@@ -11,7 +11,7 @@
       "centro odontológico"
     ]
   },
-  "intro": "La periodoncia trata las enfermedades de las encías, desde la gingivitis hasta la periodontitis. En esta página, nuestra clínica dental en Santa Fe explica cómo reconocerlas, cómo se tratan y cómo evitar que avancen.",
+  "intro": "La **periodoncia** trata las **enfermedades de las encías**, desde la gingivitis hasta la periodontitis. En esta página, nuestra **clínica dental en Santa Fe** explica cómo reconocerlas, cómo se tratan y cómo evitar que avancen.",
   "fuentes": [
     "mlp-encias"
   ],
@@ -19,11 +19,11 @@
   "revisado": null,
   "secciones": {
     "¿Te sangran las encías?": [
-      "Si te sangran las encías con facilidad, puede ser gingivitis, la forma leve de la enfermedad de las encías.",
+      "Si te sangran las encías con facilidad, puede ser **gingivitis**, la forma leve de la enfermedad de las encías.",
       "En la gingivitis las encías se ven rojas e hinchadas y sangran al cepillarse. Es un motivo para hacer una revisión."
     ],
     "Gingivitis y periodontitis": [
-      "La gingivitis es la etapa leve y la periodontitis es la etapa avanzada, a la que puede llegar una gingivitis que no se trata.",
+      "La gingivitis es la **etapa leve** y la periodontitis es la **etapa avanzada**, a la que puede llegar una gingivitis que no se trata.",
       {
         "tabla": {
           "cab": [
@@ -50,14 +50,15 @@
           ]
         }
       },
+      "A la enfermedad de las encías también se la llama **enfermedad periodontal**, porque afecta al tejido que sostiene el diente.",
       "La enfermedad de las encías se relaciona con la diabetes y con el tabaco."
     ],
     "Cómo es el tratamiento, paso a paso": [
-      "En periodoncia, la gingivitis suele revertirse con cepillado diario, hilo dental y limpiezas hechas por un profesional.",
+      "En periodoncia, la gingivitis **suele revertirse** con cepillado diario, hilo dental y limpiezas hechas por un profesional.",
       "[Pendiente: pasos del tratamiento de periodoncia (periodontitis) en la clínica (revisión, raspaje, controles, cirugía si hace falta), confirmados por el odontólogo]"
     ],
     "Cómo evitar que avance": [
-      "El cepillado y el hilo dental todos los días, junto con limpiezas profesionales periódicas, ayudan a que la gingivitis no avance.",
+      "El cepillado y el hilo dental todos los días, junto con **limpiezas profesionales periódicas**, ayudan a que la gingivitis no avance.",
       "[Pendiente: seguimiento y controles de periodoncia después de tratar una periodontitis, según el odontólogo]",
       {
         "mas": {

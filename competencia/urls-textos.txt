@@ -1,0 +1,27 @@
+# Estudio de textos y negritas (2026-11-13). Formato: <ciudad> <url>. COV se excluye: corta a los rastreadores.
+# Madrid: clínicas que salen en búsquedas de clínica dental / implantes / ortodoncia invisible Madrid (sin directorios ni cadenas).
+Madrid https://www.clinicaferrusbratos.com/
+# Crooke: cadena con sede en Málaga; sus páginas son de Málaga, no de Madrid → fuera.
+# Madrid https://clinicacrooke.com/
+Madrid https://interoralia.com/
+Madrid https://www.clinicaruizdegopegui.com/
+Madrid https://clinicaareses.com/
+Madrid https://www.clinicaeniq.com/
+Madrid https://dientesredondos.com/
+Valencia https://dentalblanch.es/
+Valencia https://www.clinicamanzanera.com/
+Valencia https://clinicadentalvalencia.com/
+Valencia https://clinicadevicente.com/
+Valencia https://www.clinicadentalba.com/
+Valencia https://www.clinicadentalcarrasco.com/
+Valencia https://clinicadentaltorrefiel.com/
+Valencia https://www.dentalasensio.com/
+Valencia https://cimev.es/
+Valencia https://clinicadentalvictoria.com/
+Valencia https://clinicazaplana.es/
+Valencia https://www.pilarroig.com/
+SantaFe https://www.drarenzulli.com/
+SantaFe https://www.ciosantafe.com.ar/
+SantaFe https://centrogiorgi.com.ar/
+SantaFe https://odontologiasantafe.com/
+SantaFe https://www.odontologiadoctoresmegaypucheta.com/
