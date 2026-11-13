@@ -134,7 +134,13 @@
     "href": "/estetica-dental-santa-fe/"
   },
   "reconocimientos": [],
-  "marcas": [],
+  "marcas": [
+    "Straumann",
+    "Alpha-Bio",
+    "BioHorizons",
+    "Dentsply Sirona"
+  ],
+  "_marcas_fuente": "PROVISIONALES (Yama, 2026-11-13: «agregamos y luego vemos»), sin confirmar que las use la clínica. Vistas en la zona: Straumann y Alpha-Bio (Odontología Estética, Rosario); BioHorizons y Dentsply Sirona/CEREC (drarenzulli.com, Santa Fe). Quitar o cambiar cuando el Dr. Vera diga cuáles usa.",
   "sedes": [
     {
       "id": "santa-fe",
