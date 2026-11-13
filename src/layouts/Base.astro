@@ -113,9 +113,15 @@ const vars = [
           </div>
         ))}
         <div>
+          <p class="pie-titulo"><a href="/tratamientos/">Tratamientos en Santa Fe</a></p>
+          <ul class="pie-lista">
+            {tratamientos.map((t) => <li><a href={ruta(t.slug)}>{t.nombre.replace(/\s*\(.*?\)/, '')} en Santa Fe</a></li>)}
+          </ul>
+        </div>
+        <div>
           <p class="pie-titulo">{site.nombre}</p>
           <p>
-            <a href="/tratamientos/">Tratamientos</a><br />
+            <a href="/tratamientos/">Todos los tratamientos</a><br />
             <a href="/obras-sociales/">Obras sociales</a><br />
             <a href="/equipo/">Equipo</a>
           </p>

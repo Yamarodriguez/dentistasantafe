@@ -263,6 +263,7 @@
 .web .pie a { color: var(--oscuro-texto); }
 .web .pie .contenedor { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; }
 .web .pie-titulo { font-weight: 600; font-size: 1.05rem; }
+.web .pie-lista { list-style: none; margin: 0; padding: 0; line-height: 1.9; }
 .web .pie-legal { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid color-mix(in srgb, var(--oscuro-texto) 25%, transparent); display: flex !important; align-items: center; justify-content: space-between; }
 .web .pie-legal img { width: 40px; height: 40px; border-radius: 8px; }
 .web .pie-legal p { margin: 0; }
