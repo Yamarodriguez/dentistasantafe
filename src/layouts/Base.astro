@@ -10,7 +10,7 @@ import '@fontsource/playfair-display/latin-600.css';
 import '@fontsource/playfair-display/latin-ext-600.css';
 import '../styles/base.css';
 import temas from '../data/temas.json';
-import { site, ruta, enlaceTurno, tratamientos } from '../lib/datos.js';
+import { site, ruta, enlaceTurno, tratamientos, foto } from '../lib/datos.js';
 import { schemaDe } from '../lib/schema.js';
 
 // Menú como la referencia: tratamientos principales sueltos, el resto en «Otros tratamientos»
@@ -21,6 +21,10 @@ const { pagina } = Astro.props;
 const canonical = pagina.tipo === '404' ? null : new URL(ruta(pagina.slug), site.url).href;
 const { precarga } = Astro.props; // imagen grande de arriba (sin lazy, se precarga)
 const ld = pagina.tipo === '404' ? null : schemaDe(pagina);
+// Imagen al compartir (WhatsApp, redes, buscadores): la foto del primer H2 del tratamiento;
+// en la portada, la del consultorio; si no hay, el logo.
+const claveFoto = pagina.slug ? Object.values(pagina.contenido?.fotos ?? {})[0] : 'consulta';
+const imagenCompartir = (claveFoto && foto(claveFoto)?.src) || site.logo;
 
 // TEMA=dorado npm run build → solo para comparar direcciones; la elegida va en site.json.
 const idTema = process.env.TEMA || site.tema;
@@ -49,7 +53,8 @@ const vars = [
     <meta property="og:title" content={pagina.title} />
     <meta property="og:description" content={pagina.description} />
     {canonical && <meta property="og:url" content={canonical} />}
-    <meta property="og:image" content={new URL(site.logo, site.url).href} />
+    <meta property="og:image" content={new URL(imagenCompartir, site.url).href} />
+    {imagenCompartir !== site.logo && <meta name="twitter:card" content="summary_large_image" />}
     <link rel="icon" href={site.logo} />
     {precarga && <link rel="preload" as="image" href={precarga} fetchpriority="high" />}
     {ld && <script type="application/ld+json" set:html={JSON.stringify(ld)} />}

@@ -191,7 +191,7 @@ const iconoMotivo = (titulo = '') => {
     <div class="tarjetas">
       {profesionales.map((p) => (
         <article class="tarjeta">
-          {p.foto && existsSync(join(process.cwd(), "public", p.foto)) && <img class="foto-profesional" src={p.foto} alt={`Foto de ${p.nombre}`} width="900" height="1125" loading="lazy" />}
+          {p.foto && existsSync(join(process.cwd(), "public", p.foto)) && <img class="foto-profesional" src={p.foto} alt={`${p.nombre}, ${/^Dra\./.test(p.nombre) ? 'odontóloga' : 'odontólogo'} de nuestra clínica dental en Santa Fe`} width="900" height="1125" loading="lazy" />}
           <h3>{p.nombre}</h3>
           <p>{p.especialidad} · Matrícula {p.matricula}</p>
         </article>

@@ -177,6 +177,13 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   logo). Opiniones: estrellas solo si la reseña real trae `estrellas`.
 
 ## Estado
+- **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
+  robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
+  schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),
+  og:image = foto de cada página, lastmod por página, 2 fotos renombradas
+  (preguntas-frecuentes-…-santa-fe, sala-de-espera-clinica-dental-santa-fe), alt del retrato.
+  Pendiente de decisión: 3 fotos repetidas con dos nombres (portada vs. tratamiento), héroe como
+  fondo CSS, alta en Bing al publicar.
 - **Análisis SEO a fondo de COV (2026-11-12)** → `informes/cov-seo.md`: ≈ 190 URL (36 páginas,
   138 blog, 16 categorías), 0 enlaces en el texto de sus tratamientos, mucha canibalización en
   el blog. El servidor de COV corta a los rastreadores: no insistir (el clasificador lo bloquea

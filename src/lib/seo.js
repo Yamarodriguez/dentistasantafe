@@ -1,5 +1,6 @@
 // Utilidades de la Fase 4: fechas desde Git y limpieza de datos pendientes.
 import { execSync } from 'node:child_process';
+import { existsSync } from 'node:fs';
 
 /** ¿Es un dato real? (no vacío y sin [corchetes] de pendiente). */
 export const real = (v) => typeof v === 'string' && v.trim() !== '' && !/\[[^\]]*\]/.test(v);
@@ -40,6 +41,10 @@ export function fechaGit(...ficheros) {
   return r;
 }
 
-/** Fecha de una página: su texto (contenido/<slug>.json) o, si no tiene, el mapa de páginas. */
-export const fechaPagina = (p) =>
-  fechaGit(`src/data/contenido/${p.slug || 'portada'}.json`, 'src/data/paginas.json', 'src/data/site.json');
+/** Fecha de una página: la de su texto (contenido/<slug>.json) si lo tiene; si no, la del
+ *  mapa de páginas y los datos del negocio. Así cada página tiene su fecha real y no todas
+ *  cambian a la vez cuando se toca site.json (los buscadores desconfían de eso). */
+export const fechaPagina = (p) => {
+  const texto = `src/data/contenido/${p.slug || 'portada'}.json`;
+  return existsSync(texto) ? fechaGit(texto) : fechaGit('src/data/paginas.json', 'src/data/site.json');
+};
