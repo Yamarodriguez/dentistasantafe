@@ -28,7 +28,16 @@ const lado = new Map(visibles.filter((h) => foto(h) && !abajo(h)).map((h, i) => 
 const textos = pagina.contenido?.secciones ?? {};
 // Antetítulo: rota entre «clínica dental», «dentista» y «centro odontológico» (fijo por H2).
 const variantes = site.antetitulos ?? [site.antetitulo];
-const ante = (h) => variantes[[...h.t].reduce((a, ch) => a + ch.charCodeAt(0), 0) % variantes.length];
+// Nunca repite la palabra clave que ya lleva el título (p. ej. «Clínica dental…» sobre un H2 con «clínica dental»).
+const ante = (h) => {
+  const ini = [...h.t].reduce((a, ch) => a + ch.charCodeAt(0), 0) % variantes.length;
+  const t = titulo(h).toLowerCase();
+  for (let i = 0; i < variantes.length; i++) {
+    const v = variantes[(ini + i) % variantes.length];
+    if (!t.includes(v.toLowerCase().replace(/ en santa fe$/, '').replace(/s$/, ''))) return v;
+  }
+  return variantes[ini];
+};
 ---
 {visibles.map((h) => abajo(h) ? (
   <section class:list={['seccion', `bloque-${h.bloque ?? 'texto'}`, 'foto-abajo', { banda: banda(h) }]} id={id(h)}>
