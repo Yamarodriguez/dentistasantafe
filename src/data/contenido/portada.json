@@ -24,7 +24,7 @@
       "Cada tratamiento empieza con una consulta en la que el dentista revisa la boca, explica las opciones y responde las dudas antes de decidir. [confirmar: cómo es la primera consulta en la clínica]"
     ],
     "¿Por qué elegir {nombre} como tu clínica dental en Santa Fe?": [
-      "Estos son los puntos en los que se apoya el trabajo de nuestra clínica dental en Santa Fe."
+      "Estos son los puntos en los que se apoya el trabajo de nuestro equipo."
     ],
     "Odontología en Santa Fe: tratamientos dentales": [
       "Estos son los tratamientos de nuestro centro odontológico en Santa Fe, agrupados como en la consulta: implantología y prótesis, ortodoncia, estética dental y odontología general. Cada página explica en qué consiste el tratamiento, cómo es el proceso y qué cuidados requiere."
@@ -48,7 +48,7 @@
     "Solicitar información sobre el tratamiento odontológico en Santa Fe que necesitás": [
       "Podés pedir turno por WhatsApp, por teléfono o con el formulario. Indicá el tratamiento que te interesa y te contactamos para coordinar el día y el horario. [confirmar: horario de atención y tiempo de respuesta]"
     ],
-    "Marcas con las que trabajamos": [
+    "Marcas con las que trabajamos en nuestra clínica dental en Santa Fe": [
       "En nuestro centro odontológico trabajamos con materiales e implantes de estos fabricantes. [confirmar: marcas que usa la clínica]"
     ]
   },
@@ -71,7 +71,7 @@
     },
     {
       "q": "¿Cuál es el horario de atención?",
-      "a": "El horario de atención de nuestra clínica dental es [Pendiente: días y horario de atención]."
+      "a": "El horario de atención del consultorio es [Pendiente: días y horario de atención]."
     }
   ],
   "entrada": "Atención odontológica en Santa Fe: odontología general, implantes, prótesis, ortodoncia, estética dental y odontopediatría, con turno previo. [confirmar: tratamientos que realiza la clínica]"
