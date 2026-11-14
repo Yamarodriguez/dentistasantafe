@@ -212,6 +212,11 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   orientativa (site.json > obrasNota; fuente en _obras_fuente), «al pedir turno se confirma si hay
   convenio». Financiación: «las formas de pago se consultan al pedir turno». Sin «all-on-4» (marca).
   Siguen pendientes y NO se inventan: firma del odontólogo, especialidades con institución, reseñas.
+  **Fotos de implantes (Yama, 2026-11-14: «profesionales y bonitas»)**: 4 más de Unsplash (gratis, sin
+  caras): maqueta entre dientes (¿Cuándo hace falta…?), maxilar con implantes (Tipos), tomografía en
+  tableta (Tomografía y planificación), implante con corona (Paso a paso). contenido.fotos por H2;
+  créditos en site.json > creditos_fotos. Sin foto en la tabla (la estrecharía). Mismo método para
+  otros tratamientos si Yama lo pide.
 - **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
   robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
   schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),

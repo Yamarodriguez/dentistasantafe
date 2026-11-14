@@ -89,6 +89,22 @@
     "ninos": {
       "src": "/img/fotos/odontopediatra-santa-fe.webp",
       "alt": "Cepillo de dientes de bambú sobre fondo blanco (imagen ilustrativa)"
+    },
+    "implante-maqueta": {
+      "src": "/img/fotos/implante-dental-santa-fe-dientes-perdidos.webp",
+      "alt": "Maqueta de un implante dental entre dos dientes naturales (imagen ilustrativa)"
+    },
+    "implantes-tipos": {
+      "src": "/img/fotos/tipos-de-implantes-dentales-santa-fe.webp",
+      "alt": "Odontólogo mostrando una maqueta de maxilar con implantes dentales (imagen ilustrativa)"
+    },
+    "implantes-tomografia": {
+      "src": "/img/fotos/tomografia-implantes-dentales-santa-fe.webp",
+      "alt": "Planificación de implantes dentales sobre una tomografía en una tableta (imagen ilustrativa)"
+    },
+    "implante-corona": {
+      "src": "/img/fotos/implante-dental-y-corona-santa-fe.webp",
+      "alt": "Implante dental con su corona sostenido por una mano con guante (imagen ilustrativa)"
     }
   },
   "_confirmar": "confirmado: false = los textos de primera_consulta, ventajas y porque vienen de la estructura de COV y Yama aún no ha confirmado que sean ciertos en su clínica. Mientras sea false, la web muestra un aviso [Pendiente] (el validador lo cuenta).",
@@ -295,6 +311,26 @@
       "foto": "Cepillo de dientes de bambú sobre fondo blanco",
       "autor": "Raghavendra V. Konkathi",
       "url": "https://unsplash.com/photos/3vWwf1wJWfc"
+    },
+    {
+      "foto": "Maqueta de un implante dental entre dos dientes",
+      "autor": "Jonathan Borba",
+      "url": "https://unsplash.com/photos/dental-implant-model-with-teeth-W9YEY6G8LVM"
+    },
+    {
+      "foto": "Maqueta de maxilar con implantes dentales",
+      "autor": "Harold Hisona",
+      "url": "https://unsplash.com/photos/dentist-demonstrating-dental-implant-on-model-LOgBp87WzIk"
+    },
+    {
+      "foto": "Planificación de implantes sobre una tomografía",
+      "autor": "Quang Tri NGUYEN",
+      "url": "https://unsplash.com/photos/dentist-pointing-at-dental-scan-VckdJzo7ig0"
+    },
+    {
+      "foto": "Implante dental con corona en una mano con guante",
+      "autor": "Katarzyna Zygnerska",
+      "url": "https://unsplash.com/photos/gloved-hand-holding-a-dental-implant-and-crown-eHwRLpfHSKY"
     }
   ],
   "_foto_propia": "IMG_5694: foto real del Od. Ignacio Vera en su consultorio (Yama confirma identidad y permiso para publicar, 2026-11-12). Original mejorado en marca/fotos-propias/; webp en public/img/fotos/.",

@@ -39,6 +39,11 @@ IMAGENES = [
     ("marca/fotos-propias/odontologo-consultorio-santa-fe.jpg", "fotos/od-ignacio-vera-consultorio-santa-fe.webp", 900),
     # Tratamientos (primer H2 de cada página)
     (U + "implantes.jpg", "fotos/implantes-dentales-santa-fe.webp", 900),
+    # Implantes: una foto más por H2 (Yama, 2026-11-14: «fotos profesionales y bonitas»)
+    (U + "implante-maqueta-dientes.jpg", "fotos/implante-dental-santa-fe-dientes-perdidos.webp", 900),
+    (U + "implantes-maxilar-completo.jpg", "fotos/tipos-de-implantes-dentales-santa-fe.webp", 900),
+    (U + "planificacion-tomografia.jpg", "fotos/tomografia-implantes-dentales-santa-fe.webp", 900),
+    (U + "implante-corona-guante.jpg", "fotos/implante-dental-y-corona-santa-fe.webp", 900),
     (U + "protesis.jpg", "fotos/protesis-dentales-santa-fe.webp", 900),
     (U + "ortodoncia.jpg", "fotos/ortodoncia-santa-fe-brackets.webp", 900),
     (U + "alineador.jpg", "fotos/ortodoncia-invisible-santa-fe.webp", 900),

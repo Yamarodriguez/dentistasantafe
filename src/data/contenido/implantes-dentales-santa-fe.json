@@ -202,7 +202,11 @@
     }
   ],
   "fotos": {
-    "¿Qué es un implante dental?": "implantes"
+    "¿Qué es un implante dental?": "implantes",
+    "¿Cuándo hace falta un implante dental?": "implante-maqueta",
+    "Tipos de implantes": "implantes-tipos",
+    "Tomografía y planificación del implante": "implantes-tomografia",
+    "Cómo es el tratamiento con implantes, paso a paso": "implante-corona"
   },
   "resumen": [
     "Un implante dental es una raíz artificial, normalmente de titanio u óxido de circonio, que se coloca en el hueso y sostiene una corona, un puente o una prótesis.",
