@@ -19,7 +19,7 @@
   "revisado": null,
   "secciones": {
     "¿Qué es la ortodoncia invisible?": [
-      "La ortodoncia invisible es un tratamiento de ortodoncia con **alineadores transparentes** que no llevan alambres.",
+      "La ortodoncia invisible es un tratamiento odontológico con **alineadores transparentes** que no llevan alambres.",
       "Se llama «invisible» porque los alineadores son transparentes, no porque no se vean en absoluto.",
       "Igual que los brackets, sirve para **corregir la maloclusión**: cuando los dientes de arriba y los de abajo no encajan bien.",
       "[Pendiente: marca o sistema de alineadores que usa la clínica]"
@@ -29,7 +29,7 @@
       "[Pendiente: en qué casos la recomienda la clínica y en cuáles no, y quién lo decide, confirmado por el odontólogo]"
     ],
     "Alineadores o brackets: comparativa": [
-      "La **diferencia principal** es que los brackets van fijos con alambre y los alineadores son transparentes y sin alambres.",
+      "La **diferencia principal** entre brackets y alineadores es que los brackets van fijos con alambre y los alineadores son transparentes y sin alambres.",
       {
         "tabla": {
           "cab": [
@@ -68,7 +68,7 @@
     ],
     "¿Cuánto dura?": [
       "La ortodoncia suele durar de **6 meses a más de 2 años**, según el caso. [Pendiente: tiempo habitual con alineadores en la clínica]",
-      "Durante el tratamiento hay que mantener el cepillado y el hilo dental todos los días e ir a los controles."
+      "Durante el tratamiento hay que mantener el cepillado y el hilo dental todos los días e ir a los controles con el dentista."
     ],
     "Precio de la ortodoncia invisible en Santa Fe": [
       "[Pendiente: precio orientativo de la ortodoncia invisible en Santa Fe con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"
@@ -76,20 +76,24 @@
   },
   "faq": [
     {
-      "q": "¿La ortodoncia invisible lleva alambres?",
+      "q": "¿Los alineadores invisibles llevan alambres?",
       "a": "No. Se hace con alineadores transparentes, sin brackets ni alambres."
     },
     {
-      "q": "¿Sirve para todos los casos?",
-      "a": "No para todos: algunas personas pueden usar alineadores en lugar de brackets."
+      "q": "¿Los alineadores sirven para todos los casos?",
+      "a": "No para todos: algunas personas pueden usar alineadores en lugar de brackets. Si son una opción para vos, lo evalúa el dentista en la consulta."
     },
     {
-      "q": "¿Cuánto dura el tratamiento?",
+      "q": "¿Cuánto dura el tratamiento con alineadores?",
       "a": "La ortodoncia suele durar de 6 meses a más de 2 años, según el caso. [Pendiente: tiempo habitual con alineadores]"
     },
     {
+      "q": "¿Qué diferencia hay entre alineadores y brackets?",
+      "a": "Los brackets van **fijos con alambre**; los alineadores son **transparentes y sin alambres**."
+    },
+    {
       "q": "¿Dónde me hago ortodoncia invisible en Santa Fe?",
-      "a": "En nuestra clínica dental de Santa Fe, en 9 de Julio 3288."
+      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
     }
   ],
   "fotos": {
@@ -100,5 +104,6 @@
     "Es una opción para algunas personas, en lugar de los brackets.",
     "La ortodoncia suele durar de 6 meses a más de 2 años, según el caso.",
     "Durante el tratamiento hacen falta cepillado, hilo dental y controles."
-  ]
+  ],
+  "faq_titulo": "Preguntas frecuentes sobre ortodoncia invisible"
 }

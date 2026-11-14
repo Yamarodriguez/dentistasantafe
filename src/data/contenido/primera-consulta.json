@@ -19,7 +19,7 @@
   ],
   "secciones": {
     "Qué hacemos en la primera consulta": [
-      "En la primera consulta, el dentista revisa la boca, escucha el motivo de la visita y explica las opciones de tratamiento. [confirmar: qué incluye la primera consulta en la clínica (revisión, radiografías, presupuesto)]",
+      "En la primera consulta odontológica, el dentista revisa la boca, escucha el motivo de la visita y explica las opciones de tratamiento. [confirmar: qué incluye la primera consulta en la clínica (revisión, radiografías, presupuesto)]",
       "La mayoría de las caries se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean.",
       "Conviene contar si tenés diabetes o fumás, porque la enfermedad de las encías se relaciona con los dos."
     ],
@@ -33,19 +33,19 @@
   "faq": [
     {
       "q": "¿Qué llevo a la primera consulta?",
-      "a": "DNI, la credencial de tu obra social o prepaga y estudios anteriores, si los tenés."
+      "a": "**DNI**, la credencial de tu obra social o prepaga y estudios anteriores, si los tenés."
     },
     {
-      "q": "¿Tengo que tener dolor para consultar?",
-      "a": "No. Muchas caries no dan síntomas y se descubren en los controles."
+      "q": "¿Tengo que tener dolor para ir al dentista?",
+      "a": "No. Muchas caries **no dan síntomas** y se descubren en los controles."
     },
     {
       "q": "¿Cada cuánto conviene volver después de la primera consulta?",
-      "a": "MedlinePlus aconseja una limpieza profesional cada 6 meses."
+      "a": "MedlinePlus aconseja una limpieza profesional **cada 6 meses**."
     },
     {
       "q": "¿A qué edad es la primera consulta de un niño?",
-      "a": "El NIDCR recomienda antes de cumplir un año; MedlinePlus, entre el primer diente y los 2 años y medio."
+      "a": "El NIDCR recomienda **antes de cumplir un año**; MedlinePlus, entre el primer diente y los 2 años y medio."
     }
   ]
 }

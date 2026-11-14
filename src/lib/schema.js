@@ -3,6 +3,7 @@
 import { site, ruta, tratamientos } from './datos.js';
 import { limpiar, real, fechaPagina } from './seo.js';
 import hechos from '../data/hechos.json';
+import { sinNegrita } from './texto.js';
 
 const abs = (p) => new URL(p, site.url).href;
 const ID_CLINICA = abs('/#clinica');
@@ -92,7 +93,7 @@ function preguntas(pagina) {
   if (!faq.length) return undefined;
   return {
     '@type': 'FAQPage',
-    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: sinNegrita(f.a) } })),
   };
 }
 

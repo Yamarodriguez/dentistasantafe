@@ -19,7 +19,7 @@
   "revisado": null,
   "secciones": {
     "¿Qué es un tratamiento de conducto?": [
-      "Un tratamiento de conducto es un procedimiento que **salva un diente** quitando de su interior el nervio dañado o infectado y las bacterias.",
+      "Un tratamiento de conducto es un procedimiento odontológico que **salva un diente** quitando de su interior el nervio dañado o infectado y las bacterias.",
       "También se lo llama endodoncia. El objetivo es **conservar el diente propio** en lugar de la extracción."
     ],
     "¿Cuándo hace falta?": [
@@ -32,7 +32,7 @@
           "Un golpe."
         ]
       },
-      "Si el daño es muy grande, puede que el diente no se pueda salvar y haya que extraerlo. Eso lo decide el odontólogo al revisar el diente."
+      "Si el daño es muy grande, puede que el diente no se pueda salvar y haya que extraerlo. Eso lo decide el dentista al revisar el diente."
     ],
     "¿Duele?": [
       "El pinchazo de la anestesia puede molestar un poco, y después puede haber dolor e inflamación.",
@@ -40,7 +40,7 @@
     ],
     "¿Cuántas sesiones lleva?": [
       "[Pendiente: cuántas sesiones suele llevar en la clínica y cuánto dura cada una, confirmado por el odontólogo]",
-      "En general, el procedimiento sigue estos pasos:",
+      "En general, este tratamiento dental sigue estos pasos:",
       {
         "pasos": [
           "**Anestesia local** de la zona.",
@@ -53,8 +53,8 @@
       "La mayoría de las personas vuelve a su vida normal al día siguiente. Hasta que el diente esté restaurado conviene no masticar alimentos duros de ese lado."
     ],
     "Después del conducto: ¿hace falta una corona?": [
-      "Normalmente sí: después del tratamiento de conducto el diente se sella de forma provisoria y luego se coloca una **corona permanente**.",
-      "También hay que volver al control para confirmar que la infección desapareció.",
+      "Normalmente sí: después de la endodoncia el diente se sella de forma provisoria y luego se coloca una **corona permanente**.",
+      "También hay que volver al control en la clínica dental para confirmar que la infección desapareció.",
       {
         "h3": "¿Qué riesgos tiene?"
       },
@@ -73,19 +73,23 @@
   "faq": [
     {
       "q": "¿Endodoncia y tratamiento de conducto son lo mismo?",
-      "a": "Sí. Son dos nombres para el mismo procedimiento."
+      "a": "Sí. Son **dos nombres** para el mismo procedimiento odontológico."
+    },
+    {
+      "q": "¿Duele la endodoncia?",
+      "a": "Se hace con anestesia local; el pinchazo puede molestar un poco y después puede haber dolor e inflamación, que suelen calmarse con los antiinflamatorios que indique el dentista."
     },
     {
       "q": "¿Se puede salvar siempre el diente?",
-      "a": "No siempre. Si el daño es muy grande, puede que haya que extraerlo."
+      "a": "No siempre. Si el **daño es muy grande**, puede que haya que extraerlo; lo decide el dentista al revisar el diente."
     },
     {
       "q": "¿Puedo ir a trabajar al día siguiente?",
-      "a": "La mayoría de las personas retoma su vida normal al día siguiente."
+      "a": "La mayoría de las personas **retoma su vida normal** al día siguiente. Hasta restaurar el diente, conviene no masticar alimentos duros de ese lado."
     },
     {
       "q": "¿Por qué después hace falta una corona?",
-      "a": "Porque el diente queda con un sellado provisorio y normalmente necesita una restauración permanente."
+      "a": "Porque el diente queda con un **sellado provisorio** y normalmente necesita una corona permanente."
     }
   ],
   "fotos": {
@@ -96,5 +100,6 @@
     "Hace falta cuando una infección llega al nervio, por una caries profunda, una fractura o un golpe.",
     "Se hace con anestesia local; después puede haber dolor e inflamación, que suelen calmarse con antiinflamatorios.",
     "Normalmente, después se coloca una corona."
-  ]
+  ],
+  "faq_titulo": "Preguntas frecuentes sobre el tratamiento de conducto"
 }

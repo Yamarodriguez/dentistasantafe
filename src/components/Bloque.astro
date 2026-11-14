@@ -4,6 +4,7 @@
 import { site, ruta, tratamientos, enlaceTurno, pendiente, grupos } from '../lib/datos.js';
 import Formulario from './Formulario.astro';
 import Dibujo from './Dibujo.astro';
+import { negrita } from '../lib/texto.js';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -218,7 +219,7 @@ const iconoMotivo = (titulo = '') => {
   ? pagina.faq.map((f) => (
       <details>
         <summary><h3>{f.q}</h3></summary>
-        <p>{f.a}</p>
+        <p set:html={negrita(f.a)} />
       </details>
     ))
   : <p class="pendiente">{pendiente('preguntas frecuentes (Fase 3)')}</p>)}

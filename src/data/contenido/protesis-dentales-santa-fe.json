@@ -11,7 +11,7 @@
       "centro odontológico"
     ]
   },
-  "intro": "Las **prótesis dentales** y las **coronas** reemplazan o protegen dientes: pueden ser removibles, fijas o ir sobre implantes. En esta página, nuestra **clínica dental en Santa Fe** explica qué opciones existen y cómo se cuidan.",
+  "intro": "Las **prótesis dentales** y las **coronas** son tratamientos dentales que reemplazan o protegen dientes: pueden ser removibles, fijas o ir sobre implantes. En esta página, nuestra **clínica dental en Santa Fe** explica qué opciones existen y cómo se cuidan.",
   "fuentes": [
     "mlp-protesis",
     "mlp-coronas"
@@ -52,7 +52,7 @@
           ]
         }
       },
-      "Cuál conviene en cada caso lo decide el odontólogo después de revisar la boca."
+      "Cuál conviene en cada caso lo decide el dentista en la consulta odontológica, después de revisar la boca."
     ],
     "Coronas": [
       "Una corona es una **funda con forma de diente** que cubre el diente por encima de la encía, para protegerlo cuando está débil o mejorar su aspecto.",
@@ -81,7 +81,7 @@
     ],
     "Prótesis sobre implantes": [
       "**Los implantes son fijos** y reemplazan la raíz y el diente; sobre ellos se puede colocar una corona, un puente o una prótesis.",
-      "El odontólogo puede proponerlos como alternativa a una prótesis removible.",
+      "El dentista puede proponerlos como alternativa a una prótesis removible.",
       {
         "mas": {
           "t": "Implantes dentales en Santa Fe",
@@ -98,7 +98,7 @@
         ]
       },
       "Con la corona provisoria conviene pasar el hilo dental sacándolo hacia afuera, evitar comidas pegajosas y masticar del otro lado.",
-      "Con una prótesis removible, al principio hablar y comer puede sentirse raro, y el odontólogo puede querer controles seguidos para revisar el ajuste.",
+      "Con una prótesis removible, al principio hablar y comer puede sentirse raro, y el dentista puede querer controles seguidos para revisar el ajuste.",
       "[Pendiente: pasos y plazos de las prótesis removibles en la clínica, confirmados por el odontólogo]"
     ],
     "Cuidados y duración": [
@@ -118,20 +118,24 @@
   },
   "faq": [
     {
-      "q": "¿Cuánto dura una corona?",
-      "a": "La mayoría dura al menos 5 años y puede llegar a 15 o 20."
+      "q": "¿Cuánto dura una corona dental?",
+      "a": "La mayoría de las coronas dura al menos 5 años y puede llegar a 15 o 20."
     },
     {
       "q": "¿Qué diferencia hay entre una corona y un puente?",
-      "a": "La corona cubre un diente; el puente ocupa el hueco de dientes que faltan y se apoya en coronas."
+      "a": "La corona **cubre un diente**; el puente **ocupa el hueco** de dientes que faltan y se apoya en coronas."
     },
     {
-      "q": "¿Se saca la prótesis removible para dormir?",
-      "a": "Sí, se aconseja sacarla de noche y guardarla en agua o en un líquido limpiador."
+      "q": "¿Cuántas visitas lleva una corona?",
+      "a": "Una corona suele hacerse en dos visitas, con una corona provisoria entre una y otra."
     },
     {
-      "q": "¿Es raro hablar y comer con una prótesis al principio?",
-      "a": "Puede ser: al principio hablar y comer puede sentirse raro, y el odontólogo puede pedirte controles seguidos para revisar el ajuste."
+      "q": "¿Hay que sacarse la prótesis removible para dormir?",
+      "a": "Sí, se aconseja **sacarla de noche** y guardarla en agua o en un líquido limpiador."
+    },
+    {
+      "q": "¿Es normal sentir rara la prótesis al principio?",
+      "a": "Sí: al principio **hablar y comer puede sentirse raro**, y el dentista puede pedirte controles seguidos para revisar el ajuste."
     }
   ],
   "fotos": {
@@ -142,5 +146,6 @@
     "Una corona cubre y protege un diente débil, roto o gastado; la mayoría dura al menos 5 años y puede llegar a 15 o 20.",
     "Una corona suele hacerse en dos visitas, con una corona provisoria entre una y otra.",
     "La prótesis removible se cepilla todos los días y se saca de noche."
-  ]
+  ],
+  "faq_titulo": "Preguntas frecuentes sobre prótesis dentales y coronas"
 }

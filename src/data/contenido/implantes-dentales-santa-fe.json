@@ -20,7 +20,7 @@
   "revisado": null,
   "secciones": {
     "¿Qué es un implante dental?": [
-      "Un implante dental es una pieza que se coloca con una cirugía en el hueso del maxilar para sostener dientes artificiales: una corona, un puente o una prótesis.",
+      "En odontología, un implante dental es una pieza que se coloca con una cirugía en el hueso del maxilar para sostener dientes artificiales: una corona, un puente o una prótesis.",
       "Tiene dos partes principales. El cuerpo del implante queda dentro del hueso, en el lugar que ocupaba la raíz. Encima va un pilar, normalmente sujeto con un tornillo, que atraviesa la encía y sostiene el diente nuevo.",
       "La mayoría son de **titanio o de óxido de circonio**."
     ],
@@ -33,11 +33,11 @@
           "Da soporte a la encía y a los dientes vecinos."
         ]
       },
-      "No todas las personas son candidatas de la misma manera: el estado de salud general influye en si conviene colocar implantes, en cuánto tarda en cicatrizar y en cuánto dura el implante. Por eso la decisión se toma después de una evaluación con el odontólogo."
+      "No todas las personas son candidatas de la misma manera: el estado de salud general influye en si conviene colocar implantes, en cuánto tarda en cicatrizar y en cuánto dura el implante. Por eso la decisión se toma después de una consulta odontológica de evaluación."
     ],
     "Tipos de implantes": [
       "Sobre un implante se puede colocar una corona, un puente o una prótesis removible (dentadura).",
-      "Cuál conviene en cada caso lo decide el odontólogo según los dientes que falten.",
+      "Cuál conviene en cada caso lo decide el dentista según los dientes que falten.",
       "[Pendiente: qué tipos de implante y qué marcas trabaja la clínica (lo confirma el odontólogo)]",
       {
         "mas": {
@@ -47,7 +47,7 @@
       }
     ],
     "¿Y si me falta hueso?": [
-      "Si te falta hueso, el odontólogo lo evalúa antes de colocar un implante.",
+      "Si te falta hueso, el dentista lo evalúa antes de colocar un implante.",
       "Las radiografías dentales sirven para planificar implantes y, antes de la cirugía, puede usarse una **tomografía de haz cónico**.",
       "[Pendiente: opciones que ofrece la clínica cuando falta hueso, confirmadas por el odontólogo]"
     ],
@@ -66,7 +66,7 @@
       }
     ],
     "Cómo es el tratamiento, paso a paso": [
-      "El tratamiento con implantes se hace en varias etapas, y solo la cicatrización del implante en el hueso puede llevar **varios meses o más**.",
+      "El tratamiento odontológico con implantes se hace en varias etapas, y solo la cicatrización del implante en el hueso puede llevar **varios meses o más**.",
       {
         "pasos": [
           "[Pendiente: etapas previas (evaluación y planificación) según el protocolo de la clínica, confirmadas por el odontólogo]",
@@ -83,7 +83,7 @@
         "h3": "¿Cuánto dura un implante dental?"
       },
       "Cuánto dura un implante **varía de una persona a otra**, y el estado de salud general influye en esa duración.",
-      "Después de la colocación hay que seguir las indicaciones de higiene e ir a los controles.",
+      "Después de la colocación hay que seguir las indicaciones de higiene e ir a los controles para cuidar la salud bucal.",
       {
         "h3": "¿Qué riesgos tiene?"
       },
@@ -102,24 +102,24 @@
   },
   "faq": [
     {
-      "q": "¿De qué material es un implante dental?",
-      "a": "La mayoría son de titanio o de óxido de circonio."
+      "q": "¿De qué material es un implante?",
+      "a": "La mayoría de los implantes son de titanio o de óxido de circonio, y se colocan en el hueso del maxilar."
     },
     {
-      "q": "¿Cuánto tarda todo el tratamiento?",
-      "a": "La cicatrización del implante en el hueso puede llevar varios meses o más; el plazo total lo indica el odontólogo."
+      "q": "¿Cuánto tarda el tratamiento con implantes?",
+      "a": "Solo la cicatrización del implante en el hueso puede llevar varios meses o más. El plazo total de tu caso lo indica el dentista después de evaluarte."
     },
     {
       "q": "¿Cualquier persona puede ponerse implantes?",
-      "a": "Depende de tu estado de salud general, que influye en si sos buen candidato. Lo define el odontólogo después de evaluarte."
+      "a": "**Depende de tu salud general**, que influye en si sos buen candidato, en la cicatrización y en cuánto dura el implante. Lo define el odontólogo en la consulta."
     },
     {
       "q": "¿Qué cuidados necesita un implante?",
-      "a": "Seguir las indicaciones de higiene, ir a los controles y avisar enseguida si se mueve o duele."
+      "a": "Seguir las **indicaciones de higiene**, ir a los controles con el dentista y **avisar enseguida** si el implante se mueve o duele."
     },
     {
       "q": "¿Dónde me hago implantes dentales en Santa Fe?",
-      "a": "En nuestra clínica dental de Santa Fe, en 9 de Julio 3288."
+      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
     }
   ],
   "fotos": {
@@ -130,5 +130,6 @@
     "Ayuda a recuperar la masticación y el aspecto, y a que el hueso no se reduzca donde falta el diente.",
     "La cicatrización del implante en el hueso puede llevar varios meses o más.",
     "La salud general influye en si sos candidato y en cuánto dura el implante."
-  ]
+  ],
+  "faq_titulo": "Preguntas frecuentes sobre implantes dentales"
 }

@@ -24,7 +24,7 @@
     ],
     "¿Cuándo hace falta?": [
       "Hace falta cuando la mordida afecta la higiene, la masticación o la estética; muchos casos leves no necesitan tratamiento.",
-      "Algunas señales para consultar:",
+      "Algunas señales para hacer una consulta odontológica:",
       {
         "lista": [
           "Dientes torcidos o apiñados.",
@@ -73,13 +73,13 @@
       }
     ],
     "Cómo es el tratamiento, paso a paso": [
-      "El tratamiento de ortodoncia se hace en etapas: se coloca el aparato y se hacen controles periódicos; después de los brackets hace falta un retenedor.",
+      "El tratamiento se hace en etapas: se coloca el aparato y se hacen controles periódicos; después de los brackets hace falta un retenedor.",
       "Suele durar de **6 meses a más de 2 años**, según el caso.",
       "[Pendiente: pasos del tratamiento en la clínica (evaluación, estudios, plan, colocación, controles, retiro), confirmados por el odontólogo]",
-      "En algunos casos el plan incluye otros tratamientos, como extraer o arreglar dientes, colocar coronas o, pocas veces, cirugía del maxilar."
+      "En algunos casos el plan incluye otros tratamientos dentales, como extraer o arreglar dientes, colocar coronas o, pocas veces, cirugía del maxilar."
     ],
     "Cuidados y retenedores": [
-      "Durante el tratamiento hay que cepillarse y usar hilo dental todos los días e ir a los controles.",
+      "Durante el tratamiento hay que cepillarse y usar hilo dental todos los días e ir a los controles en la clínica dental.",
       "Después de los brackets **hace falta un retenedor** para que los dientes no vuelvan a moverse. [Pendiente: qué se indica al terminar con alineadores]"
     ],
     "Precio de la ortodoncia en Santa Fe": [
@@ -89,19 +89,23 @@
   "faq": [
     {
       "q": "¿Cuánto dura la ortodoncia?",
-      "a": "Suele durar de 6 meses a más de 2 años, según el caso."
+      "a": "Suele durar de 6 meses a más de 2 años, según el caso. El plazo de cada tratamiento lo indica el dentista."
     },
     {
       "q": "¿Los adultos pueden hacerse ortodoncia?",
-      "a": "Sí. En adultos también suele dar resultado, aunque puede llevar más tiempo."
+      "a": "Sí. En adultos también suele dar resultado, aunque puede llevar más tiempo; funciona mejor en niños y adolescentes."
     },
     {
-      "q": "¿Hace falta el retenedor?",
+      "q": "¿Hace falta un retenedor después de los brackets?",
       "a": "Sí. Después de los brackets hace falta un retenedor para que los dientes no vuelvan a moverse."
     },
     {
-      "q": "¿Todos los casos necesitan tratamiento?",
-      "a": "No. Muchos casos leves no lo necesitan; se trata cuando afecta la higiene, la masticación o la estética."
+      "q": "¿Todos los dientes torcidos necesitan tratamiento?",
+      "a": "No. **Muchos casos leves no lo necesitan**; se trata cuando la mordida afecta la higiene, la masticación o la estética."
+    },
+    {
+      "q": "¿Dónde pido turno para brackets en Santa Fe?",
+      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
     }
   ],
   "fotos": {
@@ -112,5 +116,6 @@
     "Se hace con brackets fijos o, en algunos casos, con alineadores transparentes.",
     "El tratamiento suele durar de 6 meses a más de 2 años, según el caso.",
     "Después de los brackets hace falta un retenedor."
-  ]
+  ],
+  "faq_titulo": "Preguntas frecuentes sobre ortodoncia y brackets"
 }

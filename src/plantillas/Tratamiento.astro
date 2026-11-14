@@ -15,7 +15,7 @@ const fijos = [
   { t: '¿Lo cubre mi obra social?', bloque: 'obras' },
   { t: 'Nuestro centro odontológico en Santa Fe', bloque: 'mapa' },
   { t: 'Opiniones de pacientes', bloque: 'opiniones' },
-  { t: 'Preguntas frecuentes', bloque: 'faq' },
+  { t: c?.faq_titulo ?? 'Preguntas frecuentes', bloque: 'faq' },
 ];
 const autor = c?.autor && site.profesionales.find((p) => p.nombre === c.autor);
 const fuentes = (c?.fuentes ?? []).map((id) => hechos.fuentes[id]).filter(Boolean);

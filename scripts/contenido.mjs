@@ -6,7 +6,8 @@
 //   - primera frase de cada sección ≤ 35 palabras (respuesta directa)
 //   - sin palabras prohibidas (superlativos, promesas: ley 12094 de Santa Fe y buena práctica)
 //   - fuentes declaradas que existen en hechos.json
-//   - negritas (**así**): cada una ≤ 8 palabras, en total ≤ 5 % de la página, nunca en títulos/resumen/FAQ
+//   - negritas (**así**): cada una ≤ 8 palabras, en total ≤ 5 % de la página, nunca en títulos, resumen ni
+//     preguntas de la FAQ; en cada respuesta de la FAQ, 2 como mucho
 // Uso: node scripts/contenido.mjs [--seco]. Detalle: informes/contenido.md. Código 1 si falla.
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
@@ -75,8 +76,11 @@ for (const f of archivos) {
   const enNegrita = negritas.join(' ').split(/\s+/).filter(Boolean).length;
   if (enNegrita > NEG_MAX_PCT * pal / 100) errores.push(`demasiada negrita: ${enNegrita} de ${pal} palabras (máx. ${NEG_MAX_PCT} %)`);
   const enTitulos = [...Object.keys(c.secciones ?? {}), ...Object.values(c.secciones ?? {}).flat().filter((b) => b.h3).map((b) => b.h3),
-    ...(c.resumen ?? []), ...(c.faq ?? []).flatMap((x) => [x.q, x.a])].filter((t) => t.includes('**'));
-  if (enTitulos.length) errores.push(`negrita en un título, el resumen o la FAQ: «${enTitulos[0]}»`);
+    ...(c.resumen ?? []), ...(c.faq ?? []).map((x) => x.q)].filter((t) => t.includes('**'));
+  if (enTitulos.length) errores.push(`negrita en un título, el resumen o una pregunta: «${enTitulos[0]}»`);
+  // Respuestas de la FAQ: como mucho 2 negritas cada una (la respuesta corta, no la frase entera).
+  const faqCargada = (c.faq ?? []).find((x) => (x.a.match(/\*\*(.+?)\*\*/g) || []).length > 2);
+  if (faqCargada) errores.push(`más de 2 negritas en la respuesta a «${faqCargada.q}»`);
   const sueltas = (todo.replace(/\*\*(.+?)\*\*/g, '').match(/\*\*/g) || []).length;
   if (sueltas) errores.push('marca ** sin cerrar');
   const malas = [...new Set(todo.match(PROHIBIDAS) || [])];

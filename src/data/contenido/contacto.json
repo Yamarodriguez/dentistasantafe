@@ -22,8 +22,8 @@
   },
   "faq": [
     {
-      "q": "¿Cómo pido turno?",
-      "a": "Por WhatsApp, por teléfono o con el formulario de esta página."
+      "q": "¿Cómo pido turno con el dentista?",
+      "a": "Por **WhatsApp, por teléfono** o con el formulario de esta página. [confirmar: número de WhatsApp, teléfono y formulario]"
     },
     {
       "q": "¿Atienden obras sociales y prepagas?",
@@ -31,11 +31,11 @@
     },
     {
       "q": "¿Dónde está la clínica dental?",
-      "a": "En 9 de Julio 3288, en Santa Fe capital (Argentina)."
+      "a": "En **9 de Julio 3288**, en Santa Fe capital (Argentina)."
     },
     {
       "q": "¿Cuál es el horario del centro odontológico?",
-      "a": "De lunes a viernes, de 8 a 20 h. Sábados y domingos, cerrado."
+      "a": "De lunes a viernes, **de 8 a 20 h**. Sábados y domingos, cerrado."
     }
   ]
 }

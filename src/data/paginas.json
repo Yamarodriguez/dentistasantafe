@@ -103,7 +103,7 @@
           "bloque": "tratamientos"
         },
         {
-          "t": "Preguntas frecuentes",
+          "t": "Preguntas frecuentes sobre tratamientos dentales",
           "bloque": "faq"
         }
       ],
@@ -329,7 +329,7 @@
         "Qué cubre cada una",
         "Qué llevar al turno",
         {
-          "t": "Preguntas frecuentes",
+          "t": "Preguntas frecuentes sobre la cobertura odontológica",
           "bloque": "faq"
         }
       ],
@@ -352,7 +352,7 @@
           "bloque": "turno"
         },
         {
-          "t": "Preguntas frecuentes",
+          "t": "Preguntas frecuentes antes de ir al dentista",
           "bloque": "faq"
         }
       ],
@@ -372,7 +372,7 @@
           "bloque": "equipo"
         },
         {
-          "t": "Preguntas frecuentes",
+          "t": "Preguntas frecuentes sobre nuestros odontólogos",
           "bloque": "faq"
         }
       ],
@@ -400,7 +400,7 @@
           "bloque": "horario"
         },
         {
-          "t": "Preguntas frecuentes",
+          "t": "Preguntas frecuentes sobre cómo pedir turno",
           "bloque": "faq"
         }
       ],

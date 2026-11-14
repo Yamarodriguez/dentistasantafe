@@ -11,7 +11,7 @@
       "centro odontológico"
     ]
   },
-  "intro": "La **periodoncia** trata las **enfermedades de las encías**, desde la gingivitis hasta la periodontitis. En esta página, nuestra **clínica dental en Santa Fe** explica cómo reconocerlas, cómo se tratan y cómo evitar que avancen.",
+  "intro": "La **periodoncia** es el área de la odontología que trata las **enfermedades de las encías**, desde la gingivitis hasta la periodontitis. En esta página, nuestra **clínica dental en Santa Fe** explica cómo reconocerlas, cómo se tratan y cómo evitar que avancen.",
   "fuentes": [
     "mlp-encias"
   ],
@@ -20,7 +20,7 @@
   "secciones": {
     "¿Te sangran las encías?": [
       "Si te sangran las encías con facilidad, puede ser **gingivitis**, la forma leve de la enfermedad de las encías.",
-      "En la gingivitis las encías se ven rojas e hinchadas y sangran al cepillarse. Es un motivo para hacer una revisión."
+      "En la gingivitis las encías se ven rojas e hinchadas y sangran al cepillarse. Es un motivo para hacer una revisión con el dentista."
     ],
     "Gingivitis y periodontitis": [
       "La gingivitis es la **etapa leve** y la periodontitis es la **etapa avanzada**, a la que puede llegar una gingivitis que no se trata.",
@@ -54,7 +54,7 @@
       "La enfermedad de las encías se relaciona con la diabetes y con el tabaco."
     ],
     "Cómo es el tratamiento, paso a paso": [
-      "En periodoncia, la gingivitis **suele revertirse** con cepillado diario, hilo dental y limpiezas hechas por un profesional.",
+      "En periodoncia, la gingivitis **suele revertirse** con cepillado diario, hilo dental y limpiezas profesionales en el consultorio.",
       "[Pendiente: pasos del tratamiento de periodoncia (periodontitis) en la clínica (revisión, raspaje, controles, cirugía si hace falta), confirmados por el odontólogo]"
     ],
     "Cómo evitar que avance": [
@@ -74,19 +74,23 @@
   "faq": [
     {
       "q": "¿Es normal que sangren las encías al cepillarme?",
-      "a": "Puede ser un signo de gingivitis. Conviene hacer una revisión."
+      "a": "Puede ser un signo de gingivitis, la forma leve de la enfermedad de las encías. Conviene hacer una revisión con el dentista."
     },
     {
       "q": "¿La gingivitis se cura?",
-      "a": "Suele revertirse con cepillado diario, hilo dental y limpiezas profesionales."
+      "a": "La gingivitis suele revertirse con cepillado diario, hilo dental y limpiezas profesionales."
     },
     {
       "q": "¿Qué pasa si no trato la gingivitis?",
-      "a": "Puede avanzar a periodontitis, que daña la encía y el tejido que sostiene los dientes."
+      "a": "Puede avanzar a **periodontitis**, que daña la encía y el tejido que sostiene los dientes."
     },
     {
-      "q": "¿El tabaco tiene que ver con las encías?",
-      "a": "La enfermedad de las encías se relaciona con el tabaco y con la diabetes."
+      "q": "¿El tabaco y la diabetes tienen que ver con las encías?",
+      "a": "Sí: la enfermedad de las encías **se relaciona con el tabaco** y con la diabetes."
+    },
+    {
+      "q": "¿Dónde me trato las encías en Santa Fe?",
+      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
     }
   ],
   "fotos": {
@@ -97,5 +101,6 @@
     "Encías rojas, hinchadas o que sangran con facilidad pueden ser gingivitis.",
     "La gingivitis suele revertirse con cepillado, hilo dental y limpiezas profesionales.",
     "La enfermedad de las encías se relaciona con el tabaco y con la diabetes."
-  ]
+  ],
+  "faq_titulo": "Preguntas frecuentes sobre periodoncia y encías"
 }

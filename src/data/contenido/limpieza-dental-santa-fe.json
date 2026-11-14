@@ -27,7 +27,7 @@
     ],
     "Cada cuánto conviene hacerla": [
       "MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) aconseja una limpieza profesional **cada 6 meses**.",
-      "Si tenés enfermedad de las encías, el odontólogo puede indicarte otro plazo.",
+      "Si tenés enfermedad de las encías, el dentista puede indicarte otro plazo.",
       "Entre una limpieza y otra, en casa:",
       {
         "lista": [
@@ -46,6 +46,7 @@
     ],
     "Caries y arreglos (operatoria)": [
       "Una caries es un **daño o agujero en el diente**: las bacterias convierten azúcares y almidones en ácidos que dañan el esmalte.",
+      "El arreglo de las caries forma parte de la **operatoria dental**.",
       {
         "h3": "¿Cómo me doy cuenta de que tengo una caries?"
       },
@@ -83,20 +84,24 @@
   },
   "faq": [
     {
-      "q": "¿Cada cuánto conviene hacerse una limpieza dental?",
-      "a": "MedlinePlus aconseja una limpieza profesional cada 6 meses."
+      "q": "¿Cada cuánto conviene hacerse una limpieza?",
+      "a": "MedlinePlus aconseja una limpieza profesional cada 6 meses; si tenés enfermedad de las encías, el dentista puede indicarte otro plazo."
+    },
+    {
+      "q": "¿Qué es el sarro?",
+      "a": "Es la placa bacteriana que no se retira y **se endurece**; el sarro puede irritar las encías."
     },
     {
       "q": "¿Una caries siempre duele?",
-      "a": "No. Muchas veces no da síntomas y se descubre en un control."
+      "a": "No. Muchas veces **no da síntomas** y se descubre en un control con el dentista."
     },
     {
       "q": "¿Con qué se hacen hoy los empastes?",
-      "a": "Sobre todo con resina compuesta; también existen el ionómero de vidrio y la amalgama."
+      "a": "Sobre todo con **resina compuesta**; también existen el ionómero de vidrio y la amalgama."
     },
     {
       "q": "¿Para qué sirve la placa de relajación?",
-      "a": "Protege los dientes de la presión del rechinamiento; los síntomas pueden mejorar mientras se usa y volver al dejarla."
+      "a": "Protege los dientes de la **presión del rechinamiento** (bruxismo); los síntomas pueden mejorar mientras se usa y volver al dejarla."
     }
   ],
   "fotos": {
@@ -107,5 +112,6 @@
     "La placa bacteriana que no se retira forma sarro, que puede irritar las encías.",
     "Muchas caries no dan síntomas y se descubren en los controles; se arreglan con un empaste.",
     "El bruxismo es apretar o rechinar los dientes; una placa de relajación los protege de la presión."
-  ]
+  ],
+  "faq_titulo": "Preguntas frecuentes sobre limpieza dental"
 }

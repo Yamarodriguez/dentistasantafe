@@ -25,7 +25,7 @@
     "¿Cuándo llevar a tu hijo por primera vez?": [
       "La primera visita al odontopediatra **conviene hacerla temprano**: el Instituto Nacional de Investigación Dental y Craneofacial de EE. UU. (NIDCR) recomienda antes de que el niño cumpla un año, y MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) la ubica entre que sale el primer diente y los 2 años y medio.",
       "Después, MedlinePlus aconseja **controles cada 6 meses**.",
-      "Los problemas dentales en niños pueden afectar la alimentación, el habla, el desarrollo de la mandíbula y la autoestima.",
+      "Los problemas de salud bucal en niños pueden afectar la alimentación, el habla, el desarrollo de la mandíbula y la autoestima.",
       {
         "mas": {
           "t": "Tu primera consulta, paso a paso",
@@ -42,7 +42,7 @@
     ],
     "Selladores y flúor": [
       "**Los selladores y el flúor** ayudan a prevenir las caries: los selladores se colocan en las superficies de masticación de las muelas.",
-      "El flúor fortalece el esmalte y puede revertir caries que recién empiezan. El odontólogo puede aplicar barniz o gel de flúor.",
+      "El flúor fortalece el esmalte y puede revertir caries que recién empiezan. El dentista puede aplicar barniz o gel de flúor.",
       {
         "h3": "¿Desde qué edad se usa pasta con flúor?"
       },
@@ -84,11 +84,11 @@
   },
   "faq": [
     {
-      "q": "¿A qué edad va un niño al odontopediatra por primera vez?",
-      "a": "El NIDCR recomienda antes de cumplir un año; MedlinePlus, entre el primer diente y los 2 años y medio."
+      "q": "¿A qué edad hay que llevar a un niño al dentista por primera vez?",
+      "a": "El NIDCR recomienda **antes de que cumpla un año**; MedlinePlus, entre el primer diente y los 2 años y medio."
     },
     {
-      "q": "¿Cada cuánto son los controles?",
+      "q": "¿Cada cuánto son los controles del odontopediatra?",
       "a": "MedlinePlus aconseja controles cada 6 meses."
     },
     {
@@ -97,7 +97,11 @@
     },
     {
       "q": "¿Puedo dejar a mi bebé dormir con el biberón?",
-      "a": "No con leche, jugo ni agua con azúcar; de noche, solo agua."
+      "a": "No con leche, jugo ni agua con azúcar: **de noche, solo agua**."
+    },
+    {
+      "q": "¿Qué hago si mi hijo tiene miedo al dentista?",
+      "a": "MedlinePlus sugiere una visita «de prueba» para que el niño conozca el consultorio antes de un tratamiento."
     }
   ],
   "fotos": {
@@ -108,5 +112,6 @@
     "Después se aconsejan controles cada 6 meses.",
     "Los selladores y el flúor ayudan a prevenir las caries.",
     "Los menores de 2 años no usan pasta con flúor salvo que lo indique un odontólogo o un médico."
-  ]
+  ],
+  "faq_titulo": "Preguntas frecuentes al odontopediatra"
 }
