@@ -28,7 +28,7 @@ ciudad: `/implantes-dentales-santa-fe/`. Sin páginas de sede: contacto en `/con
 Textos de la web: español de Argentina **con vos** (recomendado, sin confirmar): «turno»,
 «odontólogo», «tratamiento de conducto», «guardia», «matrícula», «ortopedia», «operatoria»,
 «placas de relajación». Normativa sanitaria y legal: argentina/santafesina, no española.
-**Dominio elegido: dentistasantafe.com** (Yama, 2026-11-13). Ya es la URL de site.json (canonical, sitemap, schema, llms.txt). El 2026-11-13 seguía SIN REGISTRAR (RDAP 404): hay que comprarlo. Descartados: odontologiasantafe.net (el .com es de un competidor) y clinicadentalsantafe.com (de una clínica de Costa Rica). Libres ese día: dentistasantafe.com.ar y clinicadentalsantafe.com.ar (se pueden comprar para redirigir).
+**Dominio elegido: dentistasantafe.com** (Yama, 2026-11-13). Ya es la URL de site.json (canonical, sitemap, schema, llms.txt). **Comprado el 2026-11-13 en OVH** (caduca 2027-11-13; DNS de OVH: dns103/ns103.ovh.net). Falta apuntarlo al alojamiento (Netlify u otro) al publicar. Descartados: odontologiasantafe.net (el .com es de un competidor) y clinicadentalsantafe.com (de una clínica de Costa Rica). Libres ese día: dentistasantafe.com.ar y clinicadentalsantafe.com.ar (se pueden comprar para redirigir).
 Competidor que pasa Yama: drarenzulli.com.
 Webs de Valencia (dentalblanch.es, centroodontologicovalenciano.com, pilarroig.com,
 clinicamanzanera.com): solo como **modelo** de estructura, no como competencia local.
@@ -184,6 +184,13 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   `src/lib/texto.js`), 9-13 por página; contenido.mjs exige ≤ 8 palabras por negrita, ≤ 5 % de la
   página, nunca en títulos/resumen/FAQ. Palabras añadidas: pérdida de hueso, dientes perdidos,
   enfermedad periodontal, extracción, salud bucal (en AR, no «bucodental»).
+  **2.ª pasada (Yama, 2026-11-13): FAQ y palabras derivadas.** FAQ reescritas como búsquedas reales
+  (5 por tratamiento, respuesta que se entiende sola), título propio (`faq_titulo` en contenido;
+  en páginas cortas, en paginas.json), negritas en las respuestas (≤ 2 por respuesta, una frase en
+  negrita solo una vez por página; el schema FAQPage las quita con `sinNegrita`). Variantes repartidas:
+  dentista, odontólogo, odontología, consulta / tratamiento odontológico, tratamientos dentales, salud
+  bucal, cobertura odontológica. Tope: la clave de cada página sigue en 6-11 y la negrita ≤ 5 %; el
+  revisor rechazó las muletillas «Entre los tratamientos dentales…» (no volver a meterlas).
 - **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
   robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
   schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),
