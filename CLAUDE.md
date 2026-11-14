@@ -232,6 +232,16 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   Menú: «La clínica» → **«Dentistas»** (Yama, 2026-11-14). **Enlaces en el texto**: `[texto](/ruta/)` en los JSON
   (texto.js los pinta; schema y conteos los quitan); 25 en la primera mención de otro tratamiento;
   contenido.mjs: destino existe, no propio, uno por destino, nunca en títulos/resumen/preguntas.
+  **SEO/AEO/GEO «primeros en Santa Fe» (2026-11-14)** → `informes/seo-aeo-geo-primero-santa-fe.md`. Portada:
+  title de Yama SIN cambiar (dentista/odontólogo son sinónimos); «En resumen» (portada.json > resumen, speakable)
+  con clínica + dirección + «donde atiende el odontólogo Ignacio Vera»; las 5 áreas SIEMPRE de la clínica, nunca
+  de la persona (ley 12094). Schema: ciudad con Wikipedia + Wikidata Q44244 (no confundir con Av. Santa Fe de BA),
+  descripcion/areas de la clínica (site.json), implante = SurgicalProcedure con preparation/howPerformed/followup
+  (contenido > procedimiento). Dentistas: «¿Cuándo conviene ir al dentista?». llms-full: portada, dentistas,
+  obras sociales y primera consulta; salta bloques sin dato real (porque, opiniones, marcas) y la matrícula
+  mientras sea [confirmar]; validar.mjs revisa llms*.txt. seo.js > real(): [texto](/ruta/) es dato real.
+  Héroe: sin foto (ni preload) si el archivo no existe. Lo que más falta para el 1.º puesto es FUERA de la web:
+  ficha de Google + reseñas, Doctoralia con la dirección de Santa Fe, Bing Places, cartillas de obras sociales.
 - **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
   robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
   schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),

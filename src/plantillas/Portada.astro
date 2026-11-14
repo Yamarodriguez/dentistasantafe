@@ -5,11 +5,16 @@ import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
 import { site, enlaceTurno, pendiente, foto } from '../lib/datos.js';
 import { negrita } from '../lib/texto.js';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 
 const { pagina } = Astro.props;
 const [linea1, linea2] = pagina.h1.split(/ (?=en )/);
 const sede = site.sedes[0];
-const heroe = foto('heroe');
+const conFoto = foto('heroe');
+// La foto del héroe es provisional y no se sube: si no está, ni se precarga ni se pide (evita un 404 en Netlify).
+const heroe = conFoto && existsSync(join(process.cwd(), 'public', conFoto.src)) ? conFoto : null;
+const resumen = pagina.contenido?.resumen ?? [];
 ---
 <Base pagina={pagina} precarga={heroe?.src}>
   <section class:list={['heroe', { 'heroe-foto': heroe }]} style={heroe ? `--foto:url('${heroe.src}')` : undefined} role="img" aria-label={heroe?.alt}>
@@ -38,6 +43,12 @@ const heroe = foto('heroe');
     </div>
   </section>
   <div class="contenedor">
+    {resumen.length > 0 && (
+      <aside class="resumen" aria-label="En resumen: nuestra clínica dental">
+        <p class="resumen-titulo">En resumen</p>
+        <ul>{resumen.map((x) => <li>{x}</li>)}</ul>
+      </aside>
+    )}
     <Secciones pagina={pagina} />
   </div>
 </Base>

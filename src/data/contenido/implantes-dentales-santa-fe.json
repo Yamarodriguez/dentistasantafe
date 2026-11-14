@@ -214,5 +214,13 @@
     "La cicatrización del implante en el hueso puede llevar varios meses o más.",
     "La salud general influye en si sos candidato y en cuánto dura el implante."
   ],
-  "faq_titulo": "Preguntas frecuentes sobre implantes dentales"
+  "faq_titulo": "Preguntas frecuentes sobre implantes dentales",
+  "procedimiento": {
+    "@type": "SurgicalProcedure",
+    "description": "Un implante dental es un dispositivo que se coloca con cirugía en el hueso maxilar y sostiene dientes artificiales: coronas, puentes o prótesis.",
+    "bodyLocation": "Hueso maxilar",
+    "preparation": "Revisión de la historia clínica y planificación con radiografías dentales; antes de la cirugía se puede usar una tomografía de haz cónico, sobre todo si se colocan varios implantes.",
+    "howPerformed": "Con anestesia local se coloca con una cirugía un implante, normalmente de titanio u óxido de circonio, en el hueso maxilar; cuando se une al hueso se colocan el pilar y la corona, el puente o la prótesis.",
+    "followup": "Seguir las indicaciones de higiene, ir a los controles y avisar enseguida si el implante se mueve o duele."
+  }
 }

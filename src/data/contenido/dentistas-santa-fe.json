@@ -12,7 +12,15 @@
     ]
   },
   "fuentes": [
-    "mlp-encias"
+    "mlp-encias",
+    "mlp-caries",
+    "mlp-conducto",
+    "fda-implantes",
+    "mlp-maloclusion",
+    "mlp-color",
+    "nidcr-bebe",
+    "mlp-coronas",
+    "mlp-protesis"
   ],
   "secciones": {
     "Odontólogos de nuestra clínica dental en Santa Fe": [
@@ -35,6 +43,21 @@
       "La ley 12094 de Santa Fe pide que quien anuncie servicios profesionales indique su **nombre, apellido y profesión**.",
       "Las especialidades, maestrías o doctorados solo se pueden anunciar citando la institución oficial que otorgó el título. Por eso, en esta página cada especialidad figura junto a esa institución.",
       "La **matrícula** es el registro que habilita a cada odontólogo para ejercer en la provincia de Santa Fe."
+    ],
+    "¿Cuándo conviene ir al dentista?": [
+      "Conviene consultar al dentista en estos casos, y también hacer controles aunque no haya molestias: muchas caries no dan síntomas.",
+      {
+        "lista": [
+          "Encías rojas, hinchadas o que sangran con facilidad: pueden ser [gingivitis](/periodoncia-santa-fe/).",
+          "Dolor con lo dulce, lo frío o lo caliente, o manchas oscuras en un diente: pueden ser [caries](/limpieza-dental-santa-fe/).",
+          "Dolor e hinchazón: puede ser una infección que llegó al nervio del diente; en ese caso hace falta un [tratamiento de conducto](/tratamiento-de-conducto-santa-fe/) o, si el daño es muy grande, extraerlo.",
+          "Un diente que falta: se puede reemplazar con un [implante dental](/implantes-dentales-santa-fe/), un puente o una [prótesis](/protesis-dentales-santa-fe/).",
+          "Dientes torcidos o una mordida que no encaja: puede ser una maloclusión. Muchos casos leves no necesitan tratamiento; si afecta la higiene, la masticación o la estética, se aconseja corregirla con [ortodoncia](/ortodoncia-santa-fe/).",
+          "Un diente que cambia de color sin causa clara, o una mancha que sigue después de cepillarse bien: conviene consultar. Según la causa, puede mejorar con una limpieza o un [blanqueamiento](/estetica-dental-santa-fe/), o necesitar empastes, carillas o coronas.",
+          "Un bebé que todavía no tuvo su primera visita: el NIDCR recomienda hacerla antes de que cumpla un año (más información en [odontopediatría](/odontopediatra-santa-fe/))."
+        ]
+      },
+      "MedlinePlus aconseja, además, una **limpieza profesional cada 6 meses**."
     ],
     "Tratamientos que atiende nuestro equipo": [
       "Estos son los tratamientos dentales que explicamos en la web. Nuestro **centro odontológico** trabaja sobre todo en odontología estética, implantes, ortodoncia, periodoncia y odontopediatría."

@@ -3,7 +3,8 @@ import { execSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 
 /** ¿Es un dato real? (no vacío y sin [corchetes] de pendiente). */
-export const real = (v) => typeof v === 'string' && v.trim() !== '' && !/\[[^\]]*\]/.test(v);
+// Un [..] es dato pendiente; un [texto](/ruta/) es un enlace del texto y sí es dato real.
+export const real = (v) => typeof v === 'string' && v.trim() !== '' && !/\[[^\]]*\](?!\()/.test(v);
 
 /** Quita recursivamente lo que no es dato real (undefined, null, strings con [..], {} y [] vacíos). */
 export function limpiar(x) {

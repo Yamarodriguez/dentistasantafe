@@ -505,5 +505,14 @@
     }
   ],
   "_foto_propia": "IMG_5694: foto real del Od. Ignacio Vera en su consultorio (Yama confirma identidad y permiso para publicar, 2026-11-12). Original mejorado en marca/fotos-propias/; webp en public/img/fotos/.",
-  "_direccion_fuente": "Dirección, horario (lun-vie 8-20, sáb y dom cerrado) y descripción sacados de la ficha de Google de la clínica (captura de Yama, 2026-11-13). La ficha no da barrio: no se muestra. El enlace de mapa es una búsqueda de la dirección; cambiarlo por el enlace de la ficha de Google cuando Yama lo pase."
+  "_direccion_fuente": "Dirección, horario (lun-vie 8-20, sáb y dom cerrado) y descripción sacados de la ficha de Google de la clínica (captura de Yama, 2026-11-13). La ficha no da barrio: no se muestra. El enlace de mapa es una búsqueda de la dirección; cambiarlo por el enlace de la ficha de Google cuando Yama lo pase.",
+  "descripcion": "Clínica dental en Santa Fe capital (Argentina): odontología estética, implantes, ortodoncia, periodoncia y odontopediatría, con obra social o de forma particular.",
+  "areas": [
+    "Odontología estética",
+    "Implantes dentales",
+    "Ortodoncia",
+    "Periodoncia",
+    "Odontopediatría"
+  ],
+  "_areas_fuente": "Ficha de Google de la clínica (captura de Yama, 2026-11-13). Son áreas de la CLÍNICA: no pasarlas al odontólogo (Person) mientras sus especialidades estén sin confirmar (ley 12094)."
 }

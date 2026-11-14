@@ -145,6 +145,13 @@ const llms = leer('llms.txt');
 if (!llms) err('/llms.txt', 'no existe');
 else if (/\[[^\]]*\]\s*$|\[Pendiente/m.test(llms.replace(/\[[^\]]+\]\(/g, ''))) err('/llms.txt', 'tiene datos [pendiente]');
 
+// Archivos para asistentes de IA: ni marcadores sin sustituir ({nombre}) ni datos [pendientes].
+for (const f of ['llms.txt', 'llms-full.txt']) {
+  const ruta = join(DIST, f);
+  if (!existsSync(ruta)) continue;
+  const malo = readFileSync(ruta, 'utf-8').match(/\{[a-z_]+\}|\[(Pendiente|confirmar|X)[^\]]*\]/i);
+  if (malo) err('/' + f, `marcador o dato pendiente en el archivo para IA: «${malo[0]}»`);
+}
 const totalRestos = restos.reduce((a, x) => a + x.n, 0);
 const L = [
   '# Validación', '',

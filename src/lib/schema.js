@@ -7,6 +7,7 @@ import { sinNegrita } from './texto.js';
 
 const abs = (p) => new URL(p, site.url).href;
 const ID_CLINICA = abs('/#clinica');
+const CIUDAD = ['https://es.wikipedia.org/wiki/Santa_Fe_(Argentina)', 'https://www.wikidata.org/wiki/Q44244'];
 const sinTitulo = (n) => n.replace(/^(Od\.|Dra?\.)\s*(Esp\.\s*)?/, '');
 
 const DIAS = { Mo: 'Monday', Tu: 'Tuesday', We: 'Wednesday', Th: 'Thursday', Fr: 'Friday', Sa: 'Saturday', Su: 'Sunday' };
@@ -32,11 +33,14 @@ function clinica() {
     '@type': 'Dentist',
     '@id': ID_CLINICA,
     name: site.nombre,
+    description: site.descripcion,
     url: abs('/'),
     logo: abs(site.logo),
     image: [abs(site.logo), ...fotoClinica()],
     priceRange: s.precios,
     knowsLanguage: 'es',
+    currenciesAccepted: 'ARS',
+    knowsAbout: site.areas,
     openingHoursSpecification: horarioEstructurado(s.horarioSchema),
     availableService: tratamientos.map((t) => ({
       '@type': 'MedicalProcedure',
@@ -54,7 +58,8 @@ function clinica() {
     },
     openingHours: s.horarioSchema,
     hasMap: s.mapa,
-    areaServed: { '@type': 'City', name: 'Santa Fe' },
+    // «Santa Fe» es ambiguo (Av. Santa Fe de Buenos Aires, Santa Fe de México o Bogotá…): se enlaza la ciudad exacta.
+    areaServed: { '@type': 'City', name: 'Santa Fe', alternateName: 'Santa Fe de la Vera Cruz', sameAs: CIUDAD },
     medicalSpecialty: 'Dentistry',
     sameAs: Object.values(site.redes ?? {}),
     employee: site.profesionales.filter((p) => real(p.nombre)).map((p) => ({ '@id': abs(`/dentistas-santa-fe/#${slugPersona(p)}`) })),
@@ -74,6 +79,7 @@ function personas() {
     knowsAbout: p.especialidad,
     identifier: real(p.matricula) ? { '@type': 'PropertyValue', name: 'Matrícula', value: p.matricula } : undefined,
     worksFor: { '@id': ID_CLINICA },
+    url: abs('/dentistas-santa-fe/'),
   }));
 }
 
@@ -117,10 +123,27 @@ function tratamiento(pagina) {
       name: pagina.nombre,
       description: pagina.description,
       url: abs(ruta(pagina.slug)),
+      ...(c?.procedimiento ?? {}),
     },
     // Lo que un asistente de voz o de IA puede leer en voz alta: el resumen y la entrada.
     speakable: c?.resumen?.length ? { '@type': 'SpeakableSpecification', cssSelector: ['.resumen', '.entrada'] } : undefined,
     provider: { '@id': ID_CLINICA },
+  };
+}
+
+/** Portada: la página en sí, con lo que un asistente de IA o de voz puede leer (resumen y entrada). */
+function portada(pagina) {
+  return {
+    '@type': 'WebPage',
+    '@id': abs('/#pagina'),
+    url: abs('/'),
+    name: pagina.title,
+    description: pagina.description,
+    inLanguage: site.idioma,
+    isPartOf: { '@id': abs('/#web') },
+    about: { '@id': ID_CLINICA },
+    dateModified: fechaPagina(pagina),
+    speakable: pagina.contenido?.resumen?.length ? { '@type': 'SpeakableSpecification', cssSelector: ['.resumen', '.entrada'] } : undefined,
   };
 }
 
@@ -143,6 +166,7 @@ export function schemaDe(pagina) {
   if (pagina.tipo !== 'legal') grafo.push(clinica(), web());
   if (pagina.tipo === 'equipo') grafo.push(...personas());
   if (pagina.tipo === 'tratamiento') grafo.push(tratamiento(pagina));
+  if (pagina.tipo === 'portada') grafo.push(portada(pagina));
   grafo.push(migas(pagina), preguntas(pagina));
   const limpio = limpiar(grafo);
   return limpio ? { '@context': 'https://schema.org', '@graph': limpio } : null;

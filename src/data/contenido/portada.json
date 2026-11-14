@@ -30,7 +30,7 @@
       "Estos son los tratamientos dentales de nuestro **centro odontológico en Santa Fe**, agrupados como en la consulta: implantología y prótesis, ortodoncia, estética dental y odontología general. Cada página explica en qué consiste el tratamiento, cómo es el proceso y qué cuidados requiere para mantener la **salud bucal**."
     ],
     "Obras sociales y prepagas con cobertura odontológica en Santa Fe": [
-      "Atendemos pacientes con **obra social, con prepaga y particulares**. La cobertura depende de cada obra social y de cada plan, por eso conviene consultarla antes del turno."
+      "Atendemos pacientes con **obra social y particulares**. La cobertura depende de cada obra social o prepaga y de cada plan, por eso conviene consultarla antes del turno."
     ],
     "Tu primera consulta con el dentista": [
       "En la primera consulta, el dentista **revisa la boca**, escucha el motivo de la visita y explica las opciones de tratamiento antes de decidir. [confirmar: qué incluye la primera consulta en la clínica y si es gratuita]",
@@ -40,7 +40,7 @@
       "En esta sección se publican reseñas reales que los pacientes dejaron en Google, con su nombre."
     ],
     "Odontólogos en Santa Fe: título y matrícula de nuestros dentistas": [
-      "En nuestra clínica dental cada profesional figura con su **nombre, su título y su matrícula**, como pide la ley 12094 de Santa Fe."
+      "En nuestra clínica dental cada profesional figura con su **nombre, su título y su matrícula**; la ley 12094 de Santa Fe pide nombre, apellido y profesión."
     ],
     "Cómo llegar y horario de nuestra clínica dental en Santa Fe": [
       "Nuestra clínica dental está en **9 de Julio 3288**, en Santa Fe capital (Argentina). El horario de atención es de lunes a viernes, **de 8 a 20 h**; sábados y domingos, cerrado. [confirmar: colectivos que pasan cerca, estacionamiento y accesibilidad]"
@@ -86,5 +86,10 @@
       "a": "No. Muchas caries **no dan síntomas** y se descubren en los controles."
     }
   ],
-  "entrada": "**Atención odontológica en Santa Fe**: odontología estética, implantes, ortodoncia, periodoncia y odontopediatría, con obra social o de forma particular."
+  "entrada": "**Dentista en Santa Fe capital**: odontología estética, implantes, ortodoncia, periodoncia y odontopediatría, con obra social o de forma particular.",
+  "resumen": [
+    "Ignacio Vera Odontología es una clínica dental en 9 de Julio 3288, Santa Fe capital (Argentina), donde atiende el odontólogo Ignacio Vera.",
+    "Atiende de lunes a viernes, de 8 a 20 h, con obra social y de forma particular.",
+    "Tratamientos: odontología estética, implantes, ortodoncia, periodoncia y odontopediatría."
+  ]
 }
