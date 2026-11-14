@@ -1,0 +1,67 @@
+{
+  "slug": "dentistas-santa-fe",
+  "conteo": {
+    "clave": "dentistas?|odontólog[oa]s?",
+    "min": 6,
+    "max": 22,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-encias"
+  ],
+  "secciones": {
+    "Odontólogos de nuestra clínica dental en Santa Fe": [
+      "En nuestra **clínica dental en Santa Fe** atiende el Od. Ignacio Vera. Cada dentista figura con su nombre, su título y su matrícula.",
+      "[confirmar: profesionales del equipo, especialidades y la institución que dio cada título]"
+    ],
+    "Título y matrícula de cada dentista": [
+      "La ley 12094 de Santa Fe pide que quien anuncie servicios profesionales indique su **nombre, apellido y profesión**.",
+      "Las especialidades, maestrías o doctorados solo se pueden anunciar citando la institución oficial que otorgó el título. Por eso, en esta página cada especialidad figura junto a esa institución.",
+      "La **matrícula** es el registro que habilita a cada odontólogo para ejercer en la provincia de Santa Fe."
+    ],
+    "Tratamientos que atiende nuestro equipo": [
+      "Estos son los tratamientos dentales que explicamos en la web. Nuestro **centro odontológico** trabaja sobre todo en odontología estética, implantes, ortodoncia, periodoncia y odontopediatría."
+    ],
+    "Antes de tu primera consulta con el dentista": [
+      "En la primera consulta, el dentista revisa la boca, escucha el motivo de la visita y explica las opciones de tratamiento antes de decidir.",
+      "Conviene contar si tenés diabetes o fumás, porque la enfermedad de las encías se relaciona con los dos.",
+      {
+        "mas": {
+          "t": "Tu primera consulta, paso a paso",
+          "href": "/primera-consulta/"
+        }
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué significan «Od.» y «Od. Esp.»?",
+      "a": "«Od.» es **odontólogo** y «Od. Esp.», **odontólogo especialista**."
+    },
+    {
+      "q": "¿Dónde veo la matrícula de cada odontólogo?",
+      "a": "Junto al **nombre de cada odontólogo**, en esta página."
+    },
+    {
+      "q": "¿Quién revisa la información de salud de la web?",
+      "a": "Un odontólogo del equipo; su nombre y la fecha de revisión figuran al pie de cada tratamiento. [confirmar: odontólogo que revisa]"
+    },
+    {
+      "q": "¿Puedo elegir con qué dentista atenderme?",
+      "a": "[confirmar: si se puede elegir profesional al pedir turno]"
+    },
+    {
+      "q": "¿Qué diferencia hay entre dentista y odontólogo?",
+      "a": "Ninguna: son dos nombres para el mismo profesional. En Argentina, el título es de **odontólogo**."
+    },
+    {
+      "q": "¿Dónde atienden los dentistas de la clínica?",
+      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**, de lunes a viernes de 8 a 20 h."
+    }
+  ]
+}

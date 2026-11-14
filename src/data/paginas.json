@@ -15,8 +15,8 @@
           "t": "Clínica dental en Santa Fe con más de [X] años de experiencia",
           "foto": "consulta",
           "boton": {
-            "t": "Conocé a nuestro equipo",
-            "href": "/equipo/"
+            "t": "Ver nuestros dentistas",
+            "href": "/dentistas-santa-fe/"
           },
           "disposicion": "foto-abajo"
         },
@@ -360,20 +360,28 @@
       "faq": []
     },
     {
-      "slug": "equipo",
+      "slug": "dentistas-santa-fe",
       "tipo": "equipo",
       "estado": "si",
-      "clave": "odontólogos [nombre] Santa Fe",
-      "title": "Dentistas de nuestra clínica dental en Santa Fe",
-      "description": "El equipo de dentistas de nuestro centro odontológico en Santa Fe: especialidad y matrícula de cada profesional.",
-      "h1": "Nuestros dentistas en Santa Fe",
+      "clave": "dentistas Santa Fe",
+      "title": "Dentistas en Santa Fe: equipo de odontólogos y matrícula",
+      "description": "Los dentistas de nuestra clínica dental en Santa Fe: nombre, título y matrícula de cada odontólogo, y los tratamientos que atiende el equipo.",
+      "h1": "Dentistas en Santa Fe",
       "h2s": [
         {
-          "t": "Profesionales",
-          "bloque": "equipo"
+          "t": "Odontólogos de nuestra clínica dental en Santa Fe",
+          "bloque": "equipo",
+          "foto": "dentistas",
+          "disposicion": "foto-abajo"
         },
+        "Título y matrícula de cada dentista",
         {
-          "t": "Preguntas frecuentes sobre nuestros odontólogos",
+          "t": "Tratamientos que atiende nuestro equipo",
+          "bloque": "tratamientos"
+        },
+        "Antes de tu primera consulta con el dentista",
+        {
+          "t": "Preguntas frecuentes sobre nuestros dentistas",
           "bloque": "faq"
         }
       ],

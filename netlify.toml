@@ -12,3 +12,9 @@
   for = "/*"
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
+
+# La página de equipo pasó a /dentistas-santa-fe/ (Yama, 2026-11-14).
+[[redirects]]
+  from = "/equipo/"
+  to = "/dentistas-santa-fe/"
+  status = 301

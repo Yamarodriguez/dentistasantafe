@@ -219,6 +219,11 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   otros tratamientos si Yama lo pide. → **Hecho en todos (Yama, 2026-11-14: «sí, a todos»)**: 19 fotos
   más (2-3 por tratamiento: maquetas, brackets, alineadores, sonrisas sin ojos, instrumental, cepillos
   infantiles), elegidas con hoja de contactos; nunca en secciones con tabla ni solo [Pendiente].
+  **Página de dentistas (Yama, 2026-11-14)**: /equipo/ pasa a **/dentistas-santa-fe/** (H1 «Dentistas en
+  Santa Fe», clave «dentistas Santa Fe»; contenido/dentistas-santa-fe.json; redirección 301 en netlify.toml;
+  schema Person con @id /dentistas-santa-fe/#…). Secciones: odontólogos (foto-abajo con la foto real),
+  título y matrícula (ley 12094), tratamientos (bloque), antes de la primera consulta, FAQ (6). Botón
+  «Ver nuestros dentistas» en «Tu dentista en Santa Fe» de cada tratamiento y en la portada (infinitivo).
 - **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
   robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
   schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),
