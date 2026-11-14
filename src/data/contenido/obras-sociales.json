@@ -50,6 +50,10 @@
     {
       "q": "¿La lista de obras sociales puede cambiar?",
       "a": "Sí, los **convenios pueden cambiar**; conviene confirmarlo al pedir turno."
+    },
+    {
+      "q": "¿Qué coberturas aceptan?",
+      "a": "Swiss Medical, Medifé, Galeno, Medicus, OMINT, IAPOS, AcaSalud, Federada Salud, IOSE, Jerárquicos Salud y Sancor Salud, además de **pacientes particulares**. [confirmar: lista de la clínica]"
     }
   ]
 }

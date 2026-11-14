@@ -24,7 +24,7 @@
       "Tiene dos partes principales. El cuerpo del implante queda dentro del hueso, en el lugar que ocupaba la raíz. Encima va un pilar, normalmente sujeto con un tornillo, que atraviesa la encía y sostiene el diente nuevo.",
       "La mayoría son de **titanio o de óxido de circonio**."
     ],
-    "¿Cuándo hace falta un implante?": [
+    "¿Cuándo hace falta un implante dental?": [
       "Un implante se plantea cuando **falta uno o varios dientes** y se quiere recuperar la masticación y el aspecto de la boca.",
       {
         "lista": [
@@ -46,12 +46,12 @@
         }
       }
     ],
-    "¿Y si me falta hueso?": [
+    "¿Se puede poner un implante si falta hueso?": [
       "Si te falta hueso, el dentista lo evalúa antes de colocar un implante.",
       "Las radiografías dentales sirven para planificar implantes y, antes de la cirugía, puede usarse una **tomografía de haz cónico**.",
       "[Pendiente: opciones que ofrece la clínica cuando falta hueso, confirmadas por el odontólogo]"
     ],
-    "Tomografía y planificación": [
+    "Tomografía y planificación del implante": [
       "Antes de colocar implantes se planifica el tratamiento con imágenes de la boca.",
       "Las **radiografías dentales** sirven para planificar implantes, y la tomografía de haz cónico puede usarse antes de la cirugía, sobre todo cuando se colocan varios implantes.",
       {
@@ -65,7 +65,7 @@
         ]
       }
     ],
-    "Cómo es el tratamiento, paso a paso": [
+    "Cómo es el tratamiento con implantes, paso a paso": [
       "El tratamiento odontológico con implantes se hace en varias etapas, y solo la cicatrización del implante en el hueso puede llevar **varios meses o más**.",
       {
         "pasos": [
@@ -97,7 +97,7 @@
       }
     ],
     "Precio de los implantes dentales en Santa Fe": [
-      "[Pendiente: precio orientativo de los implantes dentales en Santa Fe con fecha, o «se informa por escrito después de la primera consulta»; de qué depende; si hay financiación]"
+      "[Pendiente: precio orientativo en Santa Fe con fecha, o «se informa por escrito después de la primera consulta»; de qué depende; si hay financiación]"
     ]
   },
   "faq": [
@@ -120,6 +120,22 @@
     {
       "q": "¿Dónde me hago implantes dentales en Santa Fe?",
       "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
+    },
+    {
+      "q": "¿Qué estudios se hacen antes de un implante?",
+      "a": "Radiografías dentales para planificarlo y, antes de la cirugía, puede usarse una tomografía de haz cónico, sobre todo si se colocan varios implantes."
+    },
+    {
+      "q": "¿Qué riesgos tiene un implante?",
+      "a": "Riesgos posibles: daño en dientes o tejidos cercanos durante la colocación y adormecimiento si se afecta un nervio. También puede **aflojarse** por una infección o una cicatrización lenta."
+    },
+    {
+      "q": "¿Qué beneficios tiene un implante?",
+      "a": "Ayuda a recuperar la masticación y el aspecto, a evitar que se reduzca el hueso del maxilar y da **soporte a la encía** y a los dientes vecinos."
+    },
+    {
+      "q": "¿Hay que avisar que tengo implantes antes de una resonancia?",
+      "a": "Sí. Antes de una resonancia o una radiografía hay que avisar que tenés implantes, porque pueden **alterar la imagen**."
     }
   ],
   "fotos": {

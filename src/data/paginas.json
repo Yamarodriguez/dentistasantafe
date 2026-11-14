@@ -121,11 +121,11 @@
       "h1": "Implantes dentales en Santa Fe",
       "h2s": [
         "¿Qué es un implante dental?",
-        "¿Cuándo hace falta un implante?",
+        "¿Cuándo hace falta un implante dental?",
         "Tipos de implantes",
-        "¿Y si me falta hueso?",
-        "Tomografía y planificación",
-        "Cómo es el tratamiento, paso a paso",
+        "¿Se puede poner un implante si falta hueso?",
+        "Tomografía y planificación del implante",
+        "Cómo es el tratamiento con implantes, paso a paso",
         "¿Duele? ¿Cuánto dura un implante?",
         "Precio de los implantes dentales en Santa Fe"
       ],
@@ -143,11 +143,11 @@
       "h1": "Prótesis dentales y coronas en Santa Fe",
       "h2s": [
         "¿Qué es una prótesis dental?",
-        "Prótesis fija o removible",
-        "Coronas",
+        "Prótesis dental fija o removible",
+        "Coronas dentales",
         "Prótesis sobre implantes",
-        "Cómo es el tratamiento, paso a paso",
-        "Cuidados y duración",
+        "Cómo se hacen las coronas y las prótesis removibles, paso a paso",
+        "Cuidados y duración de coronas y prótesis removibles",
         "Precio de las prótesis dentales en Santa Fe"
       ],
       "faq": []
@@ -164,12 +164,12 @@
       "h1": "Ortodoncia en Santa Fe: brackets y alineadores",
       "h2s": [
         "¿Qué es la ortodoncia?",
-        "¿Cuándo hace falta?",
+        "¿Cuándo hace falta la ortodoncia?",
         "Tipos de brackets",
         "Ortopedia en niños",
         "Brackets o alineadores: comparativa",
-        "Cómo es el tratamiento, paso a paso",
-        "Cuidados y retenedores",
+        "Cómo es el tratamiento con brackets, paso a paso",
+        "Cuidados con brackets y retenedores",
         "Precio de la ortodoncia en Santa Fe"
       ],
       "faq": []
@@ -186,10 +186,10 @@
       "h1": "Ortodoncia invisible en Santa Fe",
       "h2s": [
         "¿Qué es la ortodoncia invisible?",
-        "¿Para quién está indicada?",
+        "¿Para quién está indicada la ortodoncia invisible?",
         "Alineadores o brackets: comparativa",
-        "Cómo es el tratamiento, paso a paso",
-        "¿Cuánto dura?",
+        "Cómo es el tratamiento con alineadores, paso a paso",
+        "¿Cuánto dura el tratamiento con alineadores?",
         "Precio de la ortodoncia invisible en Santa Fe"
       ],
       "faq": []
@@ -208,8 +208,8 @@
         "Carillas dentales",
         "Blanqueamiento dental",
         "Diseño de sonrisa",
-        "Cómo es el tratamiento, paso a paso",
-        "Cuidados y duración",
+        "Cómo es el tratamiento de estética dental, paso a paso",
+        "Cuidados y duración del blanqueamiento y las carillas",
         "Precio de la estética dental en Santa Fe"
       ],
       "faq": []
@@ -225,10 +225,10 @@
       "description": "Tratamiento de conducto (endodoncia) en Santa Fe: cuándo hace falta, si duele, cómo es el procedimiento y qué viene después.",
       "h1": "Tratamiento de conducto (endodoncia) en Santa Fe",
       "h2s": [
-        "¿Qué es un tratamiento de conducto?",
-        "¿Cuándo hace falta?",
-        "¿Duele?",
-        "¿Cuántas sesiones lleva?",
+        "¿Qué es un tratamiento de conducto o endodoncia?",
+        "¿Cuándo hace falta una endodoncia?",
+        "¿Duele el tratamiento de conducto?",
+        "¿Cuántas sesiones lleva una endodoncia?",
         "Después del conducto: ¿hace falta una corona?",
         "Precio del tratamiento de conducto en Santa Fe"
       ],
@@ -247,8 +247,8 @@
       "h2s": [
         "¿Te sangran las encías?",
         "Gingivitis y periodontitis",
-        "Cómo es el tratamiento, paso a paso",
-        "Cómo evitar que avance",
+        "Cómo es el tratamiento de periodoncia, paso a paso",
+        "Cómo evitar que avance la enfermedad de las encías",
         "Precio del tratamiento de encías en Santa Fe"
       ],
       "faq": []
@@ -265,8 +265,8 @@
       "h1": "Limpieza dental y operatoria en Santa Fe",
       "h2s": [
         "Qué incluye una limpieza dental",
-        "Cada cuánto conviene hacerla",
-        "Caries y arreglos (operatoria)",
+        "¿Cada cuánto conviene una limpieza dental?",
+        "Caries y arreglos (operatoria dental)",
         "Bruxismo y placas de relajación",
         "Precio de la limpieza dental en Santa Fe"
       ],
@@ -283,12 +283,12 @@
       "description": "Odontopediatría en Santa Fe: primera visita, selladores y flúor, caries en dientes de leche y qué hacer si tu hijo tiene miedo.",
       "h1": "Odontopediatra en Santa Fe",
       "h2s": [
-        "¿Cuándo llevar a tu hijo por primera vez?",
-        "Cómo es la primera visita",
-        "Selladores y flúor",
+        "¿Cuándo llevar a tu hijo al odontopediatra por primera vez?",
+        "Cómo es la primera visita con el dentista",
+        "Selladores y flúor para prevenir caries",
         "Caries en dientes de leche",
-        "Ortopedia",
-        "Si tu hijo tiene miedo"
+        "Ortopedia y ortodoncia en niños",
+        "Si tu hijo tiene miedo al dentista"
       ],
       "faq": []
     },

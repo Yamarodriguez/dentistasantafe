@@ -12,9 +12,9 @@ const { pagina } = Astro.props;
 const c = pagina.contenido;
 const fijos = [
   { t: 'Tu dentista en Santa Fe', bloque: 'equipo' },
-  { t: '¿Lo cubre mi obra social?', bloque: 'obras' },
+  { t: '¿Lo cubre mi obra social o prepaga?', bloque: 'obras' },
   { t: 'Nuestro centro odontológico en Santa Fe', bloque: 'mapa' },
-  { t: 'Opiniones de pacientes', bloque: 'opiniones' },
+  { t: 'Opiniones de pacientes de nuestra clínica dental', bloque: 'opiniones' },
   { t: c?.faq_titulo ?? 'Preguntas frecuentes', bloque: 'faq' },
 ];
 const autor = c?.autor && site.profesionales.find((p) => p.nombre === c.autor);

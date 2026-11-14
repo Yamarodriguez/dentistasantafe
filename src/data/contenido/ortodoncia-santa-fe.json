@@ -22,7 +22,7 @@
       "La ortodoncia es la parte de la odontología que **corrige la maloclusión**, es decir, cuando los dientes de arriba y los de abajo no encajan bien.",
       "La maloclusión suele ser hereditaria. También influyen diferencias de tamaño entre los maxilares, hábitos de la infancia como chuparse el dedo, dientes de más o que faltan y golpes en la mandíbula."
     ],
-    "¿Cuándo hace falta?": [
+    "¿Cuándo hace falta la ortodoncia?": [
       "Hace falta cuando la mordida afecta la higiene, la masticación o la estética; muchos casos leves no necesitan tratamiento.",
       "Algunas señales para hacer una consulta odontológica:",
       {
@@ -72,13 +72,13 @@
         }
       }
     ],
-    "Cómo es el tratamiento, paso a paso": [
+    "Cómo es el tratamiento con brackets, paso a paso": [
       "El tratamiento se hace en etapas: se coloca el aparato y se hacen controles periódicos; después de los brackets hace falta un retenedor.",
       "Suele durar de **6 meses a más de 2 años**, según el caso.",
       "[Pendiente: pasos del tratamiento en la clínica (evaluación, estudios, plan, colocación, controles, retiro), confirmados por el odontólogo]",
       "En algunos casos el plan incluye otros tratamientos dentales, como extraer o arreglar dientes, colocar coronas o, pocas veces, cirugía del maxilar."
     ],
-    "Cuidados y retenedores": [
+    "Cuidados con brackets y retenedores": [
       "Durante el tratamiento hay que cepillarse y usar hilo dental todos los días e ir a los controles en la clínica dental.",
       "Después de los brackets **hace falta un retenedor** para que los dientes no vuelvan a moverse. [Pendiente: qué se indica al terminar con alineadores]"
     ],
@@ -92,7 +92,7 @@
       "a": "Suele durar de 6 meses a más de 2 años, según el caso. El plazo de cada tratamiento lo indica el dentista."
     },
     {
-      "q": "¿Los adultos pueden hacerse ortodoncia?",
+      "q": "¿Los adultos pueden usar brackets?",
       "a": "Sí. En adultos también suele dar resultado, aunque puede llevar más tiempo; funciona mejor en niños y adolescentes."
     },
     {
@@ -106,6 +106,22 @@
     {
       "q": "¿Dónde pido turno para brackets en Santa Fe?",
       "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
+    },
+    {
+      "q": "¿Qué problemas corrigen los brackets?",
+      "a": "Corrigen la maloclusión: **dientes torcidos** y una mordida en la que los dientes de arriba y los de abajo no encajan bien."
+    },
+    {
+      "q": "¿Por qué se tuercen los dientes?",
+      "a": "La maloclusión suele ser hereditaria; también influyen chuparse el dedo en la infancia, diferencias de tamaño entre los maxilares, dientes de más o que faltan y golpes."
+    },
+    {
+      "q": "¿Qué cuidados hay que tener con brackets?",
+      "a": "Cepillarse y usar hilo dental todos los días e ir a los controles periódicos con el dentista."
+    },
+    {
+      "q": "¿Qué es mejor, brackets o alineadores?",
+      "a": "Depende del caso: los brackets van fijos con alambre y algunas personas pueden usar **alineadores transparentes**. Lo evalúa el dentista en la consulta."
     }
   ],
   "fotos": {

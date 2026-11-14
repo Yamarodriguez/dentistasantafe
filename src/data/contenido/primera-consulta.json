@@ -46,6 +46,10 @@
     {
       "q": "¿A qué edad es la primera consulta de un niño?",
       "a": "El NIDCR recomienda **antes de cumplir un año**; MedlinePlus, entre el primer diente y los 2 años y medio."
+    },
+    {
+      "q": "¿Qué conviene contarle al dentista?",
+      "a": "Entre otras cosas, si tenés diabetes o fumás: la enfermedad de las encías se relaciona con la diabetes y con el tabaco."
     }
   ]
 }

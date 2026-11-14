@@ -54,7 +54,7 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
 - Fase 3: texto en `src/data/contenido/<slug>.json` (secciones por H2, bloques: párrafo,
   h3 pregunta, lista, pasos, tabla, mas=enlace; faq; fuentes; autor; revisado; conteo).
   `npm run todo` incluye `todo:contenido` (`scripts/contenido.mjs`: clave exacta 6-11,
-  «Santa Fe» ≥ 3, FAQ 4-5, H3 en pregunta, 1.ª frase ≤ 35 palabras, palabras
+  «Santa Fe» ≥ 3, FAQ 4-10 (Yama, 2026-11-14), H3 en pregunta, 1.ª frase ≤ 35 palabras, palabras
   prohibidas, fuentes válidas). Segunda capa: un subagente revisor por página
   («buscá motivos para rechazar», sin escribir ficheros, devuelve JSON).
 
@@ -191,6 +191,14 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   dentista, odontólogo, odontología, consulta / tratamiento odontológico, tratamientos dentales, salud
   bucal, cobertura odontológica. Tope: la clave de cada página sigue en 6-11 y la negrita ≤ 5 %; el
   revisor rechazó las muletillas «Entre los tratamientos dentales…» (no volver a meterlas).
+  **3.ª pasada (Yama, 2026-11-14): más FAQ y análisis de H2** (172 páginas de competencia en
+  competencia/datos, script en el scratchpad h2comp.py). La competencia pone la clave en el H2
+  («¿Cuándo hace falta una endodoncia?», «Preguntas frecuentes sobre X»): H2 de tratamientos
+  renombrados (paginas.json h2s + claves de contenido.secciones y fotos), bloques fijos «¿Lo cubre mi
+  obra social o prepaga?» y «Opiniones de pacientes de nuestra clínica dental». FAQ: 8-9 por
+  tratamiento (estética 6: faltan datos de carillas), portada 8. Una pregunta de la FAQ nunca repite
+  un H2/H3 de la página. Hecho nuevo enc-periodontal (MedlinePlus: «otros nombres»).
+  Precios en FAQ: no (pendientes de Yama).
 - **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
   robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
   schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),

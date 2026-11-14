@@ -24,7 +24,7 @@
       "Igual que los brackets, sirve para **corregir la maloclusión**: cuando los dientes de arriba y los de abajo no encajan bien.",
       "[Pendiente: marca o sistema de alineadores que usa la clínica]"
     ],
-    "¿Para quién está indicada?": [
+    "¿Para quién está indicada la ortodoncia invisible?": [
       "La ortodoncia invisible es una opción para algunas personas, que pueden usar alineadores transparentes en lugar de brackets.",
       "[Pendiente: en qué casos la recomienda la clínica y en cuáles no, y quién lo decide, confirmado por el odontólogo]"
     ],
@@ -63,15 +63,15 @@
         }
       }
     ],
-    "Cómo es el tratamiento, paso a paso": [
+    "Cómo es el tratamiento con alineadores, paso a paso": [
       "[Pendiente: cómo es el tratamiento con alineadores en la clínica: pasos, horas de uso al día, cada cuánto se cambian y qué se indica al terminar, confirmado por el odontólogo]"
     ],
-    "¿Cuánto dura?": [
+    "¿Cuánto dura el tratamiento con alineadores?": [
       "La ortodoncia suele durar de **6 meses a más de 2 años**, según el caso. [Pendiente: tiempo habitual con alineadores en la clínica]",
       "Durante el tratamiento hay que mantener el cepillado y el hilo dental todos los días e ir a los controles con el dentista."
     ],
     "Precio de la ortodoncia invisible en Santa Fe": [
-      "[Pendiente: precio orientativo de la ortodoncia invisible en Santa Fe con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"
+      "[Pendiente: precio orientativo en Santa Fe con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"
     ]
   },
   "faq": [
@@ -84,7 +84,7 @@
       "a": "No para todos: algunas personas pueden usar alineadores en lugar de brackets. Si son una opción para vos, lo evalúa el dentista en la consulta."
     },
     {
-      "q": "¿Cuánto dura el tratamiento con alineadores?",
+      "q": "¿Cuántos meses se usan los alineadores?",
       "a": "La ortodoncia suele durar de 6 meses a más de 2 años, según el caso. [Pendiente: tiempo habitual con alineadores]"
     },
     {
@@ -94,6 +94,18 @@
     {
       "q": "¿Dónde me hago ortodoncia invisible en Santa Fe?",
       "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
+    },
+    {
+      "q": "¿Se notan los alineadores?",
+      "a": "Son **transparentes** y no llevan alambres; por eso se habla de ortodoncia «invisible»."
+    },
+    {
+      "q": "¿Los adultos pueden usar alineadores?",
+      "a": "La ortodoncia suele dar resultado en adultos, aunque puede llevar más tiempo que en niños y adolescentes. Si los alineadores son una opción para vos, lo evalúa el dentista."
+    },
+    {
+      "q": "¿Qué cuidados hay que tener con los alineadores?",
+      "a": "Cepillado e hilo dental todos los días y controles periódicos con el dentista."
     }
   ],
   "fotos": {

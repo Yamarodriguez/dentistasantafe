@@ -22,7 +22,7 @@
   "autor": null,
   "revisado": null,
   "secciones": {
-    "¿Cuándo llevar a tu hijo por primera vez?": [
+    "¿Cuándo llevar a tu hijo al odontopediatra por primera vez?": [
       "La primera visita al odontopediatra **conviene hacerla temprano**: el Instituto Nacional de Investigación Dental y Craneofacial de EE. UU. (NIDCR) recomienda antes de que el niño cumpla un año, y MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) la ubica entre que sale el primer diente y los 2 años y medio.",
       "Después, MedlinePlus aconseja **controles cada 6 meses**.",
       "Los problemas de salud bucal en niños pueden afectar la alimentación, el habla, el desarrollo de la mandíbula y la autoestima.",
@@ -33,14 +33,14 @@
         }
       }
     ],
-    "Cómo es la primera visita": [
+    "Cómo es la primera visita con el dentista": [
       "[Pendiente: cómo es la primera visita con el odontopediatra en la clínica, confirmado por el odontólogo]",
       {
         "h3": "¿Qué conviene contar en la consulta?"
       },
       "Si el niño se chupa el dedo o respira por la boca."
     ],
-    "Selladores y flúor": [
+    "Selladores y flúor para prevenir caries": [
       "**Los selladores y el flúor** ayudan a prevenir las caries: los selladores se colocan en las superficies de masticación de las muelas.",
       "El flúor fortalece el esmalte y puede revertir caries que recién empiezan. El dentista puede aplicar barniz o gel de flúor.",
       {
@@ -67,7 +67,7 @@
         }
       }
     ],
-    "Ortopedia": [
+    "Ortopedia y ortodoncia en niños": [
       "[Pendiente: a qué edad recomienda la clínica la primera consulta de ortopedia y qué aparatos usa, confirmado por el odontólogo]",
       "Hábitos de la infancia como **chuparse el dedo** pueden influir en la mordida, y la ortodoncia funciona mejor en niños y adolescentes.",
       {
@@ -77,7 +77,7 @@
         }
       }
     ],
-    "Si tu hijo tiene miedo": [
+    "Si tu hijo tiene miedo al dentista": [
       "[Pendiente: cómo trabaja la clínica con niños que tienen miedo, confirmado por el odontólogo]",
       "MedlinePlus sugiere una **visita «de prueba»** para que el niño conozca el consultorio antes de un tratamiento."
     ]
@@ -102,10 +102,26 @@
     {
       "q": "¿Qué hago si mi hijo tiene miedo al dentista?",
       "a": "MedlinePlus sugiere una visita «de prueba» para que el niño conozca el consultorio antes de un tratamiento."
+    },
+    {
+      "q": "¿Cómo se limpian las encías del bebé?",
+      "a": "Antes de que salgan los dientes, con un **paño húmedo** después de comer; con el primer diente se pasa a un cepillo suave."
+    },
+    {
+      "q": "¿Para qué sirven los selladores dentales?",
+      "a": "Para **prevenir caries**: se colocan en las superficies de masticación de las muelas."
+    },
+    {
+      "q": "¿Cuántas veces al día hay que cepillar los dientes de un niño?",
+      "a": "Al menos dos veces al día, sobre todo antes de dormir; el niño puede practicar, pero un adulto supervisa y termina la limpieza."
+    },
+    {
+      "q": "¿Por qué hay que cuidar los dientes de leche?",
+      "a": "Porque los problemas dentales en niños pueden afectar la **alimentación, el habla**, el desarrollo de la mandíbula y la autoestima."
     }
   ],
   "fotos": {
-    "¿Cuándo llevar a tu hijo por primera vez?": "ninos"
+    "¿Cuándo llevar a tu hijo al odontopediatra por primera vez?": "ninos"
   },
   "resumen": [
     "El NIDCR recomienda la primera visita antes del primer año; MedlinePlus, entre el primer diente y los 2 años y medio.",

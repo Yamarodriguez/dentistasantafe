@@ -72,6 +72,18 @@
     {
       "q": "¿Cuál es el horario de atención?",
       "a": "El horario del consultorio odontológico es de lunes a viernes, de 8 a 20 h; sábados y domingos, cerrado."
+    },
+    {
+      "q": "¿Atienden con obra social?",
+      "a": "Sí, atendemos con obra social y de forma particular; la cobertura depende de cada plan. La lista está en la página de obras sociales y prepagas. [confirmar: prepagas]"
+    },
+    {
+      "q": "¿Qué tratamientos dentales hacen?",
+      "a": "Odontología estética, implantes, ortodoncia, periodoncia y odontopediatría, entre otros; la lista completa está en la página de tratamientos. [confirmar: servicios]"
+    },
+    {
+      "q": "¿Hay que tener dolor para ir al dentista?",
+      "a": "No. Muchas caries **no dan síntomas** y se descubren en los controles."
     }
   ],
   "entrada": "**Atención odontológica en Santa Fe**: odontología estética, implantes, ortodoncia, periodoncia y odontopediatría, con obra social o de forma particular."

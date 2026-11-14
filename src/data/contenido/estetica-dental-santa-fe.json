@@ -50,7 +50,7 @@
     "Diseño de sonrisa": [
       "[Pendiente: qué entiende la clínica por diseño de sonrisa y cómo lo hace, confirmado por el odontólogo]"
     ],
-    "Cómo es el tratamiento, paso a paso": [
+    "Cómo es el tratamiento de estética dental, paso a paso": [
       "El primer paso del tratamiento dental es saber **qué tipo de mancha es**, porque de eso depende la opción.",
       {
         "tabla": {
@@ -72,7 +72,7 @@
       },
       "[Pendiente: pasos del blanqueamiento y de las carillas en la clínica, confirmados por el odontólogo]"
     ],
-    "Cuidados y duración": [
+    "Cuidados y duración del blanqueamiento y las carillas": [
       "[Pendiente: cuánto dura el resultado del blanqueamiento y de las carillas, y qué cuidados indica la clínica]",
       "El té, el café, el vino tinto y el tabaco figuran entre las causas que pueden manchar los dientes."
     ],
@@ -100,6 +100,10 @@
     {
       "q": "¿Dónde me hago estética dental en Santa Fe?",
       "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**: el dentista revisa qué tipo de mancha es y explica las opciones."
+    },
+    {
+      "q": "¿Por qué cambia el color de los dientes?",
+      "a": "Por lo que se come y se bebe, el tabaco o la mala higiene, y también por la **genética** o por algunos medicamentos tomados mientras se forman los dientes."
     }
   ],
   "fotos": {

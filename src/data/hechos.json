@@ -154,6 +154,11 @@
       "texto": "La enfermedad de las encías se relaciona con la diabetes y con el tabaco."
     },
     {
+      "id": "enc-periodontal",
+      "fuente": "mlp-encias",
+      "texto": "MedlinePlus da «enfermedad periodontal» como otro nombre de la enfermedad de las encías, que va desde una inflamación de las encías (gingivitis) hasta daños graves en los tejidos y huesos que sostienen los dientes."
+    },
+    {
       "id": "con-nombre",
       "fuente": "mlp-conducto",
       "texto": "El tratamiento de conducto también se llama endodoncia (así titula MedlinePlus la página)."

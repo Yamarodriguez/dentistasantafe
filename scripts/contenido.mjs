@@ -2,7 +2,7 @@
 // Lee src/data/contenido/*.json y la página construida en dist/. Por página:
 //   - clave (regex de "conteo.clave") entre min y max veces en <main>
 //   - la ciudad («Santa Fe») al menos 3 veces
-//   - FAQ de 4 a 5 preguntas; H3 de texto en forma de pregunta
+//   - FAQ de 4 a 10 preguntas (Yama, 2026-11-14: más preguntas para posicionar); H3 de texto en forma de pregunta
 //   - primera frase de cada sección ≤ 35 palabras (respuesta directa)
 //   - sin palabras prohibidas (superlativos, promesas: ley 12094 de Santa Fe y buena práctica)
 //   - fuentes declaradas que existen en hechos.json
@@ -56,7 +56,7 @@ for (const f of archivos) {
     }
   }
   const nfaq = (c.faq ?? []).length;
-  if (nfaq < 4 || nfaq > 5) errores.push(`${nfaq} preguntas frecuentes (deben ser 4-5)`);
+  if (nfaq < 4 || nfaq > 10) errores.push(`${nfaq} preguntas frecuentes (deben ser 4-10)`);
   for (const [h2, bloques] of Object.entries(c.secciones ?? {})) {
     const primero = bloques.find((b) => typeof b === 'string' && !b.startsWith('[Pendiente'));
     if (primero) {

@@ -21,11 +21,11 @@
   "revisado": null,
   "secciones": {
     "Qué incluye una limpieza dental": [
-      "[Pendiente: qué incluye la limpieza dental en la clínica y si el control se hace en la misma visita, confirmado por el odontólogo]",
+      "[Pendiente: qué incluye en la clínica y si el control se hace en la misma visita, confirmado por el odontólogo]",
       "La placa bacteriana que no se retira se endurece y **forma sarro**, que puede irritar las encías.",
       "La mayoría de las caries se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean."
     ],
-    "Cada cuánto conviene hacerla": [
+    "¿Cada cuánto conviene una limpieza dental?": [
       "MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) aconseja una limpieza profesional **cada 6 meses**.",
       "Si tenés enfermedad de las encías, el dentista puede indicarte otro plazo.",
       "Entre una limpieza y otra, en casa:",
@@ -44,7 +44,7 @@
         }
       }
     ],
-    "Caries y arreglos (operatoria)": [
+    "Caries y arreglos (operatoria dental)": [
       "Una caries es un **daño o agujero en el diente**: las bacterias convierten azúcares y almidones en ácidos que dañan el esmalte.",
       "El arreglo de las caries forma parte de la **operatoria dental**.",
       {
@@ -102,6 +102,22 @@
     {
       "q": "¿Para qué sirve la placa de relajación?",
       "a": "Protege los dientes de la **presión del rechinamiento** (bruxismo); los síntomas pueden mejorar mientras se usa y volver al dejarla."
+    },
+    {
+      "q": "¿Cómo se previenen las caries?",
+      "a": "Cepillándose al menos dos veces al día, usando hilo dental a diario, con una limpieza en el consultorio cada 6 meses y con menos picoteo y bebidas azucaradas."
+    },
+    {
+      "q": "¿Qué es el bruxismo?",
+      "a": "Es apretar o rechinar los dientes sin darse cuenta, de día o de noche; el **estrés** es un desencadenante frecuente."
+    },
+    {
+      "q": "¿Qué pasa si la caries es grande?",
+      "a": "Si queda poco diente se usa una **corona**; si llega al nervio, un tratamiento de conducto, y si destruye el diente, puede hacer falta extraerlo."
+    },
+    {
+      "q": "¿Cuándo consultar por bruxismo?",
+      "a": "Si **cuesta comer o abrir la boca**, o si los cuidados no ayudan después de algunas semanas."
     }
   ],
   "fotos": {
@@ -113,5 +129,5 @@
     "Muchas caries no dan síntomas y se descubren en los controles; se arreglan con un empaste.",
     "El bruxismo es apretar o rechinar los dientes; una placa de relajación los protege de la presión."
   ],
-  "faq_titulo": "Preguntas frecuentes sobre limpieza dental"
+  "faq_titulo": "Preguntas frecuentes sobre limpieza dental, caries y bruxismo"
 }

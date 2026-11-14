@@ -18,11 +18,11 @@
   "autor": null,
   "revisado": null,
   "secciones": {
-    "¿Qué es un tratamiento de conducto?": [
+    "¿Qué es un tratamiento de conducto o endodoncia?": [
       "Un tratamiento de conducto es un procedimiento odontológico que **salva un diente** quitando de su interior el nervio dañado o infectado y las bacterias.",
       "También se lo llama endodoncia. El objetivo es **conservar el diente propio** en lugar de la extracción."
     ],
-    "¿Cuándo hace falta?": [
+    "¿Cuándo hace falta una endodoncia?": [
       "Hace falta cuando una **infección llega al nervio** de la raíz del diente, algo que suele dar dolor e hinchazón.",
       "Las causas más habituales son:",
       {
@@ -34,11 +34,11 @@
       },
       "Si el daño es muy grande, puede que el diente no se pueda salvar y haya que extraerlo. Eso lo decide el dentista al revisar el diente."
     ],
-    "¿Duele?": [
+    "¿Duele el tratamiento de conducto?": [
       "El pinchazo de la anestesia puede molestar un poco, y después puede haber dolor e inflamación.",
       "Ese dolor suele calmarse con los **antiinflamatorios** que indique el odontólogo. En algunos casos también se indican antibióticos para tratar o prevenir una infección."
     ],
-    "¿Cuántas sesiones lleva?": [
+    "¿Cuántas sesiones lleva una endodoncia?": [
       "[Pendiente: cuántas sesiones suele llevar en la clínica y cuánto dura cada una, confirmado por el odontólogo]",
       "En general, este tratamiento dental sigue estos pasos:",
       {
@@ -67,7 +67,7 @@
       }
     ],
     "Precio del tratamiento de conducto en Santa Fe": [
-      "[Pendiente: precio orientativo del tratamiento de conducto en Santa Fe con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"
+      "[Pendiente: precio orientativo en Santa Fe con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"
     ]
   },
   "faq": [
@@ -90,10 +90,26 @@
     {
       "q": "¿Por qué después hace falta una corona?",
       "a": "Porque el diente queda con un **sellado provisorio** y normalmente necesita una corona permanente."
+    },
+    {
+      "q": "¿Qué síntomas indican que hace falta una endodoncia?",
+      "a": "Suele dar **dolor e hinchazón**, cuando una infección llega al nervio de la raíz por una caries profunda, una fractura o un golpe."
+    },
+    {
+      "q": "¿Cómo se hace una endodoncia?",
+      "a": "Con anestesia local se abre un pequeño acceso en el diente, se retira la pulpa con limas, se desinfectan los conductos y se rellenan con un material permanente."
+    },
+    {
+      "q": "¿Qué riesgos tiene la endodoncia?",
+      "a": "Riesgos posibles: infección o absceso, pérdida del diente, daño a un nervio o **fractura del diente**."
+    },
+    {
+      "q": "¿Hace falta tomar antibióticos en una endodoncia?",
+      "a": "No siempre: en algunos casos el dentista indica antibióticos para tratar o prevenir una infección."
     }
   ],
   "fotos": {
-    "¿Qué es un tratamiento de conducto?": "conducto"
+    "¿Qué es un tratamiento de conducto o endodoncia?": "conducto"
   },
   "resumen": [
     "El tratamiento de conducto (endodoncia) quita el nervio dañado o infectado para salvar el diente.",

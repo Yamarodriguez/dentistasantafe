@@ -50,14 +50,14 @@
           ]
         }
       },
-      "A la enfermedad de las encías también se la llama **enfermedad periodontal**, porque afecta al tejido que sostiene el diente.",
+      "A la enfermedad de las encías también se la llama **enfermedad periodontal**: va desde la gingivitis hasta daños en los tejidos y huesos que sostienen los dientes.",
       "La enfermedad de las encías se relaciona con la diabetes y con el tabaco."
     ],
-    "Cómo es el tratamiento, paso a paso": [
+    "Cómo es el tratamiento de periodoncia, paso a paso": [
       "En periodoncia, la gingivitis **suele revertirse** con cepillado diario, hilo dental y limpiezas profesionales en el consultorio.",
       "[Pendiente: pasos del tratamiento de periodoncia (periodontitis) en la clínica (revisión, raspaje, controles, cirugía si hace falta), confirmados por el odontólogo]"
     ],
-    "Cómo evitar que avance": [
+    "Cómo evitar que avance la enfermedad de las encías": [
       "El cepillado y el hilo dental todos los días, junto con **limpiezas profesionales periódicas**, ayudan a que la gingivitis no avance.",
       "[Pendiente: seguimiento y controles de periodoncia después de tratar una periodontitis, según el odontólogo]",
       {
@@ -91,6 +91,18 @@
     {
       "q": "¿Dónde me trato las encías en Santa Fe?",
       "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
+    },
+    {
+      "q": "¿Qué diferencia hay entre gingivitis y periodontitis?",
+      "a": "La gingivitis es la forma leve y afecta la encía; la periodontitis es la avanzada y daña también el **tejido que sostiene el diente**."
+    },
+    {
+      "q": "¿Qué es la enfermedad periodontal?",
+      "a": "Es otro nombre de la enfermedad de las encías: va desde una inflamación leve (gingivitis) hasta daños en los tejidos y huesos que sostienen los dientes."
+    },
+    {
+      "q": "¿Qué cuidados ayudan a que la gingivitis no avance?",
+      "a": "El cepillado y el hilo dental todos los días, junto con limpiezas profesionales periódicas."
     }
   ],
   "fotos": {

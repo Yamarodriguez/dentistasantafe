@@ -24,7 +24,7 @@
       "Las prótesis dentales removibles completas cubren todo el maxilar de arriba o de abajo, y las parciales reemplazan uno o algunos dientes.",
       "En esta página llamamos prótesis removible a la dentadura que se saca, y prótesis fija a la corona o el puente."
     ],
-    "Prótesis fija o removible": [
+    "Prótesis dental fija o removible": [
       "La diferencia es que **la removible se saca** y la fija no: la corona se cementa sobre el diente y el puente se apoya en coronas.",
       {
         "tabla": {
@@ -54,7 +54,7 @@
       },
       "Cuál conviene en cada caso lo decide el dentista en la consulta odontológica, después de revisar la boca."
     ],
-    "Coronas": [
+    "Coronas dentales": [
       "Una corona es una **funda con forma de diente** que cubre el diente por encima de la encía, para protegerlo cuando está débil o mejorar su aspecto.",
       {
         "h3": "¿Cuándo se usa una corona?"
@@ -89,7 +89,7 @@
         }
       }
     ],
-    "Cómo es el tratamiento, paso a paso": [
+    "Cómo se hacen las coronas y las prótesis removibles, paso a paso": [
       "Una corona suele hacerse en **dos visitas**.",
       {
         "pasos": [
@@ -101,7 +101,7 @@
       "Con una prótesis removible, al principio hablar y comer puede sentirse raro, y el dentista puede querer controles seguidos para revisar el ajuste.",
       "[Pendiente: pasos y plazos de las prótesis removibles en la clínica, confirmados por el odontólogo]"
     ],
-    "Cuidados y duración": [
+    "Cuidados y duración de coronas y prótesis removibles": [
       "Los cuidados dependen del tipo de prótesis, y la mayoría de las coronas dura **al menos 5 años** y puede llegar a 15 o 20.",
       {
         "h3": "¿Cómo se cuida una corona?"
@@ -136,6 +136,22 @@
     {
       "q": "¿Es normal sentir rara la prótesis al principio?",
       "a": "Sí: al principio **hablar y comer puede sentirse raro**, y el dentista puede pedirte controles seguidos para revisar el ajuste."
+    },
+    {
+      "q": "¿Qué tipos de prótesis dentales hay?",
+      "a": "Hay prótesis **removibles** (dentaduras completas o parciales) y **fijas** (coronas y puentes); también pueden ir sobre implantes."
+    },
+    {
+      "q": "¿Cuándo hace falta una corona?",
+      "a": "Cuando un diente tiene una **caries grande**, está astillado o roto, está gastado por rechinar o tiene alterados la forma, el color o la posición."
+    },
+    {
+      "q": "¿Qué riesgos tiene una corona?",
+      "a": "Riesgos posibles: caries debajo de la corona, que se caiga o se astille y **sensibilidad al frío** o al calor."
+    },
+    {
+      "q": "¿Hay que cambiar la prótesis removible con el tiempo?",
+      "a": "Puede hacer falta: la boca cambia y la prótesis puede necesitar **ajustes o recambio**, que hace el dentista."
     }
   ],
   "fotos": {
