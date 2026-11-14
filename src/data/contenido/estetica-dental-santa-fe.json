@@ -108,7 +108,9 @@
     }
   ],
   "fotos": {
-    "Carillas dentales": "estetica"
+    "Carillas dentales": "estetica",
+    "Blanqueamiento dental": "blanqueamiento",
+    "Cuidados y duración del blanqueamiento y las carillas": "estetica-cuidados"
   },
   "resumen": [
     "Las manchas superficiales o por la dieta suelen mejorar con blanqueamiento dental o con una limpieza profesional.",

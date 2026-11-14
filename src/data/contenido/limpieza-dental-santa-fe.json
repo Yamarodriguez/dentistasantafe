@@ -122,7 +122,9 @@
     }
   ],
   "fotos": {
-    "Qué incluye una limpieza dental": "limpieza"
+    "Qué incluye una limpieza dental": "limpieza",
+    "Caries y arreglos (operatoria dental)": "operatoria",
+    "Bruxismo y placas de relajación": "bruxismo"
   },
   "resumen": [
     "MedlinePlus aconseja una limpieza profesional cada 6 meses.",

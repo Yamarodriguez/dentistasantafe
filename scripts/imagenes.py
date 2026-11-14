@@ -52,6 +52,26 @@ IMAGENES = [
     (U + "estetica.jpg", "fotos/estetica-dental-santa-fe.webp", 900),
     (U + "ninos.jpg", "fotos/limpieza-dental-santa-fe.webp", 900),
     (U + "cepillo-bambu-blanco.jpg", "fotos/odontopediatra-santa-fe.webp", 900),
+    # Tratamientos: 2-3 fotos más por página (Yama, 2026-11-14)
+    (U + "protesis-implantes-maqueta.jpg", "fotos/protesis-sobre-implantes-santa-fe.webp", 900),
+    (U + "protesis-laboratorio.jpg", "fotos/coronas-y-protesis-dentales-laboratorio-santa-fe.webp", 900),
+    (U + "protesis-removible-modelo.jpg", "fotos/cuidados-protesis-removible-santa-fe.webp", 900),
+    (U + "brackets-maqueta.jpg", "fotos/tipos-de-brackets-ortodoncia-santa-fe.webp", 900),
+    (U + "brackets-y-alineadores-maquetas.jpg", "fotos/tratamiento-con-brackets-santa-fe.webp", 900),
+    (U + "brackets-guante.jpg", "fotos/cuidados-brackets-ortodoncia-santa-fe.webp", 900),
+    (U + "alineador-fondo-blanco.jpg", "fotos/alineadores-transparentes-santa-fe.webp", 900),
+    (U + "alineador-colocacion.jpg", "fotos/tratamiento-con-alineadores-santa-fe.webp", 900),
+    (U + "sonrisa-blanqueamiento.jpg", "fotos/blanqueamiento-dental-santa-fe.webp", 900),
+    (U + "sonrisa-cuidados.jpg", "fotos/cuidados-estetica-dental-santa-fe.webp", 900),
+    (U + "espejo-dental-consultorio.jpg", "fotos/duele-tratamiento-de-conducto-santa-fe.webp", 900),
+    (U + "instrumental-dental-mesa.jpg", "fotos/endodoncia-santa-fe-instrumental.webp", 900),
+    (U + "piezas-de-mano-sillon.jpg", "fotos/tratamiento-periodoncia-santa-fe.webp", 900),
+    (U + "cepillos-en-taza.jpg", "fotos/prevenir-enfermedad-encias-santa-fe.webp", 900),
+    (U + "espejo-y-explorador.jpg", "fotos/caries-operatoria-dental-santa-fe.webp", 900),
+    (U + "maqueta-dientes-mesa.jpg", "fotos/bruxismo-placa-de-relajacion-santa-fe.webp", 900),
+    (U + "cepillo-rosa-fondo-naranja.jpg", "fotos/selladores-fluor-ninos-santa-fe.webp", 900),
+    (U + "cepillos-infantiles-vaso.jpg", "fotos/caries-dientes-de-leche-santa-fe.webp", 900),
+    (U + "cepillos-colores.jpg", "fotos/miedo-al-dentista-ninos-santa-fe.webp", 900),
 ]
 
 fallos = 0

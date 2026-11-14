@@ -121,7 +121,10 @@
     }
   ],
   "fotos": {
-    "¿Cuándo llevar a tu hijo al odontopediatra por primera vez?": "ninos"
+    "¿Cuándo llevar a tu hijo al odontopediatra por primera vez?": "ninos",
+    "Selladores y flúor para prevenir caries": "ninos-cepillo",
+    "Caries en dientes de leche": "ninos-cepillos",
+    "Si tu hijo tiene miedo al dentista": "ninos-colores"
   },
   "resumen": [
     "El NIDCR recomienda la primera visita antes del primer año; MedlinePlus, entre el primer diente y los 2 años y medio.",

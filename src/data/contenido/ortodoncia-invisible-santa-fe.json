@@ -115,7 +115,9 @@
     }
   ],
   "fotos": {
-    "¿Qué es la ortodoncia invisible?": "alineador"
+    "¿Qué es la ortodoncia invisible?": "alineador",
+    "¿Para quién está indicada la ortodoncia invisible?": "alineador-transparente",
+    "¿Cuánto dura el tratamiento con alineadores?": "alineador-colocacion"
   },
   "resumen": [
     "La ortodoncia invisible usa alineadores transparentes, sin brackets ni alambres.",

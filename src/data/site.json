@@ -105,6 +105,82 @@
     "implante-corona": {
       "src": "/img/fotos/implante-dental-y-corona-santa-fe.webp",
       "alt": "Implante dental con su corona sostenido por una mano con guante (imagen ilustrativa)"
+    },
+    "protesis-implantes": {
+      "src": "/img/fotos/protesis-sobre-implantes-santa-fe.webp",
+      "alt": "Manos sosteniendo una maqueta de prótesis sobre implantes (imagen ilustrativa)"
+    },
+    "protesis-laboratorio": {
+      "src": "/img/fotos/coronas-y-protesis-dentales-laboratorio-santa-fe.webp",
+      "alt": "Técnico ajustando una prótesis dental con instrumental (imagen ilustrativa)"
+    },
+    "protesis-cuidados": {
+      "src": "/img/fotos/cuidados-protesis-removible-santa-fe.webp",
+      "alt": "Prótesis dental removible sobre un modelo de yeso (imagen ilustrativa)"
+    },
+    "brackets-tipos": {
+      "src": "/img/fotos/tipos-de-brackets-ortodoncia-santa-fe.webp",
+      "alt": "Maqueta de dientes con brackets metálicos (imagen ilustrativa)"
+    },
+    "brackets-tratamiento": {
+      "src": "/img/fotos/tratamiento-con-brackets-santa-fe.webp",
+      "alt": "Dos maquetas dentales, una con brackets y otra con alineadores (imagen ilustrativa)"
+    },
+    "brackets-cuidados": {
+      "src": "/img/fotos/cuidados-brackets-ortodoncia-santa-fe.webp",
+      "alt": "Mano con guante sosteniendo una maqueta con brackets (imagen ilustrativa)"
+    },
+    "alineador-transparente": {
+      "src": "/img/fotos/alineadores-transparentes-santa-fe.webp",
+      "alt": "Alineador transparente de ortodoncia invisible sobre fondo blanco (imagen ilustrativa)"
+    },
+    "alineador-colocacion": {
+      "src": "/img/fotos/tratamiento-con-alineadores-santa-fe.webp",
+      "alt": "Persona colocándose un alineador transparente (imagen ilustrativa)"
+    },
+    "blanqueamiento": {
+      "src": "/img/fotos/blanqueamiento-dental-santa-fe.webp",
+      "alt": "Sonrisa con dientes blancos, blanqueamiento dental (imagen ilustrativa)"
+    },
+    "estetica-cuidados": {
+      "src": "/img/fotos/cuidados-estetica-dental-santa-fe.webp",
+      "alt": "Primer plano de una sonrisa (imagen ilustrativa)"
+    },
+    "conducto-espejo": {
+      "src": "/img/fotos/duele-tratamiento-de-conducto-santa-fe.webp",
+      "alt": "Espejo dental con el sillón del consultorio de fondo (imagen ilustrativa)"
+    },
+    "conducto-instrumental": {
+      "src": "/img/fotos/endodoncia-santa-fe-instrumental.webp",
+      "alt": "Instrumental odontológico sobre una mesa (imagen ilustrativa)"
+    },
+    "periodoncia-equipo": {
+      "src": "/img/fotos/tratamiento-periodoncia-santa-fe.webp",
+      "alt": "Instrumental del sillón odontológico (imagen ilustrativa)"
+    },
+    "periodoncia-cepillos": {
+      "src": "/img/fotos/prevenir-enfermedad-encias-santa-fe.webp",
+      "alt": "Cepillos de dientes en una taza blanca (imagen ilustrativa)"
+    },
+    "operatoria": {
+      "src": "/img/fotos/caries-operatoria-dental-santa-fe.webp",
+      "alt": "Espejo y exploradores dentales sobre una superficie (imagen ilustrativa)"
+    },
+    "bruxismo": {
+      "src": "/img/fotos/bruxismo-placa-de-relajacion-santa-fe.webp",
+      "alt": "Maqueta de dientes sobre una mesa blanca (imagen ilustrativa)"
+    },
+    "ninos-cepillo": {
+      "src": "/img/fotos/selladores-fluor-ninos-santa-fe.webp",
+      "alt": "Cepillo de dientes rosa sobre fondo naranja (imagen ilustrativa)"
+    },
+    "ninos-cepillos": {
+      "src": "/img/fotos/caries-dientes-de-leche-santa-fe.webp",
+      "alt": "Cepillos de dientes infantiles en un vaso con pelotitas de colores (imagen ilustrativa)"
+    },
+    "ninos-colores": {
+      "src": "/img/fotos/miedo-al-dentista-ninos-santa-fe.webp",
+      "alt": "Cepillos de dientes y figuras de colores (imagen ilustrativa)"
     }
   },
   "_confirmar": "confirmado: false = los textos de primera_consulta, ventajas y porque vienen de la estructura de COV y Yama aún no ha confirmado que sean ciertos en su clínica. Mientras sea false, la web muestra un aviso [Pendiente] (el validador lo cuenta).",
@@ -331,6 +407,101 @@
       "foto": "Implante dental con corona en una mano con guante",
       "autor": "Katarzyna Zygnerska",
       "url": "https://unsplash.com/photos/gloved-hand-holding-a-dental-implant-and-crown-eHwRLpfHSKY"
+    },
+    {
+      "foto": "Maqueta de prótesis sobre implantes",
+      "autor": "Peter Kasprzyk",
+      "url": "https://unsplash.com/photos/person-wearing-silver-colored-ring-while-holding-denture-U1gvhqVQ2kQ"
+    },
+    {
+      "foto": "Ajuste de una prótesis dental",
+      "autor": "Adrian Sulyok",
+      "url": "https://unsplash.com/photos/6dvjlBU3pQQ"
+    },
+    {
+      "foto": "Prótesis removible sobre modelo",
+      "autor": "Quang Tri NGUYEN",
+      "url": "https://unsplash.com/photos/VxVO1zrY5F8"
+    },
+    {
+      "foto": "Maqueta con brackets metálicos",
+      "autor": "Harold Hisona",
+      "url": "https://unsplash.com/photos/cx3JCL5PDew"
+    },
+    {
+      "foto": "Maquetas con brackets y alineadores",
+      "autor": "Katarzyna Zygnerska",
+      "url": "https://unsplash.com/photos/B9lLokDYTMY"
+    },
+    {
+      "foto": "Maqueta con brackets en mano con guante",
+      "autor": "Katarzyna Zygnerska",
+      "url": "https://unsplash.com/photos/HqFpHQzE-Ko"
+    },
+    {
+      "foto": "Alineador transparente",
+      "autor": "Geniova Technologies",
+      "url": "https://unsplash.com/photos/irPpXQF5bSI"
+    },
+    {
+      "foto": "Colocación de un alineador",
+      "autor": "Harold Hisona",
+      "url": "https://unsplash.com/photos/uTUsnv_UCSQ"
+    },
+    {
+      "foto": "Sonrisa con dientes blancos",
+      "autor": "Kamal Hoseinianzade",
+      "url": "https://unsplash.com/photos/RCQnbyQsnUg"
+    },
+    {
+      "foto": "Primer plano de una sonrisa",
+      "autor": "Tony Litvyak",
+      "url": "https://unsplash.com/photos/glPVwPr1FKo"
+    },
+    {
+      "foto": "Espejo dental en el consultorio",
+      "autor": "Katarzyna Zygnerska",
+      "url": "https://unsplash.com/photos/rubu_NvklJE"
+    },
+    {
+      "foto": "Instrumental odontológico",
+      "autor": "Ozkan Guner",
+      "url": "https://unsplash.com/photos/t3Z9mIBv-kY"
+    },
+    {
+      "foto": "Instrumental del sillón odontológico",
+      "autor": "Ozkan Guner",
+      "url": "https://unsplash.com/photos/8YUH8Jne5S0"
+    },
+    {
+      "foto": "Cepillos de dientes en una taza",
+      "autor": "Towfiqu barbhuiya",
+      "url": "https://unsplash.com/photos/rr0cuFV-0Mo"
+    },
+    {
+      "foto": "Espejo y exploradores dentales",
+      "autor": "Ozkan Guner",
+      "url": "https://unsplash.com/photos/R8MoN4FV5q0"
+    },
+    {
+      "foto": "Maqueta de dientes",
+      "autor": "Enis Yavuz",
+      "url": "https://unsplash.com/photos/4u2fG9mqGvQ"
+    },
+    {
+      "foto": "Cepillo de dientes rosa",
+      "autor": "Diana Polekhina",
+      "url": "https://unsplash.com/photos/fsS-KstBmDU"
+    },
+    {
+      "foto": "Cepillos infantiles en un vaso",
+      "autor": "BINGYEN STUDIO",
+      "url": "https://unsplash.com/photos/4AdykAiv4S0"
+    },
+    {
+      "foto": "Cepillos y figuras de colores",
+      "autor": "Pavel Avakumov",
+      "url": "https://unsplash.com/photos/GJEKCRU2GPQ"
     }
   ],
   "_foto_propia": "IMG_5694: foto real del Od. Ignacio Vera en su consultorio (Yama confirma identidad y permiso para publicar, 2026-11-12). Original mejorado en marca/fotos-propias/; webp en public/img/fotos/.",

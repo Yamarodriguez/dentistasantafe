@@ -216,7 +216,9 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   caras): maqueta entre dientes (¿Cuándo hace falta…?), maxilar con implantes (Tipos), tomografía en
   tableta (Tomografía y planificación), implante con corona (Paso a paso). contenido.fotos por H2;
   créditos en site.json > creditos_fotos. Sin foto en la tabla (la estrecharía). Mismo método para
-  otros tratamientos si Yama lo pide.
+  otros tratamientos si Yama lo pide. → **Hecho en todos (Yama, 2026-11-14: «sí, a todos»)**: 19 fotos
+  más (2-3 por tratamiento: maquetas, brackets, alineadores, sonrisas sin ojos, instrumental, cepillos
+  infantiles), elegidas con hoja de contactos; nunca en secciones con tabla ni solo [Pendiente].
 - **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
   robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
   schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),

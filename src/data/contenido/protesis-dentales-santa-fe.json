@@ -156,7 +156,10 @@
     }
   ],
   "fotos": {
-    "¿Qué es una prótesis dental?": "protesis"
+    "¿Qué es una prótesis dental?": "protesis",
+    "Prótesis sobre implantes": "protesis-implantes",
+    "Cómo se hacen las coronas y las prótesis removibles, paso a paso": "protesis-laboratorio",
+    "Cuidados y duración de coronas y prótesis removibles": "protesis-cuidados"
   },
   "resumen": [
     "Una prótesis dental reemplaza dientes que faltan: puede ser removible (dentadura) o fija (corona o puente).",

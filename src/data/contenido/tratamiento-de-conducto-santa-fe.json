@@ -110,7 +110,9 @@
     }
   ],
   "fotos": {
-    "¿Qué es un tratamiento de conducto o endodoncia?": "conducto"
+    "¿Qué es un tratamiento de conducto o endodoncia?": "conducto",
+    "¿Duele el tratamiento de conducto?": "conducto-espejo",
+    "¿Cuántas sesiones lleva una endodoncia?": "conducto-instrumental"
   },
   "resumen": [
     "El tratamiento de conducto (endodoncia) quita el nervio dañado o infectado para salvar el diente.",
