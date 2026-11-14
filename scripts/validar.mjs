@@ -32,7 +32,8 @@ const htmls = [];
   for (const f of readdirSync(dir)) {
     const p = join(dir, f);
     if (statSync(p).isDirectory()) recorrer(p);
-    else if (f.endsWith('.html')) htmls.push(p);
+    // Las páginas de redirección (dirección vieja → nueva, astro.config > redirects) no son páginas de contenido.
+    else if (f.endsWith('.html') && !/http-equiv="refresh"/.test(readFileSync(p, 'utf-8').slice(0, 600))) htmls.push(p);
   }
 })(DIST);
 
