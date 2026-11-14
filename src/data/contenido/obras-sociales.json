@@ -14,12 +14,11 @@
   "fuentes": [],
   "secciones": {
     "Obras sociales y prepagas": [
-      "Nuestra clínica dental en Santa Fe atiende a pacientes de estas obras sociales y prepagas, además de pacientes particulares."
+      "Nuestra clínica dental en Santa Fe atiende a pacientes con obra social y a pacientes particulares. La lista es orientativa: al pedir turno se confirma si hay convenio con tu plan."
     ],
     "Qué cubre cada una": [
       "La cobertura odontológica de cada tratamiento depende de la obra social o prepaga y del plan que tengas.",
-      "Antes del turno conviene consultar en tu obra social, o al pedir turno, qué incluye tu plan y si hace falta una autorización previa.",
-      "[confirmar: coberturas habituales de cada obra social, según la clínica]"
+      "Antes del turno conviene consultar en tu obra social, o al pedir turno, qué incluye tu plan y si hace falta una autorización previa."
     ],
     "Qué llevar al turno": [
       "Para el turno con el dentista conviene llevar:",
@@ -30,14 +29,13 @@
           "Orden o autorización, si tu plan la pide.",
           "Estudios o radiografías anteriores, si los tenés."
         ]
-      },
-      "[confirmar: requisitos de la clínica para atender por obra social]"
+      }
     ]
   },
   "faq": [
     {
       "q": "¿Atienden pacientes particulares?",
-      "a": "Sí, atendemos **pacientes particulares**, además de a quienes tienen obra social o prepaga. [confirmar]"
+      "a": "Sí, atendemos **pacientes particulares**, además de a quienes tienen obra social."
     },
     {
       "q": "¿Cómo sé si mi obra social cubre un tratamiento dental?",
@@ -52,8 +50,8 @@
       "a": "Sí, los **convenios pueden cambiar**; conviene confirmarlo al pedir turno."
     },
     {
-      "q": "¿Qué coberturas aceptan?",
-      "a": "Swiss Medical, Medifé, Galeno, Medicus, OMINT, IAPOS, AcaSalud, Federada Salud, IOSE, Jerárquicos Salud y Sancor Salud, además de **pacientes particulares**. [confirmar: lista de la clínica]"
+      "q": "¿Qué coberturas incluye la lista?",
+      "a": "La lista orientativa incluye Swiss Medical, Medifé, Galeno, Medicus, OMINT, IAPOS, AcaSalud, Federada Salud, IOSE, Jerárquicos Salud y Sancor Salud. Al pedir turno se confirma si tu obra social o prepaga tiene convenio con la clínica."
     }
   ]
 }

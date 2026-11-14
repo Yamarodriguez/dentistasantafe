@@ -370,3 +370,4 @@
   .web .foto-abajo.bloque-texto .fila-bloque { font-size: 1.05rem; }
   .web .foto-abajo.bloque-texto .fila-bloque > :first-child { margin-top: 0; }
 }
+.web .nota-obras { font-size: .9rem; color: var(--suave); margin-top: .75rem; }

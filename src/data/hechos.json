@@ -65,6 +65,21 @@
       "titulo": "Una boca sana para su bebé (NIDCR)",
       "url": "https://www.nidcr.nih.gov/sites/default/files/2025-09/Healthy-Mouth-for-Baby_ES-Fact-Sheet.pdf",
       "fecha": "2025-09"
+    },
+    "cc-implantes": {
+      "titulo": "Dental Implants (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/10903-dental-implants",
+      "fecha": "2026-06-11"
+    },
+    "aap-implantes": {
+      "titulo": "Dental Implant Procedures (American Academy of Periodontology)",
+      "url": "https://www.perio.org/for-patients/periodontal-treatments-and-procedures/dental-implant-procedures/",
+      "fecha": "2026"
+    },
+    "cochrane-carga": {
+      "titulo": "Different times for loading dental implants (Cochrane, Esposito y cols., 2013)",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003878.pub5/full",
+      "fecha": "2013"
     }
   },
   "hechos": [
@@ -477,6 +492,56 @@
       "id": "nin-prueba",
       "fuente": "mlp-ninos",
       "texto": "Una visita «de prueba» ayuda al chico a conocer el consultorio."
+    },
+    {
+      "id": "cc-hueso",
+      "fuente": "cc-implantes",
+      "texto": "Para un implante hace falta hueso suficiente en el maxilar; si falta, el profesional puede recomendar un injerto de hueso."
+    },
+    {
+      "id": "aap-seno",
+      "fuente": "aap-implantes",
+      "texto": "Si falta hueso en la parte de atrás del maxilar superior, la elevación de seno levanta el piso del seno y forma hueso para los implantes; si el reborde tiene poco hueso, se rellena con hueso o con un sustituto óseo."
+    },
+    {
+      "id": "aap-cantidad",
+      "fuente": "aap-implantes",
+      "texto": "Un implante puede reemplazar un diente; varios implantes, varios dientes; y también se pueden reemplazar todos los dientes."
+    },
+    {
+      "id": "cc-tiempos",
+      "fuente": "cc-implantes",
+      "texto": "La unión del implante con el hueso puede tardar de 3 a 9 meses; colocar después el pilar y la corona, el puente o la prótesis suele llevar alrededor de una hora y puede requerir una segunda cirugía menor."
+    },
+    {
+      "id": "cc-evaluacion",
+      "fuente": "cc-implantes",
+      "texto": "Antes de proponer implantes, el profesional revisa con cuidado la historia clínica."
+    },
+    {
+      "id": "cc-anestesia",
+      "fuente": "cc-implantes",
+      "texto": "Se usa anestesia local para adormecer la encía; también puede usarse sedación."
+    },
+    {
+      "id": "cc-despues",
+      "fuente": "cc-implantes",
+      "texto": "Después es normal tener algunas molestias e hinchazón, que pueden aliviarse con analgésicos; la primera etapa de curación lleva alrededor de una semana."
+    },
+    {
+      "id": "cc-provisorio",
+      "fuente": "cc-implantes",
+      "texto": "En los implantes de adelante se suele hacer un diente provisorio para que no quede el hueco."
+    },
+    {
+      "id": "cc-arcada",
+      "fuente": "cc-implantes",
+      "texto": "Para reponer todos los dientes de un maxilar suelen usarse de 4 a 6 implantes, que pueden sostener una prótesis fija o una que se engancha y se saca."
+    },
+    {
+      "id": "coch-carga",
+      "fuente": "cochrane-carga",
+      "texto": "Carga inmediata: el implante se pone en función dentro de la primera semana; temprana: entre 1 semana y 2 meses; convencional: después de 2 meses. La revisión Cochrane de 2013 no encontró pruebas convincentes de diferencias clínicamente importantes entre esos plazos y pidió más estudios."
     }
   ]
 }

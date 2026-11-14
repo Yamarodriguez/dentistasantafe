@@ -170,6 +170,7 @@ const iconoMotivo = (titulo = '') => {
           </li>
         ))}
       </ul>
+      {s.obrasNota && <p class="nota-obras">{s.obrasNota}</p>}
       {notas.map((n) => <p class="pendiente">{n}</p>)}
     </>
   ) : <p class="pendiente">{pendiente(`obras sociales y prepagas de ${s.ciudad}`)}</p>;

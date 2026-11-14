@@ -165,11 +165,12 @@
         "IOSE",
         "Jerárquicos Salud",
         "Sancor Salud",
-        "Pacientes particulares",
-        "[confirmar: lista sacada de Doctoralia, de un consultorio en Santo Tomé]"
+        "Pacientes particulares"
       ],
       "codigoPostal": "S3000",
-      "horarioSchema": "Mo-Fr 08:00-20:00"
+      "horarioSchema": "Mo-Fr 08:00-20:00",
+      "obrasNota": "Lista orientativa: al pedir turno se confirma si tu obra social o prepaga tiene convenio con la clínica.",
+      "_obras_fuente": "Doctoralia, consultorio de Santo Tomé; sin confirmar por la clínica (Yama, 2026-11-14: publicar como lista orientativa)"
     }
   ],
   "_rosario_para_despues": {

@@ -205,6 +205,13 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   web local tiene página de implantes; en GEO vamos por delante (llms.txt, schema, robots de IA); falta
   la firma del Od. Vera (reviewedBy). Tabla «Implante, puente o prótesis removible: diferencias».
   validar.mjs: TODO solo en mayúsculas («sobre todo» contaba como resto).
+  **«Sin dar ninguna cosa segura» (Yama, 2026-11-14)**: lo pendiente de implantes se rellena con
+  información general con fuente (hechos cc-*, aap-*, coch-*: Cleveland Clinic, Academia Americana de
+  Periodoncia, Cochrane 2013): carga inmediata, 4-6 implantes por maxilar, injerto y elevación de seno,
+  anestesia y molestias; nunca «la clínica hace…» (decide el odontólogo). Obras sociales = lista
+  orientativa (site.json > obrasNota; fuente en _obras_fuente), «al pedir turno se confirma si hay
+  convenio». Financiación: «las formas de pago se consultan al pedir turno». Sin «all-on-4» (marca).
+  Siguen pendientes y NO se inventan: firma del odontólogo, especialidades con institución, reseñas.
 - **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
   robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
   schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),

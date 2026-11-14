@@ -16,7 +16,10 @@
     "fda-implantes",
     "mlp-radiografias",
     "mlp-coronas",
-    "mlp-protesis"
+    "mlp-protesis",
+    "cc-implantes",
+    "aap-implantes",
+    "cochrane-carga"
   ],
   "autor": null,
   "revisado": null,
@@ -41,7 +44,16 @@
     "Tipos de implantes": [
       "Sobre un implante se puede colocar una corona, un puente o una prótesis removible (dentadura).",
       "Cuál conviene en cada caso lo decide el dentista según los dientes que falten.",
-      "[Pendiente: qué tipos de implante y marcas trabaja la clínica, y si hace carga inmediata (dientes fijos el mismo día) o cirugía guiada; lo confirma el odontólogo]"
+      "Un implante puede reemplazar un diente, y varios implantes pueden reemplazar varios dientes o todos.",
+      {
+        "h3": "¿Qué es la carga inmediata?"
+      },
+      "Se habla de **carga inmediata** cuando el implante empieza a usarse con un diente dentro de la primera semana; de carga temprana, entre 1 semana y 2 meses, y de carga convencional, después de 2 meses.",
+      "Una revisión Cochrane de 2013 no encontró pruebas convincentes de diferencias clínicamente importantes entre esos plazos y pidió más estudios. Qué plazo conviene en cada caso lo decide el odontólogo.",
+      {
+        "h3": "¿Se pueden reponer todos los dientes con implantes?"
+      },
+      "Sí. Para un maxilar completo suelen usarse de 4 a 6 implantes, que pueden sostener una prótesis fija o una prótesis removible que se sujeta a los implantes."
     ],
     "Implante, puente o prótesis removible: diferencias": [
       "Un implante, un puente o una prótesis removible pueden reemplazar dientes perdidos. Estas son sus diferencias principales:",
@@ -91,7 +103,9 @@
     "¿Se puede poner un implante si falta hueso?": [
       "Si te falta hueso, el dentista lo evalúa antes de colocar un implante.",
       "Las radiografías dentales sirven para planificar implantes y, antes de la cirugía, puede usarse una **tomografía de haz cónico**.",
-      "[Pendiente: opciones que ofrece la clínica cuando falta hueso, confirmadas por el odontólogo]"
+      "Para un implante hace falta hueso suficiente en el maxilar; si falta, puede recomendarse un **injerto de hueso**.",
+      "Si falta hueso en la parte de atrás del maxilar superior, existe la elevación de seno, que levanta el piso del seno para formar hueso donde irán los implantes. Si el reborde del maxilar tiene poco hueso, se puede rellenar con hueso o con un sustituto óseo.",
+      "Qué opción corresponde en tu caso lo indica el dentista después de los estudios."
     ],
     "Tomografía y planificación del implante": [
       "Antes de colocar un implante, el dentista planifica el tratamiento con imágenes de la boca.",
@@ -111,16 +125,17 @@
       "El tratamiento odontológico con implantes se hace en varias etapas, y solo la cicatrización del implante en el hueso puede llevar **varios meses o más**.",
       {
         "pasos": [
-          "[Pendiente: etapas previas (evaluación y planificación) según el protocolo de la clínica, confirmadas por el odontólogo]",
+          "Evaluación: el dentista revisa tu historia clínica y planifica el implante con imágenes de la boca.",
           "Colocación: el implante se coloca en el hueso con una cirugía.",
-          "Cicatrización: puede llevar varios meses o más; mientras tanto suele llevar un pilar provisorio.",
-          "Diente definitivo: se coloca la corona, el puente o la prótesis sobre el implante.",
+          "Cicatrización: la unión con el hueso puede llevar varios meses o más (una fuente habla de 3 a 9 meses); en los dientes de adelante se suele poner un diente provisorio para que no quede el hueco.",
+          "Diente definitivo: se colocan el pilar y la corona, el puente o la prótesis; suele llevar alrededor de una hora y a veces requiere una segunda cirugía menor.",
           "Controles: ir a los controles con el dentista y avisar enseguida si el implante se mueve o duele."
         ]
       }
     ],
     "¿Duele? ¿Cuánto dura un implante?": [
-      "[Pendiente: qué anestesia se usa y qué molestias son habituales después, explicado por el odontólogo de la clínica]",
+      "En general, el implante se coloca con **anestesia local**, que adormece la encía; en algunos casos también se usa sedación. Qué anestesia corresponde en cada caso lo indica el odontólogo.",
+      "Después es normal tener algunas molestias e hinchazón, que pueden aliviarse con los analgésicos que indique el dentista. La primera etapa de la curación lleva alrededor de una semana, aunque la unión del implante con el hueso tarda meses.",
       {
         "h3": "¿Cuánto dura un implante dental?"
       },
@@ -141,7 +156,7 @@
     "Precio de los implantes dentales en Santa Fe": [
       "El precio de un implante depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
       "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno.",
-      "[confirmar: si hay financiación]"
+      "Las formas de pago se consultan al pedir turno."
     ]
   },
   "faq": [
