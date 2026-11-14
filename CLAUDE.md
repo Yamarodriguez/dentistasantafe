@@ -128,7 +128,7 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   con icono (pedido de Yama). Textos de los H2 que faltaban escritos (portada, obras sociales,
   primera consulta, equipo, contacto, índice); lo de la clínica va con [confirmar].
 
-- **Menú como COV (Yama, 2026-11-12, captura)**: La clínica · Implantes · Ortodoncia ▾ (brackets,
+- **Menú como COV (Yama, 2026-11-12, captura)**: La clínica · Implantes dentales (2026-11-14: COV pone «Implantología»; se busca «implantes dentales») · Ortodoncia ▾ (brackets,
   invisible) · Estética dental · Obras sociales · Otros tratamientos ▾ (el resto + «Todos los
   tratamientos») · Contacto · Pedir turno. Listas MENU_* en Base.astro.
 - **Estudio de 4 portadas de Madrid (2026-11-12), aplicado**: FAQ de portada = 2 de salud + 3 prácticas
@@ -198,7 +198,13 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   obra social o prepaga?» y «Opiniones de pacientes de nuestra clínica dental». FAQ: 8-9 por
   tratamiento (estética 6: faltan datos de carillas), portada 8. Una pregunta de la FAQ nunca repite
   un H2/H3 de la página. Hecho nuevo enc-periodontal (MedlinePlus: «otros nombres»).
-  Precios en FAQ: no (pendientes de Yama).
+  **Precios (Yama, 2026-11-14): «se informa después de la consulta»** en el H2 de precio de cada
+  tratamiento + FAQ de precio en implantes, brackets y alineadores; financiación [confirmar].
+  **Estudio implantes SEO/GEO (2026-11-14)** → `informes/estudio-implantes-seo-geo.md`
+  (`competencia/urls-implantes.txt`, negritas en `informes/negritas-implantes.md`): en Santa Fe ninguna
+  web local tiene página de implantes; en GEO vamos por delante (llms.txt, schema, robots de IA); falta
+  la firma del Od. Vera (reviewedBy). Tabla «Implante, puente o prótesis removible: diferencias».
+  validar.mjs: TODO solo en mayúsculas («sobre todo» contaba como resto).
 - **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
   robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
   schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),

@@ -109,7 +109,8 @@ for (const f of htmls) {
   // Restos de código en el texto visible (errores ya pagados: `$1`, `undefined`, llaves sueltas).
   const codigo = texto.match(/\)\)\}|\}\)\}|\bundefined\b|\bNaN\b|\[object Object\]|\$\d\b/g);
   if (codigo) err(r, `restos de código en el texto: ${[...new Set(codigo)].join(' ')}`);
-  const marcas = texto.match(/\[[^\]\n]{1,120}\]|\bTODO\b|lorem ipsum/gi) || [];
+  // TODO solo en mayúsculas: «sobre todo» es español normal, no un resto.
+  const marcas = texto.match(/\[[^\]\n]{1,120}\]|\bTODO\b|[Ll]orem ipsum/g) || [];
   // Fotos provisionales (renders sin confirmar) = resto: no se publican como reales.
   marcas.push(...(html.match(/\/img\/provisional[^"')\s]*/g) || []).map((f) => `[foto provisional ${f}]`));
   // También las que ya tienen nombre definitivo pero siguen marcadas "provisional": true en site.json.

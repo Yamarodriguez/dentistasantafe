@@ -1,0 +1,22 @@
+# Estudio de «implantes dentales» (2026-11-14). Formato: <ciudad> <url>. Búsquedas «implantes dentales Madrid/Valencia/Santa Fe».
+# Fuera: directorios (Doctoralia, Top Doctors, esteticas.com.ar, argentino.com.ar, odontologos.com.ar) y cadenas.
+# COV: corta a los rastreadores → sus datos son los de competencia/datos (2026-11-12) + WebFetch.
+Madrid https://www.implantes-dentales-en-madrid.com/
+Madrid https://www.clinicaferrusbratos.com/implantes-dentales/
+Madrid https://www.clinicaruizdegopegui.com/implantes-dentales/
+Madrid https://palmamedicodental.com/tratamientos/implantes-dentales-madrid/
+Madrid https://magdentalmadrid.com/implantes-dentales-madrid/
+Madrid https://clinicapedroche.com/implantes-dentales-madrid/
+Madrid https://www.fernandosoria.com/especialidades/implantes/
+Madrid https://www.clinicasada.net/
+Valencia https://idim.es/
+Valencia https://clinicaricardosanchez.com/implantes-dentales-en-valencia-dr-ricardo-sanchez/
+Valencia https://espaidentalvalencia.com/tratamientos/implantes-dentales/
+Valencia https://alvaradodentalclinic.com/implante-dental-valencia/
+Valencia https://luciagilclinicadental.com/implantes-dentales-valencia/
+Valencia https://clinicadentalvalencia.com/implantes-dentales/
+Valencia https://www.clinicamanzanera.com/ld/implantes-dentales-valencia/
+# Santa Fe (Argentina): pocas webs propias; arriba salen directorios. Rosario aparte (misma provincia).
+SantaFe https://www.drarenzulli.com/
+SantaFe http://www.jaefodontologia.com/
+SantaFe https://implantesrosario.com.ar/

@@ -71,7 +71,9 @@
       "Durante el tratamiento hay que mantener el cepillado y el hilo dental todos los días e ir a los controles con el dentista."
     ],
     "Precio de la ortodoncia invisible en Santa Fe": [
-      "[Pendiente: precio orientativo en Santa Fe con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"
+      "El precio de los alineadores depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
+      "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno.",
+      "[confirmar: si hay financiación]"
     ]
   },
   "faq": [
@@ -106,6 +108,10 @@
     {
       "q": "¿Qué cuidados hay que tener con los alineadores?",
       "a": "Cepillado e hilo dental todos los días y controles periódicos con el dentista."
+    },
+    {
+      "q": "¿Cuánto cuestan los alineadores?",
+      "a": "Depende de cada caso: el precio **se informa después de la consulta**, cuando el dentista ya evaluó qué tratamiento hace falta."
     }
   ],
   "fotos": {

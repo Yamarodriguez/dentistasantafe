@@ -83,7 +83,9 @@
       "Después de los brackets **hace falta un retenedor** para que los dientes no vuelvan a moverse. [Pendiente: qué se indica al terminar con alineadores]"
     ],
     "Precio de la ortodoncia en Santa Fe": [
-      "[Pendiente: precio orientativo con fecha o «se informa después de la consulta»; de qué depende; cobertura de obras sociales]"
+      "El precio de los brackets depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
+      "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno.",
+      "[confirmar: si hay financiación]"
     ]
   },
   "faq": [
@@ -122,6 +124,10 @@
     {
       "q": "¿Qué es mejor, brackets o alineadores?",
       "a": "Depende del caso: los brackets van fijos con alambre y algunas personas pueden usar **alineadores transparentes**. Lo evalúa el dentista en la consulta."
+    },
+    {
+      "q": "¿Cuánto cuestan los brackets?",
+      "a": "Depende de cada caso: el precio **se informa después de la consulta**, cuando el dentista ya evaluó qué tratamiento hace falta."
     }
   ],
   "fotos": {

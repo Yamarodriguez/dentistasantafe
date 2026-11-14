@@ -11,18 +11,21 @@
       "centro odontológico"
     ]
   },
-  "intro": "Los **implantes dentales** reemplazan dientes que faltan con una raíz artificial que se coloca en el hueso y sostiene un diente nuevo. En esta página, nuestra **clínica dental en Santa Fe** explica qué es un implante, cómo es el tratamiento y qué conviene consultar con el dentista antes de empezar.",
+  "intro": "Los **implantes dentales** reemplazan dientes perdidos con una raíz artificial que se coloca en el hueso y sostiene un diente nuevo. En esta página, nuestra **clínica dental en Santa Fe** explica qué es un implante, cómo es el tratamiento y qué conviene consultar con el dentista antes de empezar.",
   "fuentes": [
     "fda-implantes",
-    "mlp-radiografias"
+    "mlp-radiografias",
+    "mlp-coronas",
+    "mlp-protesis"
   ],
   "autor": null,
   "revisado": null,
   "secciones": {
     "¿Qué es un implante dental?": [
-      "En odontología, un implante dental es una pieza que se coloca con una cirugía en el hueso del maxilar para sostener dientes artificiales: una corona, un puente o una prótesis.",
+      "Un implante dental es una pieza que se coloca con una cirugía en el hueso del maxilar para sostener dientes artificiales: una corona, un puente o una prótesis.",
       "Tiene dos partes principales. El cuerpo del implante queda dentro del hueso, en el lugar que ocupaba la raíz. Encima va un pilar, normalmente sujeto con un tornillo, que atraviesa la encía y sostiene el diente nuevo.",
-      "La mayoría son de **titanio o de óxido de circonio**."
+      "La mayoría son de **titanio o de óxido de circonio**.",
+      "La **implantología** es el área de la odontología que se ocupa de colocar y controlar implantes."
     ],
     "¿Cuándo hace falta un implante dental?": [
       "Un implante se plantea cuando **falta uno o varios dientes** y se quiere recuperar la masticación y el aspecto de la boca.",
@@ -38,7 +41,46 @@
     "Tipos de implantes": [
       "Sobre un implante se puede colocar una corona, un puente o una prótesis removible (dentadura).",
       "Cuál conviene en cada caso lo decide el dentista según los dientes que falten.",
-      "[Pendiente: qué tipos de implante y qué marcas trabaja la clínica (lo confirma el odontólogo)]",
+      "[Pendiente: qué tipos de implante y marcas trabaja la clínica, y si hace carga inmediata (dientes fijos el mismo día) o cirugía guiada; lo confirma el odontólogo]"
+    ],
+    "Implante, puente o prótesis removible: diferencias": [
+      "Un implante, un puente o una prótesis removible pueden reemplazar dientes perdidos. Estas son sus diferencias principales:",
+      {
+        "tabla": {
+          "cab": [
+            "",
+            "Implante",
+            "Puente",
+            "Prótesis removible"
+          ],
+          "filas": [
+            [
+              "Qué es",
+              "Raíz artificial en el hueso que sostiene un diente nuevo",
+              "Ocupa el hueco de los dientes que faltan, apoyado en coronas",
+              "Dientes postizos que se pueden sacar"
+            ],
+            [
+              "¿Se saca?",
+              "El implante queda fijo en el hueso",
+              "No, es fijo",
+              "Sí; se aconseja sacarla de noche"
+            ],
+            [
+              "Al principio",
+              "La cicatrización en el hueso puede llevar varios meses o más",
+              "El dentista te indica las visitas según tu caso",
+              "Hablar y comer puede sentirse raro"
+            ],
+            [
+              "Cuidados",
+              "Seguir las indicaciones de higiene e ir a los controles",
+              "Cepillado dos veces al día e hilo dental todos los días",
+              "Cepillarla a diario y guardarla en agua o en un líquido limpiador"
+            ]
+          ]
+        }
+      },
       {
         "mas": {
           "t": "Prótesis dentales y coronas en Santa Fe",
@@ -52,7 +94,7 @@
       "[Pendiente: opciones que ofrece la clínica cuando falta hueso, confirmadas por el odontólogo]"
     ],
     "Tomografía y planificación del implante": [
-      "Antes de colocar implantes se planifica el tratamiento con imágenes de la boca.",
+      "Antes de colocar un implante, el dentista planifica el tratamiento con imágenes de la boca.",
       "Las **radiografías dentales** sirven para planificar implantes, y la tomografía de haz cónico puede usarse antes de la cirugía, sobre todo cuando se colocan varios implantes.",
       {
         "h3": "¿Qué conviene preguntar antes de empezar?"
@@ -73,7 +115,7 @@
           "Colocación: el implante se coloca en el hueso con una cirugía.",
           "Cicatrización: puede llevar varios meses o más; mientras tanto suele llevar un pilar provisorio.",
           "Diente definitivo: se coloca la corona, el puente o la prótesis sobre el implante.",
-          "Controles: ir a las revisiones y avisar enseguida si el implante se mueve o duele."
+          "Controles: ir a los controles con el dentista y avisar enseguida si el implante se mueve o duele."
         ]
       }
     ],
@@ -97,7 +139,9 @@
       }
     ],
     "Precio de los implantes dentales en Santa Fe": [
-      "[Pendiente: precio orientativo en Santa Fe con fecha, o «se informa por escrito después de la primera consulta»; de qué depende; si hay financiación]"
+      "El precio de un implante depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
+      "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno.",
+      "[confirmar: si hay financiación]"
     ]
   },
   "faq": [
@@ -136,6 +180,10 @@
     {
       "q": "¿Hay que avisar que tengo implantes antes de una resonancia?",
       "a": "Sí. Antes de una resonancia o una radiografía hay que avisar que tenés implantes, porque pueden **alterar la imagen**."
+    },
+    {
+      "q": "¿Cuánto cuesta un implante en Santa Fe?",
+      "a": "Depende de cada caso: el precio **se informa después de la consulta**, cuando el dentista ya evaluó qué tratamiento hace falta."
     }
   ],
   "fotos": {
