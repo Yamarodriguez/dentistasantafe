@@ -16,6 +16,9 @@ const RAIZ = new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '
 const DIR = join(RAIZ, 'src/data/contenido');
 const SECO = process.argv.includes('--seco');
 const hechos = JSON.parse(readFileSync(join(RAIZ, 'src/data/hechos.json'), 'utf-8'));
+const mapa = JSON.parse(readFileSync(join(RAIZ, 'src/data/paginas.json'), 'utf-8'));
+const RUTAS = new Set((mapa.paginas ?? mapa).filter((p) => p.estado === 'si').map((p) => (p.slug ? `/${p.slug}/` : '/')));
+const ENLACE = /\[([^\]\n]+)\]\((\/[^)\s]*)\)/g;
 const PROHIBIDAS = /\b(el mejor|la mejor|los mejores|las mejores|mejor cl[ií]nica|l[ií]der(es)?|excelencia|garantiza\w*|garant[ií]a total|sin dolor|indoloro|100 ?%|perfect[oa]s?|incre[ií]ble|[uú]nic[oa]s? en|n[uú]mero 1|milagro\w*)\b/gi;
 
 const NEG_MAX_PALABRAS = 8; // competencia: 48 % de 1-3 palabras, 43 % de 4-8
@@ -68,8 +71,21 @@ for (const f of archivos) {
   }
   const todo = [c.intro ?? '', c.entrada ?? '', ...(c.resumen ?? []), ...Object.values(c.secciones ?? {}).flat().map(textoDe),
     ...(c.faq ?? []).flatMap((x) => [x.q, x.a])].join(' ');
+  // Enlaces en el texto ([texto](/ruta/), estudio de enlaces 2026-11-14): a una página que existe, nunca a sí
+  // misma, una vez por destino y página, y nunca en títulos, resumen ni preguntas de la FAQ.
+  const propia = slug === 'portada' ? '/' : `/${slug}/`;
+  const enlaces = [...todo.matchAll(ENLACE)];
+  for (const [, , r] of enlaces) {
+    if (!RUTAS.has(r.replace(/#.*$/, ''))) errores.push(`enlace a una página que no existe: ${r}`);
+    if (r === propia) errores.push(`enlace a la propia página: ${r}`);
+  }
+  const repetidos = enlaces.map((m) => m[2]).filter((r, i, a) => a.indexOf(r) !== i);
+  if (repetidos.length) errores.push(`enlace repetido en el texto a ${repetidos[0]} (uno por destino)`);
+  const enlaceMal = [...Object.keys(c.secciones ?? {}), ...Object.values(c.secciones ?? {}).flat().filter((b) => b.h3).map((b) => b.h3),
+    ...(c.resumen ?? []), ...(c.faq ?? []).map((x) => x.q)].find((t) => /\[[^\]\n]+\]\(\/[^)\s]*\)/.test(t));
+  if (enlaceMal) errores.push(`enlace en un título, el resumen o una pregunta: «${enlaceMal}»`);
   // Negritas (**así**): cortas, sin abusar, nunca en títulos ni en el resumen (estudio de textos 2026-11-13).
-  const negritas = [...todo.matchAll(/\*\*(.+?)\*\*/g)].map((m) => m[1]);
+  const negritas = [...todo.replace(ENLACE, '$1').matchAll(/\*\*(.+?)\*\*/g)].map((m) => m[1]);
   const largas = negritas.filter((x) => x.split(/\s+/).length > NEG_MAX_PALABRAS);
   if (largas.length) errores.push(`negritas de más de ${NEG_MAX_PALABRAS} palabras: «${largas[0]}»`);
   const pal = palabrasPagina || todo.replace(/\*\*/g, '').split(/\s+/).length;

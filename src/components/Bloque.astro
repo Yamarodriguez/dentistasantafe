@@ -56,7 +56,7 @@ const iconoMotivo = (titulo = '') => {
           <Dibujo slug={t.slug} tam={64} />
           <h4><a href={ruta(t.slug)}>{t.nombre}</a></h4>
           <p>{t.description}</p>
-          <a class="mas" href={ruta(t.slug)} aria-label={`Más sobre ${t.nombre}`}>Ver tratamiento →</a>
+          <a class="mas" href={ruta(t.slug)}>Más sobre {t.nombre.replace(/\s*\(.*?\)/, '').replace(/^./, (l) => l.toLowerCase())} →</a>
         </article>
       ))}
     </div>
@@ -151,7 +151,7 @@ const iconoMotivo = (titulo = '') => {
         <Dibujo slug={t.slug} tam={64} />
         <h3><a href={ruta(t.slug)}>{t.nombre}</a></h3>
         <p>{t.description}</p>
-        <a class="mas" href={ruta(t.slug)} aria-label={`Más sobre ${t.nombre}`}>Ver tratamiento →</a>
+        <a class="mas" href={ruta(t.slug)}>Más sobre {t.nombre.replace(/\s*\(.*?\)/, '').replace(/^./, (l) => l.toLowerCase())} →</a>
       </article>
     ))}
   </div>
@@ -185,7 +185,7 @@ const iconoMotivo = (titulo = '') => {
 )}
 
 {tipo === 'obras' && pagina.slug !== 'obras-sociales' && (
-  <p class="mas-info"><a href="/obras-sociales/">Qué cubre cada obra social y qué llevar al turno →</a></p>
+  <p class="mas-info"><a href="/obras-sociales/">Obras sociales y prepagas: cobertura y qué llevar al turno →</a></p>
 )}
 
 {tipo === 'equipo' && (profesionales.length

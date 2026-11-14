@@ -20,14 +20,26 @@
   "secciones": {
     "Qué hacemos en la primera consulta": [
       "En la primera consulta odontológica, el dentista revisa la boca, escucha el motivo de la visita y explica las opciones de tratamiento. [confirmar: qué incluye la primera consulta en la clínica (revisión, radiografías, presupuesto)]",
-      "La mayoría de las caries se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean.",
-      "Conviene contar si tenés diabetes o fumás, porque la enfermedad de las encías se relaciona con los dos."
+      "La mayoría de [las caries](/limpieza-dental-santa-fe/) se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean.",
+      "Conviene contar si tenés diabetes o fumás, porque [la enfermedad de las encías](/periodoncia-santa-fe/) se relaciona con los dos.",
+      {
+        "mas": {
+          "t": "Nuestros dentistas en Santa Fe",
+          "href": "/dentistas-santa-fe/"
+        }
+      }
     ],
     "Cuánto dura": [
       "[confirmar: duración habitual de la primera consulta en el centro odontológico]"
     ],
     "Precio o cobertura": [
-      "El precio de la primera consulta y su cobertura dependen de tu obra social o prepaga; en nuestra clínica dental te lo confirmamos al pedir turno. [confirmar: precio de la consulta particular y si la primera consulta es gratuita]"
+      "El precio de la primera consulta y su cobertura dependen de tu obra social o prepaga; en nuestra clínica dental te lo confirmamos al pedir turno. [confirmar: precio de la consulta particular y si la primera consulta es gratuita]",
+      {
+        "mas": {
+          "t": "Obras sociales y prepagas con cobertura dental",
+          "href": "/obras-sociales/"
+        }
+      }
     ]
   },
   "faq": [

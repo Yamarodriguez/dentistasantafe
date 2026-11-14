@@ -40,34 +40,13 @@
     ],
     "Ortopedia en niños": [
       "[Pendiente: qué es la ortopedia, a qué edad la recomienda la clínica y qué aparatos usa: una definición corta validada por el odontólogo]",
-      "El tratamiento **funciona mejor en niños y adolescentes**, aunque en adultos también suele dar resultado."
+      "El tratamiento **funciona mejor en [niños y adolescentes](/odontopediatra-santa-fe/)**, aunque en adultos también suele dar resultado."
     ],
-    "Brackets o alineadores: comparativa": [
-      "Los brackets van fijos en los dientes; los **alineadores transparentes** no llevan alambres y algunas personas pueden usarlos en lugar de brackets.",
-      {
-        "tabla": {
-          "cab": [
-            "",
-            "Brackets",
-            "Alineadores transparentes"
-          ],
-          "filas": [
-            [
-              "Cómo son",
-              "Fijos, pegados a los dientes, con alambre",
-              "Transparentes, sin alambres"
-            ],
-            [
-              "Para quién",
-              "Según el caso",
-              "Algunas personas, según el caso"
-            ]
-          ]
-        }
-      },
+    "¿Brackets o alineadores?": [
+      "Los brackets van fijos con alambre; los **alineadores transparentes** no llevan alambres y algunas personas pueden usarlos en lugar de brackets.",
       {
         "mas": {
-          "t": "Ortodoncia invisible en Santa Fe",
+          "t": "Ortodoncia invisible: alineadores frente a brackets",
           "href": "/ortodoncia-invisible-santa-fe/"
         }
       }
@@ -76,7 +55,7 @@
       "El tratamiento se hace en etapas: se coloca el aparato y se hacen controles periódicos; después de los brackets hace falta un retenedor.",
       "Suele durar de **6 meses a más de 2 años**, según el caso.",
       "[Pendiente: pasos del tratamiento en la clínica (evaluación, estudios, plan, colocación, controles, retiro), confirmados por el odontólogo]",
-      "En algunos casos el plan incluye otros tratamientos dentales, como extraer o arreglar dientes, colocar coronas o, pocas veces, cirugía del maxilar."
+      "En algunos casos el plan incluye otros tratamientos dentales, como extraer o arreglar dientes, [colocar coronas](/protesis-dentales-santa-fe/) o, pocas veces, cirugía del maxilar."
     ],
     "Cuidados con brackets y retenedores": [
       "Durante el tratamiento hay que cepillarse y usar hilo dental todos los días e ir a los controles en la clínica dental.",

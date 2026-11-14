@@ -18,7 +18,13 @@
     ],
     "Qué cubre cada una": [
       "La cobertura odontológica de cada tratamiento depende de la obra social o prepaga y del plan que tengas.",
-      "Antes del turno conviene consultar en tu obra social, o al pedir turno, qué incluye tu plan y si hace falta una autorización previa."
+      "Antes del turno conviene consultar en tu obra social, o al pedir turno, qué incluye tu plan y si hace falta una autorización previa.",
+      {
+        "mas": {
+          "t": "Pedir turno y consultar tu cobertura",
+          "href": "/contacto/"
+        }
+      }
     ],
     "Qué llevar al turno": [
       "Para el turno con el dentista conviene llevar:",
@@ -29,6 +35,12 @@
           "Orden o autorización, si tu plan la pide.",
           "Estudios o radiografías anteriores, si los tenés."
         ]
+      },
+      {
+        "mas": {
+          "t": "Cómo es la primera consulta con el dentista",
+          "href": "/primera-consulta/"
+        }
       }
     ]
   },

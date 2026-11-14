@@ -15,8 +15,8 @@
           "t": "Clínica dental en Santa Fe con más de [X] años de experiencia",
           "foto": "consulta",
           "boton": {
-            "t": "Ver nuestros dentistas",
-            "href": "/dentistas-santa-fe/"
+            "t": "Ver tratamientos dentales",
+            "href": "/tratamientos/"
           },
           "disposicion": "foto-abajo"
         },
@@ -59,7 +59,11 @@
           "t": "Odontólogos en Santa Fe: título y matrícula de nuestros dentistas",
           "bloque": "equipo",
           "foto": "dentistas",
-          "disposicion": "foto-abajo"
+          "disposicion": "foto-abajo",
+          "boton": {
+            "t": "Ver nuestros dentistas",
+            "href": "/dentistas-santa-fe/"
+          }
         },
         {
           "t": "Reconocimiento",
@@ -94,7 +98,7 @@
       "tipo": "indice",
       "estado": "si",
       "clave": "tratamientos dentales Santa Fe",
-      "title": "Tratamientos de nuestra clínica dental en Santa Fe",
+      "title": "Tratamientos dentales en Santa Fe: guía de cada uno",
       "description": "Todos nuestros tratamientos dentales en Santa Fe: implantes, prótesis, ortodoncia, estética, odontología general y odontopediatría.",
       "h1": "Tratamientos dentales en Santa Fe",
       "h2s": [
@@ -160,15 +164,15 @@
       "nombre": "Ortodoncia y brackets",
       "grupo": "Ortodoncia",
       "clave": "ortodoncia Santa Fe",
-      "title": "Ortodoncia en Santa Fe: brackets y alineadores",
+      "title": "Ortodoncia en Santa Fe: brackets, ortopedia y retenedores",
       "description": "Ortodoncia en Santa Fe: qué es, cuándo hace falta, brackets o alineadores, cuánto dura, cuidados y retenedor.",
-      "h1": "Ortodoncia en Santa Fe: brackets y alineadores",
+      "h1": "Ortodoncia y brackets en Santa Fe",
       "h2s": [
         "¿Qué es la ortodoncia?",
         "¿Cuándo hace falta la ortodoncia?",
         "Tipos de brackets",
         "Ortopedia en niños",
-        "Brackets o alineadores: comparativa",
+        "¿Brackets o alineadores?",
         "Cómo es el tratamiento con brackets, paso a paso",
         "Cuidados con brackets y retenedores",
         "Precio de la ortodoncia en Santa Fe"
@@ -319,7 +323,7 @@
       "tipo": "info",
       "estado": "si",
       "clave": "odontólogo [obra social] Santa Fe",
-      "title": "Obras sociales y prepagas: clínica dental en Santa Fe",
+      "title": "Obras sociales y prepagas: cobertura dental en Santa Fe",
       "description": "Obras sociales y prepagas que atiende nuestro centro odontológico en Santa Fe, qué cubren y qué llevar al turno.",
       "h1": "Obras sociales y prepagas que atendemos",
       "h2s": [
@@ -363,10 +367,10 @@
       "slug": "dentistas-santa-fe",
       "tipo": "equipo",
       "estado": "si",
-      "clave": "dentistas Santa Fe",
-      "title": "Dentistas en Santa Fe: equipo de odontólogos y matrícula",
+      "clave": "nuestros dentistas · odontólogos Santa Fe (equipo)",
+      "title": "Nuestros dentistas en Santa Fe: título y matrícula",
       "description": "Los dentistas de nuestra clínica dental en Santa Fe: nombre, título y matrícula de cada odontólogo, y los tratamientos que atiende el equipo.",
-      "h1": "Dentistas en Santa Fe",
+      "h1": "Nuestros dentistas en Santa Fe",
       "h2s": [
         {
           "t": "Odontólogos de nuestra clínica dental en Santa Fe",
@@ -379,7 +383,6 @@
           "t": "Tratamientos que atiende nuestro equipo",
           "bloque": "tratamientos"
         },
-        "Antes de tu primera consulta con el dentista",
         {
           "t": "Preguntas frecuentes sobre nuestros dentistas",
           "bloque": "faq"
@@ -392,7 +395,7 @@
       "tipo": "turnos",
       "estado": "si",
       "clave": "turno dentista Santa Fe · clínica dental Santa Fe dirección",
-      "title": "Contacto: clínica dental y dentista en Santa Fe",
+      "title": "Pedir turno en Santa Fe: dirección, horario y contacto",
       "description": "Dirección, horario y formas de pedir turno en nuestra clínica dental y centro odontológico de Santa Fe.",
       "h1": "Contacto y turnos",
       "h2s": [

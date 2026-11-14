@@ -224,6 +224,14 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   schema Person con @id /dentistas-santa-fe/#…). Secciones: odontólogos (foto-abajo con la foto real),
   título y matrícula (ley 12094), tratamientos (bloque), antes de la primera consulta, FAQ (6). Botón
   «Ver nuestros dentistas» en «Tu dentista en Santa Fe» de cada tratamiento y en la portada (infinitivo).
+  **Canibalización y enlaces (2026-11-14)** → `informes/canibalizacion-enlaces.md`. Una búsqueda por página
+  (title/H1): portada = clínica dental/dentista; /dentistas-santa-fe/ = «Nuestros dentistas… título y
+  matrícula» (equipo); contacto = «Pedir turno…»; /tratamientos/ y /obras-sociales/ sin «clínica dental» en
+  el title; ortodoncia = brackets (la comparativa con tabla solo en ortodoncia invisible). Anclas: «Más sobre
+  {tratamiento} →» (no «Ver tratamiento»). No volver a poner la misma clave en el title de dos páginas.
+  Menú: «La clínica» → **«Dentistas»** (Yama, 2026-11-14). **Enlaces en el texto**: `[texto](/ruta/)` en los JSON
+  (texto.js los pinta; schema y conteos los quitan); 25 en la primera mención de otro tratamiento;
+  contenido.mjs: destino existe, no propio, uno por destino, nunca en títulos/resumen/preguntas.
 - **Estudio SEO/AEO (2026-11-13)** → `informes/seo-aeo-estudio.md`. Hecho: 18 robots de IA en
   robots.txt, `llms-full.txt` nuevo (texto completo de tratamientos, `src/pages/llms-full.txt.js`),
   schema Dentist + WebSite en todas las páginas (horario estructurado, availableService, speakable),

@@ -14,7 +14,19 @@
   "fuentes": [],
   "secciones": {
     "Pedir turno": [
-      "Podés pedir turno con el dentista por WhatsApp, por teléfono o con el formulario de esta página."
+      "Podés pedir turno con el dentista por WhatsApp, por teléfono o con el formulario de esta página.",
+      {
+        "mas": {
+          "t": "Cómo es la primera consulta con el dentista",
+          "href": "/primera-consulta/"
+        }
+      },
+      {
+        "mas": {
+          "t": "Obras sociales y prepagas con cobertura dental",
+          "href": "/obras-sociales/"
+        }
+      }
     ],
     "Dirección y cómo llegar": [
       "Nuestra clínica dental está en Santa Fe capital. [confirmar: indicaciones para llegar (colectivos, estacionamiento, accesibilidad)]"
