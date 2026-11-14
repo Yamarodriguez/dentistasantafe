@@ -118,9 +118,9 @@ const vars = [
           </div>
         ))}
         <div>
-          <p class="pie-titulo"><a href="/tratamientos/">Tratamientos en Santa Fe</a></p>
+          <p class="pie-titulo"><a href="/tratamientos/">Tratamientos dentales</a></p>
           <ul class="pie-lista">
-            {tratamientos.map((t) => <li><a href={ruta(t.slug)}>{t.nombre.replace(/\s*\(.*?\)/, '')} en Santa Fe</a></li>)}
+            {tratamientos.map((t) => <li><a href={ruta(t.slug)}>{t.nombre.replace(/\s*\(.*?\)/, '')}</a></li>)}
           </ul>
         </div>
         <div>
