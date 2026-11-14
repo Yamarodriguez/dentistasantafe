@@ -360,3 +360,13 @@
 }
 .web .seccion.bloque-marcas h2 { max-width: none; margin-inline: auto; }
 .web .seccion.bloque-marcas .seccion-cuerpo > .marcas-fila { max-width: none; }
+
+/* Sección de solo texto con «foto-abajo» (1.ª de la portada): título a todo el ancho y,
+   debajo, foto y texto en dos mitades iguales, con la misma altura (Yama, 2026-11-14: «más simétrico»). */
+@media (min-width: 761px) {
+  .web .foto-abajo.bloque-texto h2 { max-width: 30ch; }
+  .web .foto-abajo.bloque-texto .fila-foto { grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
+  .web .foto-abajo.bloque-texto .foto-seccion { aspect-ratio: 4 / 3; }
+  .web .foto-abajo.bloque-texto .fila-bloque { font-size: 1.05rem; }
+  .web .foto-abajo.bloque-texto .fila-bloque > :first-child { margin-top: 0; }
+}
