@@ -223,6 +223,9 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   schema Person con @id /dentistas-santa-fe/#…). Secciones: odontólogos (foto-abajo con la foto real),
   título y matrícula (ley 12094), tratamientos (bloque), antes de la primera consulta, FAQ (6). Botón
   «Ver nuestros dentistas» en «Tu dentista en Santa Fe» de cada tratamiento y en la portada (infinitivo).
+  **Canibalización 2 (2026-11-15)** → `informes/canibalizacion-enlaces-2026-11-15.md`: /dentistas-santa-fe/ = «Odontólogos en Santa Fe»
+  (title y H1; la portada se queda «dentista»); migas «Clínica dental» (antes «Inicio», también en el schema); primera consulta =
+  «Primera consulta odontológica en Santa Fe, paso a paso»; ortodoncia en relacionados de estética.
   **Portada y menú (2026-11-15)**: menú plegable en móvil (botón «Menú», solo con JS: clase .js en <html>; cabecera 227 → 63 px);
   mismo nombre en menú y pie (etiqueta() en Base.astro). **Experiencia: 15 años (Yama, 2026-11-15)** → H2 «…con más de 15 años de
   experiencia» y motivo «+15 años de experiencia».

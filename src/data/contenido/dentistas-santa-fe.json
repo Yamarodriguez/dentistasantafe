@@ -70,11 +70,11 @@
     },
     {
       "q": "¿Dónde veo la matrícula de cada odontólogo?",
-      "a": "Junto al **nombre de cada odontólogo**, en esta página."
+      "a": "Junto al **nombre de cada profesional**, en esta página."
     },
     {
       "q": "¿Quién revisa la información de salud de la web?",
-      "a": "Un odontólogo del equipo; su nombre y la fecha de revisión figuran al pie de cada tratamiento. [confirmar: odontólogo que revisa]"
+      "a": "Un profesional del equipo; su nombre y la fecha de revisión figuran al pie de cada tratamiento. [confirmar: odontólogo que revisa]"
     },
     {
       "q": "¿Puedo elegir con qué dentista atenderme?",

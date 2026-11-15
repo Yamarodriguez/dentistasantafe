@@ -85,7 +85,7 @@ function personas() {
 
 function migas(pagina) {
   if (!pagina.slug) return undefined;
-  const items = [{ name: 'Inicio', item: abs('/') }];
+  const items = [{ name: 'Clínica dental', item: abs('/') }];
   if (pagina.tipo === 'tratamiento') items.push({ name: 'Tratamientos', item: abs('/tratamientos/') });
   items.push({ name: pagina.nombre ?? pagina.h1, item: abs(ruta(pagina.slug)) });
   return {

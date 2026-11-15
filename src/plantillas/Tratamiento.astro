@@ -41,7 +41,7 @@ const RELACIONADOS = {
   'protesis-dentales-santa-fe': ['implantes-dentales-santa-fe', 'estetica-dental-santa-fe', 'tratamiento-de-conducto-santa-fe'],
   'ortodoncia-santa-fe': ['ortodoncia-invisible-santa-fe', 'odontopediatra-santa-fe', 'estetica-dental-santa-fe'],
   'ortodoncia-invisible-santa-fe': ['ortodoncia-santa-fe', 'estetica-dental-santa-fe', 'limpieza-dental-santa-fe'],
-  'estetica-dental-santa-fe': ['ortodoncia-invisible-santa-fe', 'limpieza-dental-santa-fe', 'protesis-dentales-santa-fe'],
+  'estetica-dental-santa-fe': ['ortodoncia-invisible-santa-fe', 'ortodoncia-santa-fe', 'protesis-dentales-santa-fe'],
   'tratamiento-de-conducto-santa-fe': ['implantes-dentales-santa-fe', 'protesis-dentales-santa-fe', 'limpieza-dental-santa-fe'],
   'periodoncia-santa-fe': ['limpieza-dental-santa-fe', 'implantes-dentales-santa-fe', 'protesis-dentales-santa-fe'],
   'limpieza-dental-santa-fe': ['periodoncia-santa-fe', 'odontopediatra-santa-fe', 'estetica-dental-santa-fe'],
@@ -58,7 +58,7 @@ const fuentes = (c?.fuentes ?? []).map((id) => hechos.fuentes[id]).filter(Boolea
 <Base pagina={pagina}>
   <div class="contenedor">
     <nav class="migas" aria-label="Migas">
-      <a href="/">Inicio</a> › <a href="/tratamientos/">Tratamientos</a> › {pagina.nombre}
+      <a href="/">Clínica dental</a> › <a href="/tratamientos/">Tratamientos</a> › {pagina.nombre}
     </nav>
     <section class="heroe heroe-tratamiento">
       <div>
