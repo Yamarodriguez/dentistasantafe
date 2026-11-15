@@ -62,6 +62,7 @@ const vars = [
     {(!site.indexar || pagina.tipo === '404') && <meta name="robots" content="noindex, nofollow" />}
     {site.indexar && pagina.tipo === 'legal' && <meta name="robots" content="noindex, follow" />}
     {site.google_verificacion && <meta name="google-site-verification" content={site.google_verificacion} />}
+    {site.bing_verificacion && <meta name="msvalidate.01" content={site.bing_verificacion} />}
     <meta name="theme-color" content={t.oscuro} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_AR" />
