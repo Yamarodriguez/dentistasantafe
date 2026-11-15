@@ -33,7 +33,9 @@ export const sedePorId = (id) => site.sedes.find((s) => s.id === id);
 
 /** Enlace de WhatsApp de una sede; si aún no hay número, lleva a /contacto/. */
 export const enlaceTurno = (sede) =>
-  sede?.whatsapp ? `https://wa.me/${sede.whatsapp.replace(/\D/g, '')}` : '/contacto/';
+  sede?.whatsapp
+    ? `https://wa.me/${sede.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hola, quiero pedir un turno en la clínica dental.')}`
+    : '/contacto/';
 
 /** Foto de site.json > fotos solo si el archivo existe en public/ (las provisionales no
  *  se suben a Git: en Netlify o en un clon limpio la sección sale sin foto, sin enlace roto). */

@@ -223,6 +223,8 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   schema Person con @id /dentistas-santa-fe/#…). Secciones: odontólogos (foto-abajo con la foto real),
   título y matrícula (ley 12094), tratamientos (bloque), antes de la primera consulta, FAQ (6). Botón
   «Ver nuestros dentistas» en «Tu dentista en Santa Fe» de cada tratamiento y en la portada (infinitivo).
+  **WhatsApp de la clínica (Yama, 2026-11-15): +54 9 342 568-8611** (site.json > sedes[0].whatsapp). enlaceTurno() → wa.me con
+  mensaje «Hola, quiero pedir un turno…»: botón flotante del móvil (icono WhatsApp), franja de turnos y bloques de turno.
   **Servicios nuevos (Yama, 2026-11-15: la clínica hace blanqueamiento, carillas, bruxismo/placas, extracciones y muelas de
   juicio, prótesis sobre implantes y sedación; NO marcó guardia)**: estética se divide en /carillas-dentales-santa-fe/ y
   /blanqueamiento-dental-santa-fe/ (301 de /estetica-dental-santa-fe/ a carillas; menú «Estética dental ▾»); nuevas

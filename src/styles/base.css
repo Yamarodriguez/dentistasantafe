@@ -421,3 +421,6 @@
   .js .web .menu-boton { flex: 0 0 auto; margin-left: auto; }
   .js .web .menu { flex-basis: 100%; }
 }
+.web .boton-turno { display: inline-flex; align-items: center; gap: .45rem; }
+.web .boton-turno .icono-wa { flex: 0 0 auto; }
+@media (min-width: 761px) { .web .boton-turno { display: none; } }
