@@ -82,13 +82,13 @@
         },
         {
           "t": "Cómo llegar y horario de nuestra clínica dental en Santa Fe",
-          "bloque": "mapa",
-          "foto": "llegar"
+          "bloque": "mapa"
         },
         {
           "t": "Solicitar información sobre el tratamiento odontológico en Santa Fe que necesitás",
           "bloque": "contacto",
-          "foto": "turno"
+          "foto": "turno",
+          "lado": "derecha"
         }
       ],
       "faq": []

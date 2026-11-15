@@ -228,7 +228,13 @@ const iconoMotivo = (titulo = '') => {
 {tipo === 'mapa' && sedes.map((s) => (
   <>
     <p>{s.direccion} ({[s.barrio, s.ciudad].filter(Boolean).join(', ')}) {s.mapa ? <a href={s.mapa}>Ver en Google Maps</a> : <span class="pendiente">{pendiente('enlace a Google Maps')}</span>}</p>
-    {pagina.tipo === 'portada' && <p><strong>Horario:</strong> {s.horario}</p>}
+    {pagina.tipo === 'portada' && <p><strong>Horario:</strong> {' '}{s.horario}</p>}
+    {/* Mapa de Google (Yama, 2026-11-15) en portada y contacto; carga diferida y sin clave de API. */}
+    {['portada', 'turnos'].includes(pagina.tipo) && s.direccion && (
+      <iframe class="mapa-google" title={`Mapa: ${site.nombre}, ${s.direccion}, ${s.ciudad}`}
+        src={`https://maps.google.com/maps?q=${encodeURIComponent(`${s.direccion}, ${s.ciudad}, Argentina`)}&z=16&output=embed`}
+        width="800" height="360" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    )}
   </>
 ))}
 

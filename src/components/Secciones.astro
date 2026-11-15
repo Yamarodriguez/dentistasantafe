@@ -24,7 +24,8 @@ const foto = (h) => fotoDe(h.foto ?? pagina.contenido?.fotos?.[h.t]);
 const abajo = (h) => h.disposicion === 'foto-abajo' && foto(h);
 // En «Nuestros dentistas», la frase va a la derecha del título (arriba de la ficha), para que quede encuadrado.
 const textoAlLado = (h) => h.bloque === 'equipo' && textos[h.t];
-const lado = new Map(visibles.filter((h) => foto(h) && !abajo(h)).map((h, i) => [h.t, i % 2 ? 'derecha' : 'izquierda']));
+const lado = new Map(visibles.filter((h) => foto(h) && !abajo(h)).map((h, i) => [h.t, h.lado ?? (i % 2 ? 'derecha' : 'izquierda')]));
+// h.lado ("derecha" = foto a la derecha) fija el lado de la foto en vez de alternar (Yama, 2026-11-15).
 const textos = pagina.contenido?.secciones ?? {};
 // Antetítulo: rota entre «clínica dental», «dentista» y «centro odontológico» (fijo por H2).
 const variantes = site.antetitulos ?? [site.antetitulo];

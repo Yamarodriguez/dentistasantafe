@@ -396,3 +396,4 @@
   .js .web .marca span { font-size: .92rem; }
   .js .web .menu-boton { padding: .4rem .75rem; }
 }
+.web .mapa-google { display: block; width: 100%; max-width: 900px; height: 360px; border: 0; border-radius: var(--radio); margin-top: 1rem; }
