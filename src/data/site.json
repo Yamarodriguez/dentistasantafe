@@ -13,8 +13,7 @@
   "fotos": {
     "heroe": {
       "src": "/img/clinica-dental-santa-fe.webp",
-      "provisional": true,
-      "alt": "Recepción de una clínica dental en tonos dorados (imagen provisional)"
+      "alt": "Recepción de una clínica dental en tonos dorados (imagen ilustrativa)"
     },
     "consulta": {
       "src": "/img/fotos/clinica-dental-santa-fe-consultorio.webp",
