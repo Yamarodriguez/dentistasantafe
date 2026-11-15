@@ -76,6 +76,7 @@ const vars = [
           <span class="menu-icono" aria-hidden="true"></span>Menú
         </button>
         <nav class="menu" id="menu-principal" aria-label="Principal">
+          <a href="/" aria-current={pagina.tipo === 'portada' ? 'page' : undefined}>Clínica dental</a>
           <a href="/dentistas-santa-fe/">Dentistas</a>
           <a href={ruta('implantes-dentales-santa-fe')}>Implantes dentales</a>
           <details class="desplegable">
