@@ -70,7 +70,7 @@ const vars = [
       <div class="contenedor">
         <a class="marca" href="/">
           <img src={site.logo_web} alt={`Logo de ${site.nombre}`} width="44" height="44" />
-          <span>{site.nombre}</span>
+          <span>{site.nombre_logo ?? site.nombre}</span>
         </a>
         <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu-principal">
           <span class="menu-icono" aria-hidden="true"></span>Menú

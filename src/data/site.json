@@ -1,6 +1,8 @@
 {
   "_nota": "Único sitio para los datos del negocio (principio 3). Web SOLO de Santa Fe; Rosario será otra web con la misma base (sus datos esperan en _rosario_para_despues). Lo que va entre [corchetes] está pendiente de Yama: el validador lo cuenta como resto.",
   "nombre": "Ignacio Vera Odontología",
+  "nombre_logo": "Vera Odontología",
+  "_nombre_logo": "Texto junto al logo en la cabecera (Yama, 2026-11-15). El nombre completo (nombre) sigue en datos para Google, títulos y pie.",
   "url": "https://dentistasantafe.com",
   "idioma": "es-AR",
   "indexar": true,
