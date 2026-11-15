@@ -403,3 +403,13 @@
   .web .seccion-cuerpo:has(> .mapa-google) > * { grid-column: 1; }
   .web .seccion-cuerpo:has(> .mapa-google) > .mapa-google { grid-column: 2; grid-row: 1 / span 8; align-self: stretch; height: 100%; min-height: 380px; margin-top: 0; }
 }
+/* «¿Por qué elegir…?» en móvil: título → foto → motivos (Yama, 2026-11-15; antes la foto salía tras 2 motivos). */
+@media (max-width: 760px) {
+  .web .seccion.foto-abajo:has(> .cabeza-abajo.con-arriba) { display: flex; flex-direction: column; }
+  .web .seccion.foto-abajo:has(> .cabeza-abajo.con-arriba) > .cabeza-abajo,
+  .web .seccion.foto-abajo:has(> .cabeza-abajo.con-arriba) > .fila-foto { display: contents; }
+  .web .cabeza-abajo.con-arriba > .seccion-cuerpo { order: 1; }
+  .web .seccion.foto-abajo:has(> .cabeza-abajo.con-arriba) .foto-seccion { order: 2; margin: 1rem 0 1.5rem; }
+  .web .cabeza-abajo.con-arriba > .fila-bloque.arriba { order: 3; margin-bottom: 1rem; }
+  .web .seccion.foto-abajo:has(> .cabeza-abajo.con-arriba) > .fila-foto > .fila-bloque { order: 4; }
+}
