@@ -47,6 +47,7 @@ const vars = [
     <meta name="description" content={pagina.description} />
     {canonical && <link rel="canonical" href={canonical} />}
     {(!site.indexar || pagina.tipo === '404') && <meta name="robots" content="noindex, nofollow" />}
+    {site.google_verificacion && <meta name="google-site-verification" content={site.google_verificacion} />}
     <meta name="theme-color" content={t.oscuro} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_AR" />
