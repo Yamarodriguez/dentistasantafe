@@ -18,3 +18,6 @@
   from = "/equipo/"
   to = "/dentistas-santa-fe/"
   status = 301
+  # Astro también genera /equipo/index.html (aviso para el servidor local): sin «force», Netlify sirve ese
+  # archivo con 200 en vez del 301, que es lo que necesitan Google y los enlaces viejos.
+  force = true
