@@ -1,0 +1,143 @@
+{
+  "slug": "bruxismo-placa-de-relajacion-santa-fe",
+  "conteo": {
+    "clave": "bruxismo|placas? de relajación",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "intro": "El **bruxismo** es apretar o rechinar los dientes sin darte cuenta, de día o mientras dormís. En esta página, nuestra **clínica dental en Santa Fe** explica cómo reconocerlo, por qué aparece, para qué sirve la placa y cómo cuidarla.",
+  "fuentes": [
+    "mlp-bruxismo",
+    "cc-bruxismo",
+    "cc-protectores",
+    "mlp-coronas"
+  ],
+  "autor": null,
+  "revisado": null,
+  "secciones": {
+    "¿Qué es el bruxismo?": [
+      "Es el hábito de **apretar o rechinar los dientes** sin darte cuenta. Puede pasar de día o de noche, y el nocturno es el más difícil de controlar.",
+      "Cuando pasa de día, a veces alcanza con tomar conciencia y manejar el estrés. Cuando pasa durmiendo suele necesitar tratamiento, porque no lo notás y puede hacer más daño.",
+      "El diagnóstico suele hacerlo el dentista con un examen de la boca y tus síntomas; en algunos casos hace falta un estudio del sueño (polisomnografía)."
+    ],
+    "Síntomas y señales de alerta": [
+      "Como pasa sin darte cuenta, muchas veces se sospecha por los síntomas.",
+      {
+        "lista": [
+          "Dolor o sensibilidad en la mandíbula al despertar.",
+          "Dolor de cabeza o de cara, sobre todo a la mañana.",
+          "Dolor de oído o zumbido en los oídos.",
+          "Dolor al comer o dificultad para abrir y cerrar la boca.",
+          "Desgaste de los dientes y sensibilidad."
+        ]
+      },
+      {
+        "h3": "¿Qué pasa si no se trata?"
+      },
+      "Sin tratamiento puede **dañar los dientes** (desgaste, dientes flojos o fisurados), causar dolor de cara y problemas en la articulación de la mandíbula, y alterar el sueño.",
+      "Si un diente quedó muy gastado, una [corona](/protesis-dentales-santa-fe/) puede cubrirlo y protegerlo."
+    ],
+    "Causas del rechinar de dientes": [
+      "No hay una única causa conocida, y el **estrés** es un desencadenante frecuente.",
+      {
+        "lista": [
+          "Estrés, ansiedad, depresión o enojo, y también la concentración intensa.",
+          "Fumar, el alcohol y mucha cafeína (más de seis tazas de café por día).",
+          "Algunos antidepresivos (los llamados ISRS).",
+          "Apnea del sueño: van asociados, aunque no está claro cuál causa a cuál."
+        ]
+      },
+      "Si tomás alguna medicación, conviene contarlo en la consulta con el odontólogo."
+    ],
+    "¿Para qué sirve la placa de relajación?": [
+      "Es un protector bien ajustado que se coloca sobre los dientes y los **protege de la presión** al apretar o rechinar.",
+      "En general, una placa **a medida** se hace con impresiones de la boca y la fabrica un laboratorio dental, lo que puede llevar hasta dos semanas. Además de proteger los dientes, puede ubicar la mandíbula para aliviar la tensión de los músculos.",
+      "Se usa en los momentos en que es más probable apretar los dientes, como al dormir. Los síntomas pueden mejorar mientras se usa y volver al dejarla.",
+      "Las placas de venta libre son más baratas, pero protegen menos contra el rechinar que una hecha a medida.",
+      {
+        "h3": "¿Cómo se hace en nuestra clínica?"
+      },
+      "En nuestro centro odontológico, el odontólogo evalúa cada caso y decide si conviene una placa. [confirmar: material de la placa, si la hacen con laboratorio o escáner, cuánto tarda, cuántas visitas hacen falta y cada cuánto son los controles]",
+      "Al principio puede costar acostumbrarse. Si te duelen los dientes, las encías o la mandíbula, puede estar mal ajustada: el dentista revisa el ajuste y la corrige."
+    ],
+    "Cuidados de la placa y hábitos que ayudan": [
+      "La placa junta bacterias de la boca, así que conviene **cepillarte los dientes antes de ponerla**.",
+      {
+        "lista": [
+          "Después de usarla, enjuagarla con agua fría y cepillarla con agua y jabón.",
+          "Dejarla secar al aire y guardarla en un estuche rígido con ventilación.",
+          "Mantenerla lejos del sol y del agua caliente: el calor puede deformarla.",
+          "Guardarla donde no lleguen perros u otras mascotas.",
+          "Llevarla a los controles para que el dentista revise si tiene fisuras o desgaste."
+        ]
+      },
+      "Hecha a medida y bien cuidada puede durar varios años, según cuánto se use. En niños y adolescentes puede hacer falta cambiarla más seguido, porque la boca sigue creciendo.",
+      {
+        "h3": "¿Qué hábitos ayudan además de la placa?"
+      },
+      {
+        "lista": [
+          "Evitar comidas duras y chicle.",
+          "Dormir bien y relajar la mandíbula durante el día.",
+          "Manejar el estrés, por ejemplo con ejercicio o meditación.",
+          "Reducir la cafeína y el alcohol, y dejar de fumar.",
+          "Ir a controles dentales periódicos."
+        ]
+      },
+      "Conviene consultar si te cuesta comer o abrir la boca, o si estos cuidados no ayudan después de algunas semanas. Si es tu primera vez, podés ver cómo es [la primera consulta](/primera-consulta/)."
+    ],
+    "Precio de la placa de relajación en Santa Fe": [
+      "El precio depende de cada caso, por eso **se informa después de la consulta**, cuando el dentista ya evaluó qué tratamiento hace falta.",
+      "Si tenés [obra social o prepaga](/obras-sociales/), la cobertura depende de tu plan; conviene consultarla antes del turno.",
+      "Las formas de pago se consultan al [pedir turno](/contacto/)."
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Cómo sé si aprieto los dientes cuando duermo?",
+      "a": "Suele sospecharse por los síntomas: dolor o sensibilidad en la mandíbula al despertar, dolor de cabeza o de oído y desgaste de los dientes. Lo confirma el dentista con un examen."
+    },
+    {
+      "q": "¿El bruxismo se cura?",
+      "a": "El tratamiento busca proteger los dientes y aliviar los síntomas: una placa a medida, manejar el estrés y cambiar algunos hábitos. Los síntomas pueden mejorar mientras se usa la placa y volver al dejarla."
+    },
+    {
+      "q": "¿Cuánto tiempo hay que usar la placa?",
+      "a": "Se usa en los momentos en que es más probable apretar los dientes, como al dormir. Hasta cuándo seguir usándola lo indica el odontólogo, porque los síntomas pueden volver al dejarla."
+    },
+    {
+      "q": "¿Sirven las placas de farmacia?",
+      "a": "Son más baratas, pero protegen menos contra el rechinar que una placa **hecha a medida** por el dentista."
+    },
+    {
+      "q": "¿Cómo se limpia la placa?",
+      "a": "Después de usarla se enjuaga con agua fría, se cepilla con agua y jabón y se deja secar al aire. Sin agua caliente, porque el calor puede deformarla."
+    },
+    {
+      "q": "¿El estrés hace rechinar los dientes?",
+      "a": "Sí, el estrés es un desencadenante frecuente, junto con la ansiedad. También influyen el tabaco, el alcohol y mucha cafeína."
+    },
+    {
+      "q": "¿A quién consulto si me duele la mandíbula al despertar?",
+      "a": "Al dentista: apretar o rechinar los dientes suele diagnosticarse con un examen de la boca y tus síntomas, y en algunos casos hace falta un estudio del sueño (polisomnografía)."
+    },
+    {
+      "q": "¿Dónde me hacen una placa para dormir en Santa Fe?",
+      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**. Antes, el odontólogo evalúa si la necesitás."
+    }
+  ],
+  "faq_titulo": "Preguntas frecuentes sobre el bruxismo",
+  "resumen": [
+    "Apretar o rechinar los dientes sin darse cuenta puede pasar de día o de noche; el nocturno es el más difícil de controlar.",
+    "Puede dar dolor de mandíbula al despertar, dolor de cabeza o de oído y desgaste de los dientes.",
+    "Una placa bien ajustada protege los dientes de la presión, y los síntomas pueden volver al dejar de usarla.",
+    "Manejar el estrés y reducir la cafeína, el alcohol y el tabaco también ayuda."
+  ],
+  "fotos": {}
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "extraccion-muelas-de-juicio-santa-fe",
+  "conteo": {
+    "clave": "extracci[oó]n(es)?|muelas? de juicio",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "intro": "Una **extracción dental** es sacar un diente que no se puede salvar o que causa problemas, como pasa a veces con las **muelas de juicio**. En esta página, nuestra clínica dental en Santa Fe explica cuándo hace falta, cómo es el procedimiento y qué cuidados conviene tener después.",
+  "fuentes": [
+    "cc-extraccion",
+    "cc-alveolitis",
+    "mlp-impactados",
+    "mlp-conducto"
+  ],
+  "autor": null,
+  "revisado": null,
+  "secciones": {
+    "¿Cuándo hace falta una extracción dental?": [
+      "Sacar un diente se recomienda cuando un arreglo o una corona ya no pueden salvarlo.",
+      {
+        "lista": [
+          "Una **caries grave** o un diente fracturado.",
+          "Una enfermedad avanzada de las [encías](/periodoncia-santa-fe/).",
+          "Un diente impactado, que no logra salir a través de la encía.",
+          "Dientes apiñados, en algunos casos y según lo que indique el odontólogo, por ejemplo antes de una [ortodoncia](/ortodoncia-santa-fe/).",
+          "Un golpe en la boca, que a veces obliga a sacarlo de urgencia."
+        ]
+      },
+      "Si una infección llega al nervio, a veces un [tratamiento de conducto](/tratamiento-de-conducto-santa-fe/) puede salvar el diente; si el daño es muy grande, puede que haya que extraerlo.",
+      "El diente que falta se puede reponer más adelante, por ejemplo con un [implante](/implantes-dentales-santa-fe/), aunque suele haber que esperar unos meses a que sane el hueco."
+    ],
+    "Muelas de juicio: ¿hay que sacarlas siempre?": [
+      "No siempre: si una muela del juicio no causa problemas, puede no necesitar tratamiento.",
+      "Son los últimos molares en salir, en general **entre los 17 y los 21 años**. Por falta de espacio, a veces no logran salir o salen solo en parte (se dice que están impactadas) y pueden inclinarse o torcerse.",
+      {
+        "h3": "¿Qué síntomas da una muela impactada?"
+      },
+      "Una muela totalmente impactada puede no dar síntomas. Si salió en parte, puede causar:",
+      {
+        "lista": [
+          "Dolor o sensibilidad en la encía o en la mandíbula.",
+          "Encía roja e hinchada sobre la muela.",
+          "Mal aliento o mal sabor al morder.",
+          "Dificultad para abrir la boca y dolor de cabeza prolongado."
+        ]
+      },
+      "El dentista lo confirma con radiografías dentales. Sin tratamiento puede haber abscesos, infección, problemas en la mordida o enfermedad de las encías en los dientes vecinos.",
+      "Según MedlinePlus, sacarlas antes de los 20 años suele dar mejores resultados, porque las raíces todavía no terminaron de formarse. Si conviene sacarlas en tu caso lo decide el odontólogo."
+    ],
+    "Cómo es el procedimiento, paso a paso": [
+      "Se hace con **anestesia local**, que adormece el diente y la encía alrededor, y en general lleva de 30 a 60 minutos por diente.",
+      {
+        "pasos": [
+          "Evaluación: el odontólogo revisa tu boca y, si hace falta, pide radiografías.",
+          "Anestesia: se adormece la zona.",
+          "Se afloja el diente con instrumentos especiales y se saca; a veces hay que hacer un pequeño corte en la encía o dividir el diente en partes.",
+          "Se limpia y desinfecta el hueco; en algunos casos puede colocarse un injerto de hueso.",
+          "Si hace falta, se dan puntos; no todas las personas los necesitan."
+        ]
+      },
+      {
+        "h3": "¿Hay sedación si tengo miedo al dentista?"
+      },
+      "La sedación es una opción, sobre todo para personas con ansiedad, y se conversa en la consulta. [confirmar: si la clínica ofrece sedación, de qué tipo y quién la aplica]",
+      "Muchos de estos procedimientos los hace el odontólogo general; los casos más complejos suelen derivarse a un cirujano oral y maxilofacial o a un periodoncista. [confirmar: qué casos atiende la clínica y quién los opera]"
+    ],
+    "Cuidados después de sacar un diente": [
+      "Los primeros tres días conviene **hacer reposo**; muchas veces el tercer día es el más molesto.",
+      {
+        "lista": [
+          "Morder una gasa doblada sobre la herida durante 15 minutos para frenar el sangrado, y repetir si hace falta.",
+          "Poner hielo en la cara: 20 minutos sí y 20 minutos no, para bajar la hinchazón.",
+          "Comer blando mientras cicatriza.",
+          "**No usar sorbete** durante al menos una semana: la succión puede despegar el coágulo.",
+          "No fumar ni vapear, y evitar las bebidas calientes o con gas mientras cicatriza.",
+          "Enjuagarse con suavidad, sin buches fuertes, y no cepillar la zona hasta que lo indique el dentista.",
+          "Evitar el ejercicio fuerte y levantar más de 4,5 kilos durante 48 a 72 horas.",
+          "Tomar los medicamentos tal como los indicó el odontólogo."
+        ]
+      },
+      "Es normal tener algo de sangrado, moretones, molestias e hinchazón, que suelen pasar en alrededor de una semana. La mayoría de las personas retoma sus actividades en 48 a 72 horas, aunque el hueso tarda semanas en sanar y, en una muela, puede llevar hasta cuatro meses."
+    ],
+    "Cuándo llamar al dentista: alveolitis y otras señales": [
+      "Hay que avisar al dentista si tenés **fiebre de 38 °C o más**, pus o supuración en la herida, o un dolor fuerte que no se calma con la medicación.",
+      "Como toda intervención, puede tener complicaciones: cicatrización lenta, alveolitis, infección y, con menos frecuencia, daño del seno maxilar o lesión de un nervio.",
+      {
+        "h3": "¿Qué es la alveolitis?"
+      },
+      "Es una complicación dolorosa: el coágulo del hueco no se forma o se despega antes de tiempo y deja el hueso expuesto. Pasa en alrededor del 2 al 5 % de los dientes que se sacan y es más frecuente con las muelas del juicio.",
+      "Suele aparecer en los primeros tres días y da dolor en la boca o la cara, que puede irradiarse hacia la cabeza y el cuello, mal sabor o mal aliento.",
+      "Fumar más que triplica el riesgo. Si te pasa, el dentista puede limpiar el hueco y colocar un apósito con medicación; la mayoría se cura en 7 a 10 días.",
+      "Si no podés comunicarte con quien te atendió, conviene ir a una guardia cercana."
+    ],
+    "¿Cuánto cuesta sacar una muela en Santa Fe?": [
+      "El precio depende de cada caso, por eso **se informa después de la consulta**, cuando el dentista ya evaluó si hace falta sacar el diente y cómo.",
+      "Si tenés [obra social o prepaga](/obras-sociales/), la cobertura depende de tu plan; conviene consultarla antes del turno.",
+      "Las formas de pago se consultan al [pedir turno](/contacto/) en nuestro centro odontológico de Santa Fe."
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Cuánto tarda en cicatrizar la encía después de sacar una muela?",
+      "a": "Las molestias suelen pasar en alrededor de una semana, pero el hueso tarda varias semanas en sanar; en una muela puede llevar hasta cuatro meses."
+    },
+    {
+      "q": "¿Duele sacar una muela?",
+      "a": "Se hace con anestesia local, que adormece el diente y la encía. Después es normal tener molestias e hinchazón, que se alivian con los analgésicos que indique el odontólogo."
+    },
+    {
+      "q": "¿Qué puedo comer después de sacarme un diente?",
+      "a": "Comida blanda. Mientras cicatriza conviene evitar las bebidas calientes o con gas."
+    },
+    {
+      "q": "¿Cuándo puedo volver a trabajar después de sacarme una muela?",
+      "a": "La mayoría de las personas vuelve al trabajo o al estudio en uno o dos días, y retoma sus actividades habituales en 48 a 72 horas."
+    },
+    {
+      "q": "¿Por qué no se puede tomar con sorbete después de sacar una muela?",
+      "a": "Porque la succión puede **despegar el coágulo** y causar alveolitis, una complicación dolorosa. Conviene evitarlo al menos una semana."
+    },
+    {
+      "q": "¿A qué edad salen las muelas del juicio?",
+      "a": "En general, entre los 17 y los 21 años. Son los últimos molares en salir."
+    },
+    {
+      "q": "¿Se puede fumar después de sacar una muela?",
+      "a": "No conviene: fumar reduce el flujo de sangre en la herida y más que triplica el riesgo de alveolitis."
+    },
+    {
+      "q": "¿Dónde me saco las muelas de juicio en Santa Fe?",
+      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**. Al pedir turno se indica cómo es la primera consulta. [confirmar: si la clínica saca muelas del juicio impactadas o las deriva]"
+    }
+  ],
+  "faq_titulo": "Preguntas frecuentes sobre la extracción dental y las muelas de juicio",
+  "resumen": [
+    "Sacar un diente se recomienda cuando un arreglo o una corona ya no pueden salvarlo, por ejemplo por una caries grave, una fractura o una enfermedad avanzada de las encías.",
+    "Las muelas del juicio suelen salir entre los 17 y los 21 años y, si no causan problemas, pueden no necesitar tratamiento.",
+    "Se hace con anestesia local y en general lleva de 30 a 60 minutos por diente.",
+    "La mayoría de las personas retoma sus actividades en 48 a 72 horas, aunque el hueso tarda semanas en sanar."
+  ],
+  "fotos": {}
+}

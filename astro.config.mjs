@@ -8,5 +8,5 @@ export default defineConfig({
   trailingSlash: 'always',
   build: { format: 'directory' },
   // Direcciones viejas → nuevas (página de aviso con redirección; en Netlify además hay un 301 en netlify.toml).
-  redirects: { '/equipo/': '/dentistas-santa-fe/' },
+  redirects: { '/equipo/': '/dentistas-santa-fe/', '/estetica-dental-santa-fe/': '/carillas-dentales-santa-fe/' },
 });

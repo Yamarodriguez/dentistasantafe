@@ -20,7 +20,10 @@ const OBRA_SOCIAL = {
   'protesis-dentales-santa-fe': 'las prótesis y coronas',
   'ortodoncia-santa-fe': 'los brackets',
   'ortodoncia-invisible-santa-fe': 'los alineadores transparentes',
-  'estetica-dental-santa-fe': 'las carillas y el blanqueamiento',
+  'carillas-dentales-santa-fe': 'las carillas',
+  'blanqueamiento-dental-santa-fe': 'el blanqueamiento',
+  'bruxismo-placa-de-relajacion-santa-fe': 'la placa',
+  'extraccion-muelas-de-juicio-santa-fe': 'la cirugía de las muelas',
   'tratamiento-de-conducto-santa-fe': 'la endodoncia',
   'periodoncia-santa-fe': 'el tratamiento de encías',
   'limpieza-dental-santa-fe': 'la limpieza y las caries',
@@ -37,15 +40,18 @@ const fijos = [
 // Tratamientos relacionados (análisis SEO 2026-11-15: implantes, ortodoncia invisible, estética y
 // odontopediatría recibían enlaces de solo 4 páginas).
 const RELACIONADOS = {
-  'implantes-dentales-santa-fe': ['protesis-dentales-santa-fe', 'periodoncia-santa-fe', 'tratamiento-de-conducto-santa-fe'],
-  'protesis-dentales-santa-fe': ['implantes-dentales-santa-fe', 'estetica-dental-santa-fe', 'tratamiento-de-conducto-santa-fe'],
-  'ortodoncia-santa-fe': ['ortodoncia-invisible-santa-fe', 'odontopediatra-santa-fe', 'estetica-dental-santa-fe'],
-  'ortodoncia-invisible-santa-fe': ['ortodoncia-santa-fe', 'estetica-dental-santa-fe', 'limpieza-dental-santa-fe'],
-  'estetica-dental-santa-fe': ['ortodoncia-invisible-santa-fe', 'ortodoncia-santa-fe', 'protesis-dentales-santa-fe'],
-  'tratamiento-de-conducto-santa-fe': ['implantes-dentales-santa-fe', 'protesis-dentales-santa-fe', 'limpieza-dental-santa-fe'],
-  'periodoncia-santa-fe': ['limpieza-dental-santa-fe', 'implantes-dentales-santa-fe', 'protesis-dentales-santa-fe'],
-  'limpieza-dental-santa-fe': ['periodoncia-santa-fe', 'odontopediatra-santa-fe', 'estetica-dental-santa-fe'],
+  'implantes-dentales-santa-fe': ['protesis-dentales-santa-fe', 'extraccion-muelas-de-juicio-santa-fe', 'periodoncia-santa-fe'],
+  'protesis-dentales-santa-fe': ['implantes-dentales-santa-fe', 'carillas-dentales-santa-fe', 'tratamiento-de-conducto-santa-fe'],
+  'ortodoncia-santa-fe': ['ortodoncia-invisible-santa-fe', 'odontopediatra-santa-fe', 'extraccion-muelas-de-juicio-santa-fe'],
+  'ortodoncia-invisible-santa-fe': ['ortodoncia-santa-fe', 'blanqueamiento-dental-santa-fe', 'carillas-dentales-santa-fe'],
+  'carillas-dentales-santa-fe': ['blanqueamiento-dental-santa-fe', 'ortodoncia-invisible-santa-fe', 'protesis-dentales-santa-fe'],
+  'blanqueamiento-dental-santa-fe': ['carillas-dentales-santa-fe', 'limpieza-dental-santa-fe', 'ortodoncia-santa-fe'],
+  'tratamiento-de-conducto-santa-fe': ['extraccion-muelas-de-juicio-santa-fe', 'implantes-dentales-santa-fe', 'protesis-dentales-santa-fe'],
+  'periodoncia-santa-fe': ['limpieza-dental-santa-fe', 'implantes-dentales-santa-fe', 'bruxismo-placa-de-relajacion-santa-fe'],
+  'limpieza-dental-santa-fe': ['periodoncia-santa-fe', 'blanqueamiento-dental-santa-fe', 'odontopediatra-santa-fe'],
   'odontopediatra-santa-fe': ['ortodoncia-santa-fe', 'limpieza-dental-santa-fe', 'ortodoncia-invisible-santa-fe'],
+  'bruxismo-placa-de-relajacion-santa-fe': ['protesis-dentales-santa-fe', 'carillas-dentales-santa-fe', 'periodoncia-santa-fe'],
+  'extraccion-muelas-de-juicio-santa-fe': ['implantes-dentales-santa-fe', 'tratamiento-de-conducto-santa-fe', 'ortodoncia-santa-fe'],
 };
 // Etiqueta distinta donde el nombre repetiría la palabra clave de la página que enlaza.
 const ETIQUETA = { 'ortodoncia-invisible-santa-fe': 'Alineadores transparentes' };

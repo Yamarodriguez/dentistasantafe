@@ -38,3 +38,10 @@
   # Astro también genera /equipo/index.html (aviso para el servidor local): sin «force», Netlify sirve ese
   # archivo con 200 en vez del 301, que es lo que necesitan Google y los enlaces viejos.
   force = true
+
+# Estética dental se dividió en carillas y blanqueamiento (Yama, 2026-11-15): la URL vieja va a carillas.
+[[redirects]]
+  from = "/estetica-dental-santa-fe/"
+  to = "/carillas-dentales-santa-fe/"
+  status = 301
+  force = true

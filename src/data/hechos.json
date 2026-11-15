@@ -80,6 +80,51 @@
       "titulo": "Different times for loading dental implants (Cochrane, Esposito y cols., 2013)",
       "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003878.pub5/full",
       "fecha": "2013"
+    },
+    "ada-blanqueamiento": {
+      "titulo": "Whitening (American Dental Association, Oral Health Topics)",
+      "url": "https://www.ada.org/resources/ada-library/oral-health-topics/whitening",
+      "fecha": "2026-11-11"
+    },
+    "hlbc-blanqueamiento": {
+      "titulo": "Teeth Whitening (HealthLink BC, Gobierno de Columbia Británica)",
+      "url": "https://www.healthlinkbc.ca/healthwise/teeth-whitening",
+      "fecha": "2022-11-14"
+    },
+    "cc-carillas": {
+      "titulo": "Dental Veneers (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/23522-dental-veneers",
+      "fecha": "2022-07-18"
+    },
+    "cc-estetica": {
+      "titulo": "Cosmetic Dentistry (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/23914-cosmetic-dentistry",
+      "fecha": "2024-11-06"
+    },
+    "cc-bruxismo": {
+      "titulo": "Teeth Grinding (Bruxism) (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/diseases/10955-teeth-grinding-bruxism",
+      "fecha": "2026-11-15"
+    },
+    "cc-protectores": {
+      "titulo": "Mouthguards (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/10910-mouthguards",
+      "fecha": "2026-11-15"
+    },
+    "cc-extraccion": {
+      "titulo": "Tooth Extraction (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/22120-tooth-extraction",
+      "fecha": "2026-11-15"
+    },
+    "cc-alveolitis": {
+      "titulo": "Dry Socket (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/diseases/17731-dry-socket",
+      "fecha": "2026-11-15"
+    },
+    "mlp-impactados": {
+      "titulo": "Diente impactado (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/001057.htm",
+      "fecha": "2026-11-15"
     }
   },
   "hechos": [
@@ -542,6 +587,306 @@
       "id": "coch-carga",
       "fuente": "cochrane-carga",
       "texto": "Carga inmediata: el implante se pone en función dentro de la primera semana; temprana: entre 1 semana y 2 meses; convencional: después de 2 meses. La revisión Cochrane de 2013 no encontró pruebas convincentes de diferencias clínicamente importantes entre esos plazos y pidió más estudios."
+    },
+    {
+      "id": "bla-que",
+      "fuente": "ada-blanqueamiento",
+      "texto": "El blanqueamiento actúa con peróxido de carbamida o de hidrógeno, que oxida los pigmentos del esmalte y de la dentina."
+    },
+    {
+      "id": "bla-consultar",
+      "fuente": "ada-blanqueamiento",
+      "texto": "La Asociación Dental Americana aconseja consultar con un dentista para saber si el blanqueamiento profesional conviene; antes se hace un examen (con radiografías si corresponde) y se revisan antecedentes, alergias y sensibilidad."
+    },
+    {
+      "id": "bla-consultorio",
+      "fuente": "ada-blanqueamiento",
+      "texto": "En el consultorio, el dentista aplica un gel de peróxido, a veces con una luz."
+    },
+    {
+      "id": "bla-casa",
+      "fuente": "ada-blanqueamiento",
+      "texto": "Para usar en casa, el dentista puede dar cubetas hechas a medida con un gel de peróxido de carbamida; se consideran productos profesionales."
+    },
+    {
+      "id": "bla-venta-libre",
+      "fuente": "ada-blanqueamiento",
+      "texto": "Los productos de venta libre (pastas, tiras y geles) tienen menos peróxido; las pastas blanqueadoras quitan sobre todo manchas superficiales por abrasión."
+    },
+    {
+      "id": "bla-tiempo",
+      "fuente": "ada-blanqueamiento",
+      "texto": "En un estudio, un producto de venta libre tardó 16 días en igualar el resultado de 7 días de cubetas y de un día de tratamiento en el consultorio."
+    },
+    {
+      "id": "bla-intrinsecas",
+      "fuente": "ada-blanqueamiento",
+      "texto": "Las manchas internas (fluorosis, edad, tetraciclina, caries, causas genéticas) son más difíciles: las de tetraciclina pueden requerir unos 3-4 meses de tratamiento nocturno y quitar las de la dentina con blanqueamiento externo es casi imposible."
+    },
+    {
+      "id": "bla-restauraciones",
+      "fuente": "ada-blanqueamiento",
+      "texto": "Solo cambia el color de los dientes naturales; las restauraciones del color del diente, como las coronas, no cambian y pueden quedar diferencias de tono."
+    },
+    {
+      "id": "bla-sensibilidad",
+      "fuente": "ada-blanqueamiento",
+      "texto": "La sensibilidad temporal se asocia a todas las formas de blanqueamiento; de leve a moderada, puede aparecer hasta en dos de cada tres personas al principio y suele ser pasajera."
+    },
+    {
+      "id": "bla-encias",
+      "fuente": "ada-blanqueamiento",
+      "texto": "El gel puede irritar la encía, sobre todo por cubetas que no ajustan bien."
+    },
+    {
+      "id": "bla-ninos",
+      "fuente": "ada-blanqueamiento",
+      "texto": "La Academia Americana de Odontopediatría desaconseja el blanqueamiento estético de todos los dientes en niños con dentición temporal o mixta."
+    },
+    {
+      "id": "bla-sesiones",
+      "fuente": "hlbc-blanqueamiento",
+      "texto": "En el consultorio, las sesiones suelen durar de 30 minutos a 1 hora y puede hacer falta más de una."
+    },
+    {
+      "id": "bla-empastes",
+      "fuente": "hlbc-blanqueamiento",
+      "texto": "Los empastes del color del diente y la resina adherida no cambian de color y pueden notarse; conviene hablarlo con el dentista, sobre todo con muchos empastes, coronas o manchas muy oscuras."
+    },
+    {
+      "id": "bla-duracion",
+      "fuente": "hlbc-blanqueamiento",
+      "texto": "El blanqueamiento no es permanente: los dientes vuelven a oscurecerse de a poco, y el café y el tabaco lo aceleran."
+    },
+    {
+      "id": "bla-ninos-tonos",
+      "fuente": "hlbc-blanqueamiento",
+      "texto": "En niños con dientes de leche y permanentes, el blanqueamiento puede dejar dientes de distintos tonos."
+    },
+    {
+      "id": "bla-duracion-cc",
+      "fuente": "cc-estetica",
+      "texto": "El resultado del blanqueamiento profesional dura de seis meses a tres años, según el procedimiento y los cuidados."
+    },
+    {
+      "id": "cari-que",
+      "fuente": "cc-carillas",
+      "texto": "Las carillas son láminas hechas a medida que cubren la cara de adelante de los dientes; son estéticas y no necesariamente refuerzan ni reparan el diente."
+    },
+    {
+      "id": "cari-materiales",
+      "fuente": "cc-carillas",
+      "texto": "Se hacen con materiales del color del diente, como composite o porcelana."
+    },
+    {
+      "id": "cari-para-que",
+      "fuente": "cc-carillas",
+      "texto": "Disimulan astillas, grietas, espacios, cambios de color, manchas que no mejoran con blanqueamiento y dientes pequeños o con forma irregular."
+    },
+    {
+      "id": "cari-pasos",
+      "fuente": "cc-carillas",
+      "texto": "Suelen hacerse en dos visitas: en la primera, examen, preparación del diente e impresiones; en la segunda, prueba y adhesión definitiva. El laboratorio de las de porcelana puede llevar unas semanas y mientras tanto se pueden usar carillas provisorias."
+    },
+    {
+      "id": "cari-ajuste",
+      "fuente": "cc-carillas",
+      "texto": "Se le puede pedir al dentista que cambie la forma o el color antes de pegarlas."
+    },
+    {
+      "id": "cari-esmalte",
+      "fuente": "cc-carillas",
+      "texto": "Las de porcelana requieren quitar algo de esmalte; las sin preparación o con preparación mínima quitan menos, pero algo."
+    },
+    {
+      "id": "cari-permanente",
+      "fuente": "cc-carillas",
+      "texto": "La mayoría de las carillas son permanentes (no reversibles); algunas sin preparación o con preparación mínima sí son reversibles."
+    },
+    {
+      "id": "cari-duracion",
+      "fuente": "cc-carillas",
+      "texto": "En promedio duran de 10 a 15 años con buenos cuidados."
+    },
+    {
+      "id": "cari-riesgos",
+      "fuente": "cc-carillas",
+      "texto": "Desventajas: más sensibilidad al calor y al frío, pérdida de algo de esmalte y que la carilla se despegue; el diente de debajo puede tener caries."
+    },
+    {
+      "id": "cari-cuidados",
+      "fuente": "cc-carillas",
+      "texto": "Cuidados: cepillarse al menos dos veces al día con cepillo suave y pasta con flúor no abrasiva, hilo dental a diario, evitar productos blanqueadores (pueden rayarlas), no morder directamente cosas duras ni usar los dientes como herramienta y limitar café, té, vino tinto y frutos rojos."
+    },
+    {
+      "id": "cari-candidato",
+      "fuente": "cc-carillas",
+      "texto": "Son una opción solo sin caries extensas ni enfermedad de las encías; los problemas serios de salud bucal se tratan antes."
+    },
+    {
+      "id": "cari-porcelana-duracion",
+      "fuente": "cc-estetica",
+      "texto": "Las carillas de porcelana, de cerámica, duran de 5 a 15 años y pueden ser irreversibles."
+    },
+    {
+      "id": "cari-bonding",
+      "fuente": "cc-estetica",
+      "texto": "La resina adherida al diente (bonding) puede cambiar su forma y cubrir grietas y cambios de color; el resultado dura unos 5 a 8 años."
+    },
+    {
+      "id": "brux-dia-noche",
+      "fuente": "cc-bruxismo",
+      "texto": "El bruxismo despierto puede no necesitar tratamiento si la persona toma conciencia y maneja el estrés; el que ocurre durmiendo suele necesitarlo, porque no se nota y puede hacer más daño."
+    },
+    {
+      "id": "brux-causas-cc",
+      "fuente": "cc-bruxismo",
+      "texto": "No hay una única causa conocida; contribuyen el estrés, la ansiedad, la depresión, el enojo o la concentración intensa, el tabaco, el alcohol, mucha cafeína (más de seis tazas de café por día), los antidepresivos ISRS y la apnea del sueño (van asociados, sin saberse cuál causa a cuál)."
+    },
+    {
+      "id": "brux-sintomas-cc",
+      "fuente": "cc-bruxismo",
+      "texto": "Síntomas: dolor de cabeza o de cara, sobre todo a la mañana, dolor de oído, músculos de la mandíbula doloridos, zumbido en los oídos, dolor al comer y dificultad para abrir y cerrar la boca."
+    },
+    {
+      "id": "brux-diagnostico",
+      "fuente": "cc-bruxismo",
+      "texto": "El diagnóstico suele basarse en el examen y los síntomas, a menudo lo hace el dentista; en algunos casos hace falta un estudio del sueño (polisomnografía)."
+    },
+    {
+      "id": "brux-complicaciones",
+      "fuente": "cc-bruxismo",
+      "texto": "Sin tratamiento puede causar trastornos del sueño, daño dental (desgaste, dientes flojos o fisurados), trastornos de la articulación temporomandibular y dolor facial."
+    },
+    {
+      "id": "brux-placa-cc",
+      "fuente": "cc-bruxismo",
+      "texto": "El dentista puede hacer un protector a medida que protege los dientes y puede ubicar la mandíbula para aliviar la tensión muscular; se usa cuando es más probable apretar los dientes."
+    },
+    {
+      "id": "brux-habitos",
+      "fuente": "cc-bruxismo",
+      "texto": "Ayuda reducir el estrés (por ejemplo con meditación o ejercicio), reducir la cafeína y el alcohol, dejar de fumar e ir a controles dentales periódicos."
+    },
+    {
+      "id": "brux-placa-medida",
+      "fuente": "cc-protectores",
+      "texto": "Un protector a medida se hace con impresiones de la boca en un laboratorio dental, lo que puede llevar hasta dos semanas; suele ser más cómodo y durar más."
+    },
+    {
+      "id": "brux-placa-farmacia",
+      "fuente": "cc-protectores",
+      "texto": "Los protectores de venta libre son más baratos pero menos eficaces contra el rechinar que los hechos a medida."
+    },
+    {
+      "id": "brux-placa-limpieza",
+      "fuente": "cc-protectores",
+      "texto": "Cuidados: cepillarse los dientes antes de ponerlo, enjuagarlo con agua fría y cepillarlo con agua y jabón después de usarlo, dejarlo secar al aire y mantenerlo lejos del sol y del agua caliente, porque el calor puede deformarlo."
+    },
+    {
+      "id": "brux-placa-guardar",
+      "fuente": "cc-protectores",
+      "texto": "Guardarlo en un estuche rígido con ventilación, fuera del alcance de mascotas, y llevarlo a los controles para que el dentista revise fisuras o desgaste."
+    },
+    {
+      "id": "brux-placa-duracion",
+      "fuente": "cc-protectores",
+      "texto": "Uno a medida bien cuidado puede durar varios años, según cuánto se use; en niños y adolescentes puede hacer falta cambiarlo más seguido porque la boca crece."
+    },
+    {
+      "id": "brux-placa-ajuste",
+      "fuente": "cc-protectores",
+      "texto": "Puede llevar tiempo acostumbrarse; si queda mal ajustado puede causar dolor en dientes, encías o mandíbula, y el dentista puede ajustarlo."
+    },
+    {
+      "id": "ext-cuando",
+      "fuente": "cc-extraccion",
+      "texto": "Se recomienda cuando un arreglo o una corona no pueden salvar el diente: diente fracturado, enfermedad avanzada de las encías, diente impactado, dientes apiñados o caries grave; a veces hace falta de urgencia tras un golpe."
+    },
+    {
+      "id": "ext-quien",
+      "fuente": "cc-extraccion",
+      "texto": "Muchas extracciones las hacen odontólogos generales; los casos más complejos, cirujanos orales y maxilofaciales o periodoncistas."
+    },
+    {
+      "id": "ext-anestesia",
+      "fuente": "cc-extraccion",
+      "texto": "Se usa anestesia local, que adormece el diente y la encía alrededor; la sedación es una opción, sobre todo para personas con ansiedad, y se conversa en la consulta."
+    },
+    {
+      "id": "ext-pasos",
+      "fuente": "cc-extraccion",
+      "texto": "Se afloja el diente con instrumentos y se saca; a veces hay que cortar la encía o dividir el diente. Se limpia y desinfecta el hueco, puede colocarse un injerto de hueso y, si hace falta, puntos. Una extracción suele llevar de 30 a 60 minutos."
+    },
+    {
+      "id": "ext-cuidados",
+      "fuente": "cc-extraccion",
+      "texto": "Morder una gasa doblada 15 minutos (repetir si hace falta), hielo 20 minutos sí y 20 no, reposo los primeros tres días (el tercero suele ser el más doloroso), comida blanda, enjuagues suaves, no cepillar la zona hasta que lo indique el dentista, no fumar ni vapear (estrechan los vasos y reducen el flujo de sangre en la herida), no usar sorbete, evitar ejercicio fuerte y levantar más de 10 libras (unos 4,5 kg) durante 48-72 horas y tomar la medicación como se indicó."
+    },
+    {
+      "id": "ext-recuperacion",
+      "fuente": "cc-extraccion",
+      "texto": "La mayoría retoma sus actividades en 48-72 horas y vuelve al trabajo o al estudio en uno o dos días; el hueso tarda semanas en sanar y en un molar puede llevar hasta cuatro meses; los efectos normales (sangrado leve, moretones, molestias, hinchazón) pasan en alrededor de una semana."
+    },
+    {
+      "id": "ext-implante",
+      "fuente": "cc-extraccion",
+      "texto": "Para colocar un implante suele haber que esperar unos meses a que sane el hueco."
+    },
+    {
+      "id": "ext-riesgos",
+      "fuente": "cc-extraccion",
+      "texto": "Complicaciones posibles: cicatrización lenta, alveolitis, infección, daño del seno maxilar y lesión de un nervio."
+    },
+    {
+      "id": "ext-llamar",
+      "fuente": "cc-extraccion",
+      "texto": "Hay que llamar al dentista ante fiebre de 38 °C o más, pus o supuración en la herida, o dolor fuerte que no se calma con la medicación."
+    },
+    {
+      "id": "ext-alveolitis",
+      "fuente": "cc-alveolitis",
+      "texto": "La alveolitis (osteítis alveolar) ocurre cuando el coágulo del hueco no se forma o se despega antes de tiempo y deja expuestos el hueso y los nervios; afecta a alrededor del 2-5 % de las extracciones y es más frecuente con las muelas del juicio."
+    },
+    {
+      "id": "ext-alveolitis-sintomas",
+      "fuente": "cc-alveolitis",
+      "texto": "Da dolor en la boca o la cara que puede irradiarse a la cabeza y el cuello, mal sabor o mal aliento; el hueco se ve vacío, con una capa blanquecina. Suele empezar en los primeros tres días; si no apareció al quinto, el riesgo probablemente pasó."
+    },
+    {
+      "id": "ext-alveolitis-riesgo",
+      "fuente": "cc-alveolitis",
+      "texto": "Fumar más que triplica el riesgo; también influyen los sorbetes, los enjuagues fuertes, la mala higiene y los anticonceptivos con estrógeno. Para prevenirla: no fumar, no usar sorbete al menos una semana, evitar bebidas calientes o con gas y comer blando."
+    },
+    {
+      "id": "ext-alveolitis-trat",
+      "fuente": "cc-alveolitis",
+      "texto": "Tratamiento: limpieza suave del hueco, apósitos con anestésico, analgésicos y antibióticos si hay infección; la mayoría se cura en 1 a 1,5 semanas. Si no se puede ubicar a quien hizo la extracción, ir a una guardia."
+    },
+    {
+      "id": "ext-juicio-que",
+      "fuente": "mlp-impactados",
+      "texto": "Las muelas del juicio son los últimos molares en salir, en general entre los 17 y los 21 años; por falta de espacio pueden no salir o salir solo en parte (impactadas) e inclinarse o torcerse."
+    },
+    {
+      "id": "ext-juicio-sintomas",
+      "fuente": "mlp-impactados",
+      "texto": "Una muela totalmente impactada puede no dar síntomas; parcialmente impactada puede dar mal aliento, dificultad para abrir la boca, dolor o sensibilidad en encía o mandíbula, encía roja e hinchada, mal sabor al morder y dolor de cabeza prolongado."
+    },
+    {
+      "id": "ext-juicio-diagnostico",
+      "fuente": "mlp-impactados",
+      "texto": "El dentista busca encía inflamada o infectada y lo confirma con radiografías dentales."
+    },
+    {
+      "id": "ext-juicio-tratamiento",
+      "fuente": "mlp-impactados",
+      "texto": "Si no causa problemas, puede no necesitar tratamiento; la extracción es el tratamiento habitual de la muela del juicio impactada, y sacarlas antes de los 20 años suele dar mejores resultados porque las raíces no terminaron de formarse."
+    },
+    {
+      "id": "ext-juicio-complicaciones",
+      "fuente": "mlp-impactados",
+      "texto": "Complicaciones: absceso, infección y molestias crónicas, mala alineación de la mordida, enfermedad de las encías en dientes vecinos y daño del nervio mandibular."
     }
   ]
 }

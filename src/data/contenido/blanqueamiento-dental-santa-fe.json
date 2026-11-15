@@ -1,0 +1,137 @@
+{
+  "slug": "blanqueamiento-dental-santa-fe",
+  "conteo": {
+    "clave": "blanqueamientos? dental(es)?",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "intro": "El **blanqueamiento dental** aclara el color de los dientes naturales con un gel de peróxido. En esta página, nuestra **clínica dental en Santa Fe** explica qué manchas pueden mejorar, qué tipos existen y qué conviene consultar con el dentista antes de empezar.",
+  "resumen": [
+    "El blanqueamiento aclara el color de los dientes naturales con un gel de peróxido.",
+    "Las coronas y los empastes del color del diente no cambian de color con el blanqueamiento.",
+    "Es frecuente una sensibilidad pasajera en los dientes, sobre todo al principio del tratamiento.",
+    "El resultado no es permanente: el color vuelve de a poco, más rápido con café o tabaco."
+  ],
+  "fuentes": [
+    "ada-blanqueamiento",
+    "hlbc-blanqueamiento",
+    "cc-estetica",
+    "mlp-color"
+  ],
+  "autor": null,
+  "revisado": null,
+  "secciones": {
+    "¿Qué es el blanqueamiento dental?": [
+      "Es un tratamiento que aclara el color de los dientes naturales con un gel de **peróxido de carbamida o de hidrógeno**, que actúa sobre los pigmentos del esmalte y de la dentina.",
+      "No es lo mismo que una limpieza: en las manchas superficiales o causadas por la dieta, una [limpieza profesional](/limpieza-dental-santa-fe/) también puede mejorar el color.",
+      "La Asociación Dental Americana aconseja consultar con un dentista antes de empezar, para saber si el blanqueamiento conviene en tu caso."
+    ],
+    "¿Qué manchas mejoran con un blanqueamiento dental?": [
+      "Las manchas superficiales o causadas por la dieta suelen mejorar con un blanqueamiento; las más profundas pueden necesitar otras opciones.",
+      {
+        "h3": "¿Qué mancha los dientes?"
+      },
+      "Los dientes se pueden manchar por **té, café, vino tinto**, líquidos con hierro, tabaco, mala higiene o exceso de flúor. También influyen la genética y algunos medicamentos tomados mientras se forman los dientes.",
+      "Las manchas que están dentro del diente, como las de la fluorosis, la edad o la tetraciclina, son más difíciles de aclarar. Las de tetraciclina pueden necesitar meses de tratamiento, y las que están en la dentina casi no se quitan con un blanqueamiento desde afuera.",
+      {
+        "h3": "¿Se blanquean las coronas y los empastes?"
+      },
+      "No. El blanqueamiento solo cambia el color de los dientes naturales: las **coronas y los empastes** del color del diente quedan igual y pueden notarse más.",
+      "Cuando la mancha no responde, el dentista puede plantear [carillas dentales](/carillas-dentales-santa-fe/), empastes o [una corona](/protesis-dentales-santa-fe/).",
+      {
+        "mas": {
+          "t": "Carillas dentales en Santa Fe",
+          "href": "/carillas-dentales-santa-fe/"
+        }
+      }
+    ],
+    "Blanqueamiento en el consultorio o en casa": [
+      "Hay dos formas profesionales: en el consultorio, donde el dentista aplica el gel, y en casa, con cubetas a medida y el gel que indica el odontólogo.",
+      {
+        "h3": "¿Cómo es el blanqueamiento en el consultorio?"
+      },
+      "El dentista aplica un gel de peróxido sobre los dientes, a veces con una luz. Cada sesión suele durar de 30 minutos a 1 hora, y puede hacer falta más de una.",
+      {
+        "h3": "¿Cómo es el blanqueamiento en casa?"
+      },
+      "El dentista puede entregar unas **cubetas hechas a medida** con un gel de peróxido de carbamida, que se usan en casa según sus indicaciones.",
+      "Los productos de venta libre (pastas, tiras y geles) tienen menos peróxido y pueden tardar bastante más en hacer efecto.",
+      "[confirmar: qué tipo de blanqueamiento se hace en la clínica (en el consultorio, en casa o los dos) y cuántas sesiones suele llevar]"
+    ],
+    "Sensibilidad, riesgos y cuidados después del blanqueamiento": [
+      "Lo más frecuente es una **sensibilidad temporal** en los dientes, de leve a moderada, que puede aparecer hasta en dos de cada tres personas al principio y suele ser pasajera.",
+      "El gel también puede irritar la encía, sobre todo cuando la cubeta no ajusta bien.",
+      {
+        "h3": "¿Cuánto dura el resultado?"
+      },
+      "El resultado **no es permanente**: los dientes vuelven a oscurecerse de a poco, y el café y el tabaco aceleran ese proceso. Según Cleveland Clinic, el efecto dura de seis meses a tres años, según el procedimiento y los cuidados.",
+      {
+        "h3": "¿Se puede hacer en niños?"
+      },
+      "La Academia Americana de Odontopediatría desaconseja el blanqueamiento estético de todos los dientes en niños que todavía tienen dientes de leche. Además, cuando conviven dientes de leche y permanentes, pueden quedar dientes de distintos tonos. Si es tu caso, conviene hablarlo con el [odontopediatra](/odontopediatra-santa-fe/)."
+    ],
+    "Cómo es el blanqueamiento dental, paso a paso": [
+      "El primer paso es una consulta para saber por qué cambió el color de los dientes, porque de eso depende si el blanqueamiento sirve.",
+      {
+        "pasos": [
+          "Consulta: el dentista revisa tu historia clínica, si tenés alergias o sensibilidad, y el estado de los dientes; si hace falta, pide radiografías.",
+          "Diagnóstico: se identifica el tipo de mancha y si tenés coronas, carillas o empastes que no van a cambiar de color.",
+          "Tratamiento: en el consultorio o en casa, según lo que indique el odontólogo.",
+          "Después: la sensibilidad suele ser pasajera y el color se va perdiendo de a poco, más rápido con café o tabaco."
+        ]
+      },
+      "Si tenés muchos empastes, coronas o manchas muy oscuras, es especialmente importante hablarlo antes con el dentista.",
+      "[confirmar: pasos del blanqueamiento en la clínica (por ejemplo, si antes se hace una limpieza)]"
+    ],
+    "Precio del blanqueamiento dental en Santa Fe": [
+      "El precio del blanqueamiento depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
+      "Al ser un tratamiento estético, conviene consultar con tu obra social o prepaga si lo cubre antes del turno; podés ver la lista orientativa en [obras sociales](/obras-sociales/). [confirmar: si alguna obra social cubre el blanqueamiento en la clínica]",
+      "Las formas de pago se consultan al pedir turno. La evaluación se hace en la [primera consulta](/primera-consulta/), en nuestro centro odontológico de 9 de Julio 3288."
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El blanqueamiento da sensibilidad en los dientes?",
+      "a": "Puede dar una sensibilidad pasajera, de leve a moderada, sobre todo al principio del tratamiento. Suele ser pasajera."
+    },
+    {
+      "q": "¿Cuántas sesiones de blanqueamiento hacen falta?",
+      "a": "En el blanqueamiento en el consultorio, cada sesión suele durar de 30 minutos a 1 hora y puede hacer falta más de una; en casa se usan cubetas a medida con el gel que indica el dentista. Cuántas necesitás lo indica el dentista después de evaluarte."
+    },
+    {
+      "q": "¿Las pastas blanqueadoras funcionan?",
+      "a": "Las pastas blanqueadoras quitan sobre todo **manchas superficiales**, porque actúan por abrasión. Para aclarar el color del propio diente se usan geles de peróxido."
+    },
+    {
+      "q": "¿El café mancha los dientes después de blanquearlos?",
+      "a": "Sí: el café y el tabaco hacen que el color logrado se pierda más rápido. El té y el vino tinto también figuran entre las causas de manchas en los dientes."
+    },
+    {
+      "q": "¿Por qué un diente no se aclaró con el blanqueamiento?",
+      "a": "Puede ser una corona, una carilla o un empaste, que **no cambian de color**, o una mancha que está dentro del diente, más difícil de aclarar."
+    },
+    {
+      "q": "¿Cuánto tarda en hacer efecto el blanqueamiento?",
+      "a": "Depende del método: el blanqueamiento en el consultorio es el más rápido y los productos de venta libre, los más lentos. En un estudio citado por la Asociación Dental Americana, un producto de venta libre tardó 16 días en lograr lo que las cubetas del dentista lograron en 7 y el consultorio en un día."
+    },
+    {
+      "q": "¿Dónde hacerse un blanqueamiento dental en Santa Fe?",
+      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**: el dentista revisa primero qué tipo de mancha es y si el blanqueamiento sirve en tu caso."
+    },
+    {
+      "q": "¿Cuánto cuesta un blanqueamiento dental en Santa Fe?",
+      "a": "Depende de cada caso: el precio **se informa después de la consulta**, cuando el dentista ya evaluó qué tratamiento hace falta."
+    }
+  ],
+  "faq_titulo": "Preguntas frecuentes sobre el blanqueamiento dental",
+  "fotos": {
+    "¿Qué es el blanqueamiento dental?": "blanqueamiento",
+    "Sensibilidad, riesgos y cuidados después del blanqueamiento": "estetica-cuidados"
+  }
+}

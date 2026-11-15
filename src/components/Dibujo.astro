@@ -6,6 +6,7 @@ const { slug = '', tam = 96, clase = '' } = Astro.props;
 // Diente base (viewBox 0 0 96 96)
 const DIENTE = 'M31 14c-9 0-16 7-16 17 0 9 4 16 6 25 2 11 4 26 11 26 6 0 6-14 10-19 2-3 7-3 9 0 4 5 4 19 10 19 7 0 9-15 11-26 2-9 6-16 6-25 0-10-7-17-16-17-7 0-10 4-16 4s-9-4-15-4z';
 const tipo = Object.entries({
+  blanqueamiento: 'estetica', carillas: 'carillas', bruxismo: 'bruxismo', extraccion: 'extraccion',
   implante: 'implantes', protesis: 'protesis', invisible: 'invisible', ortodoncia: 'ortodoncia',
   conducto: 'conducto', periodoncia: 'periodoncia', estetica: 'estetica', limpieza: 'limpieza',
   odontopediatr: 'ninos', guardia: 'guardia',
@@ -69,6 +70,29 @@ const tipo = Object.entries({
       <path d="M78 6v12M72 12h12" stroke="var(--acento)" />
       <path d="M86 26v6M83 29h6" stroke="var(--acento)" />
       <path d="M34 26c4-4 8-5 12-4" stroke="var(--superficie)" stroke-width="4" />
+    </>
+  )}
+  {tipo === 'carillas' && (
+    <>
+      <path d={DIENTE} fill="var(--superficie)" />
+      <path d="M31 14c-9 0-16 7-16 17 0 5 1 9 2 13 8-4 54-4 62 0 1-4 2-8 2-13 0-10-7-17-16-17-7 0-10 4-16 4s-9-4-15-4z" fill="var(--tinte-1)" />
+      <path d="M17 44c8-4 54-4 62 0" stroke="var(--acento)" stroke-width="3" />
+      <path d="M80 8v10M75 13h10" stroke="var(--acento)" />
+    </>
+  )}
+  {tipo === 'bruxismo' && (
+    <>
+      <path d="M12 18h72c0 10-6 18-16 18H28c-10 0-16-8-16-18z" fill="var(--tinte-1)" />
+      <path d="M12 78h72c0-10-6-18-16-18H28c-10 0-16 8-16 18z" fill="var(--tinte-1)" />
+      <path d="M10 48h76" stroke="var(--acento)" stroke-width="5" />
+      <path d="M22 40l4 4-4 4M74 40l-4 4 4 4" stroke="var(--acento)" />
+    </>
+  )}
+  {tipo === 'extraccion' && (
+    <>
+      <path d={DIENTE} fill="var(--tinte-1)" transform="translate(6 18) scale(.85)" />
+      <path d="M48 4v16M40 12l8-8 8 8" stroke="var(--acento)" stroke-width="3" />
+      <path d="M8 88h80" stroke="var(--acento)" />
     </>
   )}
   {tipo === 'limpieza' && (

@@ -52,6 +52,10 @@
       "a": "No. Muchas caries **no dan síntomas** y se descubren en los controles."
     },
     {
+      "q": "¿Puedo atenderme con sedación si tengo miedo al dentista?",
+      "a": "Sí: nuestra clínica dental ofrece **atención con sedación** para pacientes con miedo al dentista. Contalo al pedir turno y el odontólogo evalúa si corresponde en tu caso. [confirmar: tipo de sedación y quién la aplica]"
+    },
+    {
       "q": "¿Cada cuánto conviene volver después de la primera consulta?",
       "a": "MedlinePlus aconseja una limpieza profesional **cada 6 meses**."
     },

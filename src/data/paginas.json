@@ -200,22 +200,42 @@
       "faq": []
     },
     {
-      "slug": "estetica-dental-santa-fe",
+      "slug": "carillas-dentales-santa-fe",
       "tipo": "tratamiento",
       "estado": "si",
-      "nombre": "Carillas y blanqueamiento",
+      "nombre": "Carillas dentales",
       "grupo": "Estética dental",
-      "clave": "carillas / blanqueamiento dental Santa Fe",
-      "title": "Carillas y blanqueamiento dental en Santa Fe",
-      "description": "Estética dental en Santa Fe: carillas, blanqueamiento y diseño de sonrisa. Qué opción te conviene y cómo es cada tratamiento. En 9 de Julio 3288.",
-      "h1": "Estética dental en Santa Fe: carillas y blanqueamiento",
+      "clave": "carillas dentales",
+      "title": "Carillas dentales en Santa Fe: tipos, colocación y cuidados",
+      "description": "Carillas dentales en Santa Fe: para qué sirven, materiales, cómo se colocan y cuánto duran. Precio tras la consulta. En 9 de Julio 3288.",
+      "h1": "Carillas dentales en Santa Fe",
       "h2s": [
-        "Carillas dentales",
-        "Blanqueamiento dental",
-        "Diseño de sonrisa",
-        "Cómo es el tratamiento de estética dental, paso a paso",
-        "Cuidados y duración del blanqueamiento y las carillas",
-        "Precio de la estética dental en Santa Fe"
+        "¿Qué son las carillas dentales?",
+        "¿Para qué sirven las carillas?",
+        "Carillas de porcelana o de composite",
+        "Cómo se colocan las carillas dentales, paso a paso",
+        "Cuidados y duración de las carillas dentales",
+        "Precio de las carillas dentales en Santa Fe"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "blanqueamiento-dental-santa-fe",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Blanqueamiento dental",
+      "grupo": "Estética dental",
+      "clave": "blanqueamiento dental",
+      "title": "Blanqueamiento dental en Santa Fe: manchas, tipos y duración",
+      "description": "Blanqueamiento dental en Santa Fe: qué manchas mejoran, en consultorio o en casa, sensibilidad y cuánto dura. Precio tras la consulta. En 9 de Julio 3288.",
+      "h1": "Blanqueamiento dental en Santa Fe",
+      "h2s": [
+        "¿Qué es el blanqueamiento dental?",
+        "¿Qué manchas mejoran con un blanqueamiento dental?",
+        "Blanqueamiento en el consultorio o en casa",
+        "Sensibilidad, riesgos y cuidados después del blanqueamiento",
+        "Cómo es el blanqueamiento dental, paso a paso",
+        "Precio del blanqueamiento dental en Santa Fe"
       ],
       "faq": []
     },
@@ -294,6 +314,46 @@
         "Caries en dientes de leche",
         "Ortopedia y ortodoncia en niños",
         "Si tu hijo tiene miedo al dentista"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "bruxismo-placa-de-relajacion-santa-fe",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Bruxismo y placas de relajación",
+      "grupo": "Odontología general",
+      "clave": "bruxismo Santa Fe (placa de relajación)",
+      "title": "Bruxismo en Santa Fe: síntomas y placa de relajación",
+      "description": "Apretar o rechinar los dientes: síntomas, causas, para qué sirve la placa de relajación y cómo cuidarla. Clínica dental en 9 de Julio 3288, Santa Fe.",
+      "h1": "Bruxismo y placa de relajación en Santa Fe",
+      "h2s": [
+        "¿Qué es el bruxismo?",
+        "Síntomas y señales de alerta",
+        "Causas del rechinar de dientes",
+        "¿Para qué sirve la placa de relajación?",
+        "Cuidados de la placa y hábitos que ayudan",
+        "Precio de la placa de relajación en Santa Fe"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "extraccion-muelas-de-juicio-santa-fe",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Extracciones y muelas de juicio",
+      "grupo": "Odontología general",
+      "clave": "extracción dental Santa Fe (muelas de juicio)",
+      "title": "Extracción dental y muelas de juicio en Santa Fe",
+      "description": "Cuándo hace falta sacar un diente o las muelas de juicio, cómo es la extracción y qué cuidados tener después. Clínica dental. En 9 de Julio 3288.",
+      "h1": "Extracciones dentales y muelas de juicio en Santa Fe",
+      "h2s": [
+        "¿Cuándo hace falta una extracción dental?",
+        "Muelas de juicio: ¿hay que sacarlas siempre?",
+        "Cómo es el procedimiento, paso a paso",
+        "Cuidados después de sacar un diente",
+        "Cuándo llamar al dentista: alveolitis y otras señales",
+        "¿Cuánto cuesta sacar una muela en Santa Fe?"
       ],
       "faq": []
     },
