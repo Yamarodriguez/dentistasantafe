@@ -15,6 +15,9 @@ import { schemaDe } from '../lib/schema.js';
 
 // Menú como la referencia: tratamientos principales sueltos, el resto en «Otros tratamientos»
 const MENU_ORTODONCIA = ['ortodoncia-santa-fe', 'ortodoncia-invisible-santa-fe'];
+// Mismo nombre en menú y pie (análisis SEO 2026-11-15).
+const ETIQUETA_MENU = { 'estetica-dental-santa-fe': 'Estética dental' };
+const etiqueta = (t) => ETIQUETA_MENU[t.slug] ?? t.nombre.replace(/\s*\(.*?\)/, '');
 const MENU_SUELTOS = ['implantes-dentales-santa-fe', 'estetica-dental-santa-fe', ...MENU_ORTODONCIA];
 
 const { pagina } = Astro.props;
@@ -42,11 +45,13 @@ const vars = [
 <html lang={site.idioma}>
   <head>
     <meta charset="utf-8" />
+    <script is:inline>document.documentElement.classList.add('js');</script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pagina.title}</title>
     <meta name="description" content={pagina.description} />
     {canonical && <link rel="canonical" href={canonical} />}
     {(!site.indexar || pagina.tipo === '404') && <meta name="robots" content="noindex, nofollow" />}
+    {site.indexar && pagina.tipo === 'legal' && <meta name="robots" content="noindex, follow" />}
     {site.google_verificacion && <meta name="google-site-verification" content={site.google_verificacion} />}
     <meta name="theme-color" content={t.oscuro} />
     <meta property="og:type" content="website" />
@@ -67,13 +72,16 @@ const vars = [
           <img src={site.logo_web} alt={`Logo de ${site.nombre}`} width="44" height="44" />
           <span>{site.nombre}</span>
         </a>
-        <nav class="menu" aria-label="Principal">
+        <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu-principal">
+          <span class="menu-icono" aria-hidden="true"></span>Menú
+        </button>
+        <nav class="menu" id="menu-principal" aria-label="Principal">
           <a href="/dentistas-santa-fe/">Dentistas</a>
           <a href={ruta('implantes-dentales-santa-fe')}>Implantes dentales</a>
           <details class="desplegable">
             <summary>Ortodoncia</summary>
             <ul class="panel">
-              {tratamientos.filter((t) => MENU_ORTODONCIA.includes(t.slug)).map((t) => <li><a href={ruta(t.slug)}>{t.nombre}</a></li>)}
+              {tratamientos.filter((t) => MENU_ORTODONCIA.includes(t.slug)).map((t) => <li><a href={ruta(t.slug)}>{etiqueta(t)}</a></li>)}
             </ul>
           </details>
           <a href={ruta('estetica-dental-santa-fe')}>Estética dental</a>
@@ -81,7 +89,7 @@ const vars = [
           <details class="desplegable">
             <summary>Otros tratamientos</summary>
             <ul class="panel">
-              {tratamientos.filter((t) => !MENU_SUELTOS.includes(t.slug)).map((t) => <li><a href={ruta(t.slug)}>{t.nombre}</a></li>)}
+              {tratamientos.filter((t) => !MENU_SUELTOS.includes(t.slug)).map((t) => <li><a href={ruta(t.slug)}>{etiqueta(t)}</a></li>)}
               <li class="todos"><a href="/tratamientos/">Todos los tratamientos →</a></li>
             </ul>
           </details>
@@ -121,7 +129,7 @@ const vars = [
         <div>
           <p class="pie-titulo"><a href="/tratamientos/">Tratamientos dentales</a></p>
           <ul class="pie-lista">
-            {tratamientos.map((t) => <li><a href={ruta(t.slug)}>{t.nombre.replace(/\s*\(.*?\)/, '')}</a></li>)}
+            {tratamientos.map((t) => <li><a href={ruta(t.slug)}>{etiqueta(t)}</a></li>)}
           </ul>
         </div>
         <div>
@@ -151,6 +159,14 @@ const vars = [
       });
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') desplegables.forEach((d) => { d.open = false; });
+      });
+      // Móvil: el menú se pliega tras el botón «Menú» (análisis SEO 2026-11-15: abierto ocupaba 227 px fijos).
+      // Sin JavaScript no se pliega (la clase "js" la pone el <head>): los enlaces siempre quedan visibles.
+      const boton = document.querySelector('.menu-boton');
+      const menu = document.getElementById('menu-principal');
+      boton?.addEventListener('click', () => {
+        const abierto = menu.classList.toggle('abierto');
+        boton.setAttribute('aria-expanded', String(abierto));
       });
     </script>
   </body>

@@ -6,12 +6,17 @@
 [build.environment]
   NODE_VERSION = "22"
 
-# FASE DE PRUEBAS: que Google no indexe nada.
-# Quitar este bloque (y poner "indexar": true en src/data/site.json) en la FASE 5.
+# Indexación abierta (Yama, 2026-11-15: «index a todo menos aviso legal y etc.»).
+# Las páginas legales no se indexan (también llevan la etiqueta meta, ver Base.astro).
 [[headers]]
-  for = "/*"
+  for = "/privacidad/*"
   [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
+    X-Robots-Tag = "noindex, follow"
+
+[[headers]]
+  for = "/terminos/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, follow"
 
 # Caché (análisis SEO 2026-11-15): los archivos de /_astro/ llevan huella en el nombre (cambian de nombre
 # si cambian) → 1 año. Las fotos no llevan huella → 30 días (si se reemplaza una foto, cambiarle el nombre).

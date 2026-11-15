@@ -28,7 +28,7 @@ ciudad: `/implantes-dentales-santa-fe/`. Sin páginas de sede: contacto en `/con
 Textos de la web: español de Argentina **con vos** (recomendado, sin confirmar): «turno»,
 «odontólogo», «tratamiento de conducto», «guardia», «matrícula», «ortopedia», «operatoria»,
 «placas de relajación». Normativa sanitaria y legal: argentina/santafesina, no española.
-**Dominio elegido: dentistasantafe.com** (Yama, 2026-11-13). Ya es la URL de site.json (canonical, sitemap, schema, llms.txt). **Comprado el 2026-11-13 en OVH** (caduca 2027-11-13; DNS de OVH: dns103/ns103.ovh.net). **Alojamiento: Netlify (Yama, 2026-11-14).** DNS ya en Netlify (dns1-4.p04.nsone.net) y certificado https emitido el 2026-11-14, **PUBLICADA el 2026-11-15** («solo git», Yama): Netlify está conectado a GitHub y publica cada push a `main` en ~1 min (un commit vacío bastó para sacarla del «Not Found»). Cada push = una publicación = créditos del plan gratuito → agrupar cambios antes de subir. Sigue en fase de pruebas: cabecera `X-Robots-Tag: noindex` (Google no la indexa hasta la Fase 5). El navegador de la app tiene bloqueado app.netlify.com: no hay acceso al panel. /equipo/ → 301 con `force = true` (sin él, Netlify servía el /equipo/index.html de Astro). **Google Search Console (2026-11-15)**: propiedad «Prefijo de la URL» https://dentistasantafe.com, verificación por metaetiqueta (código en site.json > `google_verificacion`; Base.astro la pone en todas las páginas; no borrarla o se pierde la verificación). Hasta la Fase 5: ni enviar el sitemap ni pedir indexar. Descartados: odontologiasantafe.net (el .com es de un competidor) y clinicadentalsantafe.com (de una clínica de Costa Rica). Libres ese día: dentistasantafe.com.ar y clinicadentalsantafe.com.ar (se pueden comprar para redirigir).
+**Dominio elegido: dentistasantafe.com** (Yama, 2026-11-13). Ya es la URL de site.json (canonical, sitemap, schema, llms.txt). **Comprado el 2026-11-13 en OVH** (caduca 2027-11-13; DNS de OVH: dns103/ns103.ovh.net). **Alojamiento: Netlify (Yama, 2026-11-14).** DNS ya en Netlify (dns1-4.p04.nsone.net) y certificado https emitido el 2026-11-14, **PUBLICADA el 2026-11-15** («solo git», Yama): Netlify está conectado a GitHub y publica cada push a `main` en ~1 min (un commit vacío bastó para sacarla del «Not Found»). Cada push = una publicación = créditos del plan gratuito → agrupar cambios antes de subir. **Indexación abierta el 2026-11-15 (Yama: «index a todo menos aviso legal»)**, con 126 datos pendientes aún visibles: solo /privacidad/ y /terminos/ (noindex, follow: netlify.toml + Base.astro) y la 404 quedan fuera. El navegador de la app tiene bloqueado app.netlify.com: no hay acceso al panel. /equipo/ → 301 con `force = true` (sin él, Netlify servía el /equipo/index.html de Astro). **Google Search Console (2026-11-15)**: propiedad «Prefijo de la URL» https://dentistasantafe.com, verificación por metaetiqueta (código en site.json > `google_verificacion`; Base.astro la pone en todas las páginas; no borrarla o se pierde la verificación). Con la indexación abierta: sitemap enviado y se puede pedir indexar. Descartados: odontologiasantafe.net (el .com es de un competidor) y clinicadentalsantafe.com (de una clínica de Costa Rica). Libres ese día: dentistasantafe.com.ar y clinicadentalsantafe.com.ar (se pueden comprar para redirigir).
 Competidor que pasa Yama: drarenzulli.com.
 Webs de Valencia (dentalblanch.es, centroodontologicovalenciano.com, pilarroig.com,
 clinicamanzanera.com): solo como **modelo** de estructura, no como competencia local.
@@ -169,8 +169,7 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
 - Plantillas en `src/plantillas/` (Portada, Sede, Tratamiento, Generica); una sola ruta
   `src/pages/[...slug].astro`. Tratamiento añade siempre: quién te atiende, obra social,
   dónde te lo hacemos, opiniones, FAQ.
-- `netlify.toml`: build `npm run todo`, cabecera `X-Robots-Tag: noindex` (quitar en Fase 5)
-  + `"indexar": false` en site.json.
+- `netlify.toml`: build `npm run todo`; noindex solo en legales; `"indexar": true` en site.json (desde 2026-11-15).
 - Diseño (Fase 2): `src/styles/base.css` acotado a `.web`; variables desde `temas.json`;
   `npm run todo` incluye `todo:visual` (`scripts/visual.mjs`: contraste AA de cada tema,
   bandas y tintes + que exista 404). Detalle propio: línea dorada bajo cada H2 (la del
@@ -224,6 +223,9 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   schema Person con @id /dentistas-santa-fe/#…). Secciones: odontólogos (foto-abajo con la foto real),
   título y matrícula (ley 12094), tratamientos (bloque), antes de la primera consulta, FAQ (6). Botón
   «Ver nuestros dentistas» en «Tu dentista en Santa Fe» de cada tratamiento y en la portada (infinitivo).
+  **Portada y menú (2026-11-15)**: menú plegable en móvil (botón «Menú», solo con JS: clase .js en <html>; cabecera 227 → 63 px);
+  mismo nombre en menú y pie (etiqueta() en Base.astro). **Experiencia: 15 años (Yama, 2026-11-15)** → H2 «…con más de 15 años de
+  experiencia» y motivo «+15 años de experiencia».
   **Análisis SEO de toda la web (2026-11-15)** → `informes/seo-analisis-web-completa.md`. Aplicado: H2 de obra social con el
   tratamiento (sin la clave exacta: tope 11), «Tratamientos relacionados» (RELACIONADOS en Tratamiento.astro), H1 de
   contacto/obras/primera consulta con Santa Fe, titles cortos ampliados, «Pedir turno →» sin WhatsApp, caché en netlify.toml

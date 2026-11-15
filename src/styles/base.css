@@ -375,3 +375,24 @@
   .web .foto-abajo.bloque-texto .fila-bloque > :first-child { margin-top: 0; }
 }
 .web .nota-obras { font-size: .9rem; color: var(--suave); margin-top: .75rem; }
+
+/* Menú plegable en móvil (análisis SEO 2026-11-15). Solo con JavaScript (clase .js en <html>). */
+.web .menu-boton { display: none; align-items: center; gap: .5rem; background: none; border: 1px solid var(--borde); border-radius: 999px; padding: .45rem .9rem; font: inherit; font-weight: 600; color: var(--texto); cursor: pointer; }
+.web .menu-icono, .web .menu-icono::before, .web .menu-icono::after { display: block; width: 18px; height: 2px; background: currentColor; border-radius: 2px; position: relative; }
+.web .menu-icono::before, .web .menu-icono::after { content: ""; position: absolute; left: 0; }
+.web .menu-icono::before { top: -6px; }
+.web .menu-icono::after { top: 6px; }
+@media (max-width: 760px) {
+  .js .web .menu-boton { display: inline-flex; }
+  .js .web .menu { display: none; }
+  .js .web .menu.abierto { display: flex; flex-direction: column; align-items: stretch; gap: 0; padding: .5rem 0 .75rem; max-height: calc(100vh - 70px); overflow-y: auto; }
+  .js .web .menu.abierto > a, .js .web .menu.abierto summary { padding: .7rem .25rem; border-bottom: 1px solid var(--borde); font-size: 1rem; }
+  .js .web .menu.abierto .boton { margin-top: .75rem; text-align: center; border-bottom: 0; }
+  .js .web .menu.abierto .panel { position: static; box-shadow: none; border: 0; padding: 0 0 .25rem .75rem; min-width: 0; }
+}
+@media (max-width: 760px) {
+  .js .web .cabecera .contenedor { gap: .5rem; }
+  .js .web .marca img { width: 36px; height: 36px; }
+  .js .web .marca span { font-size: .92rem; }
+  .js .web .menu-boton { padding: .4rem .75rem; }
+}

@@ -1,5 +1,5 @@
 // robots.txt: buscadores y robots de IA nombrados uno a uno, todos permitidos (Fase 4).
-// Mientras la web esté en pruebas, el «no indexar» lo pone netlify.toml (X-Robots-Tag).
+// Indexación abierta desde el 2026-11-15; las legales llevan noindex (netlify.toml + Base.astro).
 import { site } from '../lib/datos.js';
 
 const robotsIA = [
