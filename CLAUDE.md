@@ -223,6 +223,12 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   schema Person con @id /dentistas-santa-fe/#…). Secciones: odontólogos (foto-abajo con la foto real),
   título y matrícula (ley 12094), tratamientos (bloque), antes de la primera consulta, FAQ (6). Botón
   «Ver nuestros dentistas» en «Tu dentista en Santa Fe» de cada tratamiento y en la portada (infinitivo).
+  **Servicios nuevos (Yama, 2026-11-15: la clínica hace blanqueamiento, carillas, bruxismo/placas, extracciones y muelas de
+  juicio, prótesis sobre implantes y sedación; NO marcó guardia)**: estética se divide en /carillas-dentales-santa-fe/ y
+  /blanqueamiento-dental-santa-fe/ (301 de /estetica-dental-santa-fe/ a carillas; menú «Estética dental ▾»); nuevas
+  /bruxismo-placa-de-relajacion-santa-fe/ y /extraccion-muelas-de-juicio-santa-fe/ (Odontología general); el bruxismo sale de
+  limpieza (sin H2 ni FAQ propios, solo enlace). Prótesis sobre implantes y sedación: frase/FAQ con [confirmar: tipos]. Fuentes
+  nuevas en hechos.json (ADA, HealthLink BC, Cleveland Clinic, MedlinePlus). Redactadas por subagentes + 1 revisor por página.
   **Canibalización 2 (2026-11-15)** → `informes/canibalizacion-enlaces-2026-11-15.md`: /dentistas-santa-fe/ = «Odontólogos en Santa Fe»
   (title y H1; la portada se queda «dentista»); migas «Clínica dental» (antes «Inicio», también en el schema); primera consulta =
   «Primera consulta odontológica en Santa Fe, paso a paso»; ortodoncia en relacionados de estética.

@@ -66,17 +66,8 @@
           "t": "Prótesis dentales y coronas en Santa Fe",
           "href": "/protesis-dentales-santa-fe/"
         }
-      }
-    ],
-    "Bruxismo y placas de relajación": [
-      "El bruxismo es **apretar o rechinar los dientes** sin darse cuenta, de día o de noche; el nocturno es el más difícil de controlar.",
-      "Puede dar dolor o sensibilidad en la mandíbula al despertar, dolor de cabeza o de oído, sensibilidad y desgaste de los dientes. No hay acuerdo sobre la causa exacta, pero el estrés es un desencadenante frecuente.",
-      {
-        "h3": "¿Para qué sirve la placa de relajación?"
       },
-      "Una **placa bien ajustada** protege los dientes de la presión del rechinamiento. Los síntomas pueden mejorar mientras se usa y volver al dejarla.",
-      "También ayuda evitar comidas duras y chicle, dormir bien, relajar la mandíbula durante el día y manejar el estrés. Hay que consultar si cuesta comer o abrir la boca, o si estos cuidados no ayudan después de algunas semanas.",
-      "[Pendiente: cómo hace la clínica las placas de relajación (a medida, cuántas visitas)]"
+      "Si apretás o rechinás los dientes, el desgaste puede ser por bruxismo: lo explicamos en [bruxismo y placa de relajación](/bruxismo-placa-de-relajacion-santa-fe/)."
     ],
     "Precio de la limpieza dental en Santa Fe": [
       "El precio de una limpieza o de un arreglo depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
@@ -101,30 +92,17 @@
       "a": "Sobre todo con **resina compuesta**; también existen el ionómero de vidrio y la amalgama."
     },
     {
-      "q": "¿Para qué sirve la placa de relajación?",
-      "a": "Protege los dientes de la **presión del rechinamiento** (bruxismo); los síntomas pueden mejorar mientras se usa y volver al dejarla."
-    },
-    {
       "q": "¿Cómo se previenen las caries?",
       "a": "Cepillándose al menos dos veces al día, usando hilo dental a diario, con una limpieza en el consultorio cada 6 meses y con menos picoteo y bebidas azucaradas."
     },
     {
-      "q": "¿Qué es el bruxismo?",
-      "a": "Es apretar o rechinar los dientes sin darse cuenta, de día o de noche; el **estrés** es un desencadenante frecuente."
-    },
-    {
       "q": "¿Qué pasa si la caries es grande?",
       "a": "Si queda poco diente se usa una **corona**; si llega al nervio, un tratamiento de conducto, y si destruye el diente, puede hacer falta extraerlo."
-    },
-    {
-      "q": "¿Cuándo consultar por bruxismo?",
-      "a": "Si **cuesta comer o abrir la boca**, o si los cuidados no ayudan después de algunas semanas."
     }
   ],
   "fotos": {
     "Qué incluye una limpieza dental": "limpieza",
-    "Caries y arreglos (operatoria dental)": "operatoria",
-    "Bruxismo y placas de relajación": "bruxismo"
+    "Caries y arreglos (operatoria dental)": "operatoria"
   },
   "resumen": [
     "MedlinePlus aconseja una limpieza profesional cada 6 meses.",
