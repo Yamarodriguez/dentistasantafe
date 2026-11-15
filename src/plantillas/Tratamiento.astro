@@ -59,7 +59,6 @@ const relacionados = (RELACIONADOS[pagina.slug] ?? [])
   .map((s) => mapa.paginas.find((p) => p.slug === s && p.estado === 'si'))
   .filter(Boolean);
 const autor = c?.autor && site.profesionales.find((p) => p.nombre === c.autor);
-const fuentes = (c?.fuentes ?? []).map((id) => hechos.fuentes[id]).filter(Boolean);
 ---
 <Base pagina={pagina}>
   <div class="contenedor">
@@ -99,12 +98,7 @@ const fuentes = (c?.fuentes ?? []).map((id) => hechos.fuentes[id]).filter(Boolea
           <br /><strong>Fecha de revisión:</strong> {c.revisado ?? pendiente('fecha de revisión')}
         </p>
         <p>Esta información es general y no reemplaza una consulta con un odontólogo.</p>
-        {fuentes.length > 0 && (
-          <>
-            <p><strong>Fuentes:</strong></p>
-            <ul>{fuentes.map((f) => <li><a href={f.url} rel="noopener">{f.titulo}</a></li>)}</ul>
-          </>
-        )}
+        {/* Lista de fuentes visible quitada (Yama, 2026-11-15). Las fuentes siguen en hechos.json y en el schema (citation). */}
       </aside>
     )}
   </div>
