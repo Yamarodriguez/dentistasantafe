@@ -224,6 +224,10 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   schema Person con @id /dentistas-santa-fe/#…). Secciones: odontólogos (foto-abajo con la foto real),
   título y matrícula (ley 12094), tratamientos (bloque), antes de la primera consulta, FAQ (6). Botón
   «Ver nuestros dentistas» en «Tu dentista en Santa Fe» de cada tratamiento y en la portada (infinitivo).
+  **Análisis SEO de toda la web (2026-11-15)** → `informes/seo-analisis-web-completa.md`. Aplicado: H2 de obra social con el
+  tratamiento (sin la clave exacta: tope 11), «Tratamientos relacionados» (RELACIONADOS en Tratamiento.astro), H1 de
+  contacto/obras/primera consulta con Santa Fe, titles cortos ampliados, «Pedir turno →» sin WhatsApp, caché en netlify.toml
+  (/img/ 30 días: si se cambia una foto, cambiarle el nombre). Falta: política de privacidad (datos de la clínica).
   **Canibalización y enlaces (2026-11-14)** → `informes/canibalizacion-enlaces.md`. Una búsqueda por página
   (title/H1): portada = clínica dental/dentista; /dentistas-santa-fe/ = «Nuestros dentistas… título y
   matrícula» (equipo); contacto = «Pedir turno…»; /tratamientos/ y /obras-sociales/ sin «clínica dental» en

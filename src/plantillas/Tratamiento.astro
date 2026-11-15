@@ -5,18 +5,53 @@ import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
 import Dibujo from '../components/Dibujo.astro';
 import hechos from '../data/hechos.json';
+import mapa from '../data/paginas.json';
 import { site, pendiente } from '../lib/datos.js';
 import { negrita } from '../lib/texto.js';
 
 const { pagina } = Astro.props;
 const c = pagina.contenido;
+// «Tu dentista en Santa Fe» y «Nuestro centro odontológico en Santa Fe» son preferencia de Yama (CLAUDE.md).
+// El de la obra social lleva el tratamiento (análisis SEO 2026-11-15: evita un H2 idéntico en 9 páginas y
+// responde a la búsqueda real). Sin la palabra clave exacta: cada página ya la tiene 6-11 veces (contenido.mjs).
+// Las opiniones siguen siendo de la clínica: no se atribuyen a un tratamiento.
+const OBRA_SOCIAL = {
+  'implantes-dentales-santa-fe': 'el implante',
+  'protesis-dentales-santa-fe': 'las prótesis y coronas',
+  'ortodoncia-santa-fe': 'los brackets',
+  'ortodoncia-invisible-santa-fe': 'los alineadores transparentes',
+  'estetica-dental-santa-fe': 'las carillas y el blanqueamiento',
+  'tratamiento-de-conducto-santa-fe': 'la endodoncia',
+  'periodoncia-santa-fe': 'el tratamiento de encías',
+  'limpieza-dental-santa-fe': 'la limpieza y las caries',
+  'odontopediatra-santa-fe': 'la odontología para niños',
+};
+const cubre = OBRA_SOCIAL[pagina.slug];
 const fijos = [
   { t: 'Tu dentista en Santa Fe', bloque: 'equipo', boton: { t: 'Ver nuestros dentistas', href: '/dentistas-santa-fe/' } },
-  { t: '¿Lo cubre mi obra social o prepaga?', bloque: 'obras' },
+  { t: cubre ? `¿La obra social o prepaga cubre ${cubre}?` : '¿Lo cubre mi obra social o prepaga?', bloque: 'obras' },
   { t: 'Nuestro centro odontológico en Santa Fe', bloque: 'mapa' },
   { t: 'Opiniones de pacientes de nuestra clínica dental', bloque: 'opiniones' },
   { t: c?.faq_titulo ?? 'Preguntas frecuentes', bloque: 'faq' },
 ];
+// Tratamientos relacionados (análisis SEO 2026-11-15: implantes, ortodoncia invisible, estética y
+// odontopediatría recibían enlaces de solo 4 páginas).
+const RELACIONADOS = {
+  'implantes-dentales-santa-fe': ['protesis-dentales-santa-fe', 'periodoncia-santa-fe', 'tratamiento-de-conducto-santa-fe'],
+  'protesis-dentales-santa-fe': ['implantes-dentales-santa-fe', 'estetica-dental-santa-fe', 'tratamiento-de-conducto-santa-fe'],
+  'ortodoncia-santa-fe': ['ortodoncia-invisible-santa-fe', 'odontopediatra-santa-fe', 'estetica-dental-santa-fe'],
+  'ortodoncia-invisible-santa-fe': ['ortodoncia-santa-fe', 'estetica-dental-santa-fe', 'limpieza-dental-santa-fe'],
+  'estetica-dental-santa-fe': ['ortodoncia-invisible-santa-fe', 'limpieza-dental-santa-fe', 'protesis-dentales-santa-fe'],
+  'tratamiento-de-conducto-santa-fe': ['implantes-dentales-santa-fe', 'protesis-dentales-santa-fe', 'limpieza-dental-santa-fe'],
+  'periodoncia-santa-fe': ['limpieza-dental-santa-fe', 'implantes-dentales-santa-fe', 'protesis-dentales-santa-fe'],
+  'limpieza-dental-santa-fe': ['periodoncia-santa-fe', 'odontopediatra-santa-fe', 'estetica-dental-santa-fe'],
+  'odontopediatra-santa-fe': ['ortodoncia-santa-fe', 'limpieza-dental-santa-fe', 'ortodoncia-invisible-santa-fe'],
+};
+// Etiqueta distinta donde el nombre repetiría la palabra clave de la página que enlaza.
+const ETIQUETA = { 'ortodoncia-invisible-santa-fe': 'Alineadores transparentes' };
+const relacionados = (RELACIONADOS[pagina.slug] ?? [])
+  .map((s) => mapa.paginas.find((p) => p.slug === s && p.estado === 'si'))
+  .filter(Boolean);
 const autor = c?.autor && site.profesionales.find((p) => p.nombre === c.autor);
 const fuentes = (c?.fuentes ?? []).map((id) => hechos.fuentes[id]).filter(Boolean);
 ---
@@ -44,6 +79,12 @@ const fuentes = (c?.fuentes ?? []).map((id) => hechos.fuentes[id]).filter(Boolea
     )}
     <Secciones pagina={pagina} />
     <Secciones pagina={pagina} h2s={fijos} />
+    {relacionados.length > 0 && (
+      <nav class="relacionados" aria-label="Tratamientos relacionados">
+        <p class="relacionados-titulo">Tratamientos relacionados</p>
+        <ul>{relacionados.map((p) => <li><a href={`/${p.slug}/`}>{ETIQUETA[p.slug] ?? p.nombre.replace(/\s*\(.*?\)/, '')} →</a></li>)}</ul>
+      </nav>
+    )}
     {c && (
       <aside class="ficha-autor" aria-label="Revisión del contenido">
         <p>

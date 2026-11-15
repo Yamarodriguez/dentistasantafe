@@ -13,6 +13,18 @@
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
 
+# Caché (análisis SEO 2026-11-15): los archivos de /_astro/ llevan huella en el nombre (cambian de nombre
+# si cambian) → 1 año. Las fotos no llevan huella → 30 días (si se reemplaza una foto, cambiarle el nombre).
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
 # La página de equipo pasó a /dentistas-santa-fe/ (Yama, 2026-11-14).
 [[redirects]]
   from = "/equipo/"

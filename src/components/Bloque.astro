@@ -70,7 +70,7 @@ const iconoMotivo = (titulo = '') => {
       <p>Teléfono: {s.telefono}<br />Horario: {s.horario}</p>
     </div>
     <div class="botones">
-      <a class="boton" href={enlaceTurno(s)}>Turno por WhatsApp →</a>
+      <a class="boton" href={enlaceTurno(s)}>{s.whatsapp ? 'Turno por WhatsApp →' : 'Pedir turno →'}</a>
       {s.mapa && <a class="boton secundario" href={s.mapa}>Cómo llegar</a>}
     </div>
     {!s.whatsapp && <p class="pendiente">{pendiente('número de WhatsApp')}</p>}
