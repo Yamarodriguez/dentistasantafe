@@ -201,6 +201,9 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   exacta del tratamiento; bloque `problemas-enlaces` (recuadros con dibujo y nombre, sin texto copiado). Portada:
   antes del último H2; índice, primera consulta y odontólogos: al final; tratamientos: después de la FAQ; cada
   problema: «Otros problemas bucales». Ninguna página baja de 6 enlaces desde el contenido (scratchpad enlaces.py).
+  Portada (Yama, 2026-11-16): los 6 en recuadros (.tarjeta, 3 + 3) con el nombre en H3, explicación corta propia
+  (enlazado.js > EXPLICACION, solo hechos de las fuentes) y «Qué hacer y cuándo consultar →». En las demás páginas
+  siguen los recuadros pequeños sin texto (evita repetir texto en muchas páginas).
 - **Enlaces a la portada con anclas variadas (Yama, 2026-11-16: «haz las dos maneras»)**: 1 enlace por página en el
   texto, 18 anclas distintas (dentista/clínica dental/centro odontológico + en Santa Fe / Santa Fe capital /
   santafesino/a, dentistas, consultorio…; nunca «odontólogo», que es de /odontologos-santa-fe/). En los 12

@@ -441,3 +441,8 @@
 .web .boton-turno { display: inline-flex; align-items: center; gap: .45rem; }
 .web .boton-turno .icono-wa { flex: 0 0 auto; }
 @media (min-width: 761px) { .web .boton-turno { display: none; } }
+
+/* Problemas bucales en la portada (Yama, 2026-11-16): 6 recuadros con H3 y explicación → 3 + 3 en escritorio */
+.web .problemas-portada { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 900px) { .web .problemas-portada { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .web .problemas-portada { grid-template-columns: 1fr; } }

@@ -1,6 +1,7 @@
 ---
 // Rellena una sección con datos de site.json / paginas.json.
 // Si falta el dato, pone [Pendiente: …] (nunca se inventa nada).
+import { EXPLICACION } from '../lib/enlazado.js';
 import { site, ruta, tratamientos, problemas, enlaceTurno, pendiente, grupos, telefonoDe, etiquetaTelefono, resumenTarjeta } from '../lib/datos.js';
 import Formulario from './Formulario.astro';
 import Dibujo from './Dibujo.astro';
@@ -162,11 +163,24 @@ const iconoMotivo = (titulo = '') => {
 {tipo === 'problemas-enlaces' && enlacesProblemas.length > 0 && (
   <>
     <p>Qué puede causar cada síntoma, qué hacer mientras tanto y cuándo pedir turno, con información de fuentes médicas.</p>
+    {pagina.tipo === 'portada' ? (
+      <div class="tarjetas problemas-portada">
+        {enlacesProblemas.map((p) => (
+          <article class="tarjeta">
+            <Dibujo slug={p.contenido?.dibujo ?? ''} tam={56} />
+            <h3 class="nombre-tratamiento"><a href={ruta(p.slug)}>{p.nombre}</a></h3>
+            <p>{EXPLICACION[p.slug]}</p>
+            <a class="mas" href={ruta(p.slug)}>Qué hacer y cuándo consultar →</a>
+          </article>
+        ))}
+      </div>
+    ) : (
     <ul class="enlaces-problemas">
       {enlacesProblemas.map((p) => (
         <li><a href={ruta(p.slug)}><Dibujo slug={p.contenido?.dibujo ?? ''} tam={36} /><span>{p.nombre}</span></a></li>
       ))}
     </ul>
+    )}
     <p class="mas-problemas"><a class="mas" href="/problemas-bucales/">Ver todos los problemas bucales →</a></p>
   </>
 )}

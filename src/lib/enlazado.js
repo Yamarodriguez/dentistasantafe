@@ -27,6 +27,17 @@ export const SECCION_PROBLEMAS = {
   'extraccion-muelas-de-juicio-santa-fe': { t: 'Problemas bucales que pueden llevar a sacar un diente', lista: ['dolor-de-muela', 'flemon-dental', 'diente-roto-empaste-caido'] },
 };
 
+/** Portada (Yama, 2026-11-16): cada problema en un recuadro con su nombre en H3 y una explicación corta debajo.
+ *  Frases propias de la portada (no copiadas de cada página), solo con lo que dicen las fuentes de esa página. */
+export const EXPLICACION = {
+  'encias-que-sangran': 'La causa principal suele ser la placa acumulada en la línea de la encía. Si el sangrado se repite, conviene revisarlo.',
+  'dolor-de-muela': 'Suele deberse a una caries, una infección o una irritación del diente. Si dura más de uno o dos días, conviene consultar.',
+  'diente-roto-empaste-caido': 'Conviene revisarlo pronto, aunque no duela: el odontólogo evalúa si alcanza con un arreglo, una corona o una endodoncia.',
+  'flemon-dental': 'Es la hinchazón por una infección en un diente y no se va sola. Con dificultad para respirar o tragar, hay que ir a una guardia.',
+  'sensibilidad-dental': 'Molestia con el frío, el calor o lo ácido cuando se desgasta la cobertura que protege el diente o la encía se retira.',
+  'diente-flojo': 'Puede ser un síntoma de la enfermedad de las encías, que a menudo avanza sin molestias. Conviene consultar sin esperar a que duela.',
+};
+
 /** H2 listo para Secciones.astro (sin antetítulo: los antetítulos llevan «en Santa Fe» y ya hay de sobra). */
 export const h2Problemas = (slug) => {
   const s = SECCION_PROBLEMAS[slug ?? ''];
