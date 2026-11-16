@@ -8,7 +8,9 @@ import { negrita } from '../lib/texto.js';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 
-const { tipo, pagina, parte } = Astro.props;
+const { tipo, pagina, parte, lista } = Astro.props;
+// Enlaces a problemas bucales (enlazado.js): solo nombre e icono, sin texto copiado de otra página.
+const enlacesProblemas = (lista ?? problemas.map((p) => p.slug)).map((s) => problemas.find((p) => p.slug === s)).filter(Boolean);
 const sedes = pagina.sede ? site.sedes.filter((s) => s.id === pagina.sede) : site.sedes;
 const profesionales = site.profesionales.filter(
   (p) => !pagina.sede || p.sedes.includes(pagina.sede)
@@ -155,6 +157,18 @@ const iconoMotivo = (titulo = '') => {
       </article>
     ))}
   </div>
+)}
+
+{tipo === 'problemas-enlaces' && enlacesProblemas.length > 0 && (
+  <>
+    <p>Qué puede causar cada síntoma, qué hacer mientras tanto y cuándo pedir turno, con información de fuentes médicas.</p>
+    <ul class="enlaces-problemas">
+      {enlacesProblemas.map((p) => (
+        <li><a href={ruta(p.slug)}><Dibujo slug={p.contenido?.dibujo ?? ''} tam={36} /><span>{p.nombre}</span></a></li>
+      ))}
+    </ul>
+    <p class="mas-problemas"><a class="mas" href="/problemas-bucales/">Ver todos los problemas bucales →</a></p>
+  </>
 )}
 
 {tipo === 'tratamientos' && pagina.tipo !== 'indice' && pagina.tipo !== 'portada' && (

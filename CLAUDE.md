@@ -193,7 +193,14 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   (sangrado, dolor de muelas, absceso, periodontitis, fractura, traumatismo facial), NHS absceso, ADA sensibilidad,
   NIDCR. Sin nombres de medicamentos; la clínica no tiene guardia → señales de urgencia mandan a guardia/emergencias.
   Redactadas por 6 subagentes + 6 revisores (correcciones aplicadas). Siguientes candidatas: mal aliento, dientes
-  amarillos, dolor de muela del juicio. Sin menú (decisión de Yama pendiente).
+  amarillos, dolor de muela del juicio.
+  **Enlazado (Yama, 2026-11-16: «que aparezca en el menú y abajo de todo… armar interlinking»)**: menú «Problemas
+  bucales ▾» (para que quepa a 1280 px se quitó el enlace «Contacto» del menú, que repetía «Pedir turno», y el
+  hueco del menú pasó a 1rem). `src/lib/enlazado.js` = un solo sitio: H2 distinto por página («Problemas bucales que
+  pueden llevar a un implante», «…de las encías: cuándo consultar»…), sin antetítulo (`ante: false`) y sin la clave
+  exacta del tratamiento; bloque `problemas-enlaces` (recuadros con dibujo y nombre, sin texto copiado). Portada:
+  antes del último H2; índice, primera consulta y odontólogos: al final; tratamientos: después de la FAQ; cada
+  problema: «Otros problemas bucales». Ninguna página baja de 6 enlaces desde el contenido (scratchpad enlaces.py).
 - Ortodoncista/endodoncista (2026-11-16): una frase informativa con fuente (hechos mal-ortodoncista,
   con-endodoncista) en ortodoncia y conducto, sin decir que la clínica tiene ese especialista.
 - **Estudio SEO completo (2026-11-16)** → `informes/seo-estudio-completo-2026-11-16.md` (web publicada, 18 páginas +

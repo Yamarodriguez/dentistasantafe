@@ -6,7 +6,8 @@ import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
 import Dibujo from '../components/Dibujo.astro';
 import mapa from '../data/paginas.json';
-import { site, pendiente, enlaceTurno } from '../lib/datos.js';
+import { site, pendiente, enlaceTurno, problemas } from '../lib/datos.js';
+import { otrosProblemas } from '../lib/enlazado.js';
 import { negrita } from '../lib/texto.js';
 
 const { pagina } = Astro.props;
@@ -19,6 +20,8 @@ const relacionados = (c?.relacionados ?? [])
   .map((s) => mapa.paginas.find((p) => p.slug === s && p.estado === 'si'))
   .filter(Boolean);
 const autor = c?.autor && site.profesionales.find((p) => p.nombre === c.autor);
+// Enlazado entre síntomas (enlazado.js): primero los más cercanos, luego el resto.
+const otros = otrosProblemas(pagina.slug).map((s) => problemas.find((p) => p.slug === s)).filter(Boolean);
 ---
 <Base pagina={pagina}>
   <div class="contenedor">
@@ -50,6 +53,12 @@ const autor = c?.autor && site.profesionales.find((p) => p.nombre === c.autor);
       </nav>
     )}
     <Secciones pagina={pagina} h2s={fijos} />
+    {otros.length > 0 && (
+      <nav class="relacionados" aria-label="Otros problemas bucales">
+        <p class="relacionados-titulo">Otros problemas bucales</p>
+        <ul>{otros.map((p) => <li><a href={`/${p.slug}/`}>{p.nombre} →</a></li>)}</ul>
+      </nav>
+    )}
     {c && (
       <aside class="ficha-autor" aria-label="Revisión del contenido">
         <p>

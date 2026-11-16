@@ -112,8 +112,18 @@ const vars = [
               <li class="todos"><a href="/tratamientos/">Todos los tratamientos →</a></li>
             </ul>
           </details>
-          <a href="/contacto/">Contacto</a>
-          <a class="boton" href="/contacto/">Pedir turno</a>
+          {problemas.length > 0 && (
+            <details class="desplegable">
+              <summary>Problemas bucales</summary>
+              <ul class="panel">
+                {problemas.map((p) => <li><a href={ruta(p.slug)}>{p.nombre}</a></li>)}
+                <li class="todos"><a href="/problemas-bucales/">Todos los problemas bucales →</a></li>
+              </ul>
+            </details>
+          )}
+          {/* «Contacto» quitado (2026-11-16): llevaba a la misma página que «Pedir turno» y sin él cabe «Problemas
+              bucales» en una sola línea a 1280 px. Contacto sigue en el pie y en el botón. */}
+          <a class="boton" href="/contacto/" aria-current={pagina.slug === 'contacto' ? 'page' : undefined}>Pedir turno</a>
         </nav>
       </div>
     </header>

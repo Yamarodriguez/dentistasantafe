@@ -54,7 +54,7 @@
 .web .cabecera .contenedor { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: .75rem; flex-wrap: wrap; }
 .web .marca { display: flex; align-items: center; gap: .65rem; color: var(--texto); text-decoration: none; font-family: var(--f-tarjeta), serif; font-size: 1.1rem; font-weight: 600; }
 .web .marca img { width: 44px; height: 44px; border-radius: 10px; object-fit: cover; }
-.web .menu { display: flex; align-items: center; gap: 1.4rem; flex-wrap: wrap; font-size: .95rem; }
+.web .menu { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; font-size: .95rem; } /* gap 1rem: cabe «Problemas bucales» a 1280 px */
 .web .menu a { color: var(--texto); text-decoration: none; }
 .web .menu a:hover { color: var(--accion); text-decoration: underline; }
 .web .menu .boton { color: var(--accion-texto); padding: .55rem 1.1rem; }
@@ -236,6 +236,12 @@
 .web .relacionados-titulo { font-weight: 600; font-size: .85rem; letter-spacing: .08em; text-transform: uppercase; color: var(--suave); margin: 0 0 .6rem; }
 .web .relacionados ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .6rem; }
 .web .relacionados a { display: inline-block; padding: .55rem 1rem; border: 1px solid var(--borde); border-radius: 999px; text-decoration: none; font-weight: 600; }
+/* Enlaces a problemas bucales (enlazado.js): rejilla de recuadros con dibujo y nombre */
+.web .enlaces-problemas { list-style: none; margin: 1.25rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); gap: .75rem; }
+.web .enlaces-problemas a { display: flex; align-items: center; gap: .75rem; padding: .8rem 1rem; background: var(--superficie); border: 1px solid var(--borde); border-radius: var(--radio); text-decoration: none; font-weight: 600; color: var(--texto); }
+.web .enlaces-problemas a:hover { border-color: var(--accion); color: var(--accion); }
+.web .enlaces-problemas .dibujo { flex: none; }
+.web .mas-problemas { margin-top: 1rem; }
 .web .foto-profesional { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: calc(var(--radio) / 1.5); margin-bottom: .5rem; }
 .web .destacado { display: flex; gap: .6rem; align-items: flex-start; font-weight: 600; color: var(--texto); }
 .web .destacado svg { width: 22px; height: 22px; color: var(--accion); flex: none; margin-top: .15rem; }

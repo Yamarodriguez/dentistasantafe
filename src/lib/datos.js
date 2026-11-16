@@ -3,6 +3,7 @@ import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import site from '../data/site.json';
 import mapa from '../data/paginas.json';
+import { h2Problemas } from './enlazado.js';
 
 export { site };
 
@@ -13,7 +14,15 @@ const contenidos = Object.fromEntries(
 );
 const conContenido = (p) => {
   const c = contenidos[p.slug || 'portada'];
-  return c ? { ...p, contenido: c, faq: c.faq?.length ? c.faq : p.faq } : p;
+  return conProblemas(c ? { ...p, contenido: c, faq: c.faq?.length ? c.faq : p.faq } : p);
+};
+// Sección «Problemas bucales…» (enlazado.js): en la portada va antes del último H2 (pedir turno, que cierra la
+// página); en índice, primera consulta y equipo, al final. Los tratamientos la ponen en su plantilla.
+const conProblemas = (p) => {
+  const h = p.tipo !== 'tratamiento' && h2Problemas(p.slug);
+  if (!h) return p;
+  const h2s = p.tipo === 'portada' ? [...p.h2s.slice(0, -1), h, p.h2s.at(-1)] : [...p.h2s, h];
+  return { ...p, h2s };
 };
 
 /** Páginas que se publican (estado "si"), con su contenido si ya está escrito. */

@@ -6,6 +6,7 @@
 //   (o contenido/<slug>.json > fotos: { "H2": "clave" }); las fotos se alternan izquierda/derecha
 //   { t, boton: { t, href } }     → botón al final
 //   { t, bloque, opcional: true } → si no hay datos reales, la sección no sale
+//   { t, bloque, lista, ante: false } → lista de slugs para el bloque; sin antetítulo (enlazado.js)
 // {nombre} en el título se cambia por el nombre de la clínica.
 import Bloque from './Bloque.astro';
 import Texto from './Texto.astro';
@@ -71,11 +72,11 @@ const ante = (h) => {
       <img class="foto-seccion" src={foto(h).src} alt={foto(h).alt} width="900" height="1125" loading="lazy" decoding="async" />
     )}
     <div class="seccion-cuerpo">
-      <p class="antetitulo">{ante(h)}</p>
+      {h.ante !== false && <p class="antetitulo">{ante(h)}</p>}
       {h.nivel === 3 ? <h3 class="h2-visual">{titulo(h)}</h3> : <h2>{titulo(h)}</h2>}
       {textos[h.t] && <Texto bloques={textos[h.t]} />}
       {h.bloque
-        ? <Bloque tipo={h.bloque} pagina={pagina} />
+        ? <Bloque tipo={h.bloque} pagina={pagina} lista={h.lista} />
         : !textos[h.t] && <p class="pendiente">{pendiente('texto (Fase 3)')}</p>}
       {h.boton && <div class="botones"><a class="boton" href={h.boton.href}>{h.boton.t} →</a></div>}
     </div>

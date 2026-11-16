@@ -8,6 +8,7 @@ import hechos from '../data/hechos.json';
 import mapa from '../data/paginas.json';
 import { site, pendiente } from '../lib/datos.js';
 import { negrita } from '../lib/texto.js';
+import { h2Problemas } from '../lib/enlazado.js';
 
 const { pagina } = Astro.props;
 const c = pagina.contenido;
@@ -36,7 +37,8 @@ const fijos = [
   { t: 'Nuestro centro odontológico en Santa Fe', bloque: 'mapa' },
   { t: 'Opiniones de pacientes de nuestra clínica dental', bloque: 'opiniones' },
   { t: c?.faq_titulo ?? 'Preguntas frecuentes', bloque: 'faq' },
-];
+  h2Problemas(pagina.slug), // «Problemas bucales que pueden llevar a…» (enlazado.js), al final de la página
+].filter(Boolean);
 // Tratamientos relacionados (análisis SEO 2026-11-15: implantes, ortodoncia invisible, estética y
 // odontopediatría recibían enlaces de solo 4 páginas).
 const RELACIONADOS = {
