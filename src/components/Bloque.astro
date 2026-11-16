@@ -1,7 +1,7 @@
 ---
 // Rellena una sección con datos de site.json / paginas.json.
 // Si falta el dato, pone [Pendiente: …] (nunca se inventa nada).
-import { site, ruta, tratamientos, enlaceTurno, pendiente, grupos, telefonoDe, etiquetaTelefono, resumenTarjeta } from '../lib/datos.js';
+import { site, ruta, tratamientos, problemas, enlaceTurno, pendiente, grupos, telefonoDe, etiquetaTelefono, resumenTarjeta } from '../lib/datos.js';
 import Formulario from './Formulario.astro';
 import Dibujo from './Dibujo.astro';
 import { negrita } from '../lib/texto.js';
@@ -140,6 +140,19 @@ const iconoMotivo = (titulo = '') => {
           ))}
         </ul>
       </div>
+    ))}
+  </div>
+)}
+
+{tipo === 'problemas' && (
+  <div class="tarjetas">
+    {problemas.map((p) => (
+      <article class="tarjeta">
+        <Dibujo slug={p.contenido?.dibujo ?? ''} tam={64} />
+        <h3 class="nombre-tratamiento"><a href={ruta(p.slug)}>{p.nombre}</a></h3>
+        <p>{resumenTarjeta(p)}</p>
+        <a class="mas" href={ruta(p.slug)}>Qué hacer: {p.nombre.replace(/^./, (l) => l.toLowerCase())} →</a>
+      </article>
     ))}
   </div>
 )}

@@ -1,0 +1,122 @@
+{
+  "slug": "sensibilidad-dental",
+  "conteo": {
+    "clave": "sensibilidad dental|dientes sensibles",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mh-sensibilidad",
+    "ada-blanqueamiento",
+    "mlp-bruxismo",
+    "mlp-encias"
+  ],
+  "intro": "La **sensibilidad dental** es un dolor breve que aparece cuando el frío, el calor o algo ácido llegan a una parte del diente que quedó expuesta. En esta página, nuestra clínica dental explica qué puede estar detrás del dolor y cuándo conviene consultar.",
+  "resumen": [
+    "La sensibilidad dental aparece cuando se desgasta la cobertura que protege al diente.",
+    "Entre las causas están las caries, los dientes fracturados, los arreglos desgastados, la enfermedad de las encías y el esmalte gastado.",
+    "Una pasta para dientes sensibles puede ayudar, pero suele necesitar varias aplicaciones.",
+    "El odontólogo evalúa qué causa tiene el dolor y qué hace falta en cada caso."
+  ],
+  "secciones": {
+    "¿Por qué duelen los dientes con el frío?": [
+      "Los dientes duelen con el frío cuando se desgasta la cobertura que protege la dentina, la parte interna del diente.",
+      "Debajo del esmalte y del cemento está la dentina, que tiene conductos microscópicos. Si esa cobertura se gasta, el frío, el calor y los alimentos ácidos o pegajosos llegan hasta los nervios del diente.",
+      "También la encía que retrocede deja **la dentina al descubierto**. Por eso el dolor suele aparecer al tomar algo frío o al comer algo ácido."
+    ],
+    "Causas de la sensibilidad dental": [
+      "Puede deberse a una caries, a un diente fracturado, a un arreglo desgastado, a la enfermedad de las encías, al esmalte gastado o a una raíz expuesta.",
+      {
+        "lista": [
+          "Caries (cavidades en el diente)",
+          "Diente fracturado",
+          "Arreglo o relleno desgastado",
+          "Enfermedad de las encías",
+          "Esmalte desgastado",
+          "Raíz del diente expuesta"
+        ]
+      },
+      "Cada causa necesita un tratamiento distinto, que define el odontólogo.",
+      "Después de un blanqueamiento también puede aparecer. Según la Asociación Dental Americana, **la sensibilidad temporal se asocia al blanqueamiento** y suele ser pasajera, de leve a moderada.",
+      "Otra posibilidad es el bruxismo, que es apretar o rechinar los dientes sin darse cuenta. Puede dar sensibilidad y desgaste de los dientes."
+    ],
+    "Qué hacer con los dientes sensibles": [
+      "Una pasta para dientes sensibles puede ayudar: contiene compuestos que ayudan a bloquear las sensaciones hacia el nervio.",
+      "Para que haga efecto, **suele necesitar varias aplicaciones**. No es un resultado inmediato.",
+      "También conviene mantener una buena higiene bucal. Según MouthHealthy, **la higiene correcta es la clave** para prevenir el dolor de dientes sensibles. El cepillado y el hilo dental todos los días y las limpiezas periódicas con el dentista forman parte de esa rutina.",
+      {
+        "h3": "¿Sirven los remedios caseros?"
+      },
+      "Para la sensibilidad no hay recetas caseras con respaldo: conviene no probarlas y consultar con el odontólogo, que puede indicar una pasta específica y una buena higiene."
+    ],
+    "Tratamientos que se relacionan con la sensibilidad": [
+      "El tratamiento depende de la causa que el odontólogo encuentre al revisar tus dientes.",
+      "Según MouthHealthy, el dentista puede aplicar un gel de flúor en el consultorio para fortalecer el esmalte. Si hay un defecto o una caries, puede repararlo con una corona, una incrustación o una resina.",
+      "Si se perdió encía de la raíz, puede hacer falta un injerto de encía. Esto se evalúa en [periodoncia](/periodoncia-santa-fe/), el área que trata las enfermedades de las encías.",
+      "Cuando la sensibilidad es intensa, persiste y otros tratamientos no la resolvieron, **puede hacer falta un tratamiento de conducto**. La clínica realiza el [tratamiento de conducto](/tratamiento-de-conducto-santa-fe/) cuando el odontólogo lo indica.",
+      "Si el origen es apretar o rechinar los dientes, se consulta por el [bruxismo y las placas de relajación](/bruxismo-placa-de-relajacion-santa-fe/). Y para mantener las encías sanas, la [limpieza dental](/limpieza-dental-santa-fe/) periódica es parte del cuidado.",
+      "En todos los casos, el odontólogo evalúa qué hace falta en tu caso."
+    ],
+    "Cuándo ir al dentista por sensibilidad dental": [
+      "Conviene consultar al dentista cuando el dolor se repite o no mejora con la pasta, porque varias causas necesitan tratamiento profesional.",
+      {
+        "lista": [
+          "El dolor aparece seguido con el frío, el calor o lo ácido.",
+          "No mejora después de usar varias veces una pasta para sensibilidad.",
+          "Se acompaña de un diente roto, un arreglo que se salió o una caries visible.",
+          "Es intenso o persistente. Si además hay hinchazón en la cara o la encía, o fiebre, conviene leer sobre el [flemón dental y el absceso](/flemon-dental/) y consultar sin esperar."
+        ]
+      },
+      "La sensibilidad puede ser una señal de caries, de enfermedad de las encías o de un diente fracturado, y esas causas necesitan tratamiento del odontólogo.",
+      "En nuestro centro odontológico de Santa Fe podés **pedir turno por WhatsApp** para que el odontólogo revise la causa y explique qué hace falta."
+    ]
+  },
+  "faq_titulo": "Preguntas frecuentes sobre el dolor de dientes con frío",
+  "faq": [
+    {
+      "q": "¿Por qué me duele un solo diente cuando tomo algo frío?",
+      "a": "Puede haber una caries, una fractura o un arreglo desgastado en ese diente, entre otras causas. **Conviene que el dentista lo revise** para saber cuál es."
+    },
+    {
+      "q": "¿Qué pasta dental sirve para los dientes sensibles?",
+      "a": "La pasta indicada para sensibilidad contiene compuestos que ayudan a bloquear las sensaciones hacia el nervio. Suele hacer falta usarla varias veces para notar una mejoría."
+    },
+    {
+      "q": "¿Cuánto dura la sensibilidad después de un blanqueamiento?",
+      "a": "No hay un plazo exacto: la sensibilidad temporal suele ser de leve a moderada y pasajera. Si no se va o es intensa, conviene consultar al odontólogo."
+    },
+    {
+      "q": "¿La encía retraída puede hacer que me duelan los dientes?",
+      "a": "Sí, cuando la encía retrocede deja la dentina al descubierto y los estímulos llegan al nervio. Si se perdió encía de la raíz, el dentista puede indicar un injerto."
+    },
+    {
+      "q": "¿Apretar los dientes puede causar molestias con el frío?",
+      "a": "El bruxismo puede dar sensibilidad y desgaste de los dientes, además de dolor en la mandíbula al despertar. El odontólogo evalúa si hace falta una placa de relajación."
+    },
+    {
+      "q": "¿Cuándo hace falta un tratamiento de conducto por este dolor?",
+      "a": "Según MouthHealthy, **solo en sensibilidad intensa y persistente** que otros tratamientos no resolvieron. El odontólogo decide si corresponde en cada caso."
+    }
+  ],
+  "relacionados": [
+    "limpieza-dental-santa-fe",
+    "periodoncia-santa-fe",
+    "bruxismo-placa-de-relajacion-santa-fe"
+  ],
+  "dibujo": "limpieza-dental-santa-fe",
+  "condicion": {
+    "nombre": "Hipersensibilidad dentinaria",
+    "sintomas": [
+      "Dolor breve al tomar algo frío o caliente",
+      "Molestia con alimentos ácidos o pegajosos",
+      "Sensibilidad en uno o varios dientes"
+    ]
+  },
+  "fotos": {}
+}

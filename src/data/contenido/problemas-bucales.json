@@ -1,0 +1,51 @@
+{
+  "slug": "problemas-bucales",
+  "conteo": {
+    "clave": "problemas? bucal(es)?",
+    "min": 4,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-caries",
+    "mlp-absceso",
+    "nhs-absceso"
+  ],
+  "secciones": {
+    "Antes de que duela: controles con el dentista": [
+      "No hace falta esperar a que algo duela para ir al dentista: **muchas caries no dan síntomas** y se descubren en los controles.",
+      "En cada página de problemas bucales explicamos, con fuentes como MedlinePlus, qué puede causar el síntoma y cuándo conviene pedir turno. El diagnóstico lo hace siempre el odontólogo en la consulta.",
+      {
+        "mas": {
+          "t": "Cómo es la primera consulta con el dentista",
+          "href": "/primera-consulta/"
+        }
+      }
+    ]
+  },
+  "faq_titulo": "Preguntas frecuentes sobre problemas bucales",
+  "faq": [
+    {
+      "q": "¿Tengo que esperar a que duela para ir al dentista?",
+      "a": "No. Muchas caries no dan síntomas y se descubren en los controles, por eso conviene ir aunque no haya molestias."
+    },
+    {
+      "q": "¿Cada cuánto conviene una limpieza dental?",
+      "a": "MedlinePlus aconseja una limpieza profesional **cada 6 meses**, además de cepillarse dos veces al día y usar hilo dental."
+    },
+    {
+      "q": "¿La clínica dental atiende urgencias?",
+      "a": "Nuestro centro odontológico atiende con turno, de lunes a viernes de 8 a 20 h, y **no tiene guardia**. Ante dificultad para respirar, hablar o tragar, mucha hinchazón en la boca o no poder abrirla, hay que ir a una guardia o a emergencias. Con fiebre o la cara hinchada, conviene consultar a un odontólogo el mismo día."
+    },
+    {
+      "q": "¿Atienden problemas bucales con obra social?",
+      "a": "Sí, atendemos con obra social y de forma particular. Al pedir turno se confirma si tu obra social o prepaga tiene convenio con la clínica."
+    }
+  ],
+  "fotos": {}
+}

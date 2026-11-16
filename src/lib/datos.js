@@ -23,6 +23,8 @@ export const paginas = mapa.paginas.filter((p) => p.estado === 'si').map(conCont
 export const ruta = (slug) => (slug ? `/${slug}/` : '/');
 
 export const tratamientos = paginas.filter((p) => p.tipo === 'tratamiento');
+/** Problemas bucales (síntomas): /problemas-bucales/ y una página por síntoma (estudio SEO 2026-11-16). */
+export const problemas = paginas.filter((p) => p.tipo === 'problema');
 
 // Orden de los grupos (portada, índice y menú): arriba Implantología y Ortodoncia; abajo Odontología general y Estética dental.
 const ORDEN_GRUPOS = ['Implantología y prótesis', 'Ortodoncia', 'Odontología general', 'Estética dental'];

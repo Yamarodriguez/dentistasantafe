@@ -1,0 +1,165 @@
+{
+  "slug": "dolor-de-muela",
+  "conteo": {
+    "clave": "dolor de muelas?",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-dolor-muelas",
+    "mlp-caries",
+    "mlp-conducto",
+    "mlp-ninos"
+  ],
+  "intro": "El **dolor de muela** suele deberse a **caries, infección o irritación** del diente. En esta página, nuestra clínica dental explica qué hacer mientras tanto y cuándo conviene consultar al dentista.",
+  "resumen": [
+    "Suele venir de una caries, una infección o una irritación del diente.",
+    "Si no se puede ver al dentista de inmediato, puede usarse un analgésico de venta libre mientras tanto.",
+    "Conviene consultar si el dolor es intenso, dura más de uno o dos días o aparece con fiebre.",
+    "El odontólogo examina, puede pedir radiografías y define el tratamiento según la causa."
+  ],
+  "secciones": {
+    "¿Qué puede causar el dolor de muela?": [
+      "Suele ser resultado de una caries, aunque también puede deberse a una infección o a la irritación del diente.",
+      "En la caries, el dolor aparece sobre todo con lo dulce, lo frío o lo caliente. Pero muchas caries no dan síntomas al principio, por eso se detectan en los controles.",
+      "Otras causas posibles son:",
+      {
+        "lista": [
+          "un **absceso dental**, que es una infección del diente",
+          "un diente fracturado, lesionado o desgastado (trauma dental)",
+          "una lesión en la mandíbula o en la boca",
+          "rechinar los dientes",
+          "una sinusitis"
+        ]
+      },
+      {
+        "h3": "¿Puede doler una muela sin que el problema esté en el diente?"
+      },
+      "Sí. Puede tratarse de un **dolor referido**: por ejemplo, un dolor de oído a veces se siente en la muela. También un ataque cardíaco puede causar dolor de mandíbula, de cuello o de muelas. Si el dolor parece venir de otra parte del cuerpo, conviene consultar a un médico."
+    ],
+    "¿Qué hacer con el dolor de muela mientras esperás el turno?": [
+      "Si no podés ver al dentista de inmediato, MedlinePlus indica que se puede usar un **analgésico de venta libre**.",
+      "Es una ayuda pasajera: calma la molestia, pero no trata la causa. Qué analgésico usar y en qué cantidad lo decide un profesional de la salud.",
+      "Mientras tanto, conviene seguir estos pasos:",
+      {
+        "pasos": [
+          "Anotar cuándo empezó el dolor, en qué muela lo sentís y qué lo mejora o lo empeora. El dentista lo va a preguntar.",
+          "Si no se puede ver al dentista de inmediato, usar un analgésico de venta libre, según el consejo de un profesional.",
+          "Pedir turno con el dentista y contarle los síntomas, incluida la fiebre si la hay."
+        ]
+      }
+    ],
+    "Cuándo ir al dentista por un dolor de muela": [
+      "Conviene ir al dentista si el dolor es intenso o si **dura más de uno o dos días**.",
+      "También conviene consultar si el dolor viene con alguno de estos signos:",
+      {
+        "lista": [
+          "fiebre",
+          "dolor de oído",
+          "dolor al abrir mucho la boca"
+        ]
+      },
+      {
+        "h3": "¿Cuándo no conviene esperar?"
+      },
+      "MedlinePlus indica buscar atención ante un dolor intenso o si aparece **fiebre**. La clínica no tiene guardia: con dolor intenso o fiebre no conviene esperar el turno, y si el malestar empeora fuera del horario de atención (lunes a viernes de 8 a 20 h), conviene ir a una guardia."
+    ],
+    "¿Qué hace el dentista cuando una muela duele?": [
+      "El dentista examina la boca, los dientes y las encías, y puede pedir **radiografías** para encontrar la causa.",
+      "Para orientarse, suele preguntar:",
+      {
+        "lista": [
+          "cuándo empezó el dolor y en qué zona lo sentís",
+          "si el dolor te despierta de noche",
+          "qué lo mejora o lo empeora",
+          "si tuviste fiebre o algún golpe",
+          "qué medicamentos tomás y cuándo fue tu último control dental"
+        ]
+      },
+      "El tratamiento depende de la causa. Puede ser un relleno, un tratamiento de conducto, una extracción o, si el dolor viene de rechinar los dientes, un protector dental."
+    ],
+    "Tratamientos de la clínica según la causa de la molestia": [
+      "Según la causa, el odontólogo de nuestra clínica dental indica el tratamiento: **el odontólogo evalúa qué hace falta** en cada caso.",
+      "Algunas posibilidades, en general:",
+      {
+        "lista": [
+          "una caries pequeña se arregla con un relleno; en nuestro centro odontológico en Santa Fe se hacen [arreglos de caries y limpieza dental](/limpieza-dental-santa-fe/)",
+          "si la caries llega al nervio, puede indicarse un [tratamiento de conducto](/tratamiento-de-conducto-santa-fe/)",
+          "si el diente está muy destruido y no se puede salvar, puede hacer falta extraerlo",
+          "si la molestia viene de una muela del juicio, hay una página aparte sobre la [extracción de muelas del juicio](/extraccion-muelas-de-juicio-santa-fe/)",
+          "si el dolor se debe a apretar o rechinar los dientes, puede indicarse una placa de relajación"
+        ]
+      },
+      "Una infección que no se trata puede extenderse, por eso no conviene dejar pasar la consulta. La cobertura de tu obra social o prepaga se consulta al pedir turno."
+    ],
+    "¿Cómo reducir el riesgo de que la molestia vuelva?": [
+      "Como la caries es la causa más común, cuidarse de ella ayuda a prevenir muchos dolores de muela.",
+      "MedlinePlus recomienda varias medidas:",
+      {
+        "lista": [
+          "cepillarse al menos dos veces al día",
+          "usar hilo dental al menos una vez al día",
+          "hacerse una limpieza profesional cada 6 meses",
+          "consultar por selladores en las muelas y por el flúor",
+          "reducir el picoteo y las bebidas azucaradas"
+        ]
+      },
+      "Los controles periódicos permiten descubrir las caries antes de que duelan, porque las radiografías pueden mostrarlas incluso antes de que se vean."
+    ]
+  },
+  "faq_titulo": "Preguntas frecuentes sobre el dolor de muela",
+  "faq": [
+    {
+      "q": "¿Qué tomo para calmar el dolor de muela?",
+      "a": "Si no podés ver al dentista de inmediato, puede usarse un analgésico de venta libre, el que indique un médico o un odontólogo. Calma la molestia pero **no trata la causa**."
+    },
+    {
+      "q": "¿Por qué me duele la muela al hacer presión o masticar?",
+      "a": "Puede deberse a una caries, a un diente fracturado o a una infección, pero solo un examen y radiografías permiten saber cuál es. Conviene consultar si el dolor dura más de uno o dos días."
+    },
+    {
+      "q": "¿Qué hago con un dolor de muelas insoportable?",
+      "a": "MedlinePlus indica buscar atención ante un dolor intenso. Lo recomendable es **pedir turno cuanto antes** con un dentista; si hay fiebre o el malestar empeora fuera del horario, consultar a un médico."
+    },
+    {
+      "q": "¿Puedo ir al dentista con dolor de muela estando embarazada?",
+      "a": "Sí: si el dolor dura más de uno o dos días, conviene que lo evalúe un odontólogo. Es recomendable avisarle del embarazo y consultarlo también con tu obstetra."
+    },
+    {
+      "q": "¿Qué hago si a mi hijo le duele una muela?",
+      "a": "Conviene llevarlo al odontólogo: las caries son muy comunes en niños y los problemas dentales pueden afectar la alimentación y el habla. La clínica atiende a niños: más información en [odontopediatría](/odontopediatra-santa-fe/)."
+    },
+    {
+      "q": "¿Por qué me duele una muela con lo frío o lo caliente?",
+      "a": "Es un síntoma típico de la caries, que suele doler con lo dulce, lo frío o lo caliente. Es una buena razón para hacer una revisión."
+    },
+    {
+      "q": "¿Cuánto tiempo puedo esperar para ir al dentista si la muela duele?",
+      "a": "MedlinePlus indica consultar si el dolor dura más de uno o dos días, o antes si es intenso o hay fiebre, dolor de oído o dolor al abrir la boca."
+    }
+  ],
+  "relacionados": [
+    "tratamiento-de-conducto-santa-fe",
+    "extraccion-muelas-de-juicio-santa-fe",
+    "limpieza-dental-santa-fe"
+  ],
+  "dibujo": "tratamiento-de-conducto-santa-fe",
+  "condicion": {
+    "nombre": "Odontalgia (dolor de muela)",
+    "sintomas": [
+      "dolor en una muela o diente",
+      "dolor con lo dulce, frío o caliente",
+      "dolor al masticar o presionar",
+      "dolor al abrir mucho la boca",
+      "dolor de oído asociado",
+      "fiebre"
+    ]
+  },
+  "fotos": {}
+}

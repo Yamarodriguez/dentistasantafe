@@ -183,6 +183,19 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   logo). Opiniones: estrellas solo si la reseña real trae `estrellas`.
 
 ## Estado
+- **Problemas bucales (Yama, 2026-11-16: «Sí, empieza»)**: sección informativa por síntoma para captar búsquedas de
+  toda Argentina y llevar a los tratamientos. Tipo `problema` en paginas.json, plantilla `src/plantillas/Problema.astro`
+  (migas › Problemas bucales, resumen, secciones, relacionados, mapa, FAQ, aviso «ante una urgencia, guardia»),
+  schema MedicalWebPage + MedicalCondition (signOrSymptom, possibleTreatment). Índice /problemas-bucales/ (bloque
+  `problemas`) + 6 páginas: /encias-que-sangran/, /dolor-de-muela/, /diente-roto-empaste-caido/, /flemon-dental/,
+  /sensibilidad-dental/, /diente-flojo/ (URL sin ciudad; title y H1 sin «Santa Fe»). Columna en el pie y enlaces
+  desde periodoncia, conducto, limpieza, blanqueamiento, bruxismo y extracciones. Fuentes nuevas: MedlinePlus
+  (sangrado, dolor de muelas, absceso, periodontitis, fractura, traumatismo facial), NHS absceso, ADA sensibilidad,
+  NIDCR. Sin nombres de medicamentos; la clínica no tiene guardia → señales de urgencia mandan a guardia/emergencias.
+  Redactadas por 6 subagentes + 6 revisores (correcciones aplicadas). Siguientes candidatas: mal aliento, dientes
+  amarillos, dolor de muela del juicio. Sin menú (decisión de Yama pendiente).
+- Ortodoncista/endodoncista (2026-11-16): una frase informativa con fuente (hechos mal-ortodoncista,
+  con-endodoncista) en ortodoncia y conducto, sin decir que la clínica tiene ese especialista.
 - **Estudio SEO completo (2026-11-16)** → `informes/seo-estudio-completo-2026-11-16.md` (web publicada, 18 páginas +
   sugerencias de Google AR). Corregido: teléfono = WhatsApp (`telefonoDe()` en datos.js: pie, contacto, schema, llms.txt)
   mientras el fijo sea [teléfono]; tarjetas sin la dirección (`resumenTarjeta()`); odontólogos sin descripciones de

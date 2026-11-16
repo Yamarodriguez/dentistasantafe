@@ -125,6 +125,51 @@
       "titulo": "Diente impactado (MedlinePlus, enciclopedia)",
       "url": "https://medlineplus.gov/spanish/ency/article/001057.htm",
       "fecha": "2026-11-15"
+    },
+    "mlp-sangrado": {
+      "titulo": "Sangrado de las encías (MedlinePlus, enciclopedia médica en español)",
+      "url": "https://medlineplus.gov/spanish/ency/article/003062.htm",
+      "fecha": "2026-11-16"
+    },
+    "mlp-dolor-muelas": {
+      "titulo": "Dolor de muelas (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/003067.htm",
+      "fecha": "2026-11-16"
+    },
+    "mlp-fractura-diente": {
+      "titulo": "Fractura o caída de un diente por un golpe (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/000058.htm",
+      "fecha": "2026-11-16"
+    },
+    "mlp-trauma-facial": {
+      "titulo": "Traumatismo facial (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/001062.htm",
+      "fecha": "2026-11-16"
+    },
+    "mlp-absceso": {
+      "titulo": "Absceso dental (MedlinePlus en español)",
+      "url": "https://medlineplus.gov/spanish/ency/article/001060.htm",
+      "fecha": "2026-11-16"
+    },
+    "nhs-absceso": {
+      "titulo": "Dental abscess (NHS)",
+      "url": "https://www.nhs.uk/conditions/dental-abscess/",
+      "fecha": "2026-11-16"
+    },
+    "mh-sensibilidad": {
+      "titulo": "Sensitive Teeth (MouthHealthy, Asociación Dental Americana)",
+      "url": "https://www.mouthhealthy.org/all-topics-a-z/sensitive-teeth",
+      "fecha": "2026-11-16"
+    },
+    "mlp-periodontitis": {
+      "titulo": "Periodontitis (MedlinePlus, enciclopedia)",
+      "url": "https://medlineplus.gov/spanish/ency/article/001059.htm",
+      "fecha": "2026-11-16"
+    },
+    "nidcr-gum-disease": {
+      "titulo": "Gum Disease (NIDCR, en inglés)",
+      "url": "https://www.nidcr.nih.gov/health-info/gum-disease",
+      "fecha": "2026-11-16"
     }
   },
   "hechos": [
@@ -887,6 +932,301 @@
       "id": "ext-juicio-complicaciones",
       "fuente": "mlp-impactados",
       "texto": "Complicaciones: absceso, infección y molestias crónicas, mala alineación de la mordida, enfermedad de las encías en dientes vecinos y daño del nervio mandibular."
+    },
+    {
+      "id": "mal-ortodoncista",
+      "fuente": "mlp-maloclusion",
+      "texto": "Si el dentista detecta un problema de mordida, deriva a un ortodoncista para el diagnóstico y el tratamiento; la maloclusión es el motivo más común de esa derivación."
+    },
+    {
+      "id": "con-endodoncista",
+      "fuente": "mlp-conducto",
+      "texto": "El tratamiento de conducto lo hace un odontólogo; si hay infección en la raíz, debería examinar la zona un especialista llamado endodoncista."
+    },
+    {
+      "id": "sang-causa-placa",
+      "fuente": "mlp-sangrado",
+      "texto": "La causa principal del sangrado de las encías es la acumulación de placa en la línea de la encía; si la placa no se retira, se endurece y forma sarro."
+    },
+    {
+      "id": "sang-otras-causas",
+      "fuente": "mlp-sangrado",
+      "texto": "Otras causas del sangrado de encías son los trastornos hemorrágicos, cepillarse con mucha fuerza, los cambios hormonales del embarazo, las prótesis o aparatos dentales mal ajustados, el mal uso del hilo dental, las infecciones en dientes o encías, la leucemia, la deficiencia de vitamina C o de vitamina K y el uso de anticoagulantes."
+    },
+    {
+      "id": "sang-casa-higiene",
+      "fuente": "mlp-sangrado",
+      "texto": "En casa se recomienda cepillarse con suavidad con un cepillo de cerdas suaves al menos dos veces al día y usar hilo dental dos veces al día, siguiendo las indicaciones del dentista para no lastimar las encías."
+    },
+    {
+      "id": "sang-enjuague",
+      "fuente": "mlp-sangrado",
+      "texto": "El dentista puede indicar enjuagues con agua salada o un enjuague pensado para la inflamación de las encías; si el enjuague contiene alcohol, conviene consultar antes."
+    },
+    {
+      "id": "sang-gasa",
+      "fuente": "mlp-sangrado",
+      "texto": "El sangrado se puede controlar presionando la encía con una gasa humedecida en agua helada."
+    },
+    {
+      "id": "sang-tabaco-dieta",
+      "fuente": "mlp-sangrado",
+      "texto": "No consumir tabaco ayuda porque agrava el sangrado y puede ocultar otros problemas; también se aconseja una dieta equilibrada, evitar los refrigerios entre comidas y reducir los carbohidratos."
+    },
+    {
+      "id": "sang-medicamento",
+      "fuente": "mlp-sangrado",
+      "texto": "Si un medicamento causa el sangrado, hay que pedir al profesional que lo indicó uno diferente, sin cambiarlo por cuenta propia."
+    },
+    {
+      "id": "sang-vitaminas",
+      "fuente": "mlp-sangrado",
+      "texto": "Si se diagnostica una deficiencia vitamínica, se pueden tomar suplementos vitamínicos."
+    },
+    {
+      "id": "sang-protesis",
+      "fuente": "mlp-sangrado",
+      "texto": "Si una prótesis o un aparato dental no ajusta bien o causa puntos dolorosos, se debe consultar al dentista."
+    },
+    {
+      "id": "sang-cada-6-meses",
+      "fuente": "mlp-sangrado",
+      "texto": "Se recomienda visitar al dentista al menos cada 6 meses para retirar la placa y el sarro y seguir sus recomendaciones."
+    },
+    {
+      "id": "sang-cuando-consultar",
+      "fuente": "mlp-sangrado",
+      "texto": "Conviene consultar al profesional de la salud si el sangrado es grave o prolongado, si las encías siguen sangrando después del tratamiento o si hay otros síntomas inexplicables."
+    },
+    {
+      "id": "sang-consulta",
+      "fuente": "mlp-sangrado",
+      "texto": "En la consulta, el dentista examina dientes y encías y pregunta por la higiene bucal, la alimentación y los medicamentos; los estudios posibles incluyen análisis de sangre y radiografías de dientes y mandíbula. También se recomienda un examen periodontal."
+    },
+    {
+      "id": "dm-causas",
+      "fuente": "mlp-dolor-muelas",
+      "texto": "El dolor de diente o de muela suele ser resultado de caries, infección o irritación del diente; otras causas son el absceso dental, la lesión en la mandíbula o la boca, la sinusitis, el rechinar los dientes y el trauma dental (desgaste, lesión o fractura)."
+    },
+    {
+      "id": "dm-referido",
+      "fuente": "mlp-dolor-muelas",
+      "texto": "El dolor puede ser referido: por ejemplo, un dolor de oído a veces se siente en la muela; un ataque cardíaco también puede causar dolor de mandíbula, de cuello o de muelas, y si el dolor viene de otra parte del cuerpo se consulta al médico de atención primaria."
+    },
+    {
+      "id": "dm-casa",
+      "fuente": "mlp-dolor-muelas",
+      "texto": "Se pueden usar analgésicos de venta libre si no se puede ver al dentista; el dentista diagnostica la causa y puede indicar otros medicamentos."
+    },
+    {
+      "id": "dm-consulta",
+      "fuente": "mlp-dolor-muelas",
+      "texto": "Hay que buscar atención ante un dolor de muelas intenso, que dura más de uno o dos días, o que viene con fiebre, dolor de oído o dolor al abrir mucho la boca."
+    },
+    {
+      "id": "dm-consultorio",
+      "fuente": "mlp-dolor-muelas",
+      "texto": "El dentista examina boca, dientes y encías, puede pedir radiografías y pregunta cuándo empezó el dolor, dónde está, si despierta por la noche, qué lo mejora o empeora, qué medicamentos se toman, si hubo fiebre o lesiones y cuándo fue el último control."
+    },
+    {
+      "id": "dm-tratamiento",
+      "fuente": "mlp-dolor-muelas",
+      "texto": "El tratamiento depende de la causa: puede incluir rellenos, tratamiento de conductos, extracción o un protector dental si el dolor se debe a rechinar los dientes."
+    },
+    {
+      "id": "fra-causas",
+      "fuente": "mlp-fractura-diente",
+      "texto": "Un diente puede romperse o salirse por caídas, lesiones deportivas, peleas, accidentes de auto o por morder alimentos duros."
+    },
+    {
+      "id": "fra-leve",
+      "fuente": "mlp-fractura-diente",
+      "texto": "Una astilladura leve puede esperar, pero conviene repararla para evitar bordes filosos."
+    },
+    {
+      "id": "fra-mandibula",
+      "fuente": "mlp-fractura-diente",
+      "texto": "Si no se pueden juntar los dientes de arriba con los de abajo, la mandíbula puede estar fracturada y necesita atención inmediata."
+    },
+    {
+      "id": "fra-avulsion",
+      "fuente": "mlp-fractura-diente",
+      "texto": "Si un diente se sale entero, hay que tomarlo solo por la corona sin tocar la raíz, no dejar que se seque (leche o saliva) y consultar de inmediato; un diente reinsertado puede necesitar tratamiento de conducto."
+    },
+    {
+      "id": "fra-sangrado",
+      "fuente": "mlp-fractura-diente",
+      "texto": "Tras un golpe se puede aplicar una compresa fría y presionar directamente la zona para frenar el sangrado."
+    },
+    {
+      "id": "fra-prevencion",
+      "fuente": "mlp-fractura-diente",
+      "texto": "Para prevenirlo: protector bucal en deportes de contacto y evitar alimentos duros."
+    },
+    {
+      "id": "car-fractura",
+      "fuente": "mlp-caries",
+      "texto": "Los rellenos grandes y los dientes débiles aumentan el riesgo de fractura dental."
+    },
+    {
+      "id": "car-consulta",
+      "fuente": "mlp-caries",
+      "texto": "Hay que consultar al dentista si hay dolor o molestia en un diente o manchas oscuras."
+    },
+    {
+      "id": "car-corona-extensa",
+      "fuente": "mlp-caries",
+      "texto": "Si la caries es extensa y queda poca estructura dental, se usa una corona que cubre el diente restante."
+    },
+    {
+      "id": "car-conducto",
+      "fuente": "mlp-caries",
+      "texto": "El tratamiento de conducto se recomienda cuando la pulpa queda expuesta a bacterias o el nervio muere por caries o lesión; casi siempre después se necesita una corona."
+    },
+    {
+      "id": "tra-emergencia",
+      "fuente": "mlp-trauma-facial",
+      "texto": "Ante una lesión grave en la cara, hay que ir a la sala de emergencias."
+    },
+    {
+      "id": "mlp-abs-nombres",
+      "fuente": "mlp-absceso",
+      "texto": "El absceso dental se conoce también como absceso periapical, infección dental, absceso dentoalveolar y absceso odontogénico; el término «flemón» no aparece en la página."
+    },
+    {
+      "id": "mlp-abs-causa",
+      "fuente": "mlp-absceso",
+      "texto": "Un absceso dental puede formarse por caries o por un diente roto, astillado o lesionado; las bacterias infectan la pulpa y la infección puede extenderse al hueso que sostiene el diente."
+    },
+    {
+      "id": "mlp-abs-sintomas",
+      "fuente": "mlp-absceso",
+      "texto": "Los síntomas incluyen dolor de diente intenso y continuo (agudo, pulsátil o punzante), dolor al masticar, sensibilidad al calor o al frío, sabor amargo, mal aliento, malestar general, fiebre, encía hinchada que puede parecer un grano y ganglios inflamados en el cuello."
+    },
+    {
+      "id": "mlp-abs-grave",
+      "fuente": "mlp-absceso",
+      "texto": "La hinchazón de la zona mandibular superior o inferior es un síntoma muy grave de absceso dental."
+    },
+    {
+      "id": "mlp-abs-consulta",
+      "fuente": "mlp-absceso",
+      "texto": "Hay que acudir al dentista ante un dolor de muelas pulsátil que no desaparece o si aparece una burbuja o grano en las encías."
+    },
+    {
+      "id": "mlp-abs-trat",
+      "fuente": "mlp-absceso",
+      "texto": "El dentista puede recetar antibióticos; puede recomendarse un tratamiento de canales para salvar el diente; en infecciones graves puede ser necesario extraer el diente o drenar el absceso con cirugía, y algunas personas requieren hospitalización."
+    },
+    {
+      "id": "mlp-abs-enjuague",
+      "fuente": "mlp-absceso",
+      "texto": "Los enjuagues con agua tibia y sal pueden ayudar a calmar el dolor, y los analgésicos de venta libre pueden aliviar el dolor y la fiebre."
+    },
+    {
+      "id": "mlp-abs-complic",
+      "fuente": "mlp-absceso",
+      "texto": "Sin tratamiento, el absceso puede empeorar y causar complicaciones potencialmente mortales; con tratamiento oportuno suele curarse y el diente a menudo se puede salvar."
+    },
+    {
+      "id": "mlp-abs-prev",
+      "fuente": "mlp-absceso",
+      "texto": "Tratar a tiempo la caries reduce el riesgo de absceso, y los dientes fracturados o partidos deben ser revisados de inmediato por un dentista."
+    },
+    {
+      "id": "nhs-abs-urgencia",
+      "fuente": "nhs-absceso",
+      "texto": "Hay que llamar a emergencias o ir a urgencias del hospital ante dificultad para respirar, hablar o tragar, mucha hinchazón de la boca, imposibilidad de abrirla, ojo hinchado o doloroso o cambios en la vista; la fiebre y la hinchazón de cara o cuello son síntomas que obligan a consultar urgentemente al dentista."
+    },
+    {
+      "id": "nhs-abs-sola",
+      "fuente": "nhs-absceso",
+      "texto": "Un absceso dental no se va solo; que el dolor disminuya no significa que la infección haya desaparecido y sigue haciendo falta tratamiento."
+    },
+    {
+      "id": "nhs-abs-drenaje",
+      "fuente": "nhs-absceso",
+      "texto": "El dentista drena el pus con anestesia local; si el origen es un problema del diente, puede hacer falta un tratamiento de conducto o extraer el diente."
+    },
+    {
+      "id": "nhs-abs-blandos",
+      "fuente": "nhs-absceso",
+      "texto": "Mientras se espera la atención conviene comer alimentos blandos, usar un cepillo suave y evitar comidas y bebidas muy calientes o muy frías."
+    },
+    {
+      "id": "sen-dentina",
+      "fuente": "mh-sensibilidad",
+      "texto": "Debajo del esmalte y del cemento está la dentina, con conductos microscópicos; cuando esa cobertura se desgasta, el calor, el frío y los alimentos ácidos o pegajosos pueden llegar a los nervios del diente, y la encía que retrocede también deja la dentina expuesta."
+    },
+    {
+      "id": "sen-causas",
+      "fuente": "mh-sensibilidad",
+      "texto": "Entre las causas de la sensibilidad dental están las caries, los dientes fracturados, los arreglos desgastados, la enfermedad de las encías, el esmalte desgastado y la raíz expuesta."
+    },
+    {
+      "id": "sen-pasta",
+      "fuente": "mh-sensibilidad",
+      "texto": "La pasta dental para sensibilidad contiene compuestos que ayudan a bloquear las sensaciones hacia el nervio y suele necesitar varias aplicaciones para reducir la sensibilidad."
+    },
+    {
+      "id": "sen-higiene",
+      "fuente": "mh-sensibilidad",
+      "texto": "Una buena higiene bucal es la clave para prevenir el dolor de los dientes sensibles."
+    },
+    {
+      "id": "sen-tratamientos",
+      "fuente": "mh-sensibilidad",
+      "texto": "El dentista puede aplicar gel de flúor en el consultorio para fortalecer el esmalte, reparar un defecto o una caries con una corona, una incrustación o una resina, o hacer un injerto de encía si se perdió encía de la raíz."
+    },
+    {
+      "id": "sen-conducto",
+      "fuente": "mh-sensibilidad",
+      "texto": "Un tratamiento de conducto se reserva para la sensibilidad intensa y persistente que otros tratamientos no resolvieron."
+    },
+    {
+      "id": "per-sintomas",
+      "fuente": "mlp-periodontitis",
+      "texto": "Entre los síntomas de la periodontitis están los dientes flojos y las encías retraídas, que dejan expuesta la base de los dientes; en general no hay dolor y las encías pueden estar sensibles al tacto."
+    },
+    {
+      "id": "per-causa",
+      "fuente": "mlp-periodontitis",
+      "texto": "La periodontitis es una infección crónica de las encías que puede aparecer cuando no se trata la gingivitis; la placa y el sarro forman bolsas con bacterias y la respuesta inflamatoria destruye el tejido que sostiene los dientes, que se aflojan y finalmente pueden caerse."
+    },
+    {
+      "id": "per-tratamiento",
+      "fuente": "mlp-periodontitis",
+      "texto": "El tratamiento busca reducir la inflamación, eliminar las bolsas y tratar la causa: limpieza profesional (a veces con anestesia local), medicamentos aplicados en las encías, limpiezas profesionales cada 3 meses y, en algunos casos, cirugía para limpiar bolsas profundas, dar soporte a dientes flojos o extraer dientes."
+    },
+    {
+      "id": "per-prevencion",
+      "fuente": "mlp-periodontitis",
+      "texto": "Para reducir el riesgo de enfermedad periodontal siempre hacen falta el cepillado y el hilo dental, junto con limpiezas profesionales; prevenir y tratar la gingivitis reduce el riesgo de periodontitis."
+    },
+    {
+      "id": "per-consulta",
+      "fuente": "mlp-periodontitis",
+      "texto": "MedlinePlus indica consultar al dentista si hay signos de enfermedad periodontal."
+    },
+    {
+      "id": "per-ninos",
+      "fuente": "mlp-periodontitis",
+      "texto": "La periodontitis no es común en los niños pequeños, pero aumenta durante la adolescencia."
+    },
+    {
+      "id": "nidcr-sintomas",
+      "fuente": "nidcr-gum-disease",
+      "texto": "En la enfermedad de las encías, estas pueden estar rojas, inflamadas o sensibles, sangrar con facilidad y separarse de los dientes (que parecen más largos); también puede haber dientes flojos o sensibles, dolor al masticar y mal aliento persistente."
+    },
+    {
+      "id": "nidcr-riesgo",
+      "fuente": "nidcr-gum-disease",
+      "texto": "El tabaco es el factor de riesgo más importante de la enfermedad de las encías y puede hacer el tratamiento menos exitoso; la diabetes, la edad avanzada y la genética también figuran como factores de riesgo."
+    },
+    {
+      "id": "nidcr-trat",
+      "fuente": "nidcr-gum-disease",
+      "texto": "La enfermedad de las encías temprana, causada por placa, a menudo puede revertirse con cepillado e hilo dental diarios; los casos avanzados pueden requerir limpieza profunda (raspado y alisado radicular) y a veces cirugía; dejar el tabaco mejora los resultados."
     }
   ]
 }

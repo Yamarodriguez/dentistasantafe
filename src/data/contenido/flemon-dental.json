@@ -1,0 +1,128 @@
+{
+  "slug": "flemon-dental",
+  "conteo": {
+    "clave": "flem[oó]n|absceso",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-absceso",
+    "nhs-absceso"
+  ],
+  "intro": "Se suele llamar **flemón dental** a la hinchazón de la encía o de la cara causada por una infección en un diente; el cuadro de fondo se conoce como **absceso dental**. Hace falta que lo revise un odontólogo, porque la infección no se va sola.",
+  "resumen": [
+    "El flemón suele aparecer por una caries o por un diente roto o lesionado.",
+    "Puede dar dolor intenso y pulsátil, encía hinchada, mal sabor de boca y fiebre.",
+    "Con dificultad para respirar, hablar o tragar, o mucha hinchazón en la boca, hay que ir a una guardia.",
+    "Aunque el dolor baje, la infección no se va sola y necesita tratamiento."
+  ],
+  "secciones": {
+    "¿Qué es un flemón dental o absceso?": [
+      "Es una infección que se forma cuando las bacterias llegan a la pulpa, el centro del diente, y pueden extenderse al hueso que lo sostiene.",
+      "Suele deberse a **una caries o un diente roto**, astillado o lesionado.",
+      "Con un tratamiento a tiempo suele curarse, y el diente a menudo se puede salvar."
+    ],
+    "Síntomas de un flemón en la encía": [
+      "El síntoma más frecuente es un dolor de diente intenso y continuo, que puede sentirse agudo, pulsátil o punzante.",
+      {
+        "lista": [
+          "Dolor al masticar y sensibilidad al calor o al frío.",
+          "**Encía hinchada sobre el diente**, a veces con aspecto de grano.",
+          "Sabor amargo en la boca y mal aliento.",
+          "Ganglios inflamados en el cuello.",
+          "Malestar general y fiebre."
+        ]
+      },
+      "Esta lista es orientativa: solo el odontólogo puede decir qué te pasa en tu caso."
+    ],
+    "Qué hacer mientras esperás el turno": [
+      "Conviene pedir turno con un odontólogo lo antes posible, porque la infección dental no se va sola.",
+      {
+        "lista": [
+          "Los **enjuagues con agua tibia y sal** pueden ayudar a calmar el dolor.",
+          "Un analgésico de venta libre puede aliviar el dolor y la fiebre; conviene usar el que indique el médico o el odontólogo.",
+          "Comer alimentos blandos, cepillarse con un cepillo suave y evitar bebidas y comidas muy calientes o muy frías."
+        ]
+      },
+      "Los antibióticos solo los indica el profesional, si hacen falta. No conviene automedicarse."
+    ],
+    "Cuándo ir al dentista y señales de urgencia": [
+      "Conviene ir al dentista ante un dolor de muelas pulsátil que no desaparece o si aparece una burbuja o grano en la encía.",
+      {
+        "h3": "¿Cuándo es una urgencia?"
+      },
+      "La hinchazón de la zona de la mandíbula es un síntoma muy grave. Sin tratamiento, la infección puede dar complicaciones potencialmente mortales.",
+      {
+        "lista": [
+          "Ir a una **guardia o emergencias de un hospital** ante dificultad para respirar, hablar o tragar, mucha hinchazón en la boca, no poder abrirla, o un ojo hinchado o cambios en la vista.",
+          "Consultar el mismo día con un odontólogo ante fiebre o hinchazón de la cara, la mandíbula o el cuello; si no conseguís atención ese día o es fin de semana, ir a la guardia de un hospital."
+        ]
+      },
+      "Nuestra clínica no tiene guardia ni atiende fines de semana: con esas señales hay que acudir a un hospital."
+    ],
+    "Cómo trata el odontólogo una infección dental": [
+      "El tratamiento depende de la causa y de la gravedad, y lo decide el odontólogo después de evaluar cada caso.",
+      "Puede recetar antibióticos si hacen falta y, cuando es posible salvar el diente, recomendar un tratamiento de conducto.",
+      "En infecciones graves puede ser necesario **extraer el diente** o drenar el pus con cirugía, y algunas personas necesitan internación.",
+      "Para prevenir, conviene tratar la caries a tiempo y revisar enseguida un diente fracturado o partido."
+    ],
+    "Tratamientos de la clínica relacionados con la infección dental": [
+      "En nuestra clínica dental de Santa Fe, el odontólogo evalúa qué hace falta en tu caso.",
+      "Si la causa es una caries profunda que llegó a la pulpa, puede indicarse un [tratamiento de conducto](/tratamiento-de-conducto-santa-fe/) para intentar conservar el diente.",
+      "Si el diente no se puede conservar, la clínica realiza [extracciones y cirugía de muelas de juicio](/extraccion-muelas-de-juicio-santa-fe/).",
+      "También se revisa el estado de las encías; para eso hay tratamiento de [periodoncia](/periodoncia-santa-fe/).",
+      "Los turnos se piden por WhatsApp en nuestro centro odontológico, de lunes a viernes de 8 a 20 h."
+    ]
+  },
+  "faq_titulo": "Preguntas frecuentes sobre las infecciones dentales",
+  "faq": [
+    {
+      "q": "¿Qué antibiótico tomar para una infección dental?",
+      "a": "Los antibióticos los indica el profesional solo si hacen falta, según cada caso. **No conviene automedicarse**: lo indicado es consultar con un odontólogo para que evalúe la causa."
+    },
+    {
+      "q": "¿Si el absceso dental ya no duele, se curó?",
+      "a": "No necesariamente. Aunque baje el dolor, **la infección no desaparece sola** y necesita tratamiento del odontólogo."
+    },
+    {
+      "q": "¿Un flemón se pasa solo con enjuagues?",
+      "a": "Los enjuagues con agua tibia y sal pueden ayudar a calmar el dolor. La causa de la infección, en cambio, tiene que evaluarla un odontólogo."
+    },
+    {
+      "q": "¿Cómo sé si la hinchazón de la cara por un diente es grave?",
+      "a": "La hinchazón de la mandíbula es un **síntoma muy grave**. Si hay dificultad para respirar, hablar o tragar, hay que ir a una guardia o a emergencias de un hospital."
+    },
+    {
+      "q": "¿Qué hago si me salió un grano en la encía?",
+      "a": "Un grano o burbuja en la encía, sobre un diente, puede indicar una infección. Conviene pedir turno con un odontólogo para que lo revise."
+    },
+    {
+      "q": "¿Una caries sin tratar puede terminar en infección?",
+      "a": "Sí: la caries puede llegar a la pulpa del diente y la infección extenderse al hueso. Tratar la caries a tiempo reduce el riesgo."
+    }
+  ],
+  "relacionados": [
+    "tratamiento-de-conducto-santa-fe",
+    "extraccion-muelas-de-juicio-santa-fe",
+    "periodoncia-santa-fe"
+  ],
+  "dibujo": "tratamiento-de-conducto-santa-fe",
+  "condicion": {
+    "nombre": "Absceso dental (absceso periapical)",
+    "sintomas": [
+      "Dolor de diente intenso, continuo y pulsátil",
+      "Encía hinchada sobre el diente, a veces como un grano",
+      "Sabor amargo y mal aliento",
+      "Dolor al masticar y sensibilidad al calor o al frío",
+      "Ganglios inflamados en el cuello",
+      "Fiebre y malestar general"
+    ]
+  },
+  "fotos": {}
+}

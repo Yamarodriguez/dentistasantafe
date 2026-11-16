@@ -102,7 +102,7 @@ for (const f of htmls) {
       } catch { err(r, 'JSON-LD que no es JSON válido'); }
     }
     if (tipo === 'portada' && !tipos.includes('Dentist')) err(r, 'portada sin schema Dentist');
-    if (tipo === 'tratamiento' && !tipos.includes('MedicalWebPage')) err(r, 'tratamiento sin schema MedicalWebPage');
+    if ((tipo === 'tratamiento' || tipo === 'problema') && !tipos.includes('MedicalWebPage')) err(r, `${tipo} sin schema MedicalWebPage`);
     if (r !== '/' && !tipos.includes('BreadcrumbList')) err(r, 'sin schema BreadcrumbList');
   }
 

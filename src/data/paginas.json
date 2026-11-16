@@ -380,6 +380,139 @@
       "faq": []
     },
     {
+      "slug": "problemas-bucales",
+      "tipo": "indice-problemas",
+      "estado": "si",
+      "clave": "problemas bucales",
+      "title": "Problemas bucales: síntomas y cuándo ir al dentista",
+      "description": "Encías que sangran, dolor de muela, sensibilidad, diente flojo o roto y flemón: qué puede ser, qué hacer y cuándo ir al dentista.",
+      "h1": "Problemas bucales: qué hacer en cada caso",
+      "h2s": [
+        {
+          "t": "Problemas bucales frecuentes",
+          "bloque": "problemas"
+        },
+        "Antes de que duela: controles con el dentista",
+        {
+          "t": "Preguntas frecuentes sobre problemas bucales",
+          "bloque": "faq"
+        }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "encias-que-sangran",
+      "tipo": "problema",
+      "estado": "si",
+      "nombre": "Encías que sangran",
+      "clave": "sangr\\w* (de )?(las )?encías|encías que sangran",
+      "title": "Me sangran las encías: causas y qué hacer",
+      "description": "Qué causa el sangrado de encías, qué hacer en casa y cuándo pedir turno con el dentista. Información general basada en MedlinePlus.",
+      "h1": "¿Por qué me sangran las encías? Causas y qué hacer",
+      "h2s": [
+        "Por qué te sangran las encías: las causas más frecuentes",
+        "Encías que sangran en el embarazo",
+        "Qué hacer en casa para cuidar las encías",
+        "Cuándo ir al dentista si sangran las encías",
+        "Qué esperar en la consulta con el dentista",
+        "Cómo te ayuda nuestra clínica dental ante el sangrado"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "dolor-de-muela",
+      "tipo": "problema",
+      "estado": "si",
+      "nombre": "Dolor de muela",
+      "clave": "dolor de muelas?",
+      "title": "Dolor de muela: qué hacer y cuándo ir al dentista",
+      "description": "Dolor de muela: causas frecuentes, qué hacer mientras esperás turno, señales para consultar y qué tratamientos puede indicar el odontólogo.",
+      "h1": "Dolor de muela: qué hacer y cuándo ir al dentista",
+      "h2s": [
+        "¿Qué puede causar el dolor de muela?",
+        "¿Qué hacer con el dolor de muela mientras esperás el turno?",
+        "Cuándo ir al dentista por un dolor de muela",
+        "¿Qué hace el dentista cuando una muela duele?",
+        "Tratamientos de la clínica según la causa de la molestia",
+        "¿Cómo reducir el riesgo de que la molestia vuelva?"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "diente-roto-empaste-caido",
+      "tipo": "problema",
+      "estado": "si",
+      "nombre": "Diente roto o empaste caído",
+      "clave": "diente (roto|partido)|dientes rotos|empaste",
+      "title": "Diente roto o empaste caído: qué hacer y cuándo ir",
+      "description": "Qué hacer si se te rompió un diente o se cayó un empaste, cuándo ir al dentista y qué arreglos puede indicar el odontólogo.",
+      "h1": "Diente roto o empaste caído: qué hacer",
+      "h2s": [
+        "¿Por qué se rompe un diente o se cae un empaste?",
+        "Qué hacer mientras llegás al turno",
+        "Cuándo ir al dentista: urgencias y señales de alarma",
+        "¿Se puede arreglar un diente roto?",
+        "Tratamientos que puede indicar el odontólogo"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "flemon-dental",
+      "tipo": "problema",
+      "estado": "si",
+      "nombre": "Flemón dental",
+      "clave": "flem[oó]n|absceso",
+      "title": "Flemón dental y absceso: qué hacer y cuándo ir",
+      "description": "Flemón dental o absceso: síntomas, qué hacer mientras esperás el turno, señales de urgencia y cuándo ir al dentista.",
+      "h1": "Flemón dental y absceso: síntomas y qué hacer",
+      "h2s": [
+        "¿Qué es un flemón dental o absceso?",
+        "Síntomas de un flemón en la encía",
+        "Qué hacer mientras esperás el turno",
+        "Cuándo ir al dentista y señales de urgencia",
+        "Cómo trata el odontólogo una infección dental",
+        "Tratamientos de la clínica relacionados con la infección dental"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "sensibilidad-dental",
+      "tipo": "problema",
+      "estado": "si",
+      "nombre": "Sensibilidad dental",
+      "clave": "sensibilidad dental|dientes sensibles",
+      "title": "Sensibilidad dental: causas y qué hacer con el frío",
+      "description": "Por qué duelen los dientes con el frío o el calor, qué puede ayudar en casa y cuándo conviene consultar al dentista para revisar la causa.",
+      "h1": "Sensibilidad dental: por qué duelen los dientes con el frío",
+      "h2s": [
+        "¿Por qué duelen los dientes con el frío?",
+        "Causas de la sensibilidad dental",
+        "Qué hacer con los dientes sensibles",
+        "Tratamientos que se relacionan con la sensibilidad",
+        "Cuándo ir al dentista por sensibilidad dental"
+      ],
+      "faq": []
+    },
+    {
+      "slug": "diente-flojo",
+      "tipo": "problema",
+      "estado": "si",
+      "nombre": "Diente flojo y encías retraídas",
+      "clave": "dientes? flojos?|retracci[oó]n de (las )?encías|encías retraídas",
+      "title": "Diente flojo y retracción de encías: causas y qué hacer",
+      "description": "Qué puede causar un diente flojo o la retracción de encías en adultos, qué hacer mientras tanto y cuándo conviene consultar al odontólogo.",
+      "h1": "Diente flojo y retracción de encías: causas y qué hacer",
+      "h2s": [
+        "Diente flojo en adultos: qué puede estar pasando",
+        "Retracción de encías: qué es y si se puede revertir",
+        "Factores que aumentan el riesgo de enfermedad de las encías",
+        "Qué hacer mientras esperás el turno",
+        "Cuándo ir al dentista: señales de que no conviene esperar",
+        "Tratamientos de nuestra clínica dental para encías y dientes que se mueven"
+      ],
+      "faq": []
+    },
+    {
       "slug": "obras-sociales",
       "tipo": "info",
       "estado": "si",

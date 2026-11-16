@@ -1,0 +1,122 @@
+{
+  "slug": "diente-roto-empaste-caido",
+  "conteo": {
+    "clave": "diente (roto|partido)|dientes rotos|empaste",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-fractura-diente",
+    "mlp-caries",
+    "mlp-coronas",
+    "mlp-dolor-muelas",
+    "mlp-trauma-facial"
+  ],
+  "intro": "Ante un **diente roto** o un **empaste caído**, conviene ir al dentista aunque no duela: el odontólogo evalúa si se puede reparar. En esta página, nuestra clínica dental explica qué hacer mientras tanto y cuándo no esperar.",
+  "resumen": [
+    "Las dos situaciones se revisan y se arreglan en el consultorio.",
+    "Una astilladura leve puede esperar, pero conviene repararla para evitar bordes filosos.",
+    "Si el dolor es intenso, dura más de uno o dos días o aparece fiebre, hay que consultar.",
+    "El odontólogo evalúa si alcanza con un arreglo de caries, una corona o un tratamiento de conducto."
+  ],
+  "secciones": {
+    "¿Por qué se rompe un diente o se cae un empaste?": [
+      "Un diente puede romperse por una caída, una lesión deportiva, una pelea, un accidente de auto o por **morder algo duro**.",
+      "Los rellenos grandes y los dientes débiles aumentan el riesgo de fractura.",
+      "Muchas veces las caries no dan síntomas. Cuando dan, suele ser dolor con lo dulce, frío o caliente, o manchas oscuras o agujeros visibles."
+    ],
+    "Qué hacer mientras llegás al turno": [
+      "Lo primero es pedir turno y no dejar pasar el problema, sobre todo si el diente duele o tiene un borde filoso.",
+      {
+        "lista": [
+          "Si te duele y no podés ver al dentista pronto, se puede usar un analgésico de venta libre: el que indique tu médico o tu odontólogo.",
+          "Mantener la higiene: cepillarte con pasta con flúor y usar hilo dental.",
+          "Si hay sangrado por un golpe, presionar directamente la zona y aplicar una compresa fría."
+        ]
+      },
+      "No hace falta esperar a que duela: la mayoría de las caries se descubren en los controles y muchas no dan síntomas."
+    ],
+    "Cuándo ir al dentista: urgencias y señales de alarma": [
+      "Conviene pedir turno apenas notes que un diente se fracturó o que se cayó un relleno, aunque no duela.",
+      "Una astilladura leve puede esperar, pero conviene repararla para evitar bordes filosos. Hay que consultar sin demora si aparece:",
+      {
+        "lista": [
+          "**Dolor intenso** en el diente.",
+          "Dolor que dura **más de uno o dos días**.",
+          "**Fiebre** o dolor al abrir mucho la boca."
+        ]
+      },
+      "Si después de un golpe no podés juntar los dientes de arriba con los de abajo, **la mandíbula puede estar fracturada** y necesita atención inmediata. Ante una lesión grave en la cara, hay que ir a una guardia o a emergencias de un hospital: la clínica no tiene guardia."
+    ],
+    "¿Se puede arreglar un diente roto?": [
+      "Depende de cuánto diente queda y de si el nervio está afectado; lo define el odontólogo después de revisar la pieza.",
+      {
+        "h3": "¿Cuándo hace falta una corona?"
+      },
+      "Una **corona** es una funda con forma de diente que cubre el diente por encima de la encía. Se usa para reforzar un diente con una caries grande, astillado o fracturado.",
+      {
+        "h3": "¿Y si el nervio quedó expuesto?"
+      },
+      "Cuando la pulpa queda expuesta a las bacterias o el nervio muere por una caries o una lesión, se recomienda el tratamiento de conducto. Casi siempre después se necesita una corona para proteger el diente.",
+      "Si la caries destruye el diente, puede hacer falta extraerlo."
+    ],
+    "Tratamientos que puede indicar el odontólogo": [
+      "En nuestro centro odontológico en Santa Fe, el odontólogo evalúa qué hace falta en tu caso, sin dar nada por hecho antes de ver el diente.",
+      "El [arreglo de caries (operatoria)](/limpieza-dental-santa-fe/) rellena la parte dañada. Si queda poco diente, se plantea una corona, que forma parte de las [coronas y prótesis dentales](/protesis-dentales-santa-fe/). Y si el daño llega al nervio, el [tratamiento de conducto](/tratamiento-de-conducto-santa-fe/) conserva la pieza.",
+      "Los turnos se piden por WhatsApp. Para saber qué cobertura tenés, se puede consultar al pedirlo."
+    ]
+  },
+  "faq_titulo": "Preguntas frecuentes sobre dientes rotos y rellenos caídos",
+  "faq": [
+    {
+      "q": "¿Qué pasa si no arreglo un relleno que se cayó?",
+      "a": "Si se cayó un relleno, **conviene consultar** pronto, sobre todo si hay dolor o molestia en el diente."
+    },
+    {
+      "q": "¿Qué hago si se me cayó un relleno y me duele?",
+      "a": "Si el dolor es intenso o dura más de uno o dos días, o aparece fiebre, hay que consultar. Mientras tanto, se puede usar un analgésico de venta libre, el que indique el médico o el odontólogo."
+    },
+    {
+      "q": "¿Un diente astillado puede esperar?",
+      "a": "Una astilladura leve puede esperar, pero **conviene repararla** para evitar bordes filosos."
+    },
+    {
+      "q": "¿Qué hago si un golpe me sacó el diente entero?",
+      "a": "Hay que tomarlo solo por la corona, sin tocar la raíz, no dejar que se seque (se conserva en leche o saliva) y consultar de inmediato. Si es fuera del horario de la clínica o no conseguís atención enseguida, ir a una guardia."
+    },
+    {
+      "q": "¿Qué hago con una muela con caries que se partió?",
+      "a": "Si la caries es grande y queda poco diente, se usa una corona; si llega al nervio, tratamiento de conducto. El odontólogo indica cuál corresponde después de revisarla. Si la caries destruyó el diente, puede hacer falta extraerlo."
+    },
+    {
+      "q": "¿Cuánto dura una corona sobre un diente fracturado?",
+      "a": "La mayoría de las coronas dura **al menos 5 años** y puede llegar a 15 o 20."
+    },
+    {
+      "q": "¿Cómo evitar que se rompan los dientes?",
+      "a": "Se recomienda usar protector bucal en deportes de contacto y evitar los alimentos duros. También ayuda cepillarse al menos dos veces al día y hacer controles."
+    }
+  ],
+  "relacionados": [
+    "limpieza-dental-santa-fe",
+    "protesis-dentales-santa-fe",
+    "tratamiento-de-conducto-santa-fe"
+  ],
+  "dibujo": "protesis-dentales-santa-fe",
+  "condicion": {
+    "nombre": "Fractura dental y pérdida de obturación (empaste)",
+    "sintomas": [
+      "diente astillado o roto",
+      "relleno caído",
+      "dolor con lo dulce, frío o caliente",
+      "borde filoso en el diente"
+    ]
+  },
+  "fotos": {}
+}

@@ -10,7 +10,7 @@ import '@fontsource/playfair-display/latin-600.css';
 import '@fontsource/playfair-display/latin-ext-600.css';
 import '../styles/base.css';
 import temas from '../data/temas.json';
-import { site, ruta, enlaceTurno, tratamientos, foto, telefonoDe, etiquetaTelefono } from '../lib/datos.js';
+import { site, ruta, enlaceTurno, tratamientos, problemas, foto, telefonoDe, etiquetaTelefono } from '../lib/datos.js';
 import { schemaDe } from '../lib/schema.js';
 
 // Menú como la referencia: tratamientos principales sueltos, el resto en «Otros tratamientos»
@@ -128,7 +128,7 @@ const vars = [
           <div>
             <p class="antetitulo">{site.antetitulo}</p>
             <p class="titulo-franja">Turnos en Santa Fe</p>
-            <p>Por WhatsApp, por teléfono o con el formulario de contacto.</p>
+            <p>Por WhatsApp o por teléfono: {telefonoDe(site.sedes[0])}.</p>
           </div>
           <div class="botones">
             {site.sedes.map((s) => <a class="boton" href={enlaceTurno(s)}>Pedir turno →</a>)}
@@ -151,6 +151,14 @@ const vars = [
             {tratamientos.map((t) => <li><a href={ruta(t.slug)}>{etiqueta(t)}</a></li>)}
           </ul>
         </div>
+        {problemas.length > 0 && (
+          <div>
+            <p class="pie-titulo"><a href="/problemas-bucales/">Problemas bucales</a></p>
+            <ul class="pie-lista">
+              {problemas.map((p) => <li><a href={ruta(p.slug)}>{p.nombre}</a></li>)}
+            </ul>
+          </div>
+        )}
         <div>
           <p class="pie-titulo">{site.nombre}</p>
           <p>

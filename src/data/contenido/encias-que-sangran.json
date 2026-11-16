@@ -1,0 +1,135 @@
+{
+  "slug": "encias-que-sangran",
+  "conteo": {
+    "clave": "sangr\\w* (de )?(las )?encías|encías que sangran",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-sangrado",
+    "mlp-encias"
+  ],
+  "intro": "Si **te sangran las encías** al cepillarte o al usar hilo dental, la causa principal es la **placa acumulada** en la línea de la encía. Hay otras causas posibles, por eso conviene que el dentista revise la boca si el sangrado se repite.",
+  "resumen": [
+    "La causa principal del sangrado de encías es la placa que se acumula en la línea de la encía.",
+    "Otras causas son cepillarse con mucha fuerza, usar mal el hilo dental, los cambios hormonales del embarazo y algunos medicamentos.",
+    "En casa ayudan el cepillado suave y el hilo dental todos los días.",
+    "Si el sangrado es grave, dura mucho o sigue después del tratamiento, conviene consultar al dentista."
+  ],
+  "secciones": {
+    "Por qué te sangran las encías: las causas más frecuentes": [
+      "La causa principal del sangrado de las encías es la **acumulación de placa** en la línea de la encía.",
+      "Si la placa no se retira, se endurece y forma sarro. Eso puede provocar gingivitis y, si no se trata, convertirse en periodontitis, que daña la encía y el tejido que sostiene el diente.",
+      {
+        "h3": "¿Qué otras causas hay?"
+      },
+      {
+        "lista": [
+          "Cepillarse con mucha fuerza.",
+          "Usar mal el hilo dental.",
+          "Los cambios hormonales del embarazo.",
+          "Prótesis u otros aparatos dentales mal ajustados.",
+          "Infecciones en dientes o encías.",
+          "Trastornos hemorrágicos, leucemia o deficiencia de vitamina C o de vitamina K.",
+          "El uso de anticoagulantes."
+        ]
+      },
+      "Si usás una [prótesis](/protesis-dentales-santa-fe/) que no ajusta bien o te causa puntos dolorosos, conviene consultarlo con el dentista."
+    ],
+    "Encías que sangran en el embarazo": [
+      "Los cambios hormonales del embarazo pueden hacer que las encías sangren.",
+      "La gingivitis se reconoce porque las encías se ven **rojas e hinchadas** y sangran con facilidad.",
+      "El embarazo no es la única explicación posible: la placa también puede ser la causa. Por eso conviene que el odontólogo te revise las encías y que le cuentes qué medicamentos tomás."
+    ],
+    "Qué hacer en casa para cuidar las encías": [
+      "Cepillarse con suavidad, con un cepillo de cerdas suaves, al menos dos veces al día es la base del cuidado en casa.",
+      {
+        "lista": [
+          "Usar hilo dental dos veces al día, siguiendo las indicaciones del dentista para no lastimar las encías.",
+          "Para controlar el sangrado, presionar la encía con una gasa humedecida en **agua helada**.",
+          "El dentista puede indicar enjuagues con agua salada o uno pensado para la inflamación de las encías; si el enjuague tiene alcohol, se consulta antes.",
+          "No fumar: el tabaco agrava el sangrado y puede ocultar otros problemas.",
+          "Comer de forma equilibrada, evitar picar entre comidas y reducir los carbohidratos."
+        ]
+      },
+      "Si sospechás que un medicamento provoca el sangrado, consultalo con el médico que lo indicó: no lo suspendas ni lo cambies por cuenta propia.",
+      "Estas medidas ayudan, pero **no reemplazan la revisión** del odontólogo."
+    ],
+    "Cuándo ir al dentista si sangran las encías": [
+      "Conviene pedir turno con el dentista si **el sangrado es prolongado**, si sigue después del tratamiento o si aparecen otros síntomas sin explicación.",
+      {
+        "lista": [
+          "El sangrado no se detiene o es prolongado.",
+          "Las encías siguen sangrando incluso después del tratamiento.",
+          "Aparecen otros síntomas sin explicación junto con el sangrado.",
+          "Una prótesis o un aparato dental no ajusta bien o causa puntos dolorosos."
+        ]
+      },
+      {
+        "h3": "¿Qué señal pide atención sin demora?"
+      },
+      "Un sangrado grave o que no se detiene: hay que buscar atención médica sin esperar un turno; fuera del horario de la clínica, en una guardia."
+    ],
+    "Qué esperar en la consulta con el dentista": [
+      "El dentista examina los dientes y las encías, y pregunta por tu higiene bucal, tu alimentación y los medicamentos que tomás.",
+      "Según el caso, puede pedir **estudios de sangre** y radiografías de dientes y mandíbula, y hacer un examen periodontal.",
+      "Para saber cómo es la visita, está la guía de la [primera consulta odontológica](/primera-consulta/)."
+    ],
+    "Cómo te ayuda nuestra clínica dental ante el sangrado": [
+      "En nuestra clínica dental en Santa Fe, el odontólogo evalúa qué hace falta en tu caso.",
+      "Si la causa es la placa y el sarro, el dentista los retira en una [limpieza dental](/limpieza-dental-santa-fe/); la recomendación general es repetirla al menos cada 6 meses.",
+      "Cuando se trata de gingivitis o periodontitis, la [periodoncia](/periodoncia-santa-fe/) es el área que trata las enfermedades de las encías.",
+      "Nuestro centro odontológico atiende con turno, que se pide por WhatsApp."
+    ]
+  },
+  "faq_titulo": "Preguntas frecuentes sobre las encías que sangran",
+  "faq": [
+    {
+      "q": "¿Tengo que dejar de cepillarme si me sangran las encías?",
+      "a": "No: conviene seguir cepillándose con suavidad y con un cepillo de cerdas suaves, y usar el hilo dental con cuidado. Si el sangrado continúa, pedir turno con el dentista para que revise las encías."
+    },
+    {
+      "q": "¿Es normal que me sangren las encías cuando me lavo los dientes?",
+      "a": "Puede deberse a la placa acumulada o a cepillarse con mucha fuerza, pero no conviene darlo por normal. **Conviene que el dentista las revise** para saber la causa."
+    },
+    {
+      "q": "¿Las encías inflamadas que sangran son gingivitis?",
+      "a": "Las encías rojas e hinchadas que sangran con facilidad son propias de la gingivitis. Solo el odontólogo puede confirmarlo después de examinarlas."
+    },
+    {
+      "q": "¿Cómo se frena el sangrado en el momento?",
+      "a": "Se puede presionar la encía con una gasa humedecida en agua helada. Si el sangrado es grave o no se detiene, hay que consultar a un profesional de la salud."
+    },
+    {
+      "q": "¿La falta de vitaminas puede causar sangrado en las encías?",
+      "a": "Una deficiencia de vitamina C o de vitamina K puede ser una causa. Si se diagnostica una deficiencia, se pueden tomar suplementos vitamínicos; conviene que los indique el profesional."
+    },
+    {
+      "q": "¿Cada cuánto hay que ir al dentista para cuidar las encías?",
+      "a": "Se recomienda visitar al dentista al menos cada 6 meses para retirar la placa y el sarro, y seguir sus indicaciones de higiene."
+    },
+    {
+      "q": "¿El tabaco influye en el estado de las encías?",
+      "a": "Sí: el tabaco agrava el sangrado y puede ocultar otros problemas. Además, la enfermedad de las encías se relaciona con el tabaco y con la diabetes."
+    }
+  ],
+  "relacionados": [
+    "periodoncia-santa-fe",
+    "limpieza-dental-santa-fe"
+  ],
+  "dibujo": "periodoncia-santa-fe",
+  "condicion": {
+    "nombre": "Sangrado de las encías (gingivitis)",
+    "sintomas": [
+      "Encías que sangran al cepillarse o al usar hilo dental",
+      "Encías rojas e hinchadas"
+    ]
+  },
+  "fotos": {}
+}

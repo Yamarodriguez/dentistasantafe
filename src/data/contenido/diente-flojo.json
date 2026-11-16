@@ -1,0 +1,140 @@
+{
+  "slug": "diente-flojo",
+  "conteo": {
+    "clave": "dientes? flojos?|retracci[oó]n de (las )?encías|encías retraídas",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-periodontitis",
+    "mlp-encias",
+    "nidcr-gum-disease"
+  ],
+  "intro": "Un **diente flojo en un adulto** puede ser un síntoma de la enfermedad de las encías, que puede avanzar sin molestias. Por eso **no conviene esperar a que duela** para consultar: en esta página vemos las causas, qué hacer mientras tanto y cuándo pedir turno.",
+  "resumen": [
+    "Un diente flojo en un adulto puede indicar que el tejido que sostiene el diente está dañado.",
+    "Una causa frecuente es la periodontitis, una infección crónica de las encías.",
+    "Cuando la encía se retrae, deja expuesta la base de los dientes.",
+    "Conviene consultar con un odontólogo para que evalúe qué hace falta en tu caso."
+  ],
+  "secciones": {
+    "Diente flojo en adultos: qué puede estar pasando": [
+      "En adultos, un diente flojo puede deberse a la periodontitis, una infección crónica de las encías que puede aparecer cuando no se trata la gingivitis.",
+      "La placa y el sarro forman bolsas entre las encías y los dientes, donde se acumulan bacterias. La respuesta inflamatoria del cuerpo destruye el tejido que sostiene los dientes, y por eso **se aflojan y pueden caerse**.",
+      {
+        "h3": "¿Duele cuando el diente está flojo?"
+      },
+      "En general la periodontitis no duele: las encías pueden estar sensibles al tacto, pero por lo demás no molestan. Otras fuentes mencionan dolor al masticar y sensibilidad en los dientes en algunos casos, así que la ausencia de dolor no descarta el problema.",
+      {
+        "h3": "¿Qué otros signos acompañan a un diente que se mueve?"
+      },
+      {
+        "lista": [
+          "Encías rojas, brillantes o inflamadas.",
+          "Sangrado al cepillarse o al usar hilo dental.",
+          "Mal aliento.",
+          "Espacios entre los dientes y las encías.",
+          "Dientes más sensibles."
+        ]
+      }
+    ],
+    "Retracción de encías: qué es y si se puede revertir": [
+      "Cuando la encía se retrae queda expuesta la base de los dientes, algo que MedlinePlus describe como un signo de periodontitis.",
+      "Las fuentes consultadas no dicen que una encía retraída vuelva sola a su lugar. Lo que sí se trabaja es la causa: el tratamiento busca **reducir la inflamación, eliminar las bolsas** y tratar el problema de fondo.",
+      {
+        "h3": "¿La gingivitis también se puede revertir?"
+      },
+      "La gingivitis, la forma leve de la enfermedad de las encías, a menudo puede revertirse con cepillado e hilo dental diarios; las limpiezas profesionales periódicas ayudan a prevenir que avance. Si no se trata, puede convertirse en periodontitis."
+    ],
+    "Factores que aumentan el riesgo de enfermedad de las encías": [
+      "El tabaco es el **factor de riesgo más importante** de la enfermedad de las encías y también puede hacer que el tratamiento resulte menos exitoso.",
+      "La diabetes figura entre los factores de riesgo, junto con la edad avanzada y la genética. Dejar el tabaco puede mejorar los resultados del tratamiento.",
+      "La periodontitis no es común en los niños pequeños, pero aumenta durante la adolescencia."
+    ],
+    "Qué hacer mientras esperás el turno": [
+      "Mientras llega el turno, lo más útil es mantener la higiene bucal, porque el cepillado y el hilo dental siempre hacen falta para reducir el riesgo de enfermedad periodontal.",
+      {
+        "pasos": [
+          "Mantener el cepillado y el hilo dental todos los días, con suavidad si la zona está sensible.",
+          "Anotar desde cuándo se nota el movimiento y qué otros signos aparecieron, como sangrado, mal aliento o espacios nuevos.",
+          "Pedir turno aunque no haya molestias: **el dolor no es un buen indicador**, porque la periodontitis en general no duele.",
+          "Si fumás, tener en cuenta que dejar el tabaco puede mejorar los resultados del tratamiento."
+        ]
+      }
+    ],
+    "Cuándo ir al dentista: señales de que no conviene esperar": [
+      "MedlinePlus recomienda consultar al dentista ante **cualquier señal de enfermedad periodontal**, y un diente que se mueve es una de ellas.",
+      {
+        "h3": "¿Qué señales piden consultar sin esperar?"
+      },
+      {
+        "lista": [
+          "Un diente que se mueve o que antes estaba firme.",
+          "Encías que se separan del diente y hacen que parezca más largo.",
+          "Encías que sangran con facilidad.",
+          "Mal aliento que no se va.",
+          "Dolor al masticar."
+        ]
+      },
+      "Si viene con hinchazón en la cara o el cuello, fiebre o dolor intenso, o apareció después de un golpe, conviene ir a una guardia sin esperar el turno (ver [flemón dental y absceso](/flemon-dental/)). La clínica no tiene guardia: los turnos se piden por WhatsApp, de lunes a viernes de 8 a 20 h."
+    ],
+    "Tratamientos de nuestra clínica dental para encías y dientes que se mueven": [
+      "En nuestra clínica dental, **el odontólogo evalúa tu caso** y define qué hace falta; no hay un único tratamiento para todos.",
+      "Según MedlinePlus, el tratamiento de la periodontitis puede incluir una limpieza profesional para retirar placa y sarro, medicamentos aplicados en las encías y, en algunos casos, cirugía para limpiar bolsas profundas, dar soporte a los dientes que se mueven o extraerlos. También se indican limpiezas profesionales periódicas, por ejemplo cada 3 meses.",
+      "En el área de [periodoncia](/periodoncia-santa-fe/) se trabaja sobre las encías y el soporte de los dientes. Si hay que extraer una pieza, el odontólogo puede plantear reponerla, por ejemplo con [implantes dentales](/implantes-dentales-santa-fe/).",
+      "Si el que se mueve es el diente de un niño, el odontólogo puede revisarlo en [odontopediatría](/odontopediatra-santa-fe/) para ver si corresponde a su edad.",
+      "Podés pedir turno por WhatsApp en nuestro centro odontológico de Santa Fe."
+    ]
+  },
+  "faq_titulo": "Preguntas frecuentes sobre dientes que se mueven y encías retraídas",
+  "faq": [
+    {
+      "q": "¿Un diente flojo en un adulto se puede salvar?",
+      "a": "Depende de la causa y de cuánto soporte conserve el diente, y eso lo define el odontólogo después de examinarte. **El tratamiento busca reducir la inflamación** y tratar la causa; en algunos casos se necesita cirugía."
+    },
+    {
+      "q": "¿Qué hago si un diente se mueve y no me duele?",
+      "a": "**Pedir turno igual**: la periodontitis en general no duele y puede avanzar sin avisar. Mientras tanto, conviene seguir con el cepillado y el hilo dental."
+    },
+    {
+      "q": "¿Puede una encía retraída recuperarse?",
+      "a": "No hay datos en las fuentes médicas consultadas de que la encía recupere su posición sola. Lo que se busca es controlar la inflamación y la causa para que el problema no avance; el odontólogo explica qué esperar en cada caso."
+    },
+    {
+      "q": "¿Fumar influye en la salud de las encías?",
+      "a": "Sí: el tabaco es el factor de riesgo más importante de la enfermedad de las encías y puede hacer que el tratamiento funcione menos."
+    },
+    {
+      "q": "¿Cada cuánto conviene hacerse una limpieza si tengo periodontitis?",
+      "a": "MedlinePlus menciona limpiezas profesionales **cada 3 meses** en estos casos. La frecuencia concreta la indica el odontólogo según tu situación."
+    },
+    {
+      "q": "¿Cómo evitar que los dientes se aflojen?",
+      "a": "Con cepillado y hilo dental todos los días y limpiezas profesionales periódicas. Prevenir y tratar la gingivitis reduce el riesgo de que pase a periodontitis."
+    }
+  ],
+  "relacionados": [
+    "periodoncia-santa-fe",
+    "implantes-dentales-santa-fe",
+    "limpieza-dental-santa-fe"
+  ],
+  "dibujo": "periodoncia-santa-fe",
+  "condicion": {
+    "nombre": "Periodontitis (enfermedad periodontal)",
+    "sintomas": [
+      "dientes flojos",
+      "encías retraídas",
+      "encías rojas e inflamadas",
+      "sangrado al cepillarse",
+      "mal aliento",
+      "espacios entre dientes y encías"
+    ]
+  },
+  "fotos": {}
+}

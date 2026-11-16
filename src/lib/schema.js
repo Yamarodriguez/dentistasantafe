@@ -87,6 +87,7 @@ function migas(pagina) {
   if (!pagina.slug) return undefined;
   const items = [{ name: 'Clínica dental', item: abs('/') }];
   if (pagina.tipo === 'tratamiento') items.push({ name: 'Tratamientos', item: abs('/tratamientos/') });
+  if (pagina.tipo === 'problema') items.push({ name: 'Problemas bucales', item: abs('/problemas-bucales/') });
   items.push({ name: pagina.nombre ?? pagina.h1, item: abs(ruta(pagina.slug)) });
   return {
     '@type': 'BreadcrumbList',
@@ -131,6 +132,35 @@ function tratamiento(pagina) {
   };
 }
 
+/** Problema bucal: página médica sobre un síntoma (MedicalCondition), con los tratamientos de la web
+ *  que lo pueden resolver (possibleTreatment) y las fuentes (citation). */
+function problema(pagina) {
+  const c = pagina.contenido;
+  const autor = c?.autor && site.profesionales.find((p) => p.nombre === c.autor);
+  const relacionados = (c?.relacionados ?? []).map((s) => tratamientos.find((t) => t.slug === s)).filter(Boolean);
+  return {
+    '@type': 'MedicalWebPage',
+    '@id': abs(ruta(pagina.slug)),
+    url: abs(ruta(pagina.slug)),
+    name: pagina.title,
+    description: pagina.description,
+    inLanguage: site.idioma,
+    lastReviewed: c?.revisado,
+    reviewedBy: autor ? { '@id': abs(`/odontologos-santa-fe/#${slugPersona(autor)}`) } : undefined,
+    dateModified: fechaPagina(pagina),
+    citation: (c?.fuentes ?? []).map((id) => hechos.fuentes[id]?.url),
+    isPartOf: { '@id': abs('/#web') },
+    about: {
+      '@type': 'MedicalCondition',
+      name: c?.condicion?.nombre ?? pagina.nombre,
+      signOrSymptom: (c?.condicion?.sintomas ?? []).map((s) => ({ '@type': 'MedicalSignOrSymptom', name: s })),
+      possibleTreatment: relacionados.map((t) => ({ '@type': 'MedicalProcedure', name: t.nombre, url: abs(ruta(t.slug)) })),
+    },
+    speakable: c?.resumen?.length ? { '@type': 'SpeakableSpecification', cssSelector: ['.resumen', '.entrada'] } : undefined,
+    provider: { '@id': ID_CLINICA },
+  };
+}
+
 /** Portada: la página en sí, con lo que un asistente de IA o de voz puede leer (resumen y entrada). */
 function portada(pagina) {
   return {
@@ -166,6 +196,7 @@ export function schemaDe(pagina) {
   if (pagina.tipo !== 'legal') grafo.push(clinica(), web());
   if (pagina.tipo === 'equipo') grafo.push(...personas());
   if (pagina.tipo === 'tratamiento') grafo.push(tratamiento(pagina));
+  if (pagina.tipo === 'problema') grafo.push(problema(pagina));
   if (pagina.tipo === 'portada') grafo.push(portada(pagina));
   grafo.push(migas(pagina), preguntas(pagina));
   const limpio = limpiar(grafo);
