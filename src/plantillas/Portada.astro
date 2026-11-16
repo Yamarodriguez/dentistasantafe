@@ -9,7 +9,12 @@ import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 const { pagina } = Astro.props;
-const [linea1, linea2] = pagina.h1.split(/ (?=en )/);
+// El H1 se pinta en dos líneas: por los dos puntos si los tiene («Dentista Santa Fe:» / «clínica dental en Santa Fe»);
+// si no, antes de «en …».
+const dosPuntos = pagina.h1.indexOf(': ');
+const [linea1, linea2] = dosPuntos > 0
+  ? [pagina.h1.slice(0, dosPuntos + 1), pagina.h1.slice(dosPuntos + 2)]
+  : pagina.h1.split(/ (?=en )/);
 const sede = site.sedes[0];
 const conFoto = foto('heroe');
 // La foto del héroe es provisional y no se sube: si no está, ni se precarga ni se pide (evita un 404 en Netlify).

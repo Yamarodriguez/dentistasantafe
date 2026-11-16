@@ -23,7 +23,8 @@ SANTA FE** (Yama, 2026-11-12). **Rosario = otra web después**, con la misma bas
 el proyecto y cambiar site.json (sus datos esperan en `_rosario_para_despues`) y
 «Santa Fe» → «Rosario» en paginas.json.
 Palabra clave principal: **clínica dental Santa Fe** + **dentista Santa Fe** (H1 de la portada
-**«Dentista y clínica dental en Santa Fe»** (Yama, 2026-11-16; antes «Clínica Dental en Santa Fe»
+**«Dentista Santa Fe: clínica dental en Santa Fe»** (Yama, 2026-11-16, lo eligió tras ver «Dentista y clínica dental
+en Santa Fe»; no volver a proponer quitar la repetición; Portada.astro lo parte por los dos puntos; antes «Clínica Dental en Santa Fe»
 como COV: lo de abajo que cite el H1 antiguo está superado). «Dentista» se concentra en la portada;
 la página del equipo pasa a **/odontologos-santa-fe/** (Yama, 2026-11-16, «sí, todo»): 301 directos desde
 /dentistas-santa-fe/ y /equipo/ (netlify.toml con force + astro.config), contenido/odontologos-santa-fe.json,
