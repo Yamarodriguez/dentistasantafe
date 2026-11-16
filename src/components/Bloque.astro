@@ -54,7 +54,7 @@ const iconoMotivo = (titulo = '') => {
       {tratamientos.filter((t) => t.grupo === g).map((t) => (
         <article class="tarjeta">
           <Dibujo slug={t.slug} tam={64} />
-          <h4><a href={ruta(t.slug)}>{t.nombre}</a></h4>
+          <h3 class="nombre-tratamiento"><a href={ruta(t.slug)}>{t.nombre}</a></h3>
           <p>{t.description}</p>
           <a class="mas" href={ruta(t.slug)}>Más sobre {t.nombre.replace(/\s*\(.*?\)/, '').replace(/^./, (l) => l.toLowerCase())} →</a>
         </article>
@@ -133,7 +133,7 @@ const iconoMotivo = (titulo = '') => {
             <li>
               <a class="servicio-fila" href={ruta(t.slug)}>
                 <span class="servicio-dibujo"><Dibujo slug={t.slug} tam={46} /></span>
-                <h4 class="servicio-nombre">{t.nombre}</h4>
+                <h3 class="servicio-nombre">{t.nombre}</h3>
                 <span class="flecha" aria-hidden="true">→</span>
               </a>
             </li>
