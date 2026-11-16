@@ -86,6 +86,10 @@
       "Si la causa es la placa y el sarro, el dentista los retira en una [limpieza dental](/limpieza-dental-santa-fe/); la recomendación general es repetirla al menos cada 6 meses.",
       "Cuando se trata de gingivitis o periodontitis, la [periodoncia](/periodoncia-santa-fe/) es el área que trata las enfermedades de las encías.",
       "Nuestro centro odontológico atiende con turno, que se pide por WhatsApp."
+    ],
+    "Dónde consultar en Santa Fe": [
+      "Para revisar las encías, podés hacer la consulta con un [dentista en Santa Fe](/): en nuestra clínica atiende el Od. Ignacio Vera, de lunes a viernes de 8 a 20 h.",
+      "¿Necesitás visitar nuestra clínica dental? El turno se pide por WhatsApp y atendemos con obra social o de forma particular."
     ]
   },
   "faq_titulo": "Preguntas frecuentes sobre las encías que sangran",
@@ -131,5 +135,7 @@
       "Encías rojas e hinchadas"
     ]
   },
-  "fotos": {}
+  "fotos": {
+    "Dónde consultar en Santa Fe": "dentistas"
+  }
 }

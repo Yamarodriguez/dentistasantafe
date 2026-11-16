@@ -75,6 +75,16 @@
       },
       "La sensibilidad puede ser una señal de caries, de enfermedad de las encías o de un diente fracturado, y esas causas necesitan tratamiento del odontólogo.",
       "En nuestro centro odontológico de Santa Fe podés **pedir turno por WhatsApp** para que el odontólogo revise la causa y explique qué hace falta."
+    ],
+    "Dónde consultar en Santa Fe": [
+      "Si los dientes te duelen con el frío y la molestia no se va, conviene que el odontólogo revise la causa en la consulta.",
+      {
+        "mas": {
+          "t": "Clínica dental Santa Fe: Ignacio Vera Odontología",
+          "href": "/"
+        }
+      },
+      "¿Necesitás visitar la clínica? Atendemos de lunes a viernes de 8 a 20 h y el turno se pide por WhatsApp."
     ]
   },
   "faq_titulo": "Preguntas frecuentes sobre el dolor de dientes con frío",
@@ -119,5 +129,7 @@
       "Sensibilidad en uno o varios dientes"
     ]
   },
-  "fotos": {}
+  "fotos": {
+    "Dónde consultar en Santa Fe": "dentistas"
+  }
 }

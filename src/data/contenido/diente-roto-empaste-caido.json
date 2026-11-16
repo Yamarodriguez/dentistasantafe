@@ -70,6 +70,16 @@
       "En nuestro centro odontológico en Santa Fe, el odontólogo evalúa qué hace falta en tu caso, sin dar nada por hecho antes de ver el diente.",
       "El [arreglo de caries (operatoria)](/limpieza-dental-santa-fe/) rellena la parte dañada. Si queda poco diente, se plantea una corona, que forma parte de las [coronas y prótesis dentales](/protesis-dentales-santa-fe/). Y si el daño llega al nervio, el [tratamiento de conducto](/tratamiento-de-conducto-santa-fe/) conserva la pieza.",
       "Los turnos se piden por WhatsApp. Para saber qué cobertura tenés, se puede consultar al pedirlo."
+    ],
+    "Dónde consultar en Santa Fe": [
+      "Un diente astillado o un relleno que se salió conviene revisarlo pronto en el consultorio, aunque no duela.",
+      {
+        "mas": {
+          "t": "Dentista Santa Fe: turnos en Ignacio Vera Odontología",
+          "href": "/"
+        }
+      },
+      "Atendemos de lunes a viernes de 8 a 20 h en 9 de Julio 3288; el turno se pide por WhatsApp."
     ]
   },
   "faq_titulo": "Preguntas frecuentes sobre dientes rotos y rellenos caídos",
@@ -120,5 +130,7 @@
       "borde filoso en el diente"
     ]
   },
-  "fotos": {}
+  "fotos": {
+    "Dónde consultar en Santa Fe": "dentistas"
+  }
 }

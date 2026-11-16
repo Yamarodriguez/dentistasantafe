@@ -72,6 +72,10 @@
     "Precio de la limpieza dental en Santa Fe": [
       "El precio de una limpieza o de un arreglo depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
       "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "Tener a [tu dentista en Santa Fe](/) y hacer los controles con turno ayuda a descubrir las caries antes de que duelan.",
+      "Atendemos de lunes a viernes de 8 a 20 h, con obra social o de forma particular. ¿Necesitás visitar la clínica? Podés pedir turno por WhatsApp."
     ]
   },
   "faq": [
@@ -102,7 +106,8 @@
   ],
   "fotos": {
     "Qué incluye una limpieza dental": "limpieza",
-    "Caries y arreglos (operatoria dental)": "operatoria"
+    "Caries y arreglos (operatoria dental)": "operatoria",
+    "Nuestro centro odontológico en Santa Fe": "opiniones"
   },
   "resumen": [
     "MedlinePlus aconseja una limpieza profesional cada 6 meses.",

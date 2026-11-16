@@ -78,6 +78,10 @@
       "Si el diente no se puede conservar, la clínica realiza [extracciones y cirugía de muelas de juicio](/extraccion-muelas-de-juicio-santa-fe/).",
       "También se revisa el estado de las encías; para eso hay tratamiento de [periodoncia](/periodoncia-santa-fe/).",
       "Los turnos se piden por WhatsApp en nuestro centro odontológico, de lunes a viernes de 8 a 20 h."
+    ],
+    "Dónde consultar en Santa Fe": [
+      "Ante una infección dental sin señales de urgencia, la consulta se puede hacer con turno en nuestro [centro odontológico en Santa Fe](/).",
+      "La clínica no tiene guardia: con dificultad para respirar o tragar, o mucha hinchazón, hay que ir a una guardia o a un hospital. Fuera de esos casos, el turno se pide por WhatsApp, de lunes a viernes de 8 a 20 h."
     ]
   },
   "faq_titulo": "Preguntas frecuentes sobre las infecciones dentales",
@@ -124,5 +128,7 @@
       "Fiebre y malestar general"
     ]
   },
-  "fotos": {}
+  "fotos": {
+    "Dónde consultar en Santa Fe": "dentistas"
+  }
 }

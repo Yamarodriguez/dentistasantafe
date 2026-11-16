@@ -116,6 +116,10 @@
     "Precio de las prótesis dentales en Santa Fe": [
       "El precio de una prótesis o una corona depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
       "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "Para una corona o una prótesis, el primer paso es una consulta con un [dentista en Santa Fe](/) que revise los dientes y las encías.",
+      "En nuestra clínica, con más de 15 años de experiencia, atiende el Od. Ignacio Vera. ¿Querés visitarnos? Podés pedir turno por WhatsApp, de lunes a viernes de 8 a 20 h."
     ]
   },
   "faq": [
@@ -160,7 +164,8 @@
     "¿Qué es una prótesis dental?": "protesis",
     "Prótesis sobre implantes": "protesis-implantes",
     "Cómo se hacen las coronas y las prótesis removibles, paso a paso": "protesis-laboratorio",
-    "Cuidados y duración de coronas y prótesis removibles": "protesis-cuidados"
+    "Cuidados y duración de coronas y prótesis removibles": "protesis-cuidados",
+    "Nuestro centro odontológico en Santa Fe": "opiniones"
   },
   "resumen": [
     "Una prótesis dental reemplaza dientes que faltan: puede ser removible (dentadura) o fija (corona o puente).",

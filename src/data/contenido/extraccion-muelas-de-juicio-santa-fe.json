@@ -101,6 +101,16 @@
       "El precio depende de cada caso, por eso **se informa después de la consulta**, cuando el dentista ya evaluó si hace falta sacar el diente y cómo.",
       "Si tenés [obra social o prepaga](/obras-sociales/), la cobertura depende de tu plan; conviene consultarla antes del turno.",
       "Las formas de pago se consultan al [pedir turno](/contacto/) en nuestro centro odontológico de Santa Fe."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "Antes de sacar un diente, el odontólogo revisa la zona y, si hace falta, pide radiografías: eso se hace en la consulta en nuestra clínica.",
+      {
+        "mas": {
+          "t": "Clínica dental Santa Fe capital: Ignacio Vera Odontología",
+          "href": "/"
+        }
+      },
+      "La clínica no tiene guardia: atiende con turno de lunes a viernes de 8 a 20 h, y el turno se pide por WhatsApp."
     ]
   },
   "faq": [
@@ -144,5 +154,7 @@
     "Se hace con anestesia local y en general lleva de 30 a 60 minutos por diente.",
     "La mayoría de las personas retoma sus actividades en 48 a 72 horas, aunque el hueso tarda semanas en sanar."
   ],
-  "fotos": {}
+  "fotos": {
+    "Nuestro centro odontológico en Santa Fe": "opiniones"
+  }
 }

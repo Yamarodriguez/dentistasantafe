@@ -80,6 +80,10 @@
     "Si tu hijo tiene miedo al dentista": [
       "[Pendiente: cómo trabaja la clínica con niños que tienen miedo, confirmado por el odontólogo]",
       "MedlinePlus sugiere una **visita «de prueba»** para que el niño conozca el consultorio antes de un tratamiento."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "En nuestra [clínica dental para toda la familia en Santa Fe](/) atendemos a niños y adultos, con turno de lunes a viernes de 8 a 20 h.",
+      "El NIDCR recomienda la primera visita antes de que el bebé cumpla un año. ¿Necesitás un turno para tu hijo? El turno se pide por WhatsApp."
     ]
   },
   "faq": [
@@ -124,7 +128,8 @@
     "¿Cuándo llevar a tu hijo al odontopediatra por primera vez?": "ninos",
     "Selladores y flúor para prevenir caries": "ninos-cepillo",
     "Caries en dientes de leche": "ninos-cepillos",
-    "Si tu hijo tiene miedo al dentista": "ninos-colores"
+    "Si tu hijo tiene miedo al dentista": "ninos-colores",
+    "Nuestro centro odontológico en Santa Fe": "opiniones"
   },
   "resumen": [
     "El NIDCR recomienda la primera visita antes del primer año; MedlinePlus, entre el primer diente y los 2 años y medio.",

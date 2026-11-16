@@ -70,6 +70,10 @@
     "Precio del tratamiento de encías en Santa Fe": [
       "El precio del tratamiento de encías depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
       "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "El cuidado de las encías lleva controles y limpiezas periódicas, y para eso conviene tener un [centro odontológico santafesino](/) de referencia.",
+      "Nuestra clínica dental está en 9 de Julio 3288 y atiende con obra social o de forma particular. ¿Necesitás visitarnos? El turno se pide por WhatsApp."
     ]
   },
   "faq": [
@@ -109,7 +113,8 @@
   "fotos": {
     "¿Te sangran las encías?": "periodoncia",
     "Cómo es el tratamiento de periodoncia, paso a paso": "periodoncia-equipo",
-    "Cómo evitar que avance la enfermedad de las encías": "periodoncia-cepillos"
+    "Cómo evitar que avance la enfermedad de las encías": "periodoncia-cepillos",
+    "Nuestro centro odontológico en Santa Fe": "opiniones"
   },
   "resumen": [
     "La periodoncia trata las enfermedades de las encías: la gingivitis (leve) y la periodontitis (avanzada).",

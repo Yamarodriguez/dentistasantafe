@@ -66,6 +66,10 @@
       "El precio de los brackets depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
       "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno.",
       "Las formas de pago se consultan al pedir turno."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "Los brackets llevan controles periódicos, por eso conviene hacer el tratamiento en un [centro odontológico en Santa Fe](/) al que puedas ir con comodidad.",
+      "Nuestra clínica dental está en 9 de Julio 3288 y atiende de lunes a viernes de 8 a 20 h. ¿Necesitás una primera evaluación? El turno se pide por WhatsApp."
     ]
   },
   "faq": [
@@ -114,7 +118,8 @@
     "¿Qué es la ortodoncia?": "ortodoncia",
     "Tipos de brackets": "brackets-tipos",
     "Cómo es el tratamiento con brackets, paso a paso": "brackets-tratamiento",
-    "Cuidados con brackets y retenedores": "brackets-cuidados"
+    "Cuidados con brackets y retenedores": "brackets-cuidados",
+    "Nuestro centro odontológico en Santa Fe": "opiniones"
   },
   "resumen": [
     "La ortodoncia corrige la maloclusión: cuando los dientes de arriba y los de abajo no encajan bien.",

@@ -90,6 +90,10 @@
       "En el área de [periodoncia](/periodoncia-santa-fe/) se trabaja sobre las encías y el soporte de los dientes. Si hay que extraer una pieza, el odontólogo puede plantear reponerla, por ejemplo con [implantes dentales](/implantes-dentales-santa-fe/).",
       "Si el que se mueve es el diente de un niño, el odontólogo puede revisarlo en [odontopediatría](/odontopediatra-santa-fe/) para ver si corresponde a su edad.",
       "Podés pedir turno por WhatsApp en nuestro centro odontológico de Santa Fe."
+    ],
+    "Dónde consultar en Santa Fe": [
+      "Un diente que se mueve conviene revisarlo sin esperar a que duela: podés hacer la consulta en nuestro [consultorio odontológico en Santa Fe](/).",
+      "Atiende el Od. Ignacio Vera, de lunes a viernes de 8 a 20 h, con obra social o de forma particular. ¿Querés visitarnos? El turno se pide por WhatsApp."
     ]
   },
   "faq_titulo": "Preguntas frecuentes sobre dientes que se mueven y encías retraídas",
@@ -136,5 +140,7 @@
       "espacios entre dientes y encías"
     ]
   },
-  "fotos": {}
+  "fotos": {
+    "Dónde consultar en Santa Fe": "dentistas"
+  }
 }

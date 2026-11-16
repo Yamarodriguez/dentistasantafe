@@ -70,6 +70,10 @@
     "Precio del tratamiento de conducto en Santa Fe": [
       "El precio de una endodoncia depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
       "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "Si te indicaron una endodoncia o un diente te molesta, podés hacer la consulta con un [dentista en Santa Fe capital](/): en nuestra clínica atiende el Od. Ignacio Vera.",
+      "La clínica atiende con turno, de lunes a viernes de 8 a 20 h, y no tiene guardia. ¿Necesitás visitarnos? El turno se pide por WhatsApp."
     ]
   },
   "faq": [
@@ -113,7 +117,8 @@
   "fotos": {
     "¿Qué es un tratamiento de conducto o endodoncia?": "conducto",
     "¿Duele el tratamiento de conducto?": "conducto-espejo",
-    "¿Cuántas sesiones lleva una endodoncia?": "conducto-instrumental"
+    "¿Cuántas sesiones lleva una endodoncia?": "conducto-instrumental",
+    "Nuestro centro odontológico en Santa Fe": "opiniones"
   },
   "resumen": [
     "El tratamiento de conducto (endodoncia) quita el nervio dañado o infectado para salvar el diente.",

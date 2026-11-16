@@ -74,6 +74,10 @@
       "El precio de los alineadores depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
       "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno.",
       "Las formas de pago se consultan al pedir turno."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "Para saber si los alineadores transparentes son una opción para vos, hace falta una consulta en nuestra [clínica dental santafesina](/), donde el odontólogo evalúa tu caso.",
+      "¿Querés visitar la clínica? Atendemos con obra social y de forma particular, de lunes a viernes de 8 a 20 h; el turno se pide por WhatsApp."
     ]
   },
   "faq": [
@@ -117,7 +121,8 @@
   "fotos": {
     "¿Qué es la ortodoncia invisible?": "alineador",
     "¿Para quién está indicada la ortodoncia invisible?": "alineador-transparente",
-    "¿Cuánto dura el tratamiento con alineadores?": "alineador-colocacion"
+    "¿Cuánto dura el tratamiento con alineadores?": "alineador-colocacion",
+    "Nuestro centro odontológico en Santa Fe": "opiniones"
   },
   "resumen": [
     "La ortodoncia invisible usa alineadores transparentes, sin brackets ni alambres.",

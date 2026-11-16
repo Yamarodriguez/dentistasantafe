@@ -201,6 +201,14 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   exacta del tratamiento; bloque `problemas-enlaces` (recuadros con dibujo y nombre, sin texto copiado). Portada:
   antes del último H2; índice, primera consulta y odontólogos: al final; tratamientos: después de la FAQ; cada
   problema: «Otros problemas bucales». Ninguna página baja de 6 enlaces desde el contenido (scratchpad enlaces.py).
+- **Enlaces a la portada con anclas variadas (Yama, 2026-11-16: «haz las dos maneras»)**: 1 enlace por página en el
+  texto, 18 anclas distintas (dentista/clínica dental/centro odontológico + en Santa Fe / Santa Fe capital /
+  santafesino/a, dentistas, consultorio…; nunca «odontólogo», que es de /odontologos-santa-fe/). En los 12
+  tratamientos y 6 problemas va dentro del H2 fijo que ya existía («Nuestro centro odontológico en Santa Fe» /
+  «Dónde consultar en Santa Fe»): texto propio de cada página con solo datos confirmados + «¿Necesitás visitar…?
+  Podés pedir turno por WhatsApp» + foto real (sala de espera en tratamientos, Od. Vera en problemas). Generado con
+  scratchpad clinica-texto.py (contenido.secciones + fotos). Sin H2 nuevo (evita bloque repetido y más «Santa Fe»).
+  Logo: alt «Ignacio Vera Odontología, clínica dental en Santa Fe» (primer enlace a la portada de cada página).
 - Ortodoncista/endodoncista (2026-11-16): una frase informativa con fuente (hechos mal-ortodoncista,
   con-endodoncista) en ortodoncia y conducto, sin decir que la clínica tiene ese especialista.
 - **Estudio SEO completo (2026-11-16)** → `informes/seo-estudio-completo-2026-11-16.md` (web publicada, 18 páginas +
