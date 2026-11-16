@@ -1,6 +1,6 @@
 // Datos estructurados (JSON-LD) de cada página (Fase 4). Todo sale de site.json,
 // paginas.json y contenido/; lo que está [pendiente] se omite (limpiar), nunca se inventa.
-import { site, ruta, tratamientos } from './datos.js';
+import { site, ruta, tratamientos, telefonoDe } from './datos.js';
 import { limpiar, real, fechaPagina } from './seo.js';
 import hechos from '../data/hechos.json';
 import { sinNegrita } from './texto.js';
@@ -47,7 +47,7 @@ function clinica() {
       name: t.nombre,
       url: abs(ruta(t.slug)),
     })),
-    telephone: s.telefono,
+    telephone: telefonoDe(s),
     address: {
       '@type': 'PostalAddress',
       streetAddress: s.direccion,

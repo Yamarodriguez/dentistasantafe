@@ -1,6 +1,6 @@
 // llms.txt: resumen de la web para asistentes de IA (Fase 4). Solo datos reales:
 // lo que todavía está [pendiente] no sale.
-import { site, paginas, ruta, tratamientos } from '../lib/datos.js';
+import { site, paginas, ruta, tratamientos, telefonoDe, etiquetaTelefono } from '../lib/datos.js';
 import { real } from '../lib/seo.js';
 import { sinNegrita } from '../lib/texto.js';
 
@@ -12,7 +12,7 @@ export function GET() {
   const particulares = sede.obrasSociales.some((o) => /particular/i.test(o));
   const datos = [
     real(sede.direccion) && `- Dirección: ${sede.direccion}, ${sede.codigoPostal ?? ''} Santa Fe, provincia de Santa Fe (Argentina)`.replace(', ,', ','),
-    real(sede.telefono) && `- Teléfono: ${sede.telefono}`,
+    real(telefonoDe(sede)) && `- ${etiquetaTelefono(sede)} (turnos): ${telefonoDe(sede)}`,
     real(sede.horario) && `- Horario: ${sede.horario}`,
     obras.length && `- Obras sociales y prepagas (lista orientativa: al pedir turno se confirma si hay convenio): ${obras.join(', ')}.${particulares ? ' También atiende pacientes particulares.' : ''}`,
     `- Ciudad: Santa Fe de la Vera Cruz, capital de la provincia de Santa Fe (Argentina). No es la avenida Santa Fe de Buenos Aires.`,

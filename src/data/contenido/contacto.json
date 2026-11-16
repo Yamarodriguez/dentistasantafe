@@ -14,7 +14,7 @@
   "fuentes": [],
   "secciones": {
     "Pedir turno": [
-      "Podés pedir turno con el dentista por WhatsApp, por teléfono o con el formulario de esta página.",
+      "Podés pedir turno con el dentista por **WhatsApp**, al +54 9 342 568-8611, o con el botón «Pedir turno» de cualquier página de la web.",
       {
         "mas": {
           "t": "Cómo es la primera consulta con el dentista",
@@ -35,7 +35,7 @@
   "faq": [
     {
       "q": "¿Cómo pido turno con el dentista?",
-      "a": "Por **WhatsApp, por teléfono** o con el formulario de esta página. [confirmar: número de WhatsApp, teléfono y formulario]"
+      "a": "Por **WhatsApp**, al +54 9 342 568-8611: escribís qué tratamiento necesitás y si tenés obra social o prepaga."
     },
     {
       "q": "¿Atienden obras sociales y prepagas?",

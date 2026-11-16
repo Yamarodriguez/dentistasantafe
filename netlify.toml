@@ -18,6 +18,16 @@
   [headers.values]
     X-Robots-Tag = "noindex, follow"
 
+# Seguridad (estudio SEO 2026-11-16): Netlify no mandaba HSTS. Obliga a usar siempre https (señal de
+# confianza; sin «preload» para no atar el dominio a una lista de los navegadores) y cabeceras básicas.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+
 # Caché (análisis SEO 2026-11-15): los archivos de /_astro/ llevan huella en el nombre (cambian de nombre
 # si cambian) → 1 año. Las fotos no llevan huella → 30 días (si se reemplaza una foto, cambiarle el nombre).
 [[headers]]

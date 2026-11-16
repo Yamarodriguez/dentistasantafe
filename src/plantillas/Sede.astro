@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Secciones from '../components/Secciones.astro';
-import { sedePorId, enlaceTurno } from '../lib/datos.js';
+import { sedePorId, enlaceTurno, telefonoDe } from '../lib/datos.js';
 
 const { pagina } = Astro.props;
 const sede = sedePorId(pagina.sede);
@@ -11,7 +11,7 @@ const sede = sedePorId(pagina.sede);
     <nav class="migas" aria-label="Migas"><a href="/">Clínica dental</a> › {sede.ciudad}</nav>
     <section class="heroe">
       <h1>{pagina.h1}</h1>
-      <div class="datos-sede"><span>{sede.direccion}</span><span>{sede.telefono}</span><span>{sede.horario}</span></div>
+      <div class="datos-sede"><span>{sede.direccion}</span><span>{telefonoDe(sede)}</span><span>{sede.horario}</span></div>
       <div class="botones"><a class="boton" href={enlaceTurno(sede)}>Pedir turno en {sede.ciudad}</a></div>
     </section>
     <Secciones pagina={pagina} />

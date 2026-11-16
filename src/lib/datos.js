@@ -37,6 +37,21 @@ export const enlaceTurno = (sede) =>
     ? `https://wa.me/${sede.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hola, quiero pedir un turno en la clínica dental.')}`
     : '/contacto/';
 
+/** Teléfono que se muestra y va a Google: el fijo si ya es real; si sigue [pendiente], el WhatsApp
+ *  (es el número de la clínica). Así el nombre, la dirección y el teléfono coinciden en todas partes. */
+export const telefonoDe = (sede) =>
+  sede?.telefono && !sede.telefono.includes('[') ? sede.telefono : sede?.whatsapp || sede?.telefono;
+export const etiquetaTelefono = (sede) =>
+  sede?.telefono && !sede.telefono.includes('[') ? 'Teléfono' : 'Teléfono y WhatsApp';
+
+/** Texto corto de un tratamiento para las tarjetas: su description sin la frase de la dirección
+ *  (en el índice salía «En 9 de Julio 3288» 12 veces seguidas: repetición que no aporta). */
+export const resumenTarjeta = (t) =>
+  (t.description ?? '')
+    .split(/(?<=\.)\s+/)
+    .filter((f) => !site.sedes.some((s) => s.direccion && f.includes(s.direccion)) && !/^Clínica dental\.?$/.test(f))
+    .join(' ');
+
 /** Foto de site.json > fotos solo si el archivo existe en public/ (las provisionales no
  *  se suben a Git: en Netlify o en un clon limpio la sección sale sin foto, sin enlace roto). */
 export const foto = (clave) => {

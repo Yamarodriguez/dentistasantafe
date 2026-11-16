@@ -183,6 +183,12 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   logo). Opiniones: estrellas solo si la reseña real trae `estrellas`.
 
 ## Estado
+- **Estudio SEO completo (2026-11-16)** → `informes/seo-estudio-completo-2026-11-16.md` (web publicada, 18 páginas +
+  sugerencias de Google AR). Corregido: teléfono = WhatsApp (`telefonoDe()` en datos.js: pie, contacto, schema, llms.txt)
+  mientras el fijo sea [teléfono]; tarjetas sin la dirección (`resumenTarjeta()`); odontólogos sin descripciones de
+  tratamiento (65 % igual al índice); foto al compartir desde los H2; HSTS y cabeceras en netlify.toml. Pendientes 144 → 120.
+  Dudas abiertas: antetítulos «… en Santa Fe» (11-15 por página, posible relleno), «ortodoncista»/«endodoncista»,
+  «Santa Fe capital», apartado IAPOS/Sancor en obras sociales, formulario visible sin activar.
 - **Estudio de textos y negritas (2026-11-13)** → `informes/estudio-textos-seo.md` (datos en
   `informes/negritas.md`; `scripts/negritas.py`, lista `competencia/urls-textos.txt` = Madrid 6 webs,
   Valencia 12, Santa Fe 3; Crooke fuera: es de Málaga). Competencia: ~17 negritas/página, 3,4-4,6 %.

@@ -1,7 +1,7 @@
 ---
 // Rellena una sección con datos de site.json / paginas.json.
 // Si falta el dato, pone [Pendiente: …] (nunca se inventa nada).
-import { site, ruta, tratamientos, enlaceTurno, pendiente, grupos } from '../lib/datos.js';
+import { site, ruta, tratamientos, enlaceTurno, pendiente, grupos, telefonoDe, etiquetaTelefono, resumenTarjeta } from '../lib/datos.js';
 import Formulario from './Formulario.astro';
 import Dibujo from './Dibujo.astro';
 import { negrita } from '../lib/texto.js';
@@ -55,7 +55,7 @@ const iconoMotivo = (titulo = '') => {
         <article class="tarjeta">
           <Dibujo slug={t.slug} tam={64} />
           <h3 class="nombre-tratamiento"><a href={ruta(t.slug)}>{t.nombre}</a></h3>
-          <p>{t.description}</p>
+          <p>{resumenTarjeta(t)}</p>
           <a class="mas" href={ruta(t.slug)}>Más sobre {t.nombre.replace(/\s*\(.*?\)/, '').replace(/^./, (l) => l.toLowerCase())} →</a>
         </article>
       ))}
@@ -67,7 +67,7 @@ const iconoMotivo = (titulo = '') => {
   <div class="contacto">
     <div>
       <p><strong>{site.nombre}</strong><br />{s.direccion}{s.barrio ? ` · ${s.barrio}` : ''}, {s.ciudad}</p>
-      <p>Teléfono: {s.telefono}<br />Horario: {s.horario}</p>
+      <p>{etiquetaTelefono(s)}: <a href={`tel:${telefonoDe(s).replace(/[^\d+]/g, '')}`}>{telefonoDe(s)}</a><br />Horario: {s.horario}</p>
     </div>
     <div class="botones">
       <a class="boton" href={enlaceTurno(s)}>{s.whatsapp ? 'Turno por WhatsApp →' : 'Pedir turno →'}</a>
@@ -150,7 +150,7 @@ const iconoMotivo = (titulo = '') => {
       <article class="tarjeta">
         <Dibujo slug={t.slug} tam={64} />
         <h3><a href={ruta(t.slug)}>{t.nombre}</a></h3>
-        <p>{t.description}</p>
+        {/* Sin la descripción: era el mismo texto que en /tratamientos/ (la página del equipo se parecía un 65 % al índice). */}
         <a class="mas" href={ruta(t.slug)}>Más sobre {t.nombre.replace(/\s*\(.*?\)/, '').replace(/^./, (l) => l.toLowerCase())} →</a>
       </article>
     ))}
