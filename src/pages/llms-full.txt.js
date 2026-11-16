@@ -56,7 +56,7 @@ export function GET() {
   const nombre = real(site.nombre) ? site.nombre : 'Clínica dental';
   const deSlug = (s) => paginas.find((p) => p.slug === s);
   const portada = paginas.find((p) => p.tipo === 'portada');
-  const dentistas = deSlug('dentistas-santa-fe');
+  const dentistas = deSlug('odontologos-santa-fe');
   const otras = ['obras-sociales', 'primera-consulta'].map(deSlug).filter(Boolean);
   const L = [
     `# ${nombre}: texto completo de la web`,

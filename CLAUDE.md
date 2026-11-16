@@ -22,8 +22,14 @@ Clínica con sedes en Santa Fe capital y Rosario (Argentina), pero **ESTA WEB ES
 SANTA FE** (Yama, 2026-11-12). **Rosario = otra web después**, con la misma base: copiar
 el proyecto y cambiar site.json (sus datos esperan en `_rosario_para_despues`) y
 «Santa Fe» → «Rosario» en paginas.json.
-Palabra clave principal: **clínica dental Santa Fe** (H1 «Clínica Dental en Santa Fe»,
-como COV) + odontólogo / dentista Santa Fe; sin datos de volumen. URL de tratamiento con
+Palabra clave principal: **clínica dental Santa Fe** + **dentista Santa Fe** (H1 de la portada
+**«Dentista y clínica dental en Santa Fe»** (Yama, 2026-11-16; antes «Clínica Dental en Santa Fe»
+como COV: lo de abajo que cite el H1 antiguo está superado). «Dentista» se concentra en la portada;
+la página del equipo pasa a **/odontologos-santa-fe/** (Yama, 2026-11-16, «sí, todo»): 301 directos desde
+/dentistas-santa-fe/ y /equipo/ (netlify.toml con force + astro.config), contenido/odontologos-santa-fe.json,
+title «Odontólogos en Santa Fe: título y matrícula del equipo», H1 «Odontólogos en Santa Fe: nuestro equipo»,
+menú y pie «Odontólogos», botones «Ver nuestros odontólogos». Lo de abajo que cite /dentistas-santa-fe/ o el
+menú «Dentistas» está superado. Tras subirlo: pedir indexar /odontologos-santa-fe/ en Search Console) + odontólogo Santa Fe; sin datos de volumen. URL de tratamiento con
 ciudad: `/implantes-dentales-santa-fe/`. Sin páginas de sede: contacto en `/contacto/`.
 Textos de la web: español de Argentina **con vos** (recomendado, sin confirmar): «turno»,
 «odontólogo», «tratamiento de conducto», «guardia», «matrícula», «ortopedia», «operatoria»,

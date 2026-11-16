@@ -16,7 +16,7 @@ export function GET() {
     real(sede.horario) && `- Horario: ${sede.horario}`,
     obras.length && `- Obras sociales y prepagas (lista orientativa: al pedir turno se confirma si hay convenio): ${obras.join(', ')}.${particulares ? ' También atiende pacientes particulares.' : ''}`,
     `- Ciudad: Santa Fe de la Vera Cruz, capital de la provincia de Santa Fe (Argentina). No es la avenida Santa Fe de Buenos Aires.`,
-    ...site.profesionales.filter((p) => real(p.nombre)).map((p) => `- Odontólogo: ${p.nombre} (${new URL('/dentistas-santa-fe/', site.url).href})`),
+    ...site.profesionales.filter((p) => real(p.nombre)).map((p) => `- Odontólogo: ${p.nombre} (${new URL('/odontologos-santa-fe/', site.url).href})`),
   ].filter(Boolean);
   const otras = paginas.filter((p) => !['tratamiento', 'portada', 'legal'].includes(p.tipo));
   const faq = (paginas.find((p) => p.tipo === 'portada')?.faq ?? []).filter((f) => real(f.q) && real(f.a));

@@ -62,7 +62,7 @@ function clinica() {
     areaServed: { '@type': 'City', name: 'Santa Fe', alternateName: 'Santa Fe de la Vera Cruz', sameAs: CIUDAD },
     medicalSpecialty: 'Dentistry',
     sameAs: Object.values(site.redes ?? {}),
-    employee: site.profesionales.filter((p) => real(p.nombre)).map((p) => ({ '@id': abs(`/dentistas-santa-fe/#${slugPersona(p)}`) })),
+    employee: site.profesionales.filter((p) => real(p.nombre)).map((p) => ({ '@id': abs(`/odontologos-santa-fe/#${slugPersona(p)}`) })),
   };
 }
 
@@ -71,7 +71,7 @@ const slugPersona = (p) => sinTitulo(p.nombre).toLowerCase().normalize('NFD').re
 function personas() {
   return site.profesionales.filter((p) => real(p.nombre)).map((p) => ({
     '@type': 'Person',
-    '@id': abs(`/dentistas-santa-fe/#${slugPersona(p)}`),
+    '@id': abs(`/odontologos-santa-fe/#${slugPersona(p)}`),
     name: sinTitulo(p.nombre),
     jobTitle: 'Odontólogo',
     image: p.foto ? abs(p.foto) : undefined,
@@ -79,7 +79,7 @@ function personas() {
     knowsAbout: p.especialidad,
     identifier: real(p.matricula) ? { '@type': 'PropertyValue', name: 'Matrícula', value: p.matricula } : undefined,
     worksFor: { '@id': ID_CLINICA },
-    url: abs('/dentistas-santa-fe/'),
+    url: abs('/odontologos-santa-fe/'),
   }));
 }
 
@@ -114,7 +114,7 @@ function tratamiento(pagina) {
     description: pagina.description,
     inLanguage: site.idioma,
     lastReviewed: c?.revisado,
-    reviewedBy: autor ? { '@id': abs(`/dentistas-santa-fe/#${slugPersona(autor)}`) } : undefined,
+    reviewedBy: autor ? { '@id': abs(`/odontologos-santa-fe/#${slugPersona(autor)}`) } : undefined,
     dateModified: fechaPagina(pagina),
     citation: (c?.fuentes ?? []).map((id) => hechos.fuentes[id]?.url),
     isPartOf: { '@id': abs('/#web') },

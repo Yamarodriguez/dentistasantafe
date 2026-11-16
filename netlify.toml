@@ -30,13 +30,20 @@
   [headers.values]
     Cache-Control = "public, max-age=2592000"
 
-# La página de equipo pasó a /dentistas-santa-fe/ (Yama, 2026-11-14).
+# La página de equipo pasó a /dentistas-santa-fe/ (Yama, 2026-11-14) y luego a /odontologos-santa-fe/
+# (Yama, 2026-11-16: «dentista» se queda en la portada). Las dos viejas van directas a la nueva, sin saltos.
 [[redirects]]
   from = "/equipo/"
-  to = "/dentistas-santa-fe/"
+  to = "/odontologos-santa-fe/"
   status = 301
   # Astro también genera /equipo/index.html (aviso para el servidor local): sin «force», Netlify sirve ese
   # archivo con 200 en vez del 301, que es lo que necesitan Google y los enlaces viejos.
+  force = true
+
+[[redirects]]
+  from = "/dentistas-santa-fe/"
+  to = "/odontologos-santa-fe/"
+  status = 301
   force = true
 
 # Estética dental se dividió en carillas y blanqueamiento (Yama, 2026-11-15): la URL vieja va a carillas.
