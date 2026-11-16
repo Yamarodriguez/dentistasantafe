@@ -45,7 +45,7 @@ const ante = (h) => {
     <div class:list={['cabeza-abajo', { 'con-arriba': h.bloque === 'porque' || textoAlLado(h) }]}>
       <div class="seccion-cuerpo">
         <p class="antetitulo">{ante(h)}</p>
-        <h2>{titulo(h)}</h2>
+        {h.nivel === 3 ? <h3 class="h2-visual">{titulo(h)}</h3> : <h2>{titulo(h)}</h2>}
         {h.bloque && textos[h.t] && !textoAlLado(h) && <Texto bloques={textos[h.t]} />}
       </div>
       {textoAlLado(h) && <div class="texto-al-lado"><Texto bloques={textos[h.t]} /></div>}
@@ -72,7 +72,7 @@ const ante = (h) => {
     )}
     <div class="seccion-cuerpo">
       <p class="antetitulo">{ante(h)}</p>
-      <h2>{titulo(h)}</h2>
+      {h.nivel === 3 ? <h3 class="h2-visual">{titulo(h)}</h3> : <h2>{titulo(h)}</h2>}
       {textos[h.t] && <Texto bloques={textos[h.t]} />}
       {h.bloque
         ? <Bloque tipo={h.bloque} pagina={pagina} />

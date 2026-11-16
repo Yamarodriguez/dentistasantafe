@@ -34,6 +34,7 @@
         },
         {
           "t": "Obras sociales y prepagas con cobertura odontológica en Santa Fe",
+          "nivel": 3,
           "bloque": "obras",
           "foto": "obras"
         },
@@ -72,6 +73,7 @@
         },
         {
           "t": "Marcas con las que trabajamos en nuestra clínica dental en Santa Fe",
+          "nivel": 3,
           "bloque": "marcas",
           "opcional": true
         },
