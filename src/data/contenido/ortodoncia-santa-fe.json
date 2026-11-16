@@ -11,60 +11,156 @@
       "centro odontológico"
     ]
   },
-  "intro": "La **ortodoncia** corrige la posición de los dientes y la mordida con brackets o alineadores. En esta página, nuestro **centro odontológico en Santa Fe** explica cuándo hace falta, cuánto dura y qué cuidados requiere. [Pendiente: edades que atiende la clínica]",
+  "intro": "La **ortodoncia** corrige la posición de los dientes y la mordida con brackets o alineadores. En esta página, nuestro **centro odontológico** explica los tipos de brackets, la ortopedia en niños, el tratamiento en adultos y cuánto dura.",
   "fuentes": [
-    "mlp-maloclusion"
+    "mlp-maloclusion",
+    "cc-maloclusion",
+    "cc-brackets",
+    "cc-retenedor",
+    "cc-expansor",
+    "nhs-brackets",
+    "aao-ninos",
+    "aao-adultos"
   ],
-  "autor": null,
-  "revisado": null,
   "secciones": {
-    "¿Qué es la ortodoncia?": [
-      "La ortodoncia es la parte de la odontología que **corrige la maloclusión**, es decir, cuando los dientes de arriba y los de abajo no encajan bien.",
-      "La maloclusión suele ser hereditaria. También influyen diferencias de tamaño entre los maxilares, hábitos de la infancia como chuparse el dedo, dientes de más o que faltan y golpes en la mandíbula.",
-      "Si el dentista detecta un problema de mordida, deriva a un **ortodoncista**, el odontólogo que diagnostica y trata la maloclusión; según MedlinePlus, es el motivo más común de esa derivación."
+    "¿Qué es la ortodoncia y qué problemas corrige?": [
+      "Esta rama de la odontología **corrige la maloclusión**: los dientes de arriba y los de abajo no encajan como deberían.",
+      "Con mucha frecuencia son hereditarios. También influyen chuparse el dedo o usar chupete por mucho tiempo en la infancia, apretar los dientes y haber perdido dientes.",
+      "La mayoría de los problemas son menores y no requieren tratamiento; se corrige cuando la mordida afecta la higiene, la masticación o la estética. Estos son los más comunes:",
+      {
+        "h3": "¿Qué es el apiñamiento dental?"
+      },
+      "Es cuando los dientes están demasiado apretados para el espacio de la boca, por diferencias de tamaño entre los maxilares o entre los dientes.",
+      {
+        "h3": "¿Qué es la mordida cruzada?"
+      },
+      "Es cuando algunos dientes de arriba encajan por dentro de los de abajo al cerrar la boca.",
+      {
+        "h3": "¿Qué es la mordida abierta?"
+      },
+      "Es cuando los dientes de adelante de arriba y de abajo no se tocan al cerrar la boca, lo que dificulta morder los alimentos.",
+      {
+        "h3": "¿Qué es la sobremordida?"
+      },
+      "Es una mordida vertical profunda: los dientes de arriba cubren a los de abajo más de lo que deberían."
     ],
-    "¿Cuándo hace falta la ortodoncia?": [
-      "Hace falta cuando la mordida afecta la higiene, la masticación o la estética; muchos casos leves no necesitan tratamiento.",
+    "¿Cuándo conviene ir al ortodoncista?": [
+      "Conviene consultar cuando los dientes están torcidos o apiñados, cuesta masticar o se respira por la boca; el ortodoncista es el odontólogo que diagnostica y trata la maloclusión.",
       "Algunas señales para hacer una consulta odontológica:",
       {
         "lista": [
           "Dientes torcidos o apiñados.",
           "Dificultad para masticar.",
           "Respirar por la boca.",
-          "Cambios en la forma de la cara."
+          "Cambios en la forma de la cara.",
+          "Problemas para hablar, en menos casos."
         ]
-      }
-    ],
-    "Tipos de brackets": [
-      "Los brackets son **aparatos fijos** que se pegan a los dientes y, con un alambre, aplican fuerza para moverlos de a poco.",
-      "[Pendiente: qué tipos de brackets ofrece la clínica (metálicos, estéticos, autoligables…), confirmado por el odontólogo]"
-    ],
-    "Ortopedia en niños": [
-      "[Pendiente: qué es la ortopedia, a qué edad la recomienda la clínica y qué aparatos usa: una definición corta validada por el odontólogo]",
-      "El tratamiento **funciona mejor en [niños y adolescentes](/odontopediatra-santa-fe/)**, aunque en adultos también suele dar resultado."
-    ],
-    "¿Brackets o alineadores?": [
-      "Los brackets van fijos con alambre; los **alineadores transparentes** no llevan alambres y algunas personas pueden usarlos en lugar de brackets.",
+      },
       {
-        "mas": {
-          "t": "Ortodoncia invisible: alineadores frente a brackets",
-          "href": "/ortodoncia-invisible-santa-fe/"
-        }
-      }
+        "h3": "¿A qué edad conviene la primera revisión?"
+      },
+      "La Asociación Estadounidense de Ortodoncistas (AAO) recomienda que los chicos tengan su primera revisión con un ortodoncista **a más tardar a los 7 años**. A esa edad conviven dientes de leche y permanentes, y eso permite reconocer problemas de forma temprana.",
+      "Si se nota algo antes de esa edad, no hace falta esperar: se puede consultar igual. Para saber qué esperar de esa visita, hay una guía de la [primera consulta](/primera-consulta/)."
+    ],
+    "¿Brackets o alineadores? Cómo elegir": [
+      "Los brackets y los alineadores transparentes son dos formas de mover los dientes; cuál conviene lo decide el odontólogo después de evaluar cada caso.",
+      {
+        "h3": "¿Cómo funcionan los brackets?"
+      },
+      "Son **aparatos fijos**: el odontólogo pega un bracket en cada diente, pasa un alambre fino por ellos y lo sujeta con ligaduras. Así aplican una presión suave y constante que mueve los dientes con el tiempo.",
+      {
+        "h3": "¿Cómo funcionan los alineadores transparentes?"
+      },
+      "Son bandejas finas y transparentes hechas a la medida de los dientes. A diferencia de los brackets se pueden sacar, pero hay que usarlas al menos 22 horas por día. Los detalles están en [ortodoncia invisible](/ortodoncia-invisible-santa-fe/)."
+    ],
+    "Tipos de brackets: metálicos, estéticos y autoligables": [
+      "Los brackets se diferencian por el material y por la forma de sujetar el alambre, y eso cambia cuánto se ven.",
+      {
+        "h3": "¿Cómo son los brackets metálicos?"
+      },
+      "Usan bandas, brackets y alambres de acero inoxidable. Son los más visibles al sonreír, pero se pueden elegir ligaduras transparentes o de colores para cambiar su aspecto.",
+      {
+        "h3": "¿Qué son los brackets cerámicos o estéticos?"
+      },
+      "Son del color de los dientes y se notan menos. Como contra, son **más frágiles que los metálicos**, por lo que se rompen con más facilidad.",
+      {
+        "h3": "¿Qué son los brackets autoligables?"
+      },
+      "Se parecen a los metálicos, pero sujetan el alambre con un sistema incorporado en lugar de ligaduras elásticas.",
+      {
+        "h3": "¿Qué son los brackets linguales?"
+      },
+      "Se colocan en la cara de atrás de los dientes, por eso no se ven.",
+      "[confirmar: tipos de brackets que usa la clínica]"
+    ],
+    "Ortopedia dental en niños": [
+      "La ortopedia dental en niños usa aparatos, como el expansor del paladar, y suele empezar en la infancia, cuando los huesos de los maxilares todavía se están formando.",
+      {
+        "h3": "¿Qué es un expansor del paladar?"
+      },
+      "Es un aparato que se apoya en el paladar y separa de a poco las dos mitades del hueso del maxilar superior para **ensanchar un maxilar estrecho**.",
+      {
+        "h3": "¿A qué edad se usa?"
+      },
+      "Lo usan sobre todo los chicos, aunque también hay versiones para adolescentes y adultos. En los chicos, los ortodoncistas suelen recomendar empezar a los 7 u 8 años, porque puede reducir la posibilidad de necesitar procedimientos más invasivos más adelante.",
+      {
+        "h3": "¿Cuánto tiempo se lleva?"
+      },
+      "En los chicos suelen hacer falta de 2 a 3 meses para lograr el resultado buscado, y después el aparato suele quedar de 4 a 6 meses más para que el hueso se fortalezca.",
+      "La atención dental de los chicos se explica en [odontopediatría](/odontopediatra-santa-fe/)."
+    ],
+    "Ortodoncia en adultos": [
+      "Los adultos también pueden usar brackets: el tratamiento de la maloclusión en adultos por lo general **es efectivo**, aunque puede llevar más tiempo que en chicos y adolescentes.",
+      "La AAO señala que hoy los adultos tienen más opciones, desde brackets estéticos hasta alineadores transparentes. Una sobremordida, por ejemplo, se puede corregir con brackets, alineadores o, a veces, cirugía."
     ],
     "Cómo es el tratamiento con brackets, paso a paso": [
-      "El tratamiento se hace en etapas: se coloca el aparato y se hacen controles periódicos; después de los brackets hace falta un retenedor.",
-      "Suele durar de **6 meses a más de 2 años**, según el caso.",
-      "[Pendiente: pasos del tratamiento en la clínica (evaluación, estudios, plan, colocación, controles, retiro), confirmados por el odontólogo]",
-      "En algunos casos el plan incluye otros tratamientos dentales, como extraer o arreglar dientes, [colocar coronas](/protesis-dentales-santa-fe/) o, pocas veces, cirugía del maxilar."
+      "El tratamiento se hace en etapas: consulta, colocación del aparato, controles periódicos y, al final, un retenedor.",
+      {
+        "pasos": [
+          "Consulta: el odontólogo evalúa la mordida y decide si hace falta tratamiento y cuál, porque muchos casos leves no lo necesitan.",
+          "Colocación: se pegan los brackets en los dientes y se coloca el alambre.",
+          "Controles: el aparato se ajusta en visitas periódicas; el servicio de salud británico (NHS) habla de una cita cada 6 a 8 semanas.",
+          "Retiro y retenedor: al sacar los brackets se indica un retenedor para que los dientes no vuelvan a moverse."
+        ]
+      },
+      {
+        "h3": "¿Cuánto dura el tratamiento con brackets?"
+      },
+      "Según MedlinePlus, suele durar de **6 meses a más de 2 años**, según la gravedad del problema; Cleveland Clinic habla de unos 2 años en promedio.",
+      "A veces el plan incluye otros tratamientos, como extraer dientes o [colocar coronas](/protesis-dentales-santa-fe/)."
     ],
-    "Cuidados con brackets y retenedores": [
-      "Durante el tratamiento hay que cepillarse y usar hilo dental todos los días e ir a los controles en la clínica dental.",
-      "Después de los brackets **hace falta un retenedor** para que los dientes no vuelvan a moverse. [Pendiente: qué se indica al terminar con alineadores]"
+    "¿Duelen los brackets? Molestias y comidas a evitar": [
+      "Es habitual tener molestias durante **unos días** después de colocar los brackets y también tras los ajustes de rutina.",
+      "Los primeros días se recomiendan comidas blandas, como pastas, sopa o yogur. Si el dolor dura más de unos días o un bracket se rompe, conviene avisar al dentista.",
+      {
+        "h3": "¿Qué comidas conviene evitar con brackets?"
+      },
+      {
+        "lista": [
+          "Alimentos duros, crujientes o pegajosos, como nueces, caramelos y frutas o verduras duras, que pueden romper el aparato.",
+          "Chicle, porque se pega a los brackets.",
+          "Comidas y bebidas azucaradas, que favorecen las caries.",
+          "Los trozos grandes: conviene cortar la comida en pedazos chicos."
+        ]
+      },
+      "La higiene también importa: cepillarse al menos dos veces por día con pasta con flúor y usar hilo dental una vez por día. Una [limpieza dental](/limpieza-dental-santa-fe/) periódica ayuda a cuidar la salud bucal durante el tratamiento."
+    ],
+    "Retenedores después de los brackets": [
+      "Después de los brackets **hace falta un retenedor** para que los dientes no vuelvan a moverse y se mantengan en su posición corregida.",
+      {
+        "h3": "¿Qué tipos de retenedores hay?"
+      },
+      "Los fijos se pegan con un adhesivo a los dientes de adelante, arriba o abajo, y no se sacan. Los removibles son de alambre o de plástico: el Hawley lleva un alambre sobre una base de acrílico y el Essix es un molde de plástico transparente.",
+      {
+        "h3": "¿Cuánto tiempo se usa el retenedor?"
+      },
+      "Los removibles se suelen usar día y noche durante al menos 4 a 6 meses; después, por lo general, solo de noche, por tiempo indefinido. El cronograma exacto lo fija el odontólogo.",
+      "Se saca para comer, se guarda en su estuche y se limpia todos los días."
     ],
     "Precio de la ortodoncia en Santa Fe": [
       "El precio de los brackets depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
-      "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno.",
+      "Según el NHS, el costo varía con la complejidad del problema y el tipo de brackets.",
+      "Si tenés obra social o prepaga, la cobertura depende de tu plan; en [obras sociales y prepagas](/obras-sociales/) hay una lista orientativa y conviene consultarla antes del turno.",
       "Las formas de pago se consultan al pedir turno."
     ],
     "Nuestro centro odontológico en Santa Fe": [
@@ -74,51 +170,43 @@
   },
   "faq": [
     {
-      "q": "¿Cuánto dura la ortodoncia?",
-      "a": "Suele durar de 6 meses a más de 2 años, según el caso. El plazo de cada tratamiento lo indica el dentista."
+      "q": "¿Con brackets se puede comer chicle?",
+      "a": "No conviene: el chicle se pega a los brackets. También se recomienda evitar los alimentos duros, crujientes y pegajosos, que pueden romper el aparato."
     },
     {
-      "q": "¿Los adultos pueden usar brackets?",
-      "a": "Sí. En adultos también suele dar resultado, aunque puede llevar más tiempo; funciona mejor en niños y adolescentes."
+      "q": "¿Cuánto salen los brackets en Santa Fe?",
+      "a": "Depende de cada caso: el precio se informa después de la consulta, según la complejidad del problema y el tipo de brackets. Las formas de pago se consultan al pedir turno."
     },
     {
-      "q": "¿Hace falta un retenedor después de los brackets?",
-      "a": "Sí. Después de los brackets hace falta un retenedor para que los dientes no vuelvan a moverse."
+      "q": "¿La obra social cubre la ortodoncia?",
+      "a": "Depende del plan de cada obra social o prepaga, por eso conviene consultarlo antes del turno. Al pedir turno se confirma si hay convenio."
+    },
+    {
+      "q": "¿Desde qué edad se pueden poner brackets?",
+      "a": "No hay una edad fija. Cleveland Clinic ubica la edad habitual entre los 9 y los 14 años, cuando los huesos de la cara todavía se desarrollan, pero también se usan en adultos."
+    },
+    {
+      "q": "¿Cuánto tarda en pasar la molestia de los brackets?",
+      "a": "Suele durar unos pocos días después de colocarlos y de cada ajuste. Si dura más, conviene avisar al dentista."
+    },
+    {
+      "q": "¿Qué pasa si no uso el retenedor?",
+      "a": "Los dientes pueden volver a moverse: el retenedor los mantiene en la posición corregida. Si se pierde o se rompe, conviene avisar enseguida."
     },
     {
       "q": "¿Todos los dientes torcidos necesitan tratamiento?",
       "a": "No. **Muchos casos leves no lo necesitan**; se trata cuando la mordida afecta la higiene, la masticación o la estética."
     },
     {
-      "q": "¿Dónde pido turno para brackets en Santa Fe?",
-      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
-    },
-    {
-      "q": "¿Qué problemas corrigen los brackets?",
-      "a": "Corrigen la maloclusión: **dientes torcidos** y una mordida en la que los dientes de arriba y los de abajo no encajan bien."
-    },
-    {
-      "q": "¿Por qué se tuercen los dientes?",
-      "a": "La maloclusión suele ser hereditaria; también influyen chuparse el dedo en la infancia, diferencias de tamaño entre los maxilares, dientes de más o que faltan y golpes."
-    },
-    {
-      "q": "¿Qué cuidados hay que tener con brackets?",
-      "a": "Cepillarse y usar hilo dental todos los días e ir a los controles periódicos con el dentista."
-    },
-    {
-      "q": "¿Qué es mejor, brackets o alineadores?",
-      "a": "Depende del caso: los brackets van fijos con alambre y algunas personas pueden usar **alineadores transparentes**. Lo evalúa el dentista en la consulta."
-    },
-    {
-      "q": "¿Cuánto cuestan los brackets?",
-      "a": "Depende de cada caso: el precio **se informa después de la consulta**, cuando el dentista ya evaluó qué tratamiento hace falta."
+      "q": "¿Hay que sacar dientes para poner brackets?",
+      "a": "A veces. En algunos casos el plan incluye extraer dientes para hacer lugar cuando hay apiñamiento, pero no siempre; lo decide el odontólogo."
     }
   ],
   "fotos": {
-    "¿Qué es la ortodoncia?": "ortodoncia",
-    "Tipos de brackets": "brackets-tipos",
+    "¿Qué es la ortodoncia y qué problemas corrige?": "ortodoncia",
+    "Tipos de brackets: metálicos, estéticos y autoligables": "brackets-tipos",
     "Cómo es el tratamiento con brackets, paso a paso": "brackets-tratamiento",
-    "Cuidados con brackets y retenedores": "brackets-cuidados",
+    "¿Duelen los brackets? Molestias y comidas a evitar": "brackets-cuidados",
     "Nuestro centro odontológico en Santa Fe": "opiniones"
   },
   "resumen": [
@@ -127,5 +215,5 @@
     "El tratamiento suele durar de 6 meses a más de 2 años, según el caso.",
     "Después de los brackets hace falta un retenedor."
   ],
-  "faq_titulo": "Preguntas frecuentes sobre ortodoncia y brackets"
+  "faq_titulo": "Preguntas frecuentes sobre brackets y tratamiento"
 }

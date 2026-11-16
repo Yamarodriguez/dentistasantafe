@@ -170,6 +170,41 @@
       "titulo": "Gum Disease (NIDCR, en inglés)",
       "url": "https://www.nidcr.nih.gov/health-info/gum-disease",
       "fecha": "2026-11-16"
+    },
+    "cc-maloclusion": {
+      "titulo": "Malocclusion (Misaligned Bite): Types & Treatment (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/diseases/22010-malocclusion",
+      "fecha": "2026-11-16"
+    },
+    "cc-brackets": {
+      "titulo": "Dental Braces: Types, Uses, Care (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/24601-teeth-braces",
+      "fecha": "2026-11-16"
+    },
+    "cc-retenedor": {
+      "titulo": "What Is a Teeth Retainer? (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/10899-teeth-retainer",
+      "fecha": "2026-11-16"
+    },
+    "cc-expansor": {
+      "titulo": "Palate Expander: Uses, Types & Adjusting (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/23502-palate-expander",
+      "fecha": "2026-11-16"
+    },
+    "nhs-brackets": {
+      "titulo": "Braces and orthodontics (NHS)",
+      "url": "https://www.nhs.uk/conditions/orthodontics/",
+      "fecha": "2026-11-16"
+    },
+    "aao-ninos": {
+      "titulo": "Child Orthodontics (American Association of Orthodontists)",
+      "url": "https://aaoinfo.org/child-orthodontics",
+      "fecha": "2026-11-16"
+    },
+    "aao-adultos": {
+      "titulo": "Adult Orthodontics (American Association of Orthodontists)",
+      "url": "https://aaoinfo.org/adult-orthodontics/",
+      "fecha": "2026-11-16"
     }
   },
   "hechos": [
@@ -1227,6 +1262,171 @@
       "id": "nidcr-trat",
       "fuente": "nidcr-gum-disease",
       "texto": "La enfermedad de las encías temprana, causada por placa, a menudo puede revertirse con cepillado e hilo dental diarios; los casos avanzados pueden requerir limpieza profunda (raspado y alisado radicular) y a veces cirugía; dejar el tabaco mejora los resultados."
+    },
+    {
+      "id": "ort2-causas",
+      "fuente": "cc-maloclusion",
+      "texto": "La mayoría de los casos de maloclusión son hereditarios. También influyen chuparse el dedo o usar chupete por mucho tiempo en la infancia, apretar los dientes (bruxismo) y perder dientes."
+    },
+    {
+      "id": "ort2-apinamiento",
+      "fuente": "mlp-maloclusion",
+      "texto": "Las diferencias de tamaño entre los maxilares o entre los dientes causan apiñamiento de los dientes o patrones de mordida anormales."
+    },
+    {
+      "id": "ort2-cruzada",
+      "fuente": "cc-maloclusion",
+      "texto": "En la mordida cruzada, los dientes de arriba encajan por dentro de los de abajo al cerrar la boca."
+    },
+    {
+      "id": "ort2-abierta",
+      "fuente": "cc-maloclusion",
+      "texto": "En la mordida abierta, los dientes de adelante de arriba y de abajo no se tocan al cerrar la boca (MedlinePlus la ubica entre los síntomas: incapacidad para morder la comida correctamente)."
+    },
+    {
+      "id": "ort2-sobremordida",
+      "fuente": "cc-maloclusion",
+      "texto": "La sobremordida es una mordida vertical profunda: los dientes de arriba cubren a los de abajo más de lo que deberían."
+    },
+    {
+      "id": "ort2-aao-7",
+      "fuente": "aao-ninos",
+      "texto": "La AAO recomienda que los chicos hagan su primera revisión con un ortodoncista a más tardar a los 7 años."
+    },
+    {
+      "id": "ort2-aao-mixta",
+      "fuente": "aao-ninos",
+      "texto": "A esa edad los chicos tienen una mezcla de dientes de leche y permanentes, lo que permite al ortodoncista reconocer problemas de forma temprana."
+    },
+    {
+      "id": "ort2-aao-sin-esperar",
+      "fuente": "aao-ninos",
+      "texto": "No hace falta esperar a que el chico cumpla 7 años para consultar si se nota un problema."
+    },
+    {
+      "id": "ort2-aao-adultos",
+      "fuente": "aao-adultos",
+      "texto": "Hoy los adultos tienen más opciones, desde brackets estéticos hasta alineadores transparentes; los adultos pueden corregir una sobremordida con brackets, alineadores o, a veces, cirugía."
+    },
+    {
+      "id": "ort2-aao-brackets",
+      "fuente": "aao-adultos",
+      "texto": "Los brackets se pegan a los dientes y los alambres pasan por ranuras de esas piezas; los alineadores son bandejas transparentes y finas hechas a la medida de los dientes."
+    },
+    {
+      "id": "ort2-adultos-mlp",
+      "fuente": "mlp-maloclusion",
+      "texto": "El tratamiento de la maloclusión en adultos por lo general es efectivo y puede requerir usar brackets u otros aparatos por mucho tiempo."
+    },
+    {
+      "id": "ort2-edad-cc",
+      "fuente": "cc-brackets",
+      "texto": "La edad en que generalmente se indican los brackets va de los 9 a los 14 años, cuando los huesos de la cara aún se desarrollan; no hay una edad demasiado avanzada para la ortodoncia. En adultos los resultados pueden tardar un poco más."
+    },
+    {
+      "id": "ort2-proceso",
+      "fuente": "cc-brackets",
+      "texto": "Con brackets tradicionales, el odontólogo pega un bracket en cada diente, coloca un alambre fino sobre los brackets y lo sujeta con ligaduras; aplican una presión suave y constante que mueve los dientes con el tiempo."
+    },
+    {
+      "id": "ort2-metalicos",
+      "fuente": "cc-brackets",
+      "texto": "Los brackets metálicos usan bandas, brackets y alambres de acero inoxidable; son visibles, pero se pueden elegir ligaduras transparentes o de colores."
+    },
+    {
+      "id": "ort2-ceramicos",
+      "fuente": "cc-brackets",
+      "texto": "Los brackets cerámicos son del color de los dientes y se notan menos, pero son más frágiles que los metálicos y se rompen con más facilidad."
+    },
+    {
+      "id": "ort2-linguales",
+      "fuente": "cc-brackets",
+      "texto": "Los brackets linguales van en la parte de atrás de los dientes, por eso quedan ocultos."
+    },
+    {
+      "id": "ort2-autoligables",
+      "fuente": "cc-brackets",
+      "texto": "Los brackets autoligables se parecen a los metálicos, pero usan un sistema incorporado en lugar de ligaduras elásticas para sujetar el alambre."
+    },
+    {
+      "id": "ort2-alineadores",
+      "fuente": "cc-brackets",
+      "texto": "Los alineadores transparentes se pueden sacar, pero hay que usarlos al menos 22 horas por día."
+    },
+    {
+      "id": "ort2-duracion-cc",
+      "fuente": "cc-brackets",
+      "texto": "En promedio, el tratamiento con brackets dura unos dos años; algunas personas terminan en menos de 12 meses y otras necesitan hasta tres, según la gravedad."
+    },
+    {
+      "id": "ort2-controles-nhs",
+      "fuente": "nhs-brackets",
+      "texto": "Con brackets fijos hay una cita de ajuste cada 6 a 8 semanas; el aparato queda puesto de 1 a 2 años."
+    },
+    {
+      "id": "ort2-molestias-cc",
+      "fuente": "cc-brackets",
+      "texto": "Es probable tener molestias durante unos días después de colocar los brackets y también tras los ajustes de rutina; los primeros días se recomiendan alimentos blandos como pasta, sopa, yogur y avena."
+    },
+    {
+      "id": "ort2-consultar-nhs",
+      "fuente": "nhs-brackets",
+      "texto": "Conviene avisar al odontólogo si el dolor dura más de unos días tras colocar o ajustar el aparato, si las encías están muy rojas, hinchadas o doloridas, o si el aparato se rompe."
+    },
+    {
+      "id": "ort2-evitar-cc",
+      "fuente": "cc-brackets",
+      "texto": "Durante todo el tratamiento hay que evitar alimentos duros y pegajosos, como nueces, caramelos y frutas y verduras duras."
+    },
+    {
+      "id": "ort2-evitar-nhs",
+      "fuente": "nhs-brackets",
+      "texto": "Conviene evitar alimentos duros, crujientes o pegajosos porque pueden romper el aparato, no masticar chicle porque se pega, limitar las comidas y bebidas azucaradas (causan caries) y cortar la comida en trozos más chicos."
+    },
+    {
+      "id": "ort2-limpieza-cc",
+      "fuente": "cc-brackets",
+      "texto": "Con brackets hay que cepillarse al menos dos veces por día con cepillo de cerdas suaves y pasta con flúor, y usar hilo dental una vez por día."
+    },
+    {
+      "id": "ort2-costo-nhs",
+      "fuente": "nhs-brackets",
+      "texto": "El costo de los brackets varía con la complejidad del problema y el tipo de aparato."
+    },
+    {
+      "id": "ort2-retenedor-que",
+      "fuente": "cc-retenedor",
+      "texto": "El retenedor mantiene los dientes en su posición corregida después de sacar los brackets o los alineadores, porque pueden volver a moverse."
+    },
+    {
+      "id": "ort2-retenedor-tipos",
+      "fuente": "cc-retenedor",
+      "texto": "Los retenedores fijos se pegan con un adhesivo, suelen ir en los dientes de adelante de arriba o de abajo y no se sacan. Los removibles son de alambre o de plástico: el Hawley (alambre sobre una base de acrílico) y el Essix (molde de plástico transparente)."
+    },
+    {
+      "id": "ort2-retenedor-tiempo",
+      "fuente": "cc-retenedor",
+      "texto": "Los retenedores removibles se usan por lo general día y noche durante al menos 4 a 6 meses; después, de noche por tiempo indefinido. El profesional fija el cronograma exacto."
+    },
+    {
+      "id": "ort2-retenedor-cuidado",
+      "fuente": "cc-retenedor",
+      "texto": "El retenedor se saca para comer, se guarda en su estuche y se limpia todos los días; si se pierde o se rompe hay que avisar enseguida, porque los dientes pueden desplazarse más cuanto más se espera."
+    },
+    {
+      "id": "ort2-expansor-que",
+      "fuente": "cc-expansor",
+      "texto": "El expansor del paladar es un aparato que ensancha un maxilar superior estrecho: se apoya en el paladar y separa de a poco las dos mitades del hueso. Se recomienda ante dientes apiñados, superpuestos o retenidos, o una mordida desalineada."
+    },
+    {
+      "id": "ort2-expansor-edad",
+      "fuente": "cc-expansor",
+      "texto": "El expansor es más común en chicos, pero lo pueden usar también adolescentes y adultos; en los chicos los ortodoncistas suelen recomendar empezar a los 7 u 8 años, porque puede reducir la posibilidad de necesitar procedimientos más invasivos más adelante."
+    },
+    {
+      "id": "ort2-expansor-duracion",
+      "fuente": "cc-expansor",
+      "texto": "En los chicos el resultado lleva de 2 a 3 meses; adolescentes y adultos pueden necesitar hasta un año. Después el aparato suele quedar de 4 a 6 meses más para que el hueso se fortalezca."
     }
   ]
 }

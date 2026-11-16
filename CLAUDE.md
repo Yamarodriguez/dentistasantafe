@@ -212,6 +212,16 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   Podés pedir turno por WhatsApp» + foto real (sala de espera en tratamientos, Od. Vera en problemas). Generado con
   scratchpad clinica-texto.py (contenido.secciones + fotos). Sin H2 nuevo (evita bloque repetido y más «Santa Fe»).
   Logo: alt «Ignacio Vera Odontología, clínica dental en Santa Fe» (primer enlace a la portada de cada página).
+- **Ortodoncia rehecha (Yama, 2026-11-16: «mirando la estructura de COV y con estudio SEO»)** →
+  `informes/estudio-ortodoncia-seo.md`. H1 «Ortodoncia en Santa Fe: brackets para alinear los dientes y la mordida»,
+  title «Ortodoncia en Santa Fe: brackets, ortopedia y precio». 10 H2 + «Pedir turno para una evaluación de
+  ortodoncia en Santa Fe» (bloque turno, como el «Contacto» de COV): qué es y qué corrige (H3 apiñamiento, mordida
+  cruzada/abierta, sobremordida), cuándo ir al ortodoncista (AAO: 7 años), brackets o alineadores (H3, enlace a
+  invisible; la tabla comparativa sigue SOLO en invisible), tipos de brackets (H3 metálicos, cerámicos, autoligables,
+  linguales + [confirmar: los que usa la clínica]), ortopedia en niños (expansor), adultos, paso a paso, duelen/
+  comidas, retenedores, precio. Fuentes nuevas: Cleveland Clinic (maloclusión, brackets, retenedor, expansor), NHS,
+  AAO (niños, adultos); 33 hechos ort2-*. Sin primera visita gratis, especialistas, premios, antes/después ni
+  testimonios (sin datos reales). Revisor: aprobada con correcciones aplicadas.
 - Ortodoncista/endodoncista (2026-11-16): una frase informativa con fuente (hechos mal-ortodoncista,
   con-endodoncista) en ortodoncia y conducto, sin decir que la clínica tiene ese especialista.
 - **Estudio SEO completo (2026-11-16)** → `informes/seo-estudio-completo-2026-11-16.md` (web publicada, 18 páginas +

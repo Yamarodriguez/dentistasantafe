@@ -166,18 +166,24 @@
       "nombre": "Ortodoncia y brackets",
       "grupo": "Ortodoncia",
       "clave": "ortodoncia Santa Fe",
-      "title": "Ortodoncia en Santa Fe: brackets, ortopedia y retenedores",
-      "description": "Ortodoncia y brackets en Santa Fe: qué es, cuándo hace falta, brackets o alineadores, cuánto dura, cuidados y retenedor. En 9 de Julio 3288.",
-      "h1": "Ortodoncia y brackets en Santa Fe",
+      "title": "Ortodoncia en Santa Fe: brackets, ortopedia y precio",
+      "description": "Brackets metálicos, estéticos y autoligables, ortopedia en niños, adultos, duración del tratamiento y precio que se informa tras la consulta.",
+      "h1": "Ortodoncia en Santa Fe: brackets para alinear los dientes y la mordida",
       "h2s": [
-        "¿Qué es la ortodoncia?",
-        "¿Cuándo hace falta la ortodoncia?",
-        "Tipos de brackets",
-        "Ortopedia en niños",
-        "¿Brackets o alineadores?",
+        "¿Qué es la ortodoncia y qué problemas corrige?",
+        "¿Cuándo conviene ir al ortodoncista?",
+        "¿Brackets o alineadores? Cómo elegir",
+        "Tipos de brackets: metálicos, estéticos y autoligables",
+        "Ortopedia dental en niños",
+        "Ortodoncia en adultos",
         "Cómo es el tratamiento con brackets, paso a paso",
-        "Cuidados con brackets y retenedores",
-        "Precio de la ortodoncia en Santa Fe"
+        "¿Duelen los brackets? Molestias y comidas a evitar",
+        "Retenedores después de los brackets",
+        "Precio de la ortodoncia en Santa Fe",
+        {
+          "t": "Pedir turno para una evaluación de ortodoncia en Santa Fe",
+          "bloque": "turno"
+        }
       ],
       "faq": []
     },
