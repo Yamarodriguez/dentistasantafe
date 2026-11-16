@@ -2,7 +2,7 @@
 // Rellena una sección con datos de site.json / paginas.json.
 // Si falta el dato, pone [Pendiente: …] (nunca se inventa nada).
 import { EXPLICACION } from '../lib/enlazado.js';
-import { site, ruta, tratamientos, problemas, enlaceTurno, pendiente, grupos, telefonoDe, etiquetaTelefono, resumenTarjeta } from '../lib/datos.js';
+import { site, ruta, tratamientos, problemas, hubDe, enlaceTurno, pendiente, grupos, telefonoDe, etiquetaTelefono, resumenTarjeta } from '../lib/datos.js';
 import Formulario from './Formulario.astro';
 import Dibujo from './Dibujo.astro';
 import { negrita } from '../lib/texto.js';
@@ -52,7 +52,7 @@ const iconoMotivo = (titulo = '') => {
 
 {tipo === 'tratamientos' && pagina.tipo === 'indice' && grupos.map((g) => (
   <>
-    <h3>{g}</h3>
+    <h3>{hubDe(g) ? <a href={ruta(hubDe(g).slug)}>{g}</a> : g}</h3>
     <div class="tarjetas">
       {tratamientos.filter((t) => t.grupo === g).map((t) => (
         <article class="tarjeta">
@@ -130,7 +130,7 @@ const iconoMotivo = (titulo = '') => {
   <div class="grupos-servicios">
     {grupos.map((g) => (
       <div class="grupo-caja">
-        <h3 class="grupo-titulo">{g}</h3>
+        <h3 class="grupo-titulo">{hubDe(g) ? <a href={ruta(hubDe(g).slug)}>{g}</a> : g}</h3>
         <ul>
           {tratamientos.filter((t) => t.grupo === g).map((t) => (
             <li>

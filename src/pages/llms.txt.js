@@ -1,6 +1,7 @@
 // llms.txt: resumen de la web para asistentes de IA (Fase 4). Solo datos reales:
 // lo que todavía está [pendiente] no sale.
-import { site, paginas, ruta, tratamientos, telefonoDe, etiquetaTelefono } from '../lib/datos.js';
+import { site, paginas, ruta, tratamientos as soloTratamientos, hubs, telefonoDe, etiquetaTelefono } from '../lib/datos.js';
+const tratamientos = [...hubs, ...soloTratamientos]; // con las páginas generales (ortodoncia, estética)
 import { real } from '../lib/seo.js';
 import { sinNegrita } from '../lib/texto.js';
 

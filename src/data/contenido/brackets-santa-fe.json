@@ -1,0 +1,149 @@
+{
+  "slug": "brackets-santa-fe",
+  "conteo": {
+    "clave": "brackets?",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-maloclusion",
+    "cc-brackets",
+    "cc-retenedor",
+    "nhs-brackets",
+    "ada-brackets"
+  ],
+  "intro": "Los **brackets** son aparatos fijos que se pegan a los dientes para corregir su posición y la mordida. En esta página, nuestro **centro odontológico** desarrolla los tipos, el paso a paso, los cuidados y los retenedores.",
+  "resumen": [
+    "Son aparatos fijos pegados a los dientes que, con alambres, aplican fuerza para moverlos.",
+    "Hay metálicos, cerámicos o estéticos, autoligables y linguales.",
+    "El tratamiento suele durar entre 6 meses y más de 2 años, y después hace falta un retenedor.",
+    "Con el aparato puesto hay controles cada 6 a 8 semanas."
+  ],
+  "secciones": {
+    "¿Qué son los brackets y cuándo se eligen?": [
+      "Son **aparatos fijos** que se pegan a los dientes: un alambre pasa por ellos y aplica una presión suave y constante que mueve los dientes con el tiempo.",
+      "Se eligen cuando hay maloclusión y la mordida afecta la higiene, la masticación o la estética; muchos casos leves no necesitan tratamiento. La visión general está en [ortodoncia](/ortodoncia-santa-fe/), y la alternativa sin alambres, en [ortodoncia invisible](/ortodoncia-invisible-santa-fe/).",
+      "También los usan adultos: no hay una edad demasiado avanzada para empezar."
+    ],
+    "Tipos de brackets: metálicos, estéticos, autoligables y linguales": [
+      "Se diferencian por el material y por la forma de sujetar el alambre, y eso cambia cuánto se ven.",
+      {
+        "h3": "¿Cómo son los metálicos?"
+      },
+      "Usan bandas, piezas y alambres de acero inoxidable. Son **los más visibles al sonreír**, pero se pueden elegir ligaduras transparentes o de colores para cambiar su aspecto.",
+      {
+        "h3": "¿Qué son los cerámicos o estéticos?"
+      },
+      "Son del color de los dientes y se notan menos. Como contra, son **más frágiles que los metálicos** y se rompen con más facilidad.",
+      {
+        "h3": "¿Qué son los autoligables?"
+      },
+      "Se parecen a los metálicos, pero sujetan el alambre con un sistema incorporado en lugar de ligaduras elásticas.",
+      {
+        "h3": "¿Qué son los linguales?"
+      },
+      "Se colocan en la cara de atrás de los dientes, por eso **se ven menos**.",
+      "[confirmar: tipos de aparato que usa la clínica]"
+    ],
+    "Cómo es el tratamiento con aparato fijo, paso a paso": [
+      "El tratamiento se hace en etapas: consulta, colocación, controles periódicos y, al final, retiro del aparato y retenedor.",
+      {
+        "pasos": [
+          "Consulta: el odontólogo evalúa la mordida y decide si hace falta tratamiento y cuál.",
+          "Colocación: se pega una pieza en cada diente, se pasa un alambre fino que se sujeta a cada pieza.",
+          "Controles: se ajusta el aparato en visitas periódicas, una cada 6 a 8 semanas según el NHS.",
+          "Retiro y retenedor: al sacar el aparato se indica un retenedor para que los dientes no vuelvan a moverse."
+        ]
+      },
+      {
+        "h3": "¿Cuánto dura el tratamiento?"
+      },
+      "Según MedlinePlus, de **6 meses a más de 2 años**; Cleveland Clinic habla de unos 2 años en promedio, y algunas personas terminan en menos de 12 meses o necesitan hasta 3, según la gravedad.",
+      {
+        "h3": "¿Hay que sacar dientes?"
+      },
+      "A veces el plan incluye extraer dientes, pulir o arreglar dientes o [colocar coronas](/protesis-dentales-santa-fe/); lo decide el odontólogo."
+    ],
+    "¿Duelen los brackets? Molestias y comidas a evitar": [
+      "Es habitual tener molestias durante **unos días** después de colocar el aparato y también tras los ajustes de rutina.",
+      "Los primeros días se recomiendan comidas blandas, como pasta, sopa, yogur y avena. Conviene avisar al dentista si el dolor dura más de unos días, si las encías están muy rojas, hinchadas o doloridas, o si el aparato se rompe.",
+      {
+        "h3": "¿Qué comidas conviene evitar?"
+      },
+      {
+        "lista": [
+          "Alimentos duros, crujientes o pegajosos, como nueces, caramelos y frutas o verduras duras, que pueden romper el aparato.",
+          "Palomitas de maíz, choclo en la mazorca y manzanas enteras.",
+          "Chicle, porque se pega al aparato.",
+          "Comidas y bebidas azucaradas, que favorecen la acumulación de placa."
+        ]
+      },
+      "Cada caso es distinto: el dentista indica qué alimentos evitar durante el tratamiento."
+    ],
+    "Higiene con aparato fijo: cómo cepillarse y limpiar entre los dientes": [
+      "Con aparato fijo hay que **cepillarse con pasta con flúor** a la mañana, a la noche y después de las comidas, según el NHS.",
+      "Cleveland Clinic suma el hilo dental una vez por día, y el NHS un cepillo interdental diario para limpiar entre los dientes y debajo del aparato. Comer muchos alimentos azucarados favorece la acumulación de placa alrededor de las piezas.",
+      "Los controles dentales regulares siguen siendo parte del cuidado: una [limpieza dental](/limpieza-dental-santa-fe/) periódica ayuda a cuidar la salud bucal durante el tratamiento."
+    ],
+    "Retenedores después del tratamiento": [
+      "Después de sacar el aparato **hace falta un retenedor** para que los dientes no vuelvan a moverse y se mantengan en su posición corregida.",
+      {
+        "h3": "¿Qué tipos de retenedores hay?"
+      },
+      "Los fijos se pegan con un adhesivo a los dientes de adelante, arriba o abajo, y no se sacan. Los removibles son de alambre o de plástico: el Hawley lleva un alambre sobre una base de acrílico y el Essix es un molde de plástico transparente.",
+      {
+        "h3": "¿Cuánto tiempo se usa el retenedor?"
+      },
+      "Los removibles se suelen usar día y noche durante al menos 4 a 6 meses; después, por lo general, solo de noche, por tiempo indefinido. El cronograma exacto lo fija el odontólogo.",
+      "Se saca para comer, se guarda en su estuche y se limpia todos los días."
+    ],
+    "Precio de los brackets en Santa Fe": [
+      "El precio depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
+      "Según el NHS, el costo varía con la complejidad del problema y el tipo de aparato.",
+      "Si tenés obra social o prepaga, la cobertura depende de tu plan; en [obras sociales y prepagas](/obras-sociales/) hay una lista orientativa y conviene consultarla antes del turno. Las formas de pago se consultan al pedir turno."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "Nuestro centro odontológico queda en 9 de Julio 3288, Santa Fe capital, y atiende de lunes a viernes de 8 a 20 h; los turnos se piden por WhatsApp.",
+      "Es la clínica dental donde atiende el odontólogo Ignacio Vera. Si buscás [dentistas en Santa Fe capital](/), el aparato fijo se consulta ahí."
+    ]
+  },
+  "faq_titulo": "Preguntas frecuentes sobre brackets",
+  "faq": [
+    {
+      "q": "¿Con brackets se puede comer chicle?",
+      "a": "No conviene: el chicle se pega al aparato. También se recomienda evitar los alimentos duros, crujientes y pegajosos, que pueden romper el aparato."
+    },
+    {
+      "q": "¿Cada cuánto tiempo hay que ir a los controles?",
+      "a": "Con aparato fijo suele haber una cita de ajuste cada 6 a 8 semanas, según el NHS. El odontólogo indica el calendario de cada caso."
+    },
+    {
+      "q": "¿Pueden usarlos los adultos?",
+      "a": "Sí: **no hay una edad demasiado avanzada** para la ortodoncia. En los adultos los resultados pueden tardar un poco más."
+    },
+    {
+      "q": "¿Cuándo hay que avisar al dentista durante el tratamiento?",
+      "a": "Conviene avisar si el dolor dura más de unos días, si las encías están muy rojas, hinchadas o doloridas, o si el aparato se rompe o se despega una pieza, para que el odontólogo lo revise."
+    },
+    {
+      "q": "¿Hace falta seguir con las limpiezas dentales?",
+      "a": "Sí: los controles dentales regulares siguen siendo parte del cuidado durante el tratamiento, junto con la higiene diaria."
+    },
+    {
+      "q": "¿Cómo sé si mi obra social cubre el aparato?",
+      "a": "Depende del plan de cada obra social o prepaga, por eso conviene consultarlo antes del turno. Al pedir turno se confirma si hay convenio."
+    }
+  ],
+  "fotos": {
+    "Tipos de brackets: metálicos, estéticos, autoligables y linguales": "brackets-tipos",
+    "Cómo es el tratamiento con aparato fijo, paso a paso": "brackets-tratamiento",
+    "¿Duelen los brackets? Molestias y comidas a evitar": "brackets-cuidados",
+    "Nuestro centro odontológico en Santa Fe": "opiniones"
+  }
+}

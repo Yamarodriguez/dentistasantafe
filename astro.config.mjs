@@ -11,6 +11,5 @@ export default defineConfig({
   redirects: {
     '/equipo/': '/odontologos-santa-fe/',
     '/dentistas-santa-fe/': '/odontologos-santa-fe/',
-    '/estetica-dental-santa-fe/': '/carillas-dentales-santa-fe/',
   },
 });

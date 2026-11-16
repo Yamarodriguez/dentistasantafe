@@ -124,7 +124,7 @@
       "clave": "implantes dentales Santa Fe",
       "title": "Implantes dentales en Santa Fe: pasos, riesgos y cuidados",
       "description": "Implantes dentales en Santa Fe: qué son, cuándo hacen falta, cómo es el tratamiento paso a paso y qué riesgos tiene. Clínica dental en 9 de Julio 3288.",
-      "h1": "Implantes dentales en Santa Fe",
+      "h1": "Implantes dentales en Santa Fe: reponer dientes perdidos",
       "h2s": [
         "¿Qué es un implante dental?",
         "¿Cuándo hace falta un implante dental?",
@@ -134,7 +134,11 @@
         "Tomografía y planificación del implante",
         "Cómo es el tratamiento con implantes, paso a paso",
         "¿Duele? ¿Cuánto dura un implante?",
-        "Precio de los implantes dentales en Santa Fe"
+        "Precio de los implantes dentales en Santa Fe",
+        {
+          "t": "Pedir turno para implantes en Santa Fe",
+          "bloque": "turno"
+        }
       ],
       "faq": []
     },
@@ -145,17 +149,22 @@
       "nombre": "Prótesis y coronas",
       "grupo": "Implantología y prótesis",
       "clave": "prótesis dentales Santa Fe",
-      "title": "Prótesis dentales y coronas en Santa Fe",
-      "description": "Prótesis dentales fijas y removibles, coronas y prótesis sobre implantes en Santa Fe. Cuál te conviene y cómo es el proceso. En 9 de Julio 3288.",
-      "h1": "Prótesis dentales y coronas en Santa Fe",
+      "title": "Prótesis dentales en Santa Fe: fijas y removibles",
+      "description": "Dentaduras, puentes, coronas y prótesis sobre implantes en Santa Fe: tipos, cuidados, duración y cómo se hacen. Precio tras la consulta.",
+      "h1": "Prótesis dentales en Santa Fe para reponer dientes y volver a masticar",
       "h2s": [
-        "¿Qué es una prótesis dental?",
-        "Prótesis dental fija o removible",
-        "Coronas dentales",
+        "¿Cuándo puede hacer falta una prótesis dental?",
+        "Tipos de prótesis dentales: fijas, removibles y sobre implantes",
+        "¿Prótesis fija o removible? Cómo elegir",
         "Prótesis sobre implantes",
-        "Cómo se hacen las coronas y las prótesis removibles, paso a paso",
-        "Cuidados y duración de coronas y prótesis removibles",
-        "Precio de las prótesis dentales en Santa Fe"
+        "Coronas dentales y puentes",
+        "¿Cómo se hace una prótesis? Paso a paso",
+        "Cuidados y duración de coronas y dentaduras",
+        "Precio de las prótesis dentales en Santa Fe",
+        {
+          "t": "Pedir turno para prótesis dentales en Santa Fe",
+          "bloque": "turno"
+        }
       ],
       "faq": []
     },
@@ -163,25 +172,48 @@
       "slug": "ortodoncia-santa-fe",
       "tipo": "tratamiento",
       "estado": "si",
-      "nombre": "Ortodoncia y brackets",
+      "nombre": "Ortodoncia",
       "grupo": "Ortodoncia",
       "clave": "ortodoncia Santa Fe",
-      "title": "Ortodoncia en Santa Fe: brackets, ortopedia y precio",
-      "description": "Brackets metálicos, estéticos y autoligables, ortopedia en niños, adultos, duración del tratamiento y precio que se informa tras la consulta.",
-      "h1": "Ortodoncia en Santa Fe: brackets para alinear los dientes y la mordida",
+      "title": "Ortodoncia en Santa Fe: brackets, invisible y edades",
+      "description": "Qué es la ortodoncia, cuándo consultar, brackets o alineadores, ortopedia en niños, adultos, duración y precio que se informa tras la consulta.",
+      "h1": "Ortodoncia en Santa Fe: corregir la posición de los dientes y la mordida",
       "h2s": [
         "¿Qué es la ortodoncia y qué problemas corrige?",
         "¿Cuándo conviene ir al ortodoncista?",
-        "¿Brackets o alineadores? Cómo elegir",
-        "Tipos de brackets: metálicos, estéticos y autoligables",
+        "¿Brackets u ortodoncia invisible? Cómo elegir",
         "Ortopedia dental en niños",
         "Ortodoncia en adultos",
-        "Cómo es el tratamiento con brackets, paso a paso",
-        "¿Duelen los brackets? Molestias y comidas a evitar",
-        "Retenedores después de los brackets",
+        "¿Cuánto dura un tratamiento de ortodoncia?",
         "Precio de la ortodoncia en Santa Fe",
         {
           "t": "Pedir turno para una evaluación de ortodoncia en Santa Fe",
+          "bloque": "turno"
+        }
+      ],
+      "faq": [],
+      "hub": true
+    },
+    {
+      "slug": "brackets-santa-fe",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Brackets",
+      "grupo": "Ortodoncia",
+      "clave": "brackets Santa Fe",
+      "title": "Brackets en Santa Fe: tipos, molestias, cuidados y precio",
+      "description": "Qué son los brackets, tipos metálicos, estéticos, autoligables y linguales, molestias, higiene, retenedores y precio que se informa tras la consulta.",
+      "h1": "Brackets en Santa Fe: tipos, paso a paso y cuidados del aparato fijo",
+      "h2s": [
+        "¿Qué son los brackets y cuándo se eligen?",
+        "Tipos de brackets: metálicos, estéticos, autoligables y linguales",
+        "Cómo es el tratamiento con aparato fijo, paso a paso",
+        "¿Duelen los brackets? Molestias y comidas a evitar",
+        "Higiene con aparato fijo: cómo cepillarse y limpiar entre los dientes",
+        "Retenedores después del tratamiento",
+        "Precio de los brackets en Santa Fe",
+        {
+          "t": "Pedir turno para una evaluación con aparato fijo en Santa Fe",
           "bloque": "turno"
         }
       ],
@@ -195,17 +227,49 @@
       "grupo": "Ortodoncia",
       "clave": "ortodoncia invisible Santa Fe",
       "title": "Ortodoncia invisible en Santa Fe: alineadores transparentes",
-      "description": "Ortodoncia invisible con alineadores transparentes en Santa Fe: para quién es, cómo funciona y en qué se diferencia de los brackets. En 9 de Julio 3288.",
-      "h1": "Ortodoncia invisible en Santa Fe",
+      "description": "Ortodoncia invisible en Santa Fe: qué es, para quién sirve, cuánto dura y en qué se diferencia de los brackets. Turnos en 9 de Julio 3288.",
+      "h1": "Ortodoncia invisible en Santa Fe: alineadores transparentes para alinear los dientes",
       "h2s": [
-        "¿Qué es la ortodoncia invisible?",
-        "¿Para quién está indicada la ortodoncia invisible?",
-        "Alineadores o brackets: comparativa",
+        "¿Qué es la ortodoncia invisible y cómo funciona?",
+        "¿Para quién sirven los alineadores transparentes?",
+        "¿Qué ventajas y límites tienen los alineadores?",
+        "Ortodoncia invisible o brackets: comparativa",
         "Cómo es el tratamiento con alineadores, paso a paso",
-        "¿Cuánto dura el tratamiento con alineadores?",
-        "Precio de la ortodoncia invisible en Santa Fe"
+        "¿Cuánto dura el tratamiento con alineadores transparentes?",
+        "¿Cómo se cuidan los dientes y los alineadores durante el tratamiento?",
+        "¿Hace falta usar un retenedor después?",
+        "Precio de la ortodoncia invisible en Santa Fe",
+        {
+          "t": "Pedir turno para ortodoncia invisible en Santa Fe",
+          "bloque": "turno"
+        }
       ],
       "faq": []
+    },
+    {
+      "slug": "estetica-dental-santa-fe",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Estética dental",
+      "grupo": "Estética dental",
+      "clave": "estética dental Santa Fe",
+      "title": "Estética dental en Santa Fe: tratamientos y cuidados",
+      "description": "Odontología estética en Santa Fe: blanqueamiento, carillas, coronas y ortodoncia invisible. Qué incluye, cómo se elige y cuidados. Turnos por WhatsApp.",
+      "h1": "Estética dental en Santa Fe: tratamientos para cuidar tu sonrisa",
+      "h2s": [
+        "¿Qué es la estética dental?",
+        "Primero la salud bucal: la revisión antes de un tratamiento estético",
+        "Tratamientos de estética dental en Santa Fe",
+        "¿Cómo se elige el tratamiento estético?",
+        "Cuidados para que el resultado dure",
+        "Precio de los tratamientos estéticos en Santa Fe",
+        {
+          "t": "Pedir turno para odontología estética en Santa Fe",
+          "bloque": "turno"
+        }
+      ],
+      "faq": [],
+      "hub": true
     },
     {
       "slug": "carillas-dentales-santa-fe",
@@ -214,16 +278,22 @@
       "nombre": "Carillas dentales",
       "grupo": "Estética dental",
       "clave": "carillas dentales",
-      "title": "Carillas dentales en Santa Fe: tipos, colocación y cuidados",
-      "description": "Carillas dentales en Santa Fe: para qué sirven, materiales, cómo se colocan y cuánto duran. Precio tras la consulta. En 9 de Julio 3288.",
-      "h1": "Carillas dentales en Santa Fe",
+      "title": "Carillas dentales en Santa Fe: resina, porcelana y pasos",
+      "description": "Carillas dentales en Santa Fe: tipos (resina y porcelana), diferencias, cómo se colocan y cuánto duran. Precio tras la consulta. 9 de Julio 3288.",
+      "h1": "Carillas dentales en Santa Fe: tipos, colocación y cuidados",
       "h2s": [
         "¿Qué son las carillas dentales?",
         "¿Para qué sirven las carillas?",
-        "Carillas de porcelana o de composite",
+        "Tipos de carillas: porcelana y resina (composite)",
+        "Carillas de resina o de porcelana: diferencias",
         "Cómo se colocan las carillas dentales, paso a paso",
-        "Cuidados y duración de las carillas dentales",
-        "Precio de las carillas dentales en Santa Fe"
+        "¿Cuánto duran las carillas y qué cuidados necesitan?",
+        "Precio de las carillas dentales en Santa Fe",
+        "¿Carillas, coronas o resina directa sobre el diente?",
+        {
+          "t": "Pedir turno para carillas dentales en Santa Fe",
+          "bloque": "turno"
+        }
       ],
       "faq": []
     },
@@ -234,16 +304,49 @@
       "nombre": "Blanqueamiento dental",
       "grupo": "Estética dental",
       "clave": "blanqueamiento dental",
-      "title": "Blanqueamiento dental en Santa Fe: manchas, tipos y duración",
-      "description": "Blanqueamiento dental en Santa Fe: qué manchas mejoran, en consultorio o en casa, sensibilidad y cuánto dura. Precio tras la consulta. En 9 de Julio 3288.",
-      "h1": "Blanqueamiento dental en Santa Fe",
+      "title": "Blanqueamiento dental en Santa Fe: tipos, manchas y duración",
+      "description": "Blanqueamiento dental en Santa Fe: qué manchas mejoran, consultorio o casa, sensibilidad y cuánto dura. Precio tras la consulta, en 9 de Julio 3288.",
+      "h1": "Blanqueamiento dental en Santa Fe: aclarar el color de tus dientes",
       "h2s": [
         "¿Qué es el blanqueamiento dental?",
-        "¿Qué manchas mejoran con un blanqueamiento dental?",
+        "¿Qué manchas mejoran con el blanqueamiento?",
+        "¿Se blanquean las coronas, carillas y empastes?",
         "Blanqueamiento en el consultorio o en casa",
-        "Sensibilidad, riesgos y cuidados después del blanqueamiento",
+        "¿Es seguro el blanqueamiento casero?",
+        "Sensibilidad y cuidados después de blanquear",
+        "¿Cuánto dura el blanqueamiento dental?",
         "Cómo es el blanqueamiento dental, paso a paso",
-        "Precio del blanqueamiento dental en Santa Fe"
+        "¿Cuánto cuesta blanquearse los dientes en Santa Fe?",
+        {
+          "t": "Pedir turno para blanqueamiento dental en Santa Fe",
+          "bloque": "turno"
+        }
+      ],
+      "faq": []
+    },
+    {
+      "slug": "reconstruccion-dental-santa-fe",
+      "tipo": "tratamiento",
+      "estado": "si",
+      "nombre": "Reconstrucción dental",
+      "grupo": "Estética dental",
+      "clave": "reconstrucción dental Santa Fe",
+      "title": "Reconstrucción dental en Santa Fe: resina, corona y precio",
+      "description": "Reconstrucción dental en Santa Fe: cuándo alcanza con resina y cuándo hace falta una corona, cuánto dura y si duele. Turnos por WhatsApp.",
+      "h1": "Reconstrucción dental en Santa Fe para recuperar la forma y la función del diente",
+      "h2s": [
+        "¿Qué es la reconstrucción dental y cuándo hace falta?",
+        "Reconstrucción dental con resina compuesta: cómo se hace",
+        "¿Resina o corona? Qué indica el odontólogo según cuánto diente queda",
+        "Reconstrucción del diente después de un tratamiento de conducto",
+        "Desgaste por bruxismo: cómo se repara y se protege el diente",
+        "¿Cuánto dura un diente reconstruido y cómo se cuida?",
+        "¿Duele? Molestias durante y después del tratamiento",
+        "Precio de una reconstrucción dental en Santa Fe",
+        {
+          "t": "Pedir turno para reconstruir un diente en Santa Fe",
+          "bloque": "turno"
+        }
       ],
       "faq": []
     },
@@ -254,16 +357,22 @@
       "nombre": "Tratamiento de conducto",
       "grupo": "Odontología general",
       "clave": "tratamiento de conducto Santa Fe (endodoncia)",
-      "title": "Tratamiento de conducto en Santa Fe",
-      "description": "Tratamiento de conducto (endodoncia) en Santa Fe: cuándo hace falta, si duele, cómo es el procedimiento y qué viene después. En 9 de Julio 3288.",
-      "h1": "Tratamiento de conducto (endodoncia) en Santa Fe",
+      "title": "Tratamiento de conducto en Santa Fe: endodoncia",
+      "description": "Tratamiento de conducto (endodoncia) en Santa Fe: cuándo hace falta, si duele, cuántas sesiones lleva y qué viene después. En 9 de Julio 3288.",
+      "h1": "Tratamiento de conducto (endodoncia) en Santa Fe para conservar el diente natural",
       "h2s": [
         "¿Qué es un tratamiento de conducto o endodoncia?",
         "¿Cuándo hace falta una endodoncia?",
+        "¿Qué pasa si no me hago una endodoncia?",
+        "¿Cómo se hace una endodoncia paso a paso?",
         "¿Duele el tratamiento de conducto?",
         "¿Cuántas sesiones lleva una endodoncia?",
         "Después del conducto: ¿hace falta una corona?",
-        "Precio del tratamiento de conducto en Santa Fe"
+        "Precio del tratamiento de conducto en Santa Fe",
+        {
+          "t": "Pedir turno para una endodoncia en Santa Fe",
+          "bloque": "turno"
+        }
       ],
       "faq": []
     },
@@ -290,17 +399,25 @@
       "slug": "limpieza-dental-santa-fe",
       "tipo": "tratamiento",
       "estado": "si",
-      "nombre": "Limpieza y operatoria",
+      "nombre": "Limpieza y revisiones",
       "grupo": "Odontología general",
       "clave": "limpieza dental Santa Fe",
-      "title": "Limpieza dental y operatoria en Santa Fe",
-      "description": "Limpieza dental, controles y arreglo de caries (operatoria) en Santa Fe: qué incluye y cada cuánto conviene. Clínica dental en 9 de Julio 3288.",
-      "h1": "Limpieza dental y operatoria en Santa Fe",
+      "title": "Limpieza dental en Santa Fe: revisiones y prevención",
+      "description": "Limpieza dental, revisiones y arreglo de caries pequeñas en Santa Fe: qué incluye, cada cuánto conviene y cómo prevenir. Clínica en 9 de Julio 3288.",
+      "h1": "Limpieza dental y revisiones en Santa Fe: prevención de caries y sarro",
       "h2s": [
-        "Qué incluye una limpieza dental",
+        "¿Qué incluye una limpieza dental profesional?",
         "¿Cada cuánto conviene una limpieza dental?",
-        "Caries y arreglos (operatoria dental)",
-        "Precio de la limpieza dental en Santa Fe"
+        "¿Por qué son importantes las revisiones periódicas?",
+        "Placa y sarro: cómo se forman y por qué irritan las encías",
+        "Caries pequeñas: cómo se arreglan (operatoria dental)",
+        "¿Y si la caries ya es grande?",
+        "Cómo prevenir las caries en casa",
+        "¿Cuánto cuesta una limpieza dental en Santa Fe?",
+        {
+          "t": "Pedir turno para una revisión y limpieza en Santa Fe",
+          "bloque": "turno"
+        }
       ],
       "faq": []
     },
@@ -348,19 +465,25 @@
       "slug": "extraccion-muelas-de-juicio-santa-fe",
       "tipo": "tratamiento",
       "estado": "si",
-      "nombre": "Extracciones y muelas de juicio",
+      "nombre": "Muelas de juicio",
       "grupo": "Odontología general",
       "clave": "extracción dental Santa Fe (muelas de juicio)",
-      "title": "Extracción dental y muelas de juicio en Santa Fe",
-      "description": "Cuándo hace falta sacar un diente o las muelas de juicio, cómo es la extracción y qué cuidados tener después. Clínica dental. En 9 de Julio 3288.",
-      "h1": "Extracciones dentales y muelas de juicio en Santa Fe",
+      "title": "Extracción de muelas de juicio en Santa Fe: cuándo y cómo",
+      "description": "Cuándo hace falta sacar una muela de juicio, cómo es la intervención y qué cuidados tener después. Clínica dental en 9 de Julio 3288, Santa Fe.",
+      "h1": "Extracción de muelas de juicio en Santa Fe: cuándo hace falta y cómo es",
       "h2s": [
-        "¿Cuándo hace falta una extracción dental?",
-        "Muelas de juicio: ¿hay que sacarlas siempre?",
-        "Cómo es el procedimiento, paso a paso",
-        "Cuidados después de sacar un diente",
-        "Cuándo llamar al dentista: alveolitis y otras señales",
-        "¿Cuánto cuesta sacar una muela en Santa Fe?"
+        "¿Cuándo hace falta sacar una muela de juicio?",
+        "Síntomas de una muela de juicio impactada o infectada",
+        "Cómo es la intervención, paso a paso",
+        "Anestesia y sedación para sacar una muela",
+        "Cuidados y recuperación después de sacar la muela",
+        "¿Qué complicaciones puede haber y cuándo consultar?",
+        "¿Quién interviene y cuándo se deriva a un especialista?",
+        "¿Cuánto cuesta sacar una muela en Santa Fe?",
+        {
+          "t": "Pedir turno para sacar muelas de juicio en Santa Fe",
+          "bloque": "turno"
+        }
       ],
       "faq": []
     },

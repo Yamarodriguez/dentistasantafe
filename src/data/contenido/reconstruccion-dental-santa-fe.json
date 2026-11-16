@@ -1,0 +1,214 @@
+{
+  "slug": "reconstruccion-dental-santa-fe",
+  "conteo": {
+    "clave": "reconstrucci[oó]n(es)? dental(es)?|diente reconstruido",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "mlp-caries",
+    "mlp-coronas",
+    "mlp-conducto",
+    "mlp-bruxismo",
+    "cc-bonding",
+    "cc-empastes",
+    "mh-coronas"
+  ],
+  "intro": "La **reconstrucción dental** busca recuperar la forma y la función de un diente roto, gastado o con una caries grande. En esta página, nuestra clínica dental en Santa Fe explica cuándo alcanza con resina, cuándo hace falta una corona, cuánto dura y si duele.",
+  "resumen": [
+    "La reconstrucción dental busca recuperar la forma y la función de un diente roto, gastado o con mucha caries.",
+    "Con resina compuesta suele hacerse en una sola visita.",
+    "Si queda poco diente, el odontólogo puede indicar una corona.",
+    "Después de un tratamiento de conducto, el diente normalmente necesita una corona."
+  ],
+  "secciones": {
+    "¿Qué es la reconstrucción dental y cuándo hace falta?": [
+      "Es el tratamiento que busca **recuperar la forma y la función** de un diente roto, gastado o dañado por una caries grande.",
+      "Según el caso, se hace con **resina compuesta** pegada al diente o, si queda poco diente, con una corona. Estas son las situaciones más frecuentes:",
+      {
+        "lista": [
+          "Un diente astillado o roto por un golpe o al morder algo duro.",
+          "Una caries grande, una vez retirada la parte dañada.",
+          "Un diente gastado por apretar o rechinar.",
+          "Un diente que quedó débil después de un tratamiento de conducto."
+        ]
+      },
+      "Los dientes débiles y los rellenos grandes tienen más riesgo de fractura, por eso conviene consultar ante la primera molestia.",
+      "Si el diente se rompió hace poco o se cayó un empaste, antes del turno hay información sobre [qué hacer con un diente roto o un empaste caído](/diente-roto-empaste-caido/). Las caries pequeñas, en cambio, se arreglan con un empaste dentro de la [limpieza y operatoria dental](/limpieza-dental-santa-fe/)."
+    ],
+    "Reconstrucción dental con resina compuesta: cómo se hace": [
+      "La resina compuesta es un material del color del diente que se moldea sobre la pieza y se endurece con una luz especial; en general se hace en una sola visita.",
+      "También sirve para cerrar espacios, disimular astillas o grietas menores y cambiar la forma del diente. Es reversible, a diferencia de las carillas de porcelana.",
+      {
+        "h3": "¿Cómo se hace paso a paso?"
+      },
+      {
+        "pasos": [
+          "Elección del tono: se elige el color de la resina con una guía de colores.",
+          "Limpieza del diente: se retira la parte dañada o con caries.",
+          "Preparación: se vuelve rugosa la superficie y se aplica un líquido adhesivo.",
+          "Colocación: se aplica la resina, se moldea y se alisa.",
+          "Endurecido: una luz especial endurece el material.",
+          "Pulido: se pule para lograr un brillo natural."
+        ]
+      },
+      {
+        "h3": "¿Cuánto tarda?"
+      },
+      "Cleveland Clinic indica **entre 30 y 60 minutos por diente** para este tipo de resina.",
+      "Se usa para cambios pequeños. Si el daño es grande, pueden hacer falta otros tratamientos, como una corona."
+    ],
+    "¿Resina o corona? Qué indica el odontólogo según cuánto diente queda": [
+      "Si queda suficiente diente, alcanza con resina; si queda poco o está débil, se indica una corona, una funda con forma de diente que lo cubre por encima de la encía.",
+      {
+        "tabla": {
+          "cab": [
+            "",
+            "Resina compuesta",
+            "Corona"
+          ],
+          "filas": [
+            [
+              "Cuándo se usa",
+              "Daño pequeño o moderado, con diente suficiente",
+              "Caries grande, diente débil, astillado o roto, o gastado por rechinar"
+            ],
+            [
+              "Visitas",
+              "En general una",
+              "Suele hacerse en dos: preparación y colocación"
+            ],
+            [
+              "Material",
+              "Resina del color del diente",
+              "Metal, resina, cerámica o porcelana"
+            ],
+            [
+              "Puntos a tener en cuenta",
+              "Se mancha más que la porcelana y puede astillarse con el tiempo",
+              "Puede aparecer caries debajo, que se caiga o se astille, o sensibilidad al frío y al calor"
+            ]
+          ]
+        }
+      },
+      "Entre ambas existen las incrustaciones (inlays y onlays), que se hacen en laboratorio y suelen necesitar dos citas: sirven cuando hay más daño que para un empaste, pero no tanto como para una corona.",
+      "Lo define el dentista al examinar el diente. [confirmar: materiales de corona y opciones de laboratorio que trabaja la clínica]",
+      {
+        "mas": {
+          "t": "Prótesis dentales y coronas en Santa Fe",
+          "href": "/protesis-dentales-santa-fe/"
+        }
+      }
+    ],
+    "Reconstrucción del diente después de un tratamiento de conducto": [
+      "Después de un tratamiento de conducto, el diente se sella de forma provisoria y **normalmente se coloca una corona** permanente.",
+      "Cuando el conducto se hace por una caries o una lesión, MedlinePlus indica que casi siempre se necesita una corona después. Hasta que el diente esté restaurado, conviene no masticar cosas duras con él.",
+      {
+        "h3": "¿Se puede reconstruir con resina en lugar de corona?"
+      },
+      "Depende de cuánto diente quede. Lo decide el odontólogo al examinarlo.",
+      {
+        "mas": {
+          "t": "Tratamiento de conducto en Santa Fe",
+          "href": "/tratamiento-de-conducto-santa-fe/"
+        }
+      }
+    ],
+    "Desgaste por bruxismo: cómo se repara y se protege el diente": [
+      "El bruxismo es **apretar o rechinar los dientes** sin darse cuenta, de día o de noche, y puede dejarlos gastados y sensibles.",
+      "Las coronas se usan, entre otros casos, para cubrir dientes gastados por rechinar. El odontólogo decide qué opción corresponde según cuánto desgaste haya.",
+      "Una reconstrucción repara el daño, pero no corta el hábito. Si seguís apretando, una placa de relajación de uso nocturno protege los dientes de la presión y ayuda a cuidar la corona.",
+      {
+        "mas": {
+          "t": "Bruxismo y placa de relajación en Santa Fe",
+          "href": "/bruxismo-placa-de-relajacion-santa-fe/"
+        }
+      }
+    ],
+    "¿Cuánto dura un diente reconstruido y cómo se cuida?": [
+      "La resina dura **entre 3 y 10 años** antes de necesitar retoques o reemplazo, según los hábitos y la cantidad de dientes tratados.",
+      "Los empastes duran entre 10 y 20 años según el material, y la mayoría de las coronas dura al menos 5 años y puede llegar a 15 o 20. Las cifras varían según el caso.",
+      "Para que dure más:",
+      {
+        "lista": [
+          "Cepillarse al menos dos veces al día con cepillo suave y pasta con flúor, y usar hilo dental todos los días.",
+          "Ir a los controles y a la limpieza periódica.",
+          "No morderse las uñas, no masticar lapiceras y no abrir paquetes con los dientes.",
+          "Reducir café, té, vino tinto y cítricos, porque la resina se mancha más que la porcelana.",
+          "Dejar de fumar, si fumás."
+        ]
+      },
+      {
+        "h3": "¿Cuándo conviene volver al consultorio?"
+      },
+      "Si duele al morder (se corrige ajustando el empaste), si la sensibilidad no pasa en una o dos semanas, si el dolor con frío o calor es intenso y persistente, o si hay un dolor fuerte que late: puede indicar daño en el nervio."
+    ],
+    "¿Duele? Molestias durante y después del tratamiento": [
+      "Para preparar una corona, el diente se anestesia; la resina estética, según Cleveland Clinic, no requiere tiempo de recuperación y se vuelve a las actividades normales al salir.",
+      "Con la resina puede haber sensibilidad temporal. Después de un empaste, la sensibilidad al frío o al calor y la molestia en la encía suelen pasar en una o dos semanas; con una corona, si no pasa, hay que consultar al odontólogo.",
+      {
+        "h3": "¿Qué sensaciones aparecen después del tratamiento?"
+      },
+      "Algunas son esperables: sensibilidad pasajera o la sensación de que la mordida cambió. Si al cerrar la boca se siente alto, se ajusta en el control.",
+      "Un dolor pulsátil fuerte puede indicar que la caries llegó al nervio; el odontólogo decide si hace falta un tratamiento de conducto.",
+      "Si hay dolor intenso que no cede, hinchazón de cara o cuello, fiebre o dificultad para tragar o respirar, hay que ir a una guardia o a emergencias sin esperar el turno; lo mismo fuera del horario de la clínica."
+    ],
+    "Precio de una reconstrucción dental en Santa Fe": [
+      "El precio se informa después de la consulta, cuando el odontólogo examinó el diente y definió si alcanza con resina o hace falta una corona.",
+      "Depende de cuánto diente haya que reconstruir y de la técnica indicada. Los valores que aparecen en internet para otros países no sirven de referencia.",
+      "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "Si tenés un diente roto o gastado, podés consultar por [odontología en Santa Fe](/) con turno previo, de lunes a viernes de 8 a 20 h. Al pedir turno se confirma si hay convenio con tu obra social o prepaga.",
+      "¿Necesitás visitar la clínica? Podés pedir turno por WhatsApp."
+    ]
+  },
+  "faq_titulo": "Preguntas frecuentes sobre la reconstrucción de dientes",
+  "faq": [
+    {
+      "q": "¿Cuánto dura una reconstrucción dental con resina?",
+      "a": "Entre **3 y 10 años** según Cleveland Clinic, hasta que necesita retoques o reemplazo. Depende de los hábitos y de cuántos dientes se traten."
+    },
+    {
+      "q": "¿Qué es un diente reconstruido con composite?",
+      "a": "Es un diente al que se le devolvió la forma con resina compuesta, un material del color del diente que se endurece con una luz especial. \"Composite\" y \"resina compuesta\" nombran el mismo material."
+    },
+    {
+      "q": "¿Es normal sentir dolor en un diente reconstruido?",
+      "a": "Puede haber sensibilidad pasajera al frío o al calor. Si el dolor es **intenso y persistente**, late o aparece al morder, conviene ir al odontólogo; con hinchazón de cara, fiebre o dificultad para tragar o respirar, hay que ir a una guardia."
+    },
+    {
+      "q": "¿Cuándo no alcanza con un empaste de resina?",
+      "a": "Si queda poco diente se indica una corona; si la caries llegó a la pulpa, hace falta un tratamiento de conducto, y si el diente está destruido, a veces hay que extraerlo."
+    },
+    {
+      "q": "¿Hay que hacer una corona después de una endodoncia?",
+      "a": "Normalmente sí: después del tratamiento de conducto el diente se sella de forma provisoria y se coloca una **corona permanente**."
+    },
+    {
+      "q": "¿Cuántas visitas hacen falta para reconstruir un diente?",
+      "a": "Con resina, en general **una sola visita**. Una corona suele necesitar dos: preparación y colocación."
+    },
+    {
+      "q": "¿Cuánto cuesta reconstruir un diente?",
+      "a": "El precio se informa después de la consulta, porque depende de cuánto diente haya que reconstruir y de la técnica que indique el odontólogo."
+    },
+    {
+      "q": "¿Qué pasa si sigo apretando los dientes después de repararlos?",
+      "a": "El diente puede volver a gastarse. Una **placa de relajación** de uso nocturno protege los dientes de la presión."
+    }
+  ],
+  "fotos": {
+    "¿Qué es la reconstrucción dental y cuándo hace falta?": "operatoria",
+    "Reconstrucción del diente después de un tratamiento de conducto": "conducto-instrumental",
+    "Desgaste por bruxismo: cómo se repara y se protege el diente": "protesis",
+    "¿Cuánto dura un diente reconstruido y cómo se cuida?": "estetica-cuidados",
+    "Nuestro centro odontológico en Santa Fe": "opiniones"
+  }
+}

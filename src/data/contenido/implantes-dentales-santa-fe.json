@@ -21,8 +21,6 @@
     "aap-implantes",
     "cochrane-carga"
   ],
-  "autor": null,
-  "revisado": null,
   "secciones": {
     "¿Qué es un implante dental?": [
       "Un implante dental es una pieza que se coloca con una cirugía en el hueso del maxilar para sostener dientes artificiales: [una corona, un puente o una prótesis](/protesis-dentales-santa-fe/).",
@@ -39,6 +37,10 @@
           "Da soporte a la encía y a los dientes vecinos."
         ]
       },
+      {
+        "h3": "¿Qué pasa si no se repone un diente perdido?"
+      },
+      "Cuando falta un diente, el hueso del maxilar de esa zona puede reducirse: la FDA habla de una pérdida de hueso rápida. Reponerlo con un implante es una de las opciones; el puente y la prótesis removible se comparan más abajo, y el dentista indica cuál corresponde en cada caso.",
       "No todas las personas son candidatas de la misma manera: el estado de salud general influye en si conviene colocar implantes, en cuánto tarda en cicatrizar y en cuánto dura el implante. Por eso la decisión se toma después de una consulta odontológica de evaluación."
     ],
     "Tipos de implantes": [
@@ -127,14 +129,17 @@
         "pasos": [
           "Evaluación: el dentista revisa tu historia clínica y planifica el implante con imágenes de la boca.",
           "Colocación: el implante se coloca en el hueso con una cirugía.",
-          "Cicatrización: la unión con el hueso puede llevar varios meses o más (una fuente habla de 3 a 9 meses); en los dientes de adelante se suele poner un diente provisorio para que no quede el hueco.",
+          "Cicatrización: la unión con el hueso puede llevar varios meses o más (Cleveland Clinic habla de entre 3 y 9 meses, según la cicatrización de cada persona); en los dientes de adelante se suele poner un diente provisorio para que no quede el hueco.",
           "Diente definitivo: se colocan el pilar y la corona, el puente o la prótesis; suele llevar alrededor de una hora y a veces requiere una segunda cirugía menor.",
           "Controles: ir a los controles con el dentista y avisar enseguida si el implante se mueve o duele."
         ]
       }
     ],
     "¿Duele? ¿Cuánto dura un implante?": [
-      "En general, el implante se coloca con **anestesia local**, que adormece la encía; en algunos casos también se usa sedación. Qué anestesia corresponde en cada caso lo indica el odontólogo.",
+      {
+        "h3": "¿Duele ponerse un implante?"
+      },
+      "Durante la cirugía no deberías sentir dolor, porque se hace con **anestesia local**, que adormece la encía; en algunos casos también se usa sedación. Qué anestesia corresponde en cada caso lo indica el odontólogo.",
       "Después es normal tener algunas molestias e hinchazón, que pueden aliviarse con los analgésicos que indique el dentista. La primera etapa de la curación lleva alrededor de una semana, aunque la unión del implante con el hueso tarda meses.",
       {
         "h3": "¿Cuánto dura un implante dental?"
@@ -185,24 +190,24 @@
       "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
     },
     {
-      "q": "¿Qué estudios se hacen antes de un implante?",
-      "a": "Radiografías dentales para planificarlo y, antes de la cirugía, puede usarse una tomografía de haz cónico, sobre todo si se colocan varios implantes."
-    },
-    {
-      "q": "¿Qué riesgos tiene un implante?",
-      "a": "Riesgos posibles: daño en dientes o tejidos cercanos durante la colocación y adormecimiento si se afecta un nervio. También puede **aflojarse** por una infección o una cicatrización lenta."
-    },
-    {
-      "q": "¿Qué beneficios tiene un implante?",
-      "a": "Ayuda a recuperar la masticación y el aspecto, a evitar que se reduzca el hueso del maxilar y da **soporte a la encía** y a los dientes vecinos."
-    },
-    {
       "q": "¿Hay que avisar que tengo implantes antes de una resonancia?",
       "a": "Sí. Antes de una resonancia o una radiografía hay que avisar que tenés implantes, porque pueden **alterar la imagen**."
     },
     {
       "q": "¿Cuánto cuesta un implante en Santa Fe?",
       "a": "Depende de cada caso: el precio **se informa después de la consulta**, cuando el dentista ya evaluó qué tratamiento hace falta."
+    },
+    {
+      "q": "¿Qué hago si el implante duele o se siente flojo?",
+      "a": "Conviene avisar al odontólogo enseguida: **un implante que duele o se mueve** se revisa en consulta. Si además hay mucha hinchazón, fiebre o dificultad para tragar o respirar, hay que ir a una guardia: la clínica no tiene guardia. Qué lo causa y qué corresponde hacer lo decide el profesional."
+    },
+    {
+      "q": "¿PAMI cubre los implantes?",
+      "a": "No tenemos confirmado que la clínica atienda por PAMI. La cobertura de implantes la define cada obra social, así que conviene consultarla con ella antes del turno; por WhatsApp se puede preguntar con qué obras sociales trabaja la clínica."
+    },
+    {
+      "q": "¿Hay una edad máxima para ponerse implantes?",
+      "a": "No hay una edad máxima fija. Según Cleveland Clinic, lo habitual es hacerlo en adultos que ya terminaron de crecer, y lo que más influye es el **estado de salud general**, que se evalúa en la consulta."
     }
   ],
   "fotos": {
@@ -214,12 +219,12 @@
     "Nuestro centro odontológico en Santa Fe": "opiniones"
   },
   "resumen": [
-    "Un implante dental es una raíz artificial, normalmente de titanio u óxido de circonio, que se coloca en el hueso y sostiene una corona, un puente o una prótesis.",
+    "Un implante es una raíz artificial, normalmente de titanio u óxido de circonio, que se coloca en el hueso y sostiene una corona, un puente o una prótesis.",
     "Ayuda a recuperar la masticación y el aspecto, y a que el hueso no se reduzca donde falta el diente.",
     "La cicatrización del implante en el hueso puede llevar varios meses o más.",
     "La salud general influye en si sos candidato y en cuánto dura el implante."
   ],
-  "faq_titulo": "Preguntas frecuentes sobre implantes dentales",
+  "faq_titulo": "Preguntas frecuentes sobre implantes",
   "procedimiento": {
     "@type": "SurgicalProcedure",
     "description": "Un implante dental es un dispositivo que se coloca con cirugía en el hueso maxilar y sostiene dientes artificiales: coronas, puentes o prótesis.",

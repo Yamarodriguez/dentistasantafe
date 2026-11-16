@@ -10,15 +10,18 @@ import '@fontsource/playfair-display/latin-600.css';
 import '@fontsource/playfair-display/latin-ext-600.css';
 import '../styles/base.css';
 import temas from '../data/temas.json';
-import { site, ruta, enlaceTurno, tratamientos, problemas, foto, telefonoDe, etiquetaTelefono } from '../lib/datos.js';
+import { site, ruta, enlaceTurno, tratamientos, hubs, problemas, foto, telefonoDe, etiquetaTelefono } from '../lib/datos.js';
 import { schemaDe } from '../lib/schema.js';
 
 // Menú como la referencia: tratamientos principales sueltos, el resto en «Otros tratamientos»
-const MENU_ORTODONCIA = ['ortodoncia-santa-fe', 'ortodoncia-invisible-santa-fe'];
+// Ortodoncia y Estética dental como COV (Yama, 2026-11-16): primero la página general del grupo, luego sus tratamientos.
+const MENU_ORTODONCIA = ['ortodoncia-santa-fe', 'brackets-santa-fe', 'ortodoncia-invisible-santa-fe'];
 // Mismo nombre en menú y pie (análisis SEO 2026-11-15).
-const ETIQUETA_MENU = {};
+const ETIQUETA_MENU = { 'ortodoncia-santa-fe': 'Ortodoncia: cómo elegir', 'estetica-dental-santa-fe': 'Estética dental: todos los tratamientos' };
 const etiqueta = (t) => ETIQUETA_MENU[t.slug] ?? t.nombre.replace(/\s*\(.*?\)/, '');
-const MENU_ESTETICA = ['carillas-dentales-santa-fe', 'blanqueamiento-dental-santa-fe'];
+const MENU_ESTETICA = ['estetica-dental-santa-fe', 'blanqueamiento-dental-santa-fe', 'carillas-dentales-santa-fe', 'reconstruccion-dental-santa-fe', 'protesis-dentales-santa-fe'];
+// Páginas por slug, en el orden de las listas del menú (incluye las páginas generales de grupo).
+const deSlug = (s) => [...hubs, ...tratamientos].find((t) => t.slug === s);
 const MENU_SUELTOS = ['implantes-dentales-santa-fe', ...MENU_ESTETICA, ...MENU_ORTODONCIA];
 
 const { pagina } = Astro.props;
@@ -95,13 +98,13 @@ const vars = [
           <details class="desplegable">
             <summary>Ortodoncia</summary>
             <ul class="panel">
-              {tratamientos.filter((t) => MENU_ORTODONCIA.includes(t.slug)).map((t) => <li><a href={ruta(t.slug)}>{etiqueta(t)}</a></li>)}
+              {MENU_ORTODONCIA.map(deSlug).filter(Boolean).map((t) => <li><a href={ruta(t.slug)}>{etiqueta(t)}</a></li>)}
             </ul>
           </details>
           <details class="desplegable">
             <summary>Estética dental</summary>
             <ul class="panel">
-              {tratamientos.filter((t) => MENU_ESTETICA.includes(t.slug)).map((t) => <li><a href={ruta(t.slug)}>{etiqueta(t)}</a></li>)}
+              {MENU_ESTETICA.map(deSlug).filter(Boolean).map((t) => <li><a href={ruta(t.slug)}>{etiqueta(t)}</a></li>)}
             </ul>
           </details>
           <a href="/obras-sociales/">Obras sociales</a>
@@ -158,7 +161,7 @@ const vars = [
         <div>
           <p class="pie-titulo"><a href="/tratamientos/">Tratamientos dentales</a></p>
           <ul class="pie-lista">
-            {tratamientos.map((t) => <li><a href={ruta(t.slug)}>{etiqueta(t)}</a></li>)}
+            {[...hubs, ...tratamientos].map((t) => <li><a href={ruta(t.slug)}>{t.nombre.replace(/\s*\(.*?\)/, '')}</a></li>)}
           </ul>
         </div>
         {problemas.length > 0 && (

@@ -11,54 +11,81 @@
       "centro odontológico"
     ]
   },
-  "intro": "La **limpieza dental profesional** y los controles con el dentista ayudan a cuidar la **salud bucal**: dientes y encías. En esta página, nuestra **clínica dental en Santa Fe** explica cada cuánto se aconseja, cómo se tratan las caries y qué es el bruxismo.",
   "fuentes": [
     "mlp-caries",
     "mlp-encias",
-    "mlp-bruxismo"
+    "mlp-sangrado",
+    "mlp-periodontitis",
+    "mlp-color",
+    "mlp-saluddental"
   ],
-  "autor": null,
-  "revisado": null,
+  "intro": "La **limpieza dental profesional** y las revisiones con el dentista ayudan a descubrir las caries a tiempo y a cuidar las encías. En esta página, nuestra **clínica dental en Santa Fe** explica qué incluye, cada cuánto se aconseja y cómo se arreglan las caries pequeñas.",
+  "resumen": [
+    "MedlinePlus aconseja visitar al dentista al menos cada 6 meses para retirar la placa y el sarro.",
+    "La placa que no se retira se endurece y forma sarro, que puede irritar las encías.",
+    "Muchas caries no dan síntomas y se descubren en las revisiones; las pequeñas se arreglan con un empaste.",
+    "La limpieza en el consultorio, junto con el cepillado y el hilo dental, ayuda a que la gingivitis no avance."
+  ],
   "secciones": {
-    "Qué incluye una limpieza dental": [
-      "[Pendiente: qué incluye en la clínica y si el control se hace en la misma visita, confirmado por el odontólogo]",
-      "La placa bacteriana que no se retira se endurece y **forma sarro**, que puede irritar las encías.",
-      "La mayoría de las caries se descubren en los controles, y las radiografías pueden mostrarlas antes de que se vean."
+    "¿Qué incluye una limpieza dental profesional?": [
+      "Una limpieza dental profesional sirve para **retirar la placa y el sarro** de los dientes, que se acumulan sobre todo en la línea de la encía.",
+      "Esta visita es un complemento del cepillado y del hilo dental: lo que se hace en casa retira la placa todos los días, y el consultorio retira lo que quedó y se endureció. Además, el dentista aprovecha para mirar los dientes y las encías, y puede indicar radiografías si lo considera necesario.",
+      "[confirmar: qué incluye la limpieza en la clínica (ultrasonido, pulido, flúor) y si el control se hace en la misma visita]",
+      "Si hay enfermedad de las encías, el dentista puede indicar una limpieza dental completa, que a veces requiere anestesia local; ese caso se explica en [periodoncia y encías](/periodoncia-santa-fe/)."
     ],
     "¿Cada cuánto conviene una limpieza dental?": [
-      "MedlinePlus (la biblioteca médica de los Institutos Nacionales de Salud de EE. UU.) aconseja una limpieza profesional **cada 6 meses**.",
-      "Si tenés enfermedad de las encías, el dentista puede indicarte otro plazo.",
-      "Entre una limpieza y otra, en casa:",
+      "MedlinePlus aconseja visitar al dentista **al menos cada 6 meses** para retirar la placa y el sarro y seguir sus recomendaciones.",
+      "El plazo puede ser otro según cada persona: quien tiene periodontitis (una infección crónica de las encías) puede necesitar limpiezas profesionales cada 3 meses.",
+      "El dentista decide el intervalo después de revisar tu boca. En nuestro centro odontológico, la revisión y la limpieza se coordinan con turno, de lunes a viernes de 8 a 20 h."
+    ],
+    "¿Por qué son importantes las revisiones periódicas?": [
+      "En una revisión el dentista busca problemas antes de que den síntomas: la mayoría de las **caries se descubren en los controles**.",
       {
         "lista": [
-          "Cepillarse al menos dos veces al día.",
-          "Usar hilo dental al menos una vez al día.",
-          "Reducir las comidas entre horas y las bebidas azucaradas."
+          "Descubrir caries a tiempo: las radiografías pueden mostrarlas antes de que se vean.",
+          "Detectar la gingivitis, que suele revertirse con cepillado diario, hilo dental y limpiezas regulares.",
+          "Consultar si hay dolor o molestia en un diente o manchas oscuras."
         ]
       },
-      "La limpieza profesional regular, junto con el cepillado y el hilo dental, también ayuda a revertir [la gingivitis](/periodoncia-santa-fe/).",
+      {
+        "h3": "¿Qué pasa si no voy a las revisiones?"
+      },
+      "Una caries sin síntomas puede crecer sin que lo notes. Si es grande, queda poco diente y puede hacer falta una corona, un tratamiento de conducto o, si el diente se destruye, una extracción.",
+      "Con las encías pasa algo parecido: si la gingivitis no se trata puede convertirse en periodontitis, que daña el tejido que sostiene los dientes."
+    ],
+    "Placa y sarro: cómo se forman y por qué irritan las encías": [
+      "La placa bacteriana que no se retira se endurece y forma sarro, que puede irritar las encías.",
+      "La causa principal del sangrado de las encías es justamente la acumulación de placa en la línea de la encía. Cuando las encías se ven rojas e hinchadas y sangran con facilidad, puede tratarse de gingivitis, la forma leve de la enfermedad de las encías; el dentista confirma la causa.",
+      {
+        "h3": "¿La limpieza es lo mismo que un blanqueamiento?"
+      },
+      "No. La limpieza retira placa y sarro; el blanqueamiento es otro tratamiento. Las manchas superficiales o por la dieta suelen mejorar con una limpieza profesional o con [blanqueamiento dental](/blanqueamiento-dental-santa-fe/); las más profundas pueden necesitar empastes, carillas o coronas.",
       {
         "mas": {
-          "t": "Periodoncia y encías en Santa Fe",
-          "href": "/periodoncia-santa-fe/"
+          "t": "Blanqueamiento dental en Santa Fe",
+          "href": "/blanqueamiento-dental-santa-fe/"
         }
       }
     ],
-    "Caries y arreglos (operatoria dental)": [
+    "Caries pequeñas: cómo se arreglan (operatoria dental)": [
       "Una caries es un **daño o agujero en el diente**: las bacterias convierten azúcares y almidones en ácidos que dañan el esmalte.",
-      "El arreglo de las caries forma parte de la **operatoria dental**.",
+      "El arreglo de las caries forma parte de la operatoria dental.",
       {
         "h3": "¿Cómo me doy cuenta de que tengo una caries?"
       },
       "Muchas veces no da síntomas. Cuando da, suele ser [dolor de muela](/dolor-de-muela/) con lo dulce, lo frío o lo caliente, o manchas oscuras o agujeros visibles.",
       {
-        "h3": "¿Cómo se arregla?"
+        "h3": "¿Cómo se arregla una caries pequeña?"
       },
-      "Con un **empaste**: se retira la parte con caries y se rellena, hoy sobre todo con resina compuesta (también existen el ionómero de vidrio y la amalgama). Si la caries es grande y queda poco diente, se usa [una corona](/protesis-dentales-santa-fe/); si llega al nervio, [un tratamiento de conducto](/tratamiento-de-conducto-santa-fe/).",
+      "Con un **empaste**: se retira la parte con caries y se rellena, hoy sobre todo con resina compuesta. También existen el ionómero de vidrio y la amalgama; el dentista elige el material según cada caso."
+    ],
+    "¿Y si la caries ya es grande?": [
+      "Si la caries es grande y queda poco diente, se usa una corona que cubre el diente restante; si llega al nervio, un tratamiento de conducto.",
+      "Los rellenos grandes y los dientes débiles aumentan el riesgo de fractura dental. Esos casos se explican en [reconstrucción dental](/reconstruccion-dental-santa-fe/) y en [tratamiento de conducto](/tratamiento-de-conducto-santa-fe/).",
       {
         "mas": {
-          "t": "Tratamiento de conducto en Santa Fe",
-          "href": "/tratamiento-de-conducto-santa-fe/"
+          "t": "Reconstrucción dental en Santa Fe",
+          "href": "/reconstruccion-dental-santa-fe/"
         }
       },
       {
@@ -66,54 +93,65 @@
           "t": "Prótesis dentales y coronas en Santa Fe",
           "href": "/protesis-dentales-santa-fe/"
         }
-      },
-      "Si apretás o rechinás los dientes, el desgaste puede ser por bruxismo: lo explicamos en [bruxismo y placa de relajación](/bruxismo-placa-de-relajacion-santa-fe/)."
+      }
     ],
-    "Precio de la limpieza dental en Santa Fe": [
-      "El precio de una limpieza o de un arreglo depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
+    "Cómo prevenir las caries en casa": [
+      "Cepillarse al menos **dos veces al día** con pasta con fluoruro y usar hilo dental a diario es la base para prevenir las caries.",
+      {
+        "lista": [
+          "Cepillado al menos dos veces al día.",
+          "Hilo dental al menos una vez al día.",
+          "Menos picoteo y menos bebidas azucaradas.",
+          "Selladores en las muelas y flúor, si el dentista los indica."
+        ]
+      },
+      "Los selladores se colocan en las superficies de masticación de premolares y molares, y sirven para prevenir caries.",
+      "Las caries son muy comunes en niños y adultos jóvenes, por eso los controles también cuentan en la infancia. Los controles pueden empezar temprano; para los niños, la clínica atiende odontopediatría con turno."
+    ],
+    "¿Cuánto cuesta una limpieza dental en Santa Fe?": [
+      "El precio depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué hace falta.",
       "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno."
     ],
     "Nuestro centro odontológico en Santa Fe": [
-      "Tener a [tu dentista en Santa Fe](/) y hacer los controles con turno ayuda a descubrir las caries antes de que duelan.",
+      "Hacer los controles con turno con [tu dentista en Santa Fe](/) ayuda a descubrir las caries antes de que duelan.",
       "Atendemos de lunes a viernes de 8 a 20 h, con obra social o de forma particular. ¿Necesitás visitar la clínica? Podés pedir turno por WhatsApp."
     ]
   },
+  "faq_titulo": "Preguntas frecuentes sobre limpieza dental, revisiones y caries",
   "faq": [
     {
-      "q": "¿Cada cuánto conviene hacerse una limpieza?",
-      "a": "MedlinePlus aconseja una limpieza profesional cada 6 meses; si tenés enfermedad de las encías, el dentista puede indicarte otro plazo."
+      "q": "¿Cada cuánto tiempo hay que ir al dentista a revisarse?",
+      "a": "MedlinePlus recomienda ir **al menos cada 6 meses**, para retirar la placa y el sarro y seguir las recomendaciones del dentista. Si tenés enfermedad de las encías, puede indicarte otro plazo."
     },
     {
-      "q": "¿Qué es el sarro?",
-      "a": "Es la placa bacteriana que no se retira y **se endurece**; el sarro puede irritar las encías."
+      "q": "¿Para qué sirve si ya me cepillo todos los días?",
+      "a": "El cepillado y el hilo dental retiran la placa a diario, pero la que no se retira **se endurece y forma sarro**. Por eso se aconsejan limpiezas profesionales periódicas."
     },
     {
-      "q": "¿Una caries siempre duele?",
-      "a": "No. Muchas veces **no da síntomas** y se descubre en un control con el dentista."
+      "q": "¿Qué es el sarro y por qué irrita las encías?",
+      "a": "Es la placa bacteriana que no se retiró y se endureció. Puede irritar las encías y favorecer la gingivitis, que se ve como encías rojas, hinchadas y que sangran."
     },
     {
-      "q": "¿Con qué se hacen hoy los empastes?",
-      "a": "Sobre todo con **resina compuesta**; también existen el ionómero de vidrio y la amalgama."
+      "q": "¿Las caries siempre producen dolor?",
+      "a": "No. Muchas veces **no dan síntomas** y se descubren en un control; las radiografías pueden mostrarlas antes de que se vean."
     },
     {
-      "q": "¿Cómo se previenen las caries?",
-      "a": "Cepillándose al menos dos veces al día, usando hilo dental a diario, con una limpieza en el consultorio cada 6 meses y con menos picoteo y bebidas azucaradas."
+      "q": "¿Se pueden saltear los controles si no me duele nada?",
+      "a": "No conviene: una caries puede crecer sin dar molestias y la gingivitis sin tratar puede pasar a periodontitis. Las revisiones permiten actuar a tiempo."
     },
     {
-      "q": "¿Qué pasa si la caries es grande?",
-      "a": "Si queda poco diente se usa una **corona**; si llega al nervio, un tratamiento de conducto, y si destruye el diente, puede hacer falta extraerlo."
+      "q": "¿Con qué material se hace un empaste?",
+      "a": "Hoy sobre todo con resina compuesta; también existen el ionómero de vidrio y la amalgama. El dentista elige según cada caso."
+    },
+    {
+      "q": "¿Qué hábitos ayudan a evitar las caries?",
+      "a": "Cepillarse al menos dos veces al día, usar hilo dental a diario, hacer los controles cada 6 meses y reducir el picoteo y las bebidas azucaradas."
     }
   ],
   "fotos": {
-    "Qué incluye una limpieza dental": "limpieza",
-    "Caries y arreglos (operatoria dental)": "operatoria",
+    "¿Qué incluye una limpieza dental profesional?": "limpieza",
+    "Caries pequeñas: cómo se arreglan (operatoria dental)": "operatoria",
+    "Cómo prevenir las caries en casa": "periodoncia-cepillos",
     "Nuestro centro odontológico en Santa Fe": "opiniones"
-  },
-  "resumen": [
-    "MedlinePlus aconseja una limpieza profesional cada 6 meses.",
-    "La placa bacteriana que no se retira forma sarro, que puede irritar las encías.",
-    "Muchas caries no dan síntomas y se descubren en los controles; se arreglan con un empaste.",
-    "El bruxismo es apretar o rechinar los dientes; una placa de relajación los protege de la presión."
-  ],
-  "faq_titulo": "Preguntas frecuentes sobre limpieza dental, caries y bruxismo"
+  }
 }

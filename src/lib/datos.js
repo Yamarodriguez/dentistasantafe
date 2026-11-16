@@ -31,7 +31,11 @@ export const paginas = mapa.paginas.filter((p) => p.estado === 'si').map(conCont
 /** Ruta con barra final: "" → "/", "implantes-dentales" → "/implantes-dentales/". */
 export const ruta = (slug) => (slug ? `/${slug}/` : '/');
 
-export const tratamientos = paginas.filter((p) => p.tipo === 'tratamiento');
+// Páginas generales de un grupo (como COV: «Ortodoncia» y «Estética dental» tienen página propia, Yama 2026-11-16).
+// Son de tipo tratamiento (misma plantilla), pero no salen en las listas de tratamientos: las enlaza el título del grupo.
+export const hubs = paginas.filter((p) => p.tipo === 'tratamiento' && p.hub);
+export const hubDe = (grupo) => hubs.find((h) => h.grupo === grupo);
+export const tratamientos = paginas.filter((p) => p.tipo === 'tratamiento' && !p.hub);
 /** Problemas bucales (síntomas): /problemas-bucales/ y una página por síntoma (estudio SEO 2026-11-16). */
 export const problemas = paginas.filter((p) => p.tipo === 'problema');
 

@@ -212,6 +212,19 @@ clinicamanzanera.com): solo como **modelo** de estructura, no como competencia l
   Podés pedir turno por WhatsApp» + foto real (sala de espera en tratamientos, Od. Vera en problemas). Generado con
   scratchpad clinica-texto.py (contenido.secciones + fotos). Sin H2 nuevo (evita bloque repetido y más «Santa Fe»).
   Logo: alt «Ignacio Vera Odontología, clínica dental en Santa Fe» (primer enlace a la portada de cada página).
+- **Menú y páginas como COV (Yama, 2026-11-16: «mira el menú del COV… hacer lo mismo para todo eso»)**:
+  páginas generales de grupo (`"hub": true` en paginas.json; `hubs`/`hubDe()` en datos.js; no salen en las listas de
+  tratamientos, las enlaza el título del grupo en portada e índice): **/ortodoncia-santa-fe/** (general: qué es,
+  cuándo, brackets u invisible, niños, adultos, duración, precio) y **/estetica-dental-santa-fe/** (NUEVA; se quitó
+  su 301 a carillas en netlify.toml y astro.config). Páginas nuevas: **/brackets-santa-fe/** (tipos, pasos, molestias,
+  higiene, retenedores) y **/reconstruccion-dental-santa-fe/** (resina, corona, tras endodoncia, bruxismo; grupo
+  Estética). Menú: Ortodoncia ▾ (general «Ortodoncia: cómo elegir», Brackets, Invisible) · Estética dental ▾ (general,
+  Blanqueamiento, Carillas, Reconstrucción, Prótesis) · Otros tratamientos ▾. Rehechas con estructura de COV +
+  sugerencias de Google AR (scratchpad sugerencias-menu.txt, encargo-menu.md): invisible (conserva la ÚNICA tabla
+  alineadores vs brackets), blanqueamiento, carillas (tabla resina/porcelana solo con filas con fuente), prótesis,
+  implantes (solo añadidos: H1, «¿duele?», qué pasa si no se repone, turno), conducto, extracciones (nombre «Muelas de
+  juicio»; sin «cirugía maxilofacial»), limpieza (nombre «Limpieza y revisiones»). Todas con H2 final «Pedir turno
+  para … en Santa Fe» (bloque turno, como el «Contacto» de COV). 11 redactores + 6 revisores (rechazaron 8 de 11 por urgencias, cifras sin fuente y texto repetido entre ortodoncia y brackets; correcciones aplicadas por los mismos revisores en scratchpad/redaccion-fix e integradas). Sin confirmar en git ni subir.
 - **Ortodoncia rehecha (Yama, 2026-11-16: «mirando la estructura de COV y con estudio SEO»)** →
   `informes/estudio-ortodoncia-seo.md`. H1 «Ortodoncia en Santa Fe: brackets para alinear los dientes y la mordida»,
   title «Ortodoncia en Santa Fe: brackets, ortopedia y precio». 10 H2 + «Pedir turno para una evaluación de

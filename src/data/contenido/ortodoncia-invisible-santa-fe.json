@@ -11,25 +11,51 @@
       "centro odontológico"
     ]
   },
-  "intro": "La **ortodoncia invisible** mueve los dientes con alineadores transparentes, sin brackets ni alambres. En esta página, nuestra **clínica dental en Santa Fe** explica en qué consiste y para quién puede ser una opción. [Pendiente: qué ofrece la clínica en ortodoncia con alineadores]",
   "fuentes": [
-    "mlp-maloclusion"
+    "mlp-maloclusion",
+    "cc-alineadores",
+    "aao-adultos",
+    "cc-retenedor",
+    "cc-brackets",
+    "nhs-brackets"
   ],
-  "autor": null,
-  "revisado": null,
+  "intro": "La **ortodoncia invisible** mueve los dientes con alineadores transparentes hechos a medida, sin brackets ni alambres. En nuestra clínica dental en Santa Fe, el dentista evalúa en la consulta si es una opción para vos.",
+  "resumen": [
+    "La ortodoncia invisible usa alineadores transparentes hechos a medida, sin brackets ni alambres.",
+    "Se usan unas 22 a 23 horas por día y se sacan para comer y cepillarse.",
+    "No sirve para todos los casos: lo decide el dentista en la consulta.",
+    "El precio se informa después de la consulta."
+  ],
   "secciones": {
-    "¿Qué es la ortodoncia invisible?": [
-      "La ortodoncia invisible es un tratamiento odontológico con **alineadores transparentes** que no llevan alambres.",
-      "Se llama «invisible» porque los alineadores son transparentes, no porque no se vean en absoluto.",
-      "Igual que [los brackets](/ortodoncia-santa-fe/), sirve para **corregir la maloclusión**: cuando los dientes de arriba y los de abajo no encajan bien.",
-      "[Pendiente: marca o sistema de alineadores que usa la clínica]"
+    "¿Qué es la ortodoncia invisible y cómo funciona?": [
+      "Es un tratamiento que alinea los dientes con **bandejas transparentes de plástico** hechas a la medida de la boca.",
+      "Cada alineador mueve los dientes un poco y se cambia por uno nuevo más o menos **cada dos semanas**, con controles para revisar cómo ajusta.",
+      "En algunos dientes se pegan pequeños aditamentos que ayudan a moverlos.",
+      "Se llama «invisible» porque los alineadores son transparentes y no llevan alambres. Es una de las opciones de [ortodoncia](/ortodoncia-santa-fe/), junto con los brackets: a diferencia de ellos, los alineadores los colocás y los sacás vos."
     ],
-    "¿Para quién está indicada la ortodoncia invisible?": [
-      "La ortodoncia invisible es una opción para algunas personas, que pueden usar alineadores transparentes en lugar de brackets.",
-      "[Pendiente: en qué casos la recomienda la clínica y en cuáles no, y quién lo decide, confirmado por el odontólogo]"
+    "¿Para quién sirven los alineadores transparentes?": [
+      "Los alineadores corrigen dientes apiñados o torcidos y algunas maloclusiones de leves a moderadas.",
+      "La maloclusión es cuando los dientes de arriba y los de abajo no encajan bien. Según la Asociación Estadounidense de Ortodoncistas (AAO), los alineadores también se usan en adultos para tratar **apiñamiento, sobremordida y mordida abierta**.",
+      "**No sirven para todos los casos**: lo decide el odontólogo después de evaluar tu boca.",
+      {
+        "h3": "¿Se pueden usar alineadores siendo adulto?"
+      },
+      "Sí. Hoy los adultos pueden elegir desde brackets estéticos hasta alineadores transparentes. En adultos los resultados pueden tardar un poco más que en niños y adolescentes."
     ],
-    "Alineadores o brackets: comparativa": [
-      "La **diferencia principal** entre brackets y alineadores es que los brackets van fijos con alambre y los alineadores son transparentes y sin alambres.",
+    "¿Qué ventajas y límites tienen los alineadores?": [
+      "La ventaja más conocida de la ortodoncia invisible es que los alineadores son transparentes y se pueden sacar; el límite es que exigen constancia.",
+      {
+        "lista": [
+          "Se sacan para comer, beber, cepillarse y usar hilo dental.",
+          "No llevan brackets pegados ni alambres.",
+          "Solo funcionan si se usan como se indica: unas 22 a 23 horas por día.",
+          "Comparados con los brackets, pueden necesitar más tiempo y más recambios para un resultado parecido."
+        ]
+      },
+      "Por eso, antes de elegirlos conviene pensar si podés usarlos casi todo el día. Esa decisión se toma junto con el dentista."
+    ],
+    "Ortodoncia invisible o brackets: comparativa": [
+      "La diferencia principal es que los **brackets van fijos** con alambre, mientras que los alineadores son transparentes y se pueden sacar.",
       {
         "tabla": {
           "cab": [
@@ -40,95 +66,128 @@
           "filas": [
             [
               "Cómo son",
-              "Transparentes, sin alambres",
-              "Fijos, pegados a los dientes, con alambre"
+              "Bandejas transparentes, sin alambres",
+              "Piezas pegadas a los dientes, con alambre"
             ],
             [
-              "Para quién",
-              "Algunas personas, según el caso",
-              "Según el caso"
+              "Se pueden sacar",
+              "Sí, para comer, beber y cepillarse",
+              "No, quedan fijos"
+            ],
+            [
+              "Uso diario",
+              "Unas 22 a 23 horas por día",
+              "Fijos: quedan puestos todo el tratamiento"
+            ],
+            [
+              "Recambio y citas",
+              "Alineador nuevo más o menos cada 2 semanas, con controles",
+              "Aparato fijo: cita de ajuste cada 6 a 8 semanas"
+            ],
+            [
+              "Velocidad",
+              "Puede necesitar más tiempo y más recambios",
+              "Suele corregir más rápido"
             ],
             [
               "Después del tratamiento",
-              "[Pendiente: qué se indica después con alineadores]",
-              "Retenedor para que los dientes no se muevan"
+              "Retenedor",
+              "Retenedor"
             ]
           ]
         }
       },
+      "Cuál conviene en cada caso lo define el odontólogo según tu mordida y tu rutina.",
       {
         "mas": {
           "t": "Ortodoncia con brackets en Santa Fe",
-          "href": "/ortodoncia-santa-fe/"
+          "href": "/brackets-santa-fe/"
         }
       }
     ],
     "Cómo es el tratamiento con alineadores, paso a paso": [
-      "[Pendiente: cómo es el tratamiento con alineadores en la clínica: pasos, horas de uso al día, cada cuánto se cambian y qué se indica al terminar, confirmado por el odontólogo]"
+      "El tratamiento sigue una secuencia: consulta, alineadores a medida, uso diario y controles.",
+      {
+        "lista": [
+          "Consulta: el odontólogo evalúa tu boca y decide si los alineadores son una opción.",
+          "Alineadores a medida: se fabrican bandejas hechas a la medida de tus dientes.",
+          "Uso diario: se llevan unas 22 a 23 horas por día y se cambian más o menos cada dos semanas.",
+          "Controles: visitas para revisar que los alineadores ajusten bien.",
+          "Retenedor: al terminar, para que los dientes no vuelvan a moverse."
+        ]
+      },
+      "Para saber qué esperar de la primera visita, hay una guía de la [primera consulta](/primera-consulta/).",
+      "[confirmar: sistema de alineadores y cantidad de controles en la clínica]"
     ],
-    "¿Cuánto dura el tratamiento con alineadores?": [
-      "La ortodoncia suele durar de **6 meses a más de 2 años**, según el caso. [Pendiente: tiempo habitual con alineadores en la clínica]",
-      "Durante el tratamiento hay que mantener el cepillado y el hilo dental todos los días e ir a los controles con el dentista."
+    "¿Cuánto dura el tratamiento con alineadores transparentes?": [
+      "En apiñamientos leves puede llegar a unos **nueve meses**; los problemas más serios llevan varios meses más.",
+      "La ortodoncia en general suele durar de **6 meses a más de 2 años**, según el caso, y en adultos los resultados pueden tardar un poco más.",
+      "El tiempo exacto lo estima el dentista después de la consulta, cuando ya evaluó tu caso."
+    ],
+    "¿Cómo se cuidan los dientes y los alineadores durante el tratamiento?": [
+      "Los alineadores se sacan para comer, beber, cepillarse y usar hilo dental, y se guardan en un lugar seguro mientras no se usan.",
+      "El cepillado y el hilo dental se mantienen todos los días, y hay que ir a los controles con el dentista.",
+      "Cada alineador nuevo puede dar **presión o dolor leve**, que suele pasar en unos pocos días; ayudan los alimentos blandos.",
+      {
+        "h3": "¿Cuándo consultar al dentista durante el tratamiento?"
+      },
+      "Conviene avisar si hay dolor agudo, dolor que dura más de unos días, encías sangrantes o hinchadas, o un alineador flojo o que ajusta mal."
+    ],
+    "¿Hace falta usar un retenedor después?": [
+      "Sí: el retenedor **mantiene los dientes en su posición** corregida después de sacar los brackets o los alineadores, porque pueden volver a moverse.",
+      "Los retenedores removibles pueden ser de alambre o de plástico transparente. El profesional fija el cronograma exacto de uso.",
+      "Si el retenedor se pierde o se rompe, hay que avisar enseguida: los dientes pueden desplazarse más cuanto más se espera."
     ],
     "Precio de la ortodoncia invisible en Santa Fe": [
-      "El precio de los alineadores depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta.",
-      "Si tenés obra social o prepaga, la cobertura depende de tu plan; conviene consultarla antes del turno.",
-      "Las formas de pago se consultan al pedir turno."
+      "El precio de los alineadores depende de cada caso: **se informa después de la consulta**, cuando el dentista ya evaluó qué tratamiento hace falta.",
+      "El costo de la ortodoncia varía con la complejidad del problema y el tipo de aparato.",
+      "Si tenés obra social o prepaga, la cobertura depende de tu plan; en la lista orientativa de [obras sociales](/obras-sociales/) podés ver cuáles figuran, y al pedir turno se confirma si hay convenio.",
+      "Las formas de pago se consultan al pedir turno en nuestro centro odontológico."
     ],
     "Nuestro centro odontológico en Santa Fe": [
       "Para saber si los alineadores transparentes son una opción para vos, hace falta una consulta en nuestra [clínica dental santafesina](/), donde el odontólogo evalúa tu caso.",
       "¿Querés visitar la clínica? Atendemos con obra social y de forma particular, de lunes a viernes de 8 a 20 h; el turno se pide por WhatsApp."
     ]
   },
+  "faq_titulo": "Preguntas frecuentes sobre ortodoncia invisible",
   "faq": [
     {
-      "q": "¿Los alineadores invisibles llevan alambres?",
-      "a": "No. Se hace con alineadores transparentes, sin brackets ni alambres."
+      "q": "¿Cuántas horas al día hay que llevar los alineadores?",
+      "a": "Se usan **unas 22 a 23 horas por día** y se sacan para comer, beber, cepillarse y usar hilo dental."
     },
     {
-      "q": "¿Los alineadores sirven para todos los casos?",
-      "a": "No para todos: algunas personas pueden usar alineadores en lugar de brackets. Si son una opción para vos, lo evalúa el dentista en la consulta."
+      "q": "¿Se puede comer con los alineadores puestos?",
+      "a": "No: los alineadores se sacan para comer y beber y se vuelven a colocar después del cepillado. Mientras tanto se guardan en un lugar seguro."
     },
     {
-      "q": "¿Cuántos meses se usan los alineadores?",
-      "a": "La ortodoncia suele durar de 6 meses a más de 2 años, según el caso. [Pendiente: tiempo habitual con alineadores]"
+      "q": "¿Duelen los alineadores transparentes?",
+      "a": "Con cada alineador nuevo es común sentir presión o dolor leve que suele pasar en unos días. Si el dolor es agudo o dura más de unos días, conviene avisar al dentista."
     },
     {
-      "q": "¿Qué diferencia hay entre alineadores y brackets?",
-      "a": "Los brackets van **fijos con alambre**; los alineadores son **transparentes y sin alambres**."
+      "q": "¿Quién decide si los alineadores invisibles me sirven?",
+      "a": "No todos los casos se resuelven con alineadores: algunas personas pueden usarlos en lugar de brackets y otras no. Lo decide el dentista después de evaluar la boca en la consulta."
+    },
+    {
+      "q": "¿Los alineadores invisibles llevan alambres o brackets?",
+      "a": "No. Son bandejas transparentes hechas a la medida de los dientes, sin alambres ni brackets pegados."
     },
     {
       "q": "¿Dónde me hago ortodoncia invisible en Santa Fe?",
-      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**."
+      "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**, de lunes a viernes de 8 a 20 h con turno por WhatsApp."
     },
     {
-      "q": "¿Se notan los alineadores?",
-      "a": "Son **transparentes** y no llevan alambres; por eso se habla de ortodoncia «invisible»."
+      "q": "¿Cuánto cuestan los alineadores invisibles?",
+      "a": "Depende de cada caso: el precio se informa después de la consulta, cuando el dentista ya evaluó qué tratamiento hace falta."
     },
     {
-      "q": "¿Los adultos pueden usar alineadores?",
-      "a": "La ortodoncia suele dar resultado en adultos, aunque puede llevar más tiempo que en [niños y adolescentes](/odontopediatra-santa-fe/). Si los alineadores son una opción para vos, lo evalúa el dentista."
-    },
-    {
-      "q": "¿Qué cuidados hay que tener con los alineadores?",
-      "a": "Cepillado e hilo dental todos los días y controles periódicos con el dentista."
-    },
-    {
-      "q": "¿Cuánto cuestan los alineadores?",
-      "a": "Depende de cada caso: el precio **se informa después de la consulta**, cuando el dentista ya evaluó qué tratamiento hace falta."
+      "q": "¿Cuánto tiempo hay que usar el retenedor al terminar?",
+      "a": "Los retenedores removibles se usan por lo general día y noche durante al menos 4 a 6 meses y después de noche, por tiempo indefinido; el profesional fija el cronograma exacto."
     }
   ],
   "fotos": {
-    "¿Qué es la ortodoncia invisible?": "alineador",
-    "¿Para quién está indicada la ortodoncia invisible?": "alineador-transparente",
-    "¿Cuánto dura el tratamiento con alineadores?": "alineador-colocacion",
+    "¿Qué es la ortodoncia invisible y cómo funciona?": "alineador",
+    "¿Para quién sirven los alineadores transparentes?": "alineador-transparente",
+    "¿Cuánto dura el tratamiento con alineadores transparentes?": "alineador-colocacion",
     "Nuestro centro odontológico en Santa Fe": "opiniones"
-  },
-  "resumen": [
-    "La ortodoncia invisible usa alineadores transparentes, sin brackets ni alambres.",
-    "Es una opción para algunas personas, en lugar de los brackets.",
-    "La ortodoncia suele durar de 6 meses a más de 2 años, según el caso.",
-    "Durante el tratamiento hacen falta cepillado, hilo dental y controles."
-  ],
-  "faq_titulo": "Preguntas frecuentes sobre ortodoncia invisible"
+  }
 }

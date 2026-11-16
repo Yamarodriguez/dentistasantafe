@@ -13,10 +13,15 @@
   },
   "intro": "El **tratamiento de conducto (endodoncia)** permite conservar un diente cuando la infección llega al nervio. En esta página, nuestro **centro odontológico en Santa Fe** explica cuándo hace falta, si duele y cómo es el procedimiento.",
   "fuentes": [
-    "mlp-conducto"
+    "mlp-conducto",
+    "nhs-conducto"
   ],
-  "autor": null,
-  "revisado": null,
+  "resumen": [
+    "La endodoncia quita el nervio dañado o infectado para salvar el diente.",
+    "Hace falta cuando una infección llega al nervio, por una caries profunda, una fractura o un golpe.",
+    "Se hace con anestesia local y suele llevar dos o más citas.",
+    "Después puede colocarse una corona, según el diente."
+  ],
   "secciones": {
     "¿Qué es un tratamiento de conducto o endodoncia?": [
       "Un tratamiento de conducto es un procedimiento odontológico que **salva un diente** quitando de su interior el nervio dañado o infectado y las bacterias.",
@@ -29,37 +34,55 @@
       {
         "lista": [
           "Una [caries profunda](/limpieza-dental-santa-fe/).",
-          "Una fractura del diente.",
+          "Una enfermedad de las encías.",
+          "Un diente astillado, roto o agrietado.",
+          "Un absceso dental, que es una acumulación de pus.",
           "Un golpe."
         ]
       },
+      "Estas son las causas que citan el NHS y MedlinePlus; el diagnóstico lo hace siempre el dentista.",
       "Si el daño es muy grande, puede que el diente no se pueda salvar y haya que extraerlo. Eso lo decide el dentista al revisar el diente."
     ],
-    "¿Duele el tratamiento de conducto?": [
-      "El pinchazo de la anestesia puede molestar un poco, y después puede haber dolor e inflamación.",
-      "Ese dolor suele calmarse con los **antiinflamatorios** que indique el odontólogo. En algunos casos también se indican antibióticos para tratar o prevenir una infección."
+    "¿Qué pasa si no me hago una endodoncia?": [
+      "Si un diente con el nervio infectado no se trata, puede hacer falta **extraer el diente**.",
+      "La infección también puede formar un [absceso o flemón](/flemon-dental/), con dolor e hinchazón, por lo que conviene consultar y no esperar a que los síntomas pasen solos.",
+      "Si hay hinchazón en la cara o el cuello, fiebre o dificultad para tragar o respirar, no hay que esperar al turno: hay que ir a una guardia o a emergencias. La clínica atiende de lunes a viernes de 8 a 20 h y no tiene guardia.",
+      "Si el diente se puede conservar, el tratamiento evita llegar a la extracción; si no, se evalúan las otras opciones en la consulta."
     ],
-    "¿Cuántas sesiones lleva una endodoncia?": [
-      "[Pendiente: cuántas sesiones suele llevar en la clínica y cuánto dura cada una, confirmado por el odontólogo]",
-      "En general, este tratamiento dental sigue estos pasos:",
+    "¿Cómo se hace una endodoncia paso a paso?": [
+      "Con anestesia local, el dentista abre el diente, retira la pulpa, desinfecta los conductos y los rellena con un material permanente.",
       {
         "pasos": [
           "**Anestesia local** de la zona.",
           "Una pequeña apertura en el diente para llegar a la pulpa.",
-          "Limpieza: se retira la pulpa con instrumentos llamados limas y se desinfectan los conductos.",
-          "Relleno de los conductos con un material permanente.",
-          "Sellado provisorio del diente."
+          "Retiro de la pulpa con instrumentos llamados limas; si hay un absceso, se drena.",
+          "Limpieza y desinfección de los conductos, y relleno con un material permanente.",
+          "Sellado del diente con un empaste."
         ]
       },
+      "Si el tratamiento lleva más de una cita, entre una y otra se coloca un empaste temporal; en la última, el diente se sella con un empaste.",
+      "Durante el procedimiento la persona está despierta, con la zona anestesiada."
+    ],
+    "¿Duele el tratamiento de conducto?": [
+      "El pinchazo de la anestesia puede molestar un poco, y después puede haber dolor e inflamación.",
+      "Ese dolor suele calmarse con los **antiinflamatorios** que indique el odontólogo. En algunos casos también se indican antibióticos para tratar o prevenir una infección.",
+      "Según el NHS, la mandíbula y la cara pueden quedar **adormecidas varias horas**, y la zona hinchada y dolorida; suele mejorar en un par de semanas."
+    ],
+    "¿Cuántas sesiones lleva una endodoncia?": [
+      "Según el NHS, normalmente son **dos o más citas**, y cada una puede durar entre una y dos horas o más.",
+      "Entre una cita y otra suele colocarse un empaste temporal.",
+      "[confirmar: cuántas sesiones suele llevar en la clínica, confirmado por el odontólogo]",
       "La mayoría de las personas vuelve a su vida normal al día siguiente. Hasta que el diente esté restaurado conviene no masticar alimentos duros de ese lado."
     ],
     "Después del conducto: ¿hace falta una corona?": [
-      "Normalmente sí: después de la endodoncia el diente se sella de forma provisoria y luego se coloca una **[corona permanente](/protesis-dentales-santa-fe/)**.",
-      "También hay que volver al control en la clínica dental para confirmar que la infección desapareció.",
+      "Depende del diente: a menudo, después de la endodoncia el diente se sella de forma provisoria y luego se puede colocar una **corona permanente**; el dentista lo indica al revisarlo.",
+      "Una corona es una funda con forma de diente que cubre el diente por encima de la encía, para protegerlo cuando está débil.",
+      "La [reconstrucción del diente](/reconstruccion-dental-santa-fe/) la define el dentista al revisarlo. También hay que volver a la clínica dental para confirmar que la infección desapareció.",
       {
         "h3": "¿Qué riesgos tiene?"
       },
-      "Riesgos posibles: infección o [absceso](/flemon-dental/), pérdida del diente, daño a un nervio o fractura del diente.",
+      "Riesgos posibles: infección o absceso, pérdida del diente, daño a un nervio o fractura del diente. MedlinePlus los menciona como complicaciones posibles; el dentista los explica antes de empezar.",
+      "Después del tratamiento conviene evitar golpes en la boca, ir a las citas de control y mantener revisiones dentales periódicas.",
       {
         "mas": {
           "t": "Prótesis dentales y coronas en Santa Fe",
@@ -76,38 +99,35 @@
       "La clínica atiende con turno, de lunes a viernes de 8 a 20 h, y no tiene guardia. ¿Necesitás visitarnos? El turno se pide por WhatsApp."
     ]
   },
+  "faq_titulo": "Preguntas frecuentes sobre la endodoncia",
   "faq": [
     {
       "q": "¿Endodoncia y tratamiento de conducto son lo mismo?",
       "a": "Sí. Son **dos nombres** para el mismo procedimiento odontológico."
     },
     {
-      "q": "¿Duele la endodoncia?",
-      "a": "Se hace con anestesia local; el pinchazo puede molestar un poco y después puede haber dolor e inflamación, que suelen calmarse con los antiinflamatorios que indique el dentista."
+      "q": "¿Puedo masticar normalmente después de una endodoncia?",
+      "a": "Hasta que el diente esté restaurado, conviene **no masticar alimentos duros** de ese lado."
+    },
+    {
+      "q": "¿Cuánto tarda en pasar la molestia después del tratamiento?",
+      "a": "Puede haber dolor e inflamación, que suelen calmarse con los antiinflamatorios que indique el dentista. La zona **puede mejorar en un par de semanas**."
     },
     {
       "q": "¿Se puede salvar siempre el diente?",
       "a": "No siempre. Si el **daño es muy grande**, puede que haya que extraerlo; lo decide el dentista al revisar el diente."
     },
     {
-      "q": "¿Puedo ir a trabajar al día siguiente?",
-      "a": "La mayoría de las personas **retoma su vida normal** al día siguiente. Hasta restaurar el diente, conviene no masticar alimentos duros de ese lado."
+      "q": "¿Cuándo puedo volver a mis actividades normales?",
+      "a": "La mayoría de las personas **retoma su rutina normal** al día siguiente. Hasta restaurar el diente, conviene no masticar alimentos duros de ese lado."
     },
     {
-      "q": "¿Por qué después hace falta una corona?",
-      "a": "Porque el diente queda con un **sellado provisorio** y normalmente necesita una corona permanente."
+      "q": "¿Qué cuidados hay después de una endodoncia?",
+      "a": "Conviene **evitar golpes en la boca**, ir a las citas de control y hacer revisiones dentales periódicas."
     },
     {
-      "q": "¿Qué síntomas indican que hace falta una endodoncia?",
-      "a": "Suele dar **dolor e hinchazón**, cuando una infección llega al nervio de la raíz por una caries profunda, una fractura o un golpe."
-    },
-    {
-      "q": "¿Cómo se hace una endodoncia?",
-      "a": "Con anestesia local se abre un pequeño acceso en el diente, se retira la pulpa con limas, se desinfectan los conductos y se rellenan con un material permanente."
-    },
-    {
-      "q": "¿Qué riesgos tiene la endodoncia?",
-      "a": "Riesgos posibles: infección o absceso, pérdida del diente, daño a un nervio o **fractura del diente**."
+      "q": "¿Cuánto cuesta una endodoncia en Santa Fe?",
+      "a": "Depende de cada caso: el precio se informa **después de la consulta**, cuando el dentista evaluó el diente."
     },
     {
       "q": "¿Hace falta tomar antibióticos en una endodoncia?",
@@ -116,15 +136,8 @@
   ],
   "fotos": {
     "¿Qué es un tratamiento de conducto o endodoncia?": "conducto",
+    "¿Cómo se hace una endodoncia paso a paso?": "conducto-instrumental",
     "¿Duele el tratamiento de conducto?": "conducto-espejo",
-    "¿Cuántas sesiones lleva una endodoncia?": "conducto-instrumental",
     "Nuestro centro odontológico en Santa Fe": "opiniones"
-  },
-  "resumen": [
-    "El tratamiento de conducto (endodoncia) quita el nervio dañado o infectado para salvar el diente.",
-    "Hace falta cuando una infección llega al nervio, por una caries profunda, una fractura o un golpe.",
-    "Se hace con anestesia local; después puede haber dolor e inflamación, que suelen calmarse con antiinflamatorios.",
-    "Normalmente, después se coloca una corona."
-  ],
-  "faq_titulo": "Preguntas frecuentes sobre el tratamiento de conducto"
+  }
 }

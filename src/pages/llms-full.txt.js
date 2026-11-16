@@ -1,7 +1,8 @@
 // llms-full.txt: el texto completo de la portada, los dentistas, cada tratamiento, obras sociales y primera consulta en Markdown, en un solo archivo,
 // para que los asistentes de IA lo lean sin recorrer la web (estudio SEO/AEO, 2026-11-13).
 // Mismas reglas que llms.txt: lo que está [pendiente] o [confirmar] no sale.
-import { site, ruta, tratamientos, paginas } from '../lib/datos.js';
+import { site, ruta, tratamientos as soloTratamientos, hubs, paginas } from '../lib/datos.js';
+const tratamientos = [...hubs, ...soloTratamientos]; // con las páginas generales (ortodoncia, estética)
 import { real, fechaPagina } from '../lib/seo.js';
 import hechos from '../data/hechos.json';
 

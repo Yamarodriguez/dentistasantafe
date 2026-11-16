@@ -15,7 +15,10 @@ export const SECCION_PROBLEMAS = {
   // Tratamientos: los síntomas que llevan a ese tratamiento o que se le relacionan (según las fuentes de cada página).
   'implantes-dentales-santa-fe': { t: 'Problemas bucales que pueden llevar a un implante', lista: ['diente-flojo', 'diente-roto-empaste-caido', 'encias-que-sangran'] },
   'protesis-dentales-santa-fe': { t: 'Problemas bucales que pueden llevar a una corona', lista: ['diente-roto-empaste-caido', 'diente-flojo', 'dolor-de-muela'] },
-  'ortodoncia-santa-fe': { t: 'Problemas bucales para consultar durante los brackets', lista: ['encias-que-sangran', 'dolor-de-muela', 'sensibilidad-dental'] },
+  'ortodoncia-santa-fe': { t: 'Problemas bucales para revisar antes de alinear los dientes', lista: ['encias-que-sangran', 'dolor-de-muela', 'sensibilidad-dental'] },
+  'brackets-santa-fe': { t: 'Problemas bucales para consultar con el aparato puesto', lista: ['dolor-de-muela', 'encias-que-sangran', 'diente-roto-empaste-caido'] },
+  'estetica-dental-santa-fe': { t: 'Problemas bucales para revisar antes de un tratamiento estético', lista: ['diente-roto-empaste-caido', 'sensibilidad-dental', 'encias-que-sangran'] },
+  'reconstruccion-dental-santa-fe': { t: 'Problemas bucales que pueden llevar a reconstruir un diente', lista: ['diente-roto-empaste-caido', 'dolor-de-muela', 'sensibilidad-dental'] },
   'ortodoncia-invisible-santa-fe': { t: 'Problemas bucales para consultar antes de los alineadores', lista: ['encias-que-sangran', 'sensibilidad-dental', 'dolor-de-muela'] },
   'carillas-dentales-santa-fe': { t: 'Problemas bucales para revisar antes de unas carillas', lista: ['diente-roto-empaste-caido', 'sensibilidad-dental', 'encias-que-sangran'] },
   'blanqueamiento-dental-santa-fe': { t: 'Problemas bucales para revisar antes de blanquear', lista: ['sensibilidad-dental', 'encias-que-sangran', 'diente-roto-empaste-caido'] },

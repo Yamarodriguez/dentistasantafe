@@ -205,6 +205,46 @@
       "titulo": "Adult Orthodontics (American Association of Orthodontists)",
       "url": "https://aaoinfo.org/adult-orthodontics/",
       "fecha": "2026-11-16"
+    },
+    "nhs-conducto": {
+      "titulo": "Tratamiento de conducto (NHS, Reino Unido)",
+      "url": "https://www.nhs.uk/conditions/root-canal-treatment/",
+      "fecha": "2026-11-16"
+    },
+    "cc-alineadores": {
+      "titulo": "Clear Aligners (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/clear-aligners",
+      "fecha": "2026-11-16"
+    },
+    "mlp-saluddental": {
+      "titulo": "Salud dental (MedlinePlus en español)",
+      "url": "https://medlineplus.gov/spanish/dentalhealth.html",
+      "fecha": "2026-11-16"
+    },
+    "nhs-muela-juicio": {
+      "titulo": "Wisdom tooth removal (NHS)",
+      "url": "https://www.nhs.uk/conditions/wisdom-tooth-removal/",
+      "fecha": "2026-11-16"
+    },
+    "ada-brackets": {
+      "titulo": "Braces (American Dental Association, MouthHealthy)",
+      "url": "https://www.mouthhealthy.org/all-topics-a-z/braces",
+      "fecha": "2026-11-16"
+    },
+    "cc-bonding": {
+      "titulo": "Dental Bonding (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/10922-dental-bonding",
+      "fecha": "2026-11-16"
+    },
+    "cc-empastes": {
+      "titulo": "Dental Fillings (Cleveland Clinic)",
+      "url": "https://my.clevelandclinic.org/health/treatments/17002-dental-fillings",
+      "fecha": "2026-11-16"
+    },
+    "mh-coronas": {
+      "titulo": "Crowns (MouthHealthy, ADA)",
+      "url": "https://www.mouthhealthy.org/all-topics-a-z/crowns",
+      "fecha": "2026-11-16"
     }
   },
   "hechos": [
@@ -1427,6 +1467,351 @@
       "id": "ort2-expansor-duracion",
       "fuente": "cc-expansor",
       "texto": "En los chicos el resultado lleva de 2 a 3 meses; adolescentes y adultos pueden necesitar hasta un año. Después el aparato suele quedar de 4 a 6 meses más para que el hueso se fortalezca."
+    },
+    {
+      "id": "imp2-reponer",
+      "fuente": "fda-implantes",
+      "texto": "Los implantes ayudan a evitar que el hueso maxilar se reduzca y dan soporte a encías y dientes vecinos (reutiliza imp-beneficios)."
+    },
+    {
+      "id": "imp2-edad",
+      "fuente": "fda-implantes",
+      "texto": "La fuente no fija una edad: el estado de salud general influye en si una persona es buena candidata (reutiliza imp-candidato)."
+    },
+    {
+      "id": "pro2-adhesivo",
+      "fuente": "mlp-protesis",
+      "texto": "Si la dentadura se mueve demasiado, el adhesivo para dentaduras puede ayudar; los ajustes los debe hacer el dentista."
+    },
+    {
+      "id": "pro2-calor-hueso",
+      "fuente": "mlp-protesis",
+      "texto": "Con una dentadura es más difícil percibir alimentos y líquidos calientes, y quizás no se note si se muerde un hueso."
+    },
+    {
+      "id": "pro2-alimentos",
+      "fuente": "mlp-protesis",
+      "texto": "Conviene evitar los alimentos que causan manchas, mal aliento o encías hinchadas."
+    },
+    {
+      "id": "pro2-implantes",
+      "fuente": "mlp-protesis",
+      "texto": "En algunos casos el dentista puede sugerir implantes, que son permanentes y reemplazan tanto las raíces como los dientes."
+    },
+    {
+      "id": "car2-composite-leves",
+      "fuente": "cc-carillas",
+      "texto": "Las carillas de composite usan el mismo material que la resina adherida al diente (bonding) y sirven para problemas leves; no requieren impresiones dentales."
+    },
+    {
+      "id": "car2-porcelana-manchas",
+      "fuente": "cc-carillas",
+      "texto": "Las carillas de porcelana resisten las manchas, aunque conviene limitar las bebidas oscuras como el café."
+    },
+    {
+      "id": "car2-sin-prep",
+      "fuente": "cc-carillas",
+      "texto": "Las carillas sin preparación quitan menos esmalte pero algo siempre se quita; no son para todos y son reversibles."
+    },
+    {
+      "id": "end2-causas",
+      "fuente": "nhs-conducto",
+      "texto": "El diente infectado que da dolor de muelas puede deberse a caries, enfermedad de las encías, un diente astillado, roto o agrietado, o un absceso dental (acumulación de pus)."
+    },
+    {
+      "id": "end2-sin-tratar",
+      "fuente": "nhs-conducto",
+      "texto": "Si el diente infectado no se trata, puede ser necesario extraerlo."
+    },
+    {
+      "id": "end2-citas",
+      "fuente": "nhs-conducto",
+      "texto": "Normalmente son 2 o más citas, y cada una puede durar entre 1 y 2 horas o más; entre citas suele colocarse un empaste temporal."
+    },
+    {
+      "id": "end2-procedimiento",
+      "fuente": "nhs-conducto",
+      "texto": "Con anestesia local la persona está despierta; el dentista perfora el diente, retira la pulpa infectada, drena el absceso si lo hay, limpia y da forma al interior y sella con un empaste."
+    },
+    {
+      "id": "end2-despues",
+      "fuente": "nhs-conducto",
+      "texto": "Mandíbula y cara pueden quedar adormecidas varias horas; la zona puede estar hinchada y dolorida, y normalmente mejora en un par de semanas."
+    },
+    {
+      "id": "end2-cuidados",
+      "fuente": "nhs-conducto",
+      "texto": "Conviene evitar golpes en la boca, acudir a las citas de seguimiento y hacer revisiones dentales periódicas."
+    },
+    {
+      "id": "inv2-que",
+      "fuente": "cc-alineadores",
+      "texto": "Los alineadores transparentes son bandejas de plástico hechas a medida que mueven de a poco dientes apiñados o torcidos y algunas maloclusiones de leves a moderadas."
+    },
+    {
+      "id": "inv2-horas",
+      "fuente": "cc-alineadores",
+      "texto": "Se usan unas 22 a 23 horas por día y se sacan para comer, beber, cepillarse y usar hilo dental."
+    },
+    {
+      "id": "inv2-cambio",
+      "fuente": "cc-alineadores",
+      "texto": "Se cambia por un alineador nuevo más o menos cada dos semanas, con controles para ver cómo ajusta."
+    },
+    {
+      "id": "inv2-aditamentos",
+      "fuente": "cc-alineadores",
+      "texto": "Se pegan pequeños aditamentos en algunos dientes para ayudar a los alineadores a moverlos."
+    },
+    {
+      "id": "inv2-candidatos",
+      "fuente": "cc-alineadores",
+      "texto": "Los alineadores no son adecuados para todos: lo decide el profesional."
+    },
+    {
+      "id": "inv2-molestias",
+      "fuente": "cc-alineadores",
+      "texto": "Es común sentir presión o dolor leve con cada alineador nuevo, que suele ceder en unos días; ayudan los alimentos blandos."
+    },
+    {
+      "id": "inv2-consultar",
+      "fuente": "cc-alineadores",
+      "texto": "Conviene avisar ante dolor agudo, dolor de más de unos días, encías sangrantes o hinchadas, o un alineador flojo o que ajusta mal."
+    },
+    {
+      "id": "inv2-duracion",
+      "fuente": "cc-alineadores",
+      "texto": "En apiñamiento leve puede llevar hasta unos nueve meses; los problemas más serios, varios meses más."
+    },
+    {
+      "id": "inv2-vs-brackets",
+      "fuente": "cc-alineadores",
+      "texto": "Los brackets suelen corregir más rápido; con alineadores puede hacer falta más tiempo y más recambios, y solo funcionan si se usan como se indica."
+    },
+    {
+      "id": "inv2-guardar",
+      "fuente": "cc-alineadores",
+      "texto": "Los alineadores que no se usan se guardan en un lugar seguro."
+    },
+    {
+      "id": "inv2-aao-usos",
+      "fuente": "aao-adultos",
+      "texto": "Los alineadores pueden tratar apiñamiento, sobremordida, mordida inversa y mordida abierta en adultos; la persona los coloca y los saca."
+    },
+    {
+      "id": "bla2-diy",
+      "fuente": "ada-blanqueamiento",
+      "texto": "Los métodos caseros con frutas, vinagre, carbón o enjuague con aceite se promocionan como baratos, pero la evidencia es escasa: una mezcla de frutilla y bicarbonato no mostró aclarado medible, una de carbón y sal fue abrasiva y erosionó el esmalte, y el enjuague con aceite no tiene efecto blanqueador documentado."
+    },
+    {
+      "id": "bla2-sello",
+      "fuente": "ada-blanqueamiento",
+      "texto": "Los productos de venta libre con el Sello de Aceptación de la ADA cumplen sus requisitos de seguridad y eficacia usados según las indicaciones; los productos profesionales del dentista no pueden recibir el sello."
+    },
+    {
+      "id": "bla2-pastas",
+      "fuente": "ada-blanqueamiento",
+      "texto": "Las pastas blanqueadoras dependen sobre todo de abrasivos para quitar manchas externas, tienen evidencia limitada de eficacia (menos que las tiras) y no se espera que afecten las manchas internas."
+    },
+    {
+      "id": "bla2-esmalte",
+      "fuente": "ada-blanqueamiento",
+      "texto": "Algunas investigaciones sugieren que los protocolos de blanqueamiento pueden alterar la rugosidad de la superficie del esmalte."
+    },
+    {
+      "id": "bla2-kits",
+      "fuente": "hlbc-blanqueamiento",
+      "texto": "Los kits del dentista suelen usar menor concentración de gel que el tratamiento en el consultorio; los de venta libre varían en concentración, método y duración."
+    },
+    {
+      "id": "bla2-no-medico",
+      "fuente": "hlbc-blanqueamiento",
+      "texto": "El blanqueamiento no es un procedimiento médico ni vuelve más sanos los dientes."
+    },
+    {
+      "id": "bla2-sens-fin",
+      "fuente": "hlbc-blanqueamiento",
+      "texto": "La sensibilidad es común durante el blanqueamiento y suele desaparecer al terminar el tratamiento."
+    },
+    {
+      "id": "bla2-frecuencia",
+      "fuente": "hlbc-blanqueamiento",
+      "texto": "En el consultorio puede hacer falta más de un tratamiento, y el dentista indica con qué frecuencia usar las cubetas en casa."
+    },
+    {
+      "id": "lim2-salud",
+      "fuente": "mlp-saluddental",
+      "texto": "MedlinePlus (Salud dental): cepillarse dos veces al día con pasta dental con fluoruro, usar hilo dental a diario para limpiar entre los dientes y visitar al dentista con regularidad."
+    },
+    {
+      "id": "est2-que",
+      "fuente": "cc-estetica",
+      "texto": "La odontología estética busca mejorar la apariencia de la sonrisa, con equilibrio y simetría en dientes y encías; los procedimientos más comunes son el blanqueamiento, el bonding y las carillas."
+    },
+    {
+      "id": "est2-contorneado",
+      "fuente": "cc-estetica",
+      "texto": "El contorneado dental retira pequeñas cantidades de esmalte para cambiar la forma del diente (el esmalte natural es limitado) y el contorneado de encías es una cirugía que retira tejido en exceso y reforma su línea; ambos son permanentes."
+    },
+    {
+      "id": "est2-bonding",
+      "fuente": "cc-estetica",
+      "texto": "El bonding (resina dental) cambia la forma del diente y oculta grietas, líneas finas y manchas; dura de 5 a 8 años."
+    },
+    {
+      "id": "est2-seguro",
+      "fuente": "cc-estetica",
+      "texto": "El seguro normalmente no cubre estos procedimientos, porque no se consideran necesarios para la salud."
+    },
+    {
+      "id": "est2-compromiso",
+      "fuente": "cc-estetica",
+      "texto": "Mantener la sonrisa requiere compromiso: algunos tratamientos, como las carillas de porcelana, pueden ser irreversibles y requerir reemplazo cada pocos años."
+    },
+    {
+      "id": "est2-cuidados",
+      "fuente": "cc-estetica",
+      "texto": "Para que el resultado dure: higiene bucal diaria y visitas regulares al dentista general para revisiones y limpiezas."
+    },
+    {
+      "id": "est2-recuperacion",
+      "fuente": "cc-estetica",
+      "texto": "La recuperación depende del procedimiento y del número de dientes tratados: con bonding en un solo diente se retoman las actividades de inmediato; el contorneado de encías puede requerir unos días de descanso."
+    },
+    {
+      "id": "ext2-cuando",
+      "fuente": "nhs-muela-juicio",
+      "texto": "Puede hacer falta sacar una muela de juicio si está impactada (bloqueada por otro diente) o cubierta en parte por la encía y no tiene espacio para salir; si no causa problemas, en general se deja y se controla en las consultas de rutina."
+    },
+    {
+      "id": "ext2-problemas",
+      "fuente": "nhs-muela-juicio",
+      "texto": "Los problemas posibles son dolor e hinchazón, infección de la encía (pericoronitis), restos de comida atrapados, caries, enfermedad de las encías, un quiste con líquido y un absceso dental; las radiografías muestran cómo están colocadas."
+    },
+    {
+      "id": "ext2-quirurgica",
+      "fuente": "nhs-muela-juicio",
+      "texto": "En una muela impactada, si la encía la cubre se corta y se ensancha el hueco; la muela se saca entera o dividida en dos o tres partes, con puntos que se disuelven solos si hacen falta; puede hacerla el dentista o derivarse a un especialista."
+    },
+    {
+      "id": "ext2-anestesia",
+      "fuente": "nhs-muela-juicio",
+      "texto": "Lo habitual es anestesia local, con la que no se siente dolor; la sedación o la anestesia general se usan solo si las muelas son más difíciles de sacar o la persona está ansiosa."
+    },
+    {
+      "id": "ext2-duracion",
+      "fuente": "nhs-muela-juicio",
+      "texto": "El procedimiento suele llevar unos minutos y no más de 40 minutos; la mayoría vuelve a su casa el mismo día y tras una anestesia general a veces hace falta pasar la noche."
+    },
+    {
+      "id": "ext2-recuperacion",
+      "fuente": "nhs-muela-juicio",
+      "texto": "Muchas personas retoman sus actividades al día siguiente; si fue difícil o hubo anestesia general, pueden hacer falta de 1 a 3 días de reposo. Hasta 2 semanas hay dolor e hinchazón (suelen mejorar al primer o segundo día), moretones en la mejilla, mandíbula dolorida y rígida y molestias al masticar o tragar."
+    },
+    {
+      "id": "ext2-cuidados",
+      "fuente": "nhs-muela-juicio",
+      "texto": "Comida blanda o líquida hasta que masticar sea cómodo; enjuagues suaves con colutorio o agua tibia con sal; cepillar los demás dientes evitando la herida; si sangra, presionar un paño limpio al menos 10 minutos; evitar alimentos duros o con partículas pequeñas (frutos secos, semillas), no fumar y evitar el alcohol y las bebidas muy calientes."
+    },
+    {
+      "id": "ext2-manejar",
+      "fuente": "nhs-muela-juicio",
+      "texto": "No se debe manejar durante 48 horas tras una anestesia general ni durante 24 horas tras un sedante inyectable."
+    },
+    {
+      "id": "ext2-nervio",
+      "fuente": "nhs-muela-juicio",
+      "texto": "Entre las complicaciones están la alveolitis, la infección y el daño de un nervio, con entumecimiento u hormigueo en la lengua, los labios o el mentón, que suele mejorar pero puede durar semanas o meses."
+    },
+    {
+      "id": "ext2-urgente",
+      "fuente": "nhs-muela-juicio",
+      "texto": "Hay que buscar atención urgente ante un sangrado que no se detiene, dolor e hinchazón fuertes que empeoran y no calman con analgésicos, o dolor con mal sabor en la boca, fiebre y malestar general."
+    },
+    {
+      "id": "brk-higiene-nhs",
+      "fuente": "nhs-brackets",
+      "texto": "Con brackets hay que cepillarse con pasta con flúor a la mañana, a la noche y después de las comidas, usar todos los días un cepillo interdental para limpiar entre los dientes y debajo del aparato, y mantener los controles dentales regulares."
+    },
+    {
+      "id": "brk-azucar-ada",
+      "fuente": "ada-brackets",
+      "texto": "Comer muchos alimentos azucarados con brackets puede producir acumulación de placa alrededor de los brackets; entre los alimentos a evitar están las palomitas de maíz, el choclo en la mazorca, el chicle, las manzanas enteras y los alimentos pegajosos, y conviene preguntarle al dentista cuáles evitar."
+    },
+    {
+      "id": "brk-duracion-ada",
+      "fuente": "ada-brackets",
+      "texto": "La mayoría de las personas usa brackets de uno a tres años y después un retenedor."
+    },
+    {
+      "id": "rec-bonding-que",
+      "fuente": "cc-bonding",
+      "texto": "La resina compuesta es un material del color del diente que se usa para cambiar forma, tamaño o color, cerrar espacios y disimular astillas o grietas menores; es reversible, a diferencia de las carillas de porcelana."
+    },
+    {
+      "id": "rec-bonding-pasos",
+      "fuente": "cc-bonding",
+      "texto": "Pasos: elegir el tono con una guía de colores, preparar el diente (rugosidad y líquido adhesivo), aplicar, moldear y alisar la resina, endurecerla con una luz y pulir."
+    },
+    {
+      "id": "rec-bonding-tiempo",
+      "fuente": "cc-bonding",
+      "texto": "Suele hacerse en una sola visita y lleva entre 30 y 60 minutos por diente."
+    },
+    {
+      "id": "rec-bonding-duracion",
+      "fuente": "cc-bonding",
+      "texto": "Dura de 3 a 10 años antes de necesitar retoques o reemplazo, según los hábitos orales y el número de dientes tratados."
+    },
+    {
+      "id": "rec-bonding-cuidados",
+      "fuente": "cc-bonding",
+      "texto": "Cuidados: cepillado dos veces al día con cepillo suave y pasta con flúor, hilo dental diario, controles y limpiezas periódicas, no morderse las uñas ni masticar lapiceras, reducir café, té, vino tinto y cítricos, y dejar de fumar."
+    },
+    {
+      "id": "rec-bonding-limites",
+      "fuente": "cc-bonding",
+      "texto": "Se mancha más fácilmente que la porcelana, puede astillarse y dura menos que las carillas o coronas; sirve para cambios pequeños y, si hay caries, pueden hacer falta tratamientos previos."
+    },
+    {
+      "id": "rec-bonding-molestias",
+      "fuente": "cc-bonding",
+      "texto": "Puede haber sensibilidad temporal; no requiere tiempo de recuperación."
+    },
+    {
+      "id": "rec-emp-materiales",
+      "fuente": "cc-empastes",
+      "texto": "Los empastes reparan caries o daños leves; el composite o resina es del color del diente y se endurece con una lámpara de fotocurado; también existen amalgama, ionómero de vidrio, porcelana y oro."
+    },
+    {
+      "id": "rec-emp-duracion",
+      "fuente": "cc-empastes",
+      "texto": "Los empastes duran entre 10 y 20 años según el material."
+    },
+    {
+      "id": "rec-emp-indirectos",
+      "fuente": "cc-empastes",
+      "texto": "Los empastes directos se colocan en una cita; los indirectos (incrustaciones inlay y onlay) se hacen en laboratorio y suelen requerir dos citas; los onlays sirven cuando hay más daño que para un empaste pero no tanto como para una corona."
+    },
+    {
+      "id": "rec-emp-molestias",
+      "fuente": "cc-empastes",
+      "texto": "Tras un empaste puede haber sensibilidad y encías doloridas, normalmente por una o dos semanas; el dolor al morder se corrige ajustando el empaste; el dolor intenso y persistente con frío o calor puede indicar daño en el nervio y el dolor pulsátil fuerte, que la caries llegó a la pulpa."
+    },
+    {
+      "id": "rec-emp-conducto",
+      "fuente": "cc-empastes",
+      "texto": "Si la caries llega a la pulpa, hace falta un tratamiento de conducto."
+    },
+    {
+      "id": "rec-cor-cuando",
+      "fuente": "mh-coronas",
+      "texto": "Se indica una corona si queda poco diente para sostener un empaste grande, si un diente débil necesita protección contra fracturas, si está roto, descolorido o mal formado, o para sostener un puente o cubrir un implante."
+    },
+    {
+      "id": "cc-edad",
+      "fuente": "cc-implantes",
+      "texto": "Según Cleveland Clinic, los implantes se colocan en personas que ya terminaron de crecer (en general desde los 18 años) y no hay un límite máximo de edad; influye más el estado de salud general."
     }
   ]
 }

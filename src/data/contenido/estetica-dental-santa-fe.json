@@ -1,0 +1,123 @@
+{
+  "slug": "estetica-dental-santa-fe",
+  "conteo": {
+    "clave": "est[eé]tica dental|odontolog[ií]a est[eé]tica",
+    "min": 6,
+    "max": 11,
+    "ciudad": "Santa Fe",
+    "terminos": [
+      "clínica dental",
+      "dentista",
+      "centro odontológico"
+    ]
+  },
+  "fuentes": [
+    "cc-estetica",
+    "cc-carillas",
+    "mlp-coronas",
+    "mlp-maloclusion",
+    "ada-blanqueamiento",
+    "aao-adultos",
+    "cc-brackets"
+  ],
+  "intro": "La **estética dental** busca mejorar la apariencia de la sonrisa. En esta página, nuestra clínica dental en Santa Fe resume los tratamientos y explica cómo se elige el adecuado.",
+  "resumen": [
+    "La odontología estética es la rama que mejora la apariencia de la sonrisa, con más equilibrio y simetría.",
+    "Los procedimientos más comunes son el blanqueamiento, el bonding y las carillas.",
+    "Antes de un tratamiento estético se revisan los dientes y las encías, y los problemas serios se tratan primero.",
+    "Cuál conviene en cada caso lo decide el odontólogo en la consulta."
+  ],
+  "secciones": {
+    "¿Qué es la estética dental?": [
+      "La **odontología estética** es la rama de la odontología que busca mejorar la apariencia de la sonrisa, con más equilibrio y simetría en dientes y encías.",
+      "Según Cleveland Clinic, los procedimientos más comunes son el **blanqueamiento, el bonding y las carillas**. El bonding es una resina adherida al diente que cambia su forma y oculta grietas, líneas finas y manchas.",
+      "También incluye el contorneado del diente, que retira pequeñas cantidades de esmalte para cambiar su forma, y el contorneado de las encías, una cirugía que retira el exceso de tejido y reforma su línea. Ambos resultados son permanentes."
+    ],
+    "Primero la salud bucal: la revisión antes de un tratamiento estético": [
+      "Antes de un tratamiento estético, el odontólogo revisa **la salud de los dientes y las encías**, porque los problemas serios de salud bucal se tratan primero.",
+      "Por ejemplo, las carillas son una opción solo cuando no hay caries extensas ni enfermedad de las encías, y antes de un blanqueamiento profesional se hace un examen, a veces con radiografías. Por eso el primer paso es la consulta."
+    ],
+    "Tratamientos de estética dental en Santa Fe": [
+      "Estos son los tratamientos estéticos que se hacen en nuestra clínica dental. Cada uno tiene su propia página, con el detalle de cómo se hace y qué cuidados necesita.",
+      {
+        "h3": "¿Para qué sirve el blanqueamiento dental?"
+      },
+      "Aclara el tono de los dientes naturales. Más información sobre el [blanqueamiento dental](/blanqueamiento-dental-santa-fe/).",
+      {
+        "h3": "¿Qué son las carillas dentales?"
+      },
+      "Son láminas hechas a medida que cubren la cara visible del diente y disimulan astillas, grietas, espacios y cambios de color. Todo sobre las [carillas dentales](/carillas-dentales-santa-fe/).",
+      {
+        "h3": "¿Cuándo se hace una reconstrucción dental?"
+      },
+      "Cuando un diente está astillado, roto o gastado, se puede reconstruir para devolverle la forma. El detalle está en [reconstrucción dental](/reconstruccion-dental-santa-fe/).",
+      {
+        "h3": "¿Para qué sirven las prótesis y las coronas?"
+      },
+      "Una corona cubre el diente por encima de la encía para protegerlo cuando está débil o para mejorar su aspecto. Más en [prótesis y coronas](/protesis-dentales-santa-fe/).",
+      {
+        "h3": "¿La ortodoncia invisible mejora la sonrisa?"
+      },
+      "Corrige la posición de los dientes con alineadores transparentes que se pueden sacar, y así puede mejorar la apariencia de la sonrisa. Más sobre la [ortodoncia invisible](/ortodoncia-invisible-santa-fe/)."
+    ],
+    "¿Cómo se elige el tratamiento estético?": [
+      "Lo decide el **odontólogo en la consulta**, después de revisar los dientes y las encías y de conocer qué querés mejorar.",
+      "Como orientación general, el color se trabaja con blanqueamiento, la forma con resina o carillas y la posición de los dientes con ortodoncia.",
+      {
+        "h3": "¿Importa el orden de los tratamientos?"
+      },
+      "Puede importar: el blanqueamiento solo cambia el color de los dientes naturales, así que coronas y empastes del color del diente no se aclaran y pueden quedar diferencias de tono. Por eso conviene definir el orden con el dentista."
+    ],
+    "Cuidados para que el resultado dure": [
+      "El resultado se mantiene con **higiene bucal diaria** y visitas regulares al dentista general para revisiones y limpiezas, según Cleveland Clinic.",
+      {
+        "lista": [
+          "Cepillarte al menos dos veces por día y usar hilo dental todos los días.",
+          "Controlar el café y el tabaco, que oscurecen los dientes más rápido después de un blanqueamiento.",
+          "Ir a los controles que indique el odontólogo, porque el diente que queda debajo de una carilla o una corona puede tener caries."
+        ]
+      },
+      "También hace falta compromiso para mantener la sonrisa: algunos tratamientos, como las carillas de porcelana, pueden requerir reemplazo con los años."
+    ],
+    "Precio de los tratamientos estéticos en Santa Fe": [
+      "El precio se informa **después de la consulta**, porque depende del tratamiento que indique el odontólogo.",
+      "La cobertura de obra social o prepaga depende del plan; conviene consultarla al pedir turno. Las formas de pago se consultan al pedir turno."
+    ],
+    "Nuestro centro odontológico en Santa Fe": [
+      "Si buscás una [clínica dental estética en Santa Fe](/), en 9 de Julio 3288 nuestra clínica trabaja la odontología estética y el Od. Ignacio Vera evalúa cada caso en la consulta.",
+      "¿Necesitás visitar nuestro centro? El turno se pide por WhatsApp, de lunes a viernes de 8 a 20 h."
+    ]
+  },
+  "faq_titulo": "Preguntas frecuentes sobre estética dental",
+  "faq": [
+    {
+      "q": "¿Qué tratamientos incluye la odontología estética?",
+      "a": "Los más comunes son el **blanqueamiento, el bonding y las carillas**, según Cleveland Clinic. En nuestra clínica se hacen blanqueamiento, carillas, reconstrucción dental, prótesis y coronas y ortodoncia invisible."
+    },
+    {
+      "q": "¿Cuánto dura un blanqueamiento dental?",
+      "a": "Según Cleveland Clinic, el resultado del blanqueamiento profesional dura **de seis meses a tres años**, según el procedimiento y los cuidados. No es permanente: los dientes vuelven a oscurecerse de a poco."
+    },
+    {
+      "q": "¿Las carillas de porcelana son para siempre?",
+      "a": "No. En promedio duran de **10 a 15 años** con buenos cuidados y pueden requerir reemplazo. Además la mayoría es permanente, porque para colocarlas se quita algo de esmalte."
+    },
+    {
+      "q": "¿El bonding es lo mismo que una carilla?",
+      "a": "No. El bonding es resina adherida directamente al diente, cambia su forma y cubre grietas; dura de 3 a 10 años. La carilla es una lámina hecha a medida que cubre la cara visible del diente."
+    },
+    {
+      "q": "¿Se puede hacer un tratamiento estético si tengo caries o problemas de encías?",
+      "a": "Primero se tratan esos problemas: los problemas serios de salud bucal se atienden antes de cualquier tratamiento estético. Cómo seguir lo decide el odontólogo en la consulta."
+    },
+    {
+      "q": "¿Cuánto tarda la recuperación después de un tratamiento estético?",
+      "a": "Depende del procedimiento y de cuántos dientes se traten. Con bonding en un solo diente se pueden retomar las actividades enseguida; el contorneado de encías puede requerir unos días de descanso, según Cleveland Clinic."
+    }
+  ],
+  "fotos": {
+    "¿Qué es la estética dental?": "estetica",
+    "Tratamientos de estética dental en Santa Fe": "blanqueamiento",
+    "Nuestro centro odontológico en Santa Fe": "estetica-cuidados"
+  }
+}

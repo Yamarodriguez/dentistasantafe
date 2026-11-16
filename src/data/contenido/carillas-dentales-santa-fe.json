@@ -11,13 +11,6 @@
       "centro odontológico"
     ]
   },
-  "intro": "Las **carillas dentales** son láminas hechas a medida que se pegan sobre la cara visible (frontal) de los dientes para mejorar su aspecto. En esta página, nuestro **centro odontológico en Santa Fe** explica para qué sirven, cómo se colocan y qué cuidados necesitan.",
-  "resumen": [
-    "Las carillas son láminas a medida, de porcelana o de composite, que cubren la cara visible del diente.",
-    "Disimulan astillas, grietas, espacios, cambios de color y dientes pequeños o con forma irregular.",
-    "La mayoría son permanentes, porque para colocarlas se quita algo de esmalte.",
-    "Con buenos cuidados duran en promedio de 10 a 15 años."
-  ],
   "fuentes": [
     "cc-carillas",
     "cc-estetica",
@@ -25,12 +18,17 @@
     "mlp-coronas",
     "ada-blanqueamiento"
   ],
-  "autor": null,
-  "revisado": null,
+  "intro": "Las **carillas dentales** son láminas hechas a medida que se pegan sobre la cara visible de los dientes para mejorar su aspecto. En esta página, nuestro **centro odontológico en Santa Fe** resume los tipos, la colocación y los cuidados.",
+  "resumen": [
+    "Las carillas son láminas a medida, de porcelana o de composite, que cubren la cara visible del diente.",
+    "Disimulan astillas, grietas, espacios, cambios de color y dientes pequeños o irregulares.",
+    "La mayoría son permanentes, porque para colocarlas se quita algo de esmalte.",
+    "Según Cleveland Clinic, duran en promedio de 10 a 15 años con buenos cuidados; las de porcelana, de 5 a 15 según el caso."
+  ],
   "secciones": {
     "¿Qué son las carillas dentales?": [
-      "Son láminas hechas a medida que cubren la **cara visible de los dientes**. Se fabrican con materiales del color del diente, como el composite (una resina) o la porcelana.",
-      "Son un tratamiento estético: mejoran el aspecto, pero no necesariamente refuerzan ni reparan el diente. Cuando el diente está débil o muy dañado, la opción puede ser [una corona](/protesis-dentales-santa-fe/), que lo cubre entero y lo protege.",
+      "Son láminas hechas a medida que cubren la **cara visible de los dientes**. Se fabrican con materiales del color del diente, como la porcelana o el composite (una resina).",
+      "Son un tratamiento estético: mejoran el aspecto, pero no necesariamente refuerzan ni reparan el diente. Cuando el diente está muy dañado, la opción puede ser [una corona](/protesis-dentales-santa-fe/), que lo cubre entero y lo protege.",
       "La mayoría de las carillas son permanentes: no se pueden revertir, porque para colocarlas se quita una parte del esmalte."
     ],
     "¿Para qué sirven las carillas?": [
@@ -43,31 +41,50 @@
           "Dientes pequeños o con forma irregular."
         ]
       },
-      "Si las manchas son superficiales o causadas por la dieta, puede alcanzar con una [limpieza profesional](/limpieza-dental-santa-fe/) o con un blanqueamiento; las más profundas pueden necesitar empastes, carillas o coronas.",
       {
         "h3": "¿Quién puede ponerse carillas?"
       },
-      "Las carillas son una opción cuando no hay **caries extensas ni enfermedad de las encías**. Si las hay, primero se tratan, por ejemplo con un [tratamiento de encías](/periodoncia-santa-fe/)."
+      "Las carillas son una opción cuando no hay **caries extensas ni enfermedad de las encías**. Si las hay, primero se tratan."
     ],
-    "Carillas de porcelana o de composite": [
-      "Las carillas se hacen de **porcelana o de composite**, una resina del color del diente; cuál conviene en cada caso lo decide el odontólogo.",
+    "Tipos de carillas: porcelana y resina (composite)": [
+      "Hay dos grandes tipos de carillas según el material: porcelana y composite (resina). Cuál conviene en cada caso lo decide el dentista.",
       {
-        "h3": "¿Qué diferencia hay entre la porcelana y el composite?"
+        "h3": "¿Cómo son las carillas de porcelana?"
       },
-      "Las de porcelana se fabrican a medida en un laboratorio, lo que puede llevar unas semanas, y para colocarlas hay que quitar algo de esmalte. Mientras tanto se pueden usar carillas provisorias.",
+      "Se fabrican a medida en un laboratorio, lo que puede llevar unas semanas, y para colocarlas hay que quitar algo de esmalte. Mientras tanto se pueden usar carillas provisorias.",
+      {
+        "h3": "¿Y las carillas de resina o composite?"
+      },
+      "El composite es el mismo material que se usa en la resina adherida al diente (en inglés, bonding). Según Cleveland Clinic, las carillas de composite sirven para problemas leves y no requieren impresiones dentales.",
       "También existen carillas sin preparación o con preparación mínima, que quitan menos esmalte, aunque algo siempre se quita; algunas de ellas sí se pueden revertir.",
-      {
-        "h3": "¿Hay otra opción además de las carillas?"
-      },
-      "Otra opción estética es la resina adherida directamente al diente (en inglés, bonding), que puede cambiar su forma y cubrir grietas o cambios de color. Según Cleveland Clinic, su resultado dura unos 5 a 8 años.",
       "[confirmar: qué tipos de carillas se hacen en la clínica (porcelana, composite o las dos) y con qué materiales]"
     ],
+    "Carillas de resina o de porcelana: diferencias": [
+      "Estas son las diferencias que señalan las fuentes entre las carillas de porcelana y las de composite:",
+      {
+        "tabla": {
+          "cab": [
+            "",
+            "Porcelana",
+            "Composite (resina)"
+          ],
+          "filas": [
+            [
+              "Cómo se hacen",
+              "A medida en laboratorio, con impresiones; puede llevar unas semanas",
+              "No requiere impresiones dentales"
+            ]
+          ]
+        }
+      },
+      "Cuál conviene en cada caso lo decide el dentista después de revisar los dientes."
+    ],
     "Cómo se colocan las carillas dentales, paso a paso": [
-      "Las carillas suelen colocarse en **dos visitas** al consultorio, con un tiempo de laboratorio en el medio cuando son de porcelana.",
+      "Las carillas suelen colocarse en dos visitas al consultorio, con un tiempo de laboratorio en el medio cuando son de porcelana.",
       {
         "pasos": [
           "Consulta: el dentista revisa los dientes y las encías y te explica qué opción corresponde a tu caso.",
-          "Preparación: en la mayoría de los casos se quita algo de esmalte y se toman impresiones de los dientes.",
+          "Preparación: en la mayoría de los casos se quita algo de esmalte y se toman impresiones de los dientes (las de composite no las requieren).",
           "Laboratorio: las carillas de porcelana se fabrican a medida, lo que puede llevar unas semanas; mientras tanto se pueden usar carillas provisorias.",
           "Colocación: en la segunda visita se prueba cómo quedan y se pegan de forma definitiva.",
           "Controles: seguir yendo al dentista, porque el diente que queda debajo de la carilla puede tener caries."
@@ -76,46 +93,64 @@
       "Antes de pegarlas, podés pedirle al dentista que ajuste la forma o el color.",
       "[confirmar: cuántas visitas y qué plazos lleva el tratamiento con carillas en la clínica]"
     ],
-    "Cuidados y duración de las carillas dentales": [
-      "Con buenos cuidados, las carillas duran **en promedio de 10 a 15 años**.",
+    "¿Cuánto duran las carillas y qué cuidados necesitan?": [
+      "Con buenos cuidados, las carillas duran **en promedio de 10 a 15 años**. Según Cleveland Clinic, las de porcelana duran de 5 a 15 años, según el caso.",
+      "Para la resina adherida directamente al diente (bonding), la misma fuente indica unos 5 a 8 años; no da una cifra propia para las carillas de composite.",
       {
         "h3": "¿Qué cuidados necesitan?"
       },
       {
         "lista": [
           "Cepillarse al menos dos veces al día con un cepillo suave y una pasta con flúor no abrasiva, y pasar hilo dental todos los días.",
-          "No usar productos blanqueadores, que pueden **rayar las carillas**.",
+          "No usar productos blanqueadores, que pueden rayar las carillas.",
           "No morder directamente alimentos duros ni usar los dientes como herramienta.",
           "Limitar el café, el té, el vino tinto y los frutos rojos."
         ]
       },
-      {
-        "h3": "¿Qué desventajas tienen?"
-      },
-      "Los dientes pueden quedar **más sensibles al frío y al calor**, se pierde algo de esmalte y una carilla se puede despegar. Si pasa algo de esto, conviene consultar al dentista."
+      "Entre las desventajas, los dientes pueden quedar más sensibles al frío y al calor, se pierde algo de esmalte y una carilla se puede despegar. Si pasa algo de esto, conviene consultar al dentista."
     ],
     "Precio de las carillas dentales en Santa Fe": [
-      "El precio de las carillas depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó cuántas hacen falta y de qué material.",
-      "Al ser un tratamiento estético, la cobertura de las carillas depende de cada obra social o prepaga y de tu plan; conviene consultarla antes del turno (lista orientativa en [obras sociales](/obras-sociales/)). [confirmar: si alguna obra social cubre las carillas en la clínica]",
-      "Las formas de pago se consultan al pedir turno. La evaluación empieza con la [primera consulta](/primera-consulta/) en nuestra clínica dental de 9 de Julio 3288."
+      "El precio depende de cada caso, por eso se informa después de la consulta, cuando el dentista ya evaluó cuántas carillas hacen falta y de qué material.",
+      "Al ser un tratamiento estético, la cobertura depende de cada obra social o prepaga y de tu plan; conviene consultarla antes del turno (lista orientativa en [obras sociales](/obras-sociales/)). [confirmar: si alguna obra social cubre las carillas en la clínica]",
+      "Las formas de pago se consultan al pedir turno."
+    ],
+    "¿Carillas, coronas o resina directa sobre el diente?": [
+      "Según el estado del diente, además de las carillas hay otras opciones estéticas que se evalúan en la consulta.",
+      {
+        "lista": [
+          "**Carilla:** cubre solo la cara visible y es estética.",
+          "**Corona:** cubre todo el diente y también lo protege cuando está débil.",
+          "**Resina adherida (bonding):** cambia la forma del diente y cubre grietas o cambios de color; dura unos 5 a 8 años."
+        ]
+      },
+      "Si el diente tiene una caries grande o una rotura, puede ser más adecuada una [reconstrucción dental](/reconstruccion-dental-santa-fe/). Todas las opciones estéticas están en [estética dental](/estetica-dental-santa-fe/)."
     ],
     "Nuestro centro odontológico en Santa Fe": [
       "Si estás buscando [dentistas en Santa Fe](/) para unas carillas, en nuestra clínica el Od. Ignacio Vera evalúa en la consulta el color y la forma de tus dientes.",
       "¿Necesitás visitar nuestra clínica dental? Está en 9 de Julio 3288 y el turno se pide por WhatsApp, de lunes a viernes de 8 a 20 h."
     ]
   },
+  "faq_titulo": "Preguntas frecuentes sobre carillas dentales",
   "faq": [
     {
       "q": "¿Las carillas arruinan los dientes?",
-      "a": "No arruinan el diente, pero para colocar la mayoría de las carillas se quita algo de esmalte, y por eso el cambio es permanente. Las carillas sin preparación o con preparación mínima quitan menos esmalte y algunas sí se pueden revertir. Debajo de la carilla el diente puede tener caries, así que hacen falta controles."
+      "a": "No dañan el diente por sí mismas, pero para colocar la mayoría de las carillas se quita algo de esmalte, y por eso el cambio es permanente. Las carillas sin preparación o con preparación mínima quitan menos esmalte y algunas sí se pueden revertir. Debajo de la carilla el diente puede tener caries, así que hacen falta controles."
     },
     {
       "q": "¿Cuánto duran las carillas de porcelana?",
-      "a": "Según Cleveland Clinic, las carillas de porcelana duran **de 5 a 15 años**, según el caso y los cuidados; lo más habitual es que duren entre 10 y 15 años."
+      "a": "Según Cleveland Clinic, las carillas de porcelana duran **de 5 a 15 años**, según el caso y los cuidados. Para las de composite no hay una cifra propia; como referencia, la resina adherida al diente dura unos 5 a 8 años."
+    },
+    {
+      "q": "¿Se pueden poner carillas sin desgastar los dientes?",
+      "a": "Existen carillas sin preparación o con preparación mínima, que quitan menos esmalte; aun así, algo de esmalte siempre se quita. **No son para todos**: lo decide el dentista según tus dientes."
     },
     {
       "q": "¿Se pueden blanquear las carillas?",
       "a": "No. El blanqueamiento solo aclara los dientes naturales: las restauraciones del color del diente no cambian de color. Además, los productos blanqueadores pueden rayar las carillas."
+    },
+    {
+      "q": "¿Las carillas cambian de color con el tiempo?",
+      "a": "Según Cleveland Clinic, las de porcelana resisten las manchas, aunque conviene limitar café, té, vino tinto y frutos rojos."
     },
     {
       "q": "¿Las carillas dan sensibilidad?",
@@ -126,10 +161,6 @@
       "a": "Sí, una carilla se puede despegar o salir de lugar. Si pasa, conviene consultar al dentista."
     },
     {
-      "q": "¿Carilla o corona: cuál conviene?",
-      "a": "Depende del diente. La carilla cubre solo la cara visible y es estética; la corona **cubre todo el diente** y sirve también para protegerlo cuando está débil. Lo decide el dentista."
-    },
-    {
       "q": "¿Dónde ponerse carillas dentales en Santa Fe?",
       "a": "En nuestra clínica dental de Santa Fe, en **9 de Julio 3288**: el dentista evalúa primero si las carillas son una opción en tu caso."
     },
@@ -138,9 +169,9 @@
       "a": "Depende de cada caso: el precio **se informa después de la consulta**, cuando el dentista ya evaluó cuántas hacen falta."
     }
   ],
-  "faq_titulo": "Preguntas frecuentes sobre carillas dentales",
   "fotos": {
     "¿Qué son las carillas dentales?": "estetica",
+    "Tipos de carillas: porcelana y resina (composite)": "estetica-cuidados",
     "Nuestro centro odontológico en Santa Fe": "opiniones"
   }
 }
