@@ -369,9 +369,13 @@
 .web .cabeza-abajo.con-arriba .texto-al-lado { align-self: end; }
 .web .cabeza-abajo.con-arriba .texto-al-lado > :last-child { margin-bottom: 0; }
 
-/* Marcas con las que trabajamos: como la referencia (todo centrado, logos en fila) */
+/* Marcas con las que trabajamos: como la referencia (todo centrado, logos en fila).
+   El título es un H3 con aspecto de H2 (nivel 3): se centra igual, con la línea dorada en medio. */
 .web .seccion.bloque-marcas { text-align: center; }
-.web .seccion.bloque-marcas h2::after { margin-inline: auto; }
+.web .seccion.bloque-marcas h2,
+.web .seccion.bloque-marcas .seccion-cuerpo > h3.h2-visual { max-width: 26ch; margin-inline: auto; }
+.web .seccion.bloque-marcas h2::after,
+.web .seccion.bloque-marcas h3.h2-visual::after { margin-inline: auto; }
 .web .seccion.bloque-marcas .seccion-cuerpo > p { max-width: 62ch; margin-inline: auto; }
 .web .marcas-fila { list-style: none; padding: 0; margin: 2.25rem 0 0; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.25rem 3rem; }
 .web .marcas-fila img { height: 64px; width: auto; max-width: 200px; object-fit: contain; }
@@ -379,7 +383,6 @@
   display: inline-block; padding: .9rem 1.6rem; border: 1px solid var(--borde); border-radius: 999px; background: #fff;
   font-family: var(--f-texto), system-ui, sans-serif; font-weight: 700; font-size: 1.15rem; letter-spacing: .02em; color: var(--texto);
 }
-.web .seccion.bloque-marcas h2 { max-width: none; margin-inline: auto; }
 .web .seccion.bloque-marcas .seccion-cuerpo > .marcas-fila { max-width: none; }
 
 /* Sección de solo texto con «foto-abajo» (1.ª de la portada): título a todo el ancho y,
